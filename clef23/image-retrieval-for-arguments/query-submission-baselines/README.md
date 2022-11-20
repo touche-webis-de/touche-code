@@ -36,9 +36,15 @@ python3 query-submission-baselines.py --inputDataset . --outputDataset runs/meme
 python3 query-submission-baselines.py --inputDataset . --outputDataset runs/stats --proExpansion "stats" --conExpansion "real statistics"
 python3 query-submission-baselines.py --inputDataset . --outputDataset runs/quote --proExpansion "quote" --conExpansion "bashing quote"
 python3 query-submission-baselines.py --inputDataset . --outputDataset runs/supporters --proExpansion "supporters" --conExpansion "protests"
-for run in $(ls runs);do
-  mv runs/$run/*.tsv runs/$run.tsv
-  rmdir runs/$run
-done
+
+cat runs/*/*.tsv \
+  | grep -v "^number" \
+  | awk -F '\t' '{
+      printf "%s\tPRO\t%s\n", $1, $3;
+      printf "%s\tCON\t%s\n", $1, $4
+    }' \
+  | sort -g \
+  > queries.tsv
+rm -rf runs
 ```
 
