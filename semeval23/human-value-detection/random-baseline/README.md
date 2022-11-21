@@ -12,7 +12,7 @@ head run.tsv
 TIRA
 ----
 ```
-python3 /random-baselines.py --inputDataset $inputDataset --outputDataset $outputDir
+python3 /random-baseline.py --inputDataset $inputDataset --outputDataset $outputDir
 ```
 
 
