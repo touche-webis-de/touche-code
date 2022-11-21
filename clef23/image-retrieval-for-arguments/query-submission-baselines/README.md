@@ -2,15 +2,25 @@ Query Submission Baselines
 ==========================
 Simple query expansion for "Image Retrieval for Arguments".
 
+Example usage:
 ```
+# get topics file
 wget https://touche.webis.de/clef23/touche23-data/topics-task3.xml -O topics.xml
-docker run --volume $PWD:/data registry.webis.de/code-research/tira/tira-user-minsc/touche-image-retrieval-for-arguments-query-submission-baselines:1.0.0 --inputDataset /data --outputDataset /data --proExpansion "good" --conExpansion "anti"
+# run baseline
+python3 query-submission-baselines.py --inputDataset . --outputDataset . --proExpansion "good" --conExpansion "anti"
+# show baseline run
 cat query-submission-form-task3.tsv
 ```
 
 
-TIRA
-----
+Development
+-----------
+```
+docker build -t registry.webis.de/code-research/tira/tira-user-minsc/touche-image-retrieval-for-arguments-query-submission-baselines:1.0.0 .
+docker push registry.webis.de/code-research/tira/tira-user-minsc/touche-image-retrieval-for-arguments-query-submission-baselines:1.0.0
+```
+
+In TIRA:
 ```
 python3 /query-submission-baselines.py --inputDataset $inputDataset --outputDataset $outputDir --proExpansion "good" --conExpansion "anti"
 ```
@@ -28,12 +38,4 @@ python3 /query-submission-baselines.py --inputDataset $inputDataset --outputData
 | aged-base            | "supporters"   | "protests"             |
 | complete-cardinality | "evidence"     | "fake"                 |
 | nullary-factory      | ""             | ""                     |
-
-
-Development
------------
-```
-docker build -t registry.webis.de/code-research/tira/tira-user-minsc/touche-image-retrieval-for-arguments-query-submission-baselines:1.0.0 .
-docker push registry.webis.de/code-research/tira/tira-user-minsc/touche-image-retrieval-for-arguments-query-submission-baselines:1.0.0
-```
 
