@@ -15,17 +15,19 @@ TIRA
 python3 /query-submission-baselines.py --inputDataset $inputDataset --outputDataset $outputDir --proExpansion "good" --conExpansion "anti"
 ```
 
-> juvenile-pigeon      "good" "anti"
-> national-sprite      "fact-checked" "debunked"
-> absolute-gulch       "proof" "truth"
-> stale-transfer       "illustration" "illustration against"
-> trite-application    "diagram" "real numbers"
-> sour-buck            "meme" "anti-meme"
-> synchronic-semaphore "stats" "real statistics"
-> complete-bar         "quote" "bashing quote"
-> aged-base            "supporters" "protests"
-> complete-cardinality "evidence" "fake"
-> nullary-factory      "" ""
+| TIRA name            | proExpansion   | conExpansion           |
+| -------------------- | -------------- | ---------------------- |
+| juvenile-pigeon      | "good"         | "anti"                 |
+| national-sprite      | "fact-checked" | "debunked"             |
+| absolute-gulch       | "proof"        | "truth"                |
+| stale-transfer       | "illustration" | "illustration against" |
+| trite-application    | "diagram"      | "real numbers"         |
+| sour-buck            | "meme"         | "anti-meme"            |
+| synchronic-semaphore | "stats"        | "real statistics"      |
+| complete-bar         | "quote"        | "bashing quote"        |
+| aged-base            | "supporters"   | "protests"             |
+| complete-cardinality | "evidence"     | "fake"                 |
+| nullary-factory      | ""             | ""                     |
 
 
 Development
