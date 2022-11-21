@@ -8,7 +8,7 @@ import os
 import re
 import xml.etree.ElementTree as ElementTree
 
-argparser = argparse.ArgumentParser(description="Baselines for the query submission sub-task of TOUCHE 2023 Task 3: Image Retrieval for Arguments")
+argparser = argparse.ArgumentParser(description="Validator for the query submission sub-task of TOUCHE 2023 Task 3: Image Retrieval for Arguments")
 argparser.add_argument(
         "-i", "--inputDataset", type=str, required=True,
         help="Directory that contains the input dataset, at least the 'topics.xml'")
