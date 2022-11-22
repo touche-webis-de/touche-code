@@ -1,0 +1,394 @@
+Upload Log in
+  Search
+ 
+Video
+Slideshow
+Play Video
+
+This is a modal window.
+
+The media could not be loaded, either because the server or network failed or because the format is not supported.
+ 
+ 
+99
+(formerly known as the Chinese Wall…) Today’s View
+
+Published byStephanie Cote
+Modified over 6 years ago
+
+2
+ Embed  Download presentation
+Presentation on theme: "(formerly known as the Chinese Wall…) Today’s View"— Presentation transcript:
+
+1 (formerly known as the Chinese Wall…) Today’s View
+
+Ethical Walls
+(formerly known as the Chinese Wall…)
+Today’s View
+
+
+
+2 The “Chinese Wall” – what is it?
+
+Public Domain Photo
+
+
+
+3 The Great Wall of China Longest “building” on earth
+
+Runs for several hundred miles east to west across northern China
+Built throughout a number of years
+Purpose was to protect the borders of China from invading people
+…but that’s probably not exactly what you’re looking for here!
+
+
+
+4 Objectives for the hour:
+
+Gain an understanding of what is meant by a “Chinese” or an “ethical wall.”
+Understand the historical purpose for these walls
+Understand how these walls might look today and the applicability of the concept in today’s environment.
+And, how to evaluate or assess controls in your company.
+
+
+
+5 A word about nomenclature…
+
+We have historically used the term “Chinese Wall” routinely to identify the information barriers that we will be discussing today.
+There is some evidence surfacing that people are beginning to take offense to the term, so…
+We will refer to it herein as an “ethical wall”.
+
+
+
+6 Understanding the Wall
+
+In order to fully understand the concept of an ethical wall, one must first understand exactly what we are attempting to “contain” within, or protect against, via adoption of a wall.
+Following the market crash of 1929, Congress enacted the Securities Act of 1933 and the Securities Exchange Act of 1934, both specifically aimed at preventing abuses that contributed to the crash.
+
+
+
+7 SEC action against insider trading
+
+Insider Trading is addressed by the SEC in the 34 Act:
+Directly under section 16(b) prohibiting directors, officers, and majority shareholders from profiting off of short term swings in market price within a six month period, and
+Indirectly under section 10(b) which prohibits securities fraud. To implement section 10(b), the SEC adopted Rule 10b-5.
+
+
+
+8 SEC Rule 10b-5 or 17 CFR b-5
+§ b-5 Employment of manipulative and deceptive devices. It shall be unlawful for any person, directly or indirectly, by the use of any means or instrumentality of interstate commerce, or of the mails or of any facility of any national securities exchange, (a) To employ any device, scheme, or artifice to defraud, (b) To make any untrue statement of a material fact or to omit to state a material fact necessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading, or (c) To engage in any act, practice, or course of business which operates or would operate as a fraud or deceit upon any person, in connection with the purchase or sale of any security.
+
+
+
+9 Does 10b-5 actually address insider trading?
+
+Rule 10b-5 generally prohibits fraud.
+It is the position of the SEC that making use of nonpublic, inside information to execute a securities transaction in the markets is in actuality a fraudulent act against all others who are holding or effecting trades in the subject security.
+Courts have consistently upheld this position.
+
+
+
+10 Definition of Insider Trading
+
+“Trading that takes place when those privileged with confidential information about important events use the special advantage of that knowledge to reap profits or avoid losses on the stock market, to the detriment of the source of the information and to the typical investors who buy or sell their stock without the advantage of ‘inside’ information.”
+(From comments by Melissa A. Robertson
+then, Associate Director, Division of Enforcement, SEC 1998)
+
+
+
+11 Other notes on enforcement:
+
+Nonpublic information may emanate from a company, company employees, or simply from knowledge about significant trading plans.
+Remember, it is the misuse and not simply the possession of inside or nonpublic information that is problematic (and illegal).
+The SEC is working aggressively in this area of illegal activity. They allocate a significant portion of their resources to insider trading abuses. Investigation of insider trading abuses will always net congressional and public support!
+
+
+
+12 SEC’s active enforcement
+
+Rajaratnam (Galleon Group LLC)
+Spencer Mindlin (Goldman Sachs)
+DeCinces (Retired Baseball Player)
+Donald L. Johnson (former Managing Director of NASDAQ)
+Expert Networks
+Deloitte Partner
+Kluger
+Anthony Chiasson (Level Global)
+
+
+
+13 Why have ethical walls?
+The SEC has always encouraged action by financial companies to prevent passing nonpublic information and/or to prevent the usage of such information when employees acquire nonpublic information in the course of their normal duties pursuant to employment with the firm.
+Suspected misuse can be overcome where there is evidence supporting the absence of misuse.
+Given the strong public opinion, reputation risk attached to trading abuses are significant.
+
+
+
+14 Possible arguments against maintaining ethical walls
+
+Ethical walls, in actuality, do not effectively restrict passage of information or restrict employee trading activities.
+Ethical walls are expensive to support and don’t provide strong evidence of effectiveness.
+Not technically required under statute or regulation.
+
+
+
+15 Applicability to functions within financial institutions today
+
+Two general areas where oversight and control are important:
+where employees encounter nonpublic information in conjunction with their duties, and
+where investment discretion is exercised and trades are executed in an environment because it is known that inside information may be encountered.
+
+
+
+16 Where should we find ethical walls?
+
+Start with the Code of Ethics – every financial institution should incorporate robust guidance and strict standards into the corporate Code of Ethics. This will:
+serve to educate employees, and
+make clear to employees (and “other inquirers”) the position of the company, and
+document ample warning for the necessary disposition of cases when abusive action is encountered.
+
+
+
+17 Where should we find ethical walls? -continued
+
+The Insider Trading prohibitions in the Code of Ethics should:
+Clearly define inside and nonpublic information,
+Prohibit communication and/or improper usage of nonpublic information,
+Explain the parallel between the provisions of the Code and federal law and regulation,
+Detail potential penalties for non-compliance.
+Ensure that all employees are provided education that will help them understand the nature of material nonpublic information, the limitations on usage, and the potential risk to the company and to the individual in the event such information is used inappropriately.
+
+
+
+18 Where should we find ethical walls? -continued
+
+Ethical walls should also be developed within departmental policy and procedure where nonpublic information might be encountered or improperly leveraged.
+Departmental policy limitations should be more closely aligned with the specific business activities.
+Consider personal trading restrictions and/or programs providing for review and pre-approval of personal trades, where appropriate.
+
+
+
+19 Reviewing ethical walls
+
+Evaluate all business activities to determine the probability of encountering nonpublic information. Any area where financial or other corporate information is requested from, or voluntarily provided by, publicly traded companies should be analyzed.
+Ensure that proper policies are in place to caution employees about the confidentiality of information that may be encountered and the related limitations under the Code of Ethics and the law.
+
+
+
+20 Reviewing ethical walls -continued
+
+Ensure that policies, procedures, and (to the extent practicable) physical controls prevent any unnecessary communication of confidential information to any party both inside or outside of the line of business.
+Identify support team members (IT, operational, legal, etc.) who may encounter confidential information pursuant to their job functions and ascertain that policy and internal control coverage is clearly applied to their activities.
+
+
+
+21 Reviewing ethical walls -continued
+
+Where employees routinely encounter nonpublic information as part of their job function, consider implementation of personal trading restrictions and/or corporate trading oversight programs.
+Identify any area of financial activity that involves making investment decisions and/or executing trades on behalf of the company or on behalf of any third party.
+
+
+
+22 Reviewing ethical walls -continued
+
+Ensure that policies and procedures provide clear guidance on understanding and identifying information that might be nonpublic and the prohibitions on using it in making investment decisions.
+Procedures should provide for actions to take when nonpublic information is inadvertently communicated or received. Self-disclosure to appropriate control officials, recusal, and potential trading suspensions may be included as components of these procedures
+
+
+
+23 Conclusion
+Ironically the Great Wall of China, though erected to keep enemies out, wasn’t very effective. The Mongols repeatedly crossed over or otherwise breached the Wall during the Ming Dynasty.
+Similarly, our namesake control structures are in reality more conceptual and may certainly be breached, particularly when the lure of money is involved.
+
+
+
+24 Conclusion
+While ethical walls can’t ensure total protection, they are still a good idea and highly recommended.
+Illegal insider trading is seen as a significant threat to our open market system and repulsive to our society. Law enforcement, regulators and our Court system are all vigorously searching out and penalizing those who violate that standard.
+Any perceived lack of controls or failure to attempt to prevent an occurrence of illegal insider trading might present immeasurable reputation risk exposure for your institution.
+
+
+
+Download ppt "(formerly known as the Chinese Wall…) Today’s View"
+Similar presentations
+ 
+
+Code of Ethics for Professional Accountants
+
+ 
+
+VIRTUAL BUSINESS RETAILING
+
+ 
+
+1 Practical Ethics: Following the MTA’s Code of Ethics in the Real World A Webinar Presentation March 13, 2007 – Charles Comer, CMT.
+
+ 
+
+Slides developed by Les Wiletzky Wiletzky and Associates Copyright © 2006 by Pearson Prentice-Hall. All rights reserved. PowerPoint Slides to Accompany.
+
+ 
+
+ACCOUNTING ETHICS Lect. Victor-Octavian Müller, Ph.D.
+
+ 
+
+Sarbanes-Oxley Act. 2 What Is It? Act passed by Congress in response to the recent and continuing corporate scandals. Signed into law July 30, Established.
+
+ 
+
+Congress and Contractor Personal Conflicts of Interest May 21, 2008 Jon Etherton Etherton and Associates, Inc.
+
+ 
+
+Use of Non-Public Information and Other Securities Law Issues.
+
+ 
+
+Financial Statements Fraud Pertemuan XXII Matakuliah: F0184/Audit atas Kecurangan Tahun: 2007.
+
+ 
+
+Stockholder Rights and Corporate Governance Stockholders Corporate Governance Executive Compensation: A Special Issue Shareholder Activism Government.
+
+ 
+
+1. 2 CVM’s OBJECTIVES u to stimulate the creation of savings and their investment in securities; u to promote the expansion and regular and efficient.
+
+ 
+
+Laws and Agencies that Provide Financial Safeguards Consumer Protection.
+
+ 
+
+Unit 1, Chapter 3. Ethics – are the rules that help us tell the difference between right and wrong and encourage us to do the right thing. Ethical Behaviour.
+
+ 
+
+Internal Auditing and Outsourcing
+
+ 
+
+© 2005 West Legal Studies in Business, a division of Thompson Learning. All Rights Reserved.1 PowerPoint Slides to Accompany The Legal, Ethical, and International.
+
+ 
+
+Fiduciary Standard Implications Regulatory Reform and Implications for the Municipal Bond Market Webinar Sponsored by the Regional Bond Dealers Association.
+
+ 
+
+© 2012-Robert G Parker May 24, 2012 Page: 1 © 2012-Robert G Parker May 24, 2012 Page: 1 © 2012-Robert G Parker May 24, 2012 Page: 1 © 2012-Robert G Parker.
+
+Similar presentations
+
+ 
+
+INVESTOR RELATIONS Chapter Fifteen Investor Relations (IR) Provides information to investors according to regulations governed by the United States.
+
+ 
+
+PROBLEMS OF TRADING STOCKS IN CHINA A concise introduction of violations in an emerging stock market.
+
+ 
+
+PARTNERSHIPS, CORPORATIONS AND THE VARIANTS PROF. BRUCE MCCANN SPRING SEMESTER LECTURE 8 TENDER OFFERS & INSIDER TRADING PP Business Organizations.
+
+ 
+
+Financing, Investor Protection And Online Securities Offerings Chapter 21.
+
+ 
+
+Copyright © 2008 by West Legal Studies in Business A Division of Thomson Learning Chapter 46 Securities Regulation Twomey Jennings Anderson’s Business.
+
+ 
+
+Insider Trading “Today’s Insider Trading Suspect May Wear a Lab Coat” -New York Times, August 9, 2005.
+
+ 
+
+Securities Fraud Material misrepresentation. Unfairness as fraud? Kirby Lumber Santa Fe Minority (Green) 95%5%
+
+ 
+
+Training Module 11 – Version 1.1 For Internal Use Only Communication Policy ® Corporate Communications, Disclosure and Insider Trading Policy 
+
+ 
+
+Prevention of Market Abuse in Germany | | Seite 1 The German Approach - Prevention of Market Abuse after Implementation of the European Market.
+
+ 
+
+Summary of the Investor Protection, Auditor Reform, and Transparency Act of 2002 (Sarbanes-Oxley Act)
+
+ 
+
+By: 1. Kenneth A. Kim John R. Nofsinger And 2. A. C. Fernando.
+
+ 
+
+Prentice Hall © PowerPoint Slides to accompany The Legal Environment of Business and Online Commerce 5E, by Henry R. Cheeseman Chapter 27 Investor.
+
+ 
+
+By: 1. Kenneth A. Kim John R. Nofsinger And 2. A. C. Fernando.
+
+ 
+
+Business Law and the Regulation of Business Chapter 40: Securities Regulation By Richard A. Mann & Barry S. Roberts.
+
+ 
+
+Ethics in Finance.
+
+ 
+
+McGraw-Hill/Irwin Copyright © 2011 by The McGraw-Hill Companies, Inc. All rights reserved. Chapter 22 Criminal Law and Procedure in Business.
+
+ 
+
+McGraw-Hill/Irwin Copyright © 2011 by The McGraw-Hill Companies, Inc. All rights reserved. Chapter 16 Regulation of Securities, Corporate Governance, and.
+
+ 
+
+2015 – Standards of Conduct & Prohibition of Energy Market Manipulation Compliance Review Marion Lucas, Alcoa Power Generating, Inc. APGI Chief Compliance.
+
+ 
+
+CHAPTER 36 SECURITIES REGULATION DAVIDSON, KNOWLES & FORSYTHE Business Law: Cases and Principles in the Legal Environment (8 th Ed.)
+
+ 
+
+Ethics of Accounting and Finance
+
+ 
+
+Comprehensive Volume, 18 th Edition Chapter 48: Securities Regulation.
+
+ 
+
+Post-Issuance Compliance for Bonds Alaska Government Finance Officers Association November 17, 2015 Marc Greenough, Joe Levesque,
+
+ 
+
+Copyright © 2010 Pearson Education, Inc. Publishing as Prentice Hall.17-1 Chapter 17 Investor Protection and E- Securities Transactions.
+
+ 
+
+Chapter 41 Corporations: Securities and Investor Protection McGraw-Hill/Irwin Copyright © 2012 by The McGraw-Hill Companies, Inc. All rights reserved.
+
+About project
+SlidePlayer
+Terms of Service
+Do Not Sell
+My Personal
+Information
+Feedback
+Privacy Policy
+Feedback
+
+© 2021 SlidePlayer.com Inc.
+All rights reserved.
+
+  Search
+To make this website work, we log user data and share it with processors. To use this website, you must agree to our Privacy Policy, including cookie policy. I agree.

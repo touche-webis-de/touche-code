@@ -1,0 +1,150 @@
+Free Demo
+Contact Us
+Support Center
+Sign In
+Blog
+PRODUCTS
+SOLUTIONS
+SUPPORT & SERVICES
+PARTNERS
+RESOURCES
+Check Point Blog
+A passport to freedom? Fake COVID-19 test results and vaccination certificates offered on Darknet and hacking forums
+
+Check Point Research highlights new trend of forged negative COVID-19 test results and fake vaccine certificates offered on the Darknet and various hacking forums for people seeking to board flights, cross borders, attend events or start new jobs.
+
+**Updated March 30th 2021
+
+On March 23rd, only one day after Check Point Research’s latest report about Fake COVID-19 test results and vaccination certificates offered on Darknet and hacking forums Check Point’s researchers learned that the market place they have been monitoring on the Darknet that offered those products and services is now down, due to a hack.
+
+According to a post on the market’s forum, published March 25, a hacker figured out a way to create fake orders which he immediately cancelled using their seller account, creating refunded funds out of thin air, which were immediately withdrawn by the hacker. Using this method, they were able to gain 13 Bitcoins (BTC), which is the equivalent of over 752K US.
+
+As a result, the marketplace is down completely since, and at this point of time is yet to be restored online.
+
+Market place admin announcing the hack from March 25th
+
+It is important to note that Check Point’s researchers have been monitoring this marketplace since November 2020 and this is the first time that any such downtime has occurred.
+
+Market downing did not stop sales of COVID-19 “Vaccines” and “Vaccine Certificates”
+
+The hacking and subsequent downtime of the market has not halted sales of COVID-19 “vaccines” and “vaccine certificates”.  Since the marketplace went down, a hacking forum was staged on the same web address offering a variety of advertisements, with COVID-19 vaccines and vaccination documents included, and all at great discounts for promotion purposes. Examples are attached below:
+
+First announcement by administrator that the Market is down March 23rd
+
+Sellers shifting to hacking forums to sell their merchandise
+
+Selling COVID-19 vaccination cards and negative test papers
+
+Check Point Research will continue to monitor this marketplace to see if it has been taken down permanently as a result of the hack, or if its previous activities will resume.
+
+Fake ‘vaccine passport’ certificates on sale for $250 – users simply send their details and the money, and the seller emails back the fake documents
+Fake negative COVID-19 test results on sale from various sellers from just $25
+Darknet advertisements for COVID-19 vaccines have increased by over 300% in past three months
+Multiple vaccine variants for sale: AstraZeneca, Sputnik, SINOPHARM and Johnson & Johnson, with prices ranging between $500 and $1000 per dose.
+
+While the global roll-out of COVID-19 vaccinations continues to accelerate, it’s worth remembering that only around 1% of the world’s population have received their full course of injections. Billions are still waiting for their first dose, which inevitably leads those people to question exactly when they will get it.  Especially as plans are being made internationally to allow those that have been vaccinated, or can prove they have had a recent negative test, the freedom to travel to other countries, attend large-scale events, take a new job, and more.
+
+So there’s a strong and growing demand for vaccinations and test results because of the greater freedoms they will give to people.  And of course, there will always be people who don’t want to wait for their official vaccination, or for an official negative test result – and shady people willing to service that demand.  Back in January, we reported how there were hundreds of advertisements on the dark net were advertising COVID-19 vaccines for sale from $500 – and now the number of adverts has more than tripled to over 1,200.  Further, vendors are also offering a range of fake vaccination certificates and negative test results to people who need proof of either.
+
+In this report we show the latest updates on the sharp increase in adverts for COVID-19 vaccines from the Darknet.  We also show several examples of how negative COVID-19 test results are being offered to buyers who are willing to pay for them, with examples of these custom-made documents that appear authentic and genuine.
+
+In addition, we show examples of vaccination ‘certificates’, being manufactured, created and printed to order, ready to be used to enable people to board planes, cross borders or for any relevant activity that requires a person to give proof that they have been vaccinated.
+
+Darknet adverts for COVID-19 vaccines spike
+
+As we previously reported, a range of counterfeit coronavirus vaccines are offered, often touted from just $500 per dose. In recent weeks our researchers have spotted an increasing amount of advertisements for vaccines within Darknet markets:  currently numbering over 1,200, with sellers based in the U.S. and European countries including Spain, Germany, France and Russia.  This represents over a 300% increase since January 2021. The vaccines advertised include Oxford – AstraZeneca (at $500), Johnson & Johnson ($600), the Russian Sputnik vaccine ($600) and the Chinese SINOPHARM vaccine.
+
+OXFORD-ASTRAZENNECA VACCINE FOR $50
+
+JOHNSON & JOHNSON VACCINE FOR $600
+
+SPUTNIK VACCINE
+
+SINOPHARM COVID19 VACCINE ADVERTISED FOR $500
+
+SELLERS FROM USA/SPAIN/FRANCE/GERMANY, CLAIMING TO SHIP WORLDWIDE
+
+The Holy Grail – Fake vaccination certificates advertised for sale
+
+As a mean to prepare society for restarting tourism, flights routine and border crossing, the European commission, the EU’s executive arm, has proposed a vaccination certificate to be used as the ultimate ‘door opener’ across countries and societies. The commission suggested that EU citizens should be allowed to use a “digital green certificate” to prove that they have been vaccinated against the virus; that they have received a negative Covid-19 test; or they have recovered after contracting the coronavirus.
+
+In other words, the vaccination certificate, for the foreseen future, will become the passport, bilaterally agreed between countries, which will give holders an entrance ticket to, and enable them to participate in many activities (e.g. live shows, cultural activities and entrance to public areas).
+
+It seems that various threat actors and hackers have quickly realized the potential market for fake documents, and have been quick to grab the monetization opportunity.
+
+“FOR THOSE WHO DO NOT WANT TO BE VACCINATED’
+
+In this ad, vaccination certificates are offered for the price of 10,000 RUB (approx. $135)
+
+A fake Russian vaccination certificate
+
+On a different ad on the Darknet marketplace, a seller, supposedly from the U.K., offers a vaccination card for $150, accepting crypto currencies as the payment method.
+
+A fake vaccination record from the “CDC- Centers for Disease control and prevention” – part of the U.S. Government’s Department of Health & Human Services.
+
+We have the vaccination certificate. How many do you need?
+
+Our researchers reached out to one of these Darknet sellers to understand the process, and get as many details as possible regarding delivery, price and authenticity. To our question regarding a signature of a physician on the certificate and indicators of its authenticity, the seller reassured us they have done this many times previously, for many people and had no issues with it.  All we needed to do was provide the exact names and dates we wanted on the certificate (of the vaccinations supposedly made), and pay $200.  “You don’t have to worry…It’s our job….We have done this to many people and it’s all good,” the vendor told us.
+
+CORRESPONDENCE WITH VACCINATION CERTIFICATE SELLER
+
+Crossing borders
+
+“Many people already passed”
+
+In this example, the user offers an official certificate from a clinic in Moscow for citizens of the CIS, which makes crossing the borders of Russia possible. The lucrative offer goes out for a “Service pack” which costs 8000 Rub (approx. $110).
+
+In reply, a prospective buyer queries whether this has already been used and were there any problems reported, to which the seller replies that “many people already passed (the borders) with it”.
+
+COVID-19 tests on sale! Buy 2 get 3rd free!
+
+A different hacking forum touted COVID-19 (negative) test results on sale with the following announcement: “We do negative covid tests, for travelers abroad, for getting a job etc. Everything is done within 24 hours, without big collaterals. The publishers promise “High quality” and the following sale opportunity: “Buy 2 negative tests and get the 3rd for free!”
+
+Negative coronavirus test – the DIY version
+
+In addition to the Darknet and hacking forums, we’ve also spotted different websites that offer the ability to quickly create of authentic-looking negative COVID test documents, created promptly according to data input by users, in a very friendly user interface, for just $25.
+
+Results are produces within 30 minutes and are sent discreetly to users’ email inbox.
+
+Though the website clearly states that the documents are not genuine test results, and goes on to highlight that the user must understand and agree that they will not use this website, any information contained within this website, or any fake negative COVID Test generated by this website to commit a crime, hurt, damage, injure, or otherwise maliciously mislead or deceive any other person or organization …. despite this, the results are very authentic and professionally made, and can potentially be used to fake negative test results.
+
+FAKE COVID TEST RESULTS AVAILABLE FROM A PRANK PUBLIC WEBSITE
+
+Tips for awareness and avoiding of fake documents use
+
+People should watch for authenticity indicators on documents such as misspellings, errors, low quality logos, and errors in terminology (e.g. ‘corona disease’ or ‘the covid epidemic’)
+Every country should internally manage a central repository of tests and vaccinated people, which can securely shared between relevant authorized bodies within the country.
+All data of tests and vaccination population should be digitally signed with encrypted keys
+Airports, border keepers and any official enforcement agent should have the ability to scan a QR or bar code (which is digitally signed – without this digital signature the code is highly exploitable!) on the certificate. The code should link to a secured repository that can validate the authenticity of the paper and whether the name on it did got the vaccine or was actually tested for COVID and got a (negative) result
+Going forward, countries should be able to share the digitally signed data to enable certificate holders to safety roam and cross borders. For example, Greece and Israel have already agreed to recognize each other’s vaccination certificates (also known as ‘green passports’).
+Conclusion
+
+As our societies struggle to return to pre-COVID norms, a negative COVID test result or a vaccination certificate is becoming the golden key that will unlock restrictions and enable people to move and mingle with greater freedom. And of course, this creates an opportunity for criminals and scammers to exploit those people who are willing to risk using fake documents to achieve that freedom.
+
+As COVID-19 is likely to play a major role in dictating what we as individuals can and cannot do in our daily lives for the foreseeable future, countries’ Governments should be aware of this fast-growing illegal and dangerous trend for fake vaccination certificates and “official” medical records being sold and produced to whoever wishes to pay for them. Check Point Researchers will continue to closely monitor troubling trends on the darker sides of the Internet.
+
+Learn how to protect against a cyber pandemic
+
+Related Articles
+Using Discord infrastructure for malicious intent
+Check Point Software makes cybersecurity training accessible to all through partnership with Cybrary – a global leader in cybersecurity professional development
+Key Takeaways from the 2021 Gartner® Market Guide for Mobile Threat Defense
+Check Point Software and Splunk Showcase Automated Threat Response at .conf21 Splunk
+Social Now Among Top Three Sectors to be Imitated in Phishing Attempts in Q3 2021
+Check Point Software Again Earns Leadership Spot in G2 NGFW Reviews
+Top 10 Considerations When Evaluating a Cloud Network Security Solution
+Check Point Software Prevents Theft of Crypto Wallets on OpenSea, the World’s Largest NFT Marketplace
+September 2021’s Most Wanted Malware: Trickbot Once Again Tops the List
+As battle against cybercrime continues during Cybersecurity Awareness Month, Check Point Research reports 40% increase in cyberattacks
+Follow Us    
+WELCOME TO THE FUTURE OF CYBER SECURITY
+©1994-2021 Check Point Software Technologies Ltd. All rights reserved.
+
+
+Copyright | Privacy Policy
+AddThis Sharing Sidebar
+Share to Facebook
+Share to Twitter
+Share to LinkedIn
+Share to Reddit
+Share to Email

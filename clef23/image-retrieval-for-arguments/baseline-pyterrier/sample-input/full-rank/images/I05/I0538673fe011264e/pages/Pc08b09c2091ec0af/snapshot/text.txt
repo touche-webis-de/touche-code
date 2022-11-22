@@ -1,0 +1,1740 @@
+We value your privacy
+
+We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
+
+With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click to consent to our and our partners’ processing as described above. Alternatively you may access more detailed information and change your preferences before consenting or to refuse consenting. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. Your preferences will apply to a group of websites. You can change your preferences at any time by returning to this site or visit our privacy policy.
+
+MORE OPTIONS
+AGREE
+ArticlePDF Available
+The Role of Social Media in Societal Change: Cases in Finland of Fifth Estate Activity on Facebook
+November 2015Social Media + Society 1(2)
+DOI:10.1177/2056305115612782
+Authors:
+Niina Sormanen
+University of Jyväskylä
+William H Dutton
+Michigan State University
+Download full-text PDF
+Read full-text
+Download citation
+Copy link
+Citations (19)
+References (46)
+Figures (6)
+Abstract and Figures
+The Internet can be used to reconfigure access to information and people in ways that can support networked individuals and enhance their relative communicative power vis-à-vis other individuals and institutions, such as by supporting collective action, sourcing of information, and whistle blowing. The societal and political significance of the Internet is a matter of academic debate, with some studies suggesting a powerful role in creating a “Fifth Estate,” and other studies challenging such claims. Research on this issue has not yet comprehensively focused on social network sites and those operating in a very liberal-democratic context. Based on an embedded case study of Facebook use in Finland, this study focuses on the uses of social media in building communicative power, such as in capacity to foster social movements in ways that conform to conceptions of the Internet’s Fifth Estate. The case study combines qualitative and quantitative methods to examine a sample of 2,300 Facebook pages and their online and offline activities and impact qualities. The results located 27 pages that reached a threshold we established for identifying online social movements with the potential for enhancing their communicative power, with a small minority of four cases appearing to have actualized communicative power. These findings not only reinforce the potential of Fifth Estate activity on social media but also underline the challenges of societal change in this predominantly entertainment-oriented social context. In addition, the study showcases the intertwined process of online and offline attributes affecting societal influence of online social movements.
+Facebook pages' memberships related to societal influence evaluated in a range of 1 (low) to 5 (high).
+… 
+. The 27 Finnish Facebook Pages Judged to Have the Potential to Enhance Online Communicative Power.
+… 
+Facebook pages' media visibility and correlating societal influence evaluated in a range of 1 (low) to 5 (high).
+… 
+Facebook pages' online activity and correlating societal influence analyzed with separate administrator and member activity evaluated in a range of 1 (low) to 5 (high).
+… 
++1
+Facebook pages' offline activity points and correlating societal influence analyzed with separate administrator and member activity evaluated in a range of 1 (low) to 5 (high).
+… 
+Figures - available via license: Creative Commons Attribution-NonCommercial 3.0 Unported
+Content may be subject to copyright.
+
+Discover the world's research
+
+20+ million members
+135+ million publications
+700k+ research projects
+Join for free
+Public Full-text 1
+Available via license: CC BY-NC 3.0
+Content may be subject to copyright.
+Social Media + Society
+July-December 2015: 1 –16
+© The Author(s) 2015
+DOI: 10.1177/2056305115612782
+sms.sagepub.com
+Creative Commons CC-BY-NC:  This article is distributed under the terms of the Creative Commons Attribution-NonCommercial 3.0 License  
+(http://www.creativecommons.org/licenses/by-nc/3.0/) which permits non-commercial use, reproduction and distribution of the work without 
+further permission provided the original work is attributed as specified on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+Article
+Introduction
+The use of social media, or social network sites (SNS), has 
+increased exponentially since 2004 when Facebook was 
+launched, followed by many other SNS, such as Twitter in 
+2006. Given the worldwide diversity of SNS, it is difficult to 
+generalize about their role, but they are primarily focused on 
+supporting the networking of social interaction, such as in 
+connecting friends. Nevertheless, the use of social media for 
+societal change and political activities is potentially critical 
+because these networks are formed around important social 
+communities and relationships that could be turned to societal 
+influence.
+Despite famous examples of the use of social media such 
+as in the Arab Spring (Rane & Salem, 2012), not much SNS 
+research is focused on an overall societal picture of commu-
+nicative power formation, including “networked individuals” 
+(individuals as independent actors interacting via Information 
+Communication Technologies [ICTs] with numerous diverse 
+others via multiple Internet arenas simultaneously; see,  
+for example, Rainie & Wellman, 2012), challenging both 
+governance institutions and corporations, and the media 
+impact in all this. SNS research has been more focused on 
+specific political activities and networked individuals’ 
+intended activities, such as building on friendship ties 
+(Ellison & boyd, 2014). Studies of the political uses of SNS 
+have focused on a general worldwide scale or on non- 
+democratic, newly democratic, or relatively authoritarian 
+national contexts (e.g., Bakardjieva, 2011; Bennett & 
+612782SMS
+XXX10.1177/2056305115612782Social Media + SocietySormanen and Dutton
+research-article2015
+1
+University of Jyväskylä, Finland
+2
+Michigan State University, USA
+Corresponding Author:
+Niina Sormanen, Department of Communication, University of Jyväskylä, 
+P.O. Box 35, FI-40014 Jyväskylä, Finland.
+Email: niina.niskala@jyu.fi
+The Role of Social Media in Societal 
+Change: Cases in Finland of Fifth Estate 
+Activity on Facebook
+Niina Sormanen
+1
+ and William H. Dutton
+2
+Abstract
+The Internet can be used to reconfigure access to information and people in ways that can support networked individuals 
+and enhance their relative communicative power vis-à-vis other individuals and institutions, such as by supporting collective 
+action, sourcing of information, and whistle blowing. The societal and political significance of the Internet is a matter of 
+academic debate, with some studies suggesting a powerful role in creating a “Fifth Estate,” and other studies challenging such 
+claims. Research on this issue has not yet comprehensively focused on social network sites and those operating in a very 
+liberal-democratic context. Based on an embedded case study of Facebook use in Finland, this study focuses on the uses 
+of social media in building communicative power, such as in capacity to foster social movements in ways that conform to 
+conceptions of the Internet’s Fifth Estate. The case study combines qualitative and quantitative methods to examine a sample 
+of 2,300 Facebook pages and their online and offline activities and impact qualities. The results located 27 pages that reached 
+a threshold we established for identifying online social movements with the potential for enhancing their communicative 
+power, with a small minority of four cases appearing to have actualized communicative power. These findings not only 
+reinforce the potential of Fifth Estate activity on social media but also underline the challenges of societal change in this 
+predominantly entertainment-oriented social context. In addition, the study showcases the intertwined process of online and 
+offline attributes affecting societal influence of online social movements.
+Keywords
+social media, communicative power, Fifth Estate, social movement, Facebook
+2  Social Media + Society
+Segerberg, 2012; Castells, 2012; Curran, Fenton, & Freedman, 
+2012; Lim, 2012).
+This study explores the degree that SNS have been used 
+for societal influence in the broadly liberal-democratic  
+context of Finland, where national political–administrative 
+traditions would be open to citizen initiatives and collective 
+action. We ask whether SNS are used in ways that can enhance 
+the relative “communicative power” of their users relative to 
+other individuals and institutions (Castells, 2007; Dutton, 
+1999; Habermas, 1996). Although the role of SNS in political 
+initiatives and collective actions is a matter of considerable 
+debate in Internet studies, various research has concluded 
+that the Internet as well as SNS can play an important role  
+in social movements and collective action (e.g., Bennett & 
+Segerberg, 2012; Castells, 2007, 2012), civic political engage-
+ment and participation (e.g., Feezell, Conroy, & Guerrero, 
+2009), and civic corporate monitoring and challenging (e.g., 
+Champoux, Durgee, & McGlynn, 2012).
+Habermas (1962/1989, 1996) introduced the public  
+sphere as an (offline) arena where individual people joined  
+to critically debate and unite against illegitimate use of 
+ power and state domination and theorized how this discourse 
+creates communicative power. Flynn (2004) further explains 
+that Habermas’ communicative power is “the key normative 
+resource for countering the norm-free steering media of money 
+and administrative power” (p. 434). Whether or not one adopts 
+notions of a public sphere, the potential for the media and the 
+Internet, in particular, to be used in ways that enhance the 
+“communicative power” of networked individuals has been 
+developed by a number of scholars (Dutton, 1999; Garnham, 
+1983), such as by enabling the rise of a Fifth Estate that could 
+hold institutions more accountable in ways analogous to the 
+press in an earlier era (Dutton, 2009; Hidri, 2012). However, 
+questions have been raised about whether communicative 
+power online can translate into meaningful societal or political 
+change as opposed to a form of “clictivism”—simply generat-
+ing online activity.
+The potential communicative power of individuals  
+networked through social media is the focus of this study. 
+Specifically, on Facebook, are the individuals networked 
+around liking particular “pages” which are seen in this study 
+as prime paradigms of “online social movements”, that is, 
+collectivities of individuals using Internet and social media 
+to organize and achieve societal change (Castells, 2007; 
+Snow, Soule, & Kriesi, 2004), which operate today in both 
+online and offline arenas (Castells, 2012), and may be capable 
+of translating their communicative power into a Fifth Estate. 
+Collective action is one of a number of strategies of the 
+Internet’s “Fifth Estate” (Dutton, 2009; Newman, Dutton, & 
+Blank, 2012), but this is a central aspect of online political 
+and societal change that merits study in a particular online 
+context. The Fifth Estate develops from individuals, enabled 
+by ICT networking and sourcing information that is indepen-
+dent of authorities, to increase their communicative power  
+to bypass and hold powerful institutions of society (media, 
+corporations, and state) accountable. We use the term  
+“actualized communicative power” (ACP) in this study to 
+denote the achievement of societal influence or change,  
+conforming to the potential attributed to the Fifth Estate.
+The key objective of this study is to identify as a specific 
+case of SNS, online social movements on Facebook that 
+exhibit a potential for enhancing the relative communicative 
+power of their users vis-à-vis institutions, or others that are 
+the target of their activities. This is executed by searching all 
+Facebook pages within a well-defined population to detect 
+those fitting a set of five selection criteria that are anchored 
+in theories of communicative action (further detailed in  
+section ‘Data and Methods’).
+The study’s related objective is to detect those movements 
+we have identified that make a difference and achieve ACP. 
+We determine this through qualitative case studies of each of 
+the pages identified as potentially relevant to Fifth Estate 
+activities. In doing so, we also explore possible attributes of 
+online and offline activities and impacts that appeared to 
+explain why some pages were successful in actualizing their 
+communicative power.
+Given that there is neither accepted scale nor set of attri-
+butes for determining the political or societal effectiveness of 
+online movements’ actions, the article also seeks to move 
+closer to a definition of the attributes and possible scales that 
+could be used to compare the relative effectiveness of online 
+social movements in translating communicative power into 
+societal change.
+Finland was viewed as an important setting for this case 
+study since the nation is at the high-end in its use of Facebook 
+(95% of all Finnish SNS users following Facebook; Statistics 
+Finland, 2014a) and also has a global reputation for its liberal-
+democratic political–administrative traditions. Facebook 
+was chosen as the object of study not only because it is the 
+most popular SNS in Finland, but it also offers the facility for 
+individuals to create pages to network while also providing 
+open access for researchers. The database of Fanilista.fi that 
+lists more than 2,300 of the most popular Finnish Facebook 
+pages was the source of the sample population.
+The study sought to examine three specific research ques-
+tions (RQs) in its main objective of examining the extent of 
+SNS in building the communicative power of online social 
+movements, the process of their online and offline activities, 
+and their influence on the achievement of societal change. 
+The RQs were as follows:
+1.  How many Facebook pages from this population fit 
+the set criteria of online social movements with 
+potential for creating greater communicative power?
+2.  Are there examples of pages creating movements 
+with this potential demonstrating actual societal 
+change in ways that conform to conceptualizations 
+of a Fifth Estate?
+3.  How do relevant online (online activity and gained 
+membership size) and offline (offline activity and 
+Sormanen and Dutton  3
+gained media visibility) page attributes influence the 
+effectiveness of online social movements in trans-
+lating communicative power into societal change?
+Communicative Power Online
+There are a number of distinct but often complementary  
+perspectives on the emergence of communicative power in 
+the online world, including the ways in which the Internet 
+enables individuals to search independently, and otherwise 
+source, distribute, or leak information; network with others; 
+and become sources of collective intelligence (Dutton, 
+2012). The Internet’s role in supporting social or political 
+movements can be seen as one important form of communi-
+cative power. Social movements have been defined by Snow 
+et al. (2004) as
+collectivities acting with some degree of organization and 
+continuity outside of institutional or organizational channels for 
+the purpose of challenging or defending extant authority, whether 
+it is institutionally or culturally based, in the group, organization, 
+society, culture, or world order of which they are a part. (p. 11)
+More generally, Castells (2007) has defined social move-
+ments as “collective actions aimed at changing the values 
+and interests institutionalized in society, what is tantamount 
+to modify the power relations” (p. 249).
+Social movements have been tied to the Internet as a space 
+for launching or reinforcing their activities and interactions, 
+and the Internet has been found in many cases to be useful to 
+achieve their objectives (e.g., Zimbra, Abbasi, & Chen, 2010). 
+Castells (2007, 2012) especially emphasizes the potential 
+influence of people coming together in digital social networks 
+and forming against government and corporations which  
+formerly controlled channels of communication. These net-
+worked social movements born in the digital age have power 
+because they are autonomous, free from institutional control, 
+and operate in different venues, such as online as well as 
+offline social networks and public space. To some scholars, 
+such as Snow et al. (2004, pp. 4-5), “social movements and 
+the activities they sponsor” have become one kind of “a Fifth 
+Estate” activity, as we posit in this article.
+Dutton (2009, 2012) and also Newman et al. (2012) argue 
+that networked individuals are enabled by ICTs to develop 
+relatively more communicative power by sourcing and dis-
+seminating information independently from authorities or 
+institutions. Collective action is one of many ways in which 
+their sourcing and collaboration might be used to exercise 
+this communicative power, but remains one important 
+approach. By linking up with each other online, networked 
+individuals can enhance their communicative power relative 
+to other estates (such as government, corporate, and media) 
+and hold them more accountable, thereby challenging insti-
+tutional authorities and power holders, and effecting change 
+in policy or practice.
+The written press, first described as the “Fourth Estate” 
+by Edmund Burke in 1787, and later defined (Carlyle, 1846; 
+De Tocqueville, 1835), has been a strong institution and 
+societal controller/monitor in many liberal-democratic soci-
+eties since the 19th century. The Fifth Estate reflects an 
+additional source of pluralist accountability that might also 
+shift the relative power of other estates in particular circum-
+stances. Through giving voice and independent sources of 
+information to the users, that is, individuals as producers 
+and users of digital information, SNS tools can contribute to 
+leveling societal roles and increasing citizen involvement in 
+democratic processes (Bruns, 2007). For example, bloggers 
+as a manifestation of the Fifth Estate have been seen as 
+“watchers of the watchdog” in their power to monitor and 
+hold mainstream media accountable (Cooper, 2006). Hidri 
+(2012) further explains that the Fifth Estate is not against an 
+extension of, or the end of the Fourth Estate, but merely a 
+“new approach to building social reality outside of the  
+dominant molds of media and regulations applied in the 
+communication industry and production of meaning” (p. 19).
+SNS and Communicative Power
+Prime paradigms of SNS, such as Facebook, Twitter, and 
+Myspace, are classified as venues that can support more 
+democratic participation and expression, creating a place for 
+people to communicate and network with people with simi-
+lar concerns and interests (Lai & Turban, 2008). Papacharissi 
+(2013) argues that by SNS a “networked self” can be actual-
+ized, saying,
+The flexibility of online digital technologies permits interaction 
+and relations among individuals within the same networks or 
+across networks, a variety of exchanges and ties, variable 
+frequency of contact and intimacy, affiliation with smaller or 
+larger, and global and local networks formed around variable 
+common matter. (p. 208)
+One of the most studied aspects of SNS has been online 
+political discussion and citizen engagement. Research has 
+shown that SNS group usage can have positive effects on 
+political participation (e.g., Bode, Vraga, Borah, & Shah, 
+2013; De Zúñiga, Jung, & Valenzuela, 2012). More precisely, 
+Kushin and Kitchener (2009) found that Facebook, due to its 
+unique features, increases the possibilities of political discus-
+sion and bringing together people with different perspectives. 
+Feezell et al. (2009) found that membership of political 
+Facebook groups increases offline political participation.
+Beyond the political sphere, narrowly defined, the Internet 
+has also enabled networked individuals to challenge or mon-
+itor businesses, corporations, and media companies: “Today, 
+corporate wrongdoings, public gaffes, and unsatisfactory 
+service that originate offline migrate into the social media 
+sphere within minutes in the form of angry posts, wall-based 
+conversations, and activist-orchestrated attacks” (Champoux 
+4  Social Media + Society
+et al., 2012, p. 22). Facebook, more than other SNS, has been 
+seen as a venue for angry consumer groups targeting com-
+panies. These outbursts are also often quickly picked up by 
+mainstream media (Champoux et al., 2012).
+At the same time, critics of this view have argued that 
+political participation on the Internet most often amounts to 
+little more than “slactivism” (Morozov, 2009). This term 
+describes a feel-good type of activism online which is easy to 
+do and which is a product of the click-based culture of SNS. 
+Furthermore, SNS have been viewed as an inefficient venue 
+of political mobilization because they are oriented to such 
+low levels of commitment, which leads to protests instead of 
+long-term political projects, and are not only perceived as 
+self-referential and motivated by users’ personal fulfillment 
+but also as lacking sufficient coordination and organization 
+to produce concrete results (Curran et al., 2012).
+The Finnish Context and Facebook
+Finland is a Nordic welfare state with a population of just 
+over 5.4 million. In comparison to 150 other countries, the 
+World Audit (2014) ranks Finland as the third highest with 
+respect to democracy, press freedom, and lack of corruption. 
+Also, the Finnish culture is considered to be a consensus-
+driven political culture, oriented to discussion and problem 
+solving (Reunanen, Kunelius, & Noppari, 2010), and it has 
+not traditionally been a foundation or arena for radical chal-
+lenges against governmental or business organizations. In 
+comparison to totalitarian countries where oppositional 
+views and political movements are restricted or denied, 
+Finland possesses numerous free venues of expression and 
+networking for political action. Consequently, social media 
+in political action is seen as having less significance 
+(Nordenstreng & Wiio, 2012).
+Finns, across both genders, are comparatively active 
+Internet users. Official statistics (Statistics Finland, 2014b) 
+for 2014 show that for the adult (aged 16–74 years) popula-
+tion, Internet usage within a 3-month period was very high 
+(92%) as was usage several times a day (70%). Finns are 
+also active SNS users with 56% of the population being  
+registered to a SNS (Statistics Finland, 2014a). Founded in 
+February 2004, Facebook has not only become the largest 
+SNS worldwide, with over a billion monthly active users 
+and over 54 million pages (Statistic Brain, 2014), but also 
+the most popular in Finland with 95% of SNS users as  
+followers (Statistics Finland, 2014a).
+Facebook generally comprises people’s individual pro-
+files, newsfeeds, different applications, groups, and “pages”. 
+Pages were designed originally to be used for real businesses 
+and brands to communicate to the public (cf. groups for indi-
+viduals’ usage). In practice, pages have been created very 
+often for networking purposes by individuals. Pages are 
+founded by one or more person as an administrator. They can 
+be found and seen by anyone and are joined by “liking”  
+the page. They have therefore become a primary space on 
+Facebook for collective efforts at networking around par-
+ticular issues or causes.
+Data and Methods
+This study applies the analysis of Internet and Facebook 
+content, quantitative communication data analysis, media 
+analysis, and case studies to determine the degree to which 
+Facebook pages are being used for social movements and 
+whether they are effective in changing policy or practices 
+targeted by the movements. Facebook was chosen because 
+of its nationwide popularity and because it enables individu-
+als to create pages for networking. Furthermore, Facebook’s 
+format provides open access for page-content research. 
+While open groups are almost as open as pages, other types 
+of groups are more restricted. Moreover, there is a list avail-
+able as an online database, of Finnish Facebook pages, while 
+none exists for groups, thus making a comprehensive group 
+database for research less feasible to define.
+Detection of Facebook Pages With Potential 
+Communicative Power
+The main data of the study consist of a weekly updating of 
+the official listing of the most popular Finnish Facebook 
+pages on the Fanilista.fi (2014) database. Preliminary quali-
+tative reviews of this database indicated that activities of 
+some citizen-based Facebook pages shared many features of 
+common definitions of social movements and could be  
+discovered through this data set. These online communities, 
+if successful, should be capable of challenging the power 
+holders of society and causing real-world power-shifts in line 
+with the potential of a Fifth Estate. On the basis of develop-
+ing definitions of online “social movements” (Castells, 2007, 
+2012; Snow et al., 2004, p. 11) and the “Fifth Estate” (e.g., 
+Dutton, 2009, 2012; Hidri, 2012), the authors set five selec-
+tion criteria for identifying pages with potential to achieve 
+communicative power and the role of a Fifth Estate. The five 
+criteria are pages which
+1.  Were set up by individuals acting with some degrees 
+of organization and continuity;
+2.  Use ICTs to enable creation of networks of 
+individuals;
+3.  Work independently, outside of conventional institu-
+tional or organizational authorities;
+4.  Use Internet-enabled sourcing and dissemination of 
+information;
+5.  Were formed for the purpose of challenging, support-
+ing, or holding to account a societal authority, institu-
+tion, or issue (i.e., seeking to effect societal change).
+The process of identifying and selecting Facebook pages 
+for in-depth analysis consisted of four phases (see Table 1). 
+On 1 January 2014, the aggregate of the Fanilista.fi sample 
+Sormanen and Dutton  5
+(N = 2,329 pages) incorporated a set of categories (N = 142), 
+of which the six most popular categories by number of pages 
+(n) were Local businesses (n = 182),  Companies  (n = 155), 
+Communities (n = 151), Musicians/Bands (n = 148), Products/
+Services (n = 119), and Non-profit organizations (n = 118). 
+The less popular 136 categories had a range of page counts 
+from 1 to 85. These categories were combined for the pur-
+pose of the study as “Other.”
+When applying the selection criteria to each of the 142 
+categories, only two categories were suitable for further 
+analysis: “Communities,” which was populated by 151 pages 
+and “Other,” which had a small but distinct category of 
+Causes with 6 pages (see Table 1). As it was not clear whether 
+all the remaining pages fit the five criteria we established, all 
+57 pages within these two categories were reviewed and 
+grouped into eight new categories defined according to  
+the basic objectives and activities of the pages, enabling  
+further evaluation of them fitting the main selection crite-
+ria. These eight categories were as follows: (1) Discussion/
+Entertainment/Informative (those whose main activity/
+objectives include discussion and entertainment; n = 61),  
+(2) Corporate/Organization (official corporate/organization 
+brand pages; n = 53), (3) Cause/Mission (pages with specific 
+joint social movement missions, challenging an authority or 
+societal state of issues; n = 16), (4) Protest/Support (pages 
+specifically protesting/supporting a cause/person; n = 11),  (5) 
+Dare mission (such as breaking records; n = 7),  (6)  Politics 
+(such as official pages for politicians or parties; n = 3),  (7) 
+Spam/Advertising (n = 3), and (8) pages on the list but not 
+found in Facebook (n = 3).
+Further content analysis of the157 pages indicated that 
+only two categories comprising 27 pages met all of the 
+selection criteria: (3) Cause/Mission (n = 16) and (4) Protest/
+Support pages (n = 11; see Table 2), providing a basis for 
+addressing the first RQ. The final 27 pages were found to be 
+formed in the SNS context by individuals independent  
+from institutions or organizations and using ICTs to source  
+data, to disseminate data, discuss, network, and organize. 
+Furthermore, they could all be defined as communities with 
+an aim of forming social movements and/or challenging 
+powerful institutions of society over issues, and in this 
+respect, pursuing societal change.
+The study of whether a SNS enables an online social 
+movement to enhance its communicative power requires a 
+mix of both qualitative and quantitative methods to assess a 
+set of attributes (see Table 3) on which the Facebook pages 
+could be evaluated. The qualitative aspect of the study was 
+made from the researchers’ observation and analysis in 
+January 2014. Specifically, the pages’ offline activity evalua-
+tions were based on observing page administrators’ and  
+members’ page wall post suggestions, discourse of events and 
+activities, formed events, and Internet sources and news sto-
+ries related to their actualization and reporting of participants. 
+The first example (translated into English) is of the Viking 
+Line page administrator’s wall post discourse indicating 
+offline activity (i.e., the leader participating on a ship cruise 
+with other page members) and one member’s comment:
+Greetings from Grace, from the first seminar on the brand new 
+ship. (16 January, 2013)
+Today trying the Viking Grace! 
+ (January16, 2013)
+The second example is of a media news story concerning 
+the I do 2013 campaign’s sold-out support concert:
+The since spring planned I do 2013 support concert’s tickets 
+were sold out in ten minutes. (Hokkanen, 2013, 24 April)
+Offline activities were also quantified from all the pages 
+that had official listings of their events (a feature of Facebook 
+pages). Thus, the specific quantifiable values of offline activ-
+ities (see Table 3) were based on an overall evaluation of 
+both aspects (see evaluations in the ‘Appendix’). The pages’ 
+general societal influence (SocInf) was based on the research-
+ers’ case study evaluations of either or both the mission suc-
+cess of specific pages and any general societal change they 
+achieved, which this study considered as “actualized com-
+municative power” (ACP) and paradigmatic of an emerging 
+Fifth Estate. The short case studies grounding the SocInf 
+analysis are presented at the end of the ‘Results’ section.
+Table 1.  Four-Phase Process of Detecting the Finnish Facebook Pages With the Most Potential for Enhancing Communicative Power.
+Phase 1 Identification of ready-made Facebook pages (N = 2329) by categories (N = 142)
+Phase 2 Six most popular Facebook categories (n = pages)
+  Other comprising 136 Facebook categories (n = pages) + category  of  Cause (n = pages)
+Local business 
+(n = 182)
+Company 
+(n = 155)
+Community 
+(n = 151)
+Musician/Band 
+(n = 148)
+Product/Service 
+(n = 119)
+Non-profit 
+organization (n = 118)
+Other 
+(n = 1450)
+Cause 
+(n = 6)
+Phase 3 New categories developed by study for community and cause pages (N = 157  pages)
+Discussion 
+(n = 61)
+Corporate 
+(n = 53)
+Cause  
+(n = 16)
+Protest  
+(n = 11)
+Dare  
+(n = 7)
+Politics  
+(n = 3)
+Spam 
+(n = 3)
+Not found 
+(n = 3)
+Phase 4 Categories selected for analysis of potential communicative power (n = 27  pages)
+Cause/Mission (N = 16) Protest/Support (N = 11)
+6  Social Media + Society
+The data required for quantitative analysis of each page’s 
+online activity were retrieved via Facebook semi-public 
+application programming interfaces (APIs),
+1
+ including 
+Facebook query language (FQL) and Graph APIs. The 
+retrieved content included all public posts by administra-
+tors and members to the page wall. These data represent 
+numerical accumulations since the day each page joined 
+Facebook up to 30 March 2014.
+Table 2.  The 27 Finnish Facebook Pages Judged to Have the Potential to Enhance Online Communicative Power.
+Founding date Finnish page name translated to English Objective or activity description Member count
+March 2013 875 grams Campaign to collect money for children’s 
+hospitals
+118,071
+Oct 2010 General Strike 15.10.2010 Strike movement against pay raises for 
+government officials
+79,453
+Feb 2013 I do 2013 Campaign and citizen legal initiative for 
+equal marital rights for same sex couples
+75,105
+Oct 2010 Kimmo Wilska support group Movement to support the reinstatement 
+of a popular news anchor
+42,894
+Sept 2013 Chow Radar Community monitoring food producers 
+and suppliers
+37,703
+Sept 2010 I promise to use Viking Line ships if 
+new vessels are ordered from Finland
+Campaign to persuade a ferry line to 
+order its fleet from a Finnish shipbuilder
+20,762
+Sept 2011 Pro gender-neutral marital law Campaign for gender-neutral marital laws 18,015
+Dec 2011 Option for ABC Community protesting against the use of 
+the gas station and restaurant chain ABC
+14,846
+April 2011 I did not vote for the True Finns Protest community against the nationalist 
+political party True Finns
+8,434
+Aug 2010 I say NO to increasing supervision, 
+surveillance, and patronage
+Community promoting privacy rights and 
+protesting state surveillance
+6,640
+April 2012 School discipline in order, power back 
+to teachers
+Community protesting violence against 
+teachers and supporting their rights
+6,432
+Dec 2010 I want to see other things also Community addressing people’s right to 
+decide on outdoor advertisements
+5,678
+Nov 2012 Sense into copyright law Citizen legal initiative to change the 
+Copyright Act
+5,179
+March 2013 Sorry I am a journalist Movement against bad journalism via  
+self-criticism
+5,164
+Feb 2013 Hands off student benefits Community questioning the limiting of 
+student benefits
+5,063
+May 2010 Call your Grandma <3 Campaign aiming to sensitize people to 
+seniors’ loneliness
+4,774
+Feb 2011 Finnish Defense League (FDL) Citizen organization against Islamic 
+extremism
+4,586
+June 2013 Helping others should not be taxed Community movement against taxation of 
+voluntarily helping others
+4,175
+Aug 2011 Real milk comes from Satakunta Community supporting the use of local 
+milk products
+3,674
+July 2010 Save Vantaa river Community movement to maintain a river 
+in good condition
+3,533
+Jan 2011 I support basic income Community movement in favor of 
+adequate income support for all citizens
+3,235
+Oct 2012 Sensible days Community protesting against consumer 
+hysteria
+2,918
+Oct 2012 Myyrmäki movement Community promoting activities 
+supporting the well-being of a city
+2,573
+Sept 2012 Unusual matters Movement against the social exclusion of 
+young people
+2,268
+Oct 2010 Hate has no room in Finland—Against 
+discrimination and hate
+Communities protesting against hate 
+groups targeted at foreigners
+1,771
+Oct 2012 “Program is barely subtitled” Community protesting against poor 
+subtitles on TV programs
+1,696
+Feb 2011 Save Our Burgers Campaign to preserve the quality of fast 
+food
+1,176
+Sormanen and Dutton  7
+Media analysis was conducted using two different search 
+engines during week 14 in March 2014. First, Mediabase, a 
+software tool, was programmed to subscribe to RSS-feeds of 
+Finnish news and media outlets and enable word searches, 
+and analysis of the news content was used to do Internet 
+searches for the 27 pages’ names.
+2
+ By the time the analysis 
+was conducted in March 2014, the tool had been in operation 
+saving news content for exactly 12 months and included  
+53 online versions of the most popular traditional Finnish 
+newspapers.
+3
+Second, because some of the pages had been active before 
+Mediabase was used to begin searching in March 2013, 
+Google was used to search for the page names. The first 50 
+returned articles for each page name were then reviewed. All 
+the stored news stories were read and those made by recog-
+nized online newspapers, TV, and radio, relating to the activi-
+ties of the respective pages, were saved and stored. While this 
+review concurrently provided a valuable qualitative perspec-
+tive on the pages, the primary objective of this search was to 
+count the number of stories mentioning each of the pages.
+Table 3.  Attributes of Facebook Pages, Descriptions, and Value Calculations.
+Attribute Description Measurement/calculation of 
+quantifiable value
+#1. Page type and 
+purpose
+The issue/mission of the page needs to be of importance 
+at least to some segment of society for the page to attract 
+followers
+No quantifiable value. Pages are 
+evaluated to have important topics if 
+they attract members
+#2. Member count Numerous members mean more are disseminating 
+information and inviting others to connect, which will 
+increase the allure of the page. Numerous members may 
+also attract media attention and increase the image of 
+power among societal power holders
+Six largest pages = 5 points
+Next largest 5 pages = 4 points
+Mean 5 pages = 3 points
+Next smallest 5 pages = 2 points
+Six smallest pages = 1 point
+#3. Media visibility Media’s agenda setting and power to shape opinion can 
+have an effect on pages’ publicity, popularity, member 
+count, officials’ and corporations’ attention, and success in 
+reaching the pages’ objectives
+An aggregate number of media articles 
+found by Mediabase and Google:
+>50 = 5  points—Very high
+>10 < 50 = 4  points—Quite high
+>5 < 10 = 3  points—Mean
+>1 < 5 = 2  points—Quite low
+<1 = 1  point—Low
+#4. Online activity: 
+administrators and 
+members
+Active administrators are potentially the driving forces of 
+any online pages. They have to spread news of the page 
+and when the member base is secured, they can activate 
+the members online. Pages may also be active due to an 
+active member community online diffusing information and 
+activating others
+Number of page wall posts by 
+administrators and members:
+>300 = 5  points—Very high
+>100 < 300 = 4  points—Quite high
+>50 < 100 = 3  points—Mean
+>10 < 50 = 2  points—Quite low
+<10 = 1  point—Low
+#5. Offline activity: 
+administrators and 
+members
+Social movements operate in both online and offline social 
+networks (see Castells, 2012), and online groups have the 
+potential of mobilizing participation by performing offline 
+group-like civic functions (e.g., Feezell, Conroy, & Guerrero, 
+2009). Offline activities may have an impact on members’ 
+perception of pages’ power, attract more members, and be 
+a way to get media’s and officials’ attention
+Aggregate evaluation of qualitative 
+case analysis of Facebook pages, news, 
+and Internet, and quantifiable event 
+results from Facebook pages:
+5 points—Very high activity
+4 points—Quite high activity
+3 points—Mean activity
+2 points—Quite low activity
+1 point—Low activity
+#6. Age The time-span of the pages’ existence may increase their 
+potential for success and societal influence
+48–60  months = 5  points
+36–47  months = 4  points
+24–35  months = 3  points
+12–23  months = 2  points
+0–11months = 1  point
+#7. Societal 
+influence = Evaluation 
+of ACP and Fifth 
+Estate potential
+Regardless of pages’ objectives, their communicative power 
+can be measured on the basis of how they are able to reach 
+their end goal(s) and create concrete societal influence
+Case study evaluation of pages’ 
+objective success and/or general 
+societal influence:
+5 points—Very high effects
+4 points—Quite high effects
+3 points—Mean effects
+2 points—Quite low effects
+1 point—Low effects
+ACP: actualized communicative power.
+8  Social Media + Society
+This study recognizes the problem that the “age” of the 
+pages affects the results of the pages’ attribute results as 
+some pages had been alive under a year and others many 
+years at the observation period, but it still focuses on the 
+entire lifespans of attribute results. This is because the age of 
+the page is not a stable variable of, for example, how much 
+online activity occurs on a page: Some pages’ high peaks of 
+activity have already passed at the beginning of the period 
+due to the specific mission characteristic, such as the General 
+Strike which was focused on a 1-day event after which all 
+activities and media attention vanished, and others continue 
+as long-term projects, such as the Chow Radar page.
+Attributes and Levels of Measuring Facebook 
+Pages’ Communicative Power
+One objective of this study was to discover whether there are 
+specific online and offline actions and impact attributes that 
+shape the relative success of Facebook pages’ objectives. 
+Since research into SNS pages has not previously used this 
+approach, a list of attributes was developed for this study. The 
+study relied on (1) qualitative observations and the studies of 
+other researchers to indicate which attributes were most likely 
+to have the most significant effect and (2) an in-depth analysis 
+of the six most, and the six least, popular pages with the attri-
+butes. The authors finally settled on seven attributes that 
+appeared most significant, all of which except for #1 were 
+evaluated on a scale of 1 (low) to 5 (high; see Table 3).
+The overall scale 1–5 was selected for consistency with all 
+the scales, as the results could be adjusted to them in their 
+overall result contexts. First, the existing member counts and 
+months of pages’ existence could be indicated by an accept-
+able value point from 1 to 5 from the smallest to the largest. 
+Second, the overall results of coverage, lowest and highest 
+scores by page, average of six smallest and largest, and overall 
+average amounts of media articles found (e.g., n = 171,  lowest 
+n = 0/highest  n = 79,  average  six  smallest = 1.5/six  largest = 27, 
+and general average = 14.25) and page wall posts were used to 
+set scales best describing the level of the action in their overall 
+result context. Finally, offline activity and societal influence 
+scoring was made on the same scale but through a more quali-
+tative evaluation, uniting quantitative event notices to obser-
+vation analysis in offline activities, and using the overall case 
+studies as indicators of societal influence.
+Results
+First, because all the 12 pages under scrutiny attracted 
+members of the public, they were all judged to be of some 
+importance to a segment of society. In addition, we knew 
+the sizes of the pages’ memberships—those who “liked” 
+the page—and the “ages” of the pages. Hence, Table 4 dis-
+plays how the pages were analyzed with points ranging 
+from 1 to 5 (1 = low,  5 = high) according to the number  
+of memberships, age, and the remaining four attributes: 
+media visibility, online activity, offline activity, and the 
+attribute measuring ACP and Fifth Estate potential, that is, 
+general SocInf.
+As SocInf reflects the apparent actualization of communica-
+tive power, four of the largest pages were judged to have 
+acquired very high ratings in this respect, noted by (5) influ-
+ence values (see Table 4) and thus can be considered as case 
+examples of pages with the potential for communicative power 
+that actually reached a level of influence on society (ACP). To 
+visualize how the action and impact attributes related to the 
+success of the SNS pages, the other attribute results are dis-
+played in Figures 1 to 5 in relation to SocInf values. A basic 
+hypothesis common to the relationships displayed in the fig-
+ures is that the value/significance of the attribute is judged  
+in comparison with the page’s SocInf (equal or higher SocInf 
+compared to each attribute = high significance of the attribute).
+Figure 1 suggests four different types of pages (see 
+Table 5). Four are among the most popular and influential, 
+high on number of likes and influence, such as 875 grams. 
+Three are low in popularity and influence, such as Hate 
+has no room. However, there were some popular pages that 
+had relatively little influence and less popular that had 
+relatively more influence.
+In the context for the size of membership (Figure 1), the 
+results indicate that the common hypothesis is valid in 83% 
+of the cases as the SocInf values are equal or higher com-
+pared to member counts, but that among the other 17% there 
+are anomalies. Among the four highest SocInf pages, the 
+member count value average is 5.
+In the context of media visibility (Figure 2), the results 
+indicate that the common hypothesis is valid for 92% of the 
+pages. Among the highest SocInf pages, the media visibility 
+average is 4—media visibility roughly corresponds with 
+societal influence.
+In the context of online activity (Figure 3), there are 
+interesting differences. On one hand, SocInf values for 58% 
+of the pages are lower than their online activities; however, 
+on the other hand, those that were relatively high in activity 
+online did tend to have more social influence. For example, 
+among the four highest SocInf pages the online activity 
+average is 4.25.
+4
+In the context of offline activity (Figure 4), expectations 
+are supported in that 92% of the pages that were influential 
+had higher offline activity. Among the four highest SocInf 
+pages the offline average is 3.5 with one major anomaly low-
+ering the average, where Chow Radar indicated low offline 
+activity but high influence.
+The lifespan of the pages’ existence appears not to be the 
+best indicator of pages’ SocInf (see Figure 5). Although the 
+hypothesis is valid in 58% of cases, most of the “older” pages 
+have low SocInf, and among the four highest SocInf pages, 
+the age average is 2.25.
+Overall, the first, but overly simplistic observation is that 
+the size of membership seems to be one key attribute because 
+pages with large memberships generally have more success 
+in achieving ACP. However, there are major exceptions that 
+are interesting alternative patterns.
+Sormanen and Dutton  9
+Table 4.  Six Most and Six Least Popular Facebook Pages Rated According to Attributes and Societal Influence.
+Page name Member 
+count
+Media 
+visibility
+Online 
+activity
+Offline 
+activity
+Age Societal 
+influence
+875 grams 5 5 A = 4/M = 5 A = 5/M = 3 2 5
+  N = 118,071 MB = 48 AD = 228 MO = 13  
+  G = 13 ME = 406  
+General Strike 15.10.2010 5 2 A = 1/M = 4 A = 2/M = 2 4 2
+  N = 79,453 MB = 0 AD = 1 MO = 42  
+  G = 3 ME = 289  
+I do 2013 5 5 A = 5/M = 5 A = 5/M = 5 2 5
+  N = 75,105 MB = 67 AD = 420 MO = 15  
+  G = 12 ME = 403  
+Kimmo Wilska support group 5 2 A = 2/M = 2 A = 1/M = 1 4 1
+  N = 42,894 MB = 0 AD = 10 MO = 42  
+  G = 3 ME = 26  
+Chow Radar 5 3 A = 4/M = 4 A = 1/M = 1 1 5
+  N = 37,703 MB = 1 AD = 177 MO = 7  
+  G = 7 ME = 125  
+I promise to use Viking Line ships if 
+new vessels are ordered from Finland
+5 3 A = 3/M = 4 A = 5/M = 3 4 5
+  N = 20,762 MB = 0 AD = 72 MO = 43  
+  G = 8 ME = 284  
+Sensible days 1 2 A = 2/M = 2 A = 1/M = 1 2 2
+  N = 2,918 MB = 0 AD = 38 MO = 18  
+  G = 3 ME = 19  
+Myyrmäki movement 1 2 A = 5/M = 4 A = 5/M = 4 2 3
+  N = 2,573 MB = 0 AD = 579 MO = 18  
+  G = 4 ME = 133  
+Unusual matters 1 2 A = 3/M = 2 A = 2/M = 2 2 2
+  N = 2,268 MB = 0 AD = 70 MO = 17  
+  G: 2 ME = 29  
+Hate has no room in Finland 1 1 A = 3/M = 2 A = 1/M = 1 4 1
+  N = 1,771 MB = 0 AD = 64 MO = 42  
+  G: 0 ME = 25  
+“Program is barely subtitled” 1 1 A = 3/M = 2 A = 1/M = 1 2 1
+  N = 1,696 MB = 0 AD = 73 MO = 18  
+  G = 0 ME = 17  
+Save Our Burgers 1 1 A = 4/M = 2 A = 1/M = 1 4 1
+  N = 1,176 MB = 0 AD = 102 MO = 38  
+  G = 0 ME = 22  
+MB: number of Mediabase news; G: number of Google news; A: administrators’ activity; M: members’ activity; AD: number of administrators’ posts;  
+ME: number of members’ posts; MO: months of pages’ existence.
+Offline activity evaluations are introduced in the Appendix.
+Figure 1.  Facebook pages’ memberships related to societal influence evaluated in a range of 1 (low) to 5 (high).
+10  Social Media + Society
+Table 5.  Types of Pages According to Popularity and Influence.
+Members Influence
+Lower Higher
+Higher Kimmo Wilska, General Strike 875 grams, Chow Radar, Viking Line, I do 2013
+Lower Hate has no room, Barely subtitled, Save Our Burgers Myyrmäki, Sensible days, Unusual Manners
+Figure 2.  Facebook pages’ media visibility and correlating societal influence evaluated in a range of 1 (low) to 5 (high).
+Figure 3.  Facebook pages’ online activity and correlating societal influence analyzed with separate administrator and member activity 
+evaluated in a range of 1 (low) to 5 (high).
+Figure 4.  Facebook pages’ offline activity points and correlating societal influence analyzed with separate administrator and member 
+activity evaluated in a range of 1 (low) to 5 (high).
+Sormanen and Dutton  11
+Figure 5.  Facebook pages’ existence related to societal influence evaluated in a range of 1 (low) to 5 (high).
+In the following section, the case studies, on which the 
+SocInf values were based, are covered and used to further 
+examine the dynamics of the qualitative aspects of the spe-
+cific pages to determine various success factors and, for 
+example, why ACP was not the automatic preserve of the 
+largest pages, and why for instance some pages succeed 
+without offline activities.
+Brief Case Studies
+Although, especially among the most popular societal causes, 
+there are various actors and campaigns involved in certain 
+issues which had been in operation before the current cases, 
+the pages presented here are identified by the authors based 
+on the case study observations as the leaders and/or main 
+actors of the specific causes. Moreover, the identifications are 
+seen to be reinforced by the public, media and authorities, 
+especially among the cases recognized as achieving ACP.
+The largest page, 875 grams, had the greatest possible 
+SocInf value. The father of a premature baby created the 
+page. The page’s initial mission was to provide an environ-
+ment that enabled friends to display their interest in the 
+baby’s well-being. As the interest expanded beyond the cou-
+ple’s familial, the father changed the mission of the page into 
+an official campaign for collecting money for children’s hos-
+pitals. The specific campaign, carrying the 875 grams name 
+and the “father” as its public face, received high popularity 
+among the (online) public and (mass) media. High media 
+visibility is probably the result of high levels of administrator 
+activities both on and offline, which was ably supported by 
+the members, as well as celebrities who have supported the 
+campaign. The media have referred to the page as a Facebook 
+phenomenon (e.g., Tamminen, 2013, March 31). The success 
+of the specific fundraising campaign has raised around 
+€300,000 in donations for a new children’s hospital and 
+helped to donate an incubator. The page’s ability to tap into 
+people’s inherent empathy with the plight of premature 
+babies and to raise significantly large funds indicates a high 
+level of ACP.
+The General Strike 15.10.2010 page, despite having the 
+second largest membership that at one time peaked at over 
+100,000, was unable to convert its potential into high SocInf. 
+The page was formed to plan a general strike protest against 
+government officials’ pay rises. Societal institutions were 
+unsupportive, the media described the mission as a failure, 
+and local government branded the strike and all its activities 
+as illegal. On 15 October 2010, the day of the General Strike, 
+less than 100 strikers turned up. Explanations of the mis-
+sion’s failure may include, first, that the threshold of signing 
+up to a protest page on a SNS is much lower than actually 
+joining the protest and, second, the poorly planned and 
+organized unrealistic mission lowered the potential of the 
+page in the eyes of the participants, and the media and 
+authorities did not grant it legitimacy.
+The I do 2013 page achieved maximum SocInf value. Since 
+March 2012, the Finnish government has been required by law 
+to consider passing into law any civic initiative that has more 
+than 50,000 certified adult signatures. The aim of the page, 
+originally formed by friends, was to achieve equal marital 
+rights for same sexes via a civic initiative petition. The mini-
+mum number of signatures was achieved the day the campaign 
+went public and within 6 months the Facebook page had 
+become a registered citizen association; had gained the sup-
+port of armies of volunteers, human rights organizations, and 
+public figures; and gained a total of 167,000 signatures.  
+The page’s “leader” handed the signed petition to the parlia-
+ment proceedings. Although the parliament’s law committee 
+decided against bringing the petition into law in June 2014, the 
+parliament plenary session voted in favor of the law on 28 
+November 2014 and historically approved the first crowd-
+sourced civic law initiative in Finland. Although there have 
+been other groups aiming at the same law change, and no 
+doubt have raised awareness of the issue before thus paving 
+the way for the initiative to be passed, the I do 2013 campaign 
+can be seen as the main driving force of the final law change, 
+also recognized by the media, public, and authorities.
+The  Kimmo Wilska support group despite having the 
+fourth largest membership failed to convert its potential 
+12  Social Media + Society
+into high SocInf values. The page seeks to persuade 
+Finland’s public broadcasting service to reinstate one of its 
+popular news anchors who pretended to be drinking beer 
+while reading news during a live broadcast. What was 
+meant to be a joke related to an alcohol control news story. 
+The failure of the mission may be due to the fact that 
+although people found the gimmick and its media attention 
+interesting for a while, the issue is not close or personal 
+enough for people to take more action than mere “like” 
+clicks of support. In addition, the mission lacked recogni-
+tion by the media or authorities.
+The Chow Radar page gained high SocInf value. A collec-
+tive of anonymous administrators created what they later 
+claimed to be Finland’s most influential food media. The 
+page’s mission is to reveal scams concerning the sale of 
+unhealthy food and provide information on better options. 
+The mission does not seem to need offline activities, prefer-
+ring to operate strategically as an online source that uses 
+public pressure to challenge corporations and officials. The 
+offline activities in this case are the societal impacts, that is, 
+consumer behavior changes. Each of the many online actions, 
+for example, law petitions and boycotts, have been supported 
+by as many as several thousands of people who have joined 
+the actions and disseminated activity-related information 
+through their own Facebook pages. Consequently, Chow 
+Radar has received quite a lot of media exposure and gained 
+the attention of enterprise corporations. We conclude that the 
+page’s success in achieving ACP is due to its recognized role 
+as a corporate, official and societal moderator, and source of 
+information.
+The Viking Line page achieved a high level of ACP due to 
+achieving its aim of persuading Viking Line AS (a ferry 
+line) to order its proposed addition to its fleet from a Finnish 
+shipbuilder. A key component of the page’s campaign was to 
+link “liking the page” to a promise by the members to use 
+Viking Line ships at least once a year for 3 years if the com-
+pany purchased a Finnish-built ship. The page’s leader 
+actively contacted Viking Line, and once the page member 
+count reached close to 20,000, Viking Line invited represen-
+tatives of the Facebook page to open cooperation discus-
+sions. In October 2010, Viking Line ordered the new ship 
+from the Finnish shipbuilders STX Turku. News stories 
+indicated a connection between the Viking Line’s order 
+decision and the Facebook page, and the ferry line company 
+legitimated the mission by recognizing its communicative 
+power through cooperation.
+The case studies to some extent explain why sheer size of 
+membership cannot be considered as a direct indicator of 
+reaching success in societal change (ACP). Two of the larg-
+est pages failed in SocInf due to many factors. The Myyrmäki 
+movement was able to attract a good-sized membership in its 
+local environment and activate people effectively both online 
+and offline, thus achieving average SocInf. The other smaller 
+national Sensible days and Unusual matters pages reached 
+only some SocInf perhaps due to quite low levels on all of 
+the measured aspects.
+Discussion
+While the influence of SNS on societal and political change 
+is a matter of debate, there are case studies of instances when 
+online networks played a critical role in social movements 
+and other Fifth Estate activities. The question not addressed 
+is how common are these instances in the larger scale of 
+social networking. This study looks at Facebook pages as 
+prime paradigms of online social movements in one country 
+as a basis for estimating the prominence of societally and 
+politically influential sites.
+To do this, with a step-by-step content analysis process, 
+the study searched the Fanilista.fi database of first categories 
+and then individual pages that could have a potential for 
+communicative power using criteria developed from the the-
+oretical definitions of social movements and the Fifth Estate. 
+The findings show that while 2,302 of the 2,329 pages are 
+corporate or business based or oriented to entertainment and 
+discussion, a small, but visible and significant number 1% 
+(27 pages) can be considered as examples of Facebook pages 
+with potential to achieve communicative power.
+We then identified examples of the Facebook pages that 
+appeared to have achieved their ambitions and therefore con-
+formed to conceptualizations of an effective Fifth Estate 
+role. By evaluating the general SocInf of the six largest and 
+the six smallest pages (by membership), the study identified 
+four cases as having achieved significant communicative 
+power: Chow Radar, Viking Line, 875 grams, and I do 2013. 
+At this first analysis level, unifying factors among the pages 
+appear to be their membership size, their ability to tap into 
+the societal consciousness of people and to attract coopera-
+tion and/or enough group power to force recognition in the 
+eyes of legally or otherwise societally recognized institu-
+tions/organizations.
+Looking more closely at online and offline attributes that 
+may be significant in achieving influence, the study selected 
+five attributes (pages’ membership size, media visibility, online 
+and offline activities, and age) for evaluation and compared 
+the attribute results of the 12 pages against the SocInf values. 
+The results showed that especially the online attributes (size 
+and online activity), but also all the first four, were important in 
+building success. Among the most successful four pages, their 
+significance was in the following order: (1) membership size, 
+(2) online activity (especially leaders), (3) media visibility, and 
+(4) offline activity. Pages’ ages were not considered as reliable 
+indicators of SocInf in this study (specifically designed to focus 
+on the entire lifespans of attribute results) as the pages were in 
+different stages of their mission: some old (failed) ones still 
+alive on Facebook, but inactive and some old and new pages 
+continuously active in both online and offline activities. Further 
+studies should concentrate on online social movements’ suc-
+cess factors specific to their respective mission stages.
+Nevertheless, no one attribute appeared to dictate ACP 
+alone, and their variance and aggregate impact should be  
+further tested. By indicating and testing possible online and 
+offline attributes to measure communicative power, this 
+Sormanen and Dutton  13
+Table 6.  Online and Offline Activities and Impacts Entwined Within the Fifth Estate Arena Process of Communicative Power 
+Formation, Building on the Grounds of the Traditional Fourth Estate Arena.
+Fourth Estate arena processes Fifth Estate arena processes Viking Line page as a case example
+Societal issue rises offline and/or is set on the media agenda
+Offline societal and media focus on the ferry line’s 
+decision to use either a national or a foreign 
+shipbuilder
+Issue discussed in media (stories decided by 
+journalists) + discussion between media and 
+societal power holders and in offline close 
+networks of people
+Issue discussed online in social media platforms 
+(people source and disseminate information 
+independent from press and authorities)
+The influences of the ferry line’s decision on the 
+future of Finnish dock industry discussed by the 
+press in traditional media and by individuals in many 
+online social media platforms
+People organize offline in close networks People organize in online platforms (=networked 
+individuals)
+Online: Page formed on Facebook gathering people 
+to join a campaign where “liking the page” is a 
+promise to use Viking Line if the company purchase 
+a Finnish-built ship
+Offline meetings, protests, sit-ins, signature 
+collections for petitions, collecting money, 
+boycotts of products, and so on
+Online petitions, protest websites, virtual sit-ins, 
+online information diffusion to create boycotts 
+or influence consumer behavior, and so on
+Online: Discussion, diffusion, and vast amount of 
+people joining the campaign
+  Offline: Page leader contacts the corporation, 
+meetings with corporate representatives, 
+supporters’ collective ship cruises and so on
+Media focus on the offline activities/impacts From online and offline activities/impacts the 
+discussion returns to social media platforms
+People link media news to the online page and report 
+about offline activities/impacts on the online page
+The issue gets more publicity Online activities and online diffused information 
+get media’s and larger public’s attention
+Due to the page’s high online member count and 
+information shared by the leader of offline activities, 
+media attention and online discussion escalate
+The issue gets powerful institutions’, authorities’, or corporation’s attention Due to all online and offline activities/impacts and 
+media attention, the campaign’s power is recognized 
+by the ferry line and cooperation continues
+Discussion continues in media and in offline 
+close networks of people
+Discussion and activities continue in social media 
+platforms
+Media report on the proceedings and the page 
+leader and members continue discussion on the 
+online page, report proceedings, and meet offline
+Hypothesis Outcome
+Discourse of the issue remains between 
+societal power holders and media → citizens 
+have low communicative power
+Group power created online, supplemented 
+with media attention → increased  communicative 
+power of networked individuals
+Online-originated citizen-organized group 
+pressure and positive consumer lobbying have an 
+effect on corporate decision making → increased 
+communicative power of networked individuals
+study provides further possibilities for examining how sig-
+nificant the detected attributes are for online social move-
+ments with different strategies and objectives. A number of 
+factors beyond the attributes, and beyond the reach of the 
+brief case study explanations, could also be seen to affect the 
+achievement of ACP and need further research. Some of 
+these can be classified as (1) good leadership and organiza-
+tion, (2) provision of good background information, along 
+with active information sourcing and dissemination, and (3) 
+the crowdsourcing of freelance professional help.
+This study concludes that in online social movements, 
+online and offline arenas are interdependent in shaping the 
+significance of their communicative power (e.g., Castells, 
+2007, 2012): Unlike the “former” ruling arena of public discus-
+sion, the press and (mass) media (addressing societal issues, 
+which lead to offline discussion and at times also activities, 
+which sometimes lead back to media agenda), the Fifth Estate 
+arena also functions as a space allowing information input, and 
+powerful networks, of individuals, potentially leading to con-
+stant shifts of discussion and actions from online to offline, and 
+back online. Table 6 summarizes how the Fifth Estate era pro-
+cess of communicative power formation, supplemented by the 
+still strong and meaningful Fourth Estate public discussion pro-
+cesses (see Hidri, 2012), is a combination of case by case 
+changing online and offline activities and impacts, where both 
+are significant and intertwined.
+Overall, although we conclude that it is possible for 
+Facebook pages to develop a Fifth Estate role, there are 
+high thresholds, and the emergence of social movements is 
+the exception rather than the rule. This may be due to vari-
+ous reasons. First, the number of potential online pages 
+with Fifth Estate aspirations is low because the possibilities 
+to create pages and groups for networking purposes on SNS 
+like Facebook are still dominated by the entertainment and 
+social functions, for which the site was designed. Although 
+entertainment and discussion objectives do not necessarily 
+exclude formation of communicative power, and might 
+well increase the potential for reaching larger communities, 
+these pages are less likely to pursue concrete societal 
+change than to participate in activities that are social and 
+entertaining. Second, online social movements may still 
+lack recognition as legitimate actors of society as Internet 
+and SNS activism is seen more as “slactivism” (Morozov, 
+2009) and as motivated by users’ personal fulfillment, 
+14  Social Media + Society
+without the ability to create concrete results (Curran et al., 
+2012).
+Nevertheless, SNS do provide a platform for well orga-
+nized and led social and political movements. SNS pages in 
+Finland with a legal and culturally accepted basis (non- 
+radical social movements) have gained positive reactions 
+and cooperation from corporations and media, and, despite 
+some hesitation, from political decision makers and govern-
+ment. This may reflect a subtle shift from traditional repre-
+sentative politics toward citizen involvement in decision 
+making and their political empowerment in Finland. In addi-
+tion, the press adopting news topics from SNS pages and 
+their missions can increase the Fifth Estate’s role in societal 
+agenda setting as so called “gatewatchers” alongside the 
+Fourth Estate (see Bruns, 2003).
+Conclusion
+The Internet is an effective innovative public space, which 
+has the potential to enhance social movements by facilitating 
+individuals to network with other like-minded people in 
+ways that can enhance their communicative power consistent 
+with conceptions of the Fifth Estate. This study shows how 
+the Fifth Estate can be actualized in the context of one SNS, 
+Facebook. Although very limited in frequency, about 1% of 
+Facebook pages created in Finland developed the potential to 
+enhance the communicative power of networked individuals. 
+No one expects all or most Facebook pages to lead to social 
+movements—that would be absurd.
+The importance of this study is that, first, the study meth-
+ods reveal one way of detecting and content analyzing a SNS 
+and drawing a picture of the Facebook “page” scene from the 
+perspective of enhancing the communicative power of online 
+social movements. Second, this study is one example of  
+the possibility of developing operational definitions of the  
+communicative power of online pages, although it leaves 
+many questions unanswered. As neither a scale nor set of 
+online and offline attributes against which the communica-
+tive power of online movements can be measured exists, this 
+study made a move in the direction of providing relative 
+rankings of sites on critical dimensions of both. The study 
+suggests that further research might advance the develop-
+ment of theory and reliable indicators of the impact of SNS 
+and their potential to contribute to a Fifth Estate role.
+This study is not without limitations. As there are no avail-
+able success criteria for achieving communicative power, the 
+study relied much on the researchers’ qualitative analyses, 
+observations, and judgments of the Facebook pages and  
+their influence. Thus, the results are guided by qualitative 
+assessments that are subjective but strive to be transparent 
+and which appear to yield conclusions that have a reasonable 
+level of face and construct validity.
+Furthermore, a comprehensive database of Finnish news-
+papers and their news would require purchasing access to 
+each existing digital news media archive. Consequently, the 
+study relied on other options, such as the Mediabase research 
+tool, which provides good quantitative data but cannot be 
+considered comprehensive due to its current scope and tim-
+escale, and the Google search for online news, which usually 
+gives different return results, and whose results are affected 
+by the users’ Internet activities. Nevertheless, the analysis 
+appeared to provide a relative ranking of media coverage that 
+would be likely to hold up to the inclusion of further media.
+The study gives a view of communicative power formation 
+in a specific online environment, cultural context, and target 
+sample, leaving room for various future research possibilities. 
+Similar research could be replicated in different social media 
+and SNS platforms and also in different cultural contexts.
+Declaration of Conflicting Interests
+The author(s) declared no potential conflicts of interest with respect 
+to the research, authorship, and/or publication of this article.
+Funding
+The author(s) disclosed receipt of the following financial support for 
+the research, authorship, and/or publication of this article: This work 
+was supported by the Media Industry Research Foundation of 
+Finland, and the Governance and Design of Collaborative User-
+driven Innovation Platforms project at the Danmarks Tekniske 
+Universitet through a grant from the Danish Research Council.
+Notes
+1.  The Facebook semi-public application programming inter-
+faces (APIs) are tools provided by Facebook allowing out-
+side web developers to read and retrieve open data from the 
+service’s social graph. The specific data tool organizing the 
+content has been created by an information technology (IT) 
+specialist working in a Finnish research group, which includes 
+the first author of this article.
+2.  Created by the same IT specialist mentioned in Note 1.
+3.  Although there are around 200 Finnish newspapers online 
+(Finnish Newspapers Association, 2014), most have very 
+small circulations and are local.
+4.  In order to display the online and offline activities of admin-
+istrators and members, the total possible value for both the 
+activities and the SocInf was increased to 10.
+References
+Bakardjieva, M. (2011). Reconfiguring the mediapolis: New 
+media and civic agency. New Media & Society,  25, 91–104. 
+doi:10.1177/1461444811410398
+Bennett, W. L., & Segerberg, A. (2012). The logic of collective 
+action: Digital media and the personalization of contentious 
+politics. Information Communication and Society, 15, 739–768.
+Bode, L., Vraga, E. K., Borah, P., & Shah, D. V. (2013). A new 
+space for political behavior: Political social networking and 
+its democratic consequences. Journal of Computer-Mediated 
+Communication, 19, 414–429. doi:10.1111/jcc4.12048
+Bruns, A. (2003). Gatewatching, not gatekeeping: Collaborative 
+online news. Media International Australia Incorporating 
+Culture and Policy, 107, 31–44. Retrieved from http://eprints.
+qut.edu.au/189/1/Bruns_Gatewatching.PDF
+Bruns, A. (2007). Produsage: Towards a broader framework for 
+user-led content creation. In Proceedings of the 6th ACM 
+Sormanen and Dutton  15
+SIGCHI Conference on Creativity & Cognition. Retrieved 
+from http://eprints.qut.edu.au/archive/00006623/01/6623.pdf
+Carlyle, T. (1846). On heroes, hero-worship, and the heroic in his-
+tory: Six lectures—Reported with emendations and additions. 
+London, England: Chapman & Hall.
+Castells, M. (2007). Communication, power and counter-power in 
+the network society. International Journal of Communication, 
+1, 238–266. doi:1932-8036/20070238
+Castells, M. (2012). Networks of outrage and hope: Social move-
+ments in the Internet age. Cambridge, UK: Polity Press.
+Champoux, V., Durgee, J., & McGlynn, L. (2012). Corporate 
+Facebook pages: When “fans” attack. Journal of Business 
+Strategy, 33, 22–30. doi:10.1108/02756661211206717
+Cooper, S. D. (2006). Watching the watchdog: Bloggers as the fifth 
+estate. Spokane, WA: Marquette Books.
+Curran, J., Fenton, N., & Freedman, D. (2012). Misunderstanding 
+the Internet. New York, NY: Routledge.
+De Tocqueville, A. (1835). De la démocratie en Amérique [On 
+democracy in America]. Paris, France: Michel Lévy frères 
+libraires éditeurs.
+De Zúñiga, H. G, Jung, N., & Valenzuela, S. (2012). Social 
+media use for news and individuals’ social capital, civic 
+engagement and political participation. Journal of Computer-
+Mediated Communication,  17, 319–336. doi:10.1111/j. 
+1083-6101.2012.01574.x
+Dutton, W. H. (1999). Society on the line: Information politics in 
+the digital age. Oxford, UK: Oxford University Press.
+Dutton, W. H. (2009). The fifth estate emerging through the net-
+work of networks. Prometheus, 27(1), 1–15.
+Dutton, W. H. (2012). The fifth estate: A new governance chal-
+lenge. In D. Levi-Faur (Ed.), The Oxford handbook of gover-
+nance (pp. 584–98). Oxford, UK: Oxford University Press.
+Ellison, N. B., & boyd, d. m. (2014). Sociality through social  
+network sites. In W. H. Dutton (Ed.), The Oxford handbook of 
+Internet studies (pp. 15–72). Oxford, UK: Oxford University Press.
+Fanilista.fi. (2014). Listing of the most popular Finnish Facebook 
+pages. Available from http://www.fanilista.fi
+Feezell, J. T., Conroy, M., & Guerrero, M. (2009, September). 
+Facebook is . . . Fostering political engagement: A study of 
+online social networking groups and offline participation. 
+Paper presented at the American Political Science Association 
+meeting in Toronto, Ontario, Canada. Retrieved from http://
+irevolution.files.wordpress.com/2009/09/apsa-feezell-2009.pdf
+Finnish Newspapers Association. (2014). Sanomalehdet verkossa 
+[Newspapers online]. Retrieved from http://www.sanomalehdet.
+fi/sanomalehdet/sanomalehdet_verkossa/
+Flynn, J. (2004). Communicative power in Habermas’s theory of 
+democracy. European Journal of Political Theory, 3, 433–454. 
+doi:10.1177/1474885104045914
+Garnham, N. (1983). Public service versus the market. Screen, 
+24(1), 6–27.
+Habermas, J. (1989). The structural transformation of the pub-
+lic sphere: An inquiry into a category of bourgeois society. 
+Cambridge, MA: MIT Press. (Original work published 1962)
+Habermas, J. (1996). Between facts and norms: Contributions to 
+a discourse theory of law and democracy (W. Rehg, Trans.). 
+Cambridge, MA: MIT Press.
+Hidri, A. (2012). The fifth estate: Media and ethics. Journal of Arab & 
+Muslim Media Research, 5, 1–27. doi:10.1386/jammr.5.1.49_1
+Hokkanen, M. (2013, April 24). Tahdon2013-tukikonsertissa rokat-
+tiin rakkauden nimeen [In the I do 2013 support concert people 
+rocked in the name of love]. City Digital. Retrieved from http://
+www.city.fi/yhteiskunta/tahdon2013-tukikonsertissa+rokattiin
++rakkauden+nimeen/5822/
+Kushin, M. J., & Kitchener, K. (2009). Getting political on social 
+network sites: Exploring online political discourse on Facebook. 
+First Monday,  14(11). Retrieved from http://firstmonday.org/
+htbin/cgiwrap/bin/ojs/index.php/fm/article/viewArticle/2645/
+Lai, L. S. L., & Turban, E. (2008). Group formation and operations in 
+the web 2.0 environment and social networks. Group Decision 
+and negotiation, 17, 387–402. doi:10.1007/s10726-008-9113-2
+Lim, M. (2012). Clicks, cabs, and coffee houses: Social media 
+and oppositional movements in Egypt, 2004–2011. Journal 
+of Communication,  62, 231–248. doi:10.1111/j.1460-2466. 
+2012.01628.x
+Morozov, E. (2009, May 19). The brave new world of slacktiv-
+ism.  Foreign Policy. Retrieved from http://www.npr.org/
+templates/story/story.php?storyId=104302141
+Newman, N., Dutton, W. H., & Blank, G. (2012). Social media in the 
+changing ecology of news: The fourth and fifth estates in Britain. 
+International Journal of Internet Science, 7(1), 6–22. Retrieved 
+from http://www.ijis.net/ijis7_1/ijis7_1_newman_et_al.pdf
+Nordenstreng, K., & Wiio, O. A. (2012). Suomen mediamaisema 
+[Finnish media scene]. Tampere, Finland: Vastapaino.
+Papacharissi, Z. (2013). A networked self: Identify performance and 
+sociability on social network sites. In F. L. F. Lee, L. Leung, J. 
+L. Qiu, & D. S. C. Chu (Eds.), Frontiers in new media research 
+(pp. 207–221). New York, NY: Routledge.
+Rainie, L., & Wellman, B. (2012, May 24). Networked individual-
+ism: What in the world is that? (Pew Internet: Pew Internet 
+and American Life Project). Retrieved from http://networked.
+pewinternet.org/2012/05/24/networked-individualism-what-
+in-the-world-is-that-2/
+Rane, H., & Salem, S. (2012). Social media, social movements 
+and the diffusion of ideas in the Arab uprisings. Journal of 
+International Communication, 18, 97–111.
+Reunanen, E., Kunelius, R., & Noppari, E. (2010). Mediatization 
+in context: Consensus culture, media and decision making in 
+the 21st century, the case of Finland. Communications,  35, 
+287–307. doi:10.1515/comm.2010.016
+Snow, D. A., Soule, S. A., & Kriesi, H. (2004). Mapping the terrain. In 
+D. A. Snow, S. A. Soule, & H. Kriesi (Eds.), The Blackwell com-
+panion to social movements (pp. 3–16). Malden, MA: Blackwell.
+Statistic Brain. (2014). Facebook statistics. Retrieved from http://
+www.statisticbrain.com/facebook-statistics/
+Statistics Finland. (2014a). Puolet suomalaisista yhteisöpalve-
+luissa (korjattu) [Half of Finns are on social network 
+sites]. Retrieved from http://www.stat.fi/til/sutivi/2014/
+sutivi_2014_2014-11-06_kat_004_fi.html
+Statistics Finland. (2014b). Use of information and communications 
+technology by individuals: One half of Finnish residents par-
+ticipate in social network services. Retrieved from http://www.
+stat.fi/til/sutivi/2014/sutivi_2014_2014-11-06_tie_001_en.html
+Tamminen, J. (2013, March 31). Facebook-ilmiö yllätti isän—
+“Suuremman luokan temppu” [Facebook phenomenon surprised  
+father—“Larger scale stunt”]. Uusi Suomi. Retrieved from 
+http://www.uusisuomi.fi/kotimaa/58008-875-grammaa-
+ryhmasta-tuli-ilmio-facebookissa/
+World Audit. (2014). Democracy table January 2014. Retrieved 
+from http://www.worldaudit.org/democracy.htm
+Zimbra, D., Abbasi, A., & Chen, H. (2010). A cyber-archaeology 
+approach to social movement research: Framework and case 
+study.  Journal of Computer-Mediated Communication,  16, 
+48–70. doi:10.1111/j.1083-6101.2010.01531.x
+16  Social Media + Society
+Appendix
+Facebook Pages’ Offline Activity Evaluations for Determining Quantifiable Values.
+Page and value Administrators’ offline activities Members’ offline activities
+875 grams Various offline activities performed by the 
+leader, such as TV appearances, newspaper 
+interviews, participation in fundraising events, 
+and a published book on the issue
+Members mostly function as a support base 
+on FB. FB wall communication indicates 
+some statements of interest and participation 
+in activities
+A = 5/M = 3 No event creation info on FB No event participation info on FB
+General Strike 
+15.10.2010
+The leader encouraged members to take part 
+in one demonstration on the strike starting 
+date in Helsinki or their home towns
+According to news stories, only around 20 
+people gathered in front of the congress 
+building to protest with posters and 
+megaphones despite indicated will on FB wall
+A = 2/M = 2 One event presented on FB 117 event participation confirmations on FB
+I do 2013 Various newspaper and TV interviews and 
+numerous events, concerts, standup shows, 
+picnics, and recruiting local leaders to form 
+signature gathering groups on the streets 
+initiated by the leader(s)
+FB wall communication indicates strong 
+interest in and support for various offline 
+activities
+A = 5/M = 5 11 events presented on FB 2,339 event participation confirmations on FB
+Kimmo Wilska support 
+group
+No event or other offline activities suggested, 
+encouraged, or reported
+No suggestions or indication of participation 
+in offline activities
+A = 1/M = 1 No event creation info on FB No event participation info on FB
+Chow Radar No event or other offline activities suggested, 
+encouraged, or reported
+No suggestions or indication of participation 
+in offline activities
+A = 1/M = 1 No event creation info on FB No event participation info on FB
+I promise to use Viking 
+Line ships if new vessels 
+are ordered from Finland
+Leader has made many FB wall reports 
+of contacting and meeting with company 
+representatives and organizing group 
+celebration cruises
+FB wall communication indicates quite strong 
+interest in and support for offline activities, 
+for example, participation in the group 
+cruise, meetings, and indications of keeping 
+the cruising promise
+A = 5/M = 3 No event creation info on FB No event participation info on FB
+Sensible days No event or other offline activities suggested, 
+encouraged, or reported
+No suggestions or indication of participation 
+in offline activities
+A = 1/M = 1 No event creation info on FB No event participation info on FB
+Myyrmäki movement Various offline activities organized from 
+streets cleaning, yard sales, and dinners to 
+general meetings initiated by the leader(s)
+FB wall communication and event 
+pictures indicate quite strong interest and 
+participation in offline activities
+A = 5/M = 4 46 events presented on FB 2,441 event participation confirmations on FB
+Unusual matters Some encouragement and reports of 
+recruiting local volunteers by the leader(s). 
+Mostly info around other projects’ events
+FB wall communication indicates small levels 
+of interests and participation in offline events
+A = 2/M = 2 One event presented on FB Three event participation confirmations on FB
+Hate has no room in 
+Finland
+No event or other offline activities suggested, 
+encouraged, or reported
+No suggestions or indication of participation 
+in offline activities
+A = 1/M = 1 No event creation info on FB No event participation info on FB
+“Program is barely 
+subtitled”
+ 
+A = 1/M = 1  
+Save Our Burgers  
+A = 1/M = 1  
+FB: Facebook; A: administrators’ numerical overall activity evaluation value; M: members’ numerical overall activity evaluation value.
+Author Biographies
+Niina Sormanen (MA) is a PhD student of Organizational Com-
+munication and Public Relation (PR) at the University of Jyväskylä, 
+Department of Communication. Her research interests include com-
+municative behavior of organizational and media professionals and 
+individuals in the social media context and uses of social media in 
+building communicative power.
+William H. Dutton is the Quello Professor of Media and Information 
+Policy in the College of Communication Arts and Sciences at 
+Michigan State University, where he is Director of the Quello 
+Center. Bill was the first Professor of Internet Studies at the 
+University of Oxford where he was founding director of the Oxford 
+Internet Institute. His research on Internet Studies increasingly 
+focuses on the Fifth Estate and related issues of Internet policy, 
+regulation, and governance.
+Citations (19)
+References (46)
+... For some time in Western scholarship, the impact of various types of collective action (e.g., offline on the street, online on social media) have sparked up a controversial debate in the literature (Boulianne, 2009(Boulianne, , 2018)-with some arguing that online action is mere "slacker action" with little consequence in the real world (Sormanen & Dutton, 2015), and others arguing that online action can propel individuals toward sociopolitical change (Quintelier & Vissers, 2008). Over time, scholarship has made it clear that online and offline forms of political engagement are intertwined and inseparable today, forming a "hybrid" type of engagement in the quest for social justice and rendering slacktivism discussions obsolete (Milošević-Đorđević & Žeželj, 2017, p. 113; see also Gibson & Cantijoch, 2013;Valenzuela, 2013). ...
+... In a similar vein, political or civic action on the Internet has raised concerns that it represents "slacker action" (i.e., action that satisfies a media users' need to become engaged with socio-political concerns, but has little consequence in the real world-other than heightening the user's self-esteem ;Hsiao & Yang, 2018;Morozov, 2009;Schumann, 2015). Put differently, Internet actions such as signing online petitions, liking political posts, using a hashtag as part of a political discussion, have been considered to be nothing but easy, low-risk, and noncommittal ways of feeling good about oneself, though with little sociopolitical impact (Harlow & Guo, 2014;Hsiao & Yang, 2018;Lee & Hsieh, 2013;Sormanen & Dutton, 2015). 4 See https://www.change.org/p/dogadan-cay-kad%C4%B1nlar-ne-ister-adl%C4%B1-cinsiyet%C3%A7i-reklam%C4%B1n%C4%B1z-i%C3%A7in-%C3%B6z%C3%BCr-dileyin 5 See https://twitter.com/Dogadan_Cay/status/593018497564835840 ...
+... The academic discourse on political and civic action on the Internet is much less consistent, however, with some studies providing evidence for the slacktivism argument (e.g., Kristofferson, White, & Peloza, 2014;Sormanen & Dutton, 2015) and other studies showing that online political and civic action can, in fact, have very useful ramifications for change in the real word (Hsiao, 2018;Jost et al., 2018;Milošević-Đorđević & Žeželj, 2017;Quintelier & Vissers, 2008;Valenzuela et al., 2018) ...
+Voices Against Misogyny in Turkey: The Case of a Successful Online Collective Action Against a Sexist Commercial
+Article
+Full-text available
+Oct 2020
+Özden Melis Uluğ
+Özen Odag
+Nevin Solak
+View
+Show abstract
+... For example, Facebook contains today various communities formed by individuals concerned with specific societal issues. Many of the communities that protest against, or lobby businesses, often also attract news media attention (see Sormanen & Dutton, 2015). Moreover, Valentini (2015) notes that audiences have become more aware and sceptic of the tactics and marketing of companies due to social media. ...
+... In recent times powerful online social movements and communities have emerged Facebook pressure groups monitoring activities of businesses and using group pressure to affect business decisions (Sormanen & Dutton, 2015). Groups also form in response to both poorly constructed news stories and the general activities of Finnish newspapers (see Uskali, Niskala, & Lauk, 2014) and bloggers contesting societal issues have become quite popular. ...
+Business and News Media Perspectives on the Power of Social Media Publics: Case Finland
+Article
+Full-text available
+Dec 2018
+Niina Sormanen
+View
+Show abstract
+... Currently, Facebook hosts a large number of politically motivated user groups created by political actors and civil activists that reach wide audiences (Gustafsson, 2012;Park et al., 2009;Warren et al., 2014). Previous studies have pointed out that groups on Facebook can promote societal change and provide users with a channel for expressing counter-discourses to the dominant public voice (Gachau, 2016;Pruchniewska, 2019;Sormanen & Dutton, 2015). However, there is a darker side to social media, and research has pointed out the harmful effects of such platforms on political, economic, and social life, particularly due to the widespread dissemination of misinformation and hate speech through them Del Vicario et al., 2016;Gagliardone et al., 2015). ...
+Boundary Control as Gatekeeping in Facebook Groups
+Article
+Full-text available
+Oct 2021
+Sanna Malinen
+View
+Show abstract
+... The social and political significance of social media due to its communicative power (Sormanen and Dutton, 2015) has been increasingly used by local administrations to promote public engagement (Agostinho, 2013). ...
+Building trust, resilient regions, and educational narratives: Municipalities dealing with COVID-19 in border regions of Portugal
+Article
+Jul 2021Eur Educ Res J
+Sofia Marques da Silva
+View
+Show abstract
+... Other authors consider that civic participation studies tend to address traditional (offline) modes of activism or formal modes of public participation (either offline or online: e.g., signing a petition, taking part in a formal consultation process or formal governmental public decisionmaking process), and are less focused on minors and new forms of civic activity (Milošević-Đorđević & Žeželj, 2017). The latter may include actions such as liking, sharing or commenting on images, videos, GIFs or any other media object, which involve interactive technologies and are less hierarchically structured than formal participation channels Thus, young people's actions are often seen as fruitless or associated to online pseudo-activism or "clicktivism" (Sormanen & Dutton, 2015;Tarrow, 2014). ...
+The internet as a global playground: young citizens and informal spaces of agency, a Portuguese case study
+Article
+Oct 2019Mind Cult Activ
+Tania Fonseca
+View
+Show abstract
+... and Sormanen and Dutton (2015) who openly disclose the details of the social media communities where the data were extracted. However, this approach does not seem to be dominant, because it may allow the identification of any individual research participant. ...
+It is not that funny. Critical analysis of racial ideologies embedded in racialized humour discourses on social media in Brazil
+Thesis
+Aug 2018
+Luiz Valerio de Paula Trindade
+View
+Show abstract
+Watching the Watchdogs: A Conceptual Model for Media Accountability in a Non-Western Country
+Article
+Jul 2021Journalism Pract
+Dr Bouziane Zaid
+Donghee Shin
+Abdelmalek El Kadoussi
+Mohammed Ibahrine
+View
+Show abstract
+PEACE EDUCATION IN NEPAL: SOCIAL MEDIA AS A TOOL FOR CONFLICT TRANSFORMATION
+Thesis
+Full-text available
+Aug 2020
+Tobias Volz
+View
+Show abstract
+Meinungsbildungsrelevanz von Online-Medien: Eine empirische Studie. Forschungsbericht 2017/2018, Hochschule für Angewandte Wissenschaften Hamburg, Department Information, Juli 2018
+Research Proposal
+Full-text available
+Jul 2018
+Martin Gennis
+Hardy Gundlach
+View
+Show abstract
+Social Media as the Fifth Estate in Nigeria: An Analysis of the 2012 Occupy Nigeria Protest
+Article
+Nov 2018
+Temple Uwalaka
+Jerry Watkins
+View
+Show abstract
+Show more
+Recommendations
+Discover more
+Project
+SOMERI (Social Media Research Institute Network)
+Epp Lauk
+Turo Uskali
+Margareta Salonen[...]
+Jukka Jouhki
+SOMERI – Social Media Research Institute is a network for scholars, public service and business experts, and other interested actors in the field of social media and digital research. SOMERI provi ... [more]
+View project
+Project
+LUOTSIVA: Building trustworthiness and engagement: The use of Finnish Newspapers’ Facebook pages as the means for strengthening the relationship between newsrooms and their social media audience
+Margareta Salonen
+Epp Lauk
+Niina Sormanen
+The project aims at improving interaction between newsrooms and their audiences via the newspapers’ Facebook pages. LUOTSIVA is seeking for new ways of engaging the readers and strengthening their ... [more]
+View project
+Project
+#Agents - Young People's Agency in Social Media
+Jesse Tuominen
+Terhi-Anna Wilska
+Hanna Reinikainen[...]
+Vilma Luoma-aho
+The aim of this research project is to examine how young people aged 15-19 act in social media environments both as influencers and targets of influence. The project focuses on both the bright and ... [more]
+View project
+Project
+Quello Center: Digital Divide
+Whisnu Triwibowo
+Bianca Reisdorf
+William H Dutton
+View project
+Article
+Collective action frames and Facebook fan and group pages: the case of the Russian Snow Revolution 2...
+November 2013
+Yulia Lukashina
+The article reveals the shortcomings of the framing strategies of the Russian Snow Revolution movement. The author hopes that this scholarly endeavor can help activists of different movements to present and frame their ideas in a best way. Moreover, the study investigates whether Facebook provides a space for the framing processes and whether it helps sympathizers of the social movement to take ... [Show full abstract]
+Read more
+Article
+CONCEPTUALIZAR EL PAPEL DE LAS REDES SOCIALES EN INTERNET EN MOVIMIENTOS SOCIALES Y ACCIONES COLECTI...
+Bertín Valadés García
+Resumen Con la aparición de plataformas como Twitter, Facebook y YouTube se han redefinido y potenciado ciertas dinámicas y fenómenos sociales. El presente artículo reflexiona sobre la conceptualización que académicos como Castells, Melucci, Rheingold, entre otros, han empleado para dimensionar hasta dónde las llamadas redes sociales en Internet influyen en la conformación de movimientos sociales ... [Show full abstract]
+Read more
+Article
+Full-text available
+Social Browsing & Information Filtering in Social Media
+November 2007
+Kristina Lerman
+Social networks are a prominent feature of many social media sites, a new generation of Web sites that allow users to create and share content. Sites such as Digg, Flickr, and Del.icio.us allow users to designate others as "friends" or "contacts" and provide a single-click interface to track friends' activity. How are these social networks used? Unlike pure social networking sites (e.g., LinkedIn ... [Show full abstract]
+View full-text
+Article
+Full-text available
+Public spheres, political crisis and the internet: The rise of the Podemos party
+December 2015 · História Ciências Saúde-Manguinhos
+Ariel Ernesto Jerez
+Sergio D'Antonio MaceirasEnrique Maestu
+The rise of the political party Podemos, within the context of a crisis in political representation, can be explained from a perspective of transformative interactions between public spheres, social movements and new technologies. The emergence of the 15M movement allowed Podemos to offer a new diagnosis of politics that has been actively promoted on social media, which represent a true campaign ... [Show full abstract]
+View full-text
+Last Updated: 09 May 2021
+	
+or
+	Discover by subject area
+Recruit researchers
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2021 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprint

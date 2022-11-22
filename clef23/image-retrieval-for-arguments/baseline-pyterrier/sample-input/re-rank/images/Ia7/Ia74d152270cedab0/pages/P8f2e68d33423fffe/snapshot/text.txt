@@ -1,0 +1,1759 @@
+We value your privacy
+
+We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
+
+With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click to consent to our and our partners’ processing as described above. Alternatively you may access more detailed information and change your preferences before consenting or to refuse consenting. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. Your preferences will apply to a group of websites. You can change your preferences at any time by returning to this site or visit our privacy policy.
+
+MORE OPTIONS
+AGREE
+ArticlePDF Available
+Greek Anti-austerity Movement in Social Media: The Roles and Powers of Social Networks
+March 2019
+DOI:10.32625/KJEI.2019.18.211
+Authors:
+Sae Won Chung
+Pukyong National University
+Download full-text PDF
+Read full-text
+Download citation
+Copy link
+References (39)
+Figures (10)
+Abstract and Figures
+This study explores the roles and powers of social networks formed in social media by focusing on the case of Greek anti-austerity movements. This study adopted two different theoretical models. For the roles of social networks, Kidd and McKintosh’s three roles of social media in social movements. For the power of social networks, Castell’s theory of network power was adopted. This study applied an automated social network analysis. It employed NodeXL to conduct social media network analysis and visualise the results. For the social networks, this study looked at three major social media outlets—Facebook, Twitter and YouTube. The results can be summarised into the social networks’ roles and powers. For the roles of social networks, social media played a limited role regarding causing actual protests. For the power of social networks, social media limitedly has networking power, network power and networked power. This study’s main implication was that Greek anti-austerity protests can be re-emerged by social media, and they have some potential dangers. At the national level, the anti-austerity protests can hinder Greece’s democratic consolidation by strengthening far-right and far-left parties. At the European level, the protests can threaten solidarity among EU member states by enhancing Euroscepticism. Thus, it is vital to seek the proper measures to prevent further crises caused.
+Moreno's attempt made the interpersonal relationship as a medium of scientific analysis methodology, and this laid a foundation for social network analysis research. 51)
+… 
+Screenshot of Greek Anti-austerity Movement Facebook Page
+… 
+NodeXL Data Import for Facebook Page Network
+… 
+NodeXL Data Import for Twitter Search Network
+… 
++5
+NodeXL Data Import for YouTube Video Network
+… 
+Figures - uploaded by Sae Won ChungAuthor content
+Content may be subject to copyright.
+
+Discover the world's research
+
+20+ million members
+135+ million publications
+700k+ research projects
+Join for free
+Public Full-text 1
+Content uploaded by Sae Won Chung
+Author content
+Content may be subject to copyright.
+<Abstract>
+This study explores the roles and powers of social networks formed in social 
+media by focusing on the case of Greek anti-austerity movements. This study 
+adopted two different theoretical models. For the roles of social networks, Kidd 
+and McKintosh’s three roles of social media in social movements. For the power of 
+social networks, Castell’s theory of network power was adopted. This study applied 
+an automated social network analysis. It employed NodeXL to conduct social media 
+network analysis and visualise the results. For the social networks, this study looked 
+at three major social media outlets
+—
+Facebook, Twitter and YouTube. The results 
+can be summarised into the social networks’ roles and powers. For the roles of 
+social networks, social media played a limited role regarding causing actual protests. 
+For the power of social networks, social media limitedly has networking power, 
+network power and networked power. This study’s main implication was that Greek 
+anti-austerity protests can be re-emerged by social media, and they have some 
+potential dangers. At the national level, the anti-austerity protests can hinder 
+Greece’s democratic consolidation by strengthening far-right and far-left parties. At 
+the European level, the protests can threaten solidarity among EU 
+member states by enhancing Euroscepticism. Thus, it is vital to seek the proper 
+Greek  Anti-austerity  Movements  in  Social 
+Media: The Roles and Powers of Social 
+Networks
+*
+Sae  Won CHUNG
+**
+1)
+ * This work was supported by a Korea University Grant in 2019. 
+** Research Professor, Graduate School of International Studies, Korea University 
+(swchung37@korea.ac.kr)
+통합유럽연구 제10권 1호
+DOI    https://doi.org/10.32625/KJEI.2019.18.211
+212  제10권 1집(통권 제18호, 2019년 3월)
+measures to prevent further crises caused.
+Key words: Greek Financial Crisis, Anti-austerity movements, roles of social media, 
+          network theory of power, Social Network Analysis,  social media
+차    례
+Ⅰ.  Introduction
+Ⅱ.  Conceptual  Framework
+Ⅲ. Materials and Methods
+Ⅳ.  Results
+Ⅴ.  Discussion  and  Concluding  Remarks
+I.  Introduction
+In 2009, the Greek government announced its budget deficit, which worth 12.9 
+per cent of its Gross Domestic Product (GDP). Since then, EU leaders have 
+struggled to find out the way to overcome this deficit. Since February 2015, 
+Eurozone creditors have provided Greece with the loan which amounts 
+€ 
+294.7 
+billion, but it has repaid 
+€ 
+41.6 billion to them.
+1)
+ To deal with such a deficit, the 
+creditors requested a series of austerity measures. Implementation of Greek austerity 
+package has led to other consecutive crises such as a ‘health economic crisis,’
+2)
+ ‘a 
+socio-political crisis’ and ‘a humanitarian crisis.’
+3)
+ 
+1) Charles Forelle, Pat Minczeski, and Elliot Bentley, “Greece’s Debt Due. First Published 
+2015,” In 
+The Wall Street Journal, 
+http://graphics.wsj.com/greece-debt-timeline/ (
+검색
+일
+: 2018.8.6).
+2) Callum Willams and Mahiben Maruthappu, “Healthconomic Crises: Public Health and 
+Neoliberal Economic Crises,” 
+American Journal of Public Health
+, Vol.103 (2013), p.7.
+3) Dimitris Dalakoglou, “The Crisis Before “the Crisis”: Violence and Urban 
+Neoliberalisation in Athens,” 
+Social Justice
+, Vol.39 (2013a), pp.24-42; Dimitris 
+Dalakoglou,  “The Movement and the ‘Movement’ of Syntagma Square. Fieldsights
+—
+Hot Spots,” 
+Cultural Anthropology Online, 
+ 
+https://culanth.org/fieldsights/70-the-movement-and-the-movement-of-syntagmasquare (
+검
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  213
+This deficit also impacted significantly on Greek political atmosphere. In January 
+2015, the Greek public chose the Syriza Party, the leftist and anti-austerity party, 
+made a landslide victory by beating the two-party system (New Democracy and 
+Panhellenic Socialist Movement) lasted for past 40 years. In June the same year, 
+Greece is in default to the bailout fund, and this led following tough discussions 
+between Prime Minister Tsipras and European creditors for having another bailout 
+programme. On 13 July, in exchange of the 
+€ 
+86 billion bailouts, the Greek 
+government must implement privatisation of state assets, pension reforms 
+(abolishing poverty pension by 2017 and raising pension age from 65 to 67), and 
+tax reform. 
+Ongoing austerity caused the massive budget cut for welfare, healthcare and 
+education, and led to lower income, fewer jobs, higher unemployment rates, 
+decreasing social stability and increasing social exclusion, poverty and inequalities.
+4)
+ 
+During the period of ongoing austerity, young demographics were the most 
+vulnerable and affected.
+5)
+ Before the Crisis, young people had been labelled 
+‘generation 700 Euros’ reflecting their average monthly wage. After the Crisis, this 
+labelling has been changed into ‘generation 300 Euros.’
+6)
+ Unemployment rates for 
+15-24 age group have strikingly increased from 19.6% in 2008 to 64.9% in 2013, 
+and that for 25-34 age group has increased from 10.2% in 2008 to 37.7% in 2013.
+7)
+Since 2010, the Greek public protesters rally against the Greek austerity measures 
+and EU Troika
+—
+European Commission, European Central Bank and the IMF. 
+From 2010 to 2015, there have been three waves of anti-austerity movements in 
+색일
+: 2018.1.25).
+4) Dimitris Anagnostopoulos and Eugenia Soumaki, “The State of Child and Adolescent 
+Psychiatry in Greece during the International Financial Crisis: a Brief Report,” 
+European Child & Adolescent Psychiatry
+, Vol.22 (2013), pp.131-34. 
+5) Sofia Triliva, Christos Varcantakis, and Manolis Dafermos, “YouTube, Young People, 
+and the Socioeconomic Crisis in Greece,” 
+Information, Communication & Society
+, 
+Vol.18 (2015), pp.407-23.
+6) 
+Ibid
+.
+7) 
+Ibid.
+214  제10권 1집(통권 제18호, 2019년 3월)
+Greece.
+8)
+ The first wave was mainly about the anti-austerity mass protests and 
+demonstration occurred in May 2010.
+9)
+ The second wave was recurrent of the 
+previous protests and strikes in 2011. This wave shows not only the increase in 
+participation
+10)
+ but also an expansion of its activities
+—
+the occupation of central 
+squares.
+11)
+ Mid-2012 onwards, the third wave of this movement emerged, and this 
+wave turned the Coalition of the Radical Left (SYRIZA) from a previously marginal 
+party to a ruling party in 2015.
+12)
+ The contents of such protests have been 
+circulated through the extensive use of internet technologies, and they are shared in 
+Cyberspace.
+13)
+ Vraga 
+et al.
+ pointed out that social media changed the basis of 
+protest and activism due to the social media’s flexibility, diversity of format and 
+speed of information dissemination to the general public.
+14)
+   
+This paper aims to explore the social media’s roles and impact upon 
+anti-austerity movements in Greece by focusing on the networks formed by the 
+major social media
+—
+Facebook, Twitter and YouTube. Recent literature on Greek 
+8) Georgios Karyotis and Wolfgang Rüdig, “The Three Waves of Anti-austerity Protest in 
+Greece, 2010
+–
+2015,”  
+Political Studies Review
+, Vol.16 (2017), pp.1-12.
+9) Wolfgang Rüdig and Karyotis Georgios, “Who Protests in Greece? Mass Opposition to 
+Austerity,”
+ British Journal of Political Science
+, Vol.44 (2014), pp.487
+–
+513.
+10) Mario Diani and Maria Kousis, “The Duality of Claims and Events: the Greek 
+Campaign Against the Troika’s Memoranda and Austerity, 2010
+–
+2012,” 
+Mobilization: 
+An International Journal
+, Vol.19 (2014), pp.387
+–
+404.
+11) George Mayrommatis, “Hannah Arendt in the Streets of Athens,” 
+Current Sociology
+, 
+Vol.63 (2015), pp.432
+–
+49. 
+12) Paris Aslanidis and Nikos Marantzidis, “The Impact of the Greek Indignados on 
+Greek Politics,” 
+Southeastern Europe,
+ Vol.40 (2016), pp.125-57.
+13) Panagiotis Sotiris, “Rebels with a Cause: the December 2008 Greek Youth Movement 
+as the Condensation of Deeper Social and Political Contradictions,” 
+International 
+Journal of Urban and Regional Research,
+ Vol.34 (2010), pp.203-09; Chryssanthi 
+Petropoulou, “From the December Youth Uprising to the Rebirth of Urban Social 
+Movements: A Space-time Approach,”
+ International Journal of Urban and Regional 
+Research
+, Vol.34 (2010), pp.217-24.
+14) Emily Vraga, Leticia Bode, Chris Wells, Kevin Driscoll, and Kjerstin Thorson,  “The 
+Rules of Engagement: Comparing Two Social Protest Movements on YouTube,” 
+CyberPsychology, Behavior, and Social Networking
+, Vol.17 (2014), pp.133-40.
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  215
+financial crisis with a network analysis approach has explored networks of stocks
+15)
+ 
+and a network of words with an emphasis on financial vocabulary.
+16)
+ These works 
+have focused on the social networks’ economic and political aspects of the Greek 
+financial crisis. Specifically, this paper will concentrate on the societal aspects of the 
+anti-austerity movement, and it is also known as indignant citizens’ movement
+—
+‘
+Κί
+νημα  Αγανακτισμένων  Πολιτών—
+Kínima Aganaktisménon-Politón
+ in Greek
+.
+ 
+The social network analysis is the method of this study. For exploring the roles, 
+this study tests three positions suggested by Kidd and McIntosh.
+17)
+ The first 
+position is the techno-optimism. In this position, social media technologies can 
+solve social problems (in here, they are anti-austerity protests). The second one is 
+techno-pessimism. In this position, the social media’s roles are either superficial or 
+exaggerated. The last one is techno-ambivalence, which falls in the middle of the 
+spectrum between the two positions above.
+18)
+ The researchers in this position claim 
+that the role of social media is somewhat limited in several specified areas. For 
+example, Murthy argues that Twitter played several possible roles: 1) real-time 
+information streamers, 2) a means for information updates, 3) a means to organise 
+disparate activist groups on the ground.
+19)
+ 
+For exploring power, this study tests four different forms of power: networking 
+power, network power, networked power and network-making power.
+20)
+ The first 
+one refers to the power deriving from actors and organisations in the networks. 
+15) Kydros Dimitrios and Oumbailis Vasileios, “A Network Analysis of the Greek Stock 
+Market,” 
+Procedia Economics and Finance
+, Vol.33 (2015), pp.340-349.
+16) Kydros Dimitrios and Anastasios Anastasiadis, “Greek Political Language during the 
+Economic Crisis
+—
+a Network Analytic Approach,” 
+Social Networking
+, Vol.6 (2017), 
+pp.164-80. 
+17) Dustin Kidd and Keith McIntosh, “Social Media and Social Movements,” 
+Sociology 
+Compass
+, Vol.10 (2016), pp.785-94. 
+18) 
+Ibid.
+19) Kidd and McIntosh, 
+op. cit.
+, p.790. 
+20) Manuel Castells, “A Network Theory of Power,” 
+International Journal of 
+Communication
+, Vol.5 (2011), pp.773-87.
+216  제10권 1집(통권 제18호, 2019년 3월)
+The second one means that the power is coming from coordinating social 
+interactions in the networks. The third one is the power coming from the influence 
+chain between some actors and other actors. The last one is the power to 
+programme specific networks and the power to switch different networks.
+21)
+ For 
+the data analysis and visualisation, this paper employed NodeXL. Afterwards, this 
+paper will conclude by discussing the social media’s role and impact on 
+anti-austerity protests of the Greek financial crisis.  The research questions of this 
+paper are as follows.
+(1) What are the roles of the social network in social media have on 
+anti-austerity protests?
+(2) What kind of power is there in the social network in the social media on 
+anti-austerity protests?
+II.  Conceptual  Frameworks
+1  Theoretical  Frameworks
+1) Three Roles of the Social Media
+Kidd and McIntosh asked this question “what role do the social media play in 
+social movements and political unrest?” to explore the relationship between social 
+networking and social movements.
+22)
+ After reviewing existing literature, they 
+provided three different groupings of the social media’s influence upon social 
+movements: techno-optimism, techno-pessimism and techno-ambivalent. 
+Techno-optimism refers to those approaches that emphasise the potential of social 
+media technologies to solve social problems. In techno-optimism, Castells 
+emphasised the power of the network and the real power of the network come 
+21) 
+Ibid.
+22) Kidd and McIntosh, 
+op. cit.
+, p.785. 
+Greek Anti-aust eri ty  Movements i n Soci al Media: The Roles and Powers of Social Networks
+  217
+from members of the information society.
+23)
+ In other words, social media plays a 
+vital role in forming the power of network and influence significantly upon forming 
+social movements. One of his recent volumes provided the different cases of social 
+movements in the world like Tunisia’s Jasmine Revolution, Iceland’s Kitchenware 
+Revolution, Egyptian Revolution, Arab Uprisings Violence, and Rhizomatic 
+Revolution (
+Indignadas
+ in Spain).
+24)
+ In addition, Lotan and their colleagues 
+investigated social media’s (Twitter) influence upon Tunisian and Egyptian uprisings, 
+and they drew a couple of conclusions: 1) the social media has changed the format 
+of journalism
+—
+a conversation across diverse ranges of actors
+—
+and, 2) within the 
+network, activists and bloggers are vital sources of information.
+25)
+ The active 
+member of the network seemed to be agenda-setters in this movement. Tugekci and 
+Wilson attempted to find out the impact of social media on Egypt’s Tahrir Square 
+protests participants by conducting surveys.
+26)
+ They suggested Facebook and Twitter 
+were important social media in the protest which led to the resignation of Egyptian 
+President Mubarak.
+Techno-pessimism characterises the work of those who consider the promises of 
+social media to be hyperbolic and superficial. In techno-pessimism, Morozov 
+suggests cyber-realism which says that social media is not a catalyst for social 
+movements, but the significant catalysts are traditional social, political and economic 
+arrangements.
+27)
+ Hassanpour supports techno-pessimism because the demographics 
+23) Castells, 
+op. cit.
+24) Manuel Castells, 
+Networks of Outrage and Hope: Social Movements in the Internet 
+Age
+ (Polity Press, 2013).
+25) Gilad Lotan, Erhardt Graeff, Mike Ananny, Devin Gaffney, Ian Pearce, and Danah 
+Boyd, “The Revolutions were Twitted: Information Flows during the 2011 Tunisian 
+and Egyptian Revolutions,” 
+International Journal of Communication
+, Vol.5 (2011), 
+pp.1375-1405. 
+26) Zeynep Tufekci and Christopher Wilson, “Social Media and the Decision to 
+Participate in Political Protest: Observations from Tahrir Square,” 
+Journal of 
+Communication
+, Vol.62 (2012), pp.363-79. 
+27) Evgeny Morozov, 
+The Net Delusion: The Dark Side of Internet Freedom 
+(Public 
+Affairs, 2011).
+218  제10권 1집(통권 제18호, 2019년 3월)
+can find out alternative sources of communication for the protests in case of 
+blackouts of social media platforms.
+28)
+ Christensen pointed out the social media can 
+be a useful tool for the protestors, but we should not have the implicit trust of 
+social media in the cases of protests.
+29)
+Techno-ambivalence prefers to take an intermediary position between two 
+previously mentioned positions. In techno-ambivalence, the researchers believe the 
+impact of social media bears ambiguity, so they maintain their critical attitudes by 
+assessing the limitations of such technology. Murthy’s work explores social media’s 
+role in activism on Arab Springs.
+30)
+ Murthy suggested that it is impossible to 
+measure the relevance of Twitter upon the revolution, but Twitter served specific 
+roles for the revolution: a real-time information stream for local consumption, a 
+tool for disseminating local information for international audiences, and a tool to 
+“organise disparate activist groups on the ground.”
+31)
+ Murthy believes the second 
+and third roles might have a great impact. Gerbaudo explored and compared the 
+cases of Cairo uprisings, the Spanish Indignados movement and Occupy Wall Street 
+for assessing the level of power of social media in case of social movements.
+32)
+ He 
+presented that social media played a crucial role in Egypt and Spain cases, but the 
+social media were underused in the Occupy movement. Kamel employed the 
+ambivalent approach to explore the socio-political transformation of Egypt.
+33)
+  In 
+here, “Egypt’s uprising was a function of people, passion and not of any particular 
+28) Navid Hassanpour, “Media Disruption and Revolutionary Unrest: Evidence from 
+Mubarak’s Quasi-Experiment,” 
+Political Communication
+, Vol.31 (2014), pp.1-24.
+29) Christian Christensen, “Twitter Revolutions? Addressing Social Media and Dissent,” 
+The Communication Review
+, Vol.14 (2011), pp.155-57.
+30) Dhiraj Murthy, 
+Twitter: Social Communication in the Twitter Age
+ (Polity Press, 
+2013).
+31) 
+Ibid
+.
+32) Gerbaudo, Paolo, and Mario Pianta, “In Search of European Alternatives: 
+Anti-austerity Protests in Europe,” M. Kaldor, S. Selchow, and T. Marray-Leach, 
+Eds., 
+Subterranean politics in Europe
+ (Palgrave Macmillan, 2015), pp.31-59.  
+33) Shrif Kamel, “Egypt’s Ongoing Uprising and the Role of Social Media: is there 
+Development?”
+ Information Technology for Development
+, Vol.20 (2014), pp.78-91.  
+Greek Anti-austerit y Movements in Social  Media: The Roles and Powers of  Social Net works
+  219
+communication technology, social media tool or application.”
+34)
+ Kreiss and Tufekci’s 
+study was on the social media’s ambivalence in the context of the Occupy 
+movement).
+35)
+ Poell investigated on Toronto Community Mobilisation Network and 
+illustrated the ambiguous nature of social media.
+36)
+ Kidd and McIntosh concluded 
+that the substantial form of the impact of social media could be ambiguous, but 
+social media will be retained as a useful tool for the social movement.
+37)
+2) Castells' Network Theory of Power
+Castells believes that network can exhibit its power in society.
+38)
+ He claims the 
+power in the network consists of four different forms of power: 1) 
+Networking 
+Power 
+(focusing on the power of members or organisations within the specific 
+network); 2) 
+Network Power 
+(focusing on the power come from social interaction 
+process); 3) 
+Networked Power
+ (focusing on a group of specific actors’ power upon 
+other group of other social actors within the network); and, 4) 
+Network-making 
+Power
+ (focusing on the power to programme specific network and the power to 
+switch different networks or forming alliances between dominant actors of various 
+networks).
+Considering the global cases of a social movement, revealing the relations 
+between Greek anti-austerity movement and social media deserves its academic 
+attention. The literature exploring such relations pointed out the social media has 
+several significant roles in this movement by enabling the creation of 
+“representations and reverberations,”
+39)
+ materialisation,
+40)
+ useful information 
+34) Kamel, 
+op. cit.
+, p.78.
+35) Daniel Kreiss, and Zeynep Tufekci. “Occupying the Political: Occupy Wall Street, 
+Collective Action, and the Rediscovery of Pragmatic Politics,” 
+Cultural Studies 
+Critical Methodologies
+, Vol.13 (2013), pp.163-67. 
+36) Thomas Poell, “Social Media and the Transformation of Activist Communication: 
+Exploring the Social Media Ecology of the 2010 Toronto G20 Protests,” 
+Information, Communication & Society
+, Vol.17 (2014), pp.716-31.
+37) Kidd and McIntosh, 
+op. cit.
+38) Castells, 
+op. cit.
+220  제10권 1집(통권 제18호, 2019년 3월)
+dissemination to the public,
+41)
+ political mobilisation for the activists.
+42)
+ The 
+interaction between social media and this movement has recently received a 
+considerable amount of attention, but the literature focused on Twitter.
+43)
+ Triliva et 
+al. focused on the case of YouTube’s influence upon this movement by conducting 
+multimodal analysis on the contents of five main videos related to the movement.
+44)
+ 
+This paper found that Facebook was neglected as the research medium despite its 
+influence upon this movement. Also, there is no comprehensive study based on the 
+various medium of social media. Thus, for filling in the gap of the literature, this 
+study will cover Greece’s leading social media platforms
+—
+Facebook, Twitter and 
+YouTube.
+45)
+ 
+2  Methodological  Framework:  Social  Network  Analysis
+Social Network Analysis (SNA) is an investigation of a social structure based on 
+networks and graph theory.
+46)
+ The concept of this theory states that “a graph is 
+39) Papailias, Penelope, “Beyond the 'Greek Crisis': Histories, Rhetorics, Politics,” 
+Cultural 
+Anthropology
+, 
+https://culanth.org/fieldsights/243-beyond-the-greek-crisis-histories-rhetorics-politics
+ 
+(
+검색일
+: 2018.1.22.)
+40) Triliva 
+et al. op. cit.
+41) Stamatis Poulakidakos, and Anastasia Veneti, “Political Communication and Twitter in 
+Greece: Jumps on the Bandwagon or an Enhancement of the Political Dialogue?” T. 
+Deelan, and I. Vobi, Eds. 
+(R)evolutionizing Political Communication through Social 
+Media.
+ (IGI Global, 2016).
+42) YannisTheocharis, “Every Crisis is a Digital Opportunity: The 
+Aganaktismenoi Movement’s Use of Social Media and the Emergence of Networked 
+Solidarity in Greece,” A. Bruns, E. Gunn, E. Skogerbo, A. Larsson, and C. 
+Christensen, Eds., 
+The Routledge companion to social media and politics
+ (Routledge, 
+2016), pp.185-197.
+43) Poulakidakos and Veneti, 
+op. cit.
+; Theocharis, 
+op. cit.
+44) Triliva 
+et al
+. 
+op. cit.
+45) 
+Socialbakers
+, https://www.socialbakers.com/resources/reports/greece/2017/december/ 
+(
+검색일
+: 2018.1.22)
+46) Evelien Otte, and Ronald Rousseau, “Social Network Analysis: A Powerful Strategy, 
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  221
+formed by vertices and edges connecting the vertices.”
+47)
+ Hansen et al. presented 
+central concepts of network analysis as a table.
+48)
+ The contents are presented in 
+Table 1.
+Table  1.  Central  Concepts  of  Social  Network  Analysis
+49)
+ 
+Terms Explanation
+Vertex A  communication  point,  representing  an  account  holder  in  the  social 
+media
+Edge A line trying nodes to represent their relationship
+Degree
+Centrali ty
+It assigns an importance score based purely on the number of links 
+held by each node. It is the most straightforward measure of node 
+connectivity.  The  results  are  usually  presented  in  the  forms  of 
+in-degree  (number  of  inbound  links)  and  out-degree  (number  of 
+outbound  links).
+Closeness 
+Centrali ty
+It measures scores each node based on their closeness to all other 
+nodes within the network. Finding out good disseminator is useful.
+Betweenness
+Centrali ty
+It  measures  the  number  of  times  a  node  lies  on  the  shortest  path 
+between other nodes. It is useful for analysing communication 
+dynamics finding out who holds authority over. 
+Eigenvector 
+Centrali ty
+It measures a node’s influence based on the number of links it has 
+to  other  nodes  within  the  network. 
+Page  Rank It  determines  the  importance  of  a  node  based  on  its  position  in the 
+network.
+Density How  highly  connected  the nodes  are  by  calculating  the  percentage  of 
+all  possible  connections  in  the  whole  network.
+Geodesic 
+Distance
+A measure based on the shortest path between two nodes in a 
+network.
+also for the Information Sciences,” 
+Journal of Information Science
+, Vol.28 (2002), 
+pp.441
+–
+53.
+47) Keijo Ruohone, "Graph Theory," http://math.tut.fi/~ruohonen/GT_English.pdf (
+검색
+일
+: 2019. 3. 21).
+48) Derek, Hansen, Ben Shneiderman, and Marc Smith, 
+Analysing Social Media Networks 
+with NodeXL: Insights from a Connected World
+ (Morgan Kaufmann, 2010).
+49) 
+Ibid
+.
+222  제10권 1집(통권 제18호, 2019년 3월)
+The analysed results are often visualised as a form of sociogramme. Moreno 
+employed a sociogramme to explore structures of classmates’ social relationships in 
+4
+th
+ Grade.
+50)
+ Moreno suggested a sociometric test as an analytic methodology of 
+interpersonal relationship and group structure. His sociogramme is presented in 
+Figure 1. Moreno’s attempt made the interpersonal relationship as a medium of 
+scientific analysis methodology, and this laid a foundation for social network analysis 
+research.
+51)
+ 
+Figure 1. An Attraction Network in a Fourth-grade Class
+52)
+ 
+50) Jacob Moreno, 
+Who Shall Survive? A new Approach to the Problem of Human 
+Interrelations
+ (Beacon House, 1934). 
+51) Node XL Korea, 
+Catching Up NodeXL
+ (Paradigm Book, 2015). 
+52) Moreno, 
+op. cit.
+, p.38.
+Greek Anti-austerit y Movements in Social  Media: The Roles and Powers of  Social Net works
+  223
+3  Materials  and  Methods
+1) Medium of Analysis
+This paper analyses networks formed in the primary social media 
+platform
+—
+Facebook, Twitter and YouTube
+—
+in Greece. According to Socialbaker’s 
+report on Greece’s usage of Social Media, regarding an average number of 
+fans/followers, an average number of admin posts, and the average number of 
+interaction, Facebook was the leading social media platform in Greece.
+53)
+ Table 2 
+indicates the average number of fans or followers. Table 3 indicates the average 
+number of admin posts. Table 4 indicates the average number of interaction. 
+Table  2.  Average  Number  of  Fans/Followers
+54)
+ 
+Number Relative  Growth
+Facebook 539,102 increasing
+Twitter 37,663 increasing
+YouTube 9,903 increasing
+Table  3.  Average  Number  of  Administrative  Posts
+55)
+Number Relative  Growth
+Facebook 43 decreasing
+Twitter 18 decreasing
+YouTube 18 decreasing
+53) Socialbakers, https://www.socialbakers.com/resources/reports/greece/2017/december/ 
+(
+검색일
+: 2018.1.22).
+54) 
+Ibid
+.
+55) 
+Ibid
+.
+224  제10권 1집(통권 제18호, 2019년 3월)
+Table 4. Average Number of Interaction
+56)
+Number Relative  Growth
+Facebook 46,723 increasing
+Twitter 60 decreasing
+YouTube 800 increasing
+2) Data Collection and Analysis
+This paper conducted a social network analysis of three representative social 
+media
+—
+Facebook, Twitter and YouTube. The first step of social network analysis, 
+selecting the appropriate keywords are the preliminary and vital task. Throughout 
+considering proper keywords, this paper considered a range of keywords used in the 
+empirical studies, such as SYRIZA, Greece;
+57)
+ Greek Indignados, Aganaktismenoi, 
+populism, SYRIZA;
+58)
+ and Greek Elections and Economic Crisis.
+59)
+ After 
+considering these keywords, this study paid special attention to Theocharis’ study on 
+social network analysis of Greek anti-austerity movement. He drew two most widely 
+used hashtags during the period: #greekrevolution and #25Mgr (which roughly 
+translated as May 25, the date of the grand protest in 2011).
+60)
+ This study selected 
+greek revolution
+ as the keyword for exploring the social network of 
+Aganaktismenoi
+ movement.
+61)
+ However, this study did not consider another 
+hashtag keyword (#25Mgr) because it would draw a limited range of information. 
+For analysing Facebook network, this study employed NodeXL
+—
+software for 
+social network analysis. The NodeXL Facebook Fan Page Network data collector 
+56) 
+Ibid
+.
+57) Poulakidakos and Veneti, 
+op. cit.
+58) Paris Aslanidis, and Nikos Marantzidis, “The Impact of the Greek Indignados on 
+Greek Politics,” 
+Southeastern Europe
+, Vol.40 (2016), pp.125-57.
+59) Kydros and Anastasiadis, 
+op. cit.
+60) Theocharis, 
+op. cit.
+61) 
+Ibid
+.
+Greek Anti-austerit y Movements in Social  Media: The Roles and Powers of  Social Net works
+  225
+can perform the network of a specific Facebook page. In the case of Greek 
+anti-austerity movement, this study selected this movement’s most popular Facebook 
+Fan Page (50,689 likes and 49,179 followers, October 31, 2018). The full name of 
+this page is 
+Αγανακτισμένοι  Αποφασισμένοι  Έλληνες
+ 
+(
+Aganakrismenoi 
+Apofasismenoi Ellines
+) which is Greek Determined Indignant in English. The 
+screenshot of this page is provided in Figure 2. 
+Figure  2.  Screenshot  of  Greek  Anti-austerity  Movement  Facebook  Page
+This page was opened in August 2011, during the first wave of Greek 
+anti-austerity protests. On the left-hand side of this page, there is a strong profile 
+photo containing an image of the fist printed the Greek flag with a phrase “
+μια 
+γροθια  ολοι  οι  ελληνες
+” 
+Mia Grothia Oloi Oi Ellines
+ (A Punch for all the 
+Greeks
+—
+roughly translated in English). In the background photo, the page manager 
+uploaded a photo of anti-austerity protest in Greece. In the photograph, there is a 
+phrase “
+είπαμε
+ 
+οχι
+” 
+eipame ohi
+ (we said no
+—
+roughly translated in English). 
+For investigating Facebook Network of Greek anti-austerity protests, this study 
+used a Facebook Fan Page Network data collector featured in NodeXL. For the 
+medium of analysis, this study chose the most popular Facebook page related to 
+this movement. This study put its Facebook id. (@apofasismenoi) into Name/ID 
+226  제10권 1집(통권 제18호, 2019년 3월)
+row space and this study set the data collection period from the time of 
+establishment of this page to the end of 2017 (Figure 3). 
+Figure  3.  NodeXL Data  Import  for  Facebook Page  Network
+(a) (b)
+For exploring Greek anti-austerity protests network formed on Twitter, this paper 
+employed Twitter Users Network data collector featured in NodeXL. This study put 
+#greekrevolution
+ as a keyword into the data collector. The results set of up to 
+18,000 tweets, but less likely to collect the full amount of messages. Also, the 
+service does not return the data of secured users into the data set so that the data 
+collection process can be limited. The data import process is presented in Figure 4. 
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  227
+Figure 4.  NodeXL  Data Import  for  Twitter  Search  Network
+For finding out 
+Aganaktismenoi
+ network formed on YouTube, this paper 
+employed YouTube video Network data collector featured in NodeXL. We put 
+greekrevolution
+ as a keyword into the data collector. This paper put 500 videos as 
+the maximum number of videos which is a limit of the data collector. The data 
+import process is presented in Figure 5.   
+Figure  5.  NodeXL Data  Import  for  YouTube Video  Network
+228  제10권 1집(통권 제18호, 2019년 3월)
+IV.  Results
+After collecting all the data from these three leading social media, NodeXL 
+worked out the values of SNA’s measurement. The overview of the results is in 
+Table 5. 
+Table  5.  Overall  Metrics  of Social  Media  Pages  of  Greek  Anti-austerity 
+Movements
+Category Value
+Facebook Twitter YouTube
+Node 6117 20 475
+Total  Edge 28495 51 21473
+Unique  Edges 15337 24 21473
+Edges with  Duplicates 13158 27 0
+Density 0.000466032 0.084210526 0.190743948
+Maximum  Geodesic  Distance 
+(Diameter)
+621
+Average
+Geodesic Distance
+2.048166 1.734807 0.989061
+In-degree/Out-degree N/A 1.75/1.75 N/A
+Average  Betweenness  Centrality  5515.637 14.3 0
+Average  Closeness  Centrality 0.013 0.029 0.035
+Average  Eigenvector  Centrality 0.000 0.05 0.002
+In Table 5, the Facebook Fan Page network has more nodes than Twitter and 
+YouTube networks. Looking at edges (the relationship between the nodes), 
+Facebook outnumbers Twitter and YouTube. For Twitter Network, it is difficult to 
+compare because of secured users who were not included in the networks. 
+However, comparing with YouTube, the value was similar to each other so that 
+YouTube can disseminate their message efficiently to the members of the society 
+like Facebook Fan Page. Regarding density, YouTube Network is denser than 
+Greek Anti-aust eri ty  Movements i n Soci al Media: The Roles and Powers of Social Networks
+  229
+Twitter and Facebook respectively. The 
+geodesic distance
+ is a useful measure to 
+explore social relationships between the nodes in the network. When the social 
+distance is close between nodes, the value will be presented as the lower number. 
+Looking at the results, the nodes in the YouTube network have closer social 
+relationships than Facebook and Twitter Networks. 
+For the 
+degree centrality
+, it is difficult for us to compare the values between 
+these three social media. For the 
+betweenness centrality
+, when the value is high, 
+there are more nodes (individuals) who can control information flow and exchange 
+among the nodes in the network. In Table 5, the Facebook network featured more 
+significant information gatekeepers than Twitter and YouTube. For the closeness 
+centrality, when the value is high, the network has more users who can perform 
+quicker information diffusion to the other nodes in the network. Among the three 
+social media, YouTube is an active information diffuser than Twitter and Facebook 
+respectively. For eigenvector centrality, we could identify the nodes that can 
+influence the whole network. When the value is high, there is an evident influencer 
+in the network. In the case of this paper, the Twitter network has an overall 
+influencer in the network than YouTube and Facebook. The visualised social 
+networks are presented in Figure 6 (Facebook), 7 (Twitter) and 8 (YouTube).
+230  제10권 1집(통권 제18호, 2019년 3월)
+Figure  6.  Facebook Page  Network  of  Greek  Anti-austerity  Movement
+Figure 6 shows the groupings of networks during the last seven years of Greek 
+anti-austerity protests. 141 subgroupings were found within this network. The first 
+three most significant subgroups have more than 1,000 nodes (G1 1874, G2 1230 
+and G3 1127). G1 is in navy blue the largest one and the most influential upon 
+other minor subgroups. G2 is in sky blue which is less dense than the previous 
+one. G3 is in green and less influential than two previous groups. For the next 
+group of subgroups (G4 to G20), they had 115 nodes to 37 nodes. The last group 
+of the subgroups (G21 to G141) had less than 15 nodes per group. 
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  231
+Figure  7.  Twitter  Search  Network  of  Greek  Anti-austerity  Movement
+Figure 7 presents the Twitter Search Network of Greek anti-austerity protests. 
+Opposite from Facebook Network, this network has more secured members, so the 
+number of available nodes was not satisfactory. In the data, there are four 
+subgroups, but no impressive core nodes were found except the G1. The core node 
+of the G1 was @skaigr, the official Twitter account of 
+Skai
+ TV
+—
+one of the largest 
+media organisations in Greece which owns a television network based in Piraeus, 
+Greece. This provider mainly focuses on airing entertainment and news programmes 
+to the Greek public. The other three groups retweeted the message released by 
+Skai
+ 
+TV, so this media group has the most significant impact on this network.
+232  제10권 1집(통권 제18호, 2019년 3월)
+Figure  8.  YouTube  Video  Network  of  Greek  Anti-austerity  Movement
+Figure 8 presents YouTube Video Network of Greek anti-austerity
+ 
+Movement. 
+Within this dense network, we could find out one outstanding node with the 
+highest number of views (5,109,554 views). Sabaton is the channel of Swedish 
+power metal band whose main themes of their lyrics are based on war, battles and 
+acts of heroism.
+62)
+ The title of this video was the official animated video of this 
+band’s song “Coat of Arms” which was created on September 13, 2012. The lyrics 
+of the song was based on Greek historical event
+—
+the 
+Ohi
+ (which means ‘no’) Day 
+(28
+th
+ October). This event is originated from the Greek prime minister’s rejection of 
+Italian dictator Mussolini's ultimatum on 28 October 1940. Subsequently, the Italian 
+army attacked Greece, and this became Greece’s participation in World War II. 
+After the War, this day became a national holiday in Greece that commemorates 
+the Greek government’s nationalistic rejection to its external powers.
+63)
+ Due to the 
+62) Sabaton Official Page, https://www.sabaton.net/ (
+검색일
+: 2018.1.22).
+63) Newsbomb, “October 28 1940: The heroic “NO” of Greece in Italy,” 
+https://www.newsbomb.gr/en/story/512112/october-28--1940-the-heroic-no-of-greece-in-i
+taly (
+검색일
+: 2018.8.3).
+Greek Anti-austerit y Movements in Social  Media: The Roles and Powers of  Social Net works
+  233
+messages in its lyrics, Sabaton’s song--Coat of Arms
+—
+became the symbolic song for 
+anti-austerity rallies in Greece. In 2015, when Greek Prime Minister Alexis Tsipras 
+called for a referendum accepting a set of economic reforms in exchange of bailout 
+money from the European Union. Before the referendum, Tsipras gave a speech by 
+saying “I call on you to say a big ‘no’ to ultimatums, ‘no’ to blackmail” and “Turn 
+your back on those who would terrorise you”.
+64)
+ As a result, 61% of the Greek 
+public voted no (
+Ohi
+) to the referendum. Revising the video, which had the highest 
+number of viewers, Sabaton’s Coat of Arms can be interpreted as the resonance of 
+the Greek public’s resistance to their unfavourable austerity deal.
+V.  Discussion  and  Concluding  Remarks
+So far, this study has looked at the social networks among three main social 
+media to explore the roles and powers of these networks in Greek anti-austerity 
+movements. For answering the first research question, it is necessary to revisit social 
+media’s three significant roles in light of the results of this study. Regarding the role 
+of techno-optimism, social media could not improve the current situation in Greece 
+regarding drawing a proper solution to the Greek austerity measures. Facebook 
+page’s most extensive network could not stop the protests in Greece. Preferably, 
+the photo of its front page implies the Greek people’s resistance to the 
+government’s austerity policies. In the YouTube network of this study, the results 
+show that the public was more likely to watch the video containing stronger 
+resistance message. In the lens of techno-pessimism, social media brought about 
+unexpected consequence. Since the Greek financial crisis, the collective experience 
+of society’s rapid disintegration has intensified real emotions of anger and rage, and 
+it led to impact upon the goals and tactics of subsequent collective protest.
+65)
+ In 
+64) Mark Lowen, “Greek Debt Crisis: What was the Point of the Referendum?” In 
+BBC 
+https://www.bbc.com/news/world-europe-33492387 (
+검색일
+: 2018.8.3).
+234  제10권 1집(통권 제18호, 2019년 3월)
+terms of network size, Facebook could have played a significant role as a forum of 
+information diffusion among the Greek public in a broader range. Subsequently, the 
+mobilisation of these protests escalated over the time.
+66)
+ Twitter network results 
+restrictively showed that the media possibly played a significant role in the 
+information diffusion process. YouTube results showed that the most popular video 
+reflected the Greek public’s anger and rages against the government’s austerity 
+policy. Some studies indicate that the use of social media plays a vital role in 
+spreading political protest around the world including Athens.
+67)
+ However, the most 
+recent survey in 2015 shows that social media has a limited role in terms of causing 
+actual protests.
+68)
+ The protesters employed social media to organize the events, but 
+the impacts of social media are still doubtful.
+69)
+ Twitter was turned out to be a less 
+significant mobilization tool in Greek anti-austerity protests than Spanish indignant 
+citizens’ movements.
+70)
+ Consequently, social media did not trigger actual protests 
+but provided a kind of virtual support for the anti-austerity movement.
+71)
+ 
+Considering our Facebook and YouTube data, the size of the network and the 
+most outstanding vertex in the network could barely reflect the sentiment of a 
+social movement. In the context of anti-austerity movements, social media played 
+fairly limited roles in terms of causing actual protests. Considering all three roles of 
+the social networks, social media at least diffuse negative emotions and spread 
+65) Marilena Simitri, “Rage and Protest: The Case of the Greek Indignant Movement,” 
+Hellenic Observatory Papers on Greece and Southeast Europe, GreeSE paper no. 82. 
+http://www.lse.ac.uk/europeanInstitute/research/hellenicObservatory/CMS%20pdf/Publi
+cations/GreeSE/GreeSE-No82.pdf (
+검색일
+: 2019.3.5).
+66) 
+Ibid
+.
+67) John Jost, Pablo Barbera, Richard Bonneau, Melani Langer, Megan Metzger, Jonathan 
+Nagler, Joanna Sterling, and Joshua Tucker, “How Social Media Facilitates Political 
+Protest: Information, Motivation, and Social Networks,” 
+Political Psychology
+, Vol.39 
+(2018), pp.85-118.
+68) Karyotis and Rüdig, 
+op. cit.
+69) 
+Ibid
+.
+70) Theocharis 
+et al
+. 
+op. cit.
+71) Karyotis and Rüdig, 
+op. cit.
+Greek Anti-austerit y Movements in Social  Media: The Roles and Powers of  Social Net works
+  235
+pessimistic sentiment among the general public. In order to support this claim, it is 
+essential to compare the results of the relevant public opinion survey. The 
+percentage of Greek citizens’ support to European integration has been dropped 
+significantly over the last ten years (55 in 2007; 38 in 2011; and 31 in 2016).
+72)
+ 
+Hence, even though social media cannot actually mobilise anti-austerity protests, 
+social media can at least shape the public’s perceptions regarding the related issues. 
+Thus, this can be interpreted as a part of the side-effects of social media.     
+ For the second question, this paper considers three social media outlets partially 
+have three types of power
+—
+networking power, network power and networked 
+power. For networking power, Twitter and YouTube networks showed some 
+outstanding nodes which can exercise their power. However, these nodes are not 
+likely related to the headquarter organisation of this movement. Hence, the 
+networks show that this movement is somewhat decentralised. For network power, 
+Facebook and YouTube networks have this power by the close relationship between 
+the individuals and faster information diffusion among the nodes in the networks. 
+For the networked power, the Twitter network presented the influence chain among 
+the nodes. Media is the leading actor who influences other actors in the network. 
+This paper considers these social media would not likely to have their 
+network-making power because of their decentralised structures. Overall, the results 
+here show what types of roles and power the social media have in the general 
+public by looking at the case of Greek anti-austerity
+ 
+movement. Due to the severe 
+negative impact coming from the Greek government’s austerity measures, the 
+members of the Greek society would have suffered, and they used the social media 
+as their agora to share their opinion, and the protests have been continuing up to 
+the present. This agora might roughly show the size of social capital and influences. 
+However, the results would not be able to explain the connection between activities 
+of this virtual agora (social media) and the followers’ actual participation of 
+72) Brigid Lafan, “Member States,” In D. Kenealy, Peterson J. and R. Corbett, Eds., 
+The 
+European Union: How does it Work?
+ 5th ed. (Oxford, 2018), pp.74-97.
+236  제10권 1집(통권 제18호, 2019년 3월)
+anti-austerity protests. At least, the negative sentiment and the size of agora among 
+the Greek public are the vital prerequisites of anti-austerity protests. 
+However, this study certainly has a limitation regarding drawing out the results 
+derived from thick narratives of qualitative studies. Consequently, in future research, 
+it would be essential to conduct qualitative studies on the Greek anti-austerity 
+protests. The possible themes of thick narratives on Greek anti-austerity protests 
+can be summarised into three levels. On the first level of the nation-state, 
+decentralised anti-austerity protests can wane the political system of Greece.
+73)
+ On 
+the second level of Eurozone, the spread of Greek anti-austerity protests on other 
+Eurozone economies. Other than Greek case, anti-austerity protests are also found 
+in other Eurozone members in the Mediterranean region such as Italy and Spain. 
+The possible impact can be expected in the country’s political setting, public 
+opinion supporting political legitimacy and party system.
+74)
+ Also, the reproduction 
+of protest movements can be regarded as another possible impact. In the last level, 
+the EU, Greek austerity-protests could bring a solidarity crisis which can be a rise 
+in Euroscepticism in other EU member states. One of the examples can be an 
+emerging image of “betrayals of trust” out of Greek newspapers. Specifically, the 
+political systems or elites were framed as a corrupted and deceptive entity within 
+the society.
+75)
+ Anti-austerity movements can easily build political leverage. When the 
+level of Greek national austerity risks was raised, the social movements will oppose 
+to transnational power structure.
+76)
+73) Aslanidis and Marantzidis, 
+op. cit.
+74) 
+Ibid
+.
+75) Christos Kostopoulous, “Framing the Indignant Citizens Movement,” First published 
+20 December 2013, In LSE blogs, 
+http://blogs.lse.ac.uk/eurocrisispress/2013/12/20/framing-the-indignant-citizens-movemen
+t/ (
+검색일
+: 2018.11.2).
+76) Paolo Gerbaudo, and Mario Pianta, “In Search of European Alternatives: 
+Anti-austerity Protests in Europe,” In M. Kaldor, S. Selchow, and T. Marray-Leach, 
+Eds.,
+ Subterranean politics in Europe
+ (Palgrave Macmillan, 2015), pp.31-59; Gerbaudo, 
+Paolo, “The Indignant Citizen: Anti-austerity Movements in Southern Europe and the 
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  237
+On 20 August 2018, in Brussels, European Commission President Jean-Claude 
+Juncker announced that “the conclusion of the stability support programme marks 
+an important moment for Greece and Europe”.
+77)
+ Pierre Moscovici, commissioner 
+for economic and financial affairs, taxation and customs said: “The Greek 
+government’s extensive reformation have laid the ground for a sustainable 
+recovery”.
+78)
+ Since the beginning of the Greek financial crisis, this crisis has lasted 
+almost a decade. However, Greece still has a significant amount of its national debt 
+(176.1% of GDP in 2017).
+79)
+ Other than its national debt, Greece still has the 
+highest unemployment rate in the EU (19% in July 2018).
+80)
+ Considering Greece’s 
+current challenges, another tide of citizens’ protest movement might come again in 
+the future. When the government carry out the austerity policies regardless of the 
+Greek voters’ rejection, their disappointment to the government regarding its 
+democracy will be increased.
+81)
+ Furthermore, such disappointment of the Greek 
+public would lead to power expansion of either far-left or far-right parties.
+82)
+ It 
+implies that the Greek anti-austerity movement can block Greece’s democratic 
+consolidation. From this viewpoint, when another tide of anti-austerity movements 
+comes, it will bring a significant social change in Greece. Also, this change will not 
+only enhance Euroscepticism in other Eurozone economies but also weaken 
+Anti-oligarchic Reclaiming of Citizenship,” 
+Social Movement Studies,
+ Vol.16 (2017), 
+pp.36-50. 
+77) European Commission, “Greece begins a new chapter following the conclusion of its 
+stability support programme. First published 20 August 2018,” 
+http://europa.eu/rapid/press-release_IP-18-5002_en.htm (
+검색일
+: 2018.11.2). 
+78) 
+Ibid
+.
+79) Eurostat, “General government gross debt annual data, 
+https://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=teina2
+25&plugin=1 (
+검색일
+: 2018.11.2).
+80) Eurostat, “Unemployment rates, seasonally adjusted, September 2018 (%),” 
+https://ec.europa.eu/eurostat/statistics-explained/index.php/Unemployment_statistics 
+(
+검색일
+: 2018.11.2).
+81) George Bistis, “Golden Dawn or Democratic Sunset: The Rise of the Far Right in 
+Greece,” 
+Mediterranean Quarterly
+, Vol.24 (2018), pp.35-55. 
+82) 
+Ibid
+.
+238  제10권 1집(통권 제18호, 2019년 3월)
+solidarity based on European integration. Therefore, this is a significant time for 
+Greece and the EU to seek ways to prevent further crises with the focus on 
+achieving greater stability of the Eurozone economy.
+Greek Anti-aust eri ty  Movements i n Soci al Media: The Roles and Powers of Social Networks
+  239
+References
+Anagnostopoulos, Dimitris, and Eugenia Soumaki, “The State of Child and 
+Adolescent Psychiatry in Greece during the International Financial Crisis: a 
+Brief Report,” 
+European Child & Adolescent Psychiatry
+, Vol.22 (2013), 
+pp.131-34. 
+Aslanidis, Paris, and Nikos Marantzidis, “The Impact of the Greek Indignados on 
+Greek Politics,” 
+Southeastern Europe,
+ Vol.40 (2016), pp.125-57.
+Bistis, George, “Golden Dawn or Democratic Sunset: The Rise of the Far Right in 
+Greece,” 
+Mediterranean Quarterly
+, Vol.24 (2018), pp.35-55. 
+Castells, Manuel, “A Network Theory of Power,”
+ International Journal of 
+Communication,
+ Vol.5 (2011), pp.773-87.
+Castells, Manuel, 
+Networks of Outrage and Hope: Social Movements in the Internet 
+Age
+ (Polity Press, 2013). 
+Christensen, Christian, “Twitter Revolutions? Addressing Social Media and Dissent,” 
+The Communication Review,
+ Vol.14 (2011), pp.155-57.
+Dalakoglou, Dimitris, “The Crisis Before “the Crisis”: Violence and Urban 
+Neoliberalisation in Athens,” 
+Social Justice
+, Vol.39 (2013a), pp.24-42. 
+Dalakoglou, Dimitris, “The Movement and the “Movement” of Syntagma Square. 
+Fieldsights
+—
+Hot Spots,” 
+Cultural Anthropology Online,
+ 
+https://culanth.org/fieldsights/70-the-movement-and-the-movement-of-syntag
+masquare (
+검색일
+: 2018.1.25).
+Diani, Mario, and Maria Kousis, “The Duality of Claims and Events: the Greek 
+Campaign Against the Troika’s Memoranda and Austerity, 2010
+–
+2012,” 
+Mobilization: An International Journal
+, Vol.19 (2014), pp.387
+–
+404. 
+Dimitrios, Kydros, and Oumbailis Vasileios, 2015. “A Network Analysis of the 
+Greek Stock Market,” 
+Procedia Economics and Finance
+, Vol.33 (2015), 
+pp.340-349. 
+European Commission, “Greece begins a new chapter following the conclusion of 
+240  제10권 1집(통권 제18호, 2019년 3월)
+its stability support programme. First published 20 August 2018,” 
+http://europa.eu/rapid/press-release_IP-18-5002_en.htm (
+검색일
+: 2018.11.2). 
+Eurostat, “General government gross debt annual data,” 
+https://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&
+pcode=teina225&plugin=1 (
+검색일
+: 2018.11.2).
+Eurostat, “Unemployment rates, seasonally adjusted, September 2018 (%),” 
+https://ec.europa.eu/eurostat/statistics-explained/index.php/Unemployment_
+statistics (
+검색일
+: 2018.11.2).
+Forelle, Charles, Pat Minczeski, and Elliot Bentley, “Greece’s Debt Due. First 
+Published 2015,” In 
+The Wall Street Journal,
+ 
+http://graphics.wsj.com/greece-debt-timeline/ (
+검색일
+: 2018.8.6).
+Gerbaudo, Paolo, 
+Tweets and the Streets: Social Media and Contemporary Activism 
+(Pluto Press, 2012).
+Gerbaudo, Paolo, and Mario Pianta, “In Search of European Alternatives: 
+Anti-austerity Protests in Europe,” In M. Kaldor, S. Selchow, and T. 
+Marray-Leach, Eds., 
+Subterranean politics in Europe 
+(Palgrave Macmillan, 
+2015), pp.31-59.  
+Gerbaudo, Paolo, “The Indignant Citizen: Anti-austerity Movements in Southern 
+Europe and the Anti-oligarchic Reclaiming of Citizenship,” 
+Social 
+Movement Studies
+, Vol.16 (2017), pp.36-50. 
+Hansen, Derek, Ben Shneiderman, and Marc Smith, 
+Analysing Social Media 
+Networks with NodeXL: Insights from a Connected World
+ (Morgan 
+Kaufmann, 2010).
+Hassanpour, Navid. “Media Disruption and Revolutionary Unrest: Evidence from 
+Mubarak’s Quasi-Experiment,” 
+Political Communication
+, Vol.31 (2014), 
+pp.1-24.
+Jost, John, Pablo Barbera, Richard Bonneau, Melani Langer, Megan Metzger, 
+Jonathan Nagler, Joanna Sterling, and Joshua Tucker, “How Social Media 
+Facilitates Political Protest: Information, Motivation, and Social Networks,” 
+Greek Anti-aust eri ty  Movements i n Soci al Media: The Roles and Powers of Social Networks
+  241
+Political Psychology,
+ Vol.39 (2018), pp.85-118.
+Karyotis, Georgios, and Wolfgang Rüdig, “The Three Waves of Anti-austerity 
+Protest in Greece, 2010
+–
+2015,” 
+Political Studies Review
+, Vol.16 (2017), 
+pp.1-12.
+Kamel, Shrif, “Egypt’s Ongoing Uprising and the Role of Social Media: is there 
+Development?” 
+Information technology for development,
+ Vol.20 (2014) 
+pp.78-91.  
+Kidd, Dustin, and Keith McIntosh, “Social Media and Social Movements,” 
+Sociology 
+Compass, 
+Vol.10 (2016), pp.785-94. 
+Kostopoulous, Christos, “Framing the Indignant Citizens Movement,” First 
+published 20 December 2013, In LSE blogs, 
+http://blogs.lse.ac.uk/eurocrisispress/2013/12/20/framing-the-indignant-citiz
+ens-movement/ (
+검색일
+: 2018.11.2).
+Kreiss, Daniel, and Zeynep Tufekci. “Occupying the Political: Occupy Wall Street, 
+Collective Action, and the Rediscovery of Pragmatic Politics,” 
+Cultural 
+Studies Critical Methodologies,
+ Vol.13 (2013), pp.163-67. 
+Kydros, Dimitrios, and Anastasios Anastasiadis, “Greek Political Language during 
+the Economic Crisis
+—
+a Network Analytic Approach,” 
+Social Networking
+, 
+Vol.6 (2017), pp.164-80. 
+Laffan, Brigid, “Member States,” In D. Kenealy, Peterson J. and R. Corbett, Eds., 
+The European Union: How does it Work?
+ 5
+th
+ ed. (Oxford, 2018), pp74-97.
+Lotan, Gilad, Erhardt Graeff, Mike Ananny, Devin Gaffney, Ian Pearce, and Danah 
+Boyd, “The Revolutions were Twitted: Information Flows during the 2011 
+Tunisian and Egyptian Revolutions,” 
+International Journal of 
+Communication
+, Vol.5 (2011), pp.1375-1405. 
+Lowen, Mark, “Greek Debt Crisis: What was the Point of the Referendum?” In 
+BBC,
+ https://www.bbc.com/news/world-europe-33492387 (
+검색일
+: 
+2018.8.3).
+Mayrommatis, George, “Hannah Arendt in the Streets of Athens,” 
+Current 
+242   제10권 1집(통권 제18호, 2019년 3월)
+Sociology
+, Vol.63 (2015), pp.432
+–
+49. 
+Moreno, Jacob, 
+Who Shall Survive? A new Approach to the Problem of Human 
+Interrelations
+ (Beacon House, 1934). 
+Morozov, Evgeny, 
+The Net Delusion: The Dark Side of Internet Freedom
+ (Public 
+Affairs, 2011).
+Murthy, Dhiraj, 
+Twitter: Social Communication in the Twitter Age
+ (Polity Press, 
+2013). 
+Newsbomb, “October 28 1940: The heroic “NO” of Greece in Italy,”  
+https://www.newsbomb.gr/en/story/512112/october-28--1940-the-heroic-no-
+of-greece-in-italy (
+검색일
+: 2018.8.3).
+Node XL Korea, 
+Catching Up NodeXL
+ (Paradigm Book, 2015). 
+Otte, Evelien and Rousseau, Ronald
+,
+ “Social Network Analysis: A Powerful Strategy, 
+also for the Information Sciences,”
+ Journal of Information Science, 
+Vol.28 
+(2002), pp.441
+–
+53
+.
+Papailias, Penelope, “Beyond the 'Greek Crisis': Histories, Rhetorics, Politics,” 
+Cultural Anthropology
+,  
+https://culanth.org/fieldsights/243-beyond-the-greek-crisis-histories-rhetorics-
+politics (
+검색일
+: 2018.1.22).
+Petropoulou, Chryssanthi, “From the December Youth Uprising to the Rebirth of 
+Urban Social Movements: A Space-time Approach,”
+ International Journal 
+of Urban and Regional Research
+, Vol.34 (2010), pp.217-24. 
+Poell, Thomas, “Social Media and the Transformation of Activist Communication: 
+Exploring the Social Media Ecology of the 2010 Toronto G20 Protests,” 
+Information, Communication & Society,
+ Vol.17 (2014), pp.716-31.
+Poulakidakos, Stamatis, and Veneti, Anastasia, “Political Communication and Twitter 
+in Greece: Jumps on the Bandwagon or an Enhancement of the Political 
+Dialogue?” In T. Deelan, and I. Vobi, Eds. 
+(R)evolutionizing Political 
+Communication through Social Media
+ (IGI Global, 2016).
+Rüdig Wolfgang, and Karyotis Georgios, “Who Protests in Greece? Mass 
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  243
+Opposition to Austerity,” 
+British Journal of Political Science
+, Vol.44 (2014), 
+pp.487
+–
+513. 
+Ruohone, Keijo, "Graph Theory," http://math.tut.fi/~ruohonen/GT_English.pdf 
+(
+검색일
+: 2019. 3. 21).
+Sabaton Official Page, https://www.sabaton.net/ (
+검색일
+: 2018.1.22).
+Simiti, Marilena, “Rage and Protest: The Case of the Greek Indignant Movement,” 
+Hellenic Observatory Papers on Greece and Southeast Europe, GreeSE 
+paper no. 82, 
+http://www.lse.ac.uk/europeanInstitute/research/hellenicObservatory/CMS%
+20pdf/Publications/GreeSE/GreeSE-No82.pdf (
+검색일
+: 2019.3.5).
+Socialbakers
+, 
+https://www.socialbakers.com/resources/reports/greece/2017/december/ 
+(
+검색일
+: 2018.1.22).
+Sotiris, Panagiotis, “Rebels with a Cause: the December 2008 Greek Youth 
+Movement as the Condensation of Deeper Social and Political 
+Contradictions,” 
+International Journal of Urban and Regional Research,
+ 
+Vol.34 (2010), pp.203-09.  
+Theocharis, Yannis, “Every Crisis is a Digital Opportunity: The Aganaktismenoi 
+Movement’s Use of Social Media and the Emergence of Networked 
+Solidarity in Greece,” In A. Bruns, E. Gunn, E. Skogerbo, A. Larsson, and 
+C. Christensen, Eds., 
+The Routledge Companion to Social Media and 
+Politics
+ (Routledge, 2016), pp.185-197.
+Triliva, Sofia, Christos Varcantakis, and Manolis Dafermos, “YouTube, Young 
+People, and the Socioeconomic Crisis in Greece,” 
+Information, 
+Communication & Society,
+ Vol.18 (2015), pp.407-23. 
+Tufekci, Zeynep, and Christopher Wilson, “Social Media and the Decision to 
+Participate in Political Protest: Observations from Tahrir Square,” 
+Journal of 
+Communication,
+ Vol.62 (2012), pp.363-79. 
+Vraga, Emily, Leticia Bode, Chris Wells, Kevin Driscoll, and Kjerstin Thorson,  
+244  제10권 1집(통권 제18호, 2019년 3월)
+“The Rules of Engagement: Comparing Two Social Protest Movements on 
+YouTube,” 
+CyberPsychology, Behavior, and Social Networking
+, Vol.17 
+(2014), pp.133-40. 
+Willams, Callum, and Maruthappu, Mahiben "Healthconomic Crises: Public Health 
+and Neoliberal Economic Crises," 
+American Journal of Public Health
+, 
+Vol.103 (2013), pp.7-9.  
+Greek Anti-austerity Movements in Social Media: The Roles and Powers of Social  Networks
+  245
+<국문초록>
+SNS에  나타난  그리스의  반(反)긴축  시위  연구: 
+사회연결망의  역할과  영향력을  중심으로*
+83)
+ 
+정  세  원**
+84)
+본  논문은  그리스의  반
+(
+反
+)
+긴축  시위사례를  중점으로 
+SNS
+내에  형성된 
+사회연결망의  역할과  영향력을  살펴보았다
+. 
+연구를  수행하기  위해  두 
+가지의  이론적  모델을  활용하였다
+. 
+역할분석을  위하여
+, Kidd and 
+McKintosh
+의  사회연결망의  역할  분석  모델을  활용하였다
+. 
+영향력  분석을 
+수행하기  위해 
+Castell
+의  네트워크  권력  이론을  활용하였다
+. 
+본  논문은 
+사회연결망  분석과  결과물의  시각화를  수행하기  위한  프로그램으로 
+Node 
+XL
+을  사용하였다
+. 
+연구대상 
+SNS
+는 
+3
+대  대표적인  소셜미디어인  페이스북
+, 
+유튜브  그리고  트위터를 중점적으로  살펴  보았다
+. 
+본  연구의  결과는 다음과 
+같이  요약된다
+. SNS
+가  실질적인  긴축투쟁운동을  일으키는데  상당히 
+제한적인  역할을  수행함을  알  수  있다
+. SNS
+가  제한적으로  그리스  반 
+긴축투쟁운동을  구성하는  사회연결망이  형성되었으며
+, 
+연결망  자체의  힘을 
+비롯  향후  추가적인  네트워크를 형성할  수 있다
+. 
+따라서
+, 
+본  논문의  함의는 
+그리스의  반
+(
+反
+)
+긴축  시위는 
+SNS
+를  통하여  다시  일어날  수  있으며  잠재적인 
+위험을  안고  있다
+. 
+이러한  잠재적인  위험은  국가적  차원과  초국가적인 
+단계에서 살펴봐야  한다
+. 
+국가적 차원에서  보면
+, 
+반
+(
+反
+)
+긴축 시위는  그리스의 
+극우나  극좌정당을  강화시킴으로  민주주의를  약화  시킬  수  있다
+. 
+초국가적 
+차원에서  보면
+, 
+반
+(
+反
+)
+긴축  시위는  유럽회의주의를  증폭  시킬  수 있고
+, 
+이로 
+말미암아 
+EU
+회원국간의  유대에  위협요소가  될  수  있다
+. 
+따라서
+, 
+추가적인 
+ * 
+본  논문은 
+2019
+년  고려대학교에서  지원된  연구비로  수행되었음
+.
+** 
+고려대학교  국제대학원  연구교수
+(swchung37@korea.ac.kr)
+246  제10권 1집(통권 제18호, 2019년 3월)
+위기상황이  일어나지  않도록  그리스  정부나 
+EU
+가  미연에  방지하려는 
+적극적인  조치들을  취할  필요가  있다
+. 
+주제어
+: 
+그리스  재정위기
+, 
+긴축정책
+, SNS
+의  역할
+, 
+네트워크  권력  이론
+, 
+사회
+연결망  분석
+, SNS 
+원고접수일:  2019.  2.  15. 
+심사마감일:  2019.  3.  10.
+게재확정일:  2019.  3.  11.
+Citations (0)
+References (39)
+How Social Media Facilitates Political Protest: Information, Motivation, and Social Networks: Social Media and Political Protest
+Article
+Full-text available
+Feb 2018POLIT PSYCHOL
+John T JostPablo Barberá
+Richard Bonneau
+Joshua Tucker
+View
+Show abstract
+Greek Political Language during the Economic Crisis—A Network Analytic Approach
+Article
+Full-text available
+Jan 2017
+Dimitrios KydrosAnastasios Anastasiadis
+View
+Show abstract
+Social Media and Social Movements
+Article
+Full-text available
+Sep 2016
+Dustin KiddKeith McIntosh
+View
+Show abstract
+Political Communication and Twitter in Greece: Jumps on the Bandwagon or an Enhancement of the Political Dialogue?
+Chapter
+Full-text available
+Feb 2016
+Stamatis Poulakidakos
+Anastasia Veneti
+View
+Show abstract
+The Impact of the Greek Indignados on Greek Politics [Southeastern Europe]
+Article
+Full-text available
+Jun 2016SE Eur
+Paris Aslanidis
+Nikos Marantzidis
+View
+Show abstract
+A Network Analysis of the Greek Stock Market
+Article
+Full-text available
+Dec 2015
+Dimitrios KydrosOumbailis Vasileios
+View
+Show abstract
+The Three Waves of Anti-Austerity Protest in Greece, 2010-2015
+Article
+Feb 2017Polit Stud Rev
+Georgios Karyotis
+Wolfgang Rudig
+View
+Show abstract
+The indignant citizen: anti-austerity movements in southern Europe and the anti-oligarchic reclaiming of citizenship
+Article
+Jul 2016Soc Mov Stud
+Paolo Gerbaudo
+View
+Show abstract
+The Net Delusion. The Dark Side of Internet Freedom
+Technical Report
+Jan 2011
+Evgeny MorozovJohn Myers
+View
+The state of child and adolescent psychiatry in Greece during the international financial crisis: A brief report
+Article
+Feb 2013EUR CHILD ADOLES PSY
+Dimitris C AnagnostopoulosEugenia Soumaki
+View
+Show more
+Recommendations
+Discover more
+Project
+Korea University's Jean Monnet Network Project NEAR (2016-2019)
+Sae Won Chung
+View project
+Article
+What is gained and what is left to be done when content analysis is added to network analysis in the...
+September 2016 · Information Communication and Society
+Christine Ogan
+Onur Varol
+As social movements relying on the weak ties found in social networks have spread around the world, researchers have taken several approaches to understanding how networks function in such instances as the Arab Spring. While social scientists have primarily relied on survey or content analysis methodology, network scientists have used social network analysis. This research combines content ... [Show full abstract]
+Read more
+Article
+Full-text available
+Exploring social media relationships
+February 2011 · On the Horizon
+Derek L. Hansen
+Purpose – The purpose of this paper is to demonstrate novel techniques for exploring relationship data extracted from social media sites for actionable insights by educators, researchers, and administrators. Design/methodology/approach – The paper demonstrates how non-programmers can use NodeXL, an open source social network analysis tool built into Excel 2007/2010, to collect, analyze, and ... [Show full abstract]
+View full-text
+Article
+Full-text available
+Social Media and Social Movements
+September 2016 · Sociology Compass
+Dustin KiddKeith McIntosh
+What role does social media play in social movements and political unrest? Twitter, Facebook, Instagram, and Google have all been cited as important components in social revolutions, including those in Tunisia, Egypt, Iceland, Spain, and the global Occupy movement. This essay explores social science claims about the relationship between social networking and social movements. It examines research ... [Show full abstract]
+View full-text
+Article
+Full-text available
+Συγκρουσιακός και Εκλογικός Κύκλος στην Ελλάδα της Κρίσης (Contentious and Electoral Cycle in Greece...
+January 2018
+Nikos SerdedakisMyrsini Koufidi
+View full-text
+Article
+The Three Waves of Anti-Austerity Protest in Greece, 2010-2015
+February 2017 · Political Studies Review
+Georgios Karyotis
+Wolfgang Rudig
+The apparent ubiquity of protest in recent years and the rise of Occupy movements across the world fuelled claims about a new style of mobilisation emerging that is markedly different from previous social movements. Analysing a series of original survey data, this article engages with this debate by providing a panoramic account of how the anti-austerity movement evolved in Greece, comparing the ... [Show full abstract]
+Read more
+Article
+Full-text available
+Information Diffusion in YouTube Video Networks: The Case of Koreans' EU Perceptions
+December 2019
+Sae Won Chung
+This paper aims to investigate Korean perceptions of the EU on the internet. Among the internet media platforms, this study focused on analysing EU-related YouTube videos filmed in the Korean language over the last four years from the anniversary of Brexit Referendum. This study focused on exploring a social network of Korean YouTubers. The social network shows the information diffusion process ... [Show full abstract]
+View full-text
+	
+or
+	Discover by subject area
+Recruit researchers
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2021 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprint

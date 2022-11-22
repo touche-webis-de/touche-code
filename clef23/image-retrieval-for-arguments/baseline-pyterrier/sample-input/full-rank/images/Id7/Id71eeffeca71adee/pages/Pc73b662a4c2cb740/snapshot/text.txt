@@ -1,0 +1,566 @@
+Jump to Content
+Jump to Main Navigation
+This site uses cookies, tags, and tracking settings to store information that help give you the very best browsing experience.
+Dismiss this warning
+Log in
+IMF Sites
+Browse
+Topics
+Countries
+Series
+Resources
+About
+Search
+Previous Article
+Next Article
+Governance for Inclusive Growth
+Author: Maksym Ivanyna1 and Andrea Salerno
+1 https://isni.org/isni/0000000404811396, International Monetary Fund
+Publication Date: 23 Apr 2021
+ISBN: 9781513582467
+Language: English
+Keywords: government policy; government operation; government activity; public goods; seek government contract
+Download PDF (684.7 KB)
+Abstract
+Full Text
+Abstract
+
+The government’s ability to deliver inclusive growth crucially depends on the quality of governance. This paper reviews the linkages between governance and inclusive growth, and key policies to improve governance. The policies include (1) structural reform, automation, improving rules and procedures (including for fiscal and monetary policies) to limit the discretion and hence the space for policy errors; (2) human resource policies, capacity building, effective anti-corruption frameworks to incentivize public officials to make decisions in the best public interest; and (3) transparency, accountability, and inclusive political institutions to inform and monitor policymaking.
+
+I. Introduction
+
+Through the provision of basic public services and goods, the state plays a key role in promoting inclusive and sustainable growth.2 Central to the state’s role is the quality of its governance. Defined broadly, governance refers to institutions, mechanisms, and practices, through which governmental power is exercised (IMF, 2017).3
+
+There is growing recognition that poor governance undermines the role of the state and negatively affects lives and livelihoods (IMF, 2016; North, Acemoglu, Fukuyama, & Rodrik, 2008; North D. C., 1991). Poor governance weakens fiscal performance by limiting revenue collection and distorting expenditure. Distortions in expenditure (for instance, neglect of proper spending on health and education programs) exacerbate poverty and inequalities. The cost and uncertainty that poor governance generates undermine the business climate, hence limiting domestic and foreign investments and opportunities for growth. When some or all these problems become sufficiently systemic, they can increase distrust in the state, ultimately leading to state fragility, civil strife, or conflict – thus turning the state from a solution to inclusive growth into a major obstacle.
+
+This paper explores two key causes of poor governance – corruption and lack of institutional and human capacity. It offers a brief review of how they can erode governance, with substantial adverse effects on (inclusive) growth, poverty, and inequality. It then reviews the key policies to improve governance linking them into a simple theoretical framework. The policies include (1) structural reform, automation, improving rules and procedures (including for fiscal and monetary policies) to limit the discretion and hence the space for policy errors; (2) human resource policies, capacity building, effective anti-corruption frameworks to incentivize public officials to make decisions in the best public interest; and (3) transparency, accountability, and inclusive political institutions to inform and monitor policymaking.
+
+II. Causes of Poor Governance: Corruption and Lack of Capacity
+
+Two broad factors stand in the way of good governance: corruption and lack of institutional and human capacity to enact good policies.
+
+Corruption is a complex, multidimensional problem (Basu & Cordella, 2018) and, to a varying degree, affects economies at all stages of development (IMF, 2016). While a comprehensive definition of corruption can be difficult to formulate given the variations in corrupt behavior and its concealed nature (IMF, 2017), “the abuse of public office for private gain” is one of the most widely accepted definitions in the literature and among practitioners. It implies a focus on corrupt practices involving civil servants or elected officials that are detrimental to the public interest. Under this definition, an act can be corrupt even if it does not result in financial gain for the public official, as for example in case of negligence, absenteeism, clientelism, or cronyism/nepotism.4
+
+Acts of corruption can be classified into different categories. The most common distinction is between petty and grand corruption. Petty corruption usually occurs when the state restricts market mechanisms or when bureaucracy interacts with the public and is easier for ordinary citizens to observe or experience.Grand corruption involves a small number of powerful players and large sums of money. The corrupt seek government contracts, privatized firms, and concessions; they bribe legislators to pass favorable laws, and cabinet ministers and agency heads to enact beneficial regulations.
+
+The extent of corruption around the world is staggering. In 2017 nearly one in four people in developing countries said that they paid a bribe for public services (Transparency International, 2017). The percentage of firms identifying corruption as the largest obstacle to do business is six to ten percent depending on a geographical region (Figure 1).
+
+View Full Size
+Figure 1.
+
+Corruption as a Major Obstacle to Do Business
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Source: World Bank Enterprise Surveys, average overall surveys in 2009–2019.
+Download Figure
+Download figure as PowerPoint slide
+
+Yet, poor governance is possible even in the absence of significant corruption (IMF, 2017; World Bank, 2017). The rapid pace of globalization and the expanded role of the state requires governments to make decisions in a global environment of uncertainty, heterogeneity, and a high level of complexity. Governments, therefore, need to always invest in institutional and human capacity in order to avoid the decay of their existing institutions and to adequately react to new policy challenges.
+
+Capacity refers to the capability to deliver on an envisioned task at the agency or government level (Campos & Pradhan, 2007), and it can differ significantly even in countries with similar levels of corruption. For example, there are large differences among countries in the efficiency of their public investment. While part of the efficiency loss can be explained by corruption, another plausible explanation is inefficiency in public investment management: some governments may not have a systemic approach to project selection, some may not have multi-year planning procedures. It is important therefore to go beyond corruption and analyze governance through a broader set of lenses. These include fiscal governance, financial sector oversight, central bank governance, quality of market regulation, rule of law, anti-money laundering/combating the financing of terrorism (AML/CFT), and others.
+
+Corruption and lack of capacity are highly interconnected. Corruption begets a lack of capacity as public resources – including investment in capacity development – are stolen, misallocated, or spent inefficiently, and political will to improve capacity is low. In turn, lack of capacity begets corruption, as governments do not utilize the best available frameworks and practices to restrain corruption and promote integrity. As a result, it is often the case that when the state is most needed, i.e. when people depend the most on basic public goods and services, it is often least capable of carrying through its functions in an efficient way (Tanzi, 1998).
+
+III. Effects of Poor Governance on Inclusive Growth
+
+Poor governance can severely hamper the government’s ability to deliver inclusive growth. Efficiency-enhancing views of corruption, namely that it may be able to “grease the wheels of the economy,” do not consider the systemic impact of corruption on growth, ignore its permanent distortions, and its adverse effect on inequality and poverty. Even if in some cases bribery may be a way to bypass a particularly distorting regulation, the regulation itself is a manifestation of poor governance. Dozens of peer-reviewed empirical studies show that poor governance and corruption are associated with lower economic growth, lower investment, and lower tax revenue (IMF, 2018; Ugur, 2014). For example, in Ukraine closing half of the gap between the quality of its governance level and the corresponding G7 average would lift the country’s income growth per capita by an average of 1.2 percentage points a year (EBRD, 2019).5 An improvement in the control of corruption index by one-third of a standard deviation is associated with an increase of 1.2 percentage points in government revenues as a share of GDP (IMF, 2019). Poor governance is also associated with higher income inequality (IMF, 2018). Worsening in the corruption index of an average country by one standard deviation is associated with the same increase in income inequality as a reduction in average secondary schooling of 2.3 years (Gupta, Davoodi, & Alonso-Terme, 1998). The resulting poor growth and inclusiveness can, in turn, lead to increased incidence of corruption, creating a negative feedback loop that can become self-fulfilling and long-lasting (IMF, 2016).
+
+Following are some of the main effects of poor governance on inclusive growth.6
+
+View Full Size
+Figure 2.
+
+Main Effects of Poor Governance: Summary
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Download Figure
+Download figure as PowerPoint slide
+
+Impaired provision of public goods and services. The provision of core public goods and services can be severely hampered. Corruption increases their costs and can create additional inefficiencies through market distortions (Olken & Pande, 2012). For example, public procurement in Latin America accounts for an average of 10 to 15 percent of gross domestic product, and it is also the government activity that is most vulnerable to corruption (IDB and IMF, 2015). Inflated public procurement costs have been an issue in advanced economies as well. Research showed that corruption raised the costs of a public project by 13 percent on average in eight European states (PwC and Ecorys, 2013). Efforts to contain the Covid-19 health crisis have been undermined by public officials and local entrepreneurs accused of personal enrichment by price-gouging hospitals and governments for medical supplies (Kitroeff & Taj, 2020). Exacerbating the matter, poor governance in revenue management enables tax evasion, diversion of grants and borrowed funds, and theft from unmonitored treasury accounts, thus effectively reducing the amount of public resources available to spend (IMF, 2019).
+
+Inadequate provision of public goods and services hampers the government’s ability to support inclusive growth, as the poor effectively receive a lower level of social services, suffer weaker protection of their property and other rights, are more affected by uncorrected negative externalities (e.g. polluted air and water), and have less education or business opportunities. Women tend to be disproportionately affected, as they tend to spend more time in unpaid labor, such as caring for children or sick family members, and so tend to rely more on social services (IMF, 2016).
+
+Distorted allocation of resources. Public resources can be allocated to activities where bribes or political gains can be more easily extracted. For instance, public funds get diverted from current expenditure to public investment. This can increase public investment in unproductive projects (Gupta, Davoodi, & Alonso-Terme, 1998), and hamper core services such as the provision of health and education (IMF, 2019), which again disproportionately affects the poor. Countries with poor governance do allocate a lower share of government spending for health and education (Figure 3). Governments can also engage in excessive borrowing (at the cost of high debt) and seniorage (at the cost of high inflation) in order to increase the pool of resources for embezzlement (Ivanyna, Mourmouras, & Rangazas, 2018; IMF, 2016).
+
+View Full Size
+Figure 3.
+
+Less Education and Health Spending in Countries with Poor Governance
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Source: World Bank World Development Indicators; averages over 2015–2019
+Note: CPIA – Country Policy and Institutional Assessments by the World Bank, mostly covering low-income countries; MIC – middle-income countries; HIC – high-income countries.
+Download Figure
+Download figure as PowerPoint slide
+
+Erosion of trust. Trust is a key element for good governance. Corruption and other symptoms of poor governance can undermine trust in the state, erode social capital, and weaken the state’s capacity to perform its core functions, ultimately harming its role and legitimacy.7 In addition, crises (economic, health, social, etc.) test people’s trust in government and institutions, as ethical behavior becomes even more salient when state services are in high demand. As a result, corruption can deepen the impact of crises, and threaten political and social cohesion (IMF, 2020). Distrust in state capacity also discourages entrepreneurs from starting new businesses in the formal economy, therefore eroding the revenue base (IMF, 2016). As the rule of law is weakened, distrust of the state can fuel and justify acts of corruption, resulting in a negative cycle (Rose-Ackerman & Palifka, 2016).
+
+Adverse business climate. High and rising corruption contributes to increasing uncertainty in the business climate and acts as a tax on economic activities, raising transactional costs. Corrupt or inefficient courts and law enforcement institutions also effectively diminish the property rights protection and the ability of businesses to enforce contracts. Uncertainty, higher cost of doing business, and lower property rights protection can, in turn, reduce the willingness of enterprises to invest, lead more productive firms to exit the market, and drive activities towards the informal economy (Rose-Ackerman & Palifka, 2016). The capacity of the state to attract foreign direct investments is also negatively affected. Increased uncertainty and lower effective returns decrease incentives not only for investment but also for the accumulation of human capital (IMF, 2016).
+
+Rent-seeking. There are instances in which the government’s restrictions on the market and economic activities can give rise to a variety of rents (Rowley, Tollison, & Tullok, 1978), i.e. largely unproductive, expropriative activities that bring a positive return to an individual but not to society (Abed & Gupta, 2002). These restrictions facilitate rent-seeking activities, in particular when they require the government’s approval (IMF, 2016). Rent-seeking can take many forms, from lobbying to bribery (Krueger, 1974). The result, however, remains a waste of resources as these are diverted from productive activities, such as investments or human capital development (Rowley, Tollison, & Tullok, 1978).
+
+State capture. State capture is a form of grand corruption that refers to a situation in which influential firms or special interests “buy” laws and policies (Kunicova, 2006), i.e. they shape and affect the “rules of the game”. While other forms of corruption distort how laws or rules are implemented, for instance by paying a bribe to avoid them, state capture refers to the efforts to influence, in the first instance, how such laws or rules are formed. There is a variety of mechanisms by which firms and elite interests capture policy through collusive arrangements, from bribes to political donations and kickbacks to hiring friends and family for lucrative positions (World Bank, 2017). Being so pernicious, state capture is a fundamental cause of poor governance and weak institutions (Hellman & Kaufmann, 2001), generating a vicious cycle. The “privatization of public policy” leads to inefficient allocation of public resources, a higher degree of insecurity of property rights, and rent-generating advantages for a selected few. The selected few, in turn, undermine reforms that limit their power, thus lowering growth and exacerbating inequalities, and contributing to accelerated state capture. Breaking this vicious cycle is a key milestone on a way to inclusive growth.
+
+IV. Policies to Improve Governance: Overview
+
+Improving governance is the basis for sustainable and inclusive growth, but it is not an easy task. Many politicians declare war on corruption, yet it is still widespread around the world. Political and economic institutions, both formal and informal, are shaped by centuries of history – colonial heritage, legal origin, ethnic fractionalization – as well as by climatic and geographic conditions, and natural resource endowments.8 The institutions change very slowly, and not always in the right direction. This is because major political and economic actors are often interested in keeping and expanding their privileges, including access to grand corruption schemes. At the same time, active civil engagement is often inhibited by a lack of income, education, or infrastructure, especially in countries where governance reform is most needed. Long-lasting improvements are more likely after “critical junctures” – major historical events like crises, conflicts, political scandals, natural or technological disasters9 – but those are rare, largely accidental, and hardly desirable (Acemoglu & Robinson, 2012)
+
+Despite the headwinds, improving governance is possible. Western Europe and the U.S. eliminated most of the widespread corruption practices in the early 20th century. Singapore and Hong Kong SAR did so in the post-WWII era (Dixit, 2018). Georgia and Rwanda made major advances in the 2000s (IMF, 2019). While progress on grand corruption is notoriously hard to measure and achieve, petty bribery can be reduced relatively quickly. For instance, according to the World Bank Enterprise Surveys, quite a few developing countries have been able to reduce bribery incidence by at least ten percentage points in 2006–2020, even though for the majority of countries the bribery incidence remained largely the same or worsened (Figure 4).
+
+View Full Size
+Figure 4.
+
+Bribery Dynamics Around the World
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Source: World Bank Enterprise Surveys
+Download Figure
+Download figure as PowerPoint slide
+
+The history of governance reforms offers several general lessons. First, reform’s success crucially depends on the political will at the top. International cooperation, active civil engagement, and broad support by the public are essential too. Second, the reform process can be slow, and its progress hard to observe and measure. Proper communication about it is extremely important. Perception of governance may even worsen at the beginning of an anti-corruption campaign if expectations are not properly managed. Third, even if the communication is proper, and there is political will for the change, there are no simple one-size-fits-all strategies to improve governance that works for all countries. Reaching the best policy mix is a process of trial and error, which depends on a country’s social, political, and economic circumstances, and the capacity of its policymakers. Yet, adherence to international standards and agreements10 is an important step to guide the reform.
+
+What follows is a broad overview of policies to improve governance, provided there is a political will to go ahead. To understand the rationale behind these policies and linkages between them, let us start from a simple theoretical framework.
+
+In a nutshell, governance is shaped by series of everyday policy decisions by public officials. Some decisions are made at a grand or macro level – by presidents, ministers, parliamentarians, supreme court judges, central bank governors, or heads of major state-owned companies. Other decisions are more local, such as those made by a traffic police officer deciding whether to issue a fine for speeding.
+
+Each of these policy decisions could potentially be suboptimal, meaning that their outcomes are not in the best public interest, and thus constituting poor governance. For example, the winner of a procurement contract could offer an inferior price-to-quality ratio, because public officials lack the capacity to organize the procurement process in the most efficient way. Or the procurement law could introduce too many restrictions to participate in the bidding process because some corrupt parliamentarians took bribes to introduce inferior changes.
+
+Improving governance means less of the policy decisions being suboptimal. This can be done by pursuing two broad avenues.
+
+The first is to reduce discretion by public officials when the policy decision is made or decide whether the policy decision is needed at all. If there is no clear case for government intervention, the government regulation is “excessive” or corruption risks are too high, we could streamline, simplify, or do away with the policy decision altogether. This is essentially the case of structural reform. If there is a clear case for the government’s intervention, can the policy decision be outsourced or automated? An automated speed enforcement system -radar equipment combined with a camera – may do a better job than the traffic police if the latter is known to be corrupt. Alternatively, and importantly, the policy decision could be subject to a set of rules and procedures, which would guide public officials and limit the space for possible errors, whether deliberate or not. All key state functions and institutions are guided by rules and procedures, be it a constitution – the key law in any country, public finance management or tax administration procedures to guide fiscal policy, or guidelines for the central bank operations and financial supervision, among others.
+
+For most policy decisions, discretion by public officials cannot be avoided. In fact, we need discretion when policy decisions require judgment and agile government reaction to unexpected circumstances – something that cannot be fully outlined by a set of rigid rules, let alone automated. Hence the second broad avenue is to reduce the likelihood of poor governance, at the time when each discretionary policy decision is made.
+
+How to induce public officials to make decisions in the best interest of their country? The key is to set the right incentives.11 First, encourage and facilitate good governance: for instance, through competitive salaries, career prospects, or capacity building, which facilitates making the right decisions. Second, discourage poor governance, in particular corruption. The key instrument here is the punishment of corruption – for both bribe-takers and bribe-givers, which requires quality law enforcement. One can also employ political instruments, such as regulation of lobbying and political contributions, or behavioral nudges – emphasis on reputational risks and elimination of culture-of-corruption in society. Making it difficult to use the proceeds of corruption is also a way to effectively reduce its benefits, and the primary instrument for this is anti-money laundering enforcement.
+
+For all the incentives to work, it is crucial to have quality monitoring and informing the policymaking process. The key element to this is transparency – opening data about government operations and making them easily accessible. Transparency sheds light on government operations and thus enables their external scrutiny. It also enables governments to make informed, evidence-based, and thus better policy decisions. Monitoring and informing the policymaking process also requires engaging official monitoring institutions -for example, anti-corruption bureaus or supreme audit institutions – and, importantly, the general public and civil society. This engagement is extremely useful not only for monitoring public officials, but also for participatory, informed, and thus inclusive decision-making process.
+
+Pursuing both avenues is critical, but so is the right policy sequence. Quite often “prevention” is better than “treatment” – the priority is to reduce discretion, and hence the space for errors, when a policy decision is made, rather than to try to make sure and monitor whether the decision is optimal. For example, if a procurement law does not provide an adequate set of guidelines for the procurement process, it might be very costly or even futile to create incentives for public officials to follow the law. In some cases, the enforcement of a poorly formulated policy can be even counterproductive, giving rise to the argument that bribery (in order to evade this policy) “greases the wheels of the economy”. For example, cracking down on tax evasion in an environment of particularly high tax rates and inefficient public financial management may result in lower economic growth (Ivanyna, Mourmouras, & Rangazas, 2015). Fighting medical staff absenteeism is costly and non-effective if the policy-prescribed job requirements and benefits are inadequate (Banerjee & Duflo, 2011). Creating a proper legal and regulatory framework to improve policymaking and getting the policy right are the priorities in such cases. Nevertheless, poor governance and in particular corruption can thrive even if policies are well-formulated, so it is important to complement the policy frameworks with appropriate monitoring and accountability mechanisms.
+
+Figure 5 provides an overview of the governance policies, and in the following sections, we discuss them in more detail.
+
+View Full Size
+Figure 5.
+
+Improving Governance Decomposed
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Note: Improving government involves two broad avenues to pursue. First is reducing discretion when a policy decision is made – via structural reform, rules and procedures, automation. The second is reducing the likelihood of poor governance (when a discretionary policy decision is made) – via appropriate incentives for public officials. Abbreviations: PFM – public finance management, CB – central bank, HR – human resource, AML – anti-money laundering.
+Download Figure
+Download figure as PowerPoint slide
+V. Reducing Discretion when Policy Decision is Made
+
+The broad prescription is to do structural reform to streamline and simplify policies if there is no strong case for government intervention or if corruption risks are too high. If the case for the government intervention is strong – market failures need to be addressed – then the priority is to improve rules and procedures, explore the potential for automation, or outsource some of the government functions.
+
+A. Structural Reforms to Reduce Government Discretion
+
+Structural reforms are defined as policy measures that reduce impediments to an efficient allocation of resources (Ostry, Prati, & Spilimbergo, 2009). In the context of governance, the reforms often include streamlining, simplifying, or removing excessive government regulation and oversight. Structural reforms reduce the need for contacts between the private sector and public officials, and with it the number of discretionary policy decisions. Removing a cap on trucking licenses means that there is no need for a public official to decide who should receive the license. Reducing the number of tax payments means fewer visits to the tax collection agency. In a cross-section of countries, less burdensome government regulation is indeed associated with a smaller shadow economy and lower corruption.12
+
+Examples of structural reforms include:
+
+For businesses: reducing the number of documents, procedures, and costs to open and close firms, license new products, start construction, receive loans, fire and hire workers, comply with safety and other standards, or pay taxes and fees.
+
+For exporters and importers: removing impediments to trade and move capital across borders.
+
+For individuals: reducing licensing to enter a new profession or limiting requirements to sell a house or receive a driver’s license, among others.
+
+Removing the asymmetrical treatment of similar economic agents: for example, export subsidies, import quotas, special economic zones, or the favorable tax treatment of foreign investment, food or energy subsidies, different custom tariffs for similar products.
+
+Reducing regulatory overlap, when different agencies can issue regulations, permits, or licenses over similar matters. This can reduce the unpredictability and magnitude of bribery (Schleifer & Vishny, 1993).
+
+Privatization of state-owned enterprises (SOEs), with the caveat, that the privatization process itself can be subject to corruption and capacity constraints.
+
+Strengthening the independence of public institutions, including SOEs and in particular central banks (Barro & Gordon, 1983), subject to effective accountability frameworks. This includes less government discretion over the appointment and dismissal of management, recruitment within institutions, internal rules and procedures, and financial autonomy.
+
+Removing and streamlining government regulations can reduce the space for policy error, yet the most challenging part is to identify which regulations are excessive. For example, some countries require over 20 procedures to get a construction permit. In some countries, it takes years to enforce contracts or resolve insolvencies. These extreme outcomes of regulation are hardly justifiable. But very often the answer is less clear. Some government regulations are essential. Even the most business-friendly countries take time to enforce contracts, grant construction permits or resolve insolvency. They do require businesses to register or obtain construction permits. Very often the choice is between addressing a governance failure versus addressing a market failure or achieving other societal goals (e.g., eradication of poverty or environmental sustainability).
+
+How much regulation is too much? The answer ultimately depends on a country’s circumstances. Lower quality of governance, when corruption is pervasive and systemic, makes the case for stronger deregulation efforts. Georgia, for example, abolished 20 inspection agencies during 2005–2011, including food and fire safety inspections. At the time, these agencies were deemed too corrupt to perform even their basic functions (World Bank, 2012). This strategy would probably not work for all countries, including Georgia, in the long term. On October 30, 2015, a Colectiv nightclub fire in Bucharest, Romania, took the lives of 64 people, the main cause being blatant fire safety violations by the club that went unchecked by the responsible inspection agency (Barbera, 2019). Having no agency at all would not have saved lives. What could have helped was an agency, which would adequately perform its functions. Deregulation could be the first line of defense against poor governance, but it would not help solve all issues.
+
+B. Case for Government Intervention: Automation, Outsourcing, Rules, and Procedures
+
+Where the role of the government is essential, governance reform must go beyond streamlining. In order to reduce discretion and space for policy error, some policy decisions can be delegated to computer algorithms or, in other words, automated. Some can be delegated to third parties, which are more trusted or capable – a case of so-called “regulatory outsourcing”. Lastly and importantly, policy decisions can be constrained and guided by a set of rules and prescribed procedures.
+
+Automation of government operations is becoming an increasingly viable solution thanks to rapid progress in information technology. Well-designed computer algorithms can remove human errors in decision-making and reduce opportunities for poor governance.13 They can be used to:
+
+Automatically assign tax audits, like in Estonia or France among other countries, – a part of the so-called risk-based approach (IMF, 2018; World Bank, 2011). This not only helps detect tax evasion more effectively but also removes potentially erroneous (or corrupt) policy decisions on whom to audit. The same risk-based approach is used at customs, for financial supervision, or to assign judges to court cases.
+
+Automatically identify eligible recipients of social transfers. For example, in South Africa, all social security recipients must periodically present proof of life – automatically by fingerprint or voice verification (IMF, 2018). This not only reduces the compliance cost for the recipients but also removes the opportunity for “leakages” – i.e. collusion between non-eligible recipients and Social Security Agency clerks. Similarly, the Indian Aadhaar is the largest biometric identification system in the world, used to automate social transfer and energy subsidy payments in the country (IMF, 2018).
+
+Automatically detect traffic violations, charge for parking or public transport, regulate congestion (through the pricing of road use).
+
+Provide government services online: pay taxes, utilities, fines; register businesses, vehicles; apply for birth, marriage, or death certificate; apply for driver’s license, etc. Depending on the service, 30 to 70 percent of countries offered them online in 2018 (Figure 6)- a boost to efficiency but also fewer personal interactions between public officials and households or firms. The COVID-19 pandemics highlighted the importance of digital solutions, enabling governments to efficiently deploy funds within their social assistance programs, as for example in the case of the Philippines’ Small Business Wage Subsidy Program.
+
+Automate the procurement process: online announcement, bidding process, monitoring, evaluation, and results.
+
+View Full Size
+Figure 6.
+
+E-Government on Rise
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Source: UN E-Government Survey 2018 (UN, 2018)
+Download Figure
+Download figure as PowerPoint slide
+
+Automation of government operations helps improve governance, yet it comes with several risks. First, setting up automatic systems may require significant initial investment and building up capacity to operate these systems. Second, the most vulnerable can be excluded. While over 60 percent of countries offer online services for the poor (Figure 6), billions of people – often the poorest – still do not have Internet access or lack digital literacy to be able to benefit from these services. Without major investments in education and infrastructure, the poor can disproportionately be exposed to government inefficiencies, including extortion by public officials (UN, 2018). Third, the more services become automated, the larger is the potential cost of a cyber-security breach or digital identity theft. Improperly designed machine learning algorithms may also introduce biases and reduce the transparency of decision-making.
+
+The second solution to limit discretion and space for policy decision error is outsourcing -the delegation of selected policy decisions to an institution with better capacity or less corruption. National regulatory authorities in 40 countries (as of 2019) collaborate with the World Health Organization’s Prequalification Program to accelerate the approval of medicines (’t Hoen, Hogerzeil, Quick, & Sillo, 2014; WHO, 2019). Since 2016 Ukraine has outsourced the procurement of medicines to UNICEF and UNDP, which helped save $66 million of state budget funds (UNDP, 2019). Colombia and the Philippines, among others, hire reputable private companies to do the pre-shipment inspection of imports (Yang, 2008).
+
+Even high-level anti-corruption law enforcement can be outsourced, as in the case of Guatemala’s Commission against Impunity (UN, 2019). Nevertheless, outsourcing has its limits, as third-party dependency may have low political acceptability.
+
+The third and the most universal solution is to guide policy decisions by rules and prescribed procedures. For example, a rule that sets strict time limits to issue or refuse a license may deter public officials’ attempts to require a bribe to “grease the wheels” of the bureaucratic process. A well-established routine for procurement or a budgetary process may help even inexperienced public officials perform their job well.
+
+The most fundamental policies and institutions are guided by rules, starting with the constitution. The conduct of key macroeconomic policies – fiscal policy, monetary policy, financial sector regulation – is also increasingly subject to rules and procedures. Central banks in many countries set an explicit inflation objective to guide their monetary policy actions and communications (IMF, 2015). Fiscal policy is often anchored by fiscal rules in a form of lasting constraints on key fiscal indicators (Eyraud, Debrun, Hodge, Duarte Lledo, & Pattillo, 2018).14 Financial sector regulation includes, for instance, the so-called stress-testing – a procedure to check whether banks can sustain adverse economic conditions (Ong, 2014). The set of guidelines for all three policies is not limited to these examples. A broader overview is presented in the following subsections.
+
+Successful inclusive growth strategy requires a governance framework – a set of appropriate rules and procedures – at the highest levels of government (OECD, 2016). It should feature a whole-of-government approach, including mechanisms to coordinate between line ministries. It should also employ tools to assess the government performance based on a dashboard of indicators measuring not only average economic growth – a traditional approach – but also the distribution of its benefits across the population as well as the quality of education, health services, and environmental sustainability. The framework should also align spending decisions with medium- and long-term inclusive growth objectives combined with comprehensive ex-ante and ex-post policy evaluation procedures. Finally, to enhance the design, implementation, and evaluation of inclusive growth policies, the framework should feature instruments for inclusive political institutions, e.g. those that facilitate the participation of all stakeholders – including to most vulnerable ones – in the decision-making process.
+
+Well-functioning rules and procedures are key to good governance but, like with structural reforms, they involve trade-offs. Rules should be rigid enough to limit the discretion of public officials where appropriate, but flexible enough to perform equally well under different circumstances. This leaves two options. Rules can be made extremely complex, specifying all potential courses of action, though this raises the question of how well can such rules be enforced and complied with. Or alternatively, rules can be made less specific and less rigid – a case of “principles-based” regulation, allowing more discretion to public officials (Khan, 2018; Eyraud, Debrun, Hodge, Duarte Lledo, & Pattillo, 2018). For example, a strict annual limit on the budget deficit would reduce discretion. But it would imply raising spending during economic booms when tax revenue is high and cutting it during recessions when tax revenue is low and the economy needs fiscal stimulus. This is clearly not an optimal outcome. A solution would be to either specify different budget targets during booms and during recessions or allow more discretion, for example by setting the deficit limit over the medium term.
+
+The choice between flexibility and rigidity of a rule ultimately depends on a country’s circumstances and the policy issue at hand. For example, Norway’s fiscal rule limits government spending to no more than three percent15 of the value of its sovereign wealth fund -on average over the medium term. The government is permitted to adjust the spending over the economic cycle to help stabilize the economy. The rule performed very well for Norway: it is almost twenty years old and has survived major economic shocks – the financial crisis of 2008 and the collapse of oil prices in 2015. But it is flexible, and it has required a high level of government discipline.
+
+The search for optimal rules is an ongoing exercise. The key point, however, is that for most policy decisions at least some level of discretion by public officials is unavoidable and often necessary, for example, to ensure the independence of key public institutions such as courts or central banks. It is therefore essential to incentivize the public officials to do what is in the best interest of their country, that is to reduce the likelihood of poor governance.
+
+Rules and Procedures: Examples of Public Financial Management and Tax Administration
+
+Effectiveness of fiscal policy is key to inclusive and sustainable growth, and it crucially depends on the quality of fiscal governance – institutional frameworks and practices, that broadly encompass tax administration on the government revenue side, public financial management on the expenditure side, and fiscal transparency16 (IMF, 2018).
+
+Broadly defined, public financial management (PFM) deals with rules and procedures that cover all aspects of managing public resources, and in particular how governments manage the budget in its established phases – formulation, approval, and execution (Allen, Hemming, & Potter, 2013; Cangiano, Curristine, & Lazare, 2013). Strong PFM plays a key role in maintaining a sustainable fiscal position, effective allocation of resources, and efficient delivery of public goods and services.
+
+The Public Expenditure and Financial Accountability (PEFA), launched in 2001 by the international community, has become the acknowledged standard for PFM assessments, both at the national and sub-national levels. It evaluates PFM rules and procedures along seven key pillars: 17
+
+Budget reliability: whether the budget is realistic and is implemented as intended.
+
+Transparency of public finances: comprehensive, consistent, and accessible information on government budget including budget classification, intergovernmental transfers, and service delivery performance; consistency of the reporting with international standards; public access to fiscal and budget documentation.
+
+Management of government assets and liabilities: reporting and monitoring of fiscal risks (e.g. publicly-guaranteed debt, projected future social security, and health spending, the projected fiscal cost of natural disasters); effective public asset and debt management; effective public investment management – procedures for projects’ planning, allocation, and implementation. IMF’s Public Investment Management Assessment (PIMA) is a widely-used comprehensive framework to assess the quality of infrastructure governance, and identify the reform priorities (IMF, 2019; Schwartz, Fouad, Hansen, & Verdier, 2020).18
+
+Policy-based fiscal strategy and budgeting: orderly and timely budget preparation with the effective participation of relevant stakeholders; legislative scrutiny of budget; medium-term perspective in expenditure budgeting; robust fiscal forecasts and procedures to assess the economic impact of fiscal policy proposals.
+
+Predictability and control in budget execution: procedures to administer government revenue; procedures to record, report, and consolidate revenue collected; reliable projections of cash commitments and requirements; measures to address arrears; effective payroll controls; effective procurement – transparency of arrangement, open and competitive procedures, monitoring of results; procedures and agencies for internal audit.
+
+Accounting and reporting: financial data integrity, in-year budget reports to monitor budget performance and introduce corrective measures if needed; annual financial reports.
+
+External scrutiny and audit: significant, timely, transparent, and independent.
+
+On the government revenue side, IMF’s Tax Administration Diagnostic Assessment Tool (TADAT) covers most critical tax administration functions, procedures, and institutions along with nine performance outcome areas: (i) integrity of the registered taxpayers base; (ii) effective risk management (in particular, compliance risks); (iii) supporting voluntary compliance; (iv) timely filing of tax declarations; (v) timely payment of taxes; (vi) accurate reporting in declarations; (vii) effective tax dispute resolution; (viii) efficient revenue management; and (ix) accountability and transparency.
+
+Rules and Procedures: Example of Central Bank Safeguards Assessment
+
+Central banks are responsible for monetary and exchange rate policy, and often for financial regulation. The effectiveness of these policies crucially depends on the central bank governance, in particular as it pertains to the central bank’s mandate, its decision-making, its autonomy, and its transparency and accountability (IMF, 2020; IMF, 2015).
+
+IMF’s Central Bank Safeguards Assessment is a diagnostic of the central bank’s governance with the main objective to mitigate the risks of misuse of IMF resources and misreporting key monetary data to the IMF (IMF, 2020; Bossu & Rossi, 2019; Kabwe, et al., 2019). It focuses on five key areas:
+
+1. External audit mechanism: Are the bank’s financial statements independently audited and how are external auditors selected?
+
+2. Legal structure and autonomy: Do current laws and regulations ensure the central bank’s independence from government interference?
+
+3. Financial reporting: Does the central bank adheres to international standards of accounting and financial reporting?
+
+4. Internal audit mechanism: Does the audit have enough capacity and organizational independence?
+
+5. System of internal controls: Is there a proper oversight of the central bank’s operations by the bank’s board? How good are the controls in foreign exchange management, currency and vault operations, etc?
+
+Rules and Procedures: Example of Financial Sector Assessment Program (FSAP)
+
+The Financial Sector Assessment Program (FSAP) is a comprehensive and in-depth analysis of the financial sector. A joint program of the IMF and the World Bank, its goal is to gauge the stability and soundness of the financial sector and assess its contribution to economic development. 19 The essential component of FSAP is a detailed analysis of governance in the financial sector.
+
+To assess financial stability, FSAPs:
+
+Design and conduct procedures to examine the resilience of the financial sector, including stress-tests and analysis of systemic risks;
+
+Examine microprudential and macroprudential frameworks;
+
+Review the quality of financial sector supervision;
+
+Evaluate the procedures to respond effectively in case of systemic stress.
+
+To assess development aspects, FSAPs examine the quality of the legal framework and of payments and settlements systems, as well as institutional obstacles to financial development, inclusion, and technological progress.
+
+VI. Reducing the Likelihood of Poor Governance
+
+Most policy decisions cannot be fully automated, outsourced, or defined by a rule, and so it is important to incentivize public officials by increasing their net benefit (benefit less cost) of good governance, i.e. making policy decisions in the best public interest, and decreasing their net benefit of poor governance, in particular corruption.
+
+How to incentivize public officials to make policy decisions in the best public interest?
+
+Design human resource policies – public salaries, hiring and firing practices, performance assessment, codes of ethics – to reward integrity, and best effort.
+
+Build inclusive political institutions. The possibility of being elected into office is an incentive for good governance.
+
+Develop capacity. Doing the job well is easier if one knows how to do it, and has the means to do it.
+
+How to disincentivize poor governance and corruption in particular?
+
+Punish and discourage it by using tangible and non-tangible means. Possibilities to get fined or imprisoned are deterrents of corruption. So are concerns about reputation, or social norms about corruption’s unacceptability.
+
+Address both demand (bribe-takers) and supply (bribe-givers) sides of corruption, and make it harder to coordinate between them. Corruption is costlier if it is harder to extract bribes, and potential bribe-givers are less willing to pay.
+
+Make it harder to use the illicit proceeds. The benefit of corruption is effectively lower if it is costly or risky to use or “launder” its proceeds.
+
+The key to reducing the likelihood of poor governance is monitoring and informing policy decisions. Effective law enforcement and auditing agencies are more likely to detect corruption. Actively engaged and informed public helps detect corruption too – a case of grassroots monitoring. But both the official agencies and the grassroots monitoring can only thrive if there are transparency and accountability of government operations. Transparency and accountability, as well as engagement of civil society, are also key to inform policy decisions, making them more inclusive, and so closer to optimal.
+
+Figure 7 summarizes all the elements to help reduce the likelihood of poor governance. In the following sections, we will go over them one by one.
+
+View Full Size
+Figure 7.
+
+Reducing the Likelihood Of Poor Governance Through A Magnifying Lens
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Download Figure
+Download figure as PowerPoint slide
+A. Encouraging Good Governance: Human Resource Policies, Political Institutions, and Capacity Building
+
+All else equal, a higher public salary increases the reward for good governance (Becker & Stigler, 1974). It also attracts better talent, and hence more capacity in the public sector (Klitgaard, 1989). In practice, countries where public officials are paid more on average experience less corruption (Van Rijckeghem & Weder, 2001; IMF, 2019). More granular local episodes, where causality is easier to establish, are also consistent with this cross-country pattern, provided higher wages are complemented by monitoring and plausible penalties for wrongdoing.20
+
+Raising public salaries is costly, though. The public wage bill is a sizeable part of government spending (Table 1). A major public salary raise can also affect wages in the private sector and reduce a country’s competitiveness at least in the short run (Afonso & Gomes, 2014). Finally, if the hiring process is not transparent, higher public salaries may invite nepotism and corruption at the hiring stage (Shah, 2006). These costs should be carefully weighed against the presumed benefits.
+
+Table 1.
+
+Public Wage Statistics from around the World, 2008–2016
+
+source: Public wage statistics – Worldwide Bureaucracy Indicators (World Bank, 2018); corruption-Transparency International’s Corruption Perception Index (CPI) (Transparency International, 2019).
+Note: Countries with low corruption are those above 75th percentile by the CPI in 2008–2016 (CPI above 44). Countries with high corruption are those below the 25th percentile (CPI below 27). Public wage premium indicates by how many percent is the average wage in the public sector higher than the average wage in the private sector, controlling for education, age, gender, and location.
+View Table
+
+Overall, a competitive public salary is a necessary but not sufficient condition to improve governance. In most low corruption countries public employees can earn at least as much as they would in the private sector (Table 1). In high corruption countries, this is not always the case, especially for employees with tertiary education. Civil service reform, including an increase in wages but also a reduction in public employment, was an integral part of the anti-corruption campaigns in Georgia and Rwanda (IMF, 2019). At the same time, many high corruption countries, pay their public employees large premia, but it does not seem to help (Table 1).21
+
+Other human resource policies should complement the competitive salary:
+
+Open contests at the hiring stage can impede bribery and nepotism.
+
+Meritocratic working environment, for example clearly specified procedures for performance assessment or bonus payments that are tied to performance.
+
+Properly designed and implemented Codes of Conduct22 at government institutions set expectations as to what constitutes appropriate behavior of staff to prevent corruption and conflict of interest. A well-functioning code should clearly specify within-institution ethics rules and values, definitions of corruption offenses, and rules to prevent conflict of interest (e.g. on acceptance of gifts and favors, the abstention of decisions, external activities, and declaring assets) (IMF, 2020). Measures should be taken to ensure proper implementation of the rules and to increase awareness about the code among staff.
+
+Inclusive political institutions can also encourage good governance. Politicians tend to be less corrupt if they can run for re-election (Ferraz & Finan, 2011). Democracies, in general, are less prone to corruption, though causality is hard to establish at a cross-country level (Kolstad & Wiig, 2016; Treisman, 2007). While the optimal design of political institutions is still an open question (Kunicova, 2006), two features seem to matter the most: high degree of political competition, including low barriers to entry, and minimized electoral fraud, making it harder to misrepresent the public choice.
+
+Even with inclusive political institutions and adequate human resource policies, good quality policy decisions may still be hard to make if the government capacity is low. Developing the capacity requires adequate physical infrastructure, high quality of general education, and importantly continuous investments in job training for government officials. For example, Kazakhstan’s Bolashak International Scholarship sends annually over a thousand students to study abroad, conditional on their return to the country for at least two years – civil service being one of the prioritized categories (Center for International Programs, 2019). International donors and organizations often sponsor or run public officials’ capacity development programs. IMF’s Institute of Capacity Development, for example, trained over 33,000 public officials in 2015–2019 in classrooms, and 19,000 more through online training.
+
+B. Discouraging Poor Governance: Tangible and Non-Tangible Cost, Supply-Side Measures, Anti-Money Laundering, and Anticorruption Frameworks
+
+Decent salaries, the prospect of career growth, and capacity development yet may not be enough. Some public officials may still lean towards engaging in corruption, so it is important to discourage it.
+
+All else equal, more severe punishment should discourage corruption. In most countries, prison sentences are generally a norm even for petty bribery,23 but whether this deters corruption depends on the quality of law enforcement.
+
+Capacity constraints in law enforcement can be mitigated by the prosecution of illicit enrichment (also called unexplained wealth orders). The idea is to track the public officials’ wealth and criminalize the increases, which cannot be explained by the income from official sources – no need to prove that the unexplained wealth is linked to a particular illegal activity (Dornbierer, 2019). In Italy elements of it were in place already in the 1950s, Ireland adopted a comprehensive law in 1996, and many more countries followed in the 2000s. Modalities of the law differ: some countries (Ireland, Colombia, Australia, Tanzania among others) consider illicit enrichment a criminal offense (e.g. punished by imprisonment), while others (UK, France, Kenya among others) apply the principle only for assets recovery and confiscation (Hamilton, 2012). Regardless of modality, effective prosecution of illicit enrichment requires a number of important prerequisites, such as maintaining reliable accounts of wealth for public officials (asset declaration frameworks) or establishing beneficial ownership of assets. But the general conclusion is that it generally strengthens the government’s ability to monitor and punish corruption (Muzila, Morales, Mathias, & Berger, 2012).
+
+Punishment should extend to bribe-givers – the supply side of corruption. Since both supply and demand sides carry the risk of penalty the coordination between the two becomes more complicated, increasing the effective cost of corruption. The UN Convention Against Corruption (UNCAC), signed and ratified by 186 countries as of 2019, requires all parties to criminalize the bribery of foreign public officials as well as to cooperate on extradition of offenders and return of stolen assets. The OECD Convention on Combating Bribery of Foreign Public Officials in International Business Transactions, signed by 44 countries as of 2019, contains even stricter and more obliging requirements on the prosecution of bribery abroad (Clifford Chance, 2019). Proper implementation of these agreements would effectively increase the cost of poor governance.
+
+Political institutions are key to hinder the coordination between potential bribe-takers and bribe-givers. For example, political contributions are an important instrument of financing election campaigns, but in countries with less developed political traditions they can effectively legitimize a large-scale quid pro quo – money now in exchange for “services” later. Most countries regulate political contributions. Foreigners are generally prohibited to contribute; large amounts should generally be disclosed. Some countries (Japan, Chile, Italy, Morocco among others) set annual limits per legal entity or individual; others (France, Belgium, Brazil, Poland among others) ban contributions by legal entities altogether (Baker McKenzie, 2017).
+
+Lobbying and pre/post-government employment, if not properly regulated, can also facilitate corruption. In principle, lobbying can be a useful input into policy-making, but the risk is that public officials may get over-exposed to special interest groups or, even worse, side with them because of personal connections or favors. Apart from the “gifts in exchange of service”, which is generally treated as corruption, particularly concerning is the “revolving door” phenomenon – when lobbyists are appointed into public office and, vice-versa, public officers get lucrative positions (often) in lobbying business after their tenure in government. Transparency helps mitigate these risks. For example, in 1946 the U.S. became the first country to require lobbyists to register and log their activity; more countries followed in the 1990s and 2000s. And to reduce the extent of the “revolving door” phenomenon, some countries (Canada, U.K., Slovenia, Chile among others) introduced a so-called “cooling-off” period – a prohibition for top public officials to engage in lobbying shortly after they leave the government (OECD, 2014).
+
+Prohibitions and punishments are not the whole stories though: often a motivation for public officials to abstain from corruption is its high intangible cost – a motivation to do their job well. This motivation often depends on prevailing social norms, acceptability of corruption in society, as well as a perception of what others are doing (Ivanyna, Mourmouras, & Rangazas, 2015; Innes & Mitra, 2013). In some countries, a policeman is a highly-respected profession. For example in Switzerland, the police are trusted by 79 percent of the population (ETH Zurich Center for Security Studies, 2019). The profession attracts talent and integrity despite high risks and moderate salary, and corruption within the institution is not tolerated by peers. In other countries, policemen are trusted less – in fact on average police are the least trusted institution in the world (Transparency International, 2017). Often policemen cover-up organized crime, and corruption within the institution is widely accepted.
+
+The presence of corruption’s intangible costs carries at least four policy implications:
+
+1. Same anti-corruption frameworks (salaries, punishment, and monitoring procedures) may have different results in different countries or institutions. In New York parking violations by the United Nations diplomats – recorded but unpunishable until 2002 due to diplomatic immunity – were positively correlated with the level of corruption in diplomats’ home counties (Fisman & Miguel, 2007). The result was corroborated in experimental “bribery” games played by foreign students in U.K. universities (Barr & Serra, 2010). As a result, some countries, in particular at earlier stages of development, may require tougher tangible incentives to reduce corruption, and more rigid rules and institutional frameworks in general, while some may rely more on existing social norms and trust, and “principles-based” regulation (Khan, 2018). For example, unlike many other countries, Switzerland does not restrict political contributions at a federal level (Baker McKenzie, 2017), and yet this does not seem to lead to state capture or corruption. Swiss parties care about their reputation, they are highly trusted by the public (ETH Zurich Center for Security Studies, 2019), and in fact, the country is among the world’s top performers over many dimensions of inclusive growth.
+
+2. Institutional crackdowns on corruption – a big push approach to fight corruption within an institution or small geographic area – can have a long-lasting effect. The crackdowns wipe out corrupt public officials and, in addition, change the culture and social norms within the institution, even if the rest of the government is swamped by systemic corruption. The newly (re)created institutions are also called “islands of excellence” or “islands of integrity” (Marquette & Peiffer, 2018). Georgia widely followed the big push approach in the late 2000s (World Bank, 2012). For example, the country fully dismantled its customs and police, then trained and hired completely new staff, raised the salaries and set new accountability frameworks, and finished off with small yet important details like new modern uniforms and promotional campaigns. Ukraine used the same approach in 2014 to reform its traffic police and create a new anti-corruption bureau.
+
+3. Promoting gender equality can also disrupt the culture-of-corruption environment, as experimental and survey-based studies show that women tend to be less willing to engage in bribery, and gender equality within households promotes social trust (Stensota & Wangnerud, 2018).
+
+4. Social and educational initiatives promoting integrity increase the intangible cost of and hence discourage illicit behavior. The initiatives include social advertisement, implementing codes of conduct for public employees, as well as senior public officials leading by example. For example, in Colombia’s capital Bogota in the late 1990s authorities hired 400 memes to shame traffic rules’ offenders. The city’s major Antanas Mockus appeared on TV saving water while taking a shower, and asking the city dwellers to follow his example. By 2003, both water usage and traffic fatalities dropped significantly (Mockus, 2012)
+
+Preventing Criminals from Benefiting from the Proceeds of Corruption: Anti-Money Laundering Frameworks
+
+A further way to disincentivize corruption is to make it more difficult for criminals to benefit from the proceeds of their criminal behavior. Criminals typically launder their illicit income so that it appears to come from legitimate sources. In order to prevent this, countries should put into place an effective anti-money laundering (AML) framework.
+
+The Financial Action Task Force (FATF) is the inter-governmental body responsible for developing the policies for combating money laundering, terrorist financing, and proliferation financing. The FATF has developed a series of 40 Recommendations covering a range of measures that countries should adopt with respect to AML/CFT frameworks -referred to as the AML/CFT international standard.
+
+The FATF Recommendations are concerned with both preventive as well as enforcement measures. On the preventive side, financial institutions and other businesses (e.g. lawyers, real estate agents, accountants) are required to “know their customer”. This includes identifying customers, verifying the beneficial owners of legal entities, and due diligence measures on politically exposed persons (PEPs).24 Financial institutions and others should also report transactions, where there is suspicion of illegal activity related to corruption. On the enforcement front, money laundering and corruption activities should be properly investigated; offenders prosecuted and subject to effective, proportionate, and dissuasive sanctions; and proceeds of corruption confiscated. Where necessary, countries should cooperate internationally: deliver appropriate information, financial intelligence, and evidence, and facilitates action against criminals and their assets.
+
+VII. Monitoring and Informing the Policy
+
+Creating incentives for good governance is futile if there is no effective monitoring framework in place. It starts with effective official anti-corruption and audit institutions. They can investigate and prosecute corruption, thus raising its cost, and they can introduce measures to prevent corruption, such as defining national anti-corruption strategies and supporting integrity practices at government institutions.
+
+But official institutions alone are not enough; engagement of civil society, or so-called grassroots monitoring, is also critical. Civil society can provide useful signals to official anti-corruption institutions, and boost the political cost of corruption, even if formal investigations are delayed or blocked.
+
+Civil society also informs policy decisions. Active public and NGOs are often in contact with public officials regarding their concerns and ways to solve them. Independent institutes and councils, as well as international organizations, scrutinize government policies and provide their recommendations. These inputs enhance the government’s capacity and make sure the decision-making process, and its results, are truly inclusive (OECD, 2016).
+
+Underpinning the ability to monitor and inform the policy is transparency and accountability of government operations.
+
+A. Transparency and Accountability
+
+“Without transparency corruption is inevitable” (Collier, 2010). So are policy errors, even if public officials have no special interests. Shedding light on government operations is key to monitoring, both by official institutions and civil society. It is also essential to inform the policy.
+
+The key policy measure to boost transparency is to open data. Opening it is about making it both available and usable. This means data must be clearly defined, reliable, comprehensive, and easy to compare over time and across units (firms, households, local governments, countries). It should also be easy to use – downloadable and stored in a machine-readable format (e.g. electronic tables vs. scanned images or non-digitalized paper documents) – and feature a simple and convenient user interface with flexible search and low barriers (registration or payment) to access.
+
+The key step towards opening data is complying with the data dissemination standards, which are routinely set, maintained, and updated by various international organizations. UN’s System of National Accounts sets the standards for measuring basic macroeconomic aggregates (economic output, prices, etc.) at a country level (UN, 2009). The IMF’s and World Bank’s standards and codes initiative elaborate further on government finance, financial statistics, transparency in fiscal and monetary and financial policy among others (IMF, 2017).25 International Labor Organization set standards on labor market indicators (ILO, 2018).
+
+IMF’s Fiscal Transparency Code (FTC) focuses directly on the public sector, which makes it one of the most important standards for improving governance (IMF, 2012). For example, one of its guidelines for advanced transparency is to cover the fiscal operations of the central government, but also local governments and state-owned enterprises. This means shedding light in areas where misuse of public funds is usually more common (Baum, Hackney, Medas, & Mouhamadou, 2019). Guidelines to report tax incentives and functional classification of government spending (e.g. health, education, etc.) give the public a better idea of government priorities and policy focus. Disclosing not only official public debt but also liabilities that may potentially arise in the future (for example, government-guaranteed debt) informs the public of the risks that the government is taking.
+
+Another important set of transparency standards are those covering the natural resource sector. With its often above-normal profits and large government revenues, the risk of corruption in this sector is high if transparency is not adequately addressed. Resource revenue management is one of the main pillars of the IMF’s FTC; it is also the focus of the Extractive Industry Transparency Initiative (EITI). As of 2019, 51 countries joined the EITI, though only seven achieved EITI-validated satisfactory progress on the standard as of 2019 (EITI, 2019). Among other things, the standard requires countries to disclose all contracts and licenses at a project level, beneficial ownership of all private developers who receive a license, and all government resource revenues.
+
+Transparency and accountability of the central bank’s actions are key to the effectiveness of the monetary policy.26 IMF’s Central Bank Transparency Code (IMF, 2020) is a comprehensive, central bank-focused set of principles and practices encompassing transparency in:
+
+Governance: legal structure, mandate, autonomy, decision-making arrangements;
+
+Policies: policy frameworks, policy decisions, supporting analyses;
+
+Operations: instruments, coverage, access;
+
+Outcomes: reports on governance actions, policies, operations;
+
+Official relations: with government, other agencies, and internationally.
+
+Transparency goes beyond what has been discussed so far. For example, many countries collect and open public finance and other data at a local government level. Shining the light there may uncover the gaps between budgeted and actual spending of as much as 87 percent, as was in the case of local school grants in Uganda in 1991–95 (Reinikka & Svensson, 2004). National and local laws, statutes, and regulations are usually published online. To strengthen political accountability many countries also publish the draft legislation and voting on bills. To minimize electoral fraud Brazil, France, Romania among others open the data on election results at a polling station level. Canada, Mexico, Paraguay, Slovakia among others open the data on procurement (announcements, bidders, winners of contracts, and contracts themselves) – another area where corruption risks are high (Figure 8).
+
+View Full Size
+Figure 8.
+
+Open Data Across Government Activities
+
+Citation: IMF Working Papers 2021, 098; 10.5089/9781513582467.001.A001
+
+Source: (Open Knowledge Foundation, 2019)
+Note: See the exact definition of the index as well as a description of government activities at (Open Knowledge Foundation, 2019)
+Download Figure
+Download figure as PowerPoint slide
+
+Monitoring corruption can be enhanced by maintaining and opening land and company registers. First, if data is open, real estate and business ownership become harder to manipulate. Second, proceeds from corruption and tax evasion are usually invested in real estate or businesses. So, opening land and company registers makes illicit enrichment move visible. Latvia and Turkey among others make their land registers publicly available, but overall there is still a lot of space for progress (Figure 8). As of 2020, the land registers in 88 countries did not even fully cover their capital or main business cities (World Bank, 2019). Several dozen countries open company registers (Figure 8), but only recently and only a handful of countries, notably the U.K., started to publish the information on beneficial ownership – a key piece needed to identify real asset owners behind no-name shell companies (Open Government Partnership, 2019).
+
+Asset declarations by public officials are another key piece of information needed to track illicit enrichment and prevent potential conflict of interests. Changes in declared wealth can be compared to the public officials’ income, and then cross-checked with land and company registers. Even if illicit enrichment is not considered a crime, it can still have political cost if the asset declarations are open to the public. Besides, public officials can also be criminally liable for non-declaring or declaring false information. Open asset declarations can also expose conflicts of interest in areas like state contracts, licenses, or procurement – when public officials arrange favorable conditions for the companies they own. For the reasons above, wealth disclosure by public officials is recommended by the UN’s Conventions against Corruption (UNCAC). As of 2016 over 160 countries adopted some form of it, though significant differences remain on comprehensiveness, transparency, and de-facto implementation (Rossi, Pop, & Berger, 2017).
+
+The benefits of transparency can be enhanced by international cooperation, which includes:
+
+Shared data that enables governments to make policy decisions based on international experience, which is why complying with the international data dissemination standards is so important.
+
+Exchange of information on tax payments, beneficial ownership that helps with monitoring corruption. The proceeds from corruption and tax evasion may and often are hidden abroad. Without international cooperation, neither law enforcement agencies nor civil society would be able to detect them. OECD’s Global Forum on Transparency and Exchange of Information for Tax Purposes, joined by over 150 countries as of 2019, aims at faster and in some cases automatic exchange of information between tax authorities across countries (OECD, 2019). The Financial Action Task Force (FATF) standard facilitates the global exchange of information on beneficial ownership (FATF, 2013).
+
+Sharing data between custom offices, which helps detect trade fraud. Importers, often in collusion with customs officers, may try to evade tariffs by misrepresenting the goods they are bringing across the border. But there is no reason to misrepresent exports when the same goods leave the country of origin. One way to identify trade fraud is to reconcile exports and imports data – a simple action that nevertheless requires the cooperation of customs in at least two countries. The impact of this reconciliation may be quite large: the gap between the reported exports and reported imports is as large as 12 percentage points of GDP in some countries27 (IMF, 2018).
+
+Transparency is crucial, but it involves trade-offs. First, collecting and maintaining data can be costly. Complying with international data dissemination standards requires extensive capacity building and full-time staff working on it. Reporting beneficial ownership down to the smallest owner can be quite costly too. And millions of public officials have to submit their asset declarations, in many cases as often as once per year (Rossi, Pop, & Berger, 2017). Second, transparency may go into conflict with privacy and, sometimes, safety. For example, the information from open land or company registers, or asset declarations could be potentially used for extortion or identity theft by organized crime groups.
+
+Ultimately, the balance between privacy, transparency, and its cost depends on a country’s circumstances. The case for transparency is stronger for countries with lower governance quality, and in areas where corruption risks are higher. For example, in the case of disclosing beneficial owners, the priority is likely higher for license-wining companies in the natural resource sector, or for companies that win state procurement contracts. It is common to most countries that all politically exposed persons (PEPs) have to submit their asset declarations, but fewer countries go further down the public service career ladder (Rossi, Pop, & Berger, 2017). As for the balance between privacy and transparency, for example, the UK and Denmark publish in their beneficial ownership registers only what’s necessary for a meaningful public investigation and exempting those with legitimate safety concerns.28 For example, the UK publishes only owners’ names, months, and year of birth – not enough to identify a person exactly, but enough to “flag” a suspicious case and hand it down to official law enforcement (Open Ownership, 2019).
+
+The effectiveness of transparency can be greatly enhanced, and its cost reduced if governments harness and embrace the IT advances. Not only policy decisions themselves can be automated, as discussed above in this chapter, but also monitoring and informing the policy-making can be made more effective. Examples abound:
+
+Big data is now widely used to do short-term projections of key macroeconomic indicators – GDP, trade, inflation, etc. (Buono, Kapetanios, Marcellino, Mazzi, & Papailias, 2018).
+
+Satellite imaging offers new ways to measure economic activity, inequality, land use, air pollution, etc. at a high-resolution level (Donaldson & Storeygard, 2016). These measures are then used as key inputs for various policies.
+
+In Boston, USA, Yelp29 restaurant reviews have been used to identify potential food safety violations, thereby increasing the efficiency of restaurant inspections (e.g. number of violations per inspection) by 25 percent since 2017 (DrivenData Labs, 2020).
+
+In Estonia and France, machine learning algorithms analyze tax payments to identify potential evasion (IMF, 2018).
+
+Romania’s PREVENT system automatically cross-checks procurement contracts with asset declarations by public officials to flag potential conflicts of interest (Dragos & Neamtu, 2018).
+
+Instagram30 photos of public officials’ luxurious lifestyles are being used in investigations of illicit enrichment (Kreamer, 2019).
+
+B. Official Anti-Corruption Institutions
+
+Effective anti-corruption efforts require a well-defined and comprehensive legal framework and policies regarding prevention, investigation, and prosecution of corruption as well as freezing, confiscation, and recovery of corruption proceeds.
+
+The key element of anti-corruption efforts is the establishment or designation of specialized anti-corruption agencies.31 One of the main functions of anti-corruption agencies is preventive, which includes anti-corruption policy development, monitoring, and coordination, prevention of conflicts of interests, raising public awareness. Another key function is law enforcement – investigation and prosecution of corruption and related offenses.
+
+Anti-corruption agencies can be represented by a separate specialized agency (e.g. Independent Commission against Corruption in Hong Kong SAR) or be a part of a broader body (e.g. public prosecutors in Germany). The case to establish a separate and independent specialized anti-corruption agency is stronger in countries where corruption is pervasive, potentially extending to law enforcement, and trust in the existing institutions is low. Such an agency could focus exclusively on high-level corruption, which is particularly damaging to inclusive and sustainable growth.
+
+An effective anti-corruption agency requires:
+
+A transparent process for the selection of the agency’s leadership, which would enhance public trust in anti-corruption institutions. The leadership should enjoy the security of tenure and their removal should be based on a limited set of criteria in a clearly defined procedure.
+
+Strong internal controls and accountability, as well as periodic reporting of the agency’s activities.
+
+Independence, including sufficient resources and budgetary autonomy, authority over the selection, promotion, and dismissal of personnel, operational autonomy. The agency should also have a clear mandate and powers, including unobstructed and timely access to various state databases, the ability to request and share information with other agencies, and a wide range of investigative tools.
+
+Judiciary plays a crucial role in the anti-corruption criminal justice system and is key to ensure that anti-corruption investigations lead to convictions. Considering the complexity of high-level corruption cases, judges should have the necessary skills and expertise that are required to understand, for example, financial analysis, opaque corporate structures, and evidence received from abroad. Therefore, countries can also consider establishing a specialized anti-corruption judiciary, either as specialized chambers in existing courts or as separate courts.
+
+An important role in the detection, investigation, and confiscation of corruption proceeds belongs to the Financial Intelligence Units (FIUs) – national agencies in charge of collection and analysis of suspicious transaction reports from the financial institutions and other businesses. The FIUs disseminate the results to law enforcement agencies that can use it to initiate or support ongoing corruption investigations.
+
+As corruption and laundering of its proceeds in many cases expand across country borders, countries should adopt legislative measures to allow for effective international cooperation of anti-corruption institutions. This cooperation should include mutual legal assistance in investigations, prosecutions, and adjudication, extradition, information exchanges between law enforcement, and international cooperation in confiscation. Overall, confiscation of proceeds of corruption, including the recovery of assets hidden abroad, is one of the key policy goals of anti-corruption efforts aimed at reducing the potential benefits of corruption.
+
+C. Engaging Civil Society
+
+An inclusive decision-making process is critical to improving governance for inclusive growth. Policy decisions are informed by the feedback from the active public and independent councils, as well as by international experience. Official anti-corruption institutions are more effective with the input from investigative journalists or whistleblowers.
+
+Engagement of civil society is more likely if it is easy and safe to self-organize, monitor, and communicate with public officials, and these actions find feedback in policy decision making. Key policy recommendations are:
+
+Create and use official channels of communication. Two-sided communication of government and the public is essential to good governance. Governments need to know public preferences and concerns to prioritize their policies. In turn, policy reforms can only be successful and sustainable if they are understood and accepted by the public. The channels of communication include official meetings with voters, press-conferences, collaboration with mass media, and possibilities to submit official requests to government agencies, household and business surveys to gauge public opinion, and ensuring the right for peaceful assembly (e.g. protest) and petition. The de-facto usage of these channels, despite the formal guarantees, leaves a lot of space for progress: as of 2018 as much as 37 percent of the world’s population lived in countries with a very low level of political and civil rights, e.g. classified as “Not Free” by (Freedom House, 2019).
+
+Go beyond the traditional channels of communication. An example is participatory budgeting at local governments, where the main idea is direct public oversight over the discretionary public spending – in form of public hearings, discussions, and up to direct vote by elected representatives of civil society. While not without risks and cases of failure, participatory budgeting is generally associated with more inclusive and efficient local spending (Shah, 2007). It also serves as a nursery for civil activism (Shah, 2007). Another example is direct civil society participation in the design of politically sensitive reforms or appointments to key non-elected government positions. In 1996, Namibia’s National Deregulation Task Force, comprised of various stakeholders across the economy, formulated the key principles of the energy subsidy reform, which were then implemented by the government and contributed to the reform’s sustainability (IMF, 2013). In 2015 the head of Ukraine’s Anti-Corruption Bureau was appointed after a pre-selection by a panel of government and civil society representatives (Marusov, 2016). The whole selection process was broadcasted live on TV.
+
+Harness progress in IT to make the government-public communication less expensive and more efficient. Examples include national government web-portals; electronic contact forms; platforms to report bribery and other transgressions (e.g. Indian web-platform “I Paid A Bribe”); platforms for e-participatory budgeting (e.g. D-Brain in South Korea); platforms to submit and sign petitions; communication through social networks. Social media also make it easier for people to self-organize – be it a protest, a discussion group, or a non-governmental organization. For example, Twitter activity preceded protests in Tahrir Square in Cairo during Egypt’s Arab Spring events in 2011–12 (Acemoglu, Hassan, & Tahoun, 2014).
+
+Educate people about the government’s functions and responsibilities. Freedom and the availability of mass media are associated with lower corruption and better governance (Stromberg, 2015). For example, the gap between budgeted and actual spending in Uganda’s local school grant program fell significantly (and student enrollment increased) after the government introduced a newspaper campaign informing parents and teachers about the funding their schools were supposed to get (Reinikka & Svensson, 2011).
+
+Where traditional mass media are not free, social media may fill the information gap. Even after controlling for the level of development, social media penetration (extent of use) is associated with lower corruption, especially when traditional mass media do not talk about it much (Enikopolov, Petrova, & Sonin, 2018). Social media come with risks though: they may embolden hate crime and help spread false information (Miiller & Schwarz, 2019; Gorodnichenko, Pham, & Talavera, 2018). Handling these risks is crucial in order to harness the benefits of informing and engaging civil society.
+
+Bring governments closer via properly designed decentralization, i.e. giving more political, financial, and administrative power to local governments (Boadway & Shah, 2009). Decentralization makes governments more accountable, makes government-public communication more direct, and requires less coordination effort for civil activity. In a decentralized country people can also vote with their feet – move to a jurisdiction which they think is governed better – and this puts pressure on all local governments to do their job better. Properly designed decentralization – that is when local public officials are elected and have significant autonomy both to spend and collect taxes – is indeed associated with less corruption (Ivanyna & Shah, 2011; Fisman & Gatti, 2002).
+
+Make civil participation safe. This includes proper investigation of crimes against investigative journalists, who cover politics and corruption: 426 cases of murders have been confirmed between 2009 and 2019, including, for example, Daphne Caruana Galizia in Malta in 2017 and Jan Kuciak in Slovakia in 2018 (Committee to Protect Journalists, 2020). It is important to properly investigate these crimes, and do not let them happen in the future. This also includes encouraging and not restricting the activity of anti-corruption civil society organizations, the latter being an unfortunate global trend after 2009 (Freedom House, 2019; Transparency International, 2018).
+
+Protect whistleblowers - those who expose poor governance from within their institutions. The protection includes measures like introducing channels for the disclosure (for example, a hotline), guarantee of confidentiality or anonymity, and penalties for potential retaliation.
+
+Cooperate with independent councils and institutes. For example, as of 2016, 39 countries operated independent fiscal councils (Beetsma, et al., 2018). The main objective of these is to oversee fiscal policy: whether government conforms with fiscal rules, whether the underlying government’s forecasts are realistic, etc. Adding independent experts to state-owned enterprise boards is also a good corporate governance practice (IMF, 2020).
+
+Use the help of the international community. The IMF, for example, monitors economic developments in its member countries and provides authorities with recommendations on key macroeconomic and structural policies – the so-called Article IV consultations (IMF, 2020). Similarly, other international organizations, academic and research institutions provide their advice to governments. The policy advice menu includes the governance reform itself, as in, for example, Transparency International’s National Integrity System Assessment (Transparency International, 2012) or IMF’s Governance Diagnostics (IMF, 2017; IMF, 2020).
+
+Examples of IMF’s Governance Policy Advice in Selected Countries
+
+The IMF’s policy advice on governance is an integral part of its communication with country authorities and the design of its programs (IMF, 2020).
+
+In Mexico’s 2019 Article IV report, the governance policy advice included:
+
+On fiscal governance: centralizing and digitizing public procurement processes
+
+On anti-corruption measures: appointing constitutionally mandated anti-corruption judges and prosecutors, implementing asset declarations
+
+On AML/CFT: improving the effectiveness of AML/CFT authorities (e.g., through interagency performance agreements) and enhancing the transparency of beneficial ownership
+
+On rule of law: training and protecting staff of judicial institutions and law enforcement
+
+On financial sector oversight: enhancing definitions of “related party” and increasing the operational independence and budget autonomy of financial-sector supervisors.
+
+In Sri Lanka’s 2016 program and subsequent reviews, the mutually agreed upon governance reform plan included:
+
+On fiscal governance: recording the fiscal cost of non-commercial obligations (including subsidies) for SOEs in the central government budget; compiling fiscal statistics in accordance with the 2014 Government Finance Statistics Manual (GFSM)
+
+On anti-corruption measures: approving the National Action Plan for Combating Bribery and Corruption, which envisages (i) prevention measures; (ii) value-based education and community engagement; (iii) institutional strengthening of Sri Lanka’s anti-corruption commission and other law enforcement agencies; and (iv) law and policy reforms to strengthen anti-corruption efforts and compliance with international obligations
+
+On central bank governance: establishing a sound legal and institutional infrastructure for the implementation of flexible inflation targeting and strengthening the central bank’s governance, accountability, and transparency frameworks.
+
+Other examples are discussed in detail in (IMF, 2020).
+
+VIII. Conclusion
+
+From protecting property rights to educating children and helping the poor, quality of governance defines the government’s ability to promote inclusive growth. In countries where governance quality is particularly low – the corruption is rampant and the state is captured-governments may turn from a solution into a problem, creating a vicious circle of increasing inequality, worsening institutions, and lack of inclusive growth. Governance is not just a fuzzy term. Neither it is a destiny that cannot be changed. Behind it are thousands of public officials making hundreds of policy decisions every day. It is their capacity and their willingness to make these decisions right that underpins governance. The recipe to improve it is therefore to boost human and institutional capacity and strengthen the incentives for public officials to act in the best public interest. This chapter looks at the policy mix behind this advice. It covers the most important pieces of the puzzle: transparency and accountability, structural reforms, policy rules and procedures, automation, human resource policies, monitoring and punishment of corruption, building inclusive political institutions, etc. It presents policy options in each area, their rationale, costs, and benefits. By no means it is exhaustive of details of all policies, but it hopefully enables readers to see the big picture of this issue, identify main policy gaps and priorities in their countries and communities, and find additional references to elaborate on the issues of interest. Improving governance is not easy but is certainly possible.
+
+Save
+Cite
+Email this content
+Collapse
+Expand
+Top
+Governance for Inclusive Growth
+Author: Maksym Ivanyna and Andrea Salerno
+Volume/Issue: Volume 2021: Issue 098
+Publisher: International Monetary Fund
+ISBN: 9781513582467
+ISSN: 1018-5941
+Pages: 44
+DOI: https://doi.org/10.5089/9781513582467.001
+Search within Journal...
+Search
+ Issue  Journal
+Table of Contents
+Front Matter
+Governance for Inclusive Growth
+Back Matter
+Headings
+Figures
+Metrics
+
+International Monetary Fund Copyright © 2010-2021. All Rights Reserved.
+
+Privacy Policy Copyright and Usage
+Contact Us IMF.org Publications
+
+Powered by PubFactory

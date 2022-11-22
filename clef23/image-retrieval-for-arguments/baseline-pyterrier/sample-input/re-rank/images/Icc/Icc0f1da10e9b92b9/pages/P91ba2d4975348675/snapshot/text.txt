@@ -1,0 +1,815 @@
+We value your privacy
+
+We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
+
+With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click to consent to our and our partners’ processing as described above. Alternatively you may access more detailed information and change your preferences before consenting or to refuse consenting. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. Your preferences will apply to a group of websites. You can change your preferences at any time by returning to this site or visit our privacy policy.
+
+MORE OPTIONS
+AGREE
+HomeEuropeGeoscienceItaly
+ArticlePDF Available
+The effects of primaries on electoral performance: France and Italy in comparative perspective
+April 2017French Politics 15(1):43-56
+DOI:10.1057/s41253-016-0007-4
+Authors:
+Marino De Luca
+University of Sussex
+Fulvio Venturino
+Università degli studi di Cagliari
+Download full-text PDF
+Read full-text
+
+You're downloading a full-text provided by the authors of this publication. A preview of this full-text is provided by Springer Nature.
+
+Download citation
+Copy link
+Citations (12)
+References (41)
+Figures (6)
+Abstract and Figures
+For some years now the clamour for the democratisation of internal party politics has been spreading. This issue has been addressed in Italy and France. In the run-up to the 2013 parliamentary election in Italy and the 2012 presidential election in France, leftist coalitions held open primary elections to select their chief executive candidates, with Pier Luigi Bersani and François Hollande finally emerging as nominees. In this article, we examine whether the levels of turnout and competition in the party primaries are associated with the results of the general election. Using data at the level of the Italian province and the French département, we show that the results of the general election were affected by the primaries. We show that turnout enhanced electoral performance, while competition depressed it. The positive effects of turnout were greater than the negative effects of competition. http://link.springer.com/article/10.1057/s41253-016-0007-4
+: Results of the centre-left coalition primary to select the prime minister candidate in Italy in 2012
+… 
+: Results of the centre-left coalition primary to select the presidential candidate in France in 2011
+… 
+: Rules governing primaries in Italy (2012) and France (2011)
+… 
+: Primary turnout and other predictors of electoral performance in Italy and France
+… 
++1
+: Primary competition and other predictors of electoral performance in Italy and France
+… 
+Figures - uploaded by Marino De LucaAuthor content
+Content may be subject to copyright.
+
+Discover the world's research
+
+20+ million members
+135+ million publications
+700k+ research projects
+Join for free
+Public Full-text 1
+Publisher Preview 1
+Content uploaded by Marino De Luca
+Author content
+Content may be subject to copyright.
+Original Article
+The effects of primaries on electoral
+performance: France and Italy
+in comparative perspective
+Marino De Luca
+a,
+*and Fulvio Venturino
+b
+a
+Department of Social and Political Science, University of Calabria, Via P. Bucci, Cubo 0,
+87046 Arcavacata di Rende, CS, Italy.
+E-mail: delucam@unical.it
+b
+Department of History, University of Cagliari, Via San Giorgio 12, 09124 Cagliari, Italy.
+E-mail: fventurino@unica.it
+*Corresponding author.
+Abstract For some years now the clamour for the democratisation of internal party
+politics has been spreading. This issue has been addressed in Italy and France. In the
+run-up to the 2013 parliamentary election in Italy and the 2012 presidential election in
+France, leftist coalitions held open primary elections to select their chief executive
+candidates, with Pier Luigi Bersani and Franc¸ois Hollande ﬁnally emerging as nomi-
+nees. In this article, we examine whether the levels of turnout and competition in the
+party primaries are associated with the results of the general election. Using data at the
+level of the Italian province and the French de´partement, we show that the results of the
+general election were affected by the primaries. We show that turnout enhanced elec-
+toral performance, while competition depressed it. The positive effects of turnout were
+greater than the negative effects of competition.
+French Politics (2016). doi:10.1057/s41253-016-0007-4
+Keywords: primary election; elections; Italy; France; participation; competition
+Primary Elections and Their Critics
+For more than a couple of decades, the literature on political parties has suggested
+that parties have been suffering from an internal crisis (Dalton and Wattenberg,
+2002; Dalton et al,1984; Ignazi, 2014; Webb et al,2002). This literature suggests
+that representation in democratic, Western-style countries is being challenged by
+new kinds of political actors, such as social movements, and internet-led
+democracy. As a consequence of these developments, researchers have noticed a
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+www.palgrave.com/journals
+steady decline in both the membership of parties and voter turnout over the past
+half century (Franklin et al,1992; Franklin, 2004).
+Although their support is declining and the character of their political activism is
+undergoing rapid changes (Scarrow, 2014; van Haute and Gauja, 2015), these
+‘parties without partisans’ are not inert when faced with a loss of legitimacy.
+Rather, they react to these challenges by adopting new forms of organisation and
+new patterns of internal democracy. These reforms have sometimes been criticised
+as a manipulation of party members by party leaders (Katz, 2001). Whether or not
+that is the case, the role of the ordinary people has generally increased to affect all
+the functions performed by political parties, including the selection of candidates
+and party leaders.
+The introduction of primary elections is the most noticeable reform adopted by
+parties to expand the inclusiveness of their decision-making processes. In a
+nutshell, a party adopting a primary system is accepting that its candidates and/or
+leaders are chosen by party members or by all the citizens. In the former, the
+selection is deﬁned as a ‘closed’ primary election, also known as a one-member-
+one-vote (OMOV) process; the latter is called an ‘open’ primary.
+A party is composed of several related branches, and if political recruitment
+changes from an oligarchic to a democratic form, then this change is likely to affect
+the whole organisation. The consequences brought about by the use of primary
+elections can be very complex, and unsurprisingly research was initially conducted
+with reference to party politics in the USA. However, the early results were
+disappointing for the supporters of the intra-party democracy: parties adopting
+primaries tasted defeated in the ensuing general elections, especially when
+primaries are competitive and/or negative (Hacker, 1965).
+Today, primaries are not a special characteristic of American politics. This tool
+of democracy is now also used extensively in Latin America (Carey and Polga-
+Hecimovic, 2006), Western Europe (Barbera
+`et al,2015; De Luca and Venturino,
+2015), Asia (Narita et al,2015), and Africa (Ichino and Nathan, 2013). The
+expansion of the set of cases has also made the assessment of the political
+consequences produced by the primaries on political parties, party systems, and the
+political systems at large more problematic. In contrast with most American
+studies, primaries are now said to lead to parties avoiding major internal conﬂicts,
+to improving the candidates’ image, and their fund-raising capabilities. Thus,
+primaries are nowadays often considered to be an asset for electoral success, rather
+than a liability as previously believed.
+Primary Elections and Their Consequences: An Overview
+Due to the mounting importance of this topic, several studies dealing with the
+methods for selecting leaders and candidates have been published in recent years.
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+One of the most important is the comparative research of Cross and Blais (2012)on
+the leadership of 25 parties in English-speaking democracies from 1965 onwards. A
+second piece of research, coordinated by Pilet and Cross (2014), analysed the
+selection of party leaders in 12 European countries, plus Australia, Canada, and
+Israel. Another research project, directed by Sandri et al (2015), analysed the
+impact of primaries on the functioning of political parties in some European and
+Asian countries.
+In comparison with this empirically oriented research, Hazan and Rahat (2010)
+aimed to provide a stronger theoretical underpinning to the study of primary
+elections. According to them, the candidate selection methods differ in their levels
+of inclusiveness and generate noticeable consequences for four dependent
+variables: participation, representation, competition, and responsiveness. Their
+conclusions are quite pessimistic. At the very least, no method of selection can
+simultaneously maximise party democracy across the four dimensions. At best, it
+may be possible to obviate the most damaging consequences by adopting a mixed
+system, but the growth of inclusiveness is likely to generate major pathologies, and
+therefore party democracy cannot work in principle.
+Hazan and Rahat (2010) have been criticised for their thin and sometimes
+anecdotal evidence. Whatever the case may be, all of the scholars operating in this
+new ﬁeld of research have adopted a theoretical perspective strongly based on their
+work. For instance, Indriðason and Kristinsson (2015) have empirically examined
+the four dimensions proposed by Hazan and Rahat in reference to the Icelandic
+case. Although little known and rarely quoted, Iceland is a European country where
+the primary elections have been in vogue for decades, and the tradition is therefore
+deep-rooted. Thus, Indriðason and Kristinsson (2015) make use of an impressive
+data set covering the four major Icelandic parties at all parliamentary elections
+from 1971 to 2009. In contrast to Hazan and Rahat (2010), they reach a more
+positive conclusion about primaries and their consequences. For instance, primaries
+in Iceland did not restrain female representation, nor they did damage the
+cohesiveness of parliamentary parties. Instead, they promoted the rejuvenation of
+the parliamentary political class and boosted party membership. In the same vein,
+the study by Ramiro (2016) on Spain ﬁnds that primaries provide an electoral
+bonus. The main goal of Ramiro’s research is to examine whether the OMOV
+primaries held by the Socialist Party affected the party’s electoral result. His
+research shows that parties promoting primaries have obtained better results than
+those that did not.
+Similar inconclusive results have been reached by scholars studying primary
+elections outside Europe. On the one hand, several researchers have shown that
+primaries’ competitiveness alone does not impact on parties’ electoral perfor-
+mances (Carty and Eagles, 2003; Galderisi et al,2001). Nevertheless, referring to
+US primaries, Carey and Enten (2011) and Adams and Merrill (2008) endorse the
+mainstream idea that candidates are unappealing to the general electorate because
+The effects of primaries on electoral performance
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+they are chosen by ideologically extreme selectorates. Furthermore, parties
+adopting primaries are damaged, especially when primary campaigns are negative,
+causing factional conﬂicts and deteriorating candidates’ image. On the other hand,
+several scholars have argued that primaries may have a positive impact on parties’
+electoral performance and public image. This happens because an inclusive
+candidate selection process will probably enhance sympathisers’ and voters’
+mobilisation in the following general election (Hazan and Rahat, 2010).
+In this article we address the relationship between the use of primaries and
+parties’ electoral performance in the following general election. To do so, we deal
+with the open primaries of the two main left-wing parties in Italy and France,
+namely the Democratic Party (PD) and the Socialist Party (PS). The article
+proceeds as follows. In the next section we detail the rules and the political context
+of the primaries promoted by the PD in Italy and the PS in France. Then, we
+describe our approach and sketch the data we make use of. Finally, we present our
+results and their theoretical implications.
+Leftists Go to Primaries: The Democratic Party, the Socialist Party,
+and the Selection of the Chief Executive Candidate
+Italy: Towards the 2013 Parliamentary Election
+After the demise of the party system in the 1990s, Italian parties adopted different
+strategies. On the one hand, major rightist parties, Forza Italia – also named Popolo
+delle Liberta
+`– and Lega Nord, were created to promote the political interests of
+their self-enthroned leaders. On the other, the leftist parties reformed the
+procedures for selecting candidates and leaders by injecting a greater inclusiveness
+among the electorate. As a consequence, the leftist Italian parties have become the
+most enthusiastic promoters of open primaries in Western Europe.
+At the national level, the ﬁrst national primary election was launched in 2005 by
+the centre-left coalition for its prime ministerial candidate. In this case, 4.3 million
+selectors turned out, with Romano Prodi winning both the primary and the
+following 2006 parliamentary election. After that, the Democratic Party since its
+inception in 2007 relied on primaries to select its ﬁrst leader, Walter Veltroni
+(Pasquino, 2009; De Luca and Venturino, 2010), his successor, Pierluigi Bersani, in
+2009 (Pasquino and Venturino, 2010), and, ﬁnally, in June 2012 Bersani himself
+announced that a primary election would be held in the autumn to choose the chief
+executive candidate for the 2013 general elections.
+Thus, in November and December 2012, a leftist coalition, named Italia. Bene
+Comune, was created through the agreement of four parties: in addition to the
+leading Democratic Party, they were Left Ecology Freedom (SEL), the Democratic
+Centre (CD), and the Italian Socialist Party (PSI). A board representing all of these
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+parties – and including their leaders – screened the candidates, allowing ﬁve of
+them to contest the election. Although its statute clearly stated that the party leader
+was the only admissible nominee, the PD ﬁelded three candidates: the incumbent
+leader Pier Luigi Bersani; the mayor of Florence, Matteo Renzi; and the regional
+councillor, Laura Puppato. The other candidates were the SEL leader, Nichi
+Vendola, and the CD deputy Bruno Tabacci. All citizens could participate after a
+pre-registration, an endorsement to support the coalition manifesto, and a
+contribution of two Euros.
+As shown in Table 1, no candidate secured a majority of the three millions of
+voters attending the ﬁrst round. The following week, the top two candidates,
+Bersani and Renzi, competed in a second round, with the latter ﬁnally gaining
+60.9% of the vote.
+On December 30, after the primaries for the premiership, semi-open primaries
+were promoted only by PD and SEL to select their candidates for parliament. This
+prolonged cycle gave the leftist coalition great momentum; nevertheless, the results
+of the February parliamentary elections were disappointing (Seddone and
+Venturino, 2015). In fact, the coalition led by Bersani was unable to reach a
+majority in both Houses and in the following months it broke up, with Bersani
+himself being persuaded to step down from the party leadership. The PD entered a
+coalition government, led by the Democrat MP Enrico Letta, with rightist and
+centre parties, led respectively by Silvio Berlusconi and the former premier Mario
+Monti.
+France: Towards the 2012 Presidential Election
+The sequence of Italian-style primaries seems to have produced appealing results
+for other European parties. Inclusive selections of candidates are extraneous to
+French parties, but in 2006 the PS organised a closed presidential primary election
+for the ﬁrst time – which was won by Se
+´gole
+`ne Royal – in which only enrolled
+members had the right to vote (Dolez and Laurent, 2007; Le Gall, 2007).
+Table 1: Results of the centre-left coalition primary to select the prime minister candidate in Italy in
+2012
+Candidates First round Second round
+N Valid votes % N Valid votes %
+Pier Luigi Bersani 1395,096 44.9 1,706,457 60.9
+Matteo Renzi 1,104,958 35.5 1,095,925 39.1
+Nichi Vendola 485,689 15.6
+Laura Puppato 80,628 2.6
+Bruno Tabacci 43,840 1.4
+Total valid votes 3,110,211 100 2,802,382 100
+The effects of primaries on electoral performance
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+Afterwards, writing in the French press intellectuels, practitioners and political
+theorists urged the Socialist Party to adopt the Italian primary system (De Luca,
+2015). Finally, in 2009, a detailed report entitled Pour des primaires ouvertes et
+populaires was presented by the party’s renewal secretary, Arnaud Montebourg.
+Later, the party ofﬁcially adopted a primary framework similar to the Italian
+Democratic Party. Approaching the 2012 pre´sidentielle, it ran an open primary
+explicitly inspired by the Italian experience.
+1
+The so-called primaires citoyennes were held in October 2011 (Lefebvre, 2011;
+De Luca, 2014) and were organised by the Socialist Party and the Radical Party of
+the Left (PRG) using a two-round electoral system. For prospective voters, it was
+necessary to pre-register on an electoral list, to make a contribution of one Euro,
+and to sign a charter of party values. As listed in Table 2, six candidates ran in the
+ﬁrst round. As no candidate obtained 50% of the votes, the top two candidates,
+Franc¸ois Hollande and Martine Aubry, contested the second round, with Hollande
+securing 56.6% of the vote. Hollande then defeated the Gaullist incumbent, Nicolas
+Sarkozy, in the run-off for the presidential election, and a few weeks later the leftist
+parties secured a large majority in the Assemble´e Nationale in support of the
+government led by socialist prime minister Jean-Marc Ayrault.
+Table 3identiﬁes the main similarities between the regulations of the two
+primaries
+2
+: (a) in both cases, a run-off is necessary if no candidate secures more
+than 50% of the votes in the ﬁrst round; (b) both primaries are open, as both party
+members and non-formally enrolled citizens are allowed to vote; (c) there is a fee in
+both primaries, two Euros in Italy and one in France; (d) a signature is mandatory in
+both primaries. There are also some differences: (a) a pre-registration is required to
+vote only in the Italian case; (b) people less than 18 years old cannot vote in Italy,
+while they are allowed in France; (c) in France, migrants can vote if they are party
+members, while Italy has more restrictions; (d) candidates need to be endorsed by
+national or local representatives in France, by simple voters in Italy.
+Table 2: Results of the centre-left coalition primary to select the presidential candidate in France in
+2011
+Candidates First round Second round
+N Valid votes % N Valid votes %
+Franc¸ois Hollande 1,036,767 39.2 1,607,268 56.6
+Martine Aubry 805,936 30.4 1,233,899 43.4
+Arnaud Montebourg 455,536 17.2
+Se
+´gole
+`ne Royal 183,343 6.9
+Manuel Valls 149,077 5.6
+Jean-Michel Baylet 17,030 0.6
+Total valid votes 2,658,667 100 2,841,167 100
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+Hypotheses and Measurements
+We wish to shed light on the relationship between primary elections and the general
+election, but to do so a number of ancillary points need to be developed. First, as
+the main independent variables we focus on two characteristics of the primary
+elections: turnout and competition. In our view, these variables are related to the
+electoral performance of the promoting parties in an intuitive way. Parties will
+achieve the best results in the general elections when there is a high turnout in the
+primaries and low competition. In both cases, the rationale is easy to understand.
+High turnout at the primaries shows that candidates are popular. Furthermore, a
+large number of activists are important to ﬁght a post-modern centralised campaign
+(Norris, 2000) and to build a positive image in the public (Noelle-Neumann, 1993),
+increasing their chances of electoral success. In a nutshell, crowded primaries draw
+the interest of a great number of citizens who are then likely to participate in the
+ensuing general election.
+Table 3: Rules governing primaries in Italy (2012) and France (2011)
+Italy 2012 France 2011
+Election Two rounds, with a run-off if candidates
+secure less than 50% of the vote
+Two rounds, with a run-off if candidates
+secure less than 50% of the vote
+Participation All Italian citizens All French citizens
+Registration Be enrolled in the Italia. Bene Comune
+register between 4 and 25 November
+2012
+Be registered in the electoral lists before 31
+December 2010
+Under 18 Not admitted Admitted if attains 18 years at the time of
+the 2012 presidential election;
+alternatively, admitted if member of a
+party
+Foreigners EU citizens resident in Italy and citizens of
+other countries in possession of a valid
+residence permit
+Admitted if member of a party
+Contribution 2 Euros 1 Euro
+Signature Support for the call of the coalition Italia.
+Bene Comune and for the Charter of
+Intents
+Support for the values of freedom, equality,
+fraternity, laity, justice, solidarity, and
+progress
+Candidature Before 25 October 2012, 20,000 signatures
+of voters of the centre-left (no more than
+2000 in each region)
+Either, endorsement from 5% of the
+Socialist MPs (17 endorsements), 5% of
+members of the National Council (16
+endorsements), 5% of regional
+councillors (100 endorsements) from at
+least 10 de
+´partement and four regions, or
+5% of socialist mayors of cities with
+more than 10,000 inhabitants (16
+endorsements) from at least four regions
+The effects of primaries on electoral performance
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+While high levels of turnout are likely to boost parties, primaries featuring high
+levels of competition may damage them. This hypothesis is well studied in
+individual-level theory (Anderson et al,2005). Very competitive primaries entail
+the selection of a nominee who wins only a small margin of votes more than his
+challengers. In turn, a great number of voters have seen their favourite candidate
+eliminated, leaving them with two alternatives in the general election. Disgruntled
+but loyal voters will support the nominee from their party as the second best
+candidate, while those completely disappointed will desert the polling station, and
+sometimes will vote against their own party candidate. Thus, the greater the
+competition at the primary elections and the greater the number of potential
+deserters, the lower the number of votes gained by the nominee in the general
+election.
+So far we have discussed turnout and competition at primaries as our main
+independent variables; however, both can be measured according to different
+procedures. Our choices are as follows. For turnout in the primary elections, we
+calculate the percentage as a ratio between the number of selectors and the number
+of people enfranchised in the general election.
+3
+For the level of competition, several different indexes are also available (for a
+review cfr. Kenig, 2008). To assess the level of competition in the Italian and
+French primaries we prefer the classic effective number of candidates measure
+proposed by Laakso and Taagepera (1979). This seems to be more practical
+measure compared with other indexes that use only the result of the front runner, or
+the difference between the two best competitors, i.e. the closeness of the contest.
+4
+In addition to the two main predictor variables, we make use of a couple of
+control variables to detect the possible existence of spurious relationships. As the
+result of a party in a given election is necessarily affected by the result of that party
+in the previous election, we consider the percentage of the vote gained by the main
+left-wing party in 2007 and 2008 for the Italian and French cases. In practice, we
+collect the percentage vote for the Democratic Party and the Socialist Party in the
+general election preceding those under examination at the level of the Italian
+province and French de´partements.
+5
+In so doing, we aim to control for the
+autoregressive effects created by the continuity of the vote for a party in a given
+territory. Finally, we consider rates of party membership as a proxy for the strength
+of the parties’ organisation. This control variable is calculated as the ratio between
+formally enrolled members and inhabitants at the level of province and
+de´partements.
+6
+Some additional information about our research design is still needed. To begin
+with, in both Italy and in France the primaries to select the candidates for the role of
+chief executive have been held under a two-round system. In both cases, our
+analyses make use of data pertaining to the ﬁrst round. There, as we have already
+said, our territorial unity of analysis is province for Italy and the de´partement for
+France. We have chosen these levels for several reasons: ﬁrst, Italian and French
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+promoters used them to spread over the results of their primaries; second, they
+make it easy to match the results of the primary and general elections; third, parties
+deﬁne their local branches according to them; fourth, they allow us to analyse about
+100 cases both in France and in Italy, thus escaping the small-n problem.
+Finally, we describe our dependent variables. We analyse two multiparty systems
+where several left-wing parties coexist that, due to the constraints of the electoral
+laws, come together in pre-electoral coalitions. This is because, over and above the
+Democratic Party in Italy and the Socialist Party in France, primaries have involved
+other coalition partners.
+7
+In any case, when examining the electoral results of the
+parties after their primaries, we have preferred to disregard small parties and to
+focus on the pivotal Democratic and Socialist parties. In both cases, as regards the
+general election, we considered the 2013 parliamentary elections in Italy and the
+2012 presidential election in France. All data have been collected at provincial and
+departmental level.
+Results
+Turnout, Competition, and General Elections: A (More) General Picture
+To start with, we regress the vote for the leading parties in Italy and France at the
+general election against primary turnout and the two afore-mentioned control
+variables. The results reported in Table 4show that in both cases a control variable,
+namely the vote gained in the previous general election, explains a substantial
+amount of the parties’ support, while the membership rate reaches no statistical
+signiﬁcance. In both cases, primary turnout is a key predictor – higher in Italy than
+in France – while the high r
+2
+demonstrate a good ﬁt of the models overall.
+Similarly, in Table 5the parties’ electoral performances are regressed against
+competition in the primaries and the same set of control variables. As expected, for
+Table 4: Primary turnout and other predictors of electoral performance in Italy and France
+Italy France
+B SE Sig. B SE Sig.
+Constant 6.543 1.531 0.000 -2.537 1.646 0.127
+Primary turnout 0.947 0.134 0.000 0.776 0.142 0.000
+Vote to PD 2008/PS 2007 0.337 0.054 0.000 0.571 0.043 0.000
+Membership rate -0.151 0.371 0.686 -2.642 1.359 0.055
+Adjusted R
+2
+0.824 0.841
+SE 2.622 1.713
+F171.123 168.898
+N110 96
+The effects of primaries on electoral performance
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+the main independent variable negative correlations prevail in both models. But
+while the competition is not statistically signiﬁcant for Italy, it substantially
+contributes to the goodness of ﬁt of the model for France. Regarding the control
+variables, previous votes prevail, while the membership rate continues to be
+irrelevant in France but it becomes quite important in Italy.
+Turnout and Competition: What Matters More?
+So far we have discovered that primary turnout has improved the fortune of both
+parties under examination, while primary competition has played a damaging role
+in the French case, but not in the 2013 Italian parliamentary election. We have also
+noted that the positive effects of the turnout seem to be greater than the negative
+effects of the competition, but this point relies on only cursory and therefore
+unsatisfactory evidence. We now address this crucial point with greater accuracy.
+Table 6details the results of two regressions based once more on the Italian and
+French data. The variables are the same as the previous analyses, the major
+difference being the concurrent use of primary turnout and competition as
+predictors. To assess the relative weight of each independent variable, the
+table shows also standardised regression coefﬁcients (beta). In both cases, primary
+turnout has the expected sign, and it continues to be a good predictor of the parties’
+electoral performance. This appears to be a trustworthy piece of evidence showing
+the positive role of open primaries when robustly attended by citizens. However,
+the case for competition is less clear. It shows a negative sign in both cases, but the
+score for Italy is not signiﬁcant, while in France it actually depresses the vote for
+the Socialist Party, although its negative consequences are less relevant than the
+positive effects of turnout. All things considered, parties should not be too anxious
+about the possible effects of competition when there are several viable candidates.
+Turning to the control variables, votes gained in the previous elections are very
+important predictors in both cases, being the second best after primary turnout in
+Table 5: Primary competition and other predictors of electoral performance in Italy and France
+Italy France
+B SE Sig. B SE Sig.
+Constant 5.629 3.949 0.157 4.373 2.785 0.120
+Primary competition -5.666 6.198 0.363 -12.344 3.156 0.000
+Vote to PD 2008/PS 2007 0.556 0.053 0.000 0.656 0.041 0.000
+Membership rate 1.148 0.398 0.005 -0.345 1.347 0.798
+Adjusted R
+2
+0.743 0.841
+SE 3.165 1.713
+F106.295 168.898
+N110 96
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+Italy and the most important in France. At ﬁrst glance, what is striking is the major
+role of path dependency in Italy, the astonishing results of the critical 2013
+parliamentary election notwithstanding, when the populist newcomer, the Movi-
+mento 5 Stelle, won 25% of the votes. As regards the role of party members, in the
+Italian case it is not signiﬁcant, while in the France it has a little negative
+importance. Thus, left-wing parties seem to gain more votes where the Socialist
+Party has less members, stressing the main role of external selectors.
+Discussion
+Primaries have only recently been used outside the USA, and their occurrence in
+European countries is so far restricted to a small number of cases. Furthermore,
+there is little work on party performance after primary elections. In this article, we
+have compared two major left-wing parties operating in large countries, Italy and
+France, where primaries have a high political value. Our approach entailed the use
+of data collected at the level of the province and the de´partement. We have reached
+some interesting results. Indeed, both cases demonstrated that the impact of the
+primaries is relevant for the main parties. Furthermore, by analysing two of the four
+dimensions identiﬁed by Hazan and Rahat, participation and competition, our data
+show conﬂicting conclusions. First of all, citizen participation in the primaries
+seems a great starting point to a successful general election. According to previous
+studies, although no method of selection can maximise party internal democracy on
+all four dimensions at the same time, open primaries with a high level of
+participation appear to enhance electoral performance. As regards competition, the
+theoretical insight questioning the commitment of followers of the losing primary
+candidates shows different results. In the Italian case, competition is not signiﬁcant,
+while in France it has a negative impact on electoral performance, although with
+Table 6: Turnout versus competition as predictors of electoral performance in Italy and France
+Italy France
+B SE Beta Sig. B SE Beta Sig.
+Constant 9.140 3.312 – 0.007 7.143 2.334 – 0.003
+Primary turnout 0.943 0.135 0.556 0.000 0.832 0.125 0.343 0.000
+Primary competition -4.548 5.141 -0.040 0.378 -13.810 2.613 -0.200 0.000
+Vote to PD 2008/PS 2007 0.335 0.054 0.420 0.000 0.529 0.039 0.684 0.000
+Membership rate -0.237 0.384 -0.041 0.538 -3.448 1.205 -0.134 0.005
+Adjusted R
+2
+0.824 0.877
+SE 2.624 1.506
+F128.274 170.756
+N110 96
+The effects of primaries on electoral performance
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+moderate values. This shows that in France losers may be discouraged to support
+the nominee, while in Italy losers are in principle more loyal, such that their
+disgruntlement is not a determining factor for the result of the general election.
+8
+Nevertheless, both variables in the same model indicate – at least in the French case
+– a greater prevalence of participation over competition. This shows that popular
+involvement matters more than the underdogs’ disappointment, and that there is a
+greater likelihood that parties which embrace internal democracy will score better.
+Often party ofﬁcials are afraid because they believe primaries will damage their
+parties. Thus, if they cannot avoid them, they prefer a small number of candidates
+and restricted competition. If our conclusions are conﬁrmed by future studies,
+rather than be afraid for their own careers, parties should reverse their conservative
+strategies: more primary candidates, more competition, more participation, and
+ﬁnally an enhanced electoral performance.
+Notes
+1 In the French case the Socialist Party has drawn up an internal social network for improving
+mobilisation (De Luca and Theviot, 2014).
+2 The reader should be aware that so far Italy and France did not adopt any public regulation, and
+therefore in both countries the primaries are a voluntary and self-regulated activity.
+3 Turnout in the primary elections is often calculated as a ratio between the number of selectors casting
+a vote and the number of votes gained by the nominee in the ensuing general election. As our
+following analyses also make use of the nominee’s percentage votes to tap the dependent variable,
+we disregard this solution to prevent a possible problem of reciprocal causality.
+4 Kenig (2008) has proposed a new index where the effective number of candidates is weighted by the
+sheer number of competitors. Although promising, this index would be redundant to be used here.
+This is because we compare several districts in a single primary election where the sheer number of
+candidates is a constant rather than a variable.
+5 Own elaborations based on ofﬁcial data supplied by the Italian and French Ministry of the Interior.
+6 Own elaboration based on ofﬁcial data supplied by the Italian Democratic Party and French Socialist
+Party.
+7 As we have already said, they are Left Ecology and Freedom and the Democratic Centre in Italy; the
+Radical Party of the Left in France.
+8 The same result is found by Seddone and Venturino (2013) by examining two leader selections
+organised by the Democratic Party in 2007 and 2009. Both selections were multistage processes with
+an open primary being the key phase.
+References
+Adams, J. and Merrill, S. (2008) Candidate and Party Strategies in Two-Stage Elections Beginning with
+a Primary. American Journal of Political Science 52(2): 344–359.
+Anderson, C. J., Blais, A., Bowler, S., Donovan, T. and Listhaug, O. (2005) Losers’ Consent. Elections
+and Democratic Legitimacy. Oxford: Oxford University Press.
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+Barbera
+`, O., Lisi, M. and Teruel, J. R. (2015) Democratising Party Leadership Selection in Spain and
+Portugal. In: G. Sandri, A. Seddone and F. Venturino (eds.) Party Primaries in Comparative
+Perspective. Farnham: Ashgate, pp. 59–84.
+Carey, J. and Polga-Hecimovic, J. (2006) Primary Elections and Candidate Strength in Latin America.
+The Journal of Politics 68(3): 530–543.
+Carey, J. and Enten, H. (2011) Primary Elections. In: J. Colomer (ed.) Personal Representation.
+Colchester: ECPR Press, pp. 81–98.
+Carty, R. K. and Eagles, M. (2003) Local Conﬂict within National Parties: The Case of Canada. Paper
+presented at the Annual Meeting of the American Political Science Association, Philadelphia.
+Cross, W. and Blais, A. (2012) Politics at the Centre. The Selection and Removal of Party Leaders in
+Anglo Parliamentary Democracies. Oxford: Oxford University Press.
+Dalton, R. J. and Wattenberg, M. P (eds.) (2002) Parties without Partisans. Political Change in
+Advanced Industrial Democracies. Oxford: Oxford University Press.
+Dalton, R. J., Beck, P. A. and Flanagan, S. C. (eds.) (1984) Electoral Change in Advanced Industrial
+Democracies. Realignment or Dealignment? Princeton: Princeton University Press.
+De Luca, M. (2014) Les e
+´lecteurs socialistes dans les primaires pre
+´sidentielles a
+`Paris. French Politics,
+Culture & Society, 32(2): 123–142.
+De Luca, M. (2015) The French Socialist Party: Membership between Closed and Open Primaries.
+Partecipazione e Conﬂitto, 8(1): 264–283.
+De Luca, M. and Theviot, A. (2014) French Primary Elections and the Internet, the Social Network of
+the Socialist Party, the Coopol. International Journal of E-Politics 5(3): 46–65.
+De Luca, M. and Venturino, F. (2015) Democratising Candidate Selection in Italy and France. In: G.
+Sandri, A. Seddone and F. Venturino (eds.) Party Primaries in Comparative Perspective. Farnham:
+Ashgate, pp. 129–144.
+De Luca, R. and Venturino, F. (eds.) (2010) Mobilitazione e partecipazione elettorale. Un’analisi delle
+‘‘primarie’’ per l’elezione del primo segretario del Pd. Rome: Aracne.
+Dolez, B. and Laurent, A. (2007) Une primaire a
+`la franc¸ aise: La de
+´signation de Se
+´gole
+`ne Royal par le
+parti socialiste. Revue franc¸ aise de science politique 57(2): 133–161.
+Franklin, M. N. (2004) Voter Turnout and the Dynamics of Electoral Competition in Established
+Democracies since 1945. Cambridge: Cambridge University Press.
+Franklin, M. N., Mackie, T. and Valen, H. (eds.) (1992) Electoral Change. Responses to Evolving Social
+and Attitudinal Structure in Western Countries. Cambridge: Cambridge University Press.
+Galderisi, P. F., Ezra, M. and Lyons, M. (eds.) (2001) Congressional Primaries and the Politics of
+Representation. Lanham, MD: Rowman and Littleﬁeld.
+Hacker, A. (1965) Does a ‘‘Divisive’’ Primary Harm a Candidate’s Election Chances? American
+Political Science Review 59(1): 105–110.
+Hazan, R. Y. and Rahat, G. (2010) Democracy Within Parties. Candidate Selection Methods and their
+Political Consequences. Oxford: Oxford University Press.
+Ichino, N. and Nathan, N. (2013) Do Primaries Improve Electoral Performance? Clientelism and Intra-
+Party Conﬂict in Ghana. American Journal of Political Science 57(2): 428–441.
+Ignazi, P. (2014) Power and the (ll)legitimacy of Political Parties. An Unavoidable Paradox of
+Contemporary Democracy?. Party Politics 20(2): 160–169.
+Indriðason, I. H. and Kristinsson, G. H. (2015) Primary Consequences: The Effects of Candidate
+Selection through Party Primaries in Iceland. Party Politics 21(4): 565–576.
+Katz, R. S. (2001) The Problem of Candidate Selection and Models of Party Democracy. Party Politics
+7(3): 277–296.
+Kenig, O. (2008) Democratization of Party Leadership Selection: Do Wide Selectorates Produce More
+Competitive Contests? Electoral Studies 28(2): 240–247.
+Laakso, M. and Taagepera, R. (1979) ‘‘Effective’’ Number of Parties. A Measure with Application to
+Western Europe. Comparative Political Studies 12(1): 3–27.
+Lefebvre, R. (2011) Les primaires socialistes. La ﬁn du parti militant. Paris: Raison d’Agir.
+The effects of primaries on electoral performance
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+Lefebvre, R. (2013) Le militantisme socialiste n’est plus ce qu’il n’a jamais e
+´te
+´.Politix (2): 7–33.
+Lefebvre, R. (2015) La proximite´ en politique: Usages, rhe´toriques, pratiques. Rennes: Presses
+Universitaires de Rennes.
+Le Gall, G. (2007) Le primaire au PS: L’irre
+´sistible sscension pre
+´sidentielle de Se
+´gole
+`ne Royal. Etat de
+l’opinion, September 2005-December 2006: 47–74.
+Narita, Y., Nakai, R. and Kubo, K. (2015) Democratising Party Leadership Selection in Japan and
+Taiwan. In: G. Sandri, A. Seddone and F. Venturino (eds.) Party Primaries in Comparative
+Perspective. Farnham: Ashgate, pp. 129–144.
+Norris, P. (2000) A Virtuous Circle. Political Communications in Postindustrial Societies. Cambridge:
+Cambridge University Press.
+Noelle-Neumann, E. (1993) The Spiral of Silence: Public Opinion –Our Social Skin. Chicago:
+University of Chicago Press.
+Pasquino, G. (eds.) (2009) Il partito democratico. Elezione del segretario, organizzazione e potere.
+Bologna: Bononia University Press.
+Pasquino, G. and Venturino, F. (eds.) (2010) Il partito democratico di Bersani. Persone, proﬁlo e
+prospettive. Bologna: Bononia University Press.
+Pilet, J. B. and Cross, W. P. (eds.) (2014) The Selection of Political Party Leaders in Contemporary
+Parliamentary Democracies. London: Routledge.
+Ramiro, L. (2016) Effects of Party Primaries on Electoral Performance. The Spanish Socialist Primaries
+in Local Elections. Party Politics 22(1): 125–136.
+Sandri, G., Seddone, A. and Venturino, F. (eds.) (2015) Party Primaries in Comparative Perspective.
+Farnham: Ashgate.
+Scarrow, S. (2014) Beyond Party Members: Changing Approaches to Partisan Mobilization. Oxford:
+Oxford University Press.
+Seddone, A. and Venturino, F. (2013) Bringing Voters Back in Leader Selection. The Open Primaries of
+the Italian Democratic Party. Modern Italy 18(3): 303–318.
+Seddone, A. and Venturino, F. (2015) The Partito Democratico after the 2013 elections: All change?.
+Journal of Modern Italian Studies 20(4): 474–490.
+van Haute, E. and Gauja, A. (eds.) (2015) Party Members and Activists. London: Routledge.
+Webb, P., Farrell, D. M. and Holiday, I. (eds.) (2002) Political Parties in Advanced Industrial
+Democracies. Oxford: Oxford University Press.
+De Luca and Venturino
+Ó2016 Macmillan Publishers Ltd. 1476-3419 French Politics
+Citations (12)
+References (41)
+... Poor organisation of political parties has negatively affected its electoral fortunes on membership mobilisation and voter turnout, hence the adoption of internal reforms to include ordinary people in the candidate's selection process. This approach legitimises party operations and attracts more votes (Faucher, 2015;Fobih, 2011;De Luca & Venturino, 2017). Some political parties across the globe realising the importance of wide party membership have replaced closed primary elections with core or ordinary group member participation, thus One-Member-One-Vote (OMOV) to address the challenge of nepotism, cronyism, and political patronage. ...
+... Some political parties across the globe realising the importance of wide party membership have replaced closed primary elections with core or ordinary group member participation, thus One-Member-One-Vote (OMOV) to address the challenge of nepotism, cronyism, and political patronage. This approach solidifies internal party democratic politics (De Luca & Venturino, 2017;Ramiro, 2016). ...
+Party’s presidential primaries and the consolidation of democracy in Ghana’s 4th Republic
+Article
+Full-text available
+Jan 2021
+Michael Amoako Addae
+View
+Show abstract
+... In fact, some studies of non-European cases have found that internal competition often does not affect party electoral performance (Galderisi et al., 2001;Carty et al., 2003;Hazan and Rahat, 2010). At the same time, some Italian scholars have stated that vigorous competition can even improverather than damagethe electoral outcome of the primary winner (Seddone and Venturino, 2010;De Luca and Venturino, 2017). A spectacular horse-race, they suggest, promotes the candidate's image among the public at large, while a victory over competitive party challengers allows the winner to overcome internal factionalism, an element which may appeal to voters, who are generally allergic to intra-party divisions. ...
+Candidate selection methods and electoral performance in comparative perspective
+Article
+Jun 2018
+Giulia Vicentini
+View
+Show abstract
+... The results can be summarised as follows. Firstly, the impact of the primaries on the 2017 presidential elections appears to be correlated, as in previous studies (De Luca and Venturino 2017), with citizens' participation, which, in both cases, is confirmed as a good starting point for obtaining a strong performance in the general elections. Secondly, competition remains the more complicated variable of the two to analyse, because it causes the conditions required for a possible decrease in support in the general election. ...
+The end of the French primary? Measuring primary election impact on electoral performance in the 2017 French presidential election
+Article
+Full-text available
+Apr 2018Fr Polit
+Marino De Luca
+View
+Show abstract
+Voting Rules, Context, and Public Recognition in Closed Primaries: An Empirical Case Study from Turkey
+Article
+Jan 2021Representation
+Faruk Aksoy
+View
+Show abstract
+The Politics of Loyalty: Understanding Voters’ Attitudes after Primary Elections
+Article
+Nov 2020GOV OPPOS
+Fulvio Venturino
+Antonella Seddone
+View
+Show abstract
+Intra-Party Democracy and Party Unity: Varied Rules, Varied Consequences
+Article
+Jun 2020Representation
+Susan E. Scarrow
+View
+Show abstract
+Structure Versus Accident in the Defeat of France's Mainstream Right, April-June 2017
+Article
+Jul 2018PARLIAMENT AFF
+Andrew Knapp
+View
+Show abstract
+The Challenges of Inclusive Intra-party Selection Methods
+Chapter
+Jul 2018
+Ofer Kenig
+Scott Pruysers
+View
+Show abstract
+Towards the 2017 French election: Socialist and Republican nominees from the selection to the presidential election
+Article
+Full-text available
+Dec 2017
+Marino De Luca
+View
+Show abstract
+The Italian Style of Intra-Party Democracy: A Twenty-Year Long Journey
+Chapter
+Full-text available
+Mar 2018
+Marino De Luca
+View
+Show abstract
+Show more
+Recommendations
+Discover more about: Italy
+Project
+Covid-19, Populism and Conspiracy Theories: Dynamics and Challenges in Europe
+Marino De Luca
+Focusing on the recent Covid-19 pandemic, this panel aims to explore the conspiratorial positions in the European context. In the contemporary health crisis, fears and threats have become a fertile ... [more]
+View project
+Article
+Full-text available
+The French Socialist Party: Membership between Closed and Open Primaries
+March 2015 · PARTECIPAZIONE E CONFLITTO
+Marino De Luca
+For some years now the clamor for democratisation of parties' internal functioning has been spreading across democracies. Among them, France has advanced impressively in the past few years. In 2006, the Socialist Party (PS) launched a closed primary to choose the socialist candidate, Ségolène Royal, for the 2007 presidential election. Approaching the 2012 presidential elections, the leftist ... [Show full abstract]
+View full-text
+Conference Paper
+Full-text available
+As Primaries Affect Electoral Results. France and Italy in Comparative Perspec-tive
+January 2013
+Marino De Luca
+Fulvio Venturino
+Since some years the democratization of parties' internal life is spreading in several democracies. Among them, Italy and France have recently realized an impressive advancement. Approaching the 2013 parliamentary election in Italy and the 2012 presidential election in France, leftist coalitions have there launched open primary elections to select their chief-executive candidates, Pier Luigi ... [Show full abstract]
+View full-text
+Article
+Full-text available
+The end of the French primary? Measuring primary election impact on electoral performance in the 201...
+April 2018 · French Politics
+Marino De Luca
+Primary elections have become an important aspect of the French party system. In the 2017 presidential elections, the process used by both the Socialist Party and the Republicans was more inclusive. However, this process may have entered a time of crisis. This article examines whether or not participation in the primaries and the level of competitiveness are associated with the results of the ... [Show full abstract]
+View full-text
+Article
+Full-text available
+Towards the 2017 French election: Socialist and Republican nominees from the selection to the presid...
+December 2017
+Marino De Luca
+Primaries have become an important aspect of the French party system. In recent times, the process, used by different parties, has been opened up to coopérateurs (‘sympathisers’). Both the Socialist Party and the Republicans held primaries in the 2017 presidential elections. This can be seen as an expected step towards addressing problems such as leadership and representativeness. This process is ... [Show full abstract]
+View full-text
+Article
+Primaries at the municipal level: How, how many and why
+March 2016
+Fulvio Venturino
+Giulia Sandri
+In this article, we analyse the mayoral open primaries held from 2004 to 2015. We empirically assess their functioning and their effectiveness, especially in terms of competitiveness and turnout. We also explore the dynamics of diffusion of this instrument of intra-party democracy over time, across parties and across geographical areas. Moreover, we provide an exploratory account of the electoral ... [Show full abstract]
+Read more
+	
+or
+	Discover by subject area
+Recruit researchers
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2021 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprint

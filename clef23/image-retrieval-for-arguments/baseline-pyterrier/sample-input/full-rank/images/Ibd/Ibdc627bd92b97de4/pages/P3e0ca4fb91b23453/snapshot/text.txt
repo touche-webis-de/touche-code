@@ -1,0 +1,690 @@
+We value your privacy
+
+We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
+
+With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click to consent to our and our partners’ processing as described above. Alternatively you may access more detailed information and change your preferences before consenting or to refuse consenting. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. Your preferences will apply to a group of websites. You can change your preferences at any time by returning to this site or visit our privacy policy.
+
+MORE OPTIONS
+AGREE
+HomeComputer Science and EngineeringComputer Communications (Networks)Internet
+ArticlePDF Available
+The Internet of Things and Beyond: Rise of the Non-Human Actors
+October 2015International Journal of Actor-Network Theory and Technological Innovation 7(4):56-67
+DOI:10.4018/IJANTTI.2015100105
+Authors:
+Arthur Tatnall
+Victoria University Melbourne
+Bill Davey
+RMIT University
+Download full-text PDF
+Read full-text
+Download citation
+Copy link
+Citations (12)
+References (35)
+Abstract
+In the past, it was rare for non-humans to interact with each other without any involvement by humans, but this is changing. The Internet of Things IoT involves connections of physical things to the Internet. It is largely about the relationships between things, or non-humans actors. In other cases the 'Things' seem to have inordinate power. The authors will ask: where does this leave humans? Are the things taking over? As a consideration of interactions like this must be a socio-technical one, in this article the authors will make use of Actor-Network Theory to frame the discussion. While the original applications for IoT technology were in areas such as supply chain management and logistics, now many more examples can be found ranging from control of home appliances to healthcare. It is expected that the 'Things' will become active participants in business, information and social processes and that they will communicate among themselves by exchanging data sensed from the environment, while reacting autonomously. The Things will continue to develop identities and virtual personalities. In the past non-human actors have needed humans to interact with each other, but this is not the case anymore. In this perhaps provocative and rather speculative article we will look not just at the Internet of Things, but other related concepts such as artificial intelligence and robotics and make use of scenarios from science fiction to investigate the Rise of the Non-Human Actors and where this may lead in the future.
+
+Discover the world's research
+
+20+ million members
+135+ million publications
+700k+ research projects
+Join for free
+Public Full-text 1
+Content uploaded by Arthur Tatnall
+Author content
+Content may be subject to copyright.
+58   International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+Keywords: Actor-NetworkTheory,ArticialIntelligence,BigBrother,Internet,InternetofThings,Privacy,
+Radio-FrequencyIdentication,RingsofPower,ScienceFiction,Sensors
+ABSTRACT
+Inthepast,itwasrarefornon-humanstointeractwitheachotherwithoutanyinvolvementbyhumans,but
+thisischanging.TheInternetofThings(IoT)involvesconnectionsofphysicalthingstotheInternet.Itis
+largelyabouttherelationshipsbetweenthings,ornon-humansactors.Inothercasesthe‘Things’seemto
+haveinordinatepower.Theauthorswillask:wheredoesthisleavehumans?Arethethingstakingover?Asa
+considerationofinteractionslikethismustbeasocio-technicalone,inthisarticletheauthorswillmakeuse
+ofActor-NetworkTheorytoframethediscussion.WhiletheoriginalapplicationsforIoTtechnologywerein
+areassuchassupplychainmanagementandlogistics,nowmanymoreexamplescanbefoundrangingfrom
+controlofhomeappliancestohealthcare.Itisexpectedthatthe‘Things’willbecomeactiveparticipantsin
+business,informationandsocialprocessesandthattheywillcommunicateamongthemselvesbyexchang-
+ingdatasensedfromtheenvironment,whilereactingautonomously.TheThingswillcontinuetodevelop
+identitiesandvirtualpersonalities.Inthepastnon-humanactorshaveneededhumanstointeractwitheach
+other,butthisisnotthecaseanymore.Inthisperhapsprovocativeandratherspeculativearticlewewilllook
+notjustattheInternetofThings,butotherrelatedconceptssuchasarticialintelligenceandroboticsand
+makeuseofscenariosfromsciencectiontoinvestigatetheRiseoftheNon-HumanActorsandwherethis
+mayleadinthefuture.
+The Internet of Things 
+and Beyond: Rise of the 
+Non-Human Actors
+ArthurTatnall,VictoriaUniversity,Melbourne,Australia
+BillDavey,RMITUniversity,Melbourne,Australia
+PEOPLE AND THINGS
+Put very simply, the Internet of Things (IoT) could be described as technology which connects 
+any physical thing to the Internet (Colitti, Long, DeCaro and Steenhaut 2014) and could be seen 
+as “… all about physical items talking to each other.” (Mukhopadhyay and Suryadevara 2014: 
+2). It  is largely about the relationships between things,  or non-humans actors, so where does 
+this leave humans? Song (2014:75) suggests that soon “… computers would be able to access 
+data about objects and the environment without human interaction.” Clearly any consideration 
+DOI: 10.4018/IJANTTI.2015100105
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015   59
+of implications of the IoT must be a socio-technical one and in this article we will make use of 
+Actor-Network Theory (ANT) to frame the discussion. We will ask: are the things taking over?
+The European Union organisation for Coordination and Support Action for Global RFID-
+related Standardisation Activities (CASAGRAS) sees the Internet of Things in terms of a “meta-
+phor for the universality of communication processes, for the integration of any kind of digital 
+data and content, for the unique identification of real or virtual objects and for architectures that 
+provide the ‘communicative glue’ among these components”. (CASAGRAS 2014:5).
+In this rather speculative article we will make use of this metaphor to look at how humans 
+relate to the Internet of Things along with other non-human technologies and where the relation-
+ship between these technologies and humans may lead in the future. In some cases specific uses 
+of IoT technologies are deliberately activated by humans while other cases are not directly human 
+initiated and need no human input to operate. Advances in artificial intelligence that reduce, or 
+even remove the need for human interaction are also a factor to consider here. In examining these 
+ideas we will make use of some concepts and scenarios from science fiction where humans are 
+marginalised by technology as well as the use of regular research references and factual material.
+THE INTERNET OF THINGS
+Radio Frequency Identification  (RFID)  and Wireless Sensor Networks (WSN)  have  been in 
+existence now for  over  two  decades, but advances towards full use of the Internet of Things 
+(IoT) offer much more and also pose more social challenges. There are many definitions of the 
+Internet of Things and the CASAGRAS project sees it like this: “A global network infrastructure, 
+linking physical and virtual objects through the exploitation of data capture and communication 
+capabilities. This infrastructure includes existing and evolving Internet and network develop-
+ments. It will offer specific object-identification, sensor and connection capability as the basis 
+for the development of independent cooperative services and applications. These will be char-
+acterised by a high degree  of  autonomous  data capture, event transfer, network connectivity 
+and interoperability.” (CASAGRAS  2014:10). It can thus be seen  as a network of physically 
+connected objects in which embedded processing nodes with communication capability offer 
+a means of networked functionality and communications. The goal is to make use of computer 
+sensor information without any need for human intervention.
+SAP Research defines the IoT like this: “A world where physical objects are seamlessly 
+integrated into the information network, and where the physical objects can become active par-
+ticipants in business processes. Services are available to interact with these ‘smart objects’ over 
+the Internet, query and change their state and any information associated with them, taking into 
+account security and privacy issues.” (Haller 2009:12)
+Pererez et al. (2014) note that the Internet of Things initially focused primarily on manag-
+ing information through the use of RFID tags, to which Lazarescu (2014) adds Wireless Sensor 
+Networks (WSN) as another key enabler, but that it now spans a wide variety of devices with 
+different computing and communication capabilities. These are generically termed networked 
+embedded devices (NED) in which sensors and actuators blend with the environment to share 
+information across platforms and offers the possibility of measuring, inferring and understanding 
+various environmental indicators (Gubbia, Buyyab, Marusic and Palaniswami 2013).
+Wikipedia defines  the  Internet  of  Things  as  “the  network of physical objects or ‘things’ 
+embedded with electronics, software, sensors, and network connectivity, which enables these 
+objects to collect  and exchange data. The Internet of Things allows objects to be sensed and 
+controlled remotely across existing network infrastructure, creating opportunities for more direct 
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+60   International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015
+integration between the physical world and computer-based systems, and resulting in improved 
+efficiency, accuracy and economic benefit. Each thing is uniquely identifiable through its em-
+bedded computing system but is able to interoperate within the existing Internet Infrastructure.” 
+(Wikipedia 2015).
+Gubbia et al. (2013) suggest that the next important change will be to create a smart envi-
+ronment by the increased interconnection between objects. Mark Weiser et al., well known for 
+their advocacy of Ubiquitous Computing, defined a smart environment as a  “physical  world 
+richly and invisibly interwoven with sensors, actuators, displays, and computational elements, 
+embedded seamlessly in the everyday objects of our lives and connected through a continuous 
+network.” (Weiser, Gold and Brown 1999). The term Internet of Things was first coined some 
+time ago by Kevin Ashton (1999) in the context of supply chain management, but has advanced 
+to covering wide range of other applications.
+APPLICATIONS FOR USE OF THE INTERNET OF THINGS
+The original applications for this technology were in areas such as supply chain management 
+and logistics, but now  many  more  examples  can  be found. Pererez et al. (2014:20) mention: 
+“goods tracking, management of everyday objects, automatic payments in markets and military 
+applications”. This is all seen to integrate the real world into the Internet and impact on how 
+we interact in both the virtual and physical worlds (Colitti, Long, DeCaro and Steenhaut 2014).
+In a European Commission book called ‘Vision and Challenges for Realising the Internet of 
+Things’ Sundmaeker, Guillemin, Friess and Woelfflé note that the Things, in the Internet of Things, 
+“are expected to become active participants in business, information and social processes where 
+they are enabled to interact and communicate among themselves and with the environment by 
+exchanging data and information ‘sensed’ about the environment, while reacting autonomously 
+to the ‘real/physical world’ events and influencing it by running processes that trigger actions 
+and create services with or without direct human intervention. Interfaces in the form of services 
+facilitate interactions with these “smart things” over the Internet, query and change their state 
+and any information associated  with  them, taking into  account  security  and privacy issues.” 
+(Sundmaeker, Guillemin, Friess and Woelfflé 2010:43)
+Gubbia, Buyyab, Marusic and Palaniswami (2013) classify IoT applications into four domains:
+•  Personal and Home, at the scale of an individual or home
+•  Enterprise, at the scale of a community
+•  Utilities, at a national or regional scale
+•  Mobile, usually spread across other domains mainly due to the nature of connectivity and 
+scale, but they note that there is a big crossover in applications and the use of data between 
+domains. As an example they point out that electricity usage data in the house (Personal and 
+Home IoT) is made available to the electricity (utility) company that will optimise supply and 
+demand (Utility IoT). These systems usually make use of Wi-Fi to enable higher bandwidth.
+Perhaps the first example that comes to mind is the control of  home  appliances  such  as 
+heaters, air conditioners, washing machines, dishwashers, refrigerators, ovens and home alarms, 
+with the aim of improving home management. Potentially this can be done from a distance by 
+the human owner with the aid of a smart phone. Initially these individual ‘things’ in the house 
+would transmit regular status reports so that relevant humans could take appropriate action such 
+as raising temperatures or activating home alarms. Perhaps in the future these things might act 
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015   61
+autonomously on the basis of these reports, so doing away with the need for human intervention 
+in a new form of social networking – a social network of things.
+Another major application of the IoT is in healthcare. To begin there is the use  of RFID 
+in hospitals to track equipment like trolleys, surgical equipment, wheelchairs, infusion pumps, 
+defibrillators and  body  area scanners  (Unnithan 2014).  These  systems link  into the  hospital 
+network to display the information on terminals for use by hospital orderlies and nurses. RFID 
+and IoT systems could potentially be integrated into other areas such as bedside applications and 
+monitoring and then extended into remote monitoring multi-hospital environments. They could 
+also be used in cases where patients tend to ‘wander away’. (Unnithan, Nguyen, Fraunholz and 
+Tatnall 2013, Unnithan and Tatnall 2014).
+Wikipedia (2015) describes a smartwatch as: “a computerized wristwatch with functionality 
+that is enhanced beyond timekeeping”. Effectively, they are wearable computers and can collect 
+various data from internal or external sensors or serve as a front end for some remote system. 
+Apple’s smartwatch  also incorporates some  fitness tracking and  health-oriented capabilities. 
+Samsung’s Simband is intended for healthcare usage and has sensors to measure heart rate, blood 
+pressure, skin temperature, sweat glands production and your number of steps daily.
+A smartphone  may  also interface  to  sensors for  measuring  and reporting  physiological 
+parameters for healthcare. An article in The Australian newspaper (Foreshew 2015) describes 
+‘Guardian’, a new smart watch  designed  for monitoring the elderly at  home  or  in aged-care 
+facilities. It looks like a normal watch but also has an inbuilt phone, GPS and activity sensors. 
+The chief technology officer of the designing company says that: “The objective of Guardian is 
+to create a seamless, wearable device that elderly people can use really easily and gives peace 
+of mind to carers and family members.”
+Whether using a smartphone or some other technology it is one thing to measure physiologi-
+cal parameters and provide information back to the person involved, and another to then make 
+this data directly available to a medical General Practitioner or local hospital.
+Environmental monitoring  within  a work  environment  is another  important  application. 
+Sensors are often used in factories, shops and other work places for security, automation, cli-
+mate control and security. With the IoT it will further be possible to remotely make changes to 
+these functions whenever required and have them interact without humans. A security system 
+might determine that no humans are present and turn off lights and air conditioning systems to 
+save money.
+Smart, driverless trains have operated between terminals at Singapore airport now for some 
+time and an Australian mining company is using smart driverless trucks to transport ore from 
+the mine to a train, monitored from Perth, over 1,000km away. A modern car has a multitude of 
+computer functions such as roll sensors, stability control, brake assist and pre-collision systems 
+designed to make them safer. These are all computer controlled and involve a variety of sensors 
+‘talking’ to each other and, in many cases, reacting autonomously to perceived threats. An article 
+in the Sunday Age Newspaper (Purcell 2015) presents a scenario in which the computer of a car 
+is ‘hacked’ remotely and the car taken over. It reports how two cyber-security researchers in St 
+Louis, Missouri remotely took over control of a Jeep Cherokee. While this, and some other cases 
+have not been malicious but done to test security, it does raise another scenario of the ‘things’ 
+taking over. Would it not be better for a traffic signal to disable a car about to run a red light?
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+62   International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015
+ARTIFICIAL INTELLIGENCE
+There are ideas for new technology that are placed into a different category of risk, the most 
+famous (and possibly the longest running) being the idea of artificial intelligence.
+John McCarthy et al. (2006) first defined Artificial Intelligence in 1955 as: “the science and 
+engineering of making intelligent machines”. Wikipedia defines Artificial Intelligence (AI) as: 
+“the study and design of intelligent agents, in which an intelligent agent is a system that perceives 
+its environment and takes actions that maximize its chances of success.” (Wikipedia 2015)
+In a recent BBC broadcast (Cellan-Jones 2014), Professor Stephen Hawking suggested that: 
+“The development of full artificial intelligence could spell the end of the human race” and that 
+efforts to create thinking machines pose a threat to our very existence. Noting that the primitive 
+forms of artificial intelligence developed to this time have already proved very useful, Hawking 
+fears the consequences of creating something that is able to match or surpass humans. “It would 
+take off on its own, and re-design itself at an ever increasing rate. Humans, who are limited by slow 
+biological evolution, couldn’t compete, and would be superseded.” he said. (Cellan-Jones 2014)
+ACTORS, NETWORKS AND THINGS: AUTONOMOUS 
+THINGS – WARNINGS AND PREDICTIONS
+New technologies should be examined for potential effects in society as a whole. To do so for 
+the IoT is a complex task. While single technologies like tablet computers can be easily tested 
+against ‘predictions of doom’, for more complex ideas such as artificial intelligence and massive 
+networks it proves not so easy to design experiments to predict outcomes. For tablet computers 
+dramatic newspaper reports can  be  quickly  tested.  So  a report warning or dire consequences 
+such as: “Electronic tablets like the iPad are a revolutionary educational tool and are becoming 
+part of childhood, but should be watched carefully so that overuse doesn’t lead to learning or 
+behavioural problems, experts say.” (The Australian 2012)
+Is often quickly followed by testing resulting in a more reasoned response talking about the 
+need for balance and control, such as: “It is hard to find an expert who thinks that monitored and 
+considered tablet use is harmful.” (Cocozza 2014)
+If you accept that: “The notion of all physical objects being endowed with the capability to 
+connect to such a network is fanciful, and in many cases without any justification …” (CASA-
+GRAS 2014), the following section looks at some situations which may challenge this.
+Smart Cities
+An article  in a  recent issue  of the  Guardian Weekly indicates  that a  smart city  requires the 
+interaction of three  different  networks:  the communications  grid,  the energy system and  the 
+‘logistic’ Internet. The logistic Internet is able to track people and things through transport and 
+supply systems (Mason 2015). The article then points out a problem: “who controls the project 
+and who owns the data it generates?”
+Anonymity (or Lack of It) – The Demise of Privacy and Human Control
+The Forbes top 100 companies list rates Google as number 39. The interesting thing about this 
+is that, unlike the 38 companies above it (including Apple at 12 and Microsoft at 25) it does not 
+provide financial services (like the top 6) or products. Google’s (and Facebook and Twitter) main 
+source of income is the information it provides about its users. This huge company makes most 
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015   63
+of its money by keeping track of us and selling that information to people who believe they can 
+use the information to make us spend our money their way (Forbes 2015).
+When you logon to your supermarket web site to place your grocery order the software 
+knows who you are, what you have purchased in the past, and what you are likely to order this 
+time. The smart phone that most of us carry is actually also a tracking device. Apart from being 
+able to tell you the location of your closest coffee shop, it can also tell anyone with access to the 
+data it collects where you are at any given moment and where you have been. In many cases your 
+email provider will send you personal advertisements based on the content of your supposedly 
+private messages. Is it possible to be anonymous anymore?
+‘Eyes watching you’ is not the only trend potentially removing freedom of action. The recently 
+revamped Apple conditions that that: “You agree that Licensor may collect and use technical data 
+and related information-including but not limited to technical information about your device, 
+system and application software, and peripherals-that is gathered periodically to facilitate the 
+provision of software updates, product support, and other services to you (if any) related to the 
+Licensed Application. Licensor may use this information, as long as it is in a form that does not 
+personally identify you, to improve its products or to provide services or technologies to you.” 
+(Apple 2015) It also states that: “You agree that the iTunes Service and certain iTunes Products 
+include security technology that limits your use of iTunes Products.” (Apple 2015)
+A Past, Current and Future Home Scenario
+Suppose you are away from your home and running late and would really like your oven to be 
+turned on so that it will have warmed up and be ready to heat the meal you are bringing home. 
+In the past, before you had access to the Internet of Things you could perhaps have phoned you 
+spouse or children at home and asked them to turn the oven on for you: Scenario-1. With access 
+to the IoT you could now use your smartphone to turn it on for you while you are on your way 
+home: Scenario-2. In the future it could well be possible for the things to take over and, based 
+on what you have done in the past and perhaps on the weather, for the oven to turn itself on in 
+anticipation: Scenario-3. Do we want the technology to assumption it knows what you need?
+The CASAGRAS report offers the following ideas: “In the minimalist version of the In-
+ternet of Things these supported objects may be identified but do not ‘do’ anything actively, 
+cannot communicate one with another and do not display any level of intelligence.” It goes on 
+to note thought, that: “In the strongest version, object sets can be identified that communicate 
+with each  other exploiting the potential of ubiquitous  computing and ubiquitous networks. It 
+is also being seen as a vehicle for achieving actuation and control in real world applications.” 
+(CASAGRAS 2014)
+SCIENCE FICTION
+Another definition of the Internet of Things is: “the network formed by things/objects having 
+identities, virtual personalities operating in smart spaces using intelligent interfaces to connect 
+and communicate with the users, social and environmental contexts”. (EPoSS 2014) The key 
+point here is that the things have identities and virtual personalities. The following section looks at 
+some scenarios from science fiction that just might contain something of value to this discussion.
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+64   International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015
+Nineteen Eighty-Four: “Big Brother is Watching You”
+Electronic surveillance aids in tracking targets and identifying suspicious activities. It is also 
+used to detect potentially suspicious left luggage and to monitor unauthorised access. This can 
+be coupled with automatic behaviour analysis. While this would not involve  a TV camera  in 
+each room  listening in and keeping track of  our movements, recently in Australia, and many 
+other countries, there has been much discussion about the collection of meta-data, particularly 
+in relation to law enforcement.
+In a recent article in the Sunday Age (Elder 2015), in relating to Orwell’s (1949) book Nine-
+teen Eighty-Four, Federal MP Adam Brandt says he doesn’t equate surveillance just with use of 
+technology, but see a difference between sharing and being spied on. Sociologist Dan Woodman: 
+“notes that any disquiet people might have about CCTV in the city streets has been up-ended 
+by the fact that just about everyone carries a camera … With this mixture of both confession 
+and judgement, we have become a self-eating version of Orwell’s Thought Police …”. (Orwell 
+1949). Philosopher John Thrasher notes that we tend to think that: “there is a fundamental dif-
+ference about sharing information about ourselves on Facebook or Twitter and having the Gov-
+ernment collect metadata about who we call or what we do online.” (Elder 2015). In Nineteen 
+Eighty-Four, O’Brien, from the Ministry of Love, comments that: “The choice for mankind lies 
+between freedom and happiness and for the great bulk of mankind, happiness is better.” (Orwell 
+1949:275). Following from this, Thrasher suggests that this and the ability to share a multitude 
+of thoughts over social media “have made it possible for individuals and groups to attempt to 
+enforce their orthodoxy on those they disagree with.” (Elder 2015). In this case, it is probably 
+the case that social media has “increased our tolerance with being observed.” As Winston Smith 
+once thought: “Always the eyes watching you and the voice enveloping you. Asleep or awake, 
+working or eating, indoors or out of doors, in the bath or in bed — no escape. Nothing was your 
+own except the few cubic centimetres inside your skull.” (Orwell 1949:29).
+2001: A Space Odyssey
+In this film, the screenplay of which was written by Stanley Kubrick and Arthur C. Clarke, the 
+U.S. spacecraft DiscoveryOne is bound for Jupiter (Wikipedia 2015). On the spaceship, most 
+of the important operations are controlled by the ship’s computer: HAL 9000 which its manu-
+facturers claim is “foolproof and incapable of error”. The crew know the computer as ‘HAL’. 
+At one point during the trip HAL reports the imminent failure of an antenna control device but 
+when this is checked no fault is found and HAL is thought to be in error. The crew now believe 
+that something is wrong with the computer and agree to disconnect it, but when astronaut Frank 
+Poole attempt to do this, HAL severs his oxygen hose and sets him adrift in space. Dave Bow-
+man now commands HAL to “Open the pod bay doors”, but HAL answers: “I’m sorry, Dave. 
+I’m afraid I can’t do that. … This mission is too important for me to allow you to jeopardize it.”
+In this scenario the computer considered that it knew better than the humans and proceeded 
+to act on this by refusing a human order.
+The Terminator
+The fear of thinking machines is a not recent. The original use of the word ‘robot’ has been traced 
+to the Karel Čapek play “Rossum’s Universal Robots” in which a greedy developer unleashes 
+the demise of humans  through  a  robot  revolution. More recently the successful movie series 
+‘The Terminator’  posits a  problem caused  by  the creation  of a  satellite defence  system  that 
+becomes self-aware and ‘protects itself from humanity.’ The script of ‘Terminator 2: Judgment 
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015   65
+Day’ (Cameron and Wisher 1991) contains the following passage: “The Skynet funding bill is 
+passed. The system goes on-line August 4th, 1997. Human decisions are removed from strategic 
+defense. Skynet begins to learn, at a geometric rate. It becomes self-aware at 2:14 a.m. eastern 
+time, August 29. In a panic, they try to pull the plug.
+SARAH
+AndSkynetfightsback.
+TERMINATOR
+Yes.ItlaunchesitsICBMsagainsttheirtargetsinRussia.
+SARAH
+WhyattackRussia?
+TERMINATOR
+BecauseSkynetknowstheRussiancounter-strikewillremoveitsenemieshere.”
+Before dismissing this scenario please consider the “Flash Crash” of 2010. Careful analysis 
+of the crash has sometimes traced it to a single mistake by a human when allowing an automated 
+trading system to make unlimited purchases – the ‘thing’ was accidentally given the power to 
+crash the entire stock market! “Specifically, at 2:32 p.m., a fundamental trader used a broker 
+algorithm to sell a  total  of  75,000  e-mini  contracts with a notional amount of approximately 
+$4.1 billion on the Chicago Mercantile Exchange (CME). The trade was intended to hedge an 
+existing equity position. The trader entered the order correctly and specified an upper limit on 
+the amount sold as a percentage of volume but did not set a price limit for the trade. As a result, 
+price movements  were magnified by a feedback loop  from the volume participation settings, 
+precipitating the actual flash crash. The CFTC/SEC report concluded that this single trade was 
+the root cause of the flash crash.” (Madhavan 2012)
+Rings of Power
+In an article entitled ‘Wandering Things’, Niehaus (2014:114) points out that “Often they function 
+as spies who disclose the intimate secrets of their owners, because things allow ‘unperceived per-
+ception.” In Wagner’s cycle of four epic operas titled: ‘The Ring of the Nibelung’ (Wagner 1876), 
+a ring of power is created from gold stolen from the Rhine-Maidens by Alberich the Nibelung. 
+Much of the material in Wagner’s Ring Cycle was drawn from traditional legendary material of 
+the Germanic people: from The Saga of the Volsungs, The Edda and The Nibelungenlied (Magee 
+2004). Niehaus (2014: 121) notes that “it is evident that the category of personal property does 
+not fit for the ring-thing …” which is claimed as their own by many including Alberich, Wotan, 
+Siegfried and the Rhine-Maidens, in each case acting as a curse on its owner. Alberich, the ring’s 
+creator points out that the ring’s master will be the ring’s slave, and the ring’s curse proves the 
+truth in this. The Ring of the Nibelung has a power, and a ‘life’ of its own.
+Also well-known  are  the three books of J.R.R. Tolkien’s (1954): ‘Lord  of  the Rings’, in 
+which the Dark Lord Sauron forges “One ring to rule them all, One ring to find them, One ring 
+to bring them all and in the darkness bind them.” (Tolkien 1954). The One Ring also has a ‘life’ 
+of its own and when one owner loses his usefulness to it, the ring seeks another until eventually 
+found by Bilbo the Hobbit. The One Ring has the power to make its possessor obsessed with 
+it and to refuse to be willingly parted from it. To its possessor it becomes ‘his precious’ and he 
+becomes a slave to the ring. As Niehaus (2014:121) points out “Things that prove themselves 
+as actors exceed the logic of personal property”, and the ring of the Nibelung and the One Ring 
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+66   International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015
+of the Lord of the Rings are examples of this. In each case the ring-thing is a non-human actor 
+that has gained a power of its own.
+CONCLUSION
+In this article we have traced the commonly discussed characteristics of an emerging technology, 
+but one that is unlike any other. The Internet can be compare with the telephone system in that 
+it is an enabling technology connecting humans. The IoT takes a potential peripheral use and 
+transforms the Internet into a technology enabling technologies. This change is a fundamentally 
+different type of technology that can be seriously compared with the science fiction scenarios 
+involving self-aware artificial intelligences. The IoT, involving sensor input and remote activation 
+of devices, sometimes by other devices, is a network where the level of autonomy and decision 
+making by the devices is fundamentally different from anything we have seen before. The up-
+take of social media, the power of search engine companies and the ubiquity of mobile devices 
+show that new technologies can produce change that is unexpected in its order of magnitude. An 
+ANT approach offers unique opportunities for understanding the new technology in two distinct 
+ways: understanding the democracy of things and seeing the IoT as a set of possible translations.
+The Democracy of Things
+A socio-technical approach has been found to allow the understanding of technology adoption 
+not possible by  failing  to  ‘listen’ to  the technology and socio-technical actors. This becomes 
+crucial with the IoT as  purely  technical actors become able to gather their own information, 
+totally independent on humans and to ‘talk among themselves’ with the ability to activate func-
+tions purely on the basis of the state of the network. These new technologies have the ability to 
+create new interactions and change the power of their interaction not through an influence over 
+the human component of a socio-technical actor, but through their nature. Consider the home 
+security network. WiFi connected sensors and cameras are connected to the Internet so that hom-
+eowners can be notified that movement has activated the camera. They can also be connected to 
+the telephone system so that authorities are notified that the home has been invaded – all reason-
+able tools for the home owner. This same home network may also have door locking capability, 
+be connected to security sensors around the home or be able to unlock doors. There does not 
+have to be much imagination involved to see these devices ‘voting’ to close doors and call the 
+authorities when  they ‘decide’ that the homeowner is not available to make decisions. If  one 
+is looking for an example of the possibilities of democracy without humans then the computer 
+trading delivered stock market crashes of 6th May, 2010 are a sobering reminder of unexpected 
+results when a system meant to do some restricted thing (place stock orders for a few investors) 
+becomes an order of magnitude larger than the original plans and places the majority of orders.
+Searching for Translations
+When viewed in terms of the democracy of thing, the question “how can we consider the ways 
+the IoT might manifest in the  future?” (Phillips 2010) arises. Each application of technology 
+that fits into the IoT has a simple plan for making life more efficient in some way. The ANT 
+approach presumes that it is the interaction of actors and not the intent of the original designer 
+that determines the translation of innovations.
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015   67
+REFERENCES
+Apple. (2015). iTunes Store Terms and Conditions. Retrieved from http://www.apple.com/legal/internet-
+services/itunes/au/terms.html
+Ashton, K. (1999, June 22). That ‘Internet of Things’ thing. RFIDJournal.
+Cameron, J., & Wisher, W. (1991). Terminator 2: Judgment Day. Retrieved from http://www.scifiscripts.
+com/scripts/t2.txt
+CASAGRAS. (2014). Final Report: RFID and the Inclusive Model for the Internet of Things. Retrieved 
+from  https://docbox.etsi.org/zArchive/TISPAN/Open/IoT/low%20resolution/www.rfidglobal.eu%20
+CASAGRAS%20IoT%20Final%20Report%20low%20resolution.pdf
+Cellan-Jones, R. (2014, December 2). Stephen Hawking warns artificial intelligence could end mankind. 
+Retrieved from http://www.bbc.com/news/technology-30290540
+Cocozza, P. (2014). Are iPads and tablets bad for young children? Retrieved from http://www.theguardian.
+com/society/2014/jan/08/are-tablet-computers-bad-young-children
+Colitti, W., Long, N. T., DeCaro, N., & Steenhaut, K. (2014). EmbeddedWebTechnologiesfortheInternet
+ofThings.InternetofThings:ChallengesandOpportunities.Mukhopadhyay (pp. 55–74). Heidelberg, S. 
+C., Germany: Springer.
+Elder, J. (2015, October 18). Everyone is Watching. Sunday Age (Melbourne, Fairfax) 16.
+EPoSS. (2014). Definition of the Internet of Things. Retrieved from http://www.smart-systems-integration.
+org/public
+Forbes. (2015). The World’s Biggest Public Companies. Retrieved from http://www.forbes.com/global2000/
+list/#tab:overall
+Foreshew, J. (2015). Watchwatchesoutfortheaged. The Australian Melbourne, News Media.
+Gheorghiu, V. (1950). TheTwenty-FifthHour. Ontario, Canada: Simon & Schuster Pub.
+Gubbia,  J.,  Buyyab,  R.,  Marusic,  S.,  & Palaniswami,  M. (2013).  Internet of  Things  (IoT): A  vision, 
+architectural elements, and  future  directions.  FutureGenerationComputerSystems, 29(7),  1645–1660. 
+doi:10.1016/j.future.2013.01.010
+Haller, S. (2009). InternetofThings:AnIntegralPartoftheFutureInternet. Prague: SAP Research.
+Lazarescu, M. T. (2014). InternetofThingsLow-CostLong-TermEnvironmentalMonotoringwithReusable
+WirelessSensorNetworkPlatform.InternetofThings:ChallengesandOpportunities.Mukhopadhyay (pp. 
+169–196). Heidelberg, S. C., Germany: Springer.
+Madhavan, A. (2012). Exchange-traded funds, market structure, and the flash crash. FinancialAnalysts
+Journal, 68(4), 20–35. doi:10.2469/faj.v68.n4.6
+Magee, E. (Ed.). (2004). LegendsoftheRing. London: The Folio Society.
+Mason, P. (2015). We can’t allow tech giants to rule. TheGuardianWeekly (London).
+McCarthy, J., Minsky, M., Rochester, N., & Shannon, C. (2006). A Proposal for the Dartmouth Summer 
+Research Project on Artificial Intelligence (1955). AIMagazine, 27(4), 12–14.
+Mukhopadhyay, S. C., & Suryadevara, N. K. (2014). InternetofThings:ChallengesandOpportunities.
+InternetofThings:ChallengesandOpportunities.Mukhopadhyay (pp. 1–17). Heidelberg, S. C., Germany: 
+Springer.
+Niehaus, M. (2014). WanderingThings-Stories.LeSujetDeL’Acteur-AnAnthropologicalOutlookon
+Actor-NetworkTheory.Kapriev,G., Roussel, M.andTchalakov,I (pp. 109–129). Paderborn, Germany: 
+Wilhelm Fink.
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+68   International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015
+Orwell, G. (1949). NineteeenEighty-Four. Great Britain: Martin Secker & Warburg.
+Pererez, I. C. Barbolla and A. M. Bernardos (2014). Exploring Major Architectural Aspects of the Web 
+of Things. In S. C. Mukhopadhyay (Ed.), Internet of Things: Challenges and Opportunities (pp. 19-54). 
+Heidelberg, Germany, Springer:
+Phillips, M. (2010, May 11). Nasdaq: Here’s Our Timeline of the Flash Crash. TheWallStreetJournal.
+Purcell, A. (2015). Driverbeware:yourcarcouldbehackedwhileyou’reinit. Melbourne, Fairfax: Sunday 
+Age.
+Song, Z., Lazarescu,  M.  T., Tomasi, R., Lavagno,  L.,  &  Spirito, M. A. (2014). High Level Internet of
+Things Applications Development Using Wireless Sensor Networks. In S. C. Mukhopadhyay  (Ed.),  In-
+ternet of Things: Challenges and Opportunities. (pp.  75–110).  Heidelberg,  S.  C., Germany: Springer. 
+doi:10.1007/978-3-319-04223-7_4
+Sundmaeker, H., Guillemin, P., Friess, P., & Woelfflé, S. (2010). Vision and Challenges for Realising the 
+Internet of Things. Brussels, European Commission - Information Society and Media DG.
+The Australian. (2012). Parents warned of side effects of tablet computer overuse on children. Retrieved 
+from  http://www.theaustralian.com.au/news/parents-warned-of-side-effects-of-tablet-computer-overuse-
+on-children/story-e6frg6n6-1226314156128
+Tolkien, J. R. R. (1954). TheFellowshipoftheRing. England: Allen & Unwin.
+Unnithan, C. (2014). ExaminingInnovationTranslationofRFIDTechnologyinAustralianHospitalsthrough
+aLensInformedbyActor-NetworkTheoryPhD. Victoria University.
+Unnithan, C., Nguyen, L., Fraunholz, B., & Tatnall, A. (2013). RFID translation into Australian Hospitals: 
+An exploration through Actor-Network Theoretical Lens. ProceedingsoftheInternationalConferenceon
+InformationSociety(i-society2013), Toronto, University of Toronto, Canada.
+Unnithan, C., & Tatnall, A. (2014). Actor-Network Theory (ANT) based visualisation of Socio-Technical 
+Facets of RFID Technology Translation: An Australian Hospital Scenario. InternationalJournalofActor-
+NetworkTheoryandTechnologicalInnovation, 6(1), 31–53. doi:10.4018/ijantti.2014010103
+Wagner, R. (1876). DerRingdesNibelungen. Bayreuth, Germany: Bayreuth Festspielhaus.
+Weiser, M., Gold, R., & Brown, J. S. (1999). The Origins of Ubiquitous Computing Research at PARC in 
+the late 1980s. IBMSystemsJournal, 38(4), 693–696. doi:10.1147/sj.384.0693
+Wikipedia. (2015). 2001: A Space Odyssey (film). Retrieved from https://en.wikipedia.org/wiki/2001:_A_
+Space_Odyssey_(film)
+Wikipedia.  (2015,  October).  Internet  of  Things.  Retrieved  from  https://en.wikipedia.org/wiki/Inter-
+net_of_Things
+Wikipedia. (2015, October). Smartwatch. Retrieved from https://en.wikipedia.org/wiki/Smartwatch
+Wikipedia. (2015,  October). Artificial intelligence. Retrieved from  https://en.wikipedia.org/wiki/Artifi-
+cial_intelligence
+Copyright © 2015, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+International Journal of Actor-Network Theory and Technological Innovation, 7(4), 58-69, October-December 2015   69
+ArthurTatnallisanAssociateProfessoratVictoriaUniversityinMelbourne,Australia.Inhis
+PhDheusedactor-networktheorytoinvestigateadoptionofVisualBasicinthecurriculumof
+anAustralianuniversity.Arthur’sresearchinterestsincludetechnologicalinnovation,history
+oftechnology,projectmanagement,informationsystemscurriculum,informationtechnologyin
+educationalmanagementandelectronicbusiness.Muchofhisresearchisbasedontheuseof
+actor-networktheory.ArthurisaFellowoftheAustralianComputerSocietyandactiveinthe
+InternationalFederationforInformationProcessing(IFIP)asChairofIFIPWG3.4–ICTin
+ProfessionalandVocationalEducationandChairofIFIPWG9.7–HistoryofComputing.He
+haspublishedwidelyinjournals,books,bookchaptersandconference.ArthurisalsoEditor-in-
+ChiefoftheInternationalJournalofActor-NetworkTheoryandTechnologicalInnovationand
+Editor-in-ChiefoftheJournalofEducationandInformationTechnologies.
+BillDaveyisaSeniorLecturerinInformationSystemsatRMITUniversityinAustralia.He
+hasheldseveralpositionsintheInternationalFederationforInformationProcessingworking
+groups and is associate editor of the journal “Education and Information Technology”. Dr
+DaveyistheRMITchiefinvestigatorinafundedjointresearchprojectwiththeBaden-Wuert-
+tembergCooperativeStateUniversityinStuttgart,Germany,investigatingdesignof hospital
+informationsystems.HehaspublishedseveralimportantpaperswithresearchersfromIdaho
+StateUniversityonissuestodowithagedcareandinformaticsandiscurrentlyworkingona
+bookonRequirementsElicitationforinformationsystems.DrDaveysupervisesindustrybased
+PhDcandidatesinvestigatingProjectManagementandothersininvestigatingthevalueofIT
+inaddressingspecifichealthissues.Billisinterestedinprogressingtheresearchmethodsof
+Actor-NetworkTheoryandPhenomenographyespeciallyappliedtothefieldsofagedcareand
+requirementselicitation.
+Citations (12)
+References (35)
+... Radio Frequency Identification (RFID) and Wireless Sensor Networks (WSN) have been in existence now for over two decades, but advances towards full use of the Internet of Things (IoT) offer much more and also pose more social challenges (Tatnall and Davey 2015). The term Internet of Things was first coined some time ago by Kevin Ashton (1999) in the context of supply chain management, but has advanced to cover a wide range of other applications. ...
+... Would it not be better for a traffic signal to disable a car about to run a red light? (Tatnall and Davey 2015) Not all IoT devices are really serious in their application though. In an IEEE article, Amanda Davis (2015) describes a video camera system that streams to your mobile phone to let you keep an eye on your cat while you are away, and to talk to it through a two-way audio system. ...
+Rise of the Non-Human Actors: The Internet of Things
+Chapter
+Full-text available
+Jan 2019
+Arthur Tatnall
+Bill Davey
+View
+Show abstract
+... The meaning of this term is changed over time from a descriptor of products to its unique term with emphasizing on time-saving and time buying (Cho & Sagynov, 2015). The convenience concept is related to saving time, avoiding crowded markets, solving parking problems, and 24 accessing to online services (Tatnall & Davey, 2017). Previous studies confirmed that ease of use is significantly determining the behavior intention toward adoption of new technology like IoT in banks (Del Giudice et al., 2016;Gao & Bai, 2014;Lee et al., 2012). ...
+... The above results of the study concluded that there is a significant impact of convenience on the adoption of Internet of Things in Indian banks, many researchers also considered the convenience factor as an essential factor for motivating customers to adopt IoT services of banks (Barbara andJohnson, 2001, as cited in Cho &Sagynov, 2015;Tatnall & Davey, 2017). In the same quest, Upadhyay et al. (2019) found that convenience of using internet is an essential factor for Indian customers to adopt the IoT services of banks. ...
+An examination of consumers’ adoption of internet of things (IoT) in Indian banks
+Article
+Full-text available
+Jan 2020
+Fatehi Almugari
+Parul Bajaj
+Mosab I TabashProf. Mohammed Ashraf Ali
+View
+Show abstract
+... Further, ANT serves as a conceptual tool to express complex networks and interactions between actors in a graphical format (Alexander and Silvis 2014). Prior research has already used ANT to explicate the socio-technical implications of the increasing interactions between non-human actors and those between human and non-human actors (Tatnall and Davey 2015). We follow this line of argumentation and draw on ANT to better understand technologies' roles in forming a network of non-human actors that characterizes as a SAS with high levels of autonomy. ...
+The Rise of the Machines: Conceptualizing the Machine Economy
+Conference Paper
+Full-text available
+Jun 2021
+Jan Jöhnk
+Tobias Albrecht
+Laurin Arnold
+Nils Urbach
+View
+Show abstract
+... While technology can greatly increase liveability, numerous challenges emerge such as insecurity, moral decadency and privacy breach, amongst others. The ability to gather, analyze, and share information in real-time using different devices adds to the difficult of maintaining privacy, compromising on social and psychological comfort that urban dweller seeks (Davey & Tatnall, 2015;Power, 2016). Hildebrandt & Gutwirth (2008) posit that through different technological platforms, individuals can unlawfully access personal data of others and could use it in a way that compromise their privacy. ...
+On Big Data, Artificial Intelligence and Smart Cities
+Article
+Jan 2019CITIES
+Zaheer Allam
+A. Zaynah Dhunny
+View
+Show abstract
+The Political Force of Musical Actants: Grooves, Pleasures, and Politics in Havana D'Primera's ‘Pasaporte’ Live in Havana
+Article
+Full-text available
+Feb 2021
+Kjetil Klette Boehler
+View
+Show abstract
+Analyzing Network of Media Organization, Audiences, and ICTs Based on Actor Network Theory: The Case of IRIB
+Chapter
+Sep 2020
+Siavash Salavatian
+Mohammad HesampourTohid Soltani
+View
+Show abstract
+Can Artificial Intelligence and Internet be the Solution to Prevent the Exponential Spread of COVID-19? (Preprint)
+Article
+Full-text available
+Apr 2020J MED INTERNET RES
+Aya Sedky AdlyAfnan Sedky AdlyMahmoud Sedky Adly
+View
+Show abstract
+The Internet of Things and Beyond: Rise of the Non-Human Actors
+Chapter
+Full-text available
+Jan 2020
+Arthur Tatnall
+Bill Davey
+View
+Show abstract
+The Internet of Things and Beyond: Rise of the Non-Human Actors
+Chapter
+Full-text available
+Jan 2020
+Arthur Tatnall
+Bill Davey
+View
+Show abstract
+Researching Computers and Education Through Actor-Network Theory
+Chapter
+Full-text available
+Aug 2019
+Arthur Tatnall
+View
+Show abstract
+Show more
+Recommendations
+Discover more about: Internet
+Project
+Health Informatics
+Chandana R Unnithan
+Arthur TatnallKaterina Andronis
+View project
+Project
+History of Computers in Education
+Arthur Tatnall
+View project
+Project
+e-mental health Saudi
+Bader Binhadyan
+Nilmini Wickramasinghe
+Bill Davey
+View project
+Project
+Role of Is/IT in Adhd treatment
+Bader Binhadyan
+Nilmini Wickramasinghe
+Bill Davey[...]
+Vince Bruno
+View project
+Chapter
+Full-text available
+Rise of the Non-Human Actors: The Internet of Things
+January 2019
+Arthur Tatnall
+Bill Davey
+The internet of things (IoT) involves connections of physical things to the internet. It is largely about the relationships between things, or non-human actors. In the past, it was rare for non-humans to interact with each other without any involvement by humans, but this has changed and the “things” sometimes seem to have inordinate power. Where does this leave humans? Are the things taking ... [Show full abstract]
+View full-text
+Chapter
+The Internet of Things and Beyond: Rise of the Non-Human Actors
+February 2017
+Arthur Tatnall
+Bill Davey
+In the past, it was rare for non-humans to interact with each other without any involvement by humans, but this is changing. The Internet of Things (IoT) involves connections of physical things to the Internet. It is largely about the relationships between things, or non-humans actors. In other cases the 'Things' seem to have inordinate power. The authors will ask: Where does this leave humans? ... [Show full abstract]
+Read more
+Chapter
+Full-text available
+The Internet of Things and Beyond: Rise of the Non-Human Actors
+January 2020
+Arthur Tatnall
+Bill Davey
+In the past, it was rare for non-humans to interact with each other without any involvement by humans, but this is changing. The Internet of Things (IoT) involves connections of physical things to the Internet. It is largely about the relationships between things, or non-humans actors. In other cases the ‘Things' seem to have inordinate power. The authors will ask: where does this leave humans? ... [Show full abstract]
+View full-text
+Chapter
+Full-text available
+The Internet of Things and Beyond: Rise of the Non-Human Actors
+January 2020
+Arthur Tatnall
+Bill Davey
+In the past, it was rare for non-humans to interact with each other without any involvement by humans, but this is changing. The Internet of Things (IoT) involves connections of physical things to the Internet. It is largely about the relationships between things, or non-humans actors. In other cases the ‘Things' seem to have inordinate power. The authors will ask: where does this leave humans? ... [Show full abstract]
+View full-text
+	
+or
+	Discover by subject area
+Recruit researchers
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2021 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprint

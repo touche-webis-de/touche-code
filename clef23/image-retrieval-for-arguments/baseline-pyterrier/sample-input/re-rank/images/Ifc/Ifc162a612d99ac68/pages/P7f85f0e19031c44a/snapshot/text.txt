@@ -1,0 +1,1085 @@
+___
+Our videos have over 5 million views on Youtube!  Visit our channel now »
+Blog
+Best VPN
+Tools
+Coupons
+English 
+vpnMentor.com  Blog  Live Updates: Online Censorship News for October 2021
+Disclosure: 
+Professional Reviews
+ 
+• Ownership
+ 
+• Affiliate Commissions
+ 
+• Reviews Guidelines
+Best VPN Deals
+Best for PC&Mac
+Visit ExpressVPN
+Save 49%!
+Best for Mobile
+Visit CyberGhost VPN
+Save 83%!
+Best for TV
+Visit IPVanish VPN
+Save 71%!
+Live Updates: Online Censorship News for October 2021
+Updated on 10th August 2021
+
+This is an on-going log of events concerning censorship around the globe. We update this page with the latest news regarding online censorship. 
+Share
+
+Regular readers of our blog know that there is no such thing as a one-time censorship event.
+
+Governments across the globe are constantly looking for new ways to attack online freedom (as well as other freedoms) and make ‘big businesses’ happier using access to our information as the bait.
+
+At vpnMentor, we think it’s important that you get to see the gravity and breadth of these problems. So, here is a run down of all the tricks, moves, and data sales we have learned about so far, starting with the most recent.
+
+May
+
+Mexico’s Copyright Laws and Increased Censorship
+
+A newly enacted bill by the Mexican Senate enables judges to order the removal of content without proof that it violates copyright law.
+
+The bill means that cases of alleged copyright violation do not need to be proven in court or await sentencing before the content is removed.
+
+The bill also allows for “precautionary measures” to be taken against equipment used to spread this content.
+
+There is widespread condemnation of the bill as it threatens freedom of expression and can be used to censor controversial material.
+
+Otago Students Protest Over Censorship
+
+Students at Otago University are protesting a range of issues, including censorship, job cuts, and the university’s marketing strategy.
+
+The catalyst for the protests was the removal of copies of a student magazine because the cover featured someone menstruating.
+
+Students are also raising awareness of campus sexual assaults and the need for greater awareness of menstruation.
+
+China to Employ AI to Support Censorship Efforts
+
+Chinese censors are employing AI and machine learning to shut down objectionable material and censor free speech within the country.
+
+The Chinese government is also introducing active citizen surveillance and mandatory social profiling.
+
+The news comes after Facebook announced similar measures earlier this month.
+
+Iran Tightens Internet Censorship Again
+
+The Iranian government now requires government agencies to use a state-approved, domestic search engine.
+
+The CHRI (Center for Human Rights in Iran) states that besides censoring the results of searches, such engines often provide false information and spread malware.
+
+Searches for specific key words, especially those related to protests, political prisoners, and social media, redirect users to fake pages containing malware that endanger the security of the user.
+
+The Iranian censors are also looking to ban tools used to circumvent online censorship, including VPNs.
+
+China Censors Eurovision
+
+Eurovision has long been as much a celebration of diversity as it has been a song contest. Some elements of that diversity were, however, not welcome in China, where one broadcaster censored the content.
+
+Chinese broadcaster Mango TV blurred rainbow flags and removed some entries entirely from its footage. This included the Irish performance because it included two male dancers enacting a gay love story.
+
+Albania’s song was also removed because some of the performers had visible tattoos.
+
+Because of the censorship, Mango TV was barred from airing the second semi-final and the final and has been heavily criticized by LGBT advocacy groups for bending to pressure from the Chinese authorities.
+
+It is unclear whether there was pressure on Mango TV from the Chinese government or whether they undertook the censorship independently.
+
+Blockchain Experiment Short Lived in China
+
+Just a few days ago WeChat launched a blockchain app, which was suspended less than a day after its launch.
+
+The app, called Xiao Xieyi, or mini protocol, was a potential answer to increasing censorship within the country. Blockchain technology was used by the #MeToo movement last month in China to avoid the censors.
+
+There has been no comment from WeChat and the service’s landing page simply states that the service has not yet been authorized by the platform.
+
+Telegram Officially Banned in Iran
+
+At the end of 2017, the Iranian government placed controls on the messaging app Telegram to make it harder to use. The move was made in response to anti-government protests, and though the controls were supposed to be temporary, the app has now been banned outright.
+
+Information regarding the ban has been gathered by OONI (Open Observatory of Network Interference), a watchdog group that provides empirical data allowing governments and anti-censorship campaigners to hold to account those responsible for increasing censorship.
+
+The data gathered is stored in a publicly accessible database. This enables anyone to see what information is being blocked, throttled, or filtered in any country and how this is being achieved.
+
+OONI’s work is becoming more important as censorship software becomes easier to obtain and use.
+
+WSWS Calls the Sunday Times Insight Team to Account
+
+Once heralded as pioneers of investigative journalism, the Insight team at the Sunday Times now faces accusations of peddling state propaganda.
+
+The accusations were made by the WSWS after the paper’s report on the alleged interference by the Russian state in the British General elections in 2017. The piece is directed against the Labour Party, and more specifically, its leader Jeremy Corbyn.
+
+The investigation was based on just 20,000 tweets. When placed in the context of the 1.067 million Twitter accounts, which produced an estimated 10 million tweets in the lead up to the general election, it is understandable why WSWS is questioning whether this is as a piece of thorough investigative journalism.
+
+Google and Amazon Cave to Russian Censors
+
+Google and Amazon have bowed to pressure from Russia and are ending domain fronting.
+
+The technique is used within Russia to bypass internet censorship, providing access to the banned messaging app Telegram.
+
+The move comes after Russian censors blocked a significant portion of the IP addresses belonging to the two companies.
+
+Peppa Pig Banned in China
+
+Peppa Pig is the latest cartoon character to be banned in China.
+
+The ban has been implemented after the character was deemed subversive and a bad influence on China’s youth.
+
+Peppa joins the ranks of Winnie the Pooh, who was banned earlier this year after the character was used as code for discussions about the Chinese president.
+
+Calls for Australians to Join the May Day Rally
+
+The Socialist Equity Party (SEP) leader James Cogan has called for Australians to join the ICFI’s international online May Day rally on May 6th.
+
+The call was made as part of his speech on internet censorship and attacks on freedom of speech.
+
+The speech was one of many given at meetings across Australia to raise awareness of censorship issues.
+
+Protests Against Internet Censorship in Russia
+
+Russian resistance against government censorship is gaining traction.
+
+The government’s move to block Telegram catalyzed major demonstrations in Moscow.
+
+Demonstrators see blocking Telegram as a first step towards greater restrictions.
+
+More demonstrations are planned for later in the month.
+
+Facebook to Employ AI
+
+Facebook is moving toward using AI to identify hate speech, even though Mark Zuckerberg struggles to define what hate speech is.
+
+He previously acknowledged that standards for acceptable speech are subjective and that a local approach is more feasible than creating universal regulations.
+
+It’s hard to see how the two points are compatible.
+
+April
+
+Google Blocked for Supporting Telegram in Russia
+
+Google is the latest victim in Russia’s ongoing feud with newly banned chat service app Telegram.
+
+Google Search and Gmail have been partially blocked in Russia following accusations that they are helping people use Telegram despite the ban.
+
+Roskomnadzor blocked certain IP addresses after they were used by Telegram to bypass the blocks on its services.
+
+Google is investigating reports of the effects of the ban on its IP addresses.
+
+The move to ban Telegram began earlier this month and as a result 18 million IP addresses have been banned.
+
+The move is Russia’s latest step in trying to emulate the control that China has over what its citizens can see, say, and do online.
+
+Anti-Censorship Meetings Move to Australia
+
+The International Committee of the Fourth International is continuing its campaign against censorship with meetings in New Zealand and Australia.
+
+The most recent open meeting in New Zealand, held by the Socialist Equity Group, addressed topics ranging from the missile attack on Syria, to the blacklisting of progressive, socialist, and anti-war websites by Facebook and Google.
+
+The work and status of Julien Assange and Facebook’s attempts to censor newsfeeds were also hot topics.
+
+Facebook Taken to Task by Users
+
+Facebook has rarely been out of the news recently, but the latest difficulties are not related to its data leak issues.
+
+Two conservative video bloggers, known as Diamond and Silk, accused Facebook of suppressing traffic to their feeds because their videos were deemed “unsafe to the community.”
+
+The claims were made during a House Judiciary Committee hearing that the pair were invited to participate in.
+
+During the hearing they provided a screen shot showing how their page had been labelled as “very liberal” by Facebook. This means that their content was de-prioritized by Facebooks algorithms for most of their followers, who identify as conservative.
+
+The pair stated that the move was intended to censor their content and deny their free speech.
+
+Facebook declined an invitation to attend the hearing.
+
+Blockchain Becomes the Latest Weapon in Fight Against Censorship in China
+
+The tamper-proof Ethereum blockchain has become the latest weapon used by students in China to fight ever increasing internet censorship.
+
+By sending transactions from anonymous addresses on the blockchain holding code, students can send and store uncensored material in the public domain.
+
+The tactic was initiated by a female student in order to openly describe her treatment after petitioning for a public investigation into sexual harassment at Peking University.
+
+WeChat has responded by blocking users from accessing the transaction page of the blockchain, which allows users to view the transactions. However, currently the etherscan.io website can still be accessed through WeChat.
+
+Latest on VPNs in China
+
+China escalated its move to ban all non-authorized VPNs at the beginning of 2018. However, as we have reported since then, the ban has been less than consistent. So, what is the state of play four months into the ban?
+
+It is still possible to access unauthorized VPNs in China. One of the easiest ways to do this is to go through a foreign company with offices in China.
+
+Academic institutions in China can still qualify for VPNs as their research requires uncensored access to the wider world.
+
+Outside of such organizations, individuals are migrating to local equivalents of blocked websites to access the internet. However, local services are heavily censored, and many are still attempting to access VPNs and switching between different providers as the ban takes hold.
+
+Russian Libel Bill Signed into Law
+
+Vladimir Putin has signed into law a bill that allows authorities to block websites that are publishing information about public figures that is deemed to be defamatory.
+
+The ruling follows an ongoing dispute to remove corruption investigations from the websites of several news outlets.
+
+The law sets a dangerous precedent for stopping the publication of information the authorities would rather not be seen.
+
+China Moves to Fully Automate Censorship with AI
+
+China is taking a big step towards fully automated online censorship with AI start-up SenseTime.
+
+The company, well known for providing the Chinese police with AI powered surveillance software, state that its product automatically screens out content containing violent or pornographic images. It can also screen for sensitive text in messages and posts.
+
+The SenseTime product can scan much more content than human moderators, making it more cost efficient. Despite concerns that it will misinterpret context, the company believe it to be 99.5% accurate.
+
+The Other Side of Censorship in Germany
+
+Calls for internet giants to remove hate speech have been growing in recent years. Germany was one of the first European countries to embrace this call, but now it is facing the reality of what amounts to full scale censorship.
+
+The law in Germany requires social media companies to remove unlawful hate speech within 24-hours or face large fines. Such sites have up to seven days to remove content that is still considered fake news or hate speech, but which is not strictly illegal. Failure to do so can also result in fines.
+
+The reality, however, is that social media companies are pre-empting potential issues by removing material that may not even breach the law. This includes the removal of the Twitter accounts of comedians and satirical sites, after posts which (if misinterpreted) could be seen as hateful.
+
+The German government has already conceded that amendments to the law may be needed. Critics do not believe this would go far enough to protect freedom of speech and instead want to see the law abolished.
+
+Anti-Censorship ICFI Meeting Goes Ahead
+
+Earlier this month we reported on plans by Indian supporters of the International Committee of the Fourth International (ICFI) to hold a public meeting against censorship.
+
+The meeting went ahead and was streamed live via Facebook.
+
+One of the many topics covered was the continuing censorship of socialist and anti-war websites by internet giants such as Google.
+
+Telegram Under Fire Again in Russia
+
+An estimated 16 million IP addresses have been blocked by Russian internet censors.
+
+The move is another step in an operation against the banned messaging app Telegram.
+
+The move is affecting a range of other internet companies as well, including the Viber messaging app and the social network Odnoklassniki. It has also affected unrelated businesses on the internet, including a courier service and an English language school.
+
+Strangely enough Amazon Web Services and Google Cloud, the two hosting services affected, have yet to comment.
+
+Another Victim Of FOSTA
+
+Cloudflare has terminated their services to sex worker social media site Switter.
+
+Switter, which was founded earlier this year by a group of sex workers in Australia, provides a safe space for sex workers across the globe to chat and swap safety tips.
+
+Cloudflare stated that the site violated its terms of service. The company later confirmed that the termination was due to the implementation of FOSTA. It said that while it disagrees with the law, it leaves them and other online platforms in a very precarious position.
+
+Cloudflare has taken this step despite being an advocate for net neutrality.
+
+Switter has found a new content delivery service willing to host their site, at least for now.
+
+Companies Practicing Self-Censorship in China
+
+Companies desperate to stay on the right side of Chinese state censors are increasing their levels of self-censorship.
+
+One such company, Weibo, has begun a three-month purge of content on its platform that depicts gore, violence, or pornography. Initially, the list also included homosexuality.
+
+The purge affects everything from games, to anime and short videos.
+
+Given the number of apps that are being shut down, it is little wonder that companies are taking such actions.
+
+Bytedance is just one example; it was forced to shut down its comedy app, Neihan Duanzi, and to publicly apologize for content that degraded the character of the nation.
+
+Victory for the LGBT Community in China
+
+Weibo has reversed its earlier decision to remove all gay content from its platform. The initial move was made in response to the Chinese government’s efforts to censor cyberspace.
+
+The move would have affected any content considered to be gay-themed. While Weibo is still removing any content considered violent or pornographic, other gay media remains active.
+
+The move has been welcomed by activists who state that homosexuality is not a criminal offence in China, and it was removed from the list of mental disorders in 2001. To remove gay content as the company had originally wanted would have been treating homosexuality as an illegal activity.
+
+Is Google Siding with Censors Again?
+
+Google has a history of siding with censors, and it looks as if it is doing it again.
+
+In the past, services have been able to use a practice called domain-fronting to get around state-level internet blocks.
+
+A recent change that Google has made to its network architecture means that this no longer works.
+
+The change threatens several anti-censorship tools, including Psiphon’s VPN services, GreatFire.org, and Signal.
+
+Google stated that domain-fronting was never a supported feature and had only worked because of a “quirk” in their software stack.
+
+Digital rights groups are urging Google to reconsider the changes. We will keep you updated when we hear more.
+
+Support for Social Media Apps Gets Noisy in China
+
+Two more social media apps have been shut down in China this week. It would seem that at least of one of the shut downs is a response to users getting together and becoming organized in the real world.
+
+Fans of the video app Douyin are known to honk car horns in a specific pattern to signal to other users that they are in the same area. Users of the platform also have their own subculture and obscure vocabulary, which is also frowned upon by the authorities.
+
+The users are a loose collective with no known overriding ideology, although community service is high on their agenda.
+
+News outlets have been instructed to suppress any information about gatherings organized by the app’s fans. They also have orders to censor videos, photos, and articles that call for protests or attack media regulation in any way.
+
+US President Signs FOSTA into Law
+
+Websites are now to be held criminally accountable for content posted by third parties if it is deemed to facilitate sex trafficking and prostitution.
+
+The result is that many websites will filter out any sexual content. This includes content meant to support victims and keep those in the sex industry safe.
+
+We reported earlier this month how this was already beginning to happen. Now that the law has been passed by the President, things are only set to get worse.
+
+News Apps Are the Latest Victims of China’s Censorship Crackdown
+
+Several news apps have been removed from Chinese app stores following the latest round of censorship in China.
+
+The apps Toutiao, Phoenix News, NetEase, and Tiantian Kuaibao have all been removed and suspended for varying lengths of time.
+
+No official reason has been given for the removal of the apps, but the words “fake news” have been flying around.
+
+Toutiao has fallen foul of the censors before when it was accused of spreading vulgar and pornographic information. It has since made changes to its platform, but they were not enough to prevent it from getting the longest suspension of the four news providers.
+
+What Does a New Prime Minister Mean for the Internet in Ethiopia?
+
+On April 2, 2018, Dr. Abiy Ahmed Ali was sworn in as the new Prime Minister of Ethiopia. His appointment comes as a result of political crisis earlier this year.
+
+Questions surround what the appointment means for Ethiopia, including what it means for the state of censorship within the country.
+
+While lifting the state of emergency is understandably likely to be his top priority, dealing with censorship should also be high on the list.
+
+Internet access has been restricted to the capital since mid-December, following a blanket shutdown for regional states imposed by the previous government. Additionally, even where the internet can be accessed websites are censored and surveillance is a common occurrence.
+
+Dr. Abiy’s approach to the internet is being seen as a litmus test of his position as a political reformer.
+
+WSWS Continues the Fight
+
+Despite changes in Google’s search algorithms to target socialist, progressive and anti-war websites, and Facebook’s attempts to limit news from sites it doesn’t deem authoritative, the World Socialist Website continues the fight against internet censorship.
+
+WSWS faces further limits on its activities as PayPal has blocked online sales of its pamphlet – The Struggle Against Imperialism and for Workers’ Power in Iran.
+
+The news comes as the supporters group of the ICFI (International Committee of the Fourth International) in India hold a public meeting against internet censorship in Chennai.
+
+The right-wing government in India is working with social media platforms to censor selected social media accounts and websites. The move is being taken under the guise of opposing hate speech and defending national security.
+
+The meeting aims to discuss international attacks on internet freedom, including those taking place in India.
+
+China’s Feminists Using Emojis and Code
+
+China’s feminists have joined other groups in using coded language to bypass censorship on social media platforms and discussion groups.
+
+Phrases related to the #MeToo movement are heavily monitored in China, so to circumvent censorship women are using the phrase ‘rice bunny,’ which is pronounced mi tu, and corresponding emojis.
+
+There has been a resurgence in the feminist movement in China in recent years. Legislation against Domestic violence was finally passed in 2015, and women in urban areas are experiencing greater job mobility. However, discussions over equality are still met with resistance from the Chinese government, and consequently from censors.
+
+Update on VPN Ban in China
+
+Despite having been banned, VPN providers claim that users still have access to their services in China.
+
+State-owned ISPs were ordered to block access to VPNs in February, with a full ban on non-state authorized VPNs coming into effect on March 31.
+
+VPN providers, including top provider ExpressVPN, are still awaiting further information on the ban and how it is to be implemented.
+
+More information to follow as it becomes available.
+
+Cloudflare Offers New Secure DNS Service
+
+Everything you do on the internet can be seen, followed, and sold to the highest bidder.
+
+It is that easy because almost everything you do starts with a DNS request, and DNS is typically slow and insecure.
+
+Cloudflare has come up with a solution to this problem. 1.1.1.1 emphasizes privacy, promising to wipe logs within 24 hours and to never log your IP address.
+
+The service offers support for DNS-over-TLS and DNS-over-HTTPS.
+
+Additionally, Cloudflare has hired a firm to audit its practices and code. The firm will produce an annual public report to show whether Cloudflare is keeping its promises on privacy.
+
+Internet Shutdown in Sierra Leon
+
+Multiple reports suggest that the internet was shut down in Sierra Leon following the closing of polls in the presidential runoff.
+
+The internet was restored by the following morning, and it was revealed that the move had been taken to stop the elections body from sharing results with party affiliates.
+
+Similar actions have been taken in other African countries during elections in the name of national security. However, other countries, including Kenya, Angola, and Egypt saw no disruption to services during elections.
+
+Exploiting Fake News to Gain Control in Latin America
+
+Many governments across the globe are exploiting concerns over fake news to increase censorship and tighten control over what their citizens see, hear and post. Upcoming elections in several Latin American countries are creating new opportunities for this exploitation.
+
+The governments of Costa Rica, Mexico, Brazil, and Colombia, among many others are emphasizing ‘fake news’ to pass proposals allowing them to expand internet surveillance and censorship and increase control over online communications.
+
+As with many previous cases, what is determined to be fake news is decided by those in power, often focusing on dissenting voices who want to see change.
+
+SESTA Hits the Legal World of Online Sex
+
+Within hours of SETA being passed into law legal discussions relating to sex and sex work were erased from the internet. This included everything from client screening and safe advertising networks to discussions about sex work.
+
+While censoring discussion is bad, the affects it has on the people behind these discussions is worse. The law determines prostitution and sex trafficking to be the same thing, something that those working with victims of trafficking have continually fought against.
+
+Censorship does not discriminate however, and many have seen their safety resources and lifelines disappear overnight. Without those safe spaces, those within the trade through choice cannot swap information that helps keep them safe. Those who the law is meant to protect, now have no anonymous places to go for help.
+
+In response to the new law Craigslist has removed its Personals section and Reddit has removed entire communities related in any way to sex.
+
+Confusion Reigns in China Over VPN Ban
+
+The ban on non-state authorized VPNs came into force at the end of March. However, businesses and individuals are in a state of limbo waiting to see how the ban will be implemented.
+
+Businesses are still waiting on regulators to provide clarity on how strictly the rules will be implemented and are concerned over the lack of transparency surrounding the new rules.
+
+Further concerns for businesses especially include how the move will affect China’s image and competitiveness on the international market.
+
+China, and the rest of the world, waits for the Chinese authorities’ next move.
+
+China Increases Censorship Ahead of its North Korean Visitor
+
+Speculation over the visit of Kim Jong Un to China has been growing steadily since relations with South Korea seemed to thaw earlier this year. However, Chinese authorities were quick to curb any speculation that found its way online.
+
+In the lead up to the unofficial visit North Korean related articles were deleted from the web and WeChat accounts focused on North Korea were censored. Additionally, State media was banned from reporting any news related to North Korea and searches for North Korea were blocked on Weibo.
+
+In an attempt to bypass censorship, users referred to the high-profile visitor using a range of nicknames, including ‘the fatty on the train’ and ‘the obese patient’.
+
+Turkish Regulators Fight Back Over New Broadcasting Law
+
+RTUK, the Turkish broadcasting regulator has hit back over reports that its new powers are intended to censor the internet in Turkey.
+
+It states it is not censoring the internet, only inspecting broadcasters who were not covered by the original broadcasting standards and laws because they were internet based and deemed not to be broadcasters.
+
+The RTUK states that the measures are necessary to protect the young from bad role models. This means that Netflix and other online film and Tv providers are now being held to the same standards as terrestrial TV in Turkey.
+
+Understandably people in Turkey are unconvinced that this is not a part of Turkey’s wide censorship approach, which regularly sees new websites disappear. Along with a new insecure certificate for blocked websites, which is allowing the authorities to block sites under the guise of non-specific error codes, skepticism on the behalf of individuals may be warranted.
+
+The State of Internet Censorship in Kazakhstan
+
+Kazakhstan is ranked as ‘Not Free’ according to the Freedom on the Net report by Freedom House and a new law reinforces this status.
+
+Internet uses in Kazakhstan can no longer leave anonymous comments online. All user must now be registered wither through a digital signature or SMS verification.
+
+Websites are being held accountable and those who fail to follow the rules face being fined up to $750.
+
+This is the latest in a long line of censorship moves put in place in the name of ‘national security’ and it is unlikely to be the last.
+
+Zuckerberg to Testify Before Congress
+
+Zuckerberg has agreed to testify before Congress soon after refusing a similar invitation from the UK government.
+
+The Facebook CEOs presence has been requested as part of an ongoing campaign to bring Facebook in line with US censorship measures.
+
+The move follows revelations that the data of around 50 million Facebook users was harvested by Cambridge Analytica and then purchased by the Trump campaign.
+
+Facebook is often seen as being at the forefront of the drive to censor the internet, having 15,000 staff whose only task it is to censor content posted by users.
+
+March
+
+Feminists Fight Back in China
+
+Feminists in China are preparing to sue the country’s biggest social media platform.
+
+The group Feminist Voices is suing Webio after its account was deleted. Officials from the site stated that it had could not be reactivated because it had been used to post ‘sensitive and illegal information’.
+
+It is not the first time the group as fallen foul of censorship laws in China. Previously, they were subject to a temporary block after translating an academic article that called for militant feminist action in the US.
+
+Concerns Over China’s Tightening Grip on Social Media
+
+The most recent concerns over China’s increasing tight censorship on social media are twofold.
+
+First, there is the very real concern over the rights and freedoms of individuals within China. The number of individuals jailed for expressing their opinions over the internet continues to increase.
+
+The second concern is over the ability of China to export their brand of censorship through the expansion of Chinese companies around the globe.
+
+Similarly, as companies wish to enter the Chinese market they are encouraged or coerced into becoming complicit in internet censorship.
+
+Some Things Just Are Not Funny in China
+
+Winnie the Pooh is not the only thing now banned on the internet in China. The main media censorship body in China, SAPPRFT, has decided to ban any video content that re-edits the original content.
+
+According to the body, such content has a bad influence on society. Trailers and behind-the-scenes content for unapproved videos are also banned on all online platforms.
+
+While no specific platforms have been named, it is believed that the ban is aimed at short parody videos that are disseminated on Weibo and YouKu Tudou.
+
+The Chinese authorities are stating that the reason behind the ban is copyright infringement. It obviously has nothing to do with the parodies often being political or sexual in nature.
+
+Turkey Passes New Internet Censorship Legislation
+
+The Turkish Parliament has approved a law that seeks to regulate online audio and video broadcasts.
+
+As a result, service providers must obtain permission from RTUK (the Radio and Television Supreme Council) before they can publish content. Any content posted without a license can be blocked by a judge if it is deemed illegal.
+
+RTUK now have the ability to impose broadcasting bans on content it finds inappropriate. Personal information exchange over social media is currently unaffected by this new law.
+
+UK Pornography Regulations Doomed?
+
+The body responsible for classifying films in the UK are taking on the task of rating every pornographic website on the internet.
+
+The BBFC (British Board of Film Classification) is known for being far from consistent in its approach to what is considered dangerous for children to view.
+
+Given the inconsistency of their approach, it is no wonder that concerns are being raised over them deciding which websites need to be classified as age restricted.
+
+Of course, the other concern is how this is going to be enforced. If all you need to do is enter a date of birth to prove you are over 18, then the whole process is pointless. If you have to enter other information – such as credit card details, then you open yourself up to online fraud.
+
+Twitter, Facebook and other social media sites won’t come under the jurisdiction of the BBFC, meaning that potentially explicit and harmful content can still be accessed through these mediums.
+There is also a concern that if pornography sites (legal sites) are successfully age restricted, tech savvy teens will simply find other, illegal sites, and in doing so put themselves at greater risk of harm.
+
+SESTA Is Back
+
+Earlier this month we reported on attempts to get FOSTA signed in to law, however, it would now seem that its big brother, the original SESTA Bill, has been agreed instead.
+
+The Bill, which has the backing of Ivanka Trump now heads to the desk of Donald Trump where it is expected to be signed into law.
+
+However, the Bill is seen by many as pointless in terms of what it sets out to achieve and as a backdoor to online censorship by others.
+
+The National Organization of Women, ACLU, EFF, the department of Justice, as well as sex trafficking victim’s groups and sex work rights organizations are amongst those who are against the Bill.
+
+FOSTA is Back
+
+Back in November we reported on the attempts of the US government to bring into law FOSTA. This is the watered down and more acceptable version of its first attempt at censorship under the guise of stopping sex trafficking.
+
+All has been very quiet in relation to FOSTA until now. The Senate is expected to pass this legislation within weeks and in doing so increase the State’s control over the internet.
+
+What is more concerning is that there has been no outcry from social media giants. In fact, it has been reported that Facebook is working with legislators to get the Bill passed.
+
+21st Century Fox, IBM and Oracle are also supporting the Bill. Smaller companies, those that would bear the brunt of any lawsuits filed under the Bill are, not surprisingly, opposing it.
+
+Censorship Continues to Gain Speed in China
+
+It would now seem that in addition to a crackdown on specific words and phrase that could be used to encourage dissent within China, the authorities are treating any content mocking the President as a crime.
+
+Dissidents within the country are reacting to the move by finding new words and phrases to use. The authorities are responding by discipling journalists for typos and mispronunciations of anything remotely related to the president.
+
+All of this coincides with the Chinese authorities attempts to deal with the uproar following news that changes to the constitutional term-limit on the President were being proposed.
+
+Is Censorship a New Tool in the War of the Classes?
+
+There are growing calls for action among working class Americans following escalation of social tensions and class conflict.
+
+While not limited to the USA, this is where the growth in censorship is beginning to be more widely understood as a tool in the war between the ruling classes and the working class.
+
+The WSWS (World Socialist Web Site) published its concerns this month, highlighting how censorship moves are backed by mainstream media, who have as much to lose as those in power if voices of dissent and difference are heard and allowed to spread.
+
+WSWS are spreading the word about the need to maintain internet freedoms and mobilize the working class ahead of public meetings they are holding across the US next month.
+
+Filtering Sneaks into EU Censorship Rules
+
+The European Parliament is negotiating a new copyright rule to protect intellectual property. Early negotiations faltered because rightsholder organizations wanted filters to be include in some online services.
+
+Given the controversial nature of such filters there was much rejoicing when they were erased from early drafts of the negotiations.
+
+However, the joy was short lived after they were re-introduced in a new draft. Not only that, but in this draft the filters are imposed on virtually every type of online platform.
+
+The inclusion is thought to be the work of an unelected bureaucrat who is a known advocate of the filters.
+
+Is TRON the Future?
+
+In previous months, we have discussed how blockchains can help circumnavigate censorship online. However, TRON may go one step further and aid in the areas of spamming, trolling, and content ownership.
+
+Using blockchains creates a traceable path between content and its original creator. It makes it harder for individuals or companies to deny ownership of content, whether positive or negative.
+
+Using such a platform might make trolls and ‘fake news’ proponents think twice about posting, while reducing the need for whole scale censorship.
+
+It does of course raise questions over anonymity, but given the complex and dangerous nature of the current censorship systems being used across the globe, this may be a small price to pay for freedom of speech.
+
+Steemit Take on YouTube Over Free Speech
+
+Conservative Christian groups have long been haranguing YouTube and other well-known content streaming sites over blocks placed on their online content.
+
+Now Steemit and its free speech advocate CEO, Ned Scott, are welcoming them to their platform. The move, far from being a commendation of the content is motivated by Scott’s strong belief in free speech.
+
+He believes that YouTube has lost its way because it is too focused on advertising revenues and the potential for content to negative affect these revenues. Steemit rewards Vloggers with cryptocurrencies, suggesting it is less reliant on advertising revenue.
+
+BitChute, a similar site with the same principles, is also welcoming those no longer able to post freely on YouTube.
+
+Telecom Egypt Mining Crypto Currency
+
+A report by Citizen Lab, University of Toronto, found that Telecom Egypt has been redirecting Egyptian internet users to cryptocurrency mining sites and adverts without their knowledge.
+
+The scheme, known as Adhose, uses middleboxes to manipulate internet traffic. More worryingly, the report found that the middlebox used to run Adhose was also used for internet censorship and to block specific websites within Egypt.
+
+Similar approaches to censorship have been used in Turkey and Syria.
+
+South Africa Votes for Internet Censorship
+
+The South African National Assembly has approved the Internet Censorship Bill giving the FPB the power to block content in South Africa.
+
+The bill covers a host of different forms of content, including user generated content, and was voted through on an 84% majority.
+
+The South African government states that the bill aims to protect children, and curb revenge porn and hate speech.
+
+Those opposing the bill believe it to be unenforceable and potentially unconstitutional. The bill must now be approved by the National Council of Provinces before being signed into law by the president.
+
+The EU Steps Up Calls for Internet Censorship
+
+The EU (European Union) is calling for an automatic and immediate censorship of online material that it deems inappropriate or illegal.
+
+Platforms like Twitter, Facebook, and Google are being called on to create programs to trawl the internet and delete content automatically. The EU argues that the move is necessary given the increase in lone-wolf terrorist that it believes have been radicalised online.
+
+Aside from the debate surrounding the truth of this claim, one of the main problems is that such programs cannot distinguish between terrorist propaganda and content aimed at dissuading such action – both pieces contain many of the words and phrases that the program will be designed to detect.
+
+Is Freegate the Anti-Censorship Tool You have been Looking For?
+
+As internet censorship increases across the globe, developers are looking for new ways to circumvent this censorship. One such offering comes from Dynamic Internet Technology.
+
+Freegate allows web users to access blocked websites using a set of proxy servers to bypass the firewalls being used to block the sites.
+
+It is said to work without reducing connection speed, one of the few downsides of VPNs. During set up users can also decide whether all traffic is routed through the proxy or whether specific websites are still connected to directly.
+
+While interesting, Freegate does not work in every country and there is no indication of where it does and does not work. This may be one to keep an eye on in the coming months.
+
+China Looks to Silence Opposition Online with AI
+
+China’s approach to online censorship is becoming increasingly more sophisticated. Its new AI blocks common code words and images used by individuals on social media to signal opposition to the government.
+
+The move follows in the wake of constitutional changes enabling the current Chinese president, Xi, to hold office indefinitely.
+
+Characters such as Winnie the Pooh are used to refer to the president in chat rooms and on social media to express criticism of the move.
+
+The new AI improves detection of these images and code words, removing offending posts to curb further dissent. Phrases encompassed by the ban include Disney, Brave New World, Personality Cult, and Change the Law. Any reference to works by George Orwell are also banned.
+
+A current stumbling block for the Chinese censors is that these and other filtering systems do not apply to users outside of China, even if they are in the same chatroom as a Chinese user. However, this isn’t stopping the authorities from allegedly hacking conversations on non-Chinese platforms to obtain evidence of sedition.
+
+The Global State of Censorship
+
+The results of the 2017 Freedom on the Net report by Freedom House do not make for comfortable reading.
+
+According to the report, less than a quarter of global internet users live in countries where the internet is designated as ‘free’. That means that censorship affects three-quarters of internet users in some form.
+
+Almost half the countries studied showed a decline in the internet freedoms of their citizens. The study also found an increase in the use of disinformation and manipulation tactics as forms of censorship.
+
+The top three most censored countries are Bahrain, Pakistan and Saudi Arabia, while the three least censored countries are Estonia, Iceland and Canada.
+
+February
+
+Calls to Protect Rights in Turkey
+
+The Turkish government is facing opposition from drafting a bill that would expand internet censorship within the country.
+
+The Committee to Protect Journalists called on the Turkish government to scrap Article 73 of the Bill. The article requires online broadcasters to be regulated and licensed by RTUK, the federal TV and Radio watchdog. It gives RTUK the power to apply for court orders to remove, block, or otherwise censor any content deemed objectionable.
+
+Pro-government sources suggest the bill has enough votes to pass and become law when it goes before parliament.
+
+Students Take a Stand on Censorship
+
+Students throughout the U.S. are speaking out about increased government censorship taking place under the guise of combating ‘fake news’.
+
+The movement lead by IYSSE (International Youth and Student for Social Equality) is also targeting Facebook and its suppression of news in favor of ‘personal moments’.
+
+Students are questioning Facebook’s stance that the move is aimed at improving the wellbeing of users. They believe that it is instead meant to control what they see and to censor issues such as social inequality.
+
+Google Finds Censorship Workaround
+
+Google has found a way to take its augmented reality service to China.
+
+By partnering with Xiaomi, Huawei, and Samsung, Google can launch ARCore, its augmented reality SDK for Android, and provide access to its apps.
+
+The three OEMs are releasing devices that include ARCore support and will release related apps throughout their own stores. This circumvents the censorship of Google Play Store and the fragmented access that is available to the third-party app store accessible within China.
+
+The move follows other recent partnerships between Google and Chinese tech companies aimed at releasing Google technology in China.
+
+Bell Accused of Astroturfing in Canada
+
+Media giant Bell is encouraging staff to contact the CRTC and show support for FairPlay, Canada’s application to create a mandatory website-blocking system to reduce piracy in Canada.
+
+The problem with this move is that Bell is a founding member of FairPlay Canada, and it is not encouraging staff to disclose their connection to the company.
+
+The move is known as astroturfing – where a political or corporate campaign is made to look like a grassroots movement. And, it is not the first time Bell has taken such steps.
+
+The company had to pay an administrative penalty in 2015, after leaving fake reviews of its app on different app stores.
+
+The Extent of Censorship in Egypt
+
+Since May 2017, at least 497 websites have been blocked in Egypt, according to reports by AFTE.
+
+Furthermore, a second report by AFTE states that between December 2017 and January 2018 31 new websites were blocked.
+
+Blocking websites is relatively new in Egypt and internet users are now developing new skills to help them navigate around the blocks.
+
+Social media platforms are providing sources of information and advice including the use of VPNs and Tor browser. Owners of blocked websites are also looking for new ways to reach their audience including accessing AMP (accelerated Mobile Pages) by Google.
+
+Conservatives Claim Censorship by YouTube
+
+YouTube has once again been criticized by conservatives for infringing their freedom of speech.
+
+The claim came after a video posted by PragerU, a conservative pro-life channel, was restricted by the social media platform.
+
+The video, which discussed Planned Parenthood was set to ‘restricted’ meaning that it could not be viewed by anyone using YouTube in ‘restricted mode’. PragerU stated that the video did not include anything objectionable and mainly discussed statistics.
+
+This is the latest in a long line of disputes between conservative pro-life groups and social media companies, including Twitter, Facebook, and YouTube over censorship of their views and what they see as violations of their freedom of speech.
+
+Russia, Free Speech, Big Business and the Kremlin
+
+Corruption and Russia are terms that are often heard in the same sentence. What is heard less often is efforts of anti-corruption campaigners.
+
+The reason for this is that they are quickly and efficiently censored by the Russian state.
+
+One such campaigner is Alexei Navalny, who now relies on YouTube to get his anti-corruption message across after other channels bowed to pressure and removed the content.
+
+A court order insisted that the material was removed, and all Russian outlets and Instagram complied. However, YouTube has stood firm and continues to host this and other videos by Alexei.
+
+Fighting Terrorism or Censoring Journalism in the UK?
+
+ASI Data Science has created software which it claims can automatically detect terrorist content online and block it as soon as it is uploaded.
+
+While blocking terrorist content is a worthy aim, there is the potential for both accidental and intentional misuse of the software.
+
+Those covering terrorist activity could find their reports are swept up by the algorithm. It is also possible this it could be expanded to include any content that the government wishes to censor.
+
+The algorithm is of course a closely guarded secret but given that it was developed by analyzing existing videos, there is also the risk that terrorist groups will simply change how they produce such content.
+
+The State of Censorship in the UK
+
+Internet censorship in the UK is on the rise, and most internet users do not even realize it.
+
+Despite the Investigatory Powers Act coming into force last year, there is still the misapprehension that the UK has relatively free internet access.
+
+Censorship in the UK comes under many guises and is usually framed to stop illegal activity such as terrorism, child pornography, and drugs – areas most people would agree with banning online.
+
+However, other content is censored under the broad definitions used within the legal frame work, or at the specific behest of the courts. ISPs also filter and block content as they deem appropriate, and this does not require a court order.
+
+Instagram Submits to Censorship in Russia
+
+All posts relating to corruption in Russia are being blocked by Instagram in response to Russia’s internet censor.
+
+The move is contrary to that made by other online services including YouTube, who now face a complete ban within Russia. A move that has already been implemented by some ISPs.
+
+Canada, Copyright Laws, and Censorship
+
+The International Intellectual Property Alliance has placed Canada on their global watch list, stating that its ineffectual laws make the country a hot spot for copyright infringement and online piracy.
+
+Calls for Canada to do more have been met with the introduction of the Copyright Modernization Act. The act aims to protect copyrights using a range of measures, including technological protection.
+
+However, the debate over protecting intellectual rights, while also protecting consumer rights and online freedoms, continues.
+
+The Fightback Against Censorship in the U.S.
+
+Public meetings are being organized by WSWS (World Socialist Web Site), Socialist Equality Party, and the International Youth and Students for Social Equality to increase awareness of the state of online censorship in the United States.
+
+The abolition of net neutrality, increases in government surveillance, and further restrictions on progressive, socialist, and anti-war websites are the catalysts behind the meetings.
+
+Turkey’s WhatsApp Alternative Raises Censorship Questions
+
+The Turkish government launched a state sponsored online messenger service this month. Its inception raises numerous questions about the freedom of the internet in Turkey.
+
+Over the last eighteen months there have been several internet black outs, hundreds of websites have been blocked, and there have been attempts to block the Tor Network and VPNs.
+
+The Turkish government stated that the new messenger service was safer than WhatsApp, and that user data was not retrievable. However, this is widely questioned by critics of the new service.
+
+Weibo Reopens, But May Never be the Same Again
+
+Weibo is open for business again after major parts of the microblog site were closed last month by the Chinese authorities.
+
+In response Webio promised to fulfil ‘higher standards and responsibility’, including increasing cooperation with state owned media. So far, this has included an overhaul of its ‘trending hashtags’, ‘searches from friends’ and ‘most searched topics’.
+
+A new section called ‘new era’ has also been added to Weibo. Its sole purpose is to direct users to discussions and topics praising Chinese state achievements and offering news from state owned media.
+
+The Extent of Censorship in Russia
+
+The true extent of censorship in Russia was exposed by the international human rights group Agora this month.
+
+Agora reported over 115,000 recorded cases of censorship within Russia during 2017. This includes 110,000 cases of blocked websites; an average of 244 pages blocked every day.
+
+Courts are imposing an average of one prison sentence every eight days, in regards to censorship. And one person every six days is subjected to physical attacks or the threat of violence in relation to internet content.
+
+The report was published before new anti-terror legislation came into force, so we can only expect the picture to look worse over the coming year.
+
+Macau Looks to Frame Cybersecurity Law
+
+The government of Macau has taken the first steps to introducing a legislation aimed at securing its network communications.
+
+If agreed, the legislation would set up a cybersecurity standing committee and center, which would be responsible for monitoring online information flows. The center would coordinate with the government to protect 11 crucial sectors from potential cyber-attacks.
+
+Telecommunications operators and ISPs within the country would be obligated to implement registration systems that require the user’s real name. Users would be identifiable online during all activities, and ISPs would need to keep activity logs for a minimum of one year.
+
+Critics are concerned that the law provides a legal framework for mass surveillance and that it has little to do with network security.
+
+Turkey Working with Draft Censorship Law
+
+Turkish authorities are expanding the powers of the television and radio watchdog to include oversight of online content providers. The draft law has been heavily criticized that it will develop into digital censorship.
+
+If passed, the law would allow the watchdog to stop online streaming, social media, and even films from providers such as Netflix if deemed to be a threat to the country’s moral values or national security.
+
+The law would also allow the watchdog to reject broadcasting licenses without needing to provide a reason.
+
+Who is at the Top of the Censorship Tree?
+
+The 2017 Freedom on the Net report by Freedom House has been released, and it does not paint a great picture of the state of freedom on the internet.
+
+The report concludes that 2017 was the seventh consecutive year of decline in internet freedoms across the globe.
+
+The report ranks Bahrain as the most censored country with Pakistan and Saudi Arabia taking places two and three respectively. Surprisingly, China only just makes it into the top ten.
+
+In terms of the ten least censored countries there are less surprises. The US, UK, Canada, and Australia were all included along with Estonia, Iceland, Germany, Japan, Georgia, and Italy.
+
+Microblogs are the Latest Victims of China’s Censorship
+
+Microblog operators are under increased pressure from the Chinese authorities to remove prohibited material from their sites.
+
+The Cyberspace Administration of China issued new guidelines that require operators to keep a copy of any post for six months. Operators must also set up mechanisms to monitor users accounts and delete ‘false’ information.
+
+Iran Slipping Further Down the Censorship Slope
+
+Good news! Iranian authorities removed the blocks on WhatsApp. In return, WhatsApp removed content deemed related to terrorism and suspended channels that encouraged violence during the protests.
+
+The bad news is that statements made by Iran’s leaders lean towards more and greater blocks in the future.
+
+Ayatollah Ahmad Khatami believes the free internet to be a risk to the Islamic State. In a press conference he called it a ‘mad dog’ that ‘if left alone, it will bite again.’
+
+China Sets the Date for VPNs
+
+Chinese authorities start blocking overseas VPN providers at the end of March.
+
+To continue operating legally with China, operators need to be licensed by the government.
+
+Given the ‘China first’ policy, we can only assume that it is going to be much easier for Chinese companies to gain licenses that for foreign providers.
+
+The Growth of Government Approved Internet Shutdowns
+
+More people, in countries around the world, are being denied access to the internet in an attempt to silence protests.
+
+Last year, access was cut more than 80 times across numerous countries; a 30% increase from the year before.
+
+The Cameroonian government is just one of the world powers taking this approach. Access was cut in the Anglophone region of the country for the first four months of last year. This was followed by blocking access to social media and messaging apps such as WhatsApp for over four months.
+
+Other governments using this approach include those of Syria, Iran, Sudan, Egypt, Ethiopia and Myanmar; India uses the same approach to censor Kashmir.
+
+Canada to Take First Steps on the Censorship Slope
+
+FairPlay Canada, a coalition of organizations, has taken the first steps to sending Canada down the slippery slope of internet censorship.
+
+The coalition requested the CRTC tackle piracy by launching a website-blocking system. The proposal would create the first official internet censorship committee within the Canadian federal government.
+
+The proposal, which has been raised twice before, is heavily criticized by rights activists because of its potential for negative effects on people’s freedoms.
+
+January
+
+Social Media Platforms Rally Behind Censorship Calls
+
+The European Commission called to purge the internet of ‘illegal hate speech,’ and it was answered by numerous social media platforms.
+
+Facebook, Microsoft, YouTube, and Twitter are among those that have committed to censoring such speech through the European Commission’s Code of Conduct. The Commission established the Code to complement existing legislation aimed at fighting xenophobia and racism – both of which are commendable. But is attacking freedom of speech the way to achieve it?
+
+One of the problems with the Code and how it is implemented, is its lack of transparency.
+
+Users are not provided with sufficient feedback as to why their posts have been removed. It is just as likely that posts condemning racism and xenophobia are removed as well, simply because of the terms they contain, or because they are reported by those who don’t want their ideals challenged.
+
+Censorship as Part of the China First Campaign
+
+Over the past year we have regularly reported on increased censorship in China, including its crackdown on VPNs. However, it seems as if money rather than socialist ideals may be fueling the more recent censorship attempts.
+
+Not all VPNs are illegal in China. Those that are tend to be foreign based rather than owned and operated from within China.
+
+This has both good and bad repercussions. The good part is this gives failing Chinese companies – and the services that rely on them – a much-needed financial boost. The bad part is the authorities can tightly control what is accessed, even with a VPN.
+
+However, both these results aid the authorities in safeguarding the long-standing China first policy and reduces the influence of multinationals within the country.
+
+Weibo in Trouble Again
+
+Several of the most popular sections of Weibo were shut down by the Chinese internet regulators after being accused of failing to censor inappropriate content.
+
+Weibo allegedly allowed pornographic and vulgar content that is not in line with appropriate social values. It was also accused of failing to censor content that discriminates against ethnic minorities.
+
+Among the sections affected are its hot topics, most searched, and celebrity searches; particularly in relation to celebrity relationships.
+
+The move came as part of a larger campaign by the regulators to clean up the internet and remove anything deemed harmful or not in line with China’s socialist ideals.
+
+Facebook Blocks Anticensorship Information
+
+This month, Facebook – yet again – contradicted the company’s claims to support free expression.
+
+The social media platform blocked a video promoting ‘Organizing resistance to internet censorship,’ an online meeting featuring Davide North, from World Socialist Web Site, and Chris Hedges, a Pulitzer Prize winning journalist. The video featured a statement from Julian Assange warning of new corporate and governmental efforts to curtail freedom of information.
+
+Viewers received error messages when trying to share the post, which implied a technical fault. Further investigation brought forward a notice stating that the content had been blocked to keep Facebook ‘safe’.
+
+The block was short-lived, however, as a repost of the video was shareable a few days later.
+
+Simultaneously, Facebook also blocked the World Socialist Web Site from buying advertising space to promote a column on Facebook censorship. The reason given for the block was that the advert used the image of Facebook CEO Mark Zuckerberg.
+
+Southeast Asia Faces Rapid Rise in Censorship
+
+An increasing number of sites have been blocked across Southeast Asia in a marked rise in censorship efforts across the region.
+
+The Freedom on the Net report, released by Freedom House at the end of 2017, lowered the scores of seven of the eight Southeast Asian nations included in the survey. One of the worst offenders was Myanmar with a rise in fake news and increases in journalist arrests.
+
+Only Malaysia saw an improvement in its score, but this must be placed in a context of increased censorship, and harsher penalties for those breaking the censorship rules within the country.
+
+Role of Multinational Corporations in Iranian Censorship
+
+Iranian citizens are increasingly becoming more adept at finding ways around the online censorship they face. Big companies such as Amazon, Microsoft, and Google play a major role in either supporting or opposing this movement.
+
+Many Iranians use a technique known as ‘domain fronting’ to mask their traffic. This requires users to piggyback off services such as Amazon’s AWS or GitHub, so that it is harder for authorities to block specific apps.
+
+It would be possible for users to do the same with Google, however, Google App Engine (GAE) blocks all traffic coming from the country. This is not done by the Iranian government, but by the company themselves.
+
+Google’s response is that it complies with sanctions.
+
+Brazil Joins the Fight Against Fake News
+
+In a Tweet, the Federal Police in Brazil outlined its intent to regulate what is seen on the Internet.
+
+New powers mean the police can censor political content, if it is deemed to be false, and punish those who disseminate such information.
+
+Sources within the country state that one of the many problems with this move is that there is no existing law that allows the police to wield such power.
+
+While proponents suggest that a new law will be sought, it seems that the actions will go ahead regardless. This was clarified by a top police official, who stated that the ‘Law of National Security’ could easily be used if no new law is forthcoming.
+
+Update on China’s Censorship Numbers
+
+The true extent of censorship in China is becoming clearer as we gather information spanning the whole of 2017.
+
+As many as 128,000 websites were shut down for containing obscene material, or other information considered harmful.
+
+30.9 million publications deemed illegal by the state were confiscated over the course of the year.
+
+1,900 individuals were subject to criminal penalties, in relation to censorship.
+
+Weibo, Tencent, and Baidu all received fines and reprimands for failing to censor content properly. Much of this was in relation to the death of human rights campaigner Liu Xiaobo.
+
+Overseas journalists did not escape the tightened censorship either. Overseas journals were forced to remove any papers that referenced subjects such as Tiananmen Square, Taiwan, or Tibet.
+
+And of course, China continued its crackdown on the selling and use of VPNs. All state-owned ISPs must block access to VPNs by February 2018. This is despite a report by GlobalWebindex stating that the crackdown disrupts students, scientists, and entrepreneurs.
+
+Iranians Respond to Recent Internet Blocks
+
+At the end of last year, we reported that the Iranian authorities blocked mobile web access and censored specific messaging apps to disrupt communications regarding protests in the country.
+
+However, it has come to light that the blocks did more to disrupt the lives of average citizens than it did to disrupt the protests. And the blocks had more of an affect on individuals’ lives than the protesters themselves.
+
+Despite the disruption, Iranian citizens continue to find ways around the blocks. However, more are reporting that this is becoming increasingly difficult, especially with US sanctions, and tech companies who choose to comply with them.
+
+Iranian authorities apologized to the growing number of small businesses within the country that rely heavily on the blocked mobile apps, and stated that the blocks will be lifted when ‘peace returns’.
+
+Not convinced, these businesses continue to lose customers and income and are left to find new ways to circumvent the blocks.
+
+Psiphon, the App to Overcome Censorship
+
+One of the many ways that Iranians have found to dodge increased censorship and internet blocks is the app Psiphon.
+
+Psiphon is a firewall circumventing app that has been around for just over a decade. Not only is it effective, but it is also easy to use.
+
+Psiphon has seen a five-fold increase in the amount of data moving through its servers. The app differs from traditional VPNs in that it does not mask the users’ traffic, rather it hides the user completely, meaning they can use the internet without anyone knowing they are there at all.
+
+Iranian Protestors on the Dark Web
+
+The number of Iranian’s using the dark web has doubled since protests started in the country in December.
+
+With social media and messaging platforms blocked by the government, protestors are using the anonymous Tor web browser to access the dark web to organize protests, and share information from the outside world.
+
+There are now an estimated 10,000 Iranian Tor users according to the company’s own statistics.
+
+ACLU Lobbies for Clearer Internet Filtering Policies
+
+Thanks to lobbying from the ACLU, there should soon be much clearer policies on internet filtering in US schools.
+
+A law passed by the State Legislature at the end of last year requires all school districts to adopt and implement clearly written and publicly available internet filtering policies.
+
+Policies must clearly specify the website categories that are block. It must also explain why, and provide procedures for teachers to request sites are unblocked.
+
+It is a small, but crucial, step in promoting freedom of thought and expression in US classrooms.
+
+Trump Weighs in on Iranian Censorship
+
+Donald Trump lent his own very special support to the protestors in Iran, stating he was watching very closely for any human rights violations.
+
+Trump’s comments were a response to the Iranian government blocking messaging apps and social media sites.
+
+However, Newsweek was quick to jump on the irony of the President’s words when he is so quick to block others on Twitter when he doesn’t like what he reads.
+
+The White House also made a more measured and considered statement of support for the Iranian protestors.
+
+Internet Shutdown Continues in Iran
+
+Continuing protests in the country are being met with increased blocking of the internet.
+
+Services such as Instagram and Telegram have been unavailable since the end of December. While initially only affecting mobile connections, home connections are now also being affected with access to foreign web content being blocked.
+
+Iranians are using VPNs and building new apps to circumvent growing censorship. Using VPNs for this purpose is being championed by the United States. The US government has called for Iran to stop its blocks on social media, and other ‘legitimate avenues for communication.’
+
+Another tactic being used by Iranian citizens is removing their network passwords to aid others who are affected by the mobile blocks to sit access the internet.
+
+Issues with Germany’s New Hate Speech Laws
+
+The new hate speech laws in Germany came into full effect this month, and as we foresaw, they are causing problems.
+
+Twitter’s attempts to fall in line with the new laws have seen the removal of content that meant to mock hate speech, and enlighten those that use it.
+
+Content deemed to run contrary to the new law must be removed within a given time frame, usually 24 hours, this means that little attention is paid to context, only to the words that a Tweet includes.
+
+As more countries follow Germany’s lead there is growing concern that social media platforms will further restrict free speech, rather than risk the huge fines they face if the wrong content is left unchecked.
+
+A Tough Year Ahead for Freedom of Speech
+
+We previously reported on how the big corporations are frequently bowing to pressure from governments to censor content and limit freedom of speech.
+
+A report by Bloomberg indicates that we have only seen the beginning.
+
+In a recently published blog Bloomberg lists five censorship developments that have occurred in less than a week. These include movements in Germany, France, the US, and Iran. And this is in addition to the abolition of the net neutrality laws.
+
+2018, could be a very busy year.
+
+2017
+
+December
+
+November
+
+October
+
+September
+
+August
+
+July
+
+June
+
+May
+
+April
+
+2016
+
+December 2016
+
+November 2016
+
+Was this helpful? Share it!
+Share on Facebook
+10
+ 
+Tweet this
+4
+About the Author
+Catherine Ablett
+Cybersecurity Researcher
+
+Catherine is an advocate of net neutrality.
+
+Follow our experts: 
+8 k
+ 
+13 k
+Did you like this article? Rate it!
+8.96
+Voted by
+ 50 
+Users
+Our mission: "We started vpnMentor to offer users a really honest, committed and helpful tool when navigating VPNs and web privacy." Ariel Hochstadt
+About us
+Contact us
+Privacy policy
+Terms and conditions of use
+Human Sitemap
+Press Center – vpnMentor
+The Experts Behind vpnMentor
+Ariel Hochstadt
+
+Ex-Google, International tech speaker
+
+Ran Greenberg
+
+New-Media and online expert, Venture Capitalist and investor
+
+Jackie Goldstein
+
+Web and Security Expert
+
+Alex (Shurf) Frenkel
+
+Ex-Hacker and Technical Researcher
+
+Follow vpnMentor
+ facebook
+ twitter
+© 2021 vpnMentor | All Rights Reserved
+×
+
+Share it with your friends:
+
+Live Updates: Online Censorship News for October 2021

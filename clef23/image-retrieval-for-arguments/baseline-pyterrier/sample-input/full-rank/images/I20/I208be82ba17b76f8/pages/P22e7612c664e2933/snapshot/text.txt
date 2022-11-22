@@ -1,0 +1,1378 @@
+We value your privacy
+
+We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
+
+With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click to consent to our and our partners’ processing as described above. Alternatively you may access more detailed information and change your preferences before consenting or to refuse consenting. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. Your preferences will apply to a group of websites. You can change your preferences at any time by returning to this site or visit our privacy policy.
+
+MORE OPTIONS
+AGREE
+ArticlePDF Available
+Effects of anonymity, invisibility, and lack of eye-contact on toxic online disinhibition
+March 2012Computers in Human Behavior 28(2):434-443
+DOI:10.1016/j.chb.2011.10.014
+SourceDBLP
+Authors:
+Noam Lapidot-Lefler
+Oranim Academic College of Education
+Azy Barak
+Download full-text PDF
+Read full-text
+Download citation
+Copy link
+Citations (341)
+References (100)
+Figures (3)
+Abstract and Figures
+The present research studied the impact of three typical online communication factors on inducing the toxic online disinhibition effect: anonymity, invisibility, and lack of eye-contact. Using an experimental design with 142 participants, we examined the extent to which these factors lead to flaming behaviors, the typical products of online disinhibition. Random pairs of participants were presented with a dilemma for discussion and a common solution through online chat. The effects were measured using participants’ self-reports, expert judges’ ratings of chat transcripts, and textual analyses of participants’ conversations. A 2×2×2 (anonymity/non-anonymity×visibility/invisibility×eye-contact/lack of eye-contact) MANOVA was employed to analyze the findings. The results suggested that of the three independent variables, lack of eye-contact was the chief contributor to the negative effects of online disinhibition. Consequently, it appears that previous studies might have defined the concept of anonymity too broadly by not addressing other online communication factors, especially lack of eye-contact, that impact disinhibition. The findings are explained in the context of an onlinesense of unidentifiability, which apparently requires a more refined view of the components that create a personal sense of anonymity.
+Means and standard deviations of flaming, by experimental condition (N = 142).
+… 
+Results of Univariate analyses for the measures of flaming.
+… 
+Results of analysis of variance for total flaming score.
+… 
+Figures - uploaded by Noam Lapidot-LeflerAuthor content
+Content may be subject to copyright.
+
+Discover the world's research
+
+20+ million members
+135+ million publications
+700k+ research projects
+Join for free
+Public Full-text 1
+Content uploaded by Noam Lapidot-Lefler
+Author content
+Content may be subject to copyright.
+Effects of anonymity, invisibility, and lack of eye-contact on toxic
+online disinhibition
+Noam Lapidot-Leﬂer
+⇑
+, Azy Barak
+University of Haifa, Mount Carmel, Haifa 31905, Israel
+article info
+Article history:
+Available online 10 November 2011
+Keywords:
+Online communication
+Disinhibition
+Anonymity
+Invisibility
+Eye-contact
+abstract
+The present research studied the impact of three typical online communication factors on inducing the
+toxic online disinhibition effect: anonymity, invisibility, and lack of eye-contact. Using an experimental
+design with 142 participants, we examined the extent to which these factors lead to ﬂaming behaviors,
+the typical products of online disinhibition. Random pairs of participants were presented with a dilemma
+for discussion and a common solution through online chat. The effects were measured using participants’
+self-reports, expert judges’ ratings of chat transcripts, and textual analyses of participants’ conversations. A
+222 (anonymity/non-anonymity visibility/invisibility eye-contact/lack of eye-contact) MANO-
+VA was employed to analyze the ﬁndings. The results suggested that of the three independent variables,
+lack of eye-contact was the chief contributor to the negative effects of online disinhibition. Consequently,
+it appears that previous studies might have deﬁned the concept of anonymity too broadly by not address-
+ing other online communication factors, especially lack of eye-contact, that impact disinhibition. The ﬁnd-
+ings are explained in the context of an online sense of unidentiﬁability, which apparently requires a more
+reﬁned view of the components that create a personal sense of anonymity.
+Ó2011 Elsevier Ltd. All rights reserved.
+1. Introduction
+1.1. The online disinhibition effect
+Instant messaging, video chats and social networks are just few
+examples of online communication frameworks that have shown
+rapid advancement and growth over the last decade. Such frame-
+works have become accessible to larger groups of Internet users,
+who can connect with one another from their home computer,
+laptop or mobile smartphone. One phenomenon that has been
+shown to be characteristic of online communication participants
+is the online disinhibition effect, deﬁned as a lowering of behavioral
+inhibitions in the online environment (e.g., Dyer, Green, Pitts, &
+Millward, 1995; Joinson, 2003, 2007; Kiesler, Siegel, & McGuire,
+1984; Suler, 2004). Many of the human behaviors that are wit-
+nessed in cyberspace, including violence, incitement, ﬂaming,
+and verbal attacks, on the one hand, and self-disclosure, philan-
+thropy, and the dispensing of help and advice, on the other, may
+be attributed to the online disinhibition effect (Joinson, 1998,
+2001; Kiesler et al., 1984).
+The psychological restraints that often serve to block or conceal
+emotions and undisclosed needs are found to be lowered in
+cyberspace in various online interpersonal behaviors (Chiou,
+2006; Joinson, 1998, 2003, 2007; Rosen, Cheever, Cummings, &
+Felt, 2008; Suler, 2004). The negative online disinhibition effect is
+the concept used to refer to the negative results of this loss of inhi-
+bitions, usually manifested in aggressive behaviors that apparently
+would not be exhibited in a similar scenario in the ‘‘real world.’’
+Suler (2004) coined the term toxic disinhibition to describe phe-
+nomena of online ﬂaming and acting-out behaviors that often
+involve damaging the other’s or even one’s own self-image, with-
+out any beneﬁcial personal growth. This can be seen in Pro-Ana
+and Pro-Mia blogs (Brotsky & Giles, 2007), social loaﬁng in online
+communities (Shiue, Chiu, & Chang, 2010), online gaming sites
+(Williams & Skoric, 2005), hate sites (Chau & Xu, 2007), violent
+pornographic and pedophilic sites (Malamuth, Linz, & Yao, 2005),
+cyberbullying (Huang & Chou, 2010), comments on YouTube
+(Moor, Heuvelman, & Verleur, 2010), online interpersonal relation-
+ships (Barak, 2007), organizational conﬂicts (Turnage, 2008), and
+more.
+Flaming behavior—considered a typical manifestation of toxic
+online disinhibition (Alonzo & Aiken, 2004; Derks, Fischer, & Bos,
+2008)—is deﬁned as the use of hostile expressions toward others
+in online communication. It typically includes the use of a variety
+of textual elements, such as aggressive and hostile language,
+swearing, derogatory names, negative comments, threats, and sex-
+ually inappropriate comments (Dyer et al., 1995). Flaming behavior
+can also be observed in the use of capital letters, in the increased
+use of question marks and exclamation points (Turnage, 2008),
+0747-5632/$ - see front matter Ó2011 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.chb.2011.10.014
+⇑
+Corresponding author. Present address: Department of Behavioral Science, The
+Max Stern Yezreel Valley College, Emek Yezreel 19300, Israel. Tel./fax: +972 77
+5153868.
+E-mail address: noaml@yvc.ac.il (N. Lapidot-Leﬂer).
+Computers in Human Behavior 28 (2012) 434–443
+Contents lists available at SciVerse ScienceDirect
+Computers in Human Behavior
+journal homepage: www.elsevier.com/locate/comphumbeh
+and in the mixture of letters, numbers, and dingbats conceptualiz-
+ing shouting or calling a derogatory name. It can also be seen in the
+use of color (e.g., red) or bold face in the script to express hostility.
+1.2. Factors affecting toxic online disinhibition
+Previous studies and theoretical conceptualizations have re-
+ferred to a list of situation-speciﬁc factors that appear to account
+for the online disinhibition effect—including anonymity, invisibil-
+ity, asynchronicity, and textuality—in addition to personality-
+related factors (cf. Joinson, 2003, 2007; Suler, 2004).
+1.2.1. Anonymity and toxic online disinhibition
+Anonymity, or the condition of being unknown (nameless) to
+others, is considered a major determinant of disinhibitive behavior.
+In an early experiment, unrelated to the virtual environment,
+Zimbardo (1969) examined behavioral disinhibition by manipulat-
+ing the anonymity variable by asking participants to administer
+electric shocks to fellow participants. Some of those who were
+asked to administer the shocks had their faces covered by hoods
+with eyeholes and were dressed in loose-ﬁtting smocks, while oth-
+ers had no hoods and were dressed in their regular attire and bore
+name tags. The anonymous group of shock administers behaved
+more aggressively, delivering longer shocks than did their non-
+anonymous counterparts.
+Although the concept of anonymity as a research construct is
+being discussed for more than a decade (e.g., Anonymous, 1998;
+Scott, 1999), it seems that confusion and misunderstanding regard-
+ing the concept still exist. While referring to the theoretical model
+of anonymity, Anonymous (1998) indicated that the concept was
+lacking deﬁnition and basic understanding, and could be better
+comprehended in studying mediating variables such as those re-
+lated to self, others, and the social communication arena.
+In an attempt to reﬁne and elucidate the concept of anonymity
+we chose to refer to the unidentiﬁability aspect of anonymity rather
+than namelessness. That is, other than being nameless we argue
+that a major—actually crucial—aspect of anonymity should focus
+on the unidentiﬁability dimension, which is quite broader and
+more personally signiﬁcant than just being nameless. The uniden-
+tiﬁability factor refers to the realistic condition of being unknown
+to online partners in terms of identifying personal details, such as
+gender, weight, age, occupation, ethnic origin, residential location,
+and so on. Online unidentiﬁability thus makes it possible to use
+real names while remaining relatively anonymous, as long as other
+identifying details remain concealed. Conversely, in a face-to-face
+encounter, people may avoid revealing their names and yet be rec-
+ognized by means of their looks alone or some other important
+personal feature (Bargh, Fitzsimons, & McKenna, 2003; Chester &
+Bretherton, 2007; Giles, 2006; Valkenburg, Schouten, & Peter,
+2005). Identiﬁability, furthermore, may affect a person’s own
+behaviors and feelings even more than perceiving the identity-
+enabled cues of others (Tanis & Postmes, 2007). Another implica-
+tion of unidentiﬁability, particularly in computer-mediated social
+situations, is the reduced willingness to cooperate (Cress &
+Kimmerle, 2008; Kimmerle, Cress, & Hesse, 2007).
+As seen with the shock experiment, anonymity may cause Inter-
+net users to feel unaccountable for their negative actions, as they
+cannot be identiﬁed as the perpetrators of certain actions or behav-
+iors. This loss of accountability may result in an increased level of
+toxic disinhibition, consequently promoting impulsive, aggressive,
+and abusive behaviors (Christopherson, 2007; Dumont & Candler,
+2005; Kabay, 1998; Suler & Phillips, 1998).
+Several studies have shown that anonymity is a main factor in
+inducing the online disinhibition effect (e.g., Bargh & McKenna,
+2004; Bargh, McKenna, & Fitzsimons, 2002; Joinson, 1998, 2001,
+2007; McKenna & Seidman, 2005; Spears, Lea, & Postmes, 2007;
+Suler, 2004; Tanis & Postmes, 2007). For instance, in an early study,
+Kiesler and her colleagues (1984) found that among participants
+who argued over moral dilemmas using different communication
+modalities, those who employed computer-mediated communica-
+tion demonstrated higher degrees of disinhibition, reﬂected in
+ﬂaming behavior, than did those who engaged in face-to-face
+communication. The highest degree of ﬂaming was noted in
+synchronized communication.
+Although many researchers point to the importance of anonym-
+ity in inducing online disinhibition, results from previous studies
+are not unequivocal. Spears, Postmes, Lea, and Wolbert (2002)
+found that anonymity in Internet communication induced more
+incidents of ﬂaming than did face-to-face settings. However,
+Douglas and McGarty (2001) showed that disclosing users’ identity
+by means of their name or address (electronic or residential) in-
+creased their tendency to engage in ﬂaming behavior compared
+to participants in either anonymous or face-to-face settings. Aiken
+and Waller (2000) examined the degree of ﬂaming among two
+anonymous groups of students who participated in an online dis-
+cussion. No relationship was found between the degree of contro-
+versy regarding the subject under discussion and the degree of
+ﬂaming. Since both groups maintained anonymity, the researchers
+claimed that ﬂaming was apparently the result of individual attri-
+butes. Such ﬁndings suggest that the role of anonymity in inducing
+the online disinhibition effect is more complex than was previ-
+ously surmised. In a recent experiment, Wodzicki, Schwämmlein,
+Cress, and Kimmerle (2011) found that individual differences
+among online group members, as well as the purpose of their par-
+ticipation, interacted with the effects of anonymity on their infor-
+mation-sharing behavior, hence insinuating that those effects
+might not be general (i.e., main effects) but were moderated by
+other factors. Chesney and Su (2010) showed that bloggers’ degree
+of anonymity did not inﬂuence the credibility perception of their
+writings. Also in the blogging arena, Qian and Scott (2007) found
+that anonymity had little impact on bloggers’ self-disclosure as
+reﬂected in their postings. Also, based on their experiment,
+Flanagin, Tiyaamornwong, O’Connor and Seibold (2002) suggested
+that the effects of anonymity on participatory group work inter-
+acted with participants’ gender as men tend to maintain online
+interaction with women using ofﬂine communication cues, women
+in the same situations tend to employ reduced social cues.
+1.2.2. Invisibility and toxic online disinhibition
+Invisibility was found to affect behavioral disinhibition both
+over the Internet and in ofﬂine communication. Although anonym-
+ity and invisibility are undoubtedly related, they are two distinct
+variables. Given that computer-mediated communication usually
+involves invisibility—as most online interpersonal communication
+is textual—it fosters a unique form of social presence that is de-
+ﬁned by the degree of perception, awareness, recognition, or
+acknowledgment of others. Invisibility renders irrelevant stereo-
+types and prejudices related to gender, age, skin color (McKenna
+& Green, 2002), physical attributes (e.g., weight, height, and gen-
+eral appearance), stigmatizing behaviors (e.g., stuttering; McKenna
+& Seidman, 2005), and physical and sensory impairments (Barak &
+Sadovsky, 2008; Bowker & Tufﬁn, 2002). Diminished social
+presence may lead to a process of communication-induced de-
+individuation, which in turn may produce instances of disinhibi-
+tion. Competing theoretical models, such as SIDE and hyperperson-
+al communication, used different arguments and explanations in
+accounting presence of others (Postmes, Spears, & Lea, 2002; Short,
+Williams, & Christie, 1976; Spears et al., 2007; Walther, 1996).
+Cyberspace allows users to control their level of social presence
+and, thus, their degree of intimacy; that is, to control the amount
+and duration of visibility or invisibility during social interactions
+through the use or non-use of pictures, webcam, and videos. Thus,
+N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443 435
+the absence of visibility and the unique form of social presence
+inherent in online communication accelerate the processes of on-
+line disinhibition (Morahan-Martin & Schumacher, 2003; Suler,
+2004) because of reduced visibility-originated interpersonal
+communication cues. Selective use of photos and videos/movies
+signiﬁcantly contribute to impression management and online
+relationships (Chiung-Wen, 2007; Suler, 2008; van Dijck, 2008;
+Yang, Hsu, & Tan, 2010).
+The effect of invisibility on behavior was originally studied in
+the context of examining the conduct of people under complete
+anonymity. Participants placed in a dark, fully padded room, in
+conditions of utter invisibility, were found to exhibit greater
+behavioral disinhibition than did an experimental group that was
+left in an illuminated room under conditions of full visibility. Based
+on this observation, the investigators concluded that visual
+anonymity induced a sense of freedom from social norms and
+restrictions, allowing people to manifest their feelings, whether
+aggressive or affectionate, in more meaningful ways (Gergen,
+Gergen, & Barton, 1973). In controlling visibility through colloca-
+tion vs. distribution (through online communication) of working
+teams to examine the impact on interpersonal relationships, Cram-
+ton, Orvis, and Wilson (2007) found that situational invisibility
+produced dispositional attributions rather than situational attribu-
+tions, thus affecting team members’ satisfaction and cohesion.
+Castellá, Abad, Alonso, and Silla (2000) presented ﬁndings that fur-
+ther supported the presumed impact of invisibility on the online
+disinhibition effect. Their study compared the level of ﬂaming
+noted during debates in several discussion groups that employed
+different communication modes. Although ﬂaming demonstrations
+were rare, they were more common in the text-based communica-
+tion group than in the face-to-face group or in a webcam confer-
+ence call (i.e., a visibility integrated) group. It appears, therefore,
+that invisibility contributes to the online disinhibition effect.
+A different research approach employed an online survey, in
+which the social presence of the surveyor was enhanced by adding
+speech or by posting photos of the surveyor. It was found that post-
+ing photos of the surveyors (whether male or female) decreased a
+respondent’s willingness to reply to sensitive questions. The use of
+telephone surveys and audio-enhanced online surveys yielded
+similar results. Willingness to answer extremely sensitive ques-
+tions was highest for online surveys in which the social presence
+of the surveyor was minimal (Tourangeau, Couper, & Steiger,
+2003).
+Yet another study that observed the effect of invisibility during
+online communication about highly sensitive subjects, such as
+masturbation and shoplifting, yielded different results. Online
+interviews with students were conducted via either Internet-
+posted questionnaires with full invisibility or conference calls
+affording visibility between interviewer and respondent. As ex-
+pected, the respondents in both settings were more willing to talk
+about sensitive behaviors than to admit to engaging in them. No
+differences in the level of self-disclosure between the two settings
+were noted (Mühlenfeld, 2005).
+1.2.3. Eye-contact and toxic online disinhibition
+According to Walther (1999) webcams cannot provide sufﬁcient
+information about facial expressions and fails to supply the kind of
+information provided directly by eye-contact.Barak (2007) empha-
+sized this issue and added that even when online interpersonal
+communication includes visibility, eye-contact may still be absent.
+Webcams may allow visibility, yet they do not ensure eye-contact
+during interactions. Hence, visibility and eye-contact are two dis-
+tinct factors, each inﬂuencing interpersonal communication in a
+different manner.
+To date, research on the effects of eye-contact have been limited
+to the ‘real world’ situations in regard to positive disinhibition, such
+as self-disclosure and degree of intimacy. Nonetheless, it has been
+suggested that the absence of eye-contact in online conditions
+may promote the onset of disinhibition (Suler, 2004). Research in
+the ﬁeld of gaze and eye contact in ‘real world’ found that the
+dynamics of eye-contact communication greatly effects emotions
+such as trust, security, conﬁdence, embarrassment, confusion, hon-
+esty, admonition, and pleading. However, the actual degree of im-
+pact of eye-contact on interpersonal communication is still
+unclear. Some studies point to a negative correlation between eye-
+contact and disinhibition. Absence of interviewer, and therefore
+the absence of eye-contact, was found to increase the duration of
+self-disclosure for participants who were presented with intimate
+questions (Jourard & Friedman, 1970; Siegman & Reynolds, 1983).
+Similar results were found for young children: increased frequency
+of eye-contact proved detrimental to the establishment of under-
+standing and rapport between an adult tester and the children: smil-
+ing, by contrast, had the opposite and a positive effect on the
+establishment of a relationship (Rotenberg et al., 2003). An experi-
+ment by Doherty-Sneddon and colleagues (1997) had also pointed
+to the major role of eye gazing on providing interpersonal feedback:
+it was regarded as constituting a central ingredient in interpersonal
+communication that visibility alone could not provide.
+In a comprehensive review summarizing numerous studies,
+Kleinke (1986) showed the signiﬁcant effects of eye-contact and
+gazing in interpersonal communication. His review revealed that
+they played a central role in (a) providing information (liking and
+attraction, attentiveness, competence, social skills and mental
+health, credibility, dominance, and communicating feelings); (b)
+regulating interpersonal interaction (synchronization and regula-
+tion); (c) expressing intimacy; (d) social control (persuasion and
+deception, ingratiation, threat and dominance, escape and avoid-
+ance, and compliance); and (e) service tasks (information seeking,
+interpersonal interactions, learning, and cooperation and bargain-
+ing). Additional reviews and models support the existence of these
+dimensions while underlying the importance of eye-contact and
+gazing in communicating supporting behaviors (Boyle, Anderson,
+& Newlands, 1994; Webbink, 1986).
+It appears that the absence of eye-contact has numerous, far-
+reaching emotional and behavioral effects on online interpersonal
+communication in general (Barak, 2007) and, presumably, on the
+online disinhibition effect in particular (Suler, 2004). However,
+no study to date has focused directly on the effect of eye-contact
+in the context of the online disinhibition effect.
+1.3. The current study
+Many of the unique characteristics of online communication
+have been cited as affecting the cyberspace experience in general,
+and as generating the disinhibition effect in particular. Research
+has identiﬁed several factors involved in either creating or moder-
+ating the online disinhibition effect. It seems that a sense of ano-
+nymity, invisibility, and lack of eye contact are dominant in
+generating the effect, but other factors also exist, such as textuality
+and asynchronicity. In the current study, we chose to focus on
+three dominant factors with the aim of examining their indepen-
+dent, main effects, as well as their interaction effects, and in an at-
+tempt to examine the relative contribution of each source of
+variance to ﬂaming behavior. Through employing an experimental
+design, we hypothesized that each of the inducing factors, and
+their combinations, would affect ﬂaming behavior. On the basis
+of previous research, we further hypothesized that anonymity
+(independently and in interaction with the other factors) would
+show the strongest effects, followed by invisibility and then the
+lack of eye-contact.
+Theoretically, the premise of the current research was that the
+mentioned factors (i.e., anonymity, invisibility, lack of eye-contact),
+436 N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443
+and perhaps others, may reﬂect sub-dimensions that incorporate
+into the general concept, the online sense of unidentiﬁability. This
+concept will be explored later in detail. Even though these factors
+usually intertwine in cyberspace, a controlled experimental design
+could isolate each of the three factors, thereby allowing an examina-
+tion of their main and interactive effects on the general concept. This
+procedure would allow a better understanding of the complexity of
+the online sense of unidentiﬁability and its relation to the toxic online
+disinhibition effect.
+2. Method
+2.1. Participants
+The study included 142 participants (71 men and 71 women),
+all of them students enrolled in a variety of majors and degree pro-
+grams at two Israeli academic institutions. Their ages ranged from
+18 to 34 years (M= 24.42, SD = 2.97). Exclusion criteria for partici-
+pation included lack of either basic computer skills, previous expe-
+rience with online chat programs, verbal ﬂuency, or failure to
+establish eye-contact in the course of a preliminary interview.
+The ability of verbal ﬂuency and establishing eye-contact were
+examined in a preliminary interview so participants that might
+have difﬁculties communicating under the experimental condi-
+tions are excluded.
+2.2. Manipulations
+Participants were presented with a dilemma to debate in dyads
+through online chat. Manipulation of the independent variables
+(i.e., anonymity, visibility, and eye-contact) was managed by
+changing the experimental conditions. To this end, a 2 (anonym-
+ity/non-anonymity) 2 (visibility/invisibility) 2 (eye-contact/
+absence of eye-contact) factorial experimental design was em-
+ployed to analyze factorial variance. Consequently, eight combina-
+tions of the experimental variables were examined, thus imposing
+on them an artiﬁcial orthogonality constraint.
+Anonymity was guaranteed by assigning the participants ran-
+dom aliases, with no further identiﬁcation. Conversely, non-anon-
+ymous participants were assigned a list of personal identiﬁers in a
+set order, as follows: ﬁrst name, surname, gender, age, place of res-
+idence, major ﬁeld of study, and job held if employed.
+Visibility was maintained by employing a webcam that afforded
+each participant a side view of his or her partner’s upper body.
+Conversely, complete invisibility was maintained by the absence
+of this webcam.
+Eye-contact was manipulated by employing an additional web-
+cam mounted at eye level above the participants’ computer
+screens. Partners in this condition were asked to maintain eye-con-
+tact throughout the experiment. Conversely, lack of eye-contact
+was maintained by the absence of this webcam.
+None, one, or two cameras were employed in accordance with
+the combination of variables examined: for visibility with eye-con-
+tact, for example, partners could view each other’s upper bodies
+through one camera while maintaining eye-contact through the
+other camera. For invisibility with eye-contact, only the camera
+that afforded a view of a participant’s gaze, and no other physical
+details, was employed.
+Communication between dyads was initiated by presenting
+them with a dilemma for discussion. Each participant was ran-
+domly assigned a partner; partners were randomly assigned into
+an equal number of male–male, female–male, and female–female
+pairs. Participants were asked to discuss the dilemma through
+the use of instant-messaging software (Microsoft Messenger) and
+instructed to attempt to come up with an agreed-upon solution.
+The problem topic centered on the ‘‘life-saving drug dilemma,’’
+in which a certain drug is needed to save the life of a person who is
+close and dear to the participant. The instructions stated that only
+one participant in each dyad could receive the drug, thus generat-
+ing competition for the drug and requiring every individual to
+convince his/her partner to concede; participants were in fact in-
+structed to maneuver the discussion to this end. This experiment
+design resembles previous studies in this area (e.g., Aiken & Waller,
+2000; Alonzo & Aiken, 2004; Castellá et al., 2000; Dyer et al., 1995;
+Kiesler et al., 1984).
+2.3. Measurement of ﬂaming
+Manifestations of the toxic online disinhibition effect were
+examined by monitoring feelings and behaviors related to ﬂaming.
+Flaming behavior was assessed by three measures: expert judges’
+evaluations, textual analyses, and self-reports.
+2.3.1. Expert evaluations
+Four specially trained, expert evaluators assessed the level at
+which ﬂaming behaviors were demonstrated in transcripts of par-
+ticipants’ chat sessions. The evaluators were given all transcripts in
+identical format and were blind to the experimental conditions.
+They were instructed to evaluate, on a 3-point scale (0 = none;
+1 = low level; 3 = high level), dimensions of ‘‘threats’’ and ‘‘negative
+atmosphere’’ emerging from the transcripts. These two measures
+were chosen, since they were consistent with previous studies
+and conceptualizations in this area (Alonzo & Aiken, 2004; Barak,
+2005; Dyer et al., 1995; Joinson, 1998; Suler, 2004; Suler, 2005).
+Kendall coefﬁcients Wfor inter-rater agreement for these mea-
+sures were 0.87 and 0.94, respectively. Mean scores were 0.48
+(SD = 0.79) and 0.86 (SD = 0.79) for threats and negative atmo-
+sphere, respectively.
+2.3.2. Textual analysis
+In order to obtain an objective analysis, pre-speciﬁed words and
+expressions in the chat-session transcripts were counted and ver-
+iﬁed by two trained counters. Flaming expressions that reﬂect
+ﬂaming behavior included the following: hostile words and expres-
+sions (e.g., ‘‘go home!’’; ‘‘this is childish’’; ‘‘shut up!’’); swear words
+and derogatory names (e.g., ‘‘you’re an asshole’’, ‘‘you’re foolish’’);
+direct and indirect threats (e.g., ‘‘I’ll get you!’’); use of letters, sym-
+bols and punctuation marks conveying hostility or aggression (e.g.,
+"Wellllllllllllllllllllllllllllll??’’; ‘‘@#!@#$$%@#@%#& "); and insult-
+ing, sarcastic, teasing, negative, or cynical comments (e.g., ‘‘you’re
+talking like a typical woman’’). These expressions reﬂected the cat-
+egories suggested by Alonzo & Aiken, 2004; Dyer et al., 1995; Lee,
+2005; and Turnage, 2008. The textual measure of ﬂaming was de-
+ﬁned as the total number of these ﬂaming expressions. The actual
+range of this variable varied from 0 to 117; the mean score was
+14.68, SD = 19.07.
+2.3.3. Self-report
+A self-report ﬂaming behavior questionnaire was developed for
+the study based on the Buss and Warren Aggression Questionnaire
+(Buss & Perry, 1992; Buss & Warren, 2000). The questionnaire in-
+cluded 34 items, to which participants were asked to respond on
+a 5-point scale (1 = totally disagree; 5 = totally agree). Total
+self-reported ﬂaming scores were calculated by summing up the
+34 responses, yielding a total score range of from 34 (low ﬂaming)
+to 170 (high ﬂaming). The original questionnaire was adopted and
+modiﬁed to refer to participants’ feelings and behaviors during the
+online chat. For example, ‘‘I got very angry for no good reason’’; ‘‘I
+had trouble controlling my temper.’’ Internal consistency
+(Cronbach’s alpha) in the present study was 0.91. The mean total
+score was 67.05 (SD = 19.94).
+N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443 437
+2.3.4. Total ﬂaming score
+Correlations among the dependent measures were between
+0.45 and 0.68. An exploratory factor analysis, with varimax rota-
+tion, using eigenvalue greater than 1, led to the emergence of a sin-
+gle factor accounting for 65.5% of the variance. The total ﬂaming
+score was calculated using factor-weighted scores, which ranged
+from 24.72 to 179.31 (M= 61.84, SD = 26.44).
+2.4. Procedure
+Participants were recruited by means of advertisements
+(through online and ofﬂine bulletin boards) that speciﬁed the time
+required and the compensation offered. All participants volun-
+teered for a 1 h study and, in return, received a free voucher to pur-
+chase coffee and pastry at a nearby coffee shop.
+Participants were asked to arrive at the experiment 10 min
+apart in order to avoid face-to-face encounters prior to the start
+of the experiment. Each dyad was divided and directed into
+separate rooms that were identical in terms of size, illumination,
+and background. There, the participants were introduced to their
+assignment and presented with the dilemma for discussion. Then
+they logged onto the chat to start a conversation with their respec-
+tive partner.
+The participants were unaware of the purpose of the study;
+they were told it was to examine how individuals who were unac-
+quainted with one another use online chat to discuss different sub-
+jects. Participants assigned to the eye-contact group received
+special instructions to ensure that they would establish eye-con-
+tact with their partners. Actual eye-contact was monitored by
+experimenters to ensure the validity of this condition.
+The dyads were told that they had unlimited time available for
+the discussion, that they had to reach an agreement with their
+partner, and that they should direct the chat in such a way as to
+convince the partner to relinquish the drug. These instructions
+were given in order to engage the partners in discussion, to induce
+rivalry, and to instill a drive to win.
+Once the debate ended, that is, a decision was reached, partic-
+ipants were asked to ﬁll out the self-report questionnaire and a
+form that provided personal details. They were then debriefed,
+thanked for their participation and asked to refrain from discuss-
+ing the experiment or the facility in which it had taken place in
+order to prevent any leaking of the experimental procedures. In
+addition, according to the customary ethics standards, the partic-
+ipants were handed with the researcher’s detailed contact infor-
+mation, for obtaining additional information, copies of the
+results, or other speciﬁc details. The data collection lasted approx-
+imately 6 months.
+2.5. Ethical considerations
+The current study examined aggressive aspects of online disin-
+hibition behavior, which required the maintaining of participants’
+anonymity and secrecy. Therefore, participants were ensured full
+conﬁdentiality of the information collected during the research.
+All participants freely volunteered to participate in the study after
+receiving information about the task involved. The participants’
+activity was planned and directed to avoid harm and distress.
+Deception was minimal so that participants received all necessary
+study-related information without damaging the validity of the
+research. Furthermore, the participants received the researcher
+contact details, in order to obtain additional information, copy of
+the results, or other details if needed, according to the customary
+ethical standards.
+3. Results
+Table 1 presents the means and standard deviations of the
+ﬂaming measures according to the eight experimental conditions.
+Table 1
+Means and standard deviations of ﬂaming, by experimental condition (N= 142).
+Visibility Yes No Total
+Anonymity Eye-contact Yes No Total Yes No Total Yes No Total
+Self-reported ﬂaming
+Yes M65.94 70.23 68.21 57.27 78.33 67.80 61.35 74.28 68.00
+SD 18.41 20.10 19.16 13.94 23.52 21.84 16.54 21.95 20.43
+No M61.76 66.57 64.17 67.16 68.97 68.06 64.46 67.77 66.11
+SD 18.76 26.47 22.75 15.58 16.38 15.78 17.22 21.73 19.54
+Total M63.73 68.40 66.13 62.22 73.65 67.93 62.95 71.03 67.05
+SD 18.44 23.24 21.03 15.41 20.53 18.92 16.84 21.93 19.94
+Threats
+Yes M0.67 0.57 0.62 0.26 0.88 0.57 0.46 0.72 0.59
+SD 0.87 0.91 0.88 0.57 0.91 0.81 0.74 0.91 0.84
+No M0.19 0.42 0.31 0.22 0.67 0.44 0.21 0.54 0.38
+SD 0.52 0.81 0.68 0.65 0.85 0.78 0.58 0.83 0.73
+Total M0.42 0.49 0.46 0.24 0.77 0.51 0.33 0.63 0.48
+SD 0.74 0.85 0.80 0.60 0.87 0.79 0.67 0.87 0.79
+Negative atmosphere
+Yes M0.92 0.75 0.83 0.57 1.31 0.94 0.74 1.03 0.89
+SD 0.73 0.70 0.71 0.79 0.70 0.83 0.77 0.75 0.77
+No M0.79 0.50 0.65 1.08 1.00 1.04 0.94 0.75 0.84
+SD 0.67 0.72 0.70 0.86 0.90 0.87 0.77 0.84 0.81
+Total M0.85 0.63 0.74 0.83 1.15 0.99 0.84 0.89 0.86
+SD 0.69 0.71 0.71 0.85 0.81 0.84 0.77 0.80 0.79
+Flaming-related expressions
+Yes M12.06 15.50 13.88 8.56 21.06 14.81 10.21 18.28 14.36
+SD 13.58 22.06 18.37 11.95 26.44 21.19 12.67 24.16 19.73
+No M15.06 13.39 14.22 17.56 13.94 15.75 16.31 13.67 14.99
+SD 16.35 26.65 21.81 17.21 12.24 14.83 16.60 20.44 18.53
+Total M13.65 14.44 14.06 13.06 17.50 15.28 13.34 15.97 14.68
+SD 14.96 24.14 20.07 15.30 20.62 18.17 15.03 22.34 19.07
+438 N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443
+A three-way MANOVA revealed a signiﬁcant main effect for
+eye-contact (F= 3.02; p< .01), a signiﬁcant interaction effect for
+anonymity x eye-contact (F= 2.09; p< 05), and insigniﬁcant effects
+for the remaining sources of variance.
+Table 2 gives the means and standard deviations of the total ﬂam-
+ing score according to experimental condition. Table 3 shows the re-
+sults of the univariate analyses of variance. As can be seen in this
+table, the main effect of anonymity produced a single signiﬁcant ef-
+fect: there were more threats in the anonymous condition than in
+the identiﬁed condition (M= 0.59 vs. 0.38; F= 2.87; df = 1134;
+p< .05). The main effect of visibility also accounted for a single sig-
+niﬁcant effect: the invisible condition produced a more negative
+atmosphere than did the visible condition (M= 0.99 vs. 0.74;
+F= 3.76; df = 1134; p< .05). The main effects of eye-contact pro-
+duced two signiﬁcant outcomes: self-reported ﬂaming was higher
+in the lack of eye-contact than in the eye-contact condition
+(M= 71.03 vs. 62.95; F= 5.92; df = 1134; p< .01), and the number
+of threats with lack of eye-contact almost doubled that in the eye-
+contact condition (M= 0.63 vs. 0.33; F= 5.11; df = 1134; p< .05).
+The interaction effects yielded several interesting ﬁndings: the
+anonymity x visibility interaction revealed insigniﬁcant effects,
+whereas both visibility x eye-contact and anonymity eye-contact
+interactions produced several signiﬁcant effects. In the condition of
+a lack of eye-contact and invisibility, threats more than tripled
+compared to the presence of eye-contact and invisibility condition
+(M= 0.77 vs. 0.24, respectively, F= 3.24; df = 1, 134; p< .05). Simi-
+larly, the combination of the eye-contact and visibility factors pro-
+duced a negative atmosphere interaction effect: the negative
+atmosphere in the lack of eye-contact and invisibility condition
+was almost double that of the lack of eye-contact and visibility
+condition (M= 1.15 vs. 0.63; F= 4.73; df = 1, 134; p< .05). The com-
+bination of eye-contact and anonymity, too, yielded signiﬁcant ef-
+fects. In the presence of eye-contact, anonymity produced less
+negative atmosphere than in the lack of anonymity (identiﬁed)
+condition (M= 0.74 vs. 1.03, respectively). However, this direction
+reversed itself in the lack of eye-contact condition, with anonymity
+producing a higher negative atmosphere than did lack of anonym-
+ity (M= 0.94 vs. 0.75; F= 3.35; df = 1, 134; p< .05).
+Table 4 offers the results of ANOVA for a total ﬂaming score. As
+expected, the highest ﬂaming mean appeared for the anonymous
+and invisible participants who had no eye-contact with their part-
+ners (M= 75.95). Interestingly, the lowest total ﬂaming score ap-
+peared in the same anonymity and invisibility conditions, but
+with the inclusion of eye-contact (M= 49.32). As shown in Table
+4, ANOVA revealed only two signiﬁcant effects: First, there was a
+main effect for eye-contact (F= 3.54; df = 1, 134; p< .05), reﬂecting
+a total mean ﬂaming score of 65.93 vs. 57.64 for lack of eye-contact
+and presence of eye-contact, respectively. Second, there was a sig-
+niﬁcant anonymity x eye-contact interaction effect so that in the
+anonymous condition, participants who had no eye-contact had a
+higher total ﬂaming score than did participants who had eye-con-
+tact with their counterparts (M= 70.37 vs. 53.93; F= 3.24;
+df = 1134; p< .05).
+4. Discussion
+Online disinhibition is a basic, wide-spread effect, associated
+with a wide range of behaviors that have been observed among
+many people engaged in online activities and interactions. Accu-
+mulated research shows that disinhibition signiﬁcantly affects
+modes of discussion, information-searching behavior, online learn-
+ing, interpersonal contacts and relationships, and behavior in
+Table 2
+Means and standard deviations of total ﬂaming score, by experimental condition (N= 142).
+Visibility Yes No Total
+Anonymity Eye-contact Yes No Total Yes No Total Yes No Total
+Yes M 59.11 64.80 62.12 49.32 75.95 62.63 53.93 70.37 62.39
+SD 22.96 30.79 27.14 16.80 34.74 30.09 20.24 32.85 28.49
+No M 58.02 60.07 59.04 64.26 62.91 63.59 61.14 61.49 61.31
+SD 24.62 31.48 27.87 22.36 19.48 20.68 23.39 25.84 24.47
+Total M 58.53 62.43 60.54 56.79 69.43 63.11 57.64 65.93 61.84
+SD 23.50 30.79 27.36 20.91 28.53 25.64 22.06 29.68 26.44
+Table 3
+Results of Univariate analyses for the measures of ﬂaming.
+Self-reported ﬂaming incidents Threats Negative atmosphere Flaming-related expressions
+Factor df MSE F
+g
+2
+MSE F
+g
+2
+MSE F
+g
+2
+MSE F
+g
+2
+Anonymity 1 118.81 0.31 0.00 1.72 2.87
+*
+0.02 0.65 0.11 0.00 17.01 0.05 0.00
+Visibility 1 115.88 0.30 0.00 0.68 0.11 0.00 2.19 3.76
+*
+0.03 57.72 1.56 0.00
+Eye-contact 1 2263.78 5.92
+**
+0.04 3.06 5.11
+*
+0.04 0.79 0.14 0.00 251.73 0.68 0.01
+Visibility anonymity 1 154.97 0.41 0.00 0.32 0.54 0.00 0.77 1.32 0.01 2.25 0.01 0.00
+Visibility eye-contact 1 420.34 1.10 0.01 1.94 3.24
+*
+0.02 2.76 4.73
+*
+0.03 112.25 0.30 0.00
+Anonymity eye-contact 1 778.08 2.03 0.02 0.55 0.92 0.00 1.95 3.35
+*
+0.02 997.12 2.70 0.02
+Visibility anonymity eye-contact 1 864.51 2.26 0.02 0.54 0.89 0.01 1.08 1.86 0.01 268.40 0.73 0.01
+Error 134 382.47 0.60 0.58 369.80
+*
+p< .05.
+**
+p< .01.
+Table 4
+Results of analysis of variance for total ﬂaming score.
+Factor df MSE F
+g
+2
+Anonymity 1 34.13 0.05 0.00
+Visibility 1 241.38 0.35 0.00
+Eye-contact 1 2416.07 3.54
+*
+0.03
+Visibility anonymity 1 132.29 0.19 0.00
+Visibility eye-contact 1 682.29 1.00 0.01
+Anonymity eye-contact 1 2212.67 3.24
+*
+0.02
+Visibility anonymity eye-contact 1 1312.07 1.92 0.01
+Error 134 682.44
+*
+p< .05.
+N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443 439
+groups. The toxic aspect of disinhibition has been shown to cause
+various problematic behaviors in cyberspace, such as ﬂaming and
+a negative atmosphere. The current study aimed at deepening
+our understanding of some fundamental factors of the toxic
+online disinhibition effect in order to better comprehend this
+phenomenon.
+The results of the study show that eye-contact has a signiﬁcant
+main effect on negative online disinhibition, as well as on
+self-reported ﬂaming incidents and threats. When eye-contact
+was enforced, participants experienced fewer occurrences of
+ﬂaming and fewer threats than when there was no eye-contact.
+Anonymity, however, produced a signiﬁcant main effect for one
+measure only (i.e., threats). Similarly, visibility exerted a signiﬁcant
+main effect on a single measure only (i.e., negative atmosphere). Of
+the interactive effects, four were signiﬁcant, all involving eye-
+contact. It seems that although the eye-contact variable had no
+signiﬁcant effects on all of the dependent measures, it caused more
+impact than either anonymity or invisibility in producing the toxic
+behaviors implied by online disinhibition.
+The results of the current study lend some support to the re-
+search hypotheses. Most notably, however, were the ﬁndings
+regarding the relative differential effects of the independent vari-
+ables. Contrary to the widely accepted belief, our research found
+that it was possible that the eye-contact factor impacted more
+strongly on the online disinhibition effect, not the anonymity fac-
+tor. One possible explanation for this ﬁnding may be rooted in the
+differences between previous deﬁnitions of online anonymity and
+the deﬁnition used in the current study. Anonymity implies
+appearing in public without an associated name or pseudonym
+(Kabay, 1998). Derlega and colleagues (1993) suggested that ano-
+nymity was equivalent to a state of unidentiﬁability. Thus, the
+meaning of anonymity changes according to context: in paper-
+based, hard-copy publications, a pseudonym can preclude or foster
+anonymity and identiﬁability; in a face-to-face environment, a
+name—real or not—may be superﬂuous for the purpose of identiﬁ-
+ability. The ability to hold two-way communication in an online
+environment implies that anonymity conforms in this context to
+neither of the previously offered deﬁnitions. Therefore, the current
+research found it necessary to study the factors of visibility and
+eye-contact both together and in isolation. Consequently, the re-
+sults presented here offer a more reﬁned view of the components
+that create a sense of anonymity (which in turn induces disinhib-
+itive behavior) in the online context.
+4.1. Online sense of unidentiﬁability
+To reconcile the prevailing deﬁnition of the general and quite
+obscure term of ‘‘anonymity’’ as used in the context of virtual real-
+ity, a more comprehensive deﬁnition is apparently required. The
+present ﬁndings suggest that one can think of anonymity as an
+assemblage of different levels of online unidentiﬁability, in which
+non-disclosure of personal details, invisibility, and absence of
+eye-contact compose the most signiﬁcant assemblage; these com-
+ponents appear to combine in different degrees, thus yielding a
+variety of ‘‘anonymities.’’
+The new concept we refer to—online sense of unidentiﬁability—
+can be understood as spanning a range, in which three major fac-
+tors are considered: one end of this range is characterized by a lack
+of personal information (i.e., anonymity), lack of visibility, and lack
+of eye-contact; the other end, by disclosure of personal data, visi-
+bility, and eye-contact. Even though the factors that inﬂuence the
+experience of the online sense of unidentiﬁability in cyberspace
+may also affect one another, their experimental isolation and
+control were required to examine the essence and nature of the
+experience. We should keep in mind, however, that the artiﬁcial
+orthogonality constraint on the three factors does not represent
+actual interactions and interdependence in the +complexity of
+cyberspace. Nevertheless, the experimental isolation was
+important for expanding knowledge about the nature of the
+phenomenon.
+The ﬁnding that lack of eye-contact induces greater
+ﬂaming-related behavior raises the following questions: What
+are the conditions that cause participants to feel that their identity
+has been revealed? At what point during the interaction do they
+feel that their inner self has been divulged and disclosed? And:
+do people feel more secure in their online sense of unidentiﬁability
+when their personal data are concealed, compared to having these
+data revealed but eye-contact withheld? Our ﬁndings indicate that
+in relation to expressions of toxic disinhibition, lack of eye-contact
+leads participants to feel less exposed and more anonymous and,
+thus, more inclined to engage in ﬂaming-related behaviors.
+This novel deﬁnition of anonymity—induced by factors greater
+than a mere lack of personal identity—is derived from the condi-
+tions that characterize cyberspace, in which an online sense of
+unidentiﬁability is one of several online experiences. Using the
+components of non-disclosure of personal identity, invisibility,
+and absence of eye-contact, the deﬁnition of online sense of uniden-
+tiﬁability will change under different conditions or with different
+people. That is, although the current study investigated the change
+of conditions by manipulating the independent variables, the var-
+iability in participants’ subjective perceptions of online sense of
+unidentiﬁability may also help explain the unexpected ﬁndings. A
+study by Moral-Toranzo, Canto-Ortiz, and Gómez-Jacinto (2007)
+manipulated the anonymity factor, using an online chat environ-
+ment in which participants shared their opinions on the issue of
+immigrants. No differences in behavior were found between the
+anonymous and the identiﬁed participants (whose pictures ap-
+peared on a screen next to their full names). In other words, in
+their own perception, the identiﬁed participants apparently felt
+no less anonymous than did their counterparts in the anonymous
+group. The study by Moral-Toranzo and colleagues, then, supports
+the claim introduced here, that a valid concept of anonymity cannot
+rely solely on the overall environmental conditions; it must also
+take account the participants’ subjective perceptions of their sense
+of unidentiﬁability on the Internet.
+In the effort to identify factors that induce the online disinhibi-
+tion effect, the present study constitutes only the ‘‘tip of the ice-
+berg.’’ The effect appears to be a complex phenomenon, induced
+by many factors. It is the interaction among these variables that in-
+creases the complexity and often the intensity of the effect (Barak,
+Boniel-Nissim, & Suler, 2008; Joinson, 2007). Thus, the uniqueness
+of the current ﬁndings may both reﬂect and be considered a
+manifestation of this complexity.
+4.2. Lack of eye-contact and unidentiﬁability
+The present study’s focus on variables known to lead to disinhi-
+bition processes produced signiﬁcant ﬁndings that can help in-
+crease our understanding of the behavioral disinhibition process.
+It identiﬁed a unique psychological pattern that typiﬁes the online
+social environment, a conﬁguration that leads to an interpersonal
+dynamic different from other forms of human interaction found
+outside the Internet. Although sorting out the relative contribution
+of each of the variety of factors that inﬂuence human behavior in
+cyberspace is undoubtedly difﬁcult, the present and previous
+studies relating to the online disinhibition effect suggest that users
+have a tendency to perceive cyberspace as a distinct, transitional
+psychological space (Barak & Suler, 2008; Suler, 1999; Turkle,
+1995; Turkle, 2004).
+Despite the uniqueness of the online interpersonal dynamic, it
+seems that the importance of the absence of eye-contact that
+typiﬁes this setting resembles the role of this factor in general
+440 N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443
+interpersonal communication. Eye-contact, or gazing, is recognized
+as a direct, signiﬁcant part of communication and a meaningful
+psychological factor in non-verbal communication. It is a condition
+that affects one’s personal feelings during interpersonal interac-
+tions. Studies have found that eye-contact plays a central role in
+interpersonal communications for varied purposes, such as infor-
+mation transfer, moderating interactions, revealing emotions, and
+expressing intimacy; it was also found to assist in achieving social
+control (Grumet, 1983; Kleinke, 1986; Webbink, 1986). During on-
+line interpersonal communication, the lack of eye-contact has
+wide-ranging implications both emotionally and behaviorally,
+and its effect on online disinhibition in particular has been noted
+(e.g., Suler, 2004). The latter effect, especially on negative online
+disinhibition, was substantiated further in the present study:
+compared to results obtained when eye-contact was enabled, the
+lack of eye-contact was associated with increased levels of
+self-reported ﬂaming incidents and threats, and with overall nega-
+tive online disinhibition behavior scores. Lack of eye-contact was
+also found to have a signiﬁcant effect on toxic online disinhibition
+in interactions with the other factors studied here, namely
+anonymity and visibility. Finally, an assessment of the relative con-
+tribution of each factor to toxic online disinhibition behaviors
+found eye-contact to impart the greatest relative effect.
+It seems, nevertheless, that the ﬁndings on the essential role of
+lack of eye-contact in contributing to online disinhibition are
+preliminary in nature; it is still one of the very few research inves-
+tigations that have considered the role of eye-contact in online
+communications (e.g., Cowell & Stanney, 2005; Gamer & Hecht,
+2007; Yee, Bailenson, Urbanek, Chang, & Merget, 2007). None of
+those others, though, examined the role of eye-contact between
+two people in cyberspace. There are no previous studies that we
+know of that have focused on the effects of lack of eye-contact
+on interpersonal communication online in general or on its effects
+on negative online disinhibition in particular.
+The technical complexity involved in such research may explain
+the paucity of studies on this issue. As demonstrated here,
+eye-contact plays an important role in webcam communication.
+However, existing technologies do not support the desirable level
+of eye-contact: webcams and computer screens are positioned in
+such a way as to render direct eye-contact difﬁcult. Although the
+solution to this problem is undoubtedly technological, the current
+study demonstrates that it promises to fulﬁll an important psycho-
+logical need. Technological progress in this realm could facilitate
+the development of better, more meaningful eye-contact during
+computer-mediated communication, and thus attenuate negative
+online disinhibition.
+Even though the lack of eye-contact may be a virtue of online
+communication, in that people are willing to use online communi-
+cation because they feel less inhibited, less formal, less embar-
+rassed, and more willing to speak their minds because they do
+not have to look or avoid looking someone in the eye, our ﬁndings
+suggest that the toxic outcome of a lack of eye-contact might need
+to be considered when initiating interpersonal interaction in
+cyberspace. In this context, the research ﬁndings imply that allow-
+ing webcams, which enable eye-contact, might have signiﬁcant im-
+pact on reducing toxic disinhibition and its adverse expressions in
+various online environments, including support groups, educa-
+tional settings, and other online interpersonal interactions.
+4.3. Limitations of the study
+It is important to note that the current research employed an
+experimental design hence its external validity is limited. Addi-
+tional research is needed to examine differential and independent
+effects of anonymity, visibility, and eye-contact under real social
+situations. It should be noted, however, that although the gender
+variable was neutralized by matching equal pairs of different
+partners, gender and gender matching might have inﬂuenced the
+results, and further study is required on this aspect. It is also
+possible that other individual differences, especially personality-
+related variables, interact with anonymity, invisibility, and the lack
+of eye-contact, but such interactions were not examined here.
+4.4. Directions for future research
+The current ﬁndings suggest that previous deﬁnitions of ano-
+nymity did not take into account all the factors that characterize
+the online communication environment, speciﬁcally invisibility
+and absence of eye-contact. Thus, it seems advisable that future
+studies deﬁne the online social setting carefully and precisely so
+that the effects of anonymity on the behavior of communicants
+in cyberspace can be evaluated alongside the effects of other online
+situational variables. First and foremost, it is advisable that the
+presence of eye-contact (or its absence) between communicants
+be assessed in future studies of online disinhibition. It also appears
+that the term anonymity, as we know it, has not yet been adapted
+to the parameters of the new virtual reality. Henceforth, studies
+that include the anonymity variable should consider the broader
+deﬁnition the online sense of unidentiﬁability: non-disclosure of per-
+sonal details, invisibility, and absence of eye-contact. It may well
+be within the purview of future studies to adopt the updated def-
+inition of anonymity formulated here because it is tailored to ﬁt
+the conditions prevalent in cyberspace. To recapitulate, such a
+deﬁnition relies on the above-mentioned three factors, with the
+relative contribution of each factor to the overall sense of uniden-
+tiﬁability varying according to the particular Web application (e.g.,
+dating sites, shopping sites, learning sites) and the user’s particular
+attributes (e.g., personality type).
+The role of eye-contact in the online disinhibition process
+should be further studied. Given that a direct outcome of lack of
+eye-contact is a decrease in the types of social cues available in
+cyberspace communications, the speciﬁc effects of reduced social
+cues on the online disinhibition effect should also be studied. In
+particular, the absence of nonverbal cues, such as physical ges-
+tures, posture, and oral and tactile information, as well as the dif-
+ferences between writing and speech—all of which play an
+important role in interpersonal communication—should be exam-
+ined. Moreover, the differential effects of reduced social cues in
+various communication settings (e.g., computer-mediated, face-to
+face, and telephone) on the negative online disinhibition effect
+may shed additional light on the signiﬁcance of the eye-contact
+variable. Several studies of these effects have been conducted.
+Walther and Bazarova (2008), for example, using a webcam,
+audio-enhanced communications, or text-only communications,
+compared face-to-face group discussions with similar discussions
+over the Internet in order to examine the Electronic Propinquity
+Theory (i.e., the sense of intimacy that characterizes each of the
+above settings). A study that would monitor eye-contact, as well
+as levels of online disinhibition, during face-to-face communica-
+tions, synchronized and unsynchronized computer-mediated com-
+munication (with and without audio accompaniment), and phone
+communications may well help to elucidate the role of eye-contact
+in the online disinhibition effect.
+Interpersonal differences and their effect on the creation of
+identity over the Internet warrant investigation, as does the effect
+of asynchronicity on the online disinhibition effect. The interac-
+tions between those factors and anonymity, invisibility, and the
+absence of eye-contact, individually and collectively, in the social
+online environment also merit further study. Finally, since gender
+and gender-matched pairing might also contribute to the online
+disinhibition effect, more research is required to determine the
+precise role of gender in the online disinhibition effect.
+N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443 441
+5. Conclusions
+As demonstrated, the most notable outcomes of this study are
+the inclusion of variables that reﬁne our understanding of the
+conditions associated with negative online disinhibition. Lack of
+eye-contact plays a major role in triggering behaviors related to
+negative online disinhibition. Thus, the professional literature’s
+overwhelming attention to the anonymity factor appears to be
+misplaced: the deﬁnition of anonymity reﬂected in past studies
+and theoretical conceptualizations may, perhaps, be too general.
+The current study suggests employing a new concept: Online Sense
+of Unidentiﬁability. This term is broader than anonymity, yet it in-
+cludes speciﬁc components; namely, non-disclosure of personal
+data, invisibility, and lack of eye-contact (and possibly other signif-
+icant components yet to be investigated).
+References
+Alonzo, M., & Aiken, M. (2004). Flaming in electronic communication. Decision
+Support System, 36, 205–213.
+Aiken, M., & Waller, B. (2000). Flaming among ﬁrst-time group support system
+users. Information and Management, 37, 95–100.
+Anonymous (1998). To reveal or not to reveal: A theoretical model of anonymous
+communication. Communication Theory, 8, 381–407.
+Barak, A. (2005). Sexual harassment on the Internet. Social Science Computer Review,
+23, 77–92.
+Barak, A. (2007). Phantom emotions: Psychological determinants of emotional
+experiences on the Internet. In A. Joinson, K. Y. A. McKenna, T. Postmes, & U. D.
+Reips (Eds.), Oxford handbook of internet psychology (pp. 303–329). Oxford, UK:
+Oxford University Press.
+Barak, A., Boniel-Nissim, M., & Suler, J. (2008). Fostering empowerment in online
+support groups. Computers in Human Behavior, 24, 1867–1883.
+Barak, A., & Sadovsky, Y. (2008). Internet use and personal empowerment of
+hearing-impaired adolescents. Computers in Human Behavior, 24, 1802–1815.
+Barak, A., & Suler, J. (2008). Reﬂections on the psychology and social science of
+cyberspace. In A. Barak (Ed.), Psychological aspects of cyberspace. Theory, research,
+applications (pp. 1–12). Cambridge, UK: Cambridge University Press.
+Bargh, J. A., Fitzsimons, G. M., & McKenna, K. Y. A. (2003). The self, Online. In S. J.
+Spencer, S. Fein, M. P. Zanna, & J. M. Olson (Eds.). Motivated social perception, the
+Ontario symposium (Vol. 9, pp. 195–213). London: Lawrence Erlbaum
+Associates.
+Bargh, J. A., & McKenna, K. Y. A. (2004). The internet and social life. Annual Review of
+Psychology, 55, 573–590.
+Bargh, J. A., McKenna, K. Y. A., & Fitzsimons, G. M. (2002). Can you see the real me?
+Activation and expression of the ‘‘true self’’ on the Internet. Journal of Social
+Issues, 58, 33–48.
+Bowker, N., & Tufﬁn, K. (2002). Disability discourses for online identities. Disability
+& Society, 17, 327–344.
+Boyle, E. A., Anderson, A. H., & Newlands, A. (1994). The effects of visibility on
+dialogue and performance in cooperative problem solving task. Language and
+Speech, 37, 1–20.
+Brotsky, S., & Giles, D. (2007). Inside the ‘‘Pro-ana’’ community: A covert online
+participant observation. Eating Disorders, 15, 93–109.
+Buss, A. H., & Perry, M. (1992). The aggression questionnaire. Journal of Personality
+and Social Psychology, 63, 452–459.
+Buss, A. H., & Warren, W. L. (2000). The aggression questionnaire manual. Los Angeles:
+Western Psychological Services.
+Castellá, V. O., Abad, A. M. Z., Alonso, E. P., & Silla, J. M. P. (2000). The inﬂuence of
+familiarity among group members, group atmosphere, and assertiveness on
+uninhibited behavior through three different communication media. Computer
+in Human Behavior, 16, 141–159.
+Chau, M., & Xu, J. (2007). Mining communities and their relationships in blogs: A
+study of online hate groups. International Journal of Human-Computer Studies, 65,
+57–70.
+Christopherson, K. M. (2007). The positive and negative implications of anonymity
+in Internet social interactions: ‘‘On the Internet, nobody knows you’re a dog’’.
+Computers in Human Behavior, 23, 3038–3056.
+Chesney, T., & Su, D. K. S. (2010). The impact of anonymity on weblog credibility.
+International Journal of Human-Computer Studies, 68, 710–718.
+Chester, A., & Bretherton, D. (2007). Impression management and identity online. In
+A. Joinson, K. McKenna, T. Postmes, & U. Reips (Eds.), The Oxford handbook of
+internet psychology (pp. 223–236). Oxford, UK: Oxford University Press.
+Chiou, W. (2006). Adolescents’ sexual self-disclosure on the Internet:
+Deindividuation and impression management. Adolescence, 41, 547–561.
+Chiung-Wen, H. (2007). Staging on the Internet: Research on online photo album
+users in Taiwan with the spectacle/performance paradigm. CyberPsychology &
+Behavior, 10, 596–600.
+Cowell, A. J., & Stanney, K. M. (2005). Manipulation of non-verbal interaction style
+and demographic embodiment to increase anthropomorphic computer
+character credibility. International Journal of Human-Computer Studies, 62,
+281–306.
+Cramton, C. D., Orvis, K. L., & Wilson, J. M. (2007). Situation invisibility and
+attribution in distributed collaborations. Journal of Management, 33, 525–546.
+Cress, U., & Kimmerle, J. (2008). Endowment heterogeneity and identiﬁability in the
+information-exchange dilemma. Computers in Human Behavior, 24, 862–874.
+Derks, D., Fischer, A. H., & Bos, A. E. R. (2008). The role of emotion in computer-
+mediated communication: A review. Computers in Human Behavior, 24,
+766–785.
+Derlega, V. J., Metts, S., Petronio, S., & Margulis, S. T. (1993). Self disclosure. Newbury
+Park, CA: Sage.
+Doherty-Sneddon, G., Anderson, A. H., O’Malley, C., Langton, S., Garrod, S. C., &
+Bruce, V. (1997). Face-to-face and video-mediated communication: A
+comparison of dialogue structure and task performance. Journal of
+Experimental Psychology-Applied, 3, 105–125.
+Douglas, K. M., & McGarty, C. (2001). Identiﬁability and self-representation:
+Computer mediated communication and intergroup interaction. British Journal
+of Social Psychology, 40, 399–416.
+Dumont, G., & Candler, G. (2005). Virtual jungles: Survival, accountability, and
+governance in online communities. American Review of Public Administration, 35,
+287–299.
+Dyer, R., Green, R., Pitts, M., & Millward, G. (1995). What’s the ﬂaming problem? or
+computer mediated communication–deindividuating or disinhibiting? In M. A.
+R. Kirby, A. J. Dix, & J. E. Finlay (Eds.), People and computers X (pp. 289–301).
+Cambridge, UK: Cambridge University Press.
+Flanagin, A. J., Tiyaamornwong, V., O’Connor, J., & Seibold, D. R. (2002). Computer-
+mediated group work: The interaction of member sex and anonymity.
+Communication Research, 29, 66–93.
+Gamer, M., & Hecht, H. (2007). Are you looking at me? Measuring the cone of gaze.
+Journal of Experimental Psychology: Human Perception and Performance, 33,
+705–715.
+Gergen, K. L., Gergen, M. M., & Barton, W. H. (1973). Deviance in the dark. Psychology
+Today, 7, 129–133.
+Giles, D. (2006). Constructing identities in cyberspace. The case of eating disorders.
+British Journal of Social Psychology, 45, 463–477.
+Grumet, G. W. (1983). Eye contact: The core of interpersonal relatedness. Psychiatry,
+46, 172–180.
+Huang, Y.-Y., & Chou, C. (2010). An analysis of multiple factors of cyberbullying
+among junior high school students in Taiwan. Computers in Human Behavior, 26,
+1581–1590.
+Joinson, A. N. (1998). Causes and implication of disinhibited behavior on the
+Internet. In J. Gackenbach (Ed.), Psychology and the internet: Intrapersonal,
+interpersonal, and transpersonal implications (pp. 43–60). San Diego: Academic
+Press.
+Joinson, A. N. (2001). Self-disclosure in computer-mediated communication: The
+role of self-awareness and visual anonymity. European Journal of Social
+Psychology, 31, 177–192.
+Joinson, A. N. (2003). Understanding the psychology of internet behavior: Virtual
+worlds, real lives. New York: Palgrave Macmillan.
+Joinson, A. N. (2007). Disinhibition and the Internet. In J. Gackenbach (Ed.),
+Psychology and the internet: Intrapersonal, interpersonal and transpersonal
+implications (2nd ed., pp. 76–92). San Diego, CA: Elsevier Academic Press.
+Jourard, S. M., & Friedman, R. (1970). Experimenter-subject ‘‘distance’’ and self-
+disclosure. Journal of Personality and Social Psychology, 15, 278–282.
+Kabay, M. E. (1998, March). Anonymity and pseudonymity in cyberspace:
+Deindividuation, incivility and lawlessness verses freedom and privacy. Paper
+presented at the Annual Conference of the European Institute for Computers
+Anti-virus Research (EICAR), Munich, Germany.
+Kiesler, S., Siegel, J., & McGuire, T. W. (1984). Social psychological aspects of
+computer-mediated communication. American Psychologist, 39, 1123–1134.
+Kimmerle, J., Cress, U., & Hesse, F. W. (2007). An interactional perspective on group
+awareness: Alleviating the information-exchange dilemma (for everybody?).
+International Journal of Human-Computer Studies, 65, 899–910.
+Kleinke, C. L. (1986). Gaze and eye-contact: A research review. Psychological Bulletin,
+100, 78–100.
+Lee, H. (2005). Behavioral strategies for dealing with ﬂaming in an online forum.
+Sociological Quarterly, 46, 385–403.
+Malamuth, N., Linz, D., & Yao, M. (2005). The internet and aggression: Motivation,
+disinhibitory, and opportunity aspects. In Y. Amichai-Hamburger (Ed.), The
+social net: Human behavior in cyberspace (pp. 163–190). New York: Oxford
+University Press.
+McKenna, K. Y. A., & Green, A. S. (2002). Virtual group dynamics. Group Dynamics, 6,
+116–127.
+McKenna, K. Y. A., & Seidman, G. (2005). Social identity and the self: Getting
+connected online. In W. R. Walker & D. J. Herrmann (Eds.), Cognitive technology
+(pp. 89–110). Jefferson, NC: McFarland.
+Moor, P. J., Heuvelman, A., & Verleur, R. (2010). Flaming on YouTube. Computers in
+Human Behavior, 26, 1536–1546.
+Morahan-Martin, J., & Schumacher, P. (2003). Loneliness and social use of the
+Internet. Computers in Human Behavior, 19, 659–671.
+Moral-Toranzo, F., Canto-Ortiz, J., & Gómez-Jacinto, L. (2007). Anonymity effects in
+computer-mediated communication in the case of minority inﬂuence.
+Computers in Human Behavior, 23, 1660–1674.
+Mühlenfeld, H. U. (2005). Differences between ‘talking about’ and ‘admitting’
+sensitive behavior in anonymous and non-anonymous Web-based interviews.
+Computers in Human Behavior, 21, 993–1003.
+442 N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443
+Postmes, T., Spears, R., & Lea, M. (2002). Intergroup differentiation in computer-
+mediated communication: Effects of depersonalization. Group Dynamics, 6,
+3–16.
+Qian, H., & Scott, C. R. (2007). Anonymity and self-disclosure on Weblogs. Journal of
+Computer-Mediated Communication, 12, 1428–1451.
+Rosen, L. D., Cheever, N. A., Cummings, C., & Felt, J. (2008). The impact of
+emotionality and self-disclosure on online dating versus traditional dating.
+Computers in Human Behavior, 24, 2124–2157.
+Rotenberg, K. J., Eisenberg, N., Cumming, C., Smith, A., Singh, M., & Terlicher, E.
+(2003). The contribution of adults’ nonverbal cues and children’s shyness to the
+development of rapport between adults and preschool children. International
+Journal of Behavioral Development, 27, 21–30.
+Scott, C. R. (1999). The impact of physical and discursive anonymity on group
+members’ multiple identiﬁcations during computer-supported decision
+making. Western Journal of Communication, 63, 456–487.
+Shiue, Y.-C., Chiu, C.-M., & Chang, C.-C. (2010). Exploring and mitigating social
+loaﬁng in online communities. Computers in Human Behavior, 26, 768–777.
+Short, J. A., Williams, E., & Christie, B. (1976). The social psychology of
+telecommunication. Chichester: John Wiley.
+Siegman, A. W., & Reynolds, M. A. (1983). Speaking without seeing, or the effect of
+interviewer absence on interviewee disclosure time. Journal of Psycholinguistic
+Research, 12, 595–602.
+Spears, R., Lea, M., & Postmes, T. (2007). Computer-mediated communication and
+social identity. In A. Joinson, K. Y. A. McKenna, T. Postmes, & U. D. Reips (Eds.),
+Oxford handbook of internet psychology (pp. 253–269). Oxford, UK: Oxford
+University Press.
+Spears, R., Postmes, T., Lea, M., & Wolbert, A. (2002). When are net effects gross
+products? The power of inﬂuence and the inﬂuence of power in computer-
+mediated communication. Journal of Social Issues, 58, 91–107.
+Suler, J. (1999). Cyberspace as psychological space. <http://www-usr.rider.edu/
+~suler/psycyber/psychspace.html> Retrieved 20.10.10.
+Suler, J. (2004). The online disinhibition effect. CyberPsychology & Behavior, 7,
+321–326.
+Suler, J. (2005). Contemporary Media Forum. International Journal of Applied
+Psychoanalytic Studies, 2, 184–188.
+Suler, J. (2008). Image, word, action: Interpersonal dynamics in a photo-sharing
+community. CyberPsychology & Behavior, 11, 555–560.
+Suler, J. R., & Phillips, W. L. (1998). The bad boys of cyberspace. Deviant behavior in a
+multimedia chat community. CyberPsychology & Behavior, 1, 275–294.
+Tanis, M., & Postmes, T. (2007). Tow faces of anonymity: Paradoxical effects of cues
+to identity in CMC. Computers in Human Behavior, 23, 955–970.
+Tourangeau, R., Couper, M. P., & Steiger, D. M. (2003). Humanizing self-administered
+surveys: Experiments on social presence in web and IVR surveys. Computers in
+Human Behavior, 19, 1–24.
+Turkle, S. (1995). Life on the screen: Identity in the age of the Internet. New York:
+Simon & Schuster.
+Turkle, S. (2004). Whither psychoanalysis in computer culture? Psychoanalytic
+Psychology, 21, 16–30.
+Turnage, A. K. (2008). Email ﬂaming behaviors and organizational conﬂict. Journal of
+Computer-Mediated Communication, 13, 43–59.
+Valkenburg, P. M., Schouten, A. P., & Peter, J. (2005). Adolescents’ identity
+experiments on the Internet. New Media & Society, 7, 383–402.
+van Dijck, J. (2008). Digital photography: Communication, identity, memory. Visual
+Communication, 7, 57–76.
+Walther, J. B. (1996). Computer-mediated communication: Impersonal,
+interpersonal, and hyperpersonal interaction. Communication Research, 23,
+3–43.
+Walther, J. B. (1999, May). Visual cues and computer-mediated communication:
+Don’t look before you leap. In Paper presented at the Annual Meeting of the
+International Communication Association, San Francisco.
+Walther, J. B., & Bazarova, N. N. (2008). Validation and application of electronic
+propinquity theory to computer-mediated communication in groups.
+Communication Research, 35, 622–645.
+Webbink, P. (1986). The power of the eyes. New York: Springer.
+Williams, D., & Skoric, M. (2005). Internet fantasy violence. A test of aggression in an
+online game. Communication Monographs, 72, 217–233.
+Wodzicki, K., Schwämmlein, E., Cress, U., & Kimmerle, J. (2011). Does the type of
+anonymity matter? The impact of visualization on information sharing in online
+groups. CyberPsychology, Behavior, and Social Networking, 14, 157–160.
+Yee, N., Bailenson, J. N., Urbanek, M., Chang, F., & Merget, D. (2007). The unbearable
+likeness of being Digital: The persistence of nonverbal social norms in online
+virtual environments. CyberPsychology & Behavior, 10, 115–121.
+Yang, C., Hsu, Y. C., & Tan, S. (2010). Predicting the determinants of users’ intentions
+for using Youtube to share video: Moderating gender effects. CyberPsychology,
+Behavior, and Social Networking, 13, 141–152.
+Zimbardo, P. G. (1969). The human choice. Individuation, reason, and order vs.
+deindividuation, impulse and chaos. Nebraska Symposium on Motivation, 17,
+237–307.
+N. Lapidot-Leﬂer, A. Barak / Computers in Human Behavior 28 (2012) 434–443 443
+Citations (341)
+References (100)
+... One recent and often cited publication of one such experiment is Lapidot-Lefler and Barak (2012). Lapidot-Lefler and Barak confronted 142 participants with a dilemma they should discuss and solve in an online chat system. ...
+... This result concurs with the result of the Youtube study. There is sufficient literature to assume that anonymity alone does have a negative influence (Kilner and Hoadley, 2005;Lapidot-Lefler and Barak, 2012;Omernick and Sood, 2013). ...
+... Because, while we did not observe a strong negative effect of anonymity, we still observed that anonymity and identity factors have the power to influence participation. Together with the prior results of anonymity significantly influencing participation (Andalibi et al., 2016;Kilner and Hoadley, 2005;Lapidot-Lefler and Barak, 2012;Omernick and Sood, 2013), it becomes clear that the other factors are very powerful. If an avatar image can influence communities (Cress, 2005), then designers have to invest a lot of attention in the details that govern influences of social behaviour on the web. ...
+The influence of anonymity on participation in online communities
+Thesis
+Oct 2016
+Malte Paskuda
+View
+Show abstract
+... Indeed, research has found that exposure to online comments with ethnic prejudices leads other users to post more prejudiced comments themselves (Hsueh, Yogeeswaran, & Malinen, 2015), suggesting that the communication behavior of others also influences one's own behavior. Fourth, and closely related to anonymity, there is the problem of the full or partial invisibility of other users (Brown, 2018;Lapidot-Lefler & Barak, 2012): The absence of facial expressions and other visibility originated interpersonal communication cues makes hate speech appear less hurtful or damaging in an online setting, thus increasing inhibitions to discriminate others. Last, one has to consider the community-building aspects that are particularly distinctive for online hate speech (Brown, 2018;McNamee, Peterson, & Peña, 2010). ...
+Assessing the Extent and Types of Hate Speech in Fringe Communities: A Case Study of Alt-Right Communities on 8chan, 4chan, and Reddit
+Article
+Oct 2021
+Diana Rieger
+Anna Sophie Kümpel
+View
+Show abstract
+... For instance, on the difference between cyberbullying and trolling, some researchers suggest they are discrete concepts, as cyberbullying tends to be seen as the more harmful behavior (March and Marrington 2019), whereas trolling may be both lighthearted and serious (Sanfilippo, Fichman, and Yang 2018), if not a positive behavior that can increase online community engagement (Cruz, Seo, and Rex 2018). Other researchers argue that social-media users may not distinguish between cyberbullying and trolling, since the perception of what is harmful and anti-social in online environments is highly subjective and contextual (Chen 2018), given that non-verbal cues here are limited compared to offline interactions (Lapidot-Lefler and Barak 2012). ...
+Investigating consumers’ motives for consumer brand-cyberbullying on social media
+Article
+Full-text available
+Sep 2021INFORM SOC
+Jan BreitsohlNadia Jimenez
+Holger Roschk
+View
+Show abstract
+... Combinatorial signals are likely to be important for a good media interview; such as mirroring the interviewer's movements, maintaining eye-contact and smiling. Together, these signals suggest that the interviewee is listening, signposts turn-taking in conversation (Ho et al., 2015;Taylor, 2015), illustrates confidence, honesty, and dominance (Knutson, 1996;Lapidot-Lefler and Barak, 2012). ...
+Prediction of Communication Effectiveness During Media Skills Training Using Commercial Automatic Non-verbal Recognition Systems
+Article
+Full-text available
+Sep 2021
+Monica PereiraHongying MengKate Hone
+View
+Show abstract
+... First, linguistic, temporal, and hardware limitations significantly hinder the feasibility of e-contact. Furthermore, current e-contact programs work best when constrained and moderated to ensure the positivity of the interaction, as research on online messaging has shown that unmoderated interactions can often lead to disinhibition and unwanted behaviours (Lapidot-Lefler & Barak, 2012). This reduces the potential of using e-contact in non-experimental settings. ...
+Can Imagined Contact Really Be Delivered Through the Web? A Preregistered Test of Web-Delivered Imagined Contact with Muslim Americans
+Thesis
+Full-text available
+May 2021
+Jean-Nicolas Bordeleau
+View
+Show abstract
+Constructing Authenticity on TikTok: Social Norms and Social Support on the "Fun" Platform
+Article
+Oct 2021
+Kristen Barta
+Nazanin Andalibi
+View
+Toxische Online-Kommunikation: Auswirkungen und Perspektiven
+Chapter
+Oct 2021
+Birgit J. VoggeserAnja S. Göritz
+View
+Show abstract
+Qualitative Examination on the Influences of the Internet on Racism and its Online Manifestation
+Chapter
+Jan 2021
+Brian TH Keum
+View
+Show abstract
+Dlaczego Julka jest liberalna? Rozważania o emblematach stereotypów płciowych i ich społecznych konsekwencjach w polskim dyskursie (anty)aborcyjnym
+Article
+Full-text available
+Jan 2021
+Paweł Zalewski
+View
+Show abstract
+Online private self-disclosure’s potential for experiential value co-creation
+Article
+Full-text available
+Sep 2021EUR J MARKETING
+Iftakar HajiAlessandro M. Peluso
+Ad de Jong
+View
+Show abstract
+Show more
+Recommendations
+Discover more
+Project
+Parental involvement and sociocultural factors in cyberbullying
+Noam Lapidot-Lefler
+This prject examines the relationship between parental monitoring and control, parental perceived knowledge of the adolescent’s online involvement, and parental perceived knowledge of the adolescen ... [more]
+View project
+Chapter
+Personal identity
+July 2019
+Georges Dicker
+This chapter analyzes Locke’s seminal treatment of personal identity and examines objections to it and replies to them. It (1) discusses his sharp divorce between a person’s identity and the identity of any substance, (2) formulates in analytical style his definition of personal identity in terms of memory, and (3) explains his view that personal identity is a “forensic” notion. Regarding (1), it ... [Show full abstract]
+Read more
+Article
+Full-text available
+Non-Gibbsianness of the invariant measures of non-reversible cellular automata with totally asymmetr...
+February 2001 · Asterisque- Societe Mathematique de France
+Roberto FernandezAndré Toom
+We present a class of random cellular automata with multiple invariant measures which are all non-Gibbsian. The automata have configuration space {0,1}^{Z^d}, with d > 1, and they are noisy versions of automata with the "eroder property". The noise is totally asymmetric in the sense that it allows random flippings of "0" into "1" but not the converse. We prove that all invariant measures assign ... [Show full abstract]
+View full-text
+Conference Paper
+How to Evaluate BDD Scenarios' Quality?
+September 2019
+Gabriel OliveiraSabrina Marczak
+Cassiano Moralles
+A scenario from the Behavior-driven development (BDD) practice is a known format to represent acceptance tests in agile methodologies, communicating assumptions and expectations by expressing the details that result from the conversations between customers and developers. We believe that this formalization of behavior need to be of good quality to avoid known requirement problems that arise from ... [Show full abstract]
+Read more
+Data
+Full-text available
+Figure S2
+November 2011
+Stefan Wuchty
+Brian Uzzi
+(A) shows ROC curves for three email-to-social network conversion methods using permuted email data. Utilizing the total volume method we found a FPR = 17.2% and TPR = 74.7% while the reciprocation method yielded a FPR = 22.1% and FPR = 80.0%. Finally, the normalization method allowed us to find a FPR = 12.1% and a TPR = 76.0%. Performing a test-retest analysis, we randomly split emails, trained ... [Show full abstract]
+View full-text
+Data
+Full-text available
+Figure S5
+November 2011
+Stefan Wuchty
+Brian Uzzi
+(A) shows ROC curves for three email-to-social network conversion methods that utilize time-resolved data. Utilizing the total volume method we found a FPR = 13.6% and TPR = 66.7% while the reciprocation method yielded a FPR = 14.9% and FPR = 58.7%. Finally, the normalization method allowed us to find a FPR = 10.5% and a TPR = 69.3%. Performing a test-retest analysis, we randomly split emails, ... [Show full abstract]
+View full-text
+	
+or
+	Discover by subject area
+Recruit researchers
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2021 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprint

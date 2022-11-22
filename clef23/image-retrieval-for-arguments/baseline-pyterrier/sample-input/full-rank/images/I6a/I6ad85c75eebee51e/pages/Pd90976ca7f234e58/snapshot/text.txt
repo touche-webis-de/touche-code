@@ -1,0 +1,903 @@
+We value your privacy
+
+We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
+
+With your permission we and our partners may use precise geolocation data and identification through device scanning. You may click to consent to our and our partners’ processing as described above. Alternatively you may access more detailed information and change your preferences before consenting or to refuse consenting. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. Your preferences will apply to a group of websites. You can change your preferences at any time by returning to this site or visit our privacy policy.
+
+MORE OPTIONS
+AGREE
+PreprintPDF Available
+Internet Access as Human Right: A Dystopian Critique from the Occupied Palestinian Territory
+January 2019
+DOI:10.1007/978-3-319-91770-2_12
+Authors:
+Fabio Cristiano
+Leiden University
+Download file PDF
+Read file
+Preprints and early-stage research may not have been peer reviewed yet.
+Download citation
+Copy link
+Citations (2)
+References (49)
+Abstract
+In his chapter, Cristiano explores the controversial correlation between technology and political freedoms by questioning the inclusion of internet access into the human rights agenda. Drawing from the dystopian case of Palestinian digital rights—tightly held through Israel and the Palestinian Authority’s vise-like jaws of censorship and algorithmic control—the chapter unpacks the conceptual duality common/right in order to open up the question of accessibility to broader digital rights, such as content management and data privacy. In conclusion, it looks at potential alternatives, and the negation thereof, as a way to argue that envisioning human rights in prescriptive terms might detract political freedoms rather than enabling them.
+
+Discover the world's research
+
+20+ million members
+135+ million publications
+700k+ research projects
+Join for free
+Public Full-texts 2
+InternetAccessHumanRight_FabioCri
+stiano.pdf
+Content uploaded by Fabio Cristiano
+Author content
+Content may be subject to copyright.
+249© The Author(s) 2019
+G. Blouin-Genest et al. (eds.), Human Rights as Battleelds, 
+Human Rights Interventions, 
+https://doi.org/10.1007/978-3-319-91770-2_12
+CHAPTER 12
+Internet Access asHuman Right: 
+ADystopian Critique fromtheOccupied 
+Palestinian Territory
+FabioCristiano
+INTRODUCTION
+Since the outset of the Arab Spring in 2010, authorities across the region 
+undermined  political  uprisings  through  the  closure,  partial  or  total,  of 
+internet1 access. Whereas Tunisian activists witnessed restrictions on their 
+political liberties  through surveillance,  hacking,  and  violent  repressions, 
+authorities  implemented  full  shutdowns2  in  Egypt,  Libya,  and  Syria. 
+Similarly,  censorship  furthered  in  Bahrain  and  Saudi  Arabia  when,  in 
+response to political uprisings, authorities closed down numerous websites 
+in combination with the arrest of several bloggers and activists. As a result, 
+for the very  rst time,  denial of  internet access appeared  to the  interna-
+tional community as a serious violation of fundamental political freedoms. 
+In response, internet access (and the denial thereof) came to be included 
+into the human right discourse3 for its instrumental role in those processes 
+of mobilization and (attempts at) demobilization of political action. On 
+F. Cristiano (*) 
+Department of Political Science, Lund University, Lund, Sweden
+e-mail: fabio.cristiano@svet.lu.se
+fabio.cristiano@svet.lu.se
+250 
+the other hand, internet accessibility also developed into a political battle-
+eld of its own (with political campaigns focusing primarily on this issue4). 
+Far from being an isolated contextual issue,5 governments’ internet shut-
+downs have been globally on the rise in recent years, with more than 30 
+countries experiencing one or more shutdowns between the beginning of 
+2015 and the time of writing of this chapter.6 In response to the growth 
+of this phenomenon, and following those rst tentative legislations on the 
+topic, the United Nations Human Rights Council (UNHRC) released, in 
+the summer of 2016, a non-binding  resolution that established internet 
+access  as  a  human  right,  thus  condemning  governments’  intentional 
+ disruption (most commonly referred as ‘shutdown’) as a response to polit-
+ical contestations (UNHRC 2016).
+Incorporating  internet  access—the  so-called  right  to  broadband—
+within the human rights agenda primarily stems from the necessity of dis-
+couraging authoritarian regimes  to  retain  online  spaces  and possibilities 
+for  political  dissent,  and  participation  at  large  (UNHRC  2016;  Lucchi 
+2011). At the same time, the framing of internet access as a human right 
+pertains the basic recognition that access to the internet determines and 
+facilitates the enjoyment of political freedoms: reversely, closing access to 
+the internet would constitute a violation of these very fundamental liber-
+ties. These proposed legislative schemes make in fact an explicit reference 
+to Article 19 of the Universal Declaration of Human Rights, adding inter-
+net access to those rights that are considered necessary for individual self- 
+determination and the conduct of a free life (UNGA 1948).
+Many have since long criticized this approach arguing that internet access 
+can only be considered as an enabler of other rights and not a right in its own 
+terms (McDowell 2012; Skepys 2012). Put it differently, critics argue that 
+defending the right to access sets forth a causal nexus between being con-
+nected online and the enjoyment of political freedoms that, in reality, does 
+not occur automatically. In this critical spirit, while acknowledging the liber-
+ating potential that internet access might disclose, critical voices highlight 
+‘qualities’ over ‘availability’, thus shifting the focus from ‘access’ to broader 
+‘digital rights’7 (as convincingly argued by Vinton G.Cerf (2012), Google’s 
+vice-president).  As  internet  technologies  are  nowadays  the  battleelds  of 
+political contestation on different grounds—net neutrality, copyright, band 
+per capita, content censorship, infrastructure privatization, and more—these 
+questions are thought to be inseparable from the ‘right to broadband’.
+In particular, these lines of critique point to those existing technical and 
+practical facets that constitute internet access as an issue that is not only of 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 251
+governmental  concern.  As  service  provision  occurs  through  complex 
+apparatuses  of  governance—which  include  governments,  infrastructural 
+proprietorship, and  service  providers—content management, and  digital 
+rights more in general, should also be integrated into debates on human 
+rights. In a context where sovereignty escapes territorial and jurisdictional 
+borders, opening up the human rights discourse interrogates whose and 
+what type of internet remains to be desired for enabling, and also practic-
+ing,  political  freedoms—thus  rethinking  the  emancipatory  potential  of 
+technology.
+In fact, this dispute dusts off the underlying debate on whether techno-
+logical progress in  itself determines access to  a  freer life, in  the  spirit of 
+those technological determinists that saw in technology the drive toward 
+a  utopian-free  society  (as  theorized  by  sociologist  McLuhan  in  1967). 
+Expanding the overall debate8 in this direction, this chapter proposes to 
+reect  beyond  technical,  legislative,  and  procedural  aspects  of  internet 
+access. Rather, through a reection on the intrinsic determinism that char-
+acterizes  both  advocates  and  opponents  of  the  ‘right  to  broadband’,  it 
+proposes  to  re-politicize  the  role  of  internet  access  within  mainstream 
+human right discourses. As critique primarily builds on a prescriptive and 
+normative understanding of human rights as static apparatuses of power, 
+this chapter ultimately  proposes  to  rethink  human rights  as  battleelds, 
+rather than enablers, of political change.
+In order to do so, this chapter relates to those contextual experiences 
+and legislations that, within the context of Palestine/Israel, allow rethink-
+ing digital rights and internet access as a way to ultimately interrogate how 
+technology and human rights intersect on deterministic grounds. For its 
+peculiarities—that is, the Israeli military and infrastructural occupation, as 
+well as  the  restrictive  policies  implemented  by  the Palestinian Authority 
+(PA) with regards to  online  freedoms—this  dystopian  case constitutes a 
+privileged point of observation to reect on the relationship between tech-
+nology and  freedom.  And,  in turn,  to  argue  that  implementing  human 
+rights ‘from above’ might in turn detract, rather than enable, political and 
+individual freedoms (cfr. Perugini and Gordon 2016). After this introduc-
+tory section, this chapter proceeds by presenting a human rights reading 
+of the debate on internet access and content management (with a specic 
+focus on the conceptual duality common/right). Following, an analysis of 
+the dystopian  status  quo of Palestinian  internet  access  and digital rights 
+precedes  a  conclusive  section  where  the  specicities  of  this  context  are 
+then related to the broader debate on the essence of human rights.
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+252 
+INTERNET ASACOLLECTIVE COMMON, INTERNET 
+ASARIGHT
+The main argument against the recognition of internet access  as human 
+right ultimately points to the feeble equation between accessing the inter-
+net and enjoying a freer life. Alternatively, it is argued that the enablement 
+of  political  freedoms  does  not  depend  on  internet  access,  but  on  how 
+access and contents are managed, censored, or freed. Albeit opposed and 
+different  in  degrees,  these  views  share  a  fundamentally  deterministic 
+understanding of technology and human rights: the possibility of realizing 
+a technology that maintains a non-social and neutral role in the mediation 
+of human relations and freedoms. Whereas technology at all costs or free-
+ing  it  up  from  structures  of  control,  both  views  are  centered  on  the 
+assumption that technology, and internet more specically, possesses the 
+power to  constitute  and  drive  modernity  alongside  its  inherent  liberties 
+(on this, see Joyce 2015).
+This chapter is  inspired instead  from the understanding that  technol-
+ogy, existing only  within those human  relations it produces, maintains a 
+perennial  status  of  ‘becoming’,  being  re-modulated  through  its  usage, 
+time, battles, and context (cfr. Green 2001). In line with scholarship often 
+referred to as ‘social construction of technology’ (SCOT), the relationship 
+between internet  and society (and how it  is debated) appears instead to 
+relapse primarily into the understanding of technology as a political battle-
+eld of  its  own,  rather  than  as  a  normative  and  neutral  enabler  of free-
+doms.  Above  all,  the  dispute  on  the  essence  of  technology  primarily 
+unfolds on the terrain of the uneasy relationship between a service (under-
+stood here in terms of ‘public utility’) and the freedoms it might or might 
+not  enable.  Analogously,  as  argued  by  Brown  (1997),  normative  dis-
+courses on human rights predict a cause-and-effect formula between top- 
+down adoption and future societal change.
+Concerns regarding internet access, and digital rights in general, often 
+accompany various types of activism and political campaigning—as shown 
+in many recent instances of political turmoil (Gezi Park in Turkey, Occupy 
+Movement in the United States, etc.). As activists increasingly coordinate 
+online,  demanding  internet  access  mainly  appeals  to  the  safeguard  of 
+ freedom of expression, assembly, and so on. At a very basic level, then, the 
+right to internet access tends to be framed as a question of freedoms, and 
+access to  these freedoms. Drawing  a classical parallelism  with the Greek 
+agora  (Rheingold  1994;  Castells  2001),  it  can  be  argued  that  having 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 253
+access to the internet remains only an instrumental prerequisite for engag-
+ing in the battle over digital rights and political freedoms.
+Comparing cyberspaces to common spaces, however, appears problem-
+atic  in  different  ways, and  beyond  the  question  of  whether  they  corre-
+spond to national territories or possess a physical existence (cfr. Cristiano 
+2018). Infrastructural ownership—public, private, or hybrid—determines 
+the extent in which internet can be considered as a common (a space for 
+the many, rather than for the few) and, similarly to other ‘services’, enjoy 
+the  status  of  a  human  right.  In  reality,  broadband  diffusion  (and  thus 
+access) tends to follow prot dynamics, as much as infrastructural develop-
+ments and expansion depend on Internet Service Providers’ (ISPs) market 
+interests and decisions. As such, infrastructural ownership and broadband 
+coverage regulate access to cyberspace (the ‘square’) and thus compromise 
+the extent in which political freedoms online are to be enabled collectively, 
+and for the collectivity. In a global context of growing public-private part-
+nerships over service delivery, governments continue to retain power over 
+kill-switches,9  that  is,  the  possibility  to  disconnect an  entire  country  or 
+territory from the internet (for attacks coming from the outside). At the 
+same time, this defense instrument  often  comes  to  be  adopted  to  close 
+internet access in the event of a domestic political turmoil—as in the cases 
+of  2011  Egypt  and  frequent  India’s  shutdowns  on  Kashmir  (Human 
+Rights Watch 2017). In this sense, as governments and service providers 
+regulate  access  to the  internet  through  infrastructural  control,  it  seems 
+hard to separate the ‘right to broadband’ from net neutrality movement’s 
+claims on the publicity of the service10—and from the restrictions imposed 
+on  existing  alternatives  (in  terms  of  proprietorship).  In  these  terms, 
+ opposing  normative  human  rights  agendas  also  calls  into  question  the 
+extent  whether  a  human right  can  be subjected  to,  and  dependent  on, 
+market rules.
+In order to circumvent lacks of service or access blocks, the battle over 
+free and  public internet access necessarily unfolds at the infrastructural 
+level. Besides advocating for public internet access, ‘taking back the tech’ 
+strategies also focus on creating and designing independent networks11 
+that offer parallel access points through, for instance, mesh-networking 
+(Hildenbrand 2016; Petersen 2014). Based on a non-hierarchical type of 
+connection,  in  this  model,  infrastructural  nodes  connect  directly  and 
+dynamically, self-conguring in order to route data from and to clients. 
+Claiming the publicity of the service, then, goes hand in hand with the 
+understanding  of  both  technology  and  human  rights  as  non-neutral 
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+254 
+institutions, and thus  always in the making from below. Moreover, the 
+battle  over  internet  as  a  common  also  appears  to  be  consistent  with 
+Westra’s (2011) argument in favor of prioritizing collective  rights over 
+individual ones. In fact, for its very interconnected nature, human rela-
+tion to the internet  escapes the framing  of individualism  (i.e. the  indi-
+vidual as the ultimate recipient of rights—cfr. Peters 2016). At the very 
+best, the individual can be situated online in a type of relational subjec-
+tivity that Castells (2007) denes as ‘networked individualism’.12
+The  importance  of  discussing  infrastructural  ownership—‘who  owns 
+the internet’—of course not only pertains how access to the service comes 
+to be managed  and  regulated  but  also  affects  how  contents  are shared, 
+controlled, and battled for. For example, while enjoying the benets of the 
+world’s fastest connection and a broad territorial coverage, users in Beijing 
+are obliged to  communicate,  access,  and  share  data  exclusively  through 
+government-approved  applications  (MacKinnon  2008).  In other words, 
+the sole access to cyberspace does not necessarily mean access to political 
+freedoms:  even  if  entirely  public  and  accessible,  squares  have  always 
+served—symbolically and not—authoritarian regimes to seize and reafrm 
+power.  Rather  than  through  formal  ‘access’  and  entitlement,  then, 
+ participation (and the rules underlying this participation), determines how 
+rights and  spaces of  liberties can  be dened  and conquered from below 
+(cfr. McNeilly 2015, 2017).
+Whereas  infrastructural  control  relapses  into  collaborative  efforts 
+between governments and ISPs, content management also involves those 
+who  ‘host’  these  data,  such as  websites,  servers,  and  applications. With 
+information and data being channeled through fewer and fewer websites 
+and platforms (with experts pointing at the risk  of monopolies of data), 
+government’s  control  over  content  becomes  gradually  facilitated,  and 
+relies on the partnership with those companies that manage large quanti-
+ties of data (such as main social media corporations).13 Similarly to infra-
+structural proprietorship, data are ordered and managed through complex 
+apparatuses  of  public-private  collaborations.  At  the  same  time,  despite 
+global internet usership reaching its peak in 2017,14 free online spaces—
+such  as  darknet  and  anonymous  networks  (I2P15)—are  increasingly 
+deserted. Their accessibility depends on know-hows that, due to the com-
+mercialization of online spaces and users’ limited degrees of computer and 
+digital literacy (Nielsen 2016), are only accessible to few. In fact, particu-
+larly in developing countries (with lower computer and digital literacy, but 
+at higher risks of internet closure and censorship), users tend to use one- 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 255
+purpose applications and websites rather than using internet technology as 
+a multipurpose  service, as it  was originally designed  by the World Wide 
+Web Consortium (W3C).
+Along these  lines, the debate  pertaining internet as  a  collective com-
+mon—and  its  related  proprietorship—engages  ownership  not  only over 
+infrastructure but also over contents (i.e. ‘who owns the data’, a battle, for 
+instance,  conducted  through  Creative  Commons),  and  its  management 
+(i.e. ‘who controls and polices the data’). As personal data are considered 
+a valuable resource both for commercial uses and for political and security 
+ones, privacy rights are challenged also in relation to individual intellectual 
+properties16  (and  whether  prot  generated  through  their  acquisition 
+should be redistributed to users). All these content-related issues are the 
+focus of the so-called net neutrality movement and debate. Focusing on 
+digital rights as battleelds in their own terms, rather than being instru-
+mental to a specic political campaign or endeavor, its proponents argue 
+in favor of overcoming those discriminations (such as IP address, proto-
+col,  and  peering)  that  preclude  users  from  reaching  contents,  and  vice 
+versa. More specically, net neutrality advocates make pressure on govern-
+ments to recognize internet as a service of public utility for its instrumen-
+tal role in the realization of political freedoms (Wu 2003).
+Beside advocacy campaigns, this battle unveils through the retainment 
+of data and, in turn, of privacy rights. As governments increasingly rely on 
+the acquisition of online information for intelligence and security opera-
+tions—such  as  predictive  policing  systems  (PPS)—the  battle  over  data 
+protection  becomes  a  fundamental concern  to  counter  invasive security 
+governance  and  to  protect  political  freedoms  (see  Drezner  2004).  PPS 
+largely relies on monitoring online trafc and deep packet inspection, that 
+is, ltering  passing  data  and  guiding  them  through an  inspection  point 
+(Bendrath and Mueller 2010). Once inspected, set criteria dene whether 
+an information is allowed to pass or should be blocked and routed toward 
+a different end, in a way that resembles ofine checkpoints. Whereas this 
+technique allows neutralizing contents that are of security concern or con-
+taining  an  abuse,  its  use  in  authoritarian  contexts  might  lead  to  severe 
+violations of freedom of speech, as well as of privacy rights. Of course, this 
+depends on how the ltering is set: as a variety of parameters denes the 
+value of  a  content, semantics—but also  its  reach  and popularity—deter-
+mine whether  a  content  can  get  through  inspection  points. In order to 
+protect  data,  and  thus  privacy  rights,  the  battle  predominantly  involves 
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+256 
+gaining control on their movement through re-routing techniques (such 
+as VPN) to bypass checkpoints.
+The focus  on  internet  access vis-à-vis  broader  digital  rights  subtends 
+two different  ways to think  and  theorize about the  internet,  but  in fact 
+signals a similar understanding of the causality that exists between technol-
+ogy and political freedoms. While on the one hand internet access itself is 
+argued to  bring  about  freedoms  (i.e.  as a neutral public  utility),  on  the 
+other hand these political freedoms are thought to be dependent on the 
+qualities of the utility  (i.e. data  management).17 At the  same time,  both 
+views imply  a  causal nexus between  human  rights  and freedom—in line 
+with traditional theorizing on the topic (cfr. Bobbio 1996). In this sense, 
+besides being of relevance for reecting on those conditions that enable 
+freedoms  online,  the  inclusion  of  digital  rights  into  the  discourse  on 
+human  rights  provides  relevant  insights  for  disputing  their  mainstream 
+agenda as a whole.
+TANGO DOWN! PALESTINIAN DIGITAL RIGHTS INAVISE
+In  one  of  his  most  famous  writings,  Edward  Said  (1999)  states  that 
+Palestine,  more  than  a  place,  resembles  a  displacement,  a  state  of  con-
+sciousness. As a natural stage that is blessed and cursed with heightened 
+visibility, it forks the world into two classes: observers and performers. In 
+recent  years,  this  visibility  progressively  revealed  on  online  platforms: 
+besides the greater mediatization of the conict that followed the Al-Aqsa 
+Intifada in  the early  2000s, today’s so-called  battle of ideas—the  virtual 
+conict—is extensively fought online.18
+In the last years, Israeli government’s efforts into creating a pro-Israeli 
+presence online, under the auspices of the so-called hasbara (Hebrew for 
+“explaining”), have  been  enormous (Aouragh  2016).  Mainly  calling  on 
+Israeli citizens and Jewish diaspora to take arms into this virtual battle of 
+ideas, extensive resources have been devoted into training advocates (the 
+so-called hasbara trolls) in aggressive techniques of social media presence. 
+Israeli authorities’ incursions in this battle are common: State Attorney’s 
+Ofce  Cyber  Division  regularly  sends  numerous  takedown  requests  to 
+Twitter and  other  media,19  demanding  to  remove  certain content or to 
+block  Israeli  users  from  viewing  it  (Schaeffer  Omer-Man  2016).  Israel 
+Defense Forces (IDF) made most recent war declarations on Twitter and 
+actively engaged with advocacy campaigns in the context of what Kuntsman 
+and Stein (2015) dene as ‘digital militarism’.20 Besides this virtualization, 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 257
+debates  and  campaigning  related  to  internet  access  and  digital  rights 
+became recently  integrated  into  pro-Palestinian  advocacy  and struggles. 
+While this, of course, parallels other contexts—as in fact today’s battle for 
+digital  rights  has  reached  a  global  dimension—contextual  peculiarities 
+make the Palestinian case a unique point of observation to scrutiny how 
+power manifests in the relationship between internet access and (the denial 
+of) political freedoms—and thus how human rights could be hijacked or 
+potentially re-politicized.
+In a context of the permanent  state of  exception (see  Abujidi 2009), 
+the limitations imposed by the long-lasting Israeli occupation, as well as 
+the recent legislations of the PA, undermine Palestinian digital rights, and 
+the battle thereof. Israeli control over Palestinian internet pertains both its 
+infrastructural dimension and the management and control over contents 
+and data. In deance of the Oslo agreements (1993), that had in view a 
+progressive transition of service governance to the PA, Israel still retains 
+control  over  internet  infrastructures  for  the  entire  Palestinian  territory 
+(Tawil-Souri 2013), with a coverage that is only limited to most populated 
+urban areas.21 This implies that Israel holds the power to kill-switch inter-
+net  access  for  Palestinians,  as  shown  during  the  recent  Israeli  military 
+operations in  Gaza. Primarily, this raises  the question  of whether digital 
+rights are ever attainable in a context  where infrastructures are not  only 
+subjected  to  market  rules  but  in  fact  owned  and  managed  through  a 
+sophisticated  system  of  security  governance—that  includes  Israel,  ISPs, 
+and the PA.
+In line with the argument relating content and service management to 
+infrastructural  control,  Palestinians’  online  activities  and  contents  are 
+increasingly subjected to Israeli censorship and used  to  validate  punish-
+ment. As the occupation moves toward robotic and unmanned forms (cfr. 
+Tawil-Souri and Aouragh 2014), Israeli predictive policing systems culmi-
+nated in the recent application of an algorithmic scanning of Palestinians’ 
+social media contents (Nashif 2017). The algorithm focuses on statuses, 
+comments, and  pictures  in  order to identify  contents  that  are critical of 
+Israeli policies or considered an ‘incitement to violence’.22 Leading to the 
+arrest and detention of around 800 Palestinians since 2015,23 the justica-
+tion for this measure lies in the assumption that online incitement consti-
+tutes an early warning of crime, thus preluding violence. In other words, 
+Palestinians’ freedom of speech appears not to be violated through access 
+denial  (that,  however,  remains  limited  and  technologically  obsolete). 
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+258 
+Rather, having access to internet at these conditions creates an additional 
+layer of separation between Palestinians and their denied liberties.
+Besides  a  series  of  Arabic  words—such  as  martyr,  freedom,  Al-Aqsa 
+mosque, and Al Quds—Palestinian human and digital rights organizations 
+(such as 7amleh and the Palestinian Center for Human Rights) reported 
+how the algorithmic settings also lter contents—such as poetry, journal 
+articles, and political statements—that criticize Israeli occupation without 
+any direct  reference to  violence.  As  shown in the  emblematic  detention 
+case  of  poet  Dareen  Tatour,24  there  appears  to  be  a  direct  correlation 
+between popularity and punishment: the more users like, share, and circu-
+late a content, the higher and severe the punishment will be. In this sense, 
+arrest and  detention precede the individual perpetration of a crime, and 
+regard  subjectivity  not  only  in  relation  to  individual  rights,  but  rather 
+focus on how individual subjectivities are networked and socialized (as in 
+Castells’ theorizing).
+With the Israeli security  governance of online  content  set  out  to  get 
+critical Palestinians with a ne-tooth comb of mechanic control, spaces for 
+dissent  online  decrease  to  make  the  way  for  a  battleeld  where  access, 
+more than  crime, might  signify arrest. Moreover, this argument  appears 
+further corroborated by a 2014’s report, undisclosed by 43 Israeli intelli-
+gence agents (of the most elite unit, known as 8200)—admitting the use 
+of spying and hacking techniques to collect private users’ data to blackmail 
+them in exchange for information. Targeting particularly those considered 
+vulnerable  because  of  their  sexual  orientation,  this  violation  of  privacy 
+rights aims at forcing victims to share security-relevant information with 
+Israeli security apparatuses (Derfner 2014; Levy 2014). For Palestinians, 
+in other words, having internet access—even without willfully sharing any 
+content—de facto signies becoming a suspect.
+Along the same lines, the PA’s legislation, such as the recently approved 
+law on cybercrime,25 further narrows and deteriorates the already limited 
+privacy rights and political freedoms that Palestinians enjoy online because 
+of the Israeli occupation.  Several Palestinian NGOs,  unions, media,  and 
+activists pointed to the controversial democratic procedure that leads to its 
+approval. Due to the  suspension  of  the  Palestinian  legislative  council in 
+2007—because  of  frictions  between  Fatah  and  Hamas—the  president 
+holds  reduced  legislative  power,  limited  in  fact  only  to  emergencies. 
+Regardless of whether cybercrime should be considered an emergency for 
+the PA (given Israel’s infrastructural ownership), critics opposed the newly 
+approved law and called on President Abbas for a more participative and 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 259
+transparent  legislation.  To  this  scope,  the  Palestinian  NGO  Al-Haq—
+engaged in the defense of human rights since 1979—has drawn the atten-
+tion of the UN Special Rapporteur on the Promotion and Protection of 
+the Right to Freedom of Opinion and Expression on the closure of free-
+doms associated to the new legislation (Abdeen 2018).
+Besides  criticizing  its  democratic  iter,  opponents  also  emphasize  the 
+closure of democratic spaces and liberties this legislation produced. First, 
+their critical focus falls on the concepts of ‘national unity’ and ‘social har-
+mony’ (Article 51) that, besides being very controversial in the context of 
+Palestine, are brought up to  justify  restrictive  measures  on  fundamental 
+liberties.  Far from  being  achieved  in  reality,  these  concepts are  vaguely 
+described  in  the  legislation,  thus  allowing  broad  and  instrumental 
+ interpretations. For example, publishing or propagating contents deemed 
+offensive to ‘national unity’ or ‘social harmony’ might lead to a sanction 
+from three to fteen years of forced hard labors, in clear violation of the 
+human right to freedom of speech. Likewise, hurting online ‘public man-
+ners’ (Article 16) or committing ‘immoral acts’ (Article 15) leads to simi-
+lar detention sanctions. Additionally, these violations of human rights are 
+contingent  on  public-private  collaborations  in  the  domain  of  content 
+management. In  fact, Article  32 calls upon  ISPs  and tech companies  to 
+cooperate with the PA and take down websites or contents deemed to be 
+in  contravention  of  the  legislation’s  ‘values’.  The  involvement  of  tech 
+companies, and particularly of ISPs, into security governance breaches the 
+neutrality argument set forth by digital rights’ proponents.
+While awareness on digital rights intensies within Palestinian civil soci-
+ety, thank to work of organizations such as 7amleh, these battles mainly 
+focus on advocacy. The imposed obsolete internet technologies available 
+to Palestinians (cfr. Arafeh etal. 2015)—that would represent an infringe-
+ment of the digital right to band per capita—seriously undermine alterna-
+tive  engagements  (such  as  I2P,  VPN,  and  mesh-networking)  and  the 
+making of digital rights from below. Alongside the Israeli occupation, the 
+PA’s  legislation further  punishes  the  use  of  alternative  ways  to  connect 
+online: Article 31 outlaws accessing internet through VPNs and weakens 
+the extent in which users can elude trafc blocks and algorithmic scanning. 
+In  turn,  these  governance  arrangements  make  PA’s  political  opponents 
+particularly vulnerable, as in fact several journalists have been arrested, and 
+critics’  websites  are  constantly  taken  down.  To  counter  this  trend, 
+Palestinians  activists  launched  different  online  campaigns  demanding 
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+260 
+social media and video sharing platforms not to violate their right to free-
+dom of expression through the removal of contents.
+Tightening the  ‘vise’  over  Palestinian  digital  rights  through  the  con-
+tinuous  ne-tuning  of  jaws  of  censorship  and  control,  Israeli  and  PA’s 
+practices and legislations  inspire a reection on those risks that are con-
+nected to thinking human rights in normative and prescriptive terms. As 
+Palestinians have generally access to their right to broadband, the existing 
+violations of human rights escape UNHRC’s scheme. Relatedly, shielding 
+policing measures over content management through concerns over secu-
+rity  appears  to  further  advance  the  contextual  framework  that  Perugini 
+and Gordon (2016) dene the ‘human rights to dominate’. Through the 
+denition and setting up of normative schemes that are coherent (and law-
+ful) with liberal human rights framework—imagining a casual correlation 
+between technology and freedom—lawfare and policing seize Palestinian 
+cyberspace for the practice of dissent, freedoms, and the making of human 
+rights from below.
+CONCLUSIONS
+In Philip K.Dick’s 1956 sci- novel The Minority Report, three mutants 
+are able to foresee all crimes before they occur. Taking place in a future 
+world, these ‘precogs’ are connected into a great machine and assist the 
+crime  division  to  arrest  suspects  before  any  unlawful  behavior  actually 
+manifests in reality. While questioning how political control and individual 
+autonomy  intersect  on  security  grounds,  this  short  story  foresaw  how 
+dogmatic approaches to technology can lead to a reduction of those same 
+liberties that technology ought to enable or protect. As shown in the case 
+of Palestine, accessing internet appears to lead to the disabling, rather than 
+enabling,  of  political  liberties  and  individual  freedom.  ‘Who  owns’  the 
+infrastructures also affects how contents are managed and disciplined, thus 
+calling into question the de-politicization of technologies at large.
+In this sense, the rst critique toward the inclusion of the right to broad-
+band can be raised. The  equation between internet  access and  increased 
+political  freedoms  appears  to  be  consistent  with  liberal  approaches  to 
+(internet) technology as well as to human rights. As the UNHRC (2016, 
+p.2) recognizes the strategic role of “advanced technology to better pre-
+dict, analyze and respond to critical human rights situations”, the internet 
+would serve as a tool for advancing the human rights agenda. As pointed 
+out by opponents of  the  resolution, this  deterministic understanding of 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 261
+internet access, and technological infrastructures more in general, reects 
+those mainstream views on  technology that assume infrastructures to  be 
+neutral and independent from political considerations. Being in their sur-
+face detached from political discourses, in fact, infrastructures are thought 
+to enable the fruition of a service, or a human right. As shown in the con-
+text  of  the Israeli  occupation—where  access  to  internet  for  Palestinians 
+signies becoming a suspect—it appears problematic to  detach rights  to 
+broadband from questioning infrastructural ownership and control, that is, 
+re-establishing internet as a common in the spirit of its founders.
+Secondly, the disconnect between the battle for digital rights and  the 
+inclusion of the right to broadband into the human rights agenda appears 
+to  stem  from  the  risk  that,  by  formalizing  very  low  standards  for  how 
+ contents are managed (i.e. accessed, policed, censored, etc.) through the 
+framing of human rights, governments might normalize the implementa-
+tion of restrictive, yet lawful, measures—as shown in the context of denied 
+Palestinian digital rights. Whereas the inclusion of digital rights into the 
+agenda of human rights might put pressure on authoritarian regimes for 
+guaranteeing decent standards, it might prove to be detrimental in those 
+contexts where these battles aim higher. In this sense, choices for digital 
+rights activists appear to be of a tactical nature and differ depending on the 
+context.  At  the  same  time,  rethinking  human  rights  as  dynamic  battle-
+elds, that is, re-politicizing them, opens up opportunities for ‘taking back 
+the tech’ for all. In this spirit, it is not enough to guarantee access to inter-
+net through individual rights, but the discourse should shift its focus also 
+on collective ones.
+Besides being seen as a displacement, Palestine often comes to be seen as 
+a ‘precog’ itself. Observing Palestine, and its political dynamics as a lab (see 
+Turner 2015; Khalili 2010), we are always reminded of how humanity goes 
+lost, but always recongures through productive desire and steadfastness. 
+While issues of digital rights are common to the entire world, and interro-
+gate the future of political freedoms and human rights, the vise of the Israeli 
+occupation and the recent PA’s legislation constitutes the Palestinian case 
+as a unique standing point to reect on the ‘type’ of internet, and technolo-
+gies more in general, we have to expect and thus articulate and desire as an 
+alternative. This begins with challenging the normative and deterministic 
+assumption that mainstream human rights proponents have about internet 
+technology, that is, that accessing internet makes us freer. As soon as Dick’s 
+imagined machine reports  future  unlawful  endeavors  committed  by  the 
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+262 
+director of the crime division, he nally starts believing that the machine is 
+unreliable, and he’s forced to resign. Approaching his successor, he whis-
+pers: “Better keep your eyes open. It might happen to you at  any time” 
+(Dick 1956, p.14).
+NOTES
+1.  In this  chapter, the word  internet is  used without  capitalization. On  the 
+one  hand,  this  choice  reects  what  has  become  largely  the  norm  in 
+European  publications.  On  the  other  hand,  the  common  noun  appears 
+more coherent with the arguments proposed throughout this piece.
+2.  The non-governmental organization AccessDown denes an internet shut-
+down as the “intentional disruption of internet or electronic communica-
+tions,  rendering  them  inaccessible  or  effectively  unusable,  for  a  specic 
+population or within a  location,  often  to  exert  control  over  the  ow  of 
+information”.  More  information  and  empirical  studies  can  be  found  at 
+https://www.accessnow.org/ (Last accessed on 7 January 2018).
+3.  Already in 2003, under the auspice of the United Nations (UN), the World 
+Summit on the Information Society (WSIS) underlines the importance of 
+protecting the  ‘information society’  to guarantee  freedom of  expression. 
+Only in 2011, however, the UN Special rapporteur on the promotion and 
+protection of the right to freedom of opinion and expression recognized 
+the  importance  of  the  internet,  and  access  to  it,  as  “unlike  any  other 
+medium, the internet enables individuals to seek, receive and impart infor-
+mation of all kinds instantaneously and inexpensively across national bor-
+ders” (Recommendation nr. 67).
+4.  Different global campaigns have a strong focus on monitoring and advo-
+cating for the ‘right to internet access’: such as AccessNow established in 
+2009 after the Iranian elections and promoting the campaign #KeepItOn 
+(now joined by hundreds of other networks and organizations) or ONE.
+org that focuses on the relationship between internet access and  sustain-
+able development.
+5.  Among those peculiar factors that are commonly referred to as triggering 
+the Arab Spring—authoritarian regimes and poverty (see Gelvin 2012)—
+the importance of  social media, and internet  more in general, is debated 
+between cyberphiles  and  cyberskeptics.  Whether  facilitating  and  igniting 
+protests (see Stepanova 2011), or existing only as subordinated to protests 
+in the ‘real world’ (Khondker 2011), the young age of Arab populations 
+(and  thus  a  very  high  percentage  of  digital  natives)  collided  with  the 
+authoritarian policies of the regimes.
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 263
+6.  Produced  by  AccessNow’s  Shutdown  Tracker  Optimization  Project 
+(STOP),  this  data includes  “full  network  shutdowns,  bandwidth throt-
+tling,  and  service-based  blocking  of two-way  communication  platforms, 
+such as social media (for example, Twitter, WhatsApp, and Viber) or email” 
+(https://www.accessnow.org/keepiton-shutdown-tracker/).
+7.  At its  very beginning,  the digital  rights movement  focused on  questions 
+related to copyright, data privacy, and its proprietorship (as internet tech-
+nologies were mainly available in the West). Only in the aftermath of inter-
+net shutdowns  across the  globe,  digital  rights  activists  included  internet 
+access  in  their  political  platforms,  whereas  many  international  organiza-
+tions prioritized  accessibility  over  the  broader range of  digital  rights  (as 
+their focus primarily targeted developing countries).
+8.  Far  from  being  established  in  academic  circles,  this  debate  has  mainly 
+opposed ‘technologists’ (i.e. tech professionals) to international organiza-
+tions. In this sense, the critique has largely focused on internet access and 
+its essence, rather than taking issue with what constitutes a human right.
+9.  The term kill-switch, mainly employed in cyber-defense discourses, refers 
+to a government’s activation of a single shutoff system for the closure of 
+internet access and trafc for its entire territory. Different countries—such 
+as Egypt,  India, Turkey,  and the  United  Kingdom—adopted legislations 
+entrusting the military to activate internet kill-switches in cases of threats 
+to national security.
+10.  For example, in response to pressures about enforcing net neutrality, the 
+United  States’  Federal  Communications  Commission  (FCC)  classied 
+Internet  Service Providers (ISPs)  as  ‘common  carriers’.  In  common  law 
+countries, this denition applies to carriers that, in line with specic legisla-
+tions, are bound to provide services to the general public (as opposed to 
+‘contract carriers’  that do not  have  the  same  obligation).  However, this 
+distinction does not exist in civil-law systems.
+11.  Independent  wireless  communities,  available  across  different  countries, 
+consist of computer networks that are built by users without a central con-
+trol or ownership, contrarily to traditional single-entity ISPs that manage 
+the network.
+12.  Of course, this debate also pertains how embodied experiences occur in the 
+encounter between the individual and the web (cfr. Cristiano 2018).
+13.  According  to  Twitter  and  Facebook  transparency  reports,  available  on 
+their websites, the respective sites remove a signicant amount of content 
+at the request of governments around the world. The reports note that the 
+companies fulll government requests upon nding that the post violates 
+either their Community Standards or the requesting government’s laws.
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+264 
+14.  As of June 2017, 51% of the world’s population is on internet. In 2015, 
+the  International  Telecommunication  Union  estimated  75%  would  be 
+online by the end of the year.
+15.  I2P consists of an anonymous overlay network, that is, ‘a network within a 
+network’. Its scope resides into the protection of data from dragnet sur-
+veillance  and  monitoring  by  third  parties  such  as  ISPs.  More  info  at 
+https://geti2p.net/en/about/intro.
+16.  Also in this case, identifying the ‘individual’ (and their individual data) is 
+not a univocal process—as data are produced in relation to other dynamics 
+of proprietorship.
+17.  As in fact no network can ever be fully ‘secure’—in terms of data and pri-
+vacy protection—many activists (especially in North America and Western 
+Europe) decide to withdraw from the internet and coordinate only ofine.
+18.  Palestinian Authority’s (PA) online public relations have become increas-
+ingly professionalized (Craig Parsons, 2005). Palestinian political parties, 
+armed factions, and advocacy groups have strengthened their online pres-
+ence.  Aligning  Israeli  occupation  policies  to  apartheid  South  Africa, 
+Boycott Divestment and Sanctions (BDS) campaigners mainly rely on digi-
+tal platforms to advocate for an economic, academic, and cultural boycott 
+of Israel (Barghouti 2011).
+19.  Evidence shows  how Israel  makes pressure to  social media  companies in 
+order to remove contents that are critical of Israel. Moreover, The Guardian 
+has leaked information regarding the inclusion of the category ‘Zionists’ in 
+those that are to be protected in content management. Similarly, Facebook, 
+solicited by the Israeli Cyber Unit, suspended several accounts of Palestinian 
+journalists associated to large news networks.
+20.  In  2015,  IDF  also  released  a  virtual  game—IDF Ranks—that  provides 
+players  with  the  opportunity  of making  a  virtual  career  in  the  army.  By 
+commenting on online pro-Israeli news or sharing IDF’s media contents, 
+users earn points and thus virtual career advances. The so-called gamica-
+tion of the conict also encompasses full immersive and augmented reality 
+video games (cfr. Cristiano and Distretti 2017).
+21.  Only in 2017, Palestinian ISPs and mobile companies provided 3G inter-
+net services in the West Bank, when Israeli authorities nally lifted a ban on 
+the technology  as  a  result  of  an  agreement  reached  with  the Palestinian 
+Ministry  of  Telecommunications  and  Information  Technology (MTIT). 
+The ban, however, was not lifted on the Gaza Strip that still relies on 2G 
+connectivity.
+22.  This  only  applies  to  Palestinians  both  in  the  territories  and  in  Israel, 
+whereas Israelis enjoy wide freedom of speech online (as in the emblematic 
+case of Ayelet Shaked, Ministry of Justice, who wished a genocidal solution 
+for Palestinians).
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 265
+23.  Convicted Palestinians are not informed about which online activity led to 
+their administrative detention.
+24.  In  October 2015,  poet  Dareen  Tatour  was arrested  for  posting  a poem 
+about resistance to Israel’s 50-year-old military rule. She spent time in jail 
+and  has  been  under  house  arrest  for  over  a  year  and  a  half.  Civil  rights 
+groups and individuals in Israel, the Occupied Palestinian Territory (OPT), 
+and abroad have criticized Israel’s detention of Tatour and other Palestinian 
+internet users as violations of civil and human rights.
+25.  The full English translation of the Presidential Decree No. 16 is available 
+at: https://goo.gl/Dj1t1Q.
+REFERENCES
+Abdeen, Isam. 2018. Measures Taken by Al-Haq to Counter the Law by Decree on 
+Cybercrimes. Ramallah: Al-Haq– Law for Human Right.
+Abujidi,  Nurhan.  2009.  The  Palestinian  States  of  Exception  and  Agamben. 
+Contemporary  Arab  Affairs  2  (2):  272–291.   https://doi.org/10.1080/ 
+17550910902857034.
+Aouragh, Miriyam.  2016. Hasbara  2.0:  Israel’s Public  Diplomacy in  the  Digital 
+Age. Middle East Critique 25 (3): 271–297. https://doi.org/10.1080/1943
+6149.2016.1179432.
+Arafeh,  Nur,  Bahour,  Sam,  and  Abdullah,  Wassim. 2015.  “ICT:  The  Shackled 
+Engine  of  Palestine’s  Development”,  Al-Shabaka  Policy  Brief,  9  November, 
+2015.  https://al-shabaka.org/briefs/ict-the-shackled-engine-of-palestines-
+development/
+Barghouti,  Omar.  2011.  Boycott,  Divestment,  Sanctions:  The  Global  Struggle  for 
+Palestinian Rights. London: Haymarket Books.
+Bendrath, Ralf, and Mueller, Milton. 2010. The End of the Net as We Know It? 
+Deep Packet Inspection and Internet Governance. SSRN Publication, August 
+5. https://doi.org/10.2139/ssrn.1653259
+Bobbio, Norberto. 1996. The Age of Rights. NewYork: Wiley.
+Brown,  Chris.  1997.  Universal  Human  Rights:  A  Critique.  The  International 
+Journal  of  Human  Rights  1  (2):  41–65.  https://doi.
+org/10.1080/13642989708406666.
+Castells, Manuel. 2001. The Internet Galaxy. Reections on the Internet, Business, 
+and Society. Oxford: Oxford University Press.
+———.  2007.  Communication,  Power  and  Counter-power  in  the  Network 
+Society. International Journal of Communication 1: 238–266.
+Cerf, Vinton. 2012. Internet Access Is Not a Human Right. The NewYork Times, 
+January 4. http://www.nytimes.com/2012/01/05/opinion/internet-access-
+is-not-a-human-right.html.
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+266 
+Craig Parsons, Nigel. 2005. The Politics of the Palestinian Authority: From Oslo to 
+Al-Aqsa. London: Taylor & Francis.
+Cristiano,  Fabio.  2018.  Bodies  of  Cyberwar:  Violence  and  Knowledge  Beyond 
+Corporeality.  In  Experiences  in  Researching Conict  and  Violence, ed.  Althea 
+Rivas and Brendan Browne, 145–160. Bristol: Policy Press.
+Cristiano, Fabio, and Emilio Distretti. 2017. Along the Lines of the Occupation: 
+Playing  at  Diminished  Reality  in  East  Jerusalem.  Conict  and  Society  3  (1): 
+130–143. https://doi.org/10.3167/arcs.2017.030111.
+Derfner, Larry. 2014. Against Spy Revelations, Israel Doth Protest Too Much”. 
++972mag, September 16. https://972mag.com/against-spy-revelations-israel-
+doth-protest-too-much/96781.
+Dick, Philip. 1956. The Minority Report. London: Victor Gollancz.
+Drezner,  Daniel.  2004.  The  Global Governance  of  the  Internet:  Bringing  the 
+State  Back  In.  Political  Science  Quarterly  119  (3):  477–498.  https://doi.
+org/10.2307/20202392.
+Gelvin, James. 2012. The Arab Spring: What Everybody Needs To Know. NewYork: 
+Oxford University Press.
+Green, Lelia. 2001. Technoculture: From Alphabet to Cybersex. Crows Nest: Allen 
+& Unwin.
+Hildenbrand, Jerry. 2016.  How Wi-Fi Mesh  Networks  Work.  Android Central. 
+October  13.  https://www.androidcentral.com/how-wi-mesh-networks-
+work? _ga=2.118951497.1982325821.1494489061-13330 
+92243.1494489050.
+Human Rights Watch. 2017. India: 20 Internet Shutdowns in 2017. https://www.
+hrw.org/news/2017/06/15/india-20-internet-shutdowns-2017.  Accessed 
+10 Mar 2018.
+Joyce, Daniel. 2015. Internet Freedom and Human Rights. European Journal of 
+International Law 26 (2): 493–514. https://doi.org/10.1093/ejil/chv021.
+Khalili,  Laleh.  2010.  The  Location  of  Palestine  in  Global  Counterinsurgencies. 
+International  Journal  of  Middle  East  Studies  42  (3):  413–433.  https://doi.
+org/10.1017/S0020743810000425.
+Khondker, Habibul  Haque.  2011.  Role of the  New  Media  in  the  Arab  Spring. 
+Globalizations 8 (5): 675–679. https://doi.org/10.1080/14747731.2011.62
+1287.
+Kuntsman, Adi, and Rebecca Stein. 2015. Digital Militarism: Israel’s Occupation 
+in the Social Media Age. Palo Alto: Stanford University Press.
+Levi,  Elior.  2014.  IDF  Intelligence  Soldiers  Refuse  to  Serve:  We  Won’t  Work 
+Against  Innocent  Palestinians.  Ynet,  December  9.  https://www.ynetnews.
+com/articles/0,7340,L-4570256,00.html.
+Lucchi, Nicola. 2011. Access to Network Services and Protection of Constitutional 
+Rights: Recognizing the Essential Role of Internet Access for the Freedom of 
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+ 267
+Expression.  Cardozo  Journal  of  International  and  Comparative  Law  19  (3): 
+645–678.
+MacKinnon,  R.  2008.  Flatter  World  and  Thicker  Walls?  Blogs,  Censorship  and 
+Civic Discourse in  China. Public Choice 134:  31. https://doi.org/10.1007/
+s11127-007-9199-0.
+McDowell,  Robert.  2012.  The  U.N.Threat  to  Internet  Freedom.  Wall  Street 
+Journal  (21  February  2012).  Available  at  https://goo.gl/xZYm4X.  Last 
+Retrieved on 12 Nov 2017.
+McLuhan, Marshall.  1967.  The  Medium  Is the  Massage:  An Inventory  of  Effects. 
+NewYork: Random House.
+McNeilly,  Kathryn.  2015.  Reclaiming  the  Radical  in  Universal  Human  Rights: 
+Universality  as  Universalisation.  International  Human  Rights  Law  Review 4 
+(2): 256–276. https://doi.org/10.1163/22131035-00402007.
+———.  2017.  Human  Rights  and  Radical  Social  Transformation:  Futurity, 
+Alterity, Power. London: Routledge.
+Nashif, Nadim. 2017. Surveillance of Palestinians and the Fight for Digital Rights. 
+Al-Shabaka  Policy  Brief,  October  23.   https://al-shabaka.org/briefs/ 
+surveillance-palestinians-ght-digital-rights/.
+Nielsen, Jakob.  2016. The  Distribution of  Users’  Computer Skills:  Worse  Than 
+You  Think.  Nielsen  Norman  Group,  November  13.  https://www.nngroup.
+com/articles/computer-skill-levels/.
+Perugini,  Nicola,  and  Neve  Gordon.  2016.  The  Human  Right  to  Dominate. 
+Oxford: Oxford University Press.
+Peters, Anne. 2016. Beyond Human Rights– The Legal Status of the Individual in 
+International Law. Oxford: Oxford University Press.
+Petersen, Gregers. 2014. Freifunk: When Technology and Politics Assemble into 
+Subversion. In Subversion, Conversion, Development: Cross-Cultural Knowledge 
+Exchange and the Politics of Design, ed. James Leach and Lee Wilson, 39–56. 
+Cambridge, MA: MIT Press.
+Rheingold,  Howard.  1994.  The  Virtual  Community.  Homesteading  on  the 
+Electronic Frontier. Cambridge, MA: MIT Press.
+Said, Edward. 1999. Out of Place: A Memoir. London: Vintage Books.
+Schaeffer Omer-Man, Michael. 2016. How Israel Is Trying to Enforce Gag Orders 
+Beyond Its Borders. +972mag, August 9. https://972mag.com/how-israel-is-
+trying-to-enforce-gag-orders-beyond-its-borders/121266/.
+Skepys, Brian. 2012. Is There a Human Right to the Internet? Journal of Politics 
+and Law 5 (4): 15–29. https://doi.org/10.5539/jpl.v5n4p15.
+Stepanova, Ekaterina. 2011. The Role of Information Technology Communications 
+in the Arab Spring. PONARS Eurasia Policy Memo 159. http://pircenter.org/
+kosdata/page_doc/p2594_2.pdf.
+Tawil-Souri, Helga.  2013.  Networking  Palestine,  Creating  and  Limiting Media 
+and Technology Flows: Television and Telecommunications Since 1993. In The 
+  INTERNET ACCESS ASHUMAN RIGHT: ADYSTOPIAN CRITIQUE… 
+fabio.cristiano@svet.lu.se
+268 
+Oslo Accords 1993–2013: Twenty Years with What Results? ed. Petter Bauck and 
+Mohammed Omer. Cairo: AUC Press.
+Tawil-Souri, Helga, and Miriyam Aouragh. 2014. Intifada 3.0? Cyber Colonialism 
+and  Palestinian  Resistance.  Arab  Studies  Journal  22  (1):  102–133  http:// 
+connection.ebscohost.com/c/articles/96804537/intifada-3-0-cyber- 
+colonialism-palestinian-resistance.
+Turner,  Mandy.  2015.  Peacebuilding  as  Counterinsurgency  in  the  Occupied 
+Palestinian Territory. Review of International Studies 41 (1): 73–98. https://
+doi.org/10.1017/S0260210514000072.
+UNHRC. 2016. The Promotion, Protection and Enjoyment of Human Rights on the 
+Internet. https://goo.gl/xWFDjz. Accessed on 10 Mar 2018.
+United  Nations  General  Assembly.  1948.  The  Universal  Declaration  of  Human 
+Rights ( UDHR), Resolution 217 A ( III). http://undocs.org/A/RES/217(III). 
+Accessed on 10 Mar 2018.
+Westra, Laura. 2011. Human Rights: The Commons and the Collective. Vancouver: 
+UBC Press.
+Wu,  Tim.  2003.  Network  Neutrality,  Broadband  Discrimination.  Journal  of 
+Telecommunications  and  High Technology Law  2  (1):  141–180.   https://doi.
+org/10.2139/ssrn.388863.
+ F. CRISTIANO
+fabio.cristiano@svet.lu.se
+Citations (2)
+References (49)
+... Recently, governments' decisions regarding internet shutdowns have tremendously been increased throughout the world and the data testifies to the fact that more than 30 countries have experienced one or more internet shutdowns between 2015 and 2019 (Cristiano, 2019). The human rights discourse and framework provides theoretically internet freedom with undisputable legitimacy, for instance, the UN Human Rights Council announced in July 2012 that human rights apply online as they do offline (Jamart, 2014). ...
+Mediated democracy and internet shutdown in India
+Article
+Full-text available
+Dec 2020J Inform Comm Ethics Soc
+Md Nurul MomenHarsha S.
+Debobrata Das
+View
+Show abstract
+... In response to any kind of political and social movement, authoritarian governments across the border occasionally shut down many websites, along with the arrest of several anti-government bloggers and political activists. However, under the international legal instruments, for instance, Universal Declaration of Human Rights (UDHR), denial of the Internet access has been considered as a serious violation of fundamental right to freedom of expression (Cristiano 2019). The paper has deliberately selected some authoritarian governments in countries control freedom of expression on the Internet. ...
+Freedom of expression in the Digital Age: Internet Censorship
+Chapter
+Full-text available
+May 2020
+Md Nurul Momen
+View
+Show abstract
+Recommended publications
+Discover more
+Article
+Post-Zionist Critique on Israel and the Palestinians: Part I: The Academic Debate
+December 1997 · Journal of Palestine Studies
+Ilan Pappe
+This three-part article describes changes in how Israelis-scholars, writers, poets, film makers, and others on Israel's cultural scene-view themselves and the ''Other.'' Part I presents the scholarly debate on Israel's past and present that laid the groundwork for the transformation of the cultural discourse described in the second and third parts. The debate, launched by new findings in the ... [Show full abstract]
+Read more
+Chapter
+Hydro-Apartheid and Water Access in Israel-Palestine: Challenging the Myths of Cooperation and Scarc...
+January 2014
+Clemens Messerschmid
+This chapter challenges the most enduring myths surrounding access to water in the Israel-Palestine context by tracing the main mechanisms and interests at work shaping water relations, and by contextualizing the conflict over control and access to water resources. It argues that when water is lifted from the purely technical sphere and analysed as a political issue, the stark asymmetry of power ... [Show full abstract]
+Read more
+Article
+A Critique of the 1988 Brookings Report
+October 1988 · Journal of Palestine Studies
+Muhammad Hallaj
+In the end, one is left with an ambivalent view of the report. Spurts of perceptive observations are crowded out by contradictory assertions and self-defeating prescriptions. In many of the issues raised, the report suffers from the same ailments which have aborted peace initiatives before: the inability to protect the merits of the case against the onslaught of the balance of power, or professed ... [Show full abstract]
+Read more
+Article
+The Radical Social Scientists and Israeli Militarism
+October 1996
+Yoram Peri
+Israel Studies 1.2 (1996) 230-266 As israel approaches its jubilee, it has become an iconoclastic society. The myths established during its formative years are now being destroyed. The first to attack received truths since 1987 were the revisionist historians, followed by the critical sociologists. It is now the turn of the radical social scientists, who focus on the central question in the ... [Show full abstract]
+Read more
+	
+or
+	Discover by subject area
+Recruit researchers
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2021 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprint

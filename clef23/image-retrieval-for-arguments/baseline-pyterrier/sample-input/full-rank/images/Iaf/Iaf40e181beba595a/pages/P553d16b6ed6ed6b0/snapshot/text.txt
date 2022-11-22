@@ -1,0 +1,166 @@
+Geosocial networking
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+An infographic illustrating and comparing the popularity of different geosocial networking services in August 2010
+
+Geosocial networking is a type of social networking in which geographic services and capabilities such as geocoding and geotagging are used to enable additional social dynamics.[1][2] User-submitted location data or geolocation techniques can allow social networks to connect and coordinate users with local people or events that match their interests. Geolocation on web-based social network services can be IP-based or use hotspot trilateration. For mobile social networks, texted location information or mobile phone tracking can enable location-based services to enrich social networking.
+
+Contents
+1	History
+2	Uses
+3	Additional features
+3.1	Ad hoc networking
+3.2	Food sourcing
+3.3	Freelancing
+3.4	Location-planning
+3.5	Moodsourcing
+3.6	Paperless ticketing
+3.7	Social shopping
+3.8	Public safety and news media
+4	Privacy policies
+4.1	Opt-in vs. opt-out
+5	See also
+6	References
+History[edit]
+
+The evolution of geosocial can be traced back to the implication of social application programming interfaces by internet-based corporations in the early 2000s. eBay uses one of the oldest, announcing its social API at the end of 2000 and allowing free access to over 21,000 developers in late 2005.[3][4] Amazon's primary API was released in 2002, which allowed developers to pull consumer information like product reviews into third-party applications.[5] Google, Inc. began testing an API in April 2002 and currently owns dozens that are used by thousands of applications.[3] The Facebook Developer's API is considered the first to be specific to a social network and was launched in 2006. Facebook later created an open stream API, allowing outside developers access to user's status updates.[6] By June, 2010, Twitter integrated API into their applications and is considered the most open of all social networks. By 2008, expanded geolocation technologies including cell tower localization became available and devices such as digital cameras and camera phones began to integrate features such as Wi-Fi connectivity and GPS navigation into more sophisticated capabilities.
+
+Uses[edit]
+
+Geosocial networking allows users to interact relative to their current locations. Web mapping services with geocoding data for places (streets, buildings, and parks) can be used with geotagged information (meetups, concert events, nightclubs or restaurant reviews) to match users with a place, event or local group to socialize in or enable a group of users to decide on a meeting activity. Popular geosocial applications like Yelp, Gowalla, Facebook Places and Foursquare allow users to share their locations as well as recommendations for locations or 'venues'. New applications follow other approaches and do not focus on places. Instead, they allow users to enrich maps with their own points of interest and build kind of travel books for themselves. At the same time users can explore overlays of other users as collaborative extension.[7]
+
+In disaster scenarios, geosocial networking can allow users to coordinate around collaboratively filtered geotag information on hazards and disaster aid activities to develop a collective situational awareness through an assembly of individual perspectives. This type of geosocial networking is known as collaborative mapping. Furthermore, geolocated messages could assist automated tools to detect and track potential dangers for the general public such as an emerging epidemic.[8][9]
+
+The technology has obvious implications for event planning and coordination. Geosocial has political applications, as it can be used to organize, track, and communicate events and protests. For example, people can use mobile phones and Twitter to quickly organize a protest event before authorities can stop it. People at the event can communicate with each other and the larger world using a mobile device connected to the Internet. Geosocial has the combined potential of bringing a social network or social graph to a location, and having people at a location form into a social network or social graph. Thus social networks can be expanded by real world contact and recruiting new members.
+
+Additional features[edit]
+
+All geosocial networks revolve around specific features that are additional to geolocating.
+
+Ad hoc networking[edit]
+
+A mobile ad hoc network is an opt-in group of mobile devices in the same immediate area linked to a master device. These groups are then able to communicate freely with each other. This sort of social networking is used mostly during events so the host (operating the master device) can provide information, suggestions or coupons specific to the event.[10] An example would be Apple's iGroups.[11]
+
+Food sourcing[edit]
+
+A less-used form of geosocial networking is one mostly used by fast food restaurants, in which customers check-in their orders rather than themselves. Users choose the ingredients of their order, name it, and are awarded points for every order based on their suggestion. Customers are given discounts and coupons for their involvement and the restaurant receives more customers.[12]
+
+Freelancing[edit]
+
+Freelancing networks are created with the specific purpose to allow users to find or post temporary employment opportunities. Users establish and operate a professional profile and are able to connect with past and possible employers, employees, colleagues, classmates and friends.[10]
+
+Location-planning[edit]
+Further information: Location based recommendation
+
+With location-planning, or social-mapping, users are able to search and browse nearby stores, restaurants, etc. Users' venues are assigned profiles and users can rate them, share their opinions and post pictures. These networks use the location of mobile phones to connect users and may also provide directions to and from the venue by linking to a GPS service.[10]
+
+Moodsourcing[edit]
+
+Some networks use moodsourcing as a recreational way to make user's status's seem more similar to personal interaction. In addition to checking in, users convey their current mood with a corresponding emoticon.[10]
+
+Paperless ticketing[edit]
+
+Paperless ticketing is a feature that uses smart phones as digital tickets for events and travel.[10] Besides becoming more convenient than the normal ticketing process, Paperless Ticketing eliminates wasteful paper use. Examples include Apple's 2010 purchased patent for a travel ticketing app, ITravel,[13] and Ticketmaster's smart phone application.
+
+Social shopping[edit]
+
+Social shopping service users create personal profiles to collect information on different items they find. Instead of simply updating their status on other social networks with a description or link of their purchases, users download software that allows them to grab images of those products to post on their own shopping lists. Some social shopping sites form affiliate relationships with merchants, who often pay percent commissions on sales that come as a result of their products being featured on other sites.[14] Sites have gone so far as to allow users to add their credit card number so their purchases are automatically checked in.
+
+Some fashion corporations have invested in sensors placed in their stores and dressing rooms so users on social shopping applications have to physically be in their store or trying something on in order to gather points. This increases participation and encourages customers to try on other clothes.
+
+Public safety and news media[edit]
+
+Most criminal investigations and news events happen in a geographical location. Geosocial investigation tools provide the ability to source social media from multiple networks (such as Twitter, Flickr, and YouTube) without the use of hashtags or keyword searches. Some vendors provide subscription based services to source real-time and historical social media for events.
+
+Privacy policies[edit]
+
+Some sites, like Facebook, have been scrutinized for allowing users to "tag" their friends via email while checking in.
+
+Opt-in vs. opt-out[edit]
+
+An "opt-in" is a permission-based network that requires a user to join or sign up. The host is then given permission to access the user's information and to contact him or her. An "opt-out" network is defaulted to have the user included in a group. Users must remove themselves from the network if they wish to not be included.
+
+See also[edit]
+Crowdmapping
+Geographic information system
+List of social networking websites
+Location inference
+Location awareness
+Virtual community
+References[edit]
+^ Needleman, Rafe; Claire Cane Miller; Adrianne Jeffries (3 September 2010). "Reporters' Roundtable: Checking in with Facebook and Foursquare". CNET. Retrieved 8 October 2010.
+^ "Recommending Social Events from Mobile Phone Location Data", Daniele Quercia, et al., ICDM 2010
+^ 
+Jump up to:
+a b The Evolution of the Social Media API. Mashable.com (2009-05-21). Retrieved on 2012-01-09.
+^ eBay to make APIs free to developers – CNET News. News.cnet.com (2005-11-14). Retrieved on 2012-01-09.
+^ Amazon opens Web services shop – CNET News. News.cnet.com. Retrieved on 2012-01-09.
+^ Facebook To Open Your Status Updates to Developers. Mashable.com (2009-04-26). Retrieved on 2012-01-09.
+^ "STAPPZ Real-Time Travel Guides - Apps on Google Play".
+^ Lampos V, Cristianini N (2010). Tracking the flu pandemic by monitoring the Social Web. Cognitive Information Processing (CIP). pp. 411–416. doi:10.1109/CIP.2010.5604088.
+^ Lampos V, Cristianini N (2011). "Nowcasting Events from the Social Web with Statistical Learning" (PDF). ACM Transactions on Intelligent Systems and Technology. 3 (4): 1–22. doi:10.1145/2337542.2337557. Archived from the original (PDF) on 10 March 2012.
+^ 
+Jump up to:
+a b c d e 8 Mobile Geo-Location Application Types. Socialtimes.com (2010-04-22). Retrieved on 2012-01-09.
+^ Apple’s Working on a New Social Location App Called iGroups. The Next Web. Retrieved on 2012-01-09.
+^ Bilton, Nick (13 August 2010). "Making Lunch a Social Networking Game". The New York Times.
+^ Apple Gets Patent for Mobile Paperless 'iTravel' Tickets. SocialTimes.com (2010-04-21). Retrieved on 2012-01-09.
+^ Tedeschi, Bob (11 September 2006). "Like Shopping? Social Networking? Try Social Shopping". The New York Times.
+Categories: Geosocial networkingSocial networksCollaborative mapping
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+Article
+Talk
+Read
+Edit
+View history
+Search
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Permanent link
+Page information
+Cite this page
+Wikidata item
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Languages
+Español
+Nederlands
+Norsk bokmål
+Português
+Русский
+Српски / srpski
+Edit links
+This page was last edited on 5 September 2021, at 23:13 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement

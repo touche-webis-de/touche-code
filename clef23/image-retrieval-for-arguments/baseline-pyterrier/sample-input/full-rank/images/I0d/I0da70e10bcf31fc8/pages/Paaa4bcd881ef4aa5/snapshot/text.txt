@@ -1,0 +1,88 @@
+Jen Kienzle
+94 Followers
+About
+Follow
+
+Sign in
+
+Get started
+Social media, social networking, and social networks: Definitions & approaches
+
+Jen Kienzle
+
+Jan 23, 2015·4 min read
+
+As a scholar interested in communication in digital environments, I find it interesting to tangle through the definitions of ‘social media’, ‘social network sites’, and ‘social networking sites’ since so much research on communication and technology has emerged in multiple disciplines. I often find myself pondering on what term to use and it usually comes down to how and where I want to use it. In order to define each term, I turn to boyd and Ellison’s (2007) seminal article Social Network Sites: Definition, History, and Scholarship, simple Google searches, and my own commentary.
+
+By looking at all three terms collectively, the one common theme is ‘social’, which emphasizes the communicative aspect of each term. It’s no surprise that technology has increased our communication in terms of volume and choice.
+
+The words that each term does not share raises more questions and points…
+
+What is ‘media’, ‘network’, and ‘networking’?
+
+boyd and Ellison (2007) explained that networking and network imply two very different things. Networking is the act of initiating a relationship with a stranger or attempting to expand one’s network whereas network is simply the ties that an individual has such as acquaintances, friends, family, and co-workers. boyd and Ellison argued that since sites such as Facebook do not emphasize networking that it is more of a social network site than a social networking site. So, does this mean that LinkedIn is a social networking site since its primary purpose is networking within one’s career field? Nevertheless, boyd and Ellison present a clear definition of the capabilities of a social network site:
+
+1. Construct a public or semi-public profile within a bounded system
+
+2. Articulate a list of other users with whom they share a connection
+
+3. View and traverse their list of connections and those made by others within the system.
+
+The word ‘media’ is a bit more loaded than networking and network. boyd and Ellison did not really delve into this term and perhaps thats because journalism, business, and mass media are disciplines that embrace social media more so than communication scholars. The term ‘media’ comes from ‘medium’, including forms such as television, radio, and newspapers. Adding ‘social’ is really just adding the capability to communicate with the media (even though communicating with media has always been around). The scope of this blog post does not warrant me to run through the history of media, though John Durham Peters Speaking into the Air does a great job at exploring how media has transformed throughout history and regards to communication.
+
+By Googling definitions of social media, I arrived at a couple different conceptions:
+
+Google search provides this definition:
+
+websites and applications that enable users to create and share content or to participate in social networking.
+
+Ah. So social media enables social networking…yet a Huffington Post article by Burke reveals a different definition:
+
+Social media is the media (content) that you upload — whether that’s a blog, video, slideshow, podcast, newsletter or an eBook. Consider social media as a one-to-many communication method. Although people can respond and comment, you own the content and have to produce (write/record/create) the media yourself.
+
+Hm. So social media is not really the place but the content, but also invites communication with others (perhaps networking?).
+
+Are you confused yet? If not, I can also introduce even more terms that scholars have developed over the past decade such as Castells’ mass self-communication, Rainie and Wellman’s networked individual, and Pfister’s networked rhetoric. All terms attempt to explain what ‘new’ media afford for individuals and how these capabilities inform a new self, community, and society.
+
+My preferred term
+
+So what do I prefer? Well it depends on the purpose and place. Generally, I actually prefer social media. Maybe its the inner journalist in me (I was a journalism major and wrote for my college newspaper for a couple years) or maybe its because I see social media everywhere. Social network site does come close though, since I do write plenty of academic papers and social network site is probably the most preferred term in the communication field, largely because of boyd and Ellison’s (2007) article. Thus, I use social network site more in my academic work yet in conversation and in my assignments to students, I usually use social media. I also think social media just sounds better than most terms. But maybe one day I will also create my own term and write a book on it (it can happen, right?).
+
+Overall, I enjoy reading and talking about these terms and discovering new ones. By dissecting the definition of these terms, we can better dissect technology and its impact on our lives.
+
+References:
+
+boyd, D. M., & Ellison, N. B. (2007). Social network sites: Definition, history, and scholarship. Journal of Computer-Mediated Communication, 13(1), 210–230. doi:10.1111/j.1083–6101.2007.00393.x
+
+Jen Kienzle
+
+Communication+Identity+Technology
+
+Follow
+JEN KIENZLE FOLLOWS
+Deepak Chopra
+Medium
+ken_homer
+danah boyd
+Siobhan O'Connor
+
+See all (101)
+
+2
+
+2
+
+More from Jen Kienzle
+Follow
+
+Communication+Identity+Technology
+
+About
+
+Write
+
+Help
+
+Legal
+
+To make Medium work, we log user data. By using Medium, you agree to our Privacy Policy, including cookie policy.

@@ -1,0 +1,1 @@
+/HTML[1]/BODY[1]/DIV[1]/DIV[1]/ARTICLE[1]/P[3]/A[1]/IMG[1]

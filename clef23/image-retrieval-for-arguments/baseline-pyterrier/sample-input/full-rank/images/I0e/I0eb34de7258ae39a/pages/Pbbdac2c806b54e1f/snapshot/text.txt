@@ -1,0 +1,243 @@
+Sign in
+
+Get started
+Follow
+258K Followers
+·
+Debugger
+About
+
+This is an email from Pattern Matching, a newsletter by OneZero.
+
+You have 2 free member-only stories left this month. Sign up for Medium and get an extra one
+
+Top highlight
+
+PATTERN MATCHING
+The Protests Remind Us Why Social Media Is Worth Fixing
+Twitter, Facebook, and TikTok are distorting our view of a crisis. But they’re also countering the distorted view we had before.
+
+Will Oremus
+
+Jun 6, 2020·9 min read
+
+Photo: TIMOTHY A. CLARY/AFP via Getty Images
+
+Welcome back to Pattern Matching, OneZero’s weekly newsletter that puts the week’s most compelling tech stories in context.
+
+With protests raging, police violence surging, the pandemic simmering, and the president fanning the flames, Facebook CEO Mark Zuckerberg this week defended his laissez-faire approach to online speech — and, in particular, to inflammatory posts by President Trump — in a 25,000-person video call with the company’s suddenly restive employees. “The net impact of the different things that we’re doing in the world is positive,” he reassured them, “even if every decision doesn’t go in the way that everyone wants.”
+
+We’re talking about the social network whose most popular content in recent weeks has included the “Plandemic” anti-vaccine conspiracy video, which downplayed the risks of coronavirus, and a video in which the pro-Trump provocateur Candace Owens called George Floyd a “horrible human being.” The idea that it could be a net positive might seem laughable. But Facebook’s critics should not entirely write off the value that it, and platforms like it, provide. The protests show social media at its worst, yes, but also at its best — and understanding both is the key to envisioning what a better social platform might look like.
+
+Consider the role of Facebook, and social media more broadly, in protest movements, including Black Lives Matter. If social graphs and personalization algorithms that show us what we want to see are driving the left and right farther apart, as some research suggests, they’re also turbocharging political agendas that lay outside the old bipartisan consensus, and cracking open the Overton window to fresh ideas. It’s on Facebook, Twitter, and even TikTok that shaky smartphone videos of police brutality are going viral, and once-radical demands such as defunding the police are picking up steam.
+
+Without these platforms, we’d still be totally reliant on a press corps whose demographics and values skew white and upper-middle-class, and which for decades has helped to prop up — or at least failed to topple — a status quo of white supremacy. The problem with Zuckerberg’s framing of Facebook as a net positive, then, is not that it’s absurd, per se — although it is conveniently unfalsifiable, as the New York Times’ Kevin Roose points out. The problem is that, when deployed as a shield against criticism, it’s a red herring — a hand-waving thought experiment that’s irrelevant to the question of how Facebook should regulate its platform. What matters now is not judging whether social platforms are a force for good or ill, but figuring out what it would take to make them better.
+
+The Pattern
+
+Social media is shaping the protests, for better and worse.
+
+💬 Scrutiny of social media companies’ role in the protests so far has largely focused on their policies toward the posts of one person: Donald Trump. In last week’s newsletter, I contrasted the postures of Facebook and Twitter. This week, Snapchat followed Twitter in taking a stand, saying it will no longer promote Trump’s snaps in its influential Discover tab.
+
+💬 Notably, Snap based the decision not on Trump’s snaps, but on his tweets, including one that threatened protesters with “vicious dogs” and “ominous weapons.” CEO Evan Spiegel wrote in a public memo to employees that Trump’s account will remain on the app, subject to its rules. But it will be barred from Discover on the grounds the company “simply cannot promote accounts in America that are linked to people who incite racial violence, whether they do so on or off our platform.” Here Spiegel is embracing two influential ideas as to how social platforms can moderate without playing censor: the concept of free speech but not free reach, and the idea that users can be held responsible for their “off-platform” behavior.
+
+💬 How platforms moderate the speech of public figures, including Trump, is an important question. But it risks overshadowing the ways social platforms are molding the broader discourse around the protests over George Floyd’s killing. Whether a Trump tweet gets a warning label from fact-checkers matters far less, in the short run at least, than how the dynamics of Twitter, Facebook, and TikTok influence public understanding of what’s transpiring in America’s streets.
+
+💬 Collectively, social media platforms have amplified examples of the worst behavior by both police and protesters (or instigators posing as protesters) at the expense of the many demonstrations across the country that have remained peaceful. These effects are not necessarily equal, however. Because people are more likely to follow and be friends with the like-minded, it stands to reason that those who support the protests will see more police brutality, while those who back the police will see more looting. While Facebook Groups may be the ultimate filter bubble, Twitter is notorious for its political silos, and a TikTok user noted that the app seemed to show him much more Black Lives Matter content after he engaged with it.
+
+💬 As the New York Times’ Taylor Lorenz reported, video supercuts of police beating, shoving, spraying, ramming, and otherwise punishing protesters have been among the most-viewed of any content on social media in the past week. A supercut called “This Is a Police State,” made by activist and consultant Jordan Uhl, has been viewed more than 50 million times on Twitter alone; total views across platforms are likely a multiple of that figure. Uhl told Lorenz he intended the video as a corrective to the mainstream media’s focus on looting and property damage, and the notion that it’s just a few bad apples who are responsible.
+
+💬 That the reforms instituted post-Ferguson appear to be insufficient is part of why support is building for a more dramatic overhaul of policing in America. Specifically, calls to defund the police have made the leap from protesters’ handheld signs to mainstream policy discussions on Twitter. When a Vox correspondent tweeted that the idea of abolishing the police was “poorly thought-out,” he was dragged to the point of rescinding it, as advocates pointed out that the theory has in fact been developed over decades by careful thinkers. It’s an example of how social media can help to propel a political critique from the fringes to the point of acceptance by a media establishment that would have otherwise comfortably dismissed it.
+
+💬 As in Ferguson, Twitter has been perhaps the most important conduit between activists and the political and media establishment. But other platforms are contributing in their own ways. Facebook is typically less conducive to high-level policy discourse, but for the same reasons, it might actually be the better venue for real, human conversations about race, Joshua Adams argued in OneZero. TikTok, with its young user base, has become a place for budding activists to learn how to treat tear gas and avoid police surveillance. (Vox’s Rebecca Jennings compiled a viewing list of popular TikToks about the protests.) A Zoom meeting of the Los Angeles Police Commission, which took calls from the public, gave angry protesters a rare chance to be heard in raw form, leading to at least one instantly iconic rallying cry.
+
+💬 For all their potential as tools of protest, however, the platforms ultimately present a deeply distorted picture of what’s going on. For every legitimate video of police or protester misbehavior, there are other mega-viral clips that deeply mislead or outright lie about what’s happening. A viral video purported to show police in Boston smashing their own cruiser so they could blame it on protesters, a sickening ploy if true. A local TV station’s follow-up — which appeared to garner far less attention than the original — revealed that the protesters had in fact already damaged the cruiser to the point that police had to knock out the windshield in order to drive it away. A rumor that all communication had been shut down in Washington D.C. during the protests, which trended on Twitter under the hashtag #DCblackout, turned out to have been fueled by a coordinated misinformation effort. At one point on Monday, nearly all of Twitter’s trending topics about the protests were based on bogus information. To get a sense of its scale, read this thread tracking protest-related misinformation, curated by BuzzFeed’s Jane Lytvynenko, which as of Friday stood at 61 examples and counting.
+
+💬 Which brings us back to fact-checking and content moderation. It’s tempting to think that the answer is for platforms such as Facebook, Twitter, and TikTok to invest ever more in human oversight of what’s being posted, as in the warning labels on Trump’s tweets. While that might help on the margins, it risks misdiagnosing the fundamental problem with social platforms as a news source. It isn’t that they fail to prevent people from posting bad information; it’s that their algorithms aggressively incentivize it. This was explained well in OneZero by, of all people, a former Facebook spokesperson, who now believes the company is doing more harm than good. “Adding gasoline to the fire is Facebook’s sophisticated content system,” he wrote. “Using signals from billions of people and untold pieces of content, it knows what content people will find engaging. You know what’s engaging as heck? Wild conspiracy theories and incendiary rhetoric.”
+
+💬 If we want to reform social media, the agenda should take a cue from the protesters’ agenda for reforming the police: Think big. A world with no social media is probably about as unlikely as one without police, but reimagining platforms from the ground up is a far more promising starting point than slapping a few more warning labels on the president’s most egregious posts.
+
+Undercurrents
+
+Under-the-radar trends, stories, and random anecdotes worth your time
+
+🗨️ Apple has struggled to automate its assembly line. It abandoned a secret Sunnyvale facility that was exploring ways to replace humans with robots, The Information’s Wayne Ma reports, in a story full of interesting anecdotes. For example: “Building a robot that can fasten screws is among the hardest challenges in the industry.”
+
+🗨️ Trump forgot to tell his Department of Justice that Section 230 is in the doghouse. Bloomberg reported that the DOJ has been vociferously defending the foundational internet law in a case where LGBTQ YouTube creators are suing YouTube for alleged discrimination, even as Trump sought to undermine it via executive order after Twitter fact-checked his tweet. It seems that immunity for online platforms is good when it hurts gays, but bad when it hurts the president. Go figure. Section 230 aside, I argued last year that the lawsuit exposes a serious flaw in YouTube’s business model.
+
+🗨 ️Thanks to a flawed algorithm, the state of Michigan falsely charged thousands of people with unemployment fraud, Undark’s Stephanie Wykstra reported. Law professor Frank Pasquale (a great Twitter follow for those interested in algorithmic bias and accountability) called it an example of “automated government as destroyer of due process.”
+
+🗨️ Facebook has been deactivating the accounts of Tunisian bloggers and activists, The Guardian reported. The company blamed a “technical glitch,” which seems to be a popular excuse for platforms that hide content that offends certain governments.
+
+🗨️ Nextdoor is a cop. OneZero’s Sarah Emerson reports on the neighborhood-based social network’s close ties with police departments, which mean that “any photos innocently posted to Nextdoor, of protesters, for example, can wind up in the possession of police, where — unbeknownst to the post’s author — they may be used to target those people.”
+
+Headlines of the Week (Bad Headlines Edition)
+
+Normally this section celebrates good headlines, but the bad headlines this week (and the articles they adorned) were so bad that they became news in themselves. I’ve posted two of them below, along with links to follow-up stories about the publications walking them back.
+
+The headline: Send in the Troops
+
+— Sen. Tom Cotton, the New York Times online
+
+The walk-back: New York Times Says Senator’s Op-Ed Did Not Meet Standards
+— New York Times
+
+The headline: Buildings Matter, Too
+
+— Philadelphia Inquirer
+
+The walk-back: An Apology to Our Readers and Inquirer Employees
+
+— Philadelphia Inquirer
+
+Thanks for reading. Reach me with tips and feedback by responding to this post on the web, via Twitter direct message at @WillOremus, or by email at oremus@medium.com.
+
+Will Oremus
+
+Senior Writer, OneZero, at Medium
+
+Follow
+WILL OREMUS FOLLOWS
+Carvell Wallace
+Real Facebook Oversight Board
+Jean-Louis Gassée
+Catherine Andrews
+M.G. Siegler
+
+See all (581)
+
+831
+
+5
+
+831
+
+5
+
+Social Media
+Politics
+Protest
+Technology
+Pattern Matching
+More from OneZero
+Follow
+
+The undercurrents of the future. A publication from Medium about technology and people.
+
+Sarah Emerson
+
+·Jun 5, 2020
+
+Amazon Program Raises Money for Police Departments While the Company Says ‘Black Lives Matter’
+AmazonSmile generates donations for the Los Angeles Police Foundation, San Diego Police Officers Association, and others
+Photo: Roberto Machado Noa/LightRocket/Getty Images
+
+To the millions of shoppers who use Amazon, the company features a clear and concise statement on its homepage in support of ongoing protests in the wake of the police murder of George Floyd: “Black lives matter, Amazon stands in solidarity with the Black community.”
+
+But the company has, in…
+
+Read more · 4 min read
+
+1K
+
+18
+
+Dave Gershgorn
+
+·Jun 5, 2020
+
+GENERAL INTELLIGENCE
+A Single Company Will Now Operate Facial Recognition for Nearly 800 Million People
+Idemia just scored a major new contract with the EU
+Photo illustration. Photo: NurPhoto/Getty Images
+
+Welcome to General Intelligence, OneZero’s weekly dive into the A.I. news and research that matters.
+
+Idemia, a French company specializing in facial, fingerprint, and iris recognition, just scored a new contract with the European Union that will include processing images attached to more than 400 million people’s identities. …
+
+Read more · 3 min read
+
+456
+
+2
+
+Kelsey D Atherton
+
+·Jun 5, 2020
+
+Predator Drone Surveillance in Minneapolis Is Just the Tip of the Iceberg
+1,100 law enforcement departments across the country now use drones
+U.S. Customs and Border Protection (CBP) Unmanned aerial vehicle of the CBP Air and Marine Unmanned Aircraft System. Photo: Gerald L Nino/Wikimedia Commons
+
+It was the digital trail that gave away the Predator above Minneapolis.
+
+At around 12 p.m. on May 29, journalist Jason Paladino noticed an unusual aircraft on an unusual flight pattern above Minneapolis. …
+
+Read more · 5 min read
+
+659
+
+4
+
+Emily Mullin
+
+·Jun 5, 2020
+
+Calling Police Investigations ‘Contact Tracing’ Could Block Efforts to Stop Covid-19
+Privacy fears may keep people from downloading proximity apps
+People raise their hands and shout slogans as they protest at a makeshift memorial in honor of George Floyd, on June 2, 2020 in Minneapolis, Minnesota. Photo: Chandan Khanna/AFP/Getty Images
+
+After the May 25 murder of George Floyd by a Minneapolis police officer was recorded and streamed on Facebook, protests against police brutality erupted across the city.
+
+Following days of demonstrations last week, Minneapolis police and the Minnesota State Patrol arrested dozens of protesters. On May 30, in a televised…
+
+Read more · 4 min read
+
+368
+
+3
+
+Joshua Adams
+
+·Jun 4, 2020
+
+Facebook Is a Better Platform Than Twitter for Discussing Racial Injustice
+Neither are perfect, but Facebook might be the lesser of two evils right now
+Photo: Loic Venance/AFP/Getty Images
+
+The world has been watching the daily protests and riots caused by the murder of George Floyd. Those following the protests on social media might also be looking for the language, facts, figures, histories, and stories that explain how we got to this point. Journalists and academics work to fill…
+
+Read more · 5 min read
+
+186
+
+6
+
+Read more from OneZero
+More From Medium
+Establishing a Platform for Creators
+Orga Nanage
+Social Media is a Thief of Joy
+Jeff Swystun
+YouTuber Spotlight: Crispy Corner
+Clare Brown in Octoly Magazine
+What Is Parler, and Should You Care?
+Sharon Alger in Sharon Alger
+Report: Kate Hudson enjoys glamping in Paso Robles
+Paso Robles Daily News
+Dear Social Media Managers, take care!
+Crowdfire in Crowdfire — The Official Crowdfire Blog
+Why Quora Banned Me? Calls To Genocide Against Jews and Hindus Is OK On Big Tech Platforms.
+KISHAN DEV in The Liberty Post
+Zuckerberg Gives Public an Indication How He Lives In An Alternative Reality
+6StringMercenary in ART + marketing
+
+About
+
+Write
+
+Help
+
+Legal
+
+To make Medium work, we log user data. By using Medium, you agree to our Privacy Policy, including cookie policy.
