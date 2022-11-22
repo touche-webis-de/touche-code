@@ -16,6 +16,26 @@ docker run --rm -ti \
     jupyter-lab --allow-root --ip 0.0.0.0
 ```
 
+Upload the image to TIRA:
+
+```
+docker tag webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier-baseline:0.0.1
+docker push registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier-baseline:0.0.1
+```
+
+With the image uploaded, you can add the full-rank baseline with the following command in TIRA:
+
+```
+/workspace/run-pyterrier-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir
+```
+
+With the image uploaded, you can add the re-rank baseline with the following command in TIRA:
+
+```
+/workspace/run-pyterrier-notebook.py --notebook /workspace/re-rank-pipeline.ipynb --input $inputDataset --output $outputDir
+```
+
+Upload the image
 
 ```
 docker push webis/tira-touche23-task-2-pyterrier-baseline:0.0.1
