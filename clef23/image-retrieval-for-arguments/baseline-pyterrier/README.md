@@ -25,6 +25,11 @@ docker tag webis/tira-touche23-task-3-pyterrier-baseline:0.0.1 registry.webis.de
 docker push registry.webis.de/code-research/tira/tira-user-<YOUR-TEAM-NAME>/pyterrier-baseline:0.0.1
 ```
 
+```
+/workspace/run-pyterrier-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir
+
+/workspace/run-pyterrier-notebook.py --notebook /workspace/re-rank-pipeline.ipynb --input $inputDataset --output $outputDir
+```
 
 
 ```
