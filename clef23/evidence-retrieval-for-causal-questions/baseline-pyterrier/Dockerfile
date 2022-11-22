@@ -1,6 +1,6 @@
 FROM webis/tira-ir-starter-pyterrier:0.0.1-base
 
-RUN pip3 install chatnoir-pyterrier
+RUN pip3 install --no-deps chatnoir-pyterrier && pip3 install chatnoir_api
 
 COPY sample-input full-rank-pipeline.ipynb re-rank-pipeline.ipynb /workspace/
 
