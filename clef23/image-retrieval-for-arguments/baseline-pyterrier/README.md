@@ -18,6 +18,16 @@ docker run --rm -ti \
 
 
 ```
+docker tag webis/tira-touche23-task-3-pyterrier-baseline:0.0.1 registry.webis.de/code-research/tira/tira-user-<YOUR-TEAM-NAME>/pyterrier-baseline:0.0.1
+```
+
+```
+docker push registry.webis.de/code-research/tira/tira-user-<YOUR-TEAM-NAME>/pyterrier-baseline:0.0.1
+```
+
+
+
+```
 docker push webis/tira-touche23-task-3-pyterrier-baseline:0.0.1
 ```
 
