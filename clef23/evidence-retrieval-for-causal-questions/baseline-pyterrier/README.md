@@ -48,13 +48,6 @@ To test your pipeline locally, you can make run the script [run-notebook.py](run
 ```
 
 
-If you already have docker installed on your machine, you can build this image via:
-
-```
-docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
-```
-
-
 ### Deploy and Run the Full Rank Starter in TIRA
 
 First, you have to upload the image to TIRA.
