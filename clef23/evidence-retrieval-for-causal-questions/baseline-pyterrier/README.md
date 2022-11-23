@@ -25,6 +25,12 @@ docker run --rm -ti \
 
 You can adapt/run the baseline notebooks locally locally with docker and can directly deploy and run it in [TIRA.io](https://www.tira.io/task/touche-2023-task-2).
 
+You can build this image your machine with this command:
+
+```
+docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
+```
+
 
 ## Full Rank Starter with ChatNoir
 
@@ -40,6 +46,14 @@ To test your pipeline locally, you can make run the script [run-notebook.py](run
     --notebook /workspace/full-rank-pipeline.ipynb \
     --enable-network-in-dry-run True --local-dry-run True
 ```
+
+
+If you already have docker installed on your machine, you can build this image via:
+
+```
+docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
+```
+
 
 ### Deploy and Run the Full Rank Starter in TIRA
 
@@ -61,35 +75,17 @@ With the image uploaded, you can add the TIRA software by specifying the followi
 /workspace/run-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir
 ```
 
-The 
+The resulting software configuration in TIRA might look like this:
 
-
-If you already have docker installed on your machine, you can build the image via:
-
-```
-docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
-```
+![Software Configuration in TIRA](tira-configure-software.png)
 
 
 
-Upload the image to TIRA:
 
-```
-docker tag webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier-baseline:0.0.1
-docker push registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier-baseline:0.0.1
-```
+## Full Re-Rank Starter with ChatNoir
 
-With the image uploaded, you can add the full-rank baseline with the following command in TIRA:
 
-```
-/workspace/run-pyterrier-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir
-```
-
-With the image uploaded, you can add the re-rank baseline with the following command in TIRA:
-
-```
-/workspace/run-pyterrier-notebook.py --notebook /workspace/re-rank-pipeline.ipynb --input $inputDataset --output $outputDir
-```
+### Deploy and Run the Re-Rank Starter in TIRA
 
 
 
