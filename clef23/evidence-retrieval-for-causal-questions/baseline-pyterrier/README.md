@@ -85,7 +85,7 @@ To test your pipeline locally, you can make run the script [run-notebook.py](run
 
 ```
 ./run-notebook.py \
-    --input ${PWD}/sample-input/re-rank \
+    --input ${PWD}/sample-input/re-rank-default-text \
     --output ${PWD}/sample-output \
     --notebook /workspace/re-rank-pipeline.ipynb \
     --local-dry-run True
