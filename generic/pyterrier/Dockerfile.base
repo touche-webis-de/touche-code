@@ -8,5 +8,7 @@ RUN apt-get update \
 	&& pip3 install python-terrier pandas jupyterlab runnb \
 	&& python3 -c "import pyterrier as pt; pt.init(version='${PYTERRIER_VERSION}', helper_version='${PYTERRIER_HELPER_VERSION}');"
 
+ENV PYTHONPATH=/workspace/
+
 COPY pyterrier/run-pyterrier-notebook.py /
 
