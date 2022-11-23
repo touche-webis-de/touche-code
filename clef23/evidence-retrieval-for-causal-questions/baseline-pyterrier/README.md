@@ -48,13 +48,6 @@ To test your pipeline locally, you can make run the script [run-notebook.py](run
 ```
 
 
-If you already have docker installed on your machine, you can build this image via:
-
-```
-docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
-```
-
-
 ### Deploy and Run the Full Rank Starter in TIRA
 
 First, you have to upload the image to TIRA.
@@ -82,11 +75,37 @@ The resulting software configuration in TIRA might look like this:
 
 
 
-## Full Re-Rank Starter with ChatNoir
+## Re-Rank Starter/Baseline
+
+
+The notebook [re-rank-pipeline.ipynb](re-rank-pipeline.ipynb) implements a re-ranking baseline that re-ranks the results of some first-stage ranker.
+
+You can run it on a small example dataset in your notebook.
+To test your pipeline locally, you can make run the script [run-notebook.py](run-notebook.py) as `local-dry-run`, e.g., by:
+
+```
+./run-notebook.py \
+    --input ${PWD}/sample-input/re-rank-default-text \
+    --output ${PWD}/sample-output \
+    --notebook /workspace/re-rank-pipeline.ipynb \
+    --local-dry-run True
+```
 
 
 ### Deploy and Run the Re-Rank Starter in TIRA
 
+The deployment is [as above](#deploy-and-run-the-full-rank-starter-in-tira). I.e., Upload, you may tag the image accordingly and then push the image to your personal/private registry in TIRA, i.e., run the following commands (replace `<YOUR-TEAM-NAME>` with the name of your team as indicated by the personalized documentation in TIRA):
+
+```
+docker tag webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier:0.0.1
+docker push registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier-baseline:0.0.1
+```
+
+With the image uploaded, you can add the TIRA software by specifying the following command in TIRA:
+
+```
+/workspace/run-notebook.py --notebook /workspace/re-rank-pipeline.ipynb --input $inputDataset --output $outputDir
+```
 
 
 # Additional Resources
