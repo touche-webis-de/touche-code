@@ -13,7 +13,7 @@ You need to [install docker](https://docs.docker.com/get-docker/) on your machin
 
 ## Run a Jupyter Notebook locally for Development
 
-We have published this starter image on DockerHub so that you can directly run a notebook with everything installed with the following command:
+We have published this starter image on DockerHub so that you can directly run a notebook with everything installed with the following command (assuming you have cloned this repository and your current directory is the directory that contains this `README.md`):
 
 ```
 docker run --rm -ti \
@@ -24,7 +24,6 @@ docker run --rm -ti \
 ```
 
 You can adapt/run the baseline notebooks locally locally with docker and can directly deploy and run it in [TIRA.io](https://www.tira.io/task/touche-2023-task-2).
-
 
 
 ## Full Rank Starter with ChatNoir
@@ -47,6 +46,22 @@ To test your pipeline locally, you can make run the script [run-notebook.py](run
 First, you have to upload the image to TIRA.
 TIRA gives you personalized credentials to upload your image:
 
+![personalized documentation](tira-upload-docker-image.png)
+
+For instance, to upload this baseline, you may tag the image accordingly and then push the image to your personal/private registry in TIRA, i.e., run the following commands (replace `<YOUR-TEAM-NAME>` with the name of your team as indicated by the personalized documentation in TIRA):
+
+```
+docker tag webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier:0.0.1
+docker push registry.webis.de/code-research/tira/tira-user-<YOUR_TEAM_NAME>/pyterrier-baseline:0.0.1
+```
+
+With the image uploaded, you can add the TIRA software by specifying the following command in TIRA:
+
+```
+/workspace/run-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir
+```
+
+The 
 
 
 If you already have docker installed on your machine, you can build the image via:
