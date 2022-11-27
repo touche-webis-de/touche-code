@@ -25,7 +25,7 @@ docker run --rm -ti \
 
 You can adapt/run the baseline notebooks locally locally with docker and can directly deploy and run it in [TIRA.io](https://www.tira.io/task/touche-2023-task-2).
 
-You can build this image your machine with this command:
+You can build this image on your machine with this command:
 
 ```
 docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
