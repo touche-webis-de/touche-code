@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """Evaluator for Human Value Detection 2023 @ Touche and SemEval 2023"""
-# Version: 2022-11-21
+# Version: 2022-11-27
 
 import argparse
 import csv
@@ -51,13 +51,18 @@ def readLabels(directory, prefix = None, availableArgumentIds = None):
                                 print("Skipping line " + str(lineNumber) + " due to invalid label '" + label + "'")
                                 continue
                         labels[argumentId] = row
-    return labels;
+    if len(labels) == 0:
+        if prefix == None:
+            raise OSError("No labels found in directory '" + directory + "'")
+        else:
+            raise OSError("No '" + prefix + "' labels found in directory '" + directory + "'")
+    return labels
 
 def initializeCounter():
     counter = {}
     for value in availableValues:
         counter[value] = 0
-    return counter;
+    return counter
 
 def writeEvaluation(truthLabels, runLabels, outputDataset):
     numInstances = len(truthLabels)
