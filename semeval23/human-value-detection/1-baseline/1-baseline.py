@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Random baseline for Human Value Detection 2023 @ Touche and SemEval 2023"""
+"""1-baseline for Human Value Detection 2023 @ Touche and SemEval 2023"""
 # Version: 2022-11-21
 
 import argparse
@@ -8,10 +8,10 @@ import csv
 import os
 import random
 
-argparser = argparse.ArgumentParser(description="Random baseline for Human Value Detection 2023 @ Touche and SemEval 2023")
+argparser = argparse.ArgumentParser(description="1-baseline for Human Value Detection 2023 @ Touche and SemEval 2023")
 argparser.add_argument(
         "-i", "--inputDataset", type=str, required=True,
-        help="Directory that contains the input dataset, at least one run file with '.tsv' suffix")
+        help="Directory that contains the input dataset, at least one arguments file with '.tsv' suffix")
 argparser.add_argument(
         "-o", "--outputDataset", type=str, required=True,
         help="Directory to which the 'run.tsv' will be written: will be created if it does not exist")
