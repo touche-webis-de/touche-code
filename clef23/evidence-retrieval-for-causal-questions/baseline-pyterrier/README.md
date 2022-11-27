@@ -37,7 +37,7 @@ docker build -t webis/tira-touche23-task-2-pyterrier-baseline:0.0.1 .
 The notebook [full-rank-pipeline.ipynb](full-rank-pipeline.ipynb) implements "full-rank" retrieval with ChatNoir so that the results retrieved by ChatNoir can be easily re-ranked.
 
 You can run it on a small example dataset in your notebook.
-To test your pipeline locally, you can make run the script [run-notebook.py](run-notebook.py) as `local-dry-run`, e.g., by:
+To test your pipeline locally, you can run the script [run-notebook.py](run-notebook.py) as `local-dry-run`, e.g., by:
 
 ```
 ./run-notebook.py \
