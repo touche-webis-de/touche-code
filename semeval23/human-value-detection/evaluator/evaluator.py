@@ -93,12 +93,17 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
         recalls = []
         fmeasures = []
         for value in availableValues:
-            precision = truePositives[value] / positives[value]
-            precisions.append(precision)
-            recall = truePositives[value] / relevants[value]
-            recalls.append(recall)
-            fmeasure = 2 * precision * recall / (precision + recall)
-            fmeasures.append(fmeasure)
+            if relevants[value] != 0:
+                precision = 0
+                if positives[value] != 0:
+                    precision = truePositives[value] / positives[value]
+                precisions.append(precision)
+                recall = truePositives[value] / relevants[value]
+                recalls.append(recall)
+                fmeasure = 0
+                if precision + recall != 0:
+                    fmeasure = 2 * precision * recall / (precision + recall)
+                fmeasures.append(fmeasure)
         precision = sum(precisions) / len(precisions)
         recall = sum(recalls) / len(recalls)
         fmeasure = 2 * precision * recall / (precision + recall)
@@ -106,11 +111,15 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
         evaluationFile.write("measure {\n key: \"F1\"\n value: \"" + str(fmeasure) + "\"\n}\n")
         evaluationFile.write("measure {\n key: \"Precision\"\n value: \"" + str(precision) + "\"\n}\n")
         evaluationFile.write("measure {\n key: \"Recall\"\n value: \"" + str(recall) + "\"\n}\n")
+        skippedValues = 0
         for v in range(len(availableValues)):
             value = availableValues[v]
-            evaluationFile.write("measure {\n key: \"Precision " + value + "\"\n value: \"" + str(precisions[v]) + "\"\n}\n")
-            evaluationFile.write("measure {\n key: \"Recall " + value + "\"\n value: \"" + str(recalls[v]) + "\"\n}\n")
-            evaluationFile.write("measure {\n key: \"F1 " + value + "\"\n value: \"" + str(fmeasures[v]) + "\"\n}\n")
+            if relevants[value] == 0:
+                skippedValues += 1
+            else:
+                evaluationFile.write("measure {\n key: \"Precision " + value + "\"\n value: \"" + str(precisions[v - skippedValues]) + "\"\n}\n")
+                evaluationFile.write("measure {\n key: \"Recall " + value + "\"\n value: \"" + str(recalls[v - skippedValues]) + "\"\n}\n")
+                evaluationFile.write("measure {\n key: \"F1 " + value + "\"\n value: \"" + str(fmeasures[v - skippedValues]) + "\"\n}\n")
 
 writeEvaluation(readLabels(args.inputDataset, prefix="labels-"), readLabels(args.inputRun), args.outputDataset)
 
