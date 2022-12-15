@@ -33,10 +33,13 @@ def readLabels(directory, prefix = None, availableArgumentIds = None):
                     if "Argument ID" not in reader.fieldnames:
                         print("Skipping file " + labelsFileName + " due to missing field 'Argument ID'")
                         continue
+                    invalidFieldNames = False
                     for fieldName in reader.fieldnames:
                         if fieldName != "Argument ID" and fieldName not in availableValues:
-                            print("Skipping file " + labelsFileName + " due to invalid field '" + fieldName + "'; available field names: " + str(availableFieldNames))
-                            continue
+                            print("Skipping file " + labelsFileName + " due to invalid field '" + fieldName + "'; available field names: " + str(availableValues))
+                            invalidFieldNames = True
+                    if invalidFieldNames:
+                        continue
 
                     lineNumber = 1
                     for row in reader:

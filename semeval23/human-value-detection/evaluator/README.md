@@ -20,8 +20,8 @@ cat evaluation.prototext
 Development
 -----------
 ```
-docker build -t webis/touche-human-value-detection-evaluator:0.1.3 .
-docker push webis/touche-human-value-detection-evaluator:0.1.3
+docker build -t webis/touche-human-value-detection-evaluator:0.1.5 .
+docker push webis/touche-human-value-detection-evaluator:0.1.5
 ```
 
 In TIRA:
