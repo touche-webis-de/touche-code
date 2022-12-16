@@ -1,0 +1,15 @@
+ARG CUDA=nocuda
+FROM anibali/pytorch:1.10.2-${CUDA}-ubuntu20.04
+
+COPY requirements_bert.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+USER root
+COPY components/ /app/components
+COPY core_data/ /app/data
+COPY models/bert/ /app/models
+# pre-load autotokenizer
+RUN mkdir /app/tokenizer
+COPY download_bert_tokenizer.py /app/download_bert_tokenizer.py
+RUN python3 /app/download_bert_tokenizer.py
+
+COPY predict_bert.py /app/predict.py

@@ -1,0 +1,1154 @@
+{
+  "values": [
+    {
+      "alternativeName": "Creativity/Imagination",
+      "name": "Be creative",
+      "id": "SDT1",
+      "level2": "Self-direction: thought",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing for more creativity or imagination",
+        "being more creative",
+        "fostering creativity",
+        "promoting imagination"
+      ]
+    },
+    {
+      "alternativeName": "Curious/Interested",
+      "name": "Be curious",
+      "id": "SDT2",
+      "level2": "Self-direction: thought",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "being the more interesting option",
+        "fostering curiosity",
+        "making people more keen to learn",
+        "promoting discoveries",
+        "sparking interest"
+      ]
+    },
+    {
+      "alternativeName": "Freedom of thought",
+      "name": "Have freedom of thought",
+      "id": "SDT3",
+      "level2": "Self-direction: thought",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to figure things out on their own",
+        "allowing people to make up their mind",
+        "resulting in less censorship",
+        "resulting in less influence on people's thoughts"
+      ]
+    },
+    {
+      "alternativeName": "Choosing own goals/directions",
+      "name": "Be choosing own goals",
+      "id": "SDA1",
+      "level2": "Self-direction: action",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to choose what is best for them",
+        "allowing people to decide on their life",
+        "allowing people to follow their dreams"
+      ]
+    },
+    {
+      "alternativeName": "Independent/Self-reliant",
+      "name": "Be independent",
+      "id": "SDA2",
+      "level2": "Self-direction: action",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to plan on their own",
+        "resulting in fewer times people have to ask for consent"
+      ]
+    },
+    {
+      "alternativeName": "Freedom of action",
+      "name": "Have freedom of action",
+      "id": "SDA3",
+      "level2": "Self-direction: action",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to be self-determined",
+        "allowing people to do things even though this may hurt them in the long run",
+        "resulting in more times people can do what they want"
+      ]
+    },
+    {
+      "alternativeName": "Privacy",
+      "name": "Have privacy",
+      "id": "SDA4",
+      "level2": "Self-direction: action",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing for private spaces",
+        "allowing for time alone",
+        "resulting in less surveillance",
+        "resulting in more control on what to disclose and to whom"
+      ]
+    },
+    {
+      "alternativeName": "Exciting life/Excitement",
+      "name": "Have an exciting life",
+      "id": "STI1",
+      "level2": "Stimulation",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to experience foreign places",
+        "providing perspective-changing experiences",
+        "providing special activities"
+      ]
+    },
+    {
+      "alternativeName": "Varied life/Novelty",
+      "name": "Have a varied life",
+      "id": "STI2",
+      "level2": "Stimulation",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to change parts of their life",
+        "allowing people to move flat easily",
+        "promoting local clubs (sports, ...)",
+        "providing many activities"
+      ]
+    },
+    {
+      "alternativeName": "Daring/Challenge",
+      "name": "Be daring",
+      "id": "STI3",
+      "level2": "Stimulation",
+      "level3": [
+        "Openness to change"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing for risky actions",
+        "allowing to take risks",
+        "being more risky",
+        "fostering risk-taking"
+      ]
+    },
+    {
+      "alternativeName": "Pleasure",
+      "name": "Have pleasure",
+      "id": "HED1",
+      "level2": "Hedonism",
+      "level3": [
+        "Openness to change",
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "making life enjoyable",
+        "providing leisure",
+        "providing opportunities to have fun",
+        "providing sensuous gratification"
+      ]
+    },
+    {
+      "alternativeName": "Ambitious",
+      "name": "Be ambitious",
+      "id": "ACH1",
+      "level2": "Achievement",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free",
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing for ambitions",
+        "being more ambitious",
+        "fostering ambition",
+        "providing incentives for the difficult climb up the social ladder"
+      ]
+    },
+    {
+      "alternativeName": "Successful",
+      "name": "Have success",
+      "id": "ACH2",
+      "level2": "Achievement",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free",
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing for success",
+        "being more successful",
+        "recognizing achievements"
+      ]
+    },
+    {
+      "alternativeName": "Capable",
+      "name": "Be capable",
+      "id": "ACH3",
+      "level2": "Achievement",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free",
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing to acquire competence in certain tasks",
+        "being more effective",
+        "resulting in a higher effectivity",
+        "showing competence in solving tasks"
+      ]
+    },
+    {
+      "alternativeName": "Intellectual",
+      "name": "Be intellectual",
+      "id": "ACH4",
+      "level2": "Achievement",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free",
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing to acquire high cognitive skills",
+        "being more reflective",
+        "resulting in more reflective behavior",
+        "showing intelligence"
+      ]
+    },
+    {
+      "alternativeName": "Courageous",
+      "name": "Be courageous",
+      "id": "ACH5",
+      "level2": "Achievement",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free",
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "being more courageous",
+        "fostering courage",
+        "making people stand up for their beliefs",
+        "promoting courage",
+        "showing courage"
+      ]
+    },
+    {
+      "alternativeName": "Social power/Control over others",
+      "name": "Have influence",
+      "id": "POD1",
+      "level2": "Power: dominance",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "having more people to ask for a favor",
+        "resulting in more influence",
+        "resulting in more obligations towards the own side",
+        "resulting in more ways to control events"
+      ]
+    },
+    {
+      "alternativeName": "Authority/Right to command",
+      "name": "Have the right to command",
+      "id": "POD2",
+      "level2": "Power: dominance",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing experts to tell others what to do",
+        "allowing people to take command",
+        "fostering leadership",
+        "resulting in clearer hierarchies of command"
+      ]
+    },
+    {
+      "alternativeName": "Wealth/Material possession",
+      "name": "Have wealth",
+      "id": "POR1",
+      "level2": "Power: resources",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing people to gain wealth and material possession",
+        "allowing to show one's wealth",
+        "allowing to use money for power",
+        "providing people with resources to control events",
+        "resulting in financial prosperity"
+      ],
+      "notToBeConfusedWith": [
+        {
+          "id": "SEP5",
+          "descriptions": [
+            "lacking the money for a decent living or some non-luxury item being too expensive"
+          ]
+        }
+      ]
+    },
+    {
+      "alternativeName": "Social recognition/respect",
+      "name": "Have social recognition",
+      "id": "FAC1",
+      "level2": "Face",
+      "level3": [
+        "Self-enhancement"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing people to gain respect",
+        "avoiding humiliation",
+        "providing social recognition for actions"
+      ]
+    },
+    {
+      "alternativeName": "Preserving public image/Maintaining face",
+      "name": "Have a good reputation",
+      "id": "FAC2",
+      "level2": "Face",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing people to build up their reputation",
+        "protecting one's public image",
+        "spreading reputation"
+      ]
+    },
+    {
+      "alternativeName": "Sense of belonging/feeling others care about me",
+      "name": "Have a sense of belonging",
+      "id": "SEP1",
+      "level2": "Security: personal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing people to establish groups",
+        "allowing people to join groups and show their group membership",
+        "allowing group members to show they care for each other",
+        "fostering a sense of belonging",
+        "resulting in fewer people forced to leave their groups"
+      ]
+    },
+    {
+      "alternativeName": "Healthy",
+      "name": "Have good health",
+      "id": "SEP2",
+      "level2": "Security: personal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "avoiding diseases",
+        "preserving health",
+        "having physiological and mental well-being",
+        "fostering activities to stay healthy",
+        "resulting in increased health"
+      ]
+    },
+    {
+      "alternativeName": "Reciprocating favors/avoiding indebtedness",
+      "name": "Have no debts",
+      "id": "SEP3",
+      "level2": "Security: personal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "avoiding indebtedness",
+        "having people always return a favor",
+        "reciprocating favors"
+      ]
+    },
+    {
+      "alternativeName": "Clean/Neat, tidy",
+      "name": "Be neat and tidy",
+      "id": "SEP4",
+      "level2": "Security: personal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing to clean up",
+        "being more clean or orderly",
+        "promoting cleanliness or neatness",
+        "resulting in higher cleanliness"
+      ]
+    },
+    {
+      "alternativeName": "Comfortable life",
+      "name": "Have a comfortable life",
+      "id": "SEP5",
+      "level2": "Security: personal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Personal focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "providing subsistence income",
+        "resulting in having no financial worries",
+        "resulting in a higher general happiness",
+        "resulting in a prosperous life"
+      ]
+    },
+    {
+      "alternativeName": "National Security",
+      "name": "Have a safe country",
+      "id": "SES1",
+      "level2": "Security: societal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "caring for citizens",
+        "resulting in a state that can better act on crimes",
+        "resulting in a state that can better defend its citizens",
+        "resulting in a state that takes better care of its citizens",
+        "resulting in a stronger state"
+      ]
+    },
+    {
+      "alternativeName": "Social order/stability",
+      "name": "Have a stable society",
+      "id": "SES2",
+      "level2": "Security: societal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "accepting or maintaining the existing social structure",
+        "preventing chaos and disorder",
+        "promoting the social order",
+        "resulting in a country that is more stable"
+      ]
+    },
+    {
+      "alternativeName": "Respect tradition/Preserve customs",
+      "name": "Be respecting traditions",
+      "id": "TRA1",
+      "level2": "Tradition",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing to follow one's family's customs",
+        "honoring traditional practices",
+        "maintaining traditional values and ways of thinking",
+        "promoting the preservation of customs"
+      ]
+    },
+    {
+      "alternativeName": "Devout/Hold religious faith",
+      "name": "Be holding religious faith",
+      "id": "TRA2",
+      "level2": "Tradition",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "allowing to devote one's life to their faith",
+        "allowing the customs of a religion",
+        "being more adequate for a certain religion",
+        "promoting piety",
+        "spreading a religion"
+      ]
+    },
+    {
+      "alternativeName": "Obedient",
+      "name": "Be compliant",
+      "id": "COR1",
+      "level2": "Conformity: rules",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "abiding to laws or rules",
+        "promoting to meet one's obligations",
+        "recognizing people who abide to laws or rules"
+      ]
+    },
+    {
+      "alternativeName": "Self-discipline",
+      "name": "Be self-disciplined",
+      "id": "COR2",
+      "level2": "Conformity: rules",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "fostering to exercise restraint",
+        "fostering to follow rules even when no-one is watching",
+        "fostering to set rules for oneself"
+      ]
+    },
+    {
+      "alternativeName": "Behave properly",
+      "name": "Be behaving properly",
+      "id": "COR3",
+      "level2": "Conformity: rules",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "avoiding to violate informal rules or social conventions",
+        "fostering good manners",
+        "resulting in more people minding their manners"
+      ]
+    },
+    {
+      "alternativeName": "Politeness",
+      "name": "Be polite",
+      "id": "COI1",
+      "level2": "Conformity: interpersonal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "avoiding to upset other people",
+        "promoting to take others into account",
+        "resulting in being less annoying for others"
+      ]
+    },
+    {
+      "alternativeName": "Honor elders/show respect",
+      "name": "Be honoring elders",
+      "id": "COI2",
+      "level2": "Conformity: interpersonal",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "fostering that children follow their parents",
+        "showing faith and respect towards one's elders"
+      ]
+    },
+    {
+      "alternativeName": "Humble/Modest",
+      "name": "Be humble",
+      "id": "HUM1",
+      "level2": "Humility",
+      "level3": [
+        "Conservation"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Self-protection, Anxiety avoidance"
+      ],
+      "descriptions": [
+        "demoting arrogance",
+        "demoting to think one deserves more than other people",
+        "emphasizing the successful group over single persons",
+        "fostering to give back to society for the opportunities one got",
+        "fostering to not brag about what one achieved"
+      ]
+    },
+    {
+      "alternativeName": "Accepting my portion in life/submitting to life's circumstances",
+      "name": "Have life accepted as is",
+      "id": "HUM2",
+      "level2": "Humility",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to accept their fate",
+        "fostering to submit to life's circumstances",
+        "promoting satisfaction with what one has",
+        "showing acceptance of one's own portion in life"
+      ]
+    },
+    {
+      "alternativeName": "Helpful",
+      "name": "Be helpful",
+      "id": "BEC1",
+      "level2": "Benevolence: caring",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing to help the people in one's group",
+        "being more helpful to those one cares for",
+        "fostering a readiness to help each other",
+        "promoting to work for the welfare of others in one group"
+      ]
+    },
+    {
+      "alternativeName": "Honest",
+      "name": "Be honest",
+      "id": "BEC2",
+      "level2": "Benevolence: caring",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "being more honest",
+        "fostering honest ways of thinking",
+        "promoting honesty",
+        "recognizing people for their honesty",
+        "resulting in more honest social interaction"
+      ]
+    },
+    {
+      "alternativeName": "Forgiving",
+      "name": "Be forgiving",
+      "id": "BEC3",
+      "level2": "Benevolence: caring",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to forgive each other",
+        "giving people a second chance",
+        "being merciful",
+        "promoting a will to pardon others",
+        "providing paths to redemption"
+      ]
+    },
+    {
+      "alternativeName": "Family care",
+      "name": "Have the own family secured",
+      "id": "BEC4",
+      "level2": "Benevolence: caring",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to protect their family",
+        "promoting to have a family",
+        "providing care for one's family"
+      ]
+    },
+    {
+      "alternativeName": "Loving",
+      "name": "Be loving",
+      "id": "BEC5",
+      "level2": "Benevolence: caring",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing to place the well-being of others above the own well-being",
+        "allowing to show one's affection, compassion and sympathy",
+        "fostering close relationships",
+        "promoting self-respect and self-love as a means of care for oneself",
+        "promoting to concern oneself with the needs of dear ones"
+      ]
+    },
+    {
+      "alternativeName": "Responsible/dependable",
+      "name": "Be responsible",
+      "id": "BED1",
+      "level2": "Benevolence: dependability",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing for clear responsibilities",
+        "fostering dependability",
+        "promoting reliability",
+        "resulting in more people being confident",
+        "taking responsibility"
+      ]
+    },
+    {
+      "alternativeName": "Loyal/faithful friends",
+      "name": "Have loyalty towards friends",
+      "id": "BED2",
+      "level2": "Benevolence: dependability",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "being a dependable and trustworthy friend",
+        "foster loyalty towards friends",
+        "promoting to give friends a full backing"
+      ]
+    },
+    {
+      "alternativeName": "Equality",
+      "name": "Have equality",
+      "id": "UNC1",
+      "level2": "Universalism: concern",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "fostering people of a lower social status",
+        "helping poorer regions of the world",
+        "providing all people with equal opportunities in life",
+        "resulting in a world were success is less determined by birth"
+      ]
+    },
+    {
+      "alternativeName": "Social justice",
+      "name": "Be just",
+      "id": "UNC2",
+      "level2": "Universalism: concern",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing justice to be 'blind' to irrelevant aspects of a case",
+        "fostering a sense for justice",
+        "promoting fairness in competitions",
+        "protecting the weak and vulnerable in society",
+        "resulting a world were people are less discriminated based on race, gender, ..."
+      ]
+    },
+    {
+      "alternativeName": "World at peace",
+      "name": "Have a world at peace",
+      "id": "UNC3",
+      "level2": "Universalism: concern",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing for nations to cease fire",
+        "avoiding conflicts",
+        "fostering to see peace as fragile and precious",
+        "promoting to end wars",
+        "resulting in more people caring for all of humanity"
+      ]
+    },
+    {
+      "alternativeName": "Protect environment",
+      "name": "Be protecting the environment",
+      "id": "UNN1",
+      "level2": "Universalism: nature",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "avoiding pollution",
+        "fostering to care for nature",
+        "promoting programs to restore nature",
+        "resulting in less damage to the ecosystem"
+      ]
+    },
+    {
+      "alternativeName": "Unity with nature",
+      "name": "Have harmony with nature",
+      "id": "UNN2",
+      "level2": "Universalism: nature",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing to avoid chemicals (especially in nutrition)",
+        "allowing to avoid genetically modified organisms",
+        "fostering to treat animals or plants like them having souls",
+        "promoting a life in harmony with nature",
+        "resulting in more people reflecting the consequences of their actions towards the environment"
+      ]
+    },
+    {
+      "alternativeName": "World of beauty",
+      "name": "Have a world of beauty",
+      "id": "UNN3",
+      "level2": "Universalism: nature",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to experience art",
+        "fostering to stand in awe of nature",
+        "promoting fine arts",
+        "promoting the beauty of nature",
+        "spreading beauty"
+      ]
+    },
+    {
+      "alternativeName": "Broadminded/Tolerant",
+      "name": "Be broadminded",
+      "id": "UNT1",
+      "level2": "Universalism: tolerance",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing for discussion between groups",
+        "clearing up with prejudices",
+        "fostering to listen to and understand people who are different from oneself",
+        "promoting tolerance towards all kinds of people and groups",
+        "promoting to life within a different group for some time"
+      ]
+    },
+    {
+      "alternativeName": "Wisdom/Mature understanding",
+      "name": "Have the wisdom to accept others",
+      "id": "UNT2",
+      "level2": "Universalism: tolerance",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "allowing people to accept disagreements",
+        "fostering to accept people even when one disagrees with them",
+        "promoting a mature understanding of different opinions",
+        "resulting in fewer partisans or fanatics"
+      ]
+    },
+    {
+      "alternativeName": "Logical",
+      "name": "Be logical",
+      "id": "UNO1",
+      "level2": "Universalism: objectivity",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "being better by the numbers but not by gut feeling",
+        "fostering a rational way of thinking",
+        "promoting focus and consistency",
+        "promoting the rational analysis of circumstances",
+        "promoting the scientific method"
+      ]
+    },
+    {
+      "alternativeName": "Objective Analysis",
+      "name": "Have an objective view",
+      "id": "UNO2",
+      "level2": "Universalism: objectivity",
+      "level3": [
+        "Self-transcendence"
+      ],
+      "level4a": [
+        "Social focus"
+      ],
+      "level4b": [
+        "Growth, Anxiety-free"
+      ],
+      "descriptions": [
+        "fostering to seek the truth",
+        "fostering to take on a neutral perspective",
+        "promoting to form an unbiased opinion",
+        "providing people with the means to make informed decisions",
+        "weighing all pros and cons"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+FROM anibali/pytorch:1.10.2-nocuda-ubuntu20.04
+
+COPY requirements_svm.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+COPY components/ /app/components
+COPY core_data/ /app/data
+COPY training_svm.py /app/training.py

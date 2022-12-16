@@ -1,0 +1,8 @@
+ARG CUDA=nocuda
+FROM anibali/pytorch:1.10.2-${CUDA}-ubuntu20.04
+
+COPY requirements_bert.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+COPY components/ /app/components
+COPY core_data/ /app/data
+COPY training_bert.py /app/training.py
