@@ -44,7 +44,7 @@ def read_from_cache(url: str) -> str:
 def download_raw_article(url: str) -> str:
     session = HTMLSession()
     r = session.get(url)
-    r.html.render(timeout = 60)
+    r.html.render(timeout = 120)
     return r.html.html
 
 
