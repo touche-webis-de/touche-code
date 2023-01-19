@@ -1,0 +1,81 @@
+Argument ID	URL	Internet Archive timestamp	Premise token position	Stance	Conclusion token position
+G01001	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	130:361	in favor of	35:129
+G01002	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	591:730	in favor of	731:836
+G01003	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	837:931	in favor of	591:730
+G01004	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	1591:1971	in favor of	1467:1590
+G01005	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	2416:2468	in favor of	1972:2123
+G01006	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	2300:2415	in favor of	2416:2468
+G01007	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	3052:3168	in favor of	3006:3051
+G01008	https://www.nytimes.com/2021/05/06/opinion/herd-immunity-us.html	20220708003745	3454:3727	in favor of	3369:3453
+G01009	https://www.nytimes.com/2021/05/16/opinion/covid-lasting-effects.html	20211021082529	312:392	against	258:311
+G01010	https://www.nytimes.com/2021/05/16/opinion/covid-lasting-effects.html	20211021082529	596:683	against	467:595
+G01011	https://www.nytimes.com/2021/05/16/opinion/covid-lasting-effects.html	20211021082529	684:782	against	596:683
+G01012	https://www.nytimes.com/2021/05/16/opinion/covid-lasting-effects.html	20211021082529	1228:1309	in favor of	1202:1227
+G01013	https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html	20230117095458	1694:1823	in favor of	1824:1859
+G01014	https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html	20230117095458	2068:2182	in favor of	2032:2067
+G01015	https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html	20230117095458	2392:2447	in favor of	2282:2391
+G01016	https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html	20230117095458	2898:3035	in favor of	2817:2897
+G01017	https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html	20230117095458	3296:3388	in favor of	3189:3295
+G01018	https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html	20230117095458	4531:4729	in favor of	4372:4530
+G01019	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	93:445	in favor of	47:91
+G01020	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	970:1213	in favor of	874:969
+G01021	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	1241:1455	in favor of	1214:1240
+G01022	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	2378:2595	in favor of	2596:2685
+G01023	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	2810:3020	in favor of	2686:2809
+G01024	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	3494:3681	against	3346:3493
+G01025	https://www.nytimes.com/2020/06/22/opinion/us-coronavirus-trump.html	20230101151848	4350:4465	in favor of	4185:4349
+G01026	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	385:603	in favor of	333:384
+G01027	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	860:1019	in favor of	1020:1100
+G01028	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	1244:1480	in favor of	1101:1243
+G01029	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	1481:1578	in favor of	1579:1668
+G01030	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	3508:3612	in favor of	3458:3507
+G01031	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	4123:4504	in favor of	4505:4558
+G01032	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	4559:4642	in favor of	4505:4558
+G01033	https://www.nytimes.com/2020/08/19/opinion/coronavirus-risk-prevention.html	20220224011211	5435:5577	against	5223:5434
+G01034	https://www.nytimes.com/2020/09/17/opinion/coronavirus-vaccine-trials.html	20220806174520	136:206	in favor of	208:365
+G01035	https://www.nytimes.com/2020/09/17/opinion/coronavirus-vaccine-trials.html	20220806174520	544:1055	in favor of	1056:1100
+G01036	https://www.nytimes.com/2020/09/17/opinion/coronavirus-vaccine-trials.html	20220806174520	1175:1320	in favor of	1101:1174
+G01037	https://www.nytimes.com/2020/09/17/opinion/coronavirus-vaccine-trials.html	20220806174520	1474:1636	in favor of	1321:1473
+G01038	https://www.nytimes.com/2020/09/17/opinion/coronavirus-vaccine-trials.html	20220806174520	4934:4968	in favor of	4969:5118
+G01039	https://www.nytimes.com/2020/10/15/opinion/coronavirus-health-courts.html	20220106215611	147:528	in favor of	58:146
+G01040	https://www.nytimes.com/2020/10/15/opinion/coronavirus-health-courts.html	20220106215611	3290:3421	in favor of	3228:3289
+G01041	https://www.nytimes.com/2020/10/15/opinion/coronavirus-health-courts.html	20220106215611	4959:5205	in favor of	5206:5289
+G01042	https://www.nytimes.com/2020/10/15/opinion/coronavirus-health-courts.html	20220106215611	5404:5543	in favor of	5290:5403
+G01043	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	2324:2410	in favor of	2069:2323
+G01044	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	2463:2573	against	2578:2933
+G01045	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	3744:3923	in favor of	3557:3743
+G01046	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	3958:4214	in favor of	3924:3957
+G01047	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	4870:4998	in favor of	4702:4754
+G01048	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	4999:5166	in favor of	4870:4998
+G01049	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	5228:5320	in favor of	5321:5368
+G01050	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	6059:6221	in favor of	6015:6058
+G01051	https://www.nytimes.com/2020/11/10/opinion/pfizer-vaccine-covid.html	20220316141458	6384:6534	in favor of	6222:6383
+G01052	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	620:912	in favor of	57:192
+G01053	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	1178:1324	in favor of	913:1177
+G01054	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	1390:1590	in favor of	1325:1389
+G01055	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	1591:1655	against	1325:1590
+G01056	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	2155:2497	in favor of	1591:1655
+G01057	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	3849:4169	in favor of	3824:3848
+G01058	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	4420:4508	in favor of	4384:4419
+G01059	https://www.nytimes.com/2021/01/28/opinion/covid-vaccine-line.html	20221223225814	5946:6214	against	5837:5945
+G01060	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	483:715	in favor of	42:157
+G01061	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	1986:2038	against	1891:1985
+G01062	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	2039:2118	in favor of	1986:2038
+G01063	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	2039:2118	in favor of	2119:2378
+G01064	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	2379:2460	in favor of	2529:2621
+G01065	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	3698:3796	in favor of	3626:3697
+G01066	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	5557:5760	in favor of	5397:5556
+G01067	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	6524:6726	in favor of	6372:6523
+G01068	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	7286:7419	in favor of	7178:7285
+G01069	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	7420:7617	against	7286:7419
+G01070	https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html	20221109001823	7992:8089	in favor of	7951:7991
+G01071	https://www.nytimes.com/2021/03/22/opinion/covid-vaccine-passport-problem.html	20221231114938	51:148	in favor of	149:204
+G01072	https://www.nytimes.com/2021/03/22/opinion/covid-vaccine-passport-problem.html	20221231114938	1684:1910	in favor of	1600:1683
+G01073	https://www.nytimes.com/2021/03/22/opinion/covid-vaccine-passport-problem.html	20221231114938	2932:3242	in favor of	2840:2931
+G01074	https://www.nytimes.com/2021/03/22/opinion/covid-vaccine-passport-problem.html	20221231114938	3529:3981	in favor of	3474:3528
+G01075	https://www.nytimes.com/2021/03/22/opinion/covid-vaccine-passport-problem.html	20221231114938	4199:4850	in favor of	3982:4198
+G01076	https://www.nytimes.com/2021/05/21/opinion/needle-fear-vaccine-covid.html	20221125121828	169:398	against	78:168
+G01077	https://www.nytimes.com/2021/05/21/opinion/needle-fear-vaccine-covid.html	20221125121828	581:711	in favor of	536:580
+G01078	https://www.nytimes.com/2021/05/21/opinion/needle-fear-vaccine-covid.html	20221125121828	1549:1790	in favor of	1459:1548
+G01079	https://www.nytimes.com/2021/05/21/opinion/needle-fear-vaccine-covid.html	20221125121828	2514:2873	in favor of	2344:2513
+G01080	https://www.nytimes.com/2021/05/21/opinion/needle-fear-vaccine-covid.html	20221125121828	4644:4817	in favor of	4818:4856
