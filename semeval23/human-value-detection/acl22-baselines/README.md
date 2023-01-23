@@ -63,7 +63,7 @@ Train classifier, input files are `$PWD/dataset/arguments.tsv` and `$PWD/dataset
 mkdir models
 
 docker run --rm -it --init \
-  --volume "$PWD/dataset:/dataset" \
+  --volume "$PWD/dataset/training:/dataset" \
   --volume "$PWD/models/svm:/models" \
   registry.webis.de/code-research/tira/tira-user-aristotle/touche-human-value-detection-svm-training:1.0.2 \
   python training.py
