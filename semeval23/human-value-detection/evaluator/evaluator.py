@@ -27,11 +27,12 @@ def readLabels(directory, prefix = None, availableArgumentIds = None):
         if labelsBaseName.endswith(".tsv"):
             if prefix == None or labelsBaseName.startswith(prefix):
                 labelsFileName = os.path.join(directory, labelsBaseName)
-                with open(labelsFileName, "r", newline='') as labelsFile:
+                with open(labelsFileName, "r", newline='', encoding='utf-8-sig') as labelsFile:
                     print("Reading " + labelsFileName)
                     reader = csv.DictReader(labelsFile, delimiter = "\t")
                     if "Argument ID" not in reader.fieldnames:
                         print("Skipping file " + labelsFileName + " due to missing field 'Argument ID'")
+                        print(reader.fieldnames)
                         continue
                     invalidFieldNames = False
                     for fieldName in reader.fieldnames:
