@@ -1,0 +1,21 @@
+\begin{table*}
+\centering\small%
+\setlength{\tabcolsep}{2.5pt}%
+\begin{tabular}{@{}ll@{\hspace{10pt}}c@{\hspace{5pt}}cccccccccccccccccccccc@{}}
+\toprule
+\multicolumn{2}{@{}l}{\bf Test set / Approach} & \bf All & \rotatebox{90}{\bf Self-direction: thought} & \rotatebox{90}{\bf Self-direction: action} & \rotatebox{90}{\bf Stimulation} & \rotatebox{90}{\bf Hedonism} & \rotatebox{90}{\bf Achievement} & \rotatebox{90}{\bf Power: dominance} & \rotatebox{90}{\bf Power: resources} & \rotatebox{90}{\bf Face} & \rotatebox{90}{\bf Security: personal} & \rotatebox{90}{\bf Security: societal} & \rotatebox{90}{\bf Tradition} & \rotatebox{90}{\bf Conformity: rules} & \rotatebox{90}{\bf Conformity: interpersonal} & \rotatebox{90}{\bf Humility} & \rotatebox{90}{\bf Benevolence: caring} & \rotatebox{90}{\bf Benevolence: dependability} & \rotatebox{90}{\bf Universalism: concern} & \rotatebox{90}{\bf Universalism: nature} & \rotatebox{90}{\bf Universalism: tolerance} & \rotatebox{90}{\bf Universalism: objectivity} \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Main}} \\
+& \textcolor{gray}{Best per category} & \textcolor{gray}{.59} & \textcolor{gray}{.61} & \textcolor{gray}{.71} & \textcolor{gray}{.39} & \textcolor{gray}{.39} & \textcolor{gray}{.66} & \textcolor{gray}{.50} & \textcolor{gray}{.57} & \textcolor{gray}{.39} & \textcolor{gray}{.80} & \textcolor{gray}{.68} & \textcolor{gray}{.65} & \textcolor{gray}{.61} & \textcolor{gray}{.69} & \textcolor{gray}{.39} & \textcolor{gray}{.60} & \textcolor{gray}{.43} & \textcolor{gray}{.78} & \textcolor{gray}{.87} & \textcolor{gray}{.46} & \textcolor{gray}{.58} \\
+& \textcolor{gray}{Best approach} & \textcolor{gray}{.56} & \textcolor{gray}{.57} & \textcolor{gray}{.71} & \textcolor{gray}{.32} & \textcolor{gray}{.25} & \textcolor{gray}{.66} & \textcolor{gray}{.47} & \textcolor{gray}{.53} & \textcolor{gray}{.38} & \textcolor{gray}{.76} & \textcolor{gray}{.64} & \textcolor{gray}{.63} & \textcolor{gray}{.60} & \textcolor{gray}{.65} & \textcolor{gray}{.32} & \textcolor{gray}{.57} & \textcolor{gray}{.43} & \textcolor{gray}{.73} & \textcolor{gray}{.82} & \textcolor{gray}{.46} & \textcolor{gray}{.52} \\
+& \textcolor{gray}{BERT} & \textcolor{gray}{.42} & \textcolor{gray}{.44} & \textcolor{gray}{.55} & \textcolor{gray}{.05} & \textcolor{gray}{.20} & \textcolor{gray}{.56} & \textcolor{gray}{.29} & \textcolor{gray}{.44} & \textcolor{gray}{.13} & \textcolor{gray}{.74} & \textcolor{gray}{.59} & \textcolor{gray}{.43} & \textcolor{gray}{.47} & \textcolor{gray}{.23} & \textcolor{gray}{.07} & \textcolor{gray}{.46} & \textcolor{gray}{.14} & \textcolor{gray}{.67} & \textcolor{gray}{.71} & \textcolor{gray}{.32} & \textcolor{gray}{.33} \\
+& \textcolor{gray}{1-Baseline} & \textcolor{gray}{.26} & \textcolor{gray}{.17} & \textcolor{gray}{.40} & \textcolor{gray}{.09} & \textcolor{gray}{.03} & \textcolor{gray}{.41} & \textcolor{gray}{.13} & \textcolor{gray}{.12} & \textcolor{gray}{.12} & \textcolor{gray}{.51} & \textcolor{gray}{.40} & \textcolor{gray}{.19} & \textcolor{gray}{.31} & \textcolor{gray}{.07} & \textcolor{gray}{.09} & \textcolor{gray}{.35} & \textcolor{gray}{.19} & \textcolor{gray}{.54} & \textcolor{gray}{.17} & \textcolor{gray}{.22} & \textcolor{gray}{.46} \\
+& 2023-01-28-10-25-13 & .47 & .40 & .60 & .20 & .23 & .60 & .41 & .49 & .25 & .70 & .57 & .61 & .50 & .46 & .14 & .49 & .24 & .71 & .80 & .20 & .37 \\
+& 2023-01-28-10-26-11 & .48 & .39 & .62 & .20 & .23 & .61 & .43 & .48 & .25 & .70 & .57 & .62 & .54 & .46 & .13 & .49 & .24 & .71 & .80 & .26 & .43 \\
+& 2023-01-28-10-27-53 & .33 & .38 & .36 & .20 & .07 & .26 & .07 & .37 & .15 & .51 & .11 & .09 & .19 & .09 & .13 & .49 & .23 & .71 & .80 & .20 & .36 \\
+& 2023-01-28-10-28-43 & .48 & .40 & .60 & .20 & .23 & .60 & .41 & .48 & .25 & .70 & .57 & .61 & .51 & .46 & .13 & .49 & .24 & .71 & .80 & .26 & .42 \\
+\bottomrule
+\end{tabular}
+\caption{Achieved F$_1$-score of team rudolf-christoph-eucken per test dataset, from macro-precision and macro-recall (All) and for each of the 20~value categories. Approaches marked with * were not part of the official evaluation. Approaches in gray are shown for comparison: an ensemble using the best participant approach for each individual category; the best participant approach; and the organizer's BERT and 1-Baseline.}
+\label{table-results}
+\end{table*}
