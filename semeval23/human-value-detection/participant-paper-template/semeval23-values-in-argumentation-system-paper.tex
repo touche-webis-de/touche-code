@@ -1,0 +1,176 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+
+% Remove the "review" option to generate the final version.
+\usepackage{ACL2023}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{graphicx}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out.
+% However, it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{<Team Name> at SemEval-2023 Task 4: <Descriptive Title>}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+The abstract should contain a few sentences summarizing the paper
+
+Instruction on submission requirements can be found here: \url{https://semeval.github.io/paper-requirements.html} (important points repeated below). A suggested structure (that this template follows) and examples can be found here: \url{https://semeval.github.io/system-paper-template.html}. We here assume your paper covers only this task. Otherwise, please check the web pages carefully for necessary changes.
+
+This paper can be up to 5 pages excluding acknowledgments, references, and appendices. You can add an additional page for camera ready submission.
+
+You have to use the title as above, just replace "<Team Name>" and "<Descriptive Title>". Usual patterns are to use you team's TIRA code name as "<Team Name>" or to start "<Descriptive Title>" with "The <TIRA code name> approach [to/of/...]".
+
+At SemEval, papers are not anonymous when submitted for review.
+
+Your paper should focus on:
+\par\noindent{\bf Replicability}: present all details that will allow someone else to replicate your system. Provide links to code repositories if you made your code open source, and the docker image name if you used Docker submission. {\bf Note:} We will in our overview paper and at other opportunities point out which approaches are available open source and (even better) as Docker image to promote their widespread usage. If you re-submit your approach as Docker image in TIRA until the camera-ready deadline (and it produces the same results), please tell us so that we can include it in our overview paper.
+\par\noindent{\bf Analysis}: focus more on results and analysis and less on discussing rankings; report results on several runs of the system (even beyond the official submissions); present ablation experiments showing usefulness of different features and techniques; show comparisons with baselines.
+\par\noindent{\bf Duplication}: cite the task description paper \cite{kiesel:2023}; you can avoid repeating details of the task and data, however, briefly outlining the task and relevant aspects of the data is a good idea. (The official BibTeX citations for papers will not be released until the camera-ready submission period; the current bibtex entry is a placeholder and we will send you the correct one later.)
+
+\end{abstract}
+
+\section{Introduction}
+
+\begin{itemize}
+\item What is the task about and why is it important? Be sure to mention the language(s) covered and cite the task overview paper. about 1 paragraph
+
+\item What is the main strategy your system uses? about 1 paragraph
+
+\item What did you discover by participating in this task? Key quantitative and qualitative results, such as how you ranked relative to other teams and what your system struggles with. about 1 paragraph
+
+\item Have you released your code or Docker image? Give a URL
+
+\end{itemize}
+
+The bib file is already prepared with some papers you may want to cite. We humbly suggest to cite the following papers in case you need a citation.
+For the task of human value detection, we suggest our ACL paper \cite{kiesel:2022}.
+For the dataset, we uploaded a description to arXiv \cite{mirzakhmedova:2023}.
+For TIRA as the platform of the shared task \cite{froebe:2023}.
+
+\section{Background}
+
+\begin{itemize}
+	\item In your own words, summarize important details about the task setup: kind of input and output (give an example if possible); what datasets were used, including language, genre, and size. If there were multiple tracks, say which you participated in.
+	
+	\item Here or in other sections, cite related work that will help the reader to understand your contribution and what aspects of it are novel.
+	
+\end{itemize}
+\section{System Overview}
+
+\begin{itemize}
+	\item Key algorithms and modeling decisions in your system; resources used beyond the provided training data; challenging aspects of the task and how your system addresses them. This may require multiple pages and several subsections, and should allow the reader to mostly reimplement your system’s algorithms.
+	
+	\item Use equations and pseudocode if they help convey your original design decisions, as well as explaining them in English. If you are using a widely popular model/algorithm like logistic regression, an LSTM, or stochastic gradient descent, a citation will suffice—you do not need to spell out all the mathematical details.
+	
+	\item Give an example if possible to describe concretely the stages of your algorithm.
+	
+	\item If you have multiple systems/configurations, delineate them clearly.
+	
+	\item This is likely to be the longest section of your paper.
+	
+\end{itemize}
+
+\section{Experimental Setup}
+
+\begin{itemize}
+	\item How data splits (train/dev/test) are used.
+	
+	\item Key details about preprocessing, hyperparameter tuning, etc. that a reader would need to know to replicate your experiments. If space is limited, some of the details can go in an Appendix.
+	
+	\item External tools/libraries used, preferably with version number and URL in a footnote.
+	
+	\item Summarize the evaluation measures used in the task.
+	
+	\item You do not need to devote much—if any—space to discussing the organization of your code or file formats.
+	
+\end{itemize}
+
+\section{Results}
+
+\begin{itemize}
+	\item Main quantitative findings: How well did your system perform at the task according to official metrics? How does it rank in the competition?
+	
+	\item Quantitative analysis: Ablations or other comparisons of different design decisions to better understand what works best. Indicate which data split is used for the analyses (e.g. in table captions). If you modify your system subsequent to the official submission, clearly indicate which results are from the modified system.
+	
+	\item Error analysis: Look at some of your system predictions to get a feel for the kinds of mistakes it makes. If appropriate to the task, consider including a confusion matrix or other analysis of error subtypes—you may need to manually tag a small sample for this.
+	
+\end{itemize}
+
+For this specific task, we prepared a table with your submitted results: \url{https://github.com/touche-webis-de/touche-code/tree/main/semeval23/human-value-detection/participant-tables}. You can input this table and modify it as you see fit. You can include new submissions: when you make new submissions in TIRA, tell us and we will unblind them for you. In this case, please mark them with a * in the table (as described in the caption). If you want to include other overview metrics, please tell us and we may be able to provide them.
+
+\section{Conclusion}
+A few summary sentences about your system, results, and ideas for future work.
+
+\section{Acknowledgments}
+Anyone you wish to thank who is not an author, which may include grants and anonymous reviewers.
+
+
+\bibliography{custom}
+\bibliographystyle{acl_natbib}
+
+\appendix
+\section{Appendix}
+Any low-level implementation details—rules and pre-/post-processing steps, features, hyperparameters, etc.—that would help the reader to replicate your system and experiments, but are not necessary to understand major design points of the system and experiments. Any figures or results that aren’t crucial to the main points in your paper but might help an interested reader delve deeper.
+
+If you feel like it, you might here show a picture of the person you chose for your TIRA code name and say a few words of who they are and what inspired you to pick their name from the list.
+
+\end{document}
