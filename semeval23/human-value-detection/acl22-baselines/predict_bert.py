@@ -28,7 +28,7 @@ def main(argv):
     levels = ["2"]
 
     try:
-        opts, args = getopt.gnu_getopt(argv, "hi:l:o:", ["help", "inputDataset=", "levels=", "outputDir="])
+        opts, args = getopt.gnu_getopt(argv, "hi:l:o:d:m:", ["help", "inputDataset=", "levels=", "outputDir=", "dataDir=", "modelDir="])
     except getopt.GetoptError:
         print(help_string)
         sys.exit(2)
@@ -42,6 +42,10 @@ def main(argv):
             dataset_dir = arg
         elif opt in ('-o', '--outputDir'):
             output_dir = arg
+        elif opt in ('-d', '--dataDir'):
+            data_dir = arg
+        elif opt in ('-m', '--modelDir'):
+            model_dir = arg
 
     load_tokenizer(tokenizer_dir)
 
