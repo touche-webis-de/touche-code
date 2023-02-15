@@ -16,7 +16,7 @@ directory.
 ## Development (NOT YET WORKING)
 For internal use
 ```bash
-TAG=1.0.1-nocuda # or 'TAG=1.0.1-cuda11.3' if a GPU is available
+TAG=1.0.0-nocuda # or 'TAG=1.0.0-cuda11.3' if a GPU is available
 CUDA=nocuda # or 'CUDA=cuda11.3' if a GPU is available
 docker build -t registry.webis.de/code-research/tira/tira-user-aristotle/touche-human-value-detection-adam-smith:$TAG --build-arg CUDA=$CUDA -f Dockerfile .
 docker push registry.webis.de/code-research/tira/tira-user-aristotle/touche-human-value-detection-adam-smith:$TAG

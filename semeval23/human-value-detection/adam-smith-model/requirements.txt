@@ -2,6 +2,9 @@ pytorch-lightning==1.6.4
 neptune-client
 transformers
 sentencepiece
+scikit-learn
+toolbox
 pandas
 tqdm
 torch
+requests

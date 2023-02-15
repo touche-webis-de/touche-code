@@ -14,6 +14,7 @@ from transformers import AutoTokenizer
 import pytorch_lightning as pl
 
 import pickle
+import sys
 
 from data_modules.BertDataModule import BertDataset
 from models.BertFineTunerPl import BertFineTunerPl
@@ -78,7 +79,7 @@ def main(argv):
             f'{model_dir}HCV-375-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt'
             ],
         "DESCRIPTION": "FULL #3xDebL_F1 3EP 3xdanRobL_F1 3EP 3xDebL_Loss 3EP 3xdanRobL_Loss 3EP",
-        "TEST_PATH": f"{dataset_dir}arguments-test.tsv",
+        "TEST_PATH": f"{dataset_dir}arguments.tsv",
         "MAX_THRESHOLD_METRIC": "custom",
         "ENSEMBLE": "EN",
         "ENSEMBLE_THRESHOLD": 0.26,
