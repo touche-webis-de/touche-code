@@ -71,7 +71,7 @@ Run with:
 docker run --rm -it --init \
   --volume "$PWD/checkpoints/human_value_trained_models:/app/checkpoints/human_value_trained_models" \
   adam-smith-test:1.0.0 \
-  python3 /app/test.py
+  python3 /app/test.py /app/checkpoints/human_value_trained_models
 ```
 
 ## Remark towards Code Adaptation
