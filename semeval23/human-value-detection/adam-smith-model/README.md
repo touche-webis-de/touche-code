@@ -7,13 +7,13 @@ of SemEval2023 Task 4 - ValueEval: Identification of Human Values behind Argumen
 ## Download Models
 
 The trained models can be downloaded under the following link:
-[https://drive.google.com/drive/folders/1bN7N9OwT8r35elQZlTEnBpnNHpoBl0Pz?usp=share_link](https://drive.google.com/drive/folders/1bN7N9OwT8r35elQZlTEnBpnNHpoBl0Pz?usp=share_link)
+[https://zenodo.org/record/7645536](https://zenodo.org/record/7645536)
 
-Place them in the
+Place the downloaded zip-Archive in the
 [checkpoints](checkpoints)
-directory. 
+directory.
 
-## Development (NOT YET WORKING)
+## Development
 For internal use
 ```bash
 TAG=1.0.0-nocuda # or 'TAG=1.0.0-cuda11.3' if a GPU is available
@@ -28,8 +28,8 @@ python3 /app/predict.py --inputDataset $inputDataset --outputDir $outputDir
 
 ## Remark towards Code Adaptation
 
-The base source code is taken from the `predict.ipynb` file from
+The base source code is taken from the `predict.ipynb` file as well as the `data_modules`, `models`, and `toolbox` folders from
 [https://github.com/danielschroter/human_value_detector](https://github.com/danielschroter/human_value_detector).
 
 The parts of the code taken directly from the notebook are marked with `START` and `END` comments.
-All changes made to these lines are noted directly above each affected expression.
+All changes made to lines from the repository are noted directly above each affected expression.

@@ -1,3 +1,10 @@
+import getopt
+import os
+import sys
+
+from models.interface_modules.transformer_local import (load_local_tokenizer)
+from models.interface_modules.load_ensemble_list import (load_ensemble_list)
+
 ################################
 # START OF: Initialization #####
 ################################
@@ -9,12 +16,11 @@ from tqdm.auto import tqdm
 
 import torch
 
-from transformers import AutoTokenizer
+# CHANGED: Removed unused import of AutoTokenizer
 
 import pytorch_lightning as pl
 
-import pickle
-import sys
+# CHANGED: Removed unused import of pickle
 
 from data_modules.BertDataModule import BertDataset
 from models.BertFineTunerPl import BertFineTunerPl
@@ -40,7 +46,7 @@ help_string = '\nUsage:  predict.py [OPTIONS]' \
 
 def main(argv):
     dataset_dir = None
-    model_dir = '/app/checkpoints/'
+    model_dir = '/app/checkpoints/human_value_trained_models'
     output_dir = None
 
     try:
@@ -57,89 +63,16 @@ def main(argv):
         elif opt in ('-o', '--outputDir'):
             output_dir = arg
 
+    if not os.path.isdir(model_dir):
+        print('No models detected')
+        sys.exit(2)
+
     ###############################
     # START OF: FUNCTIONALITY #####
     ###############################
 
-    # CHANGED: './checkpoints/ to f'{model_dir}
-    # CHANGED: "./data/ to f"{dataset_dir}
-    PARAMS_ENSEMBLE = {
-        "MODEL_CHECKPOINTS": [
-            f'{model_dir}HCV-409-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-408-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-406-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-402-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-403-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-405-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-364-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-366-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-368-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-371-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-372-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt',
-            f'{model_dir}HCV-375-danschr-roberta-large-BS_16-EPOCHS_8-LR_5e-05-ACC_GRAD_2-MAX_LENGTH_165-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt'
-            ],
-        "DESCRIPTION": "FULL #3xDebL_F1 3EP 3xdanRobL_F1 3EP 3xDebL_Loss 3EP 3xdanRobL_Loss 3EP",
-        "TEST_PATH": f"{dataset_dir}arguments.tsv",
-        "MAX_THRESHOLD_METRIC": "custom",
-        "ENSEMBLE": "EN",
-        "ENSEMBLE_THRESHOLD": 0.26,
-        "LABEL_COLUMNS": ['Self-direction: thought',
-                          'Self-direction: action',
-                          'Stimulation',
-                          'Hedonism',
-                          'Achievement',
-                          'Power: dominance',
-                          'Power: resources',
-                          'Face',
-                          'Security: personal',
-                          'Security: societal',
-                          'Tradition',
-                          'Conformity: rules',
-                          'Conformity: interpersonal',
-                          'Humility',
-                          'Benevolence: caring',
-                          'Benevolence: dependability',
-                          'Universalism: concern',
-                          'Universalism: nature',
-                          'Universalism: tolerance',
-                          'Universalism: objectivity']
-    }
-
-    # BLOCK #####
-
-    NAME = ""
-    ids = []
-    for elem in PARAMS_ENSEMBLE["MODEL_CHECKPOINTS"]:
-        # CHANGED: "checkpoints/" to model_dir
-        text_list = elem.split(model_dir)[1]
-        text_list = text_list.split("-")
-        id = text_list[0] + "-" + text_list[1]
-        ids.append(id)
-        NAME = NAME + "_" + id
-        print(text_list[0] + "-" + text_list[1])
-    NAME = PARAMS_ENSEMBLE["ENSEMBLE"] + "_" + NAME[1:]
-
-    PARAMS_ENSEMBLE["IDS"] = ids
-    LABEL_COLUMNS = PARAMS_ENSEMBLE["LABEL_COLUMNS"]
-
-    # BLOCK #####
-
-    # Loading the parameters for each model
-    PARAMS_LIST = []
-    for id in PARAMS_ENSEMBLE["IDS"]:
-        # CHANGED: ./checkpoints/ to {model_dir}
-        with open(f'{model_dir}{id}_PARAMS.pkl', 'rb') as f:
-            loaded_dict = pickle.load(f)
-            PARAMS_LIST.append(loaded_dict)
-
-    # BLOCK #####
-
-    # Concatenating relevant information into one Ensemble_list
-    ENSEMBLE_LIST = []
-    for param, id, mc in zip(PARAMS_LIST, PARAMS_ENSEMBLE["IDS"], PARAMS_ENSEMBLE["MODEL_CHECKPOINTS"]):
-        ENSEMBLE_LIST.append({"PARAMS": param, "ID": id, "MODEL_CHECKPOINT": mc})
-
-    # BLOCK #####
+    # CHANGED: outsourced generation of ensemble data to models/interface_modules/load_ensemble_list.py
+    PARAMS_ENSEMBLE, ENSEMBLE_LIST, LABEL_COLUMNS, NAME = load_ensemble_list(model_dir, dataset_dir)
 
     test_df_input = pd.read_csv(PARAMS_ENSEMBLE["TEST_PATH"], sep='\t')
 
@@ -187,7 +120,9 @@ def main(argv):
         trained_model.eval()
         trained_model.freeze()
         print(f"With Tokenizer {PARAMS['MODEL_PATH']}")
-        TOKENIZER = AutoTokenizer.from_pretrained(PARAMS["MODEL_PATH"])
+        # Changed to load pre-downloaded tokenizer
+        # TOKENIZER = AutoTokenizer.from_pretrained(PARAMS["MODEL_PATH"])
+        TOKENIZER = load_local_tokenizer(PARAMS["MODEL_PATH"])
         pred = predict_unseen_data(trained_model=trained_model, data=test_df_input)
         predictions.append(pred)
 
@@ -215,8 +150,8 @@ def main(argv):
 
     # BLOCK #####
 
-    # CHANGED: ./submission_test to {output_dir}predictions
-    test_prediction_df.to_csv(f"{output_dir}predictions.tsv", sep="\t", index=False)
+    # CHANGED: "./submission_test/..." to os.path.join(output_dir, "...")
+    test_prediction_df.to_csv(os.path.join(output_dir, "predictions.tsv"), sep="\t", index=False)
 
     #############################
     # END OF: FUNCTIONALITY #####

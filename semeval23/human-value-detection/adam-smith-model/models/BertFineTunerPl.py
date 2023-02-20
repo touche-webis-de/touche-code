@@ -3,11 +3,12 @@ import pytorch_lightning as pl
 
 import numpy as np
 
+# CHANGED: Added import
+from models.interface_modules.transformer_local import (load_local_model)
 
-
+# CHANGED: Removed unused import of AutoModel
 from transformers import (
-    get_linear_schedule_with_warmup,
-    AutoModel
+    get_linear_schedule_with_warmup
 )
 import torch.nn as nn
 import torch.functional as F
@@ -21,7 +22,9 @@ class BertFineTunerPl(pl.LightningModule):
 
     def __init__(self, n_classes: int, params, label_columns, n_training_steps=None, n_warmup_steps=None):
         super().__init__()
-        self.bert = AutoModel.from_pretrained(params["MODEL_PATH"], return_dict=True)
+        # Changed to load pre-downloaded Model
+        # self.bert = AutoModel.from_pretrained(params["MODEL_PATH"], return_dict=True)
+        self.bert = load_local_model(params["MODEL_PATH"], return_dict=True)
         self.hidden_layers = nn.ModuleList()
 
 
