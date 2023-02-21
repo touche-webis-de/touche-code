@@ -150,8 +150,11 @@ def main(argv):
 
     # BLOCK #####
 
-    # CHANGED: "./submission_test/..." to os.path.join(output_dir, "...")
-    test_prediction_df.to_csv(os.path.join(output_dir, "predictions.tsv"), sep="\t", index=False)
+    # CHANGED: Added lines
+    prediction_file = os.path.join(output_dir, "predictions.tsv")
+    print(f'Writing prediction to: {prediction_file}')
+    # CHANGED: "./submission_test/..." prediction_file
+    test_prediction_df.to_csv(prediction_file, sep="\t", index=False)
 
     #############################
     # END OF: FUNCTIONALITY #####

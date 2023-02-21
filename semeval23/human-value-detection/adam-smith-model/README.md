@@ -57,23 +57,6 @@ docker run --rm -it --init $GPUS \
   python3 /app/predict.py --inputDataset $inputDataset --outputDir $outputDir
 ```
 
-## Test-Image (FOR TESTING ONLY)
-Unzip the
-[downloaded](#download-models)
-zip-Archive inside the
-[checkpoints](checkpoints)
-directory (which should generate a folder `human_value_trained_models`) and build the Image from the home directory with:
-```bash
-docker build -t adam-smith-test:1.0.0 -f Dockerfile-test .
-```
-Run with:
-```bash
-docker run --rm -it --init \
-  --volume "$PWD/checkpoints/human_value_trained_models:/app/checkpoints/human_value_trained_models" \
-  adam-smith-test:1.0.0 \
-  python3 /app/test.py /app/checkpoints/human_value_trained_models
-```
-
 ## Remark towards Code Adaptation
 
 The base source code is taken from the `predict.ipynb` file as well as the `data_modules`, `models`, and `toolbox` folders from

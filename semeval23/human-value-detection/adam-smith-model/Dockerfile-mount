@@ -8,11 +8,11 @@ COPY data_modules/ /app/data_modules
 COPY models/ /app/models
 COPY toolbox/ /app/toolbox
 
-#
+# copy reference for model sources
 RUN mkdir /app/checkpoints
-
+COPY checkpoints/model_sources.txt /app/checkpoints/model_sources.txt
 # download pretrained data for models
 COPY download_pretrained_models.py /app/download_pretrained_models.py
-RUN python3 /app/download_pretrained_models.py /app/checkpoints/human_value_trained_models /app/inputDataset
+RUN python3 /app/download_pretrained_models.py /app/checkpoints/model_sources.txt
 
 COPY predict.py /app/predict.py
