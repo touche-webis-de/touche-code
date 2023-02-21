@@ -4,7 +4,7 @@ Files for replicating the best performing system
 [Adam-Smith](https://github.com/danielschroter/human_value_detector)
 of SemEval2023 Task 4 - ValueEval: Identification of Human Values behind Arguments
 
-## Download Models
+## Download Models (SHOULD NOT BE USED)
 
 The trained models can be downloaded under the following link:
 [https://zenodo.org/record/7656534](https://zenodo.org/record/7656534)
@@ -28,7 +28,7 @@ In TIRA:
 python3 /app/predict.py --inputDataset $inputDataset --outputDir $outputDir
 ```
 
-## Mounting-Image (NOT YET READY)
+## Mounting-Image
 As the model data takes a fair amount of space the following describes the 
 
 Unzip the
