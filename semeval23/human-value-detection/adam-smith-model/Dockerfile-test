@@ -1,0 +1,7 @@
+FROM anibali/pytorch:1.10.2-nocuda-ubuntu20.04
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+USER root
+
+COPY test.py /app/test.py
