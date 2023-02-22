@@ -4,7 +4,7 @@ Files for replicating the best performing system
 [Adam-Smith](https://github.com/danielschroter/human_value_detector)
 of SemEval2023 Task 4 - ValueEval: Identification of Human Values behind Arguments
 
-## Download Models
+## Download Models (SHOULD NOT BE USED)
 
 The trained models can be downloaded under the following link:
 [https://zenodo.org/record/7656534](https://zenodo.org/record/7656534)
@@ -28,7 +28,7 @@ In TIRA:
 python3 /app/predict.py --inputDataset $inputDataset --outputDir $outputDir
 ```
 
-## Mounting-Image (NOT YET READY)
+## Mounting-Image
 As the model data takes a fair amount of space the following describes the 
 
 Unzip the
@@ -55,23 +55,6 @@ docker run --rm -it --init $GPUS \
   --volume "$PWD/checkpoints/human_value_trained_models:/app/checkpoints/human_value_trained_models" \
   registry.webis.de/code-research/tira/tira-user-aristotle/touche-human-value-detection-adam-smith-mount:$TAG \
   python3 /app/predict.py --inputDataset $inputDataset --outputDir $outputDir
-```
-
-## Test-Image (FOR TESTING ONLY)
-Unzip the
-[downloaded](#download-models)
-zip-Archive inside the
-[checkpoints](checkpoints)
-directory (which should generate a folder `human_value_trained_models`) and build the Image from the home directory with:
-```bash
-docker build -t adam-smith-test:1.0.0 -f Dockerfile-test .
-```
-Run with:
-```bash
-docker run --rm -it --init \
-  --volume "$PWD/checkpoints/human_value_trained_models:/app/checkpoints/human_value_trained_models" \
-  adam-smith-test:1.0.0 \
-  python3 /app/test.py /app/checkpoints/human_value_trained_models
 ```
 
 ## Remark towards Code Adaptation
