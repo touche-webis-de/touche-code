@@ -25,7 +25,8 @@ COPY checkpoints/human_value_trained_models/HCV-408-microsoft-deberta-large-BS_8
 COPY checkpoints/human_value_trained_models/HCV-409-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt /app/checkpoints/human_value_trained_models/HCV-409-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt
 
 # download pretrained data for models
+COPY checkpoints/model_sources.txt /app/checkpoints/model_sources.txt
 COPY download_pretrained_models.py /app/download_pretrained_models.py
-RUN python3 /app/download_pretrained_models.py /app/checkpoints/human_value_trained_models /app/inputDataset
+RUN python3 /app/download_pretrained_models.py /app/checkpoints/model_sources.txt
 
 COPY predict.py /app/predict.py
