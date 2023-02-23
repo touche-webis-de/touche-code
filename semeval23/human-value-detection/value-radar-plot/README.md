@@ -11,7 +11,7 @@ Rscript -e 'install.packages("grImport")'
 Usage
 -----
 ```
-./plot-values-radar.R  example.tsv example-values-radar.pdf
+./plot-values-radar.R  example-data/example.tsv example-values-radar.pdf
 ```
 
 File format of input file (tab-separated):
@@ -22,5 +22,5 @@ Where
 - `<color>` is a color as recognized by R, like `blue` or `#0000FF` or `#0000FF88` (the last one is half-transparent)
 - `<score-for-...>` is either `-` or a value between 0 and 1
 
-See the [example.tsv](example.tsv) for reference.
+See the [example.tsv](example-data/example.tsv) for reference.
 
