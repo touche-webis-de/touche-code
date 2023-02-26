@@ -14,7 +14,7 @@ Place the downloaded zip-Archive in the
 directory.
 
 ## Development
-<b>Crated image requires >100 GB space!</b>
+<b>Created image requires >100 GB space!</b>
 
 For internal use
 ```bash
@@ -29,7 +29,7 @@ python3 /app/predict.py --inputDataset $inputDataset --outputDir $outputDir
 ```
 
 ## Mounting-Image
-As the model data takes a fair amount of space the following describes the 
+As the model data takes a fair amount of space the following describes the Docker Image with mounted model data.
 
 Unzip the
 [downloaded](#download-models)
