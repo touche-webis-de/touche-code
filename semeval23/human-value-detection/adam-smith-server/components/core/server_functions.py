@@ -1,3 +1,4 @@
+import logging
 import numpy as np
 import pandas as pd
 import torch
@@ -17,7 +18,7 @@ __ensemble_list__ = []
 __label_columns__ = []
 
 
-def setup(threshold: float, verbose=False):
+def setup(threshold: float):
     global __model_registry__
     global __ensemble_threshold__
     global __ensemble_list__
@@ -28,13 +29,13 @@ def setup(threshold: float, verbose=False):
     __label_columns__ = LABEL_COLUMNS
     __ensemble_list__ = ENSEMBLE_LIST
 
-    print(f'Initializing server with configuration:\n{NAME}')
+    logging.info(f'Initializing with configuration: {NAME}')
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     for idx, elem in enumerate(ENSEMBLE_LIST):
-        if verbose:
-            print(f"Loading model {elem['MODEL_CHECKPOINT']}")
+        logging.debug(f"Loading model {elem['MODEL_CHECKPOINT']}")
+
         PARAMS = elem["PARAMS"]
         TRAINED_MODEL = BertFineTunerPl.load_from_checkpoint(
             elem["MODEL_CHECKPOINT"],
@@ -47,8 +48,7 @@ def setup(threshold: float, verbose=False):
         TRAINED_MODEL = TRAINED_MODEL.to(device)
         __model_registry__[elem['MODEL_CHECKPOINT']] = TRAINED_MODEL
 
-        if verbose:
-            print(f"With Tokenizer {PARAMS['MODEL_PATH']}")
+        logging.debug(f"With Tokenizer {PARAMS['MODEL_PATH']}")
         if PARAMS['MODEL_PATH'] not in __model_registry__.keys():
             TOKENIZER = load_local_tokenizer(PARAMS["MODEL_PATH"])
             __model_registry__[PARAMS['MODEL_PATH']] = TOKENIZER
@@ -59,7 +59,7 @@ def predict_argument(argument: str):
 
     predictions = []
     for idx, elem in enumerate(__ensemble_list__):
-        print(f'Using {elem["MODEL_CHECKPOINT"]}')
+        logging.debug(f'Classifying with {elem["MODEL_CHECKPOINT"]}')
         TRAINED_MODEL = __model_registry__[elem["MODEL_CHECKPOINT"]]
         PARAMS = elem["PARAMS"]
         TOKENIZER = __model_registry__[PARAMS['MODEL_PATH']]
@@ -72,7 +72,7 @@ def predict_argument(argument: str):
             )
             predictions.append(pred)
         except BaseException as e:
-            print(e)
+            logging.error(f'Exception while running model \'{elem["MODEL_CHECKPOINT"]}\': {str(e)}')
             return None
 
     predictions = torch.stack(predictions).numpy()

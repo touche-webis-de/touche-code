@@ -15,6 +15,7 @@ PORT_I=8001
 
 docker run --rm -it --init $GPUS \
   --volume "$PWD/checkpoints/human_value_trained_models:/app/checkpoints/human_value_trained_models" \
+  --volume "$PWD/logs:/app/logs" \
   -p $PORT_E:$PORT_I \
   webis-de/valueeval23-adam-smith-server:$TAG --internal_port=$PORT_I --threshold=0.26
 ```

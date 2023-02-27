@@ -1,7 +1,10 @@
 from datetime import datetime
 import getopt
 import json
+import logging
+import os
 import sys
+from typing import Dict
 from http import HTTPStatus
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
@@ -13,12 +16,33 @@ help_string = '\nUsage:  server.py [OPTIONS]' \
               '\nRequest prediction of the BERT model for all test arguments' \
               '\n' \
               '\nOptions:' \
-              '\n  -h, --help              Display help text' \
-              '\n  -i, --internal_port     Directory with \'arguments.tsv\' file' \
-              '\n  -t, --threshold         Directory for writing the \'predictions.tsv\' file to'
+              '\n  -h, --help               Display help text' \
+              '\n  -i, --internal_port int  Specifies the local port where the server listens' \
+              '\n  -l, --log str            Log level, any of \'DEBUG\', \'INFO\', \'WARNING\', \'ERROR\'.' \
+              '\n                           (default is \'INFO\')' \
+              '\n  -p, --prefix_log str     Prefix string for log files (default is \'adam-smith\')' \
+              '\n  -t, --threshold float    Ensemble threshold within [0.0; 1.0]'
 
 
-# Adapted from https://gist.github.com/nitaku/10d0662536f37a087e1b
+######################################
+# START OF: HTTP response server #####
+######################################
+
+def __handle_argument__(argument: str) -> Dict:
+    if len(argument) > 0:
+        try:
+            result = predict_argument(argument=argument)
+        except RuntimeError as e:
+            logging.error(f'Exception during prediction for argument \'{argument}\':\n' + str(e))
+            result = None
+        if result is None or not isinstance(result, dict):
+            result = {'Status': 'Internal error'}
+    else:
+        result = {'Status': 'Bad request'}
+
+    return result
+
+
 class RequestHandler(BaseHTTPRequestHandler):
 
     def _set_headers(self):
@@ -29,42 +53,25 @@ class RequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         query = parse_qs(urlparse(self.path).query)
-        arguments = query.get('argument', None)
+        argument_list = query.get('argument', None)
 
-        if arguments is not None and len(arguments) == 1:
-            argument = arguments[0]
-            try:
-                result = predict_argument(argument=argument)
-            except RuntimeError as e:
-                # log<w
-                result = None
-            if result is None:
-                result = {'Status': 'Internal error'}
-        else:
-            result = {'Status': 'Bad request'}
+        argument = ""
+        if argument_list is not None and len(argument_list) >= 1:
+            argument = " ".join(argument_list)
+
+        result = __handle_argument__(argument=argument)
 
         self._set_headers()
         response = json.dumps(result).encode('utf-8')
         self.wfile.write(response)
 
     def do_POST(self):
+        logging.info(self.command)
         length = int(self.headers.get('content-length'))
         payload = self.rfile.read(length)
-        message_string = payload.decode('utf-8', errors='ignore')
+        argument = payload.decode('utf-8', errors='ignore')
 
-        if len(message_string) > 0:
-            try:
-                result = predict_argument(argument=message_string)
-            except RuntimeError as e:
-                # log
-                result = None
-            if result is None:
-                result = {'Status': 'Internal error'}
-        else:
-            result = {'Status': 'Bad request'}
-
-        print(result)
-        print(type(result))
+        result = __handle_argument__(argument=argument)
 
         self._set_headers()
         response = json.dumps(result).encode('utf-8')
@@ -78,17 +85,19 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'content-type')
         self.end_headers()
 
+######################################
+# END OF: HTTP response server #####
+######################################
 
-def run_server(internal_port: int = 8001, threshold: float = 0.27):
-    print('Loading server functions...')
-    try:
-        setup(threshold=threshold, verbose=True)
-    except BaseException as e:
-        print(e)
-        sys.exit(-1)
 
+def run_server(internal_port: int = 8001):
     server_address = ('', internal_port)
     httpd = HTTPServer(server_address, RequestHandler)
+    logging.info('serving at %s:%d' % (
+        len(server_address[0]) > 0 and server_address[0] or 'internal',
+        server_address[1]
+    ))
+    # console output for safety
     print('[%s] serving at %s:%d' % (
         datetime.now(),
         len(server_address[0]) > 0 and server_address[0] or 'internal',
@@ -97,12 +106,25 @@ def run_server(internal_port: int = 8001, threshold: float = 0.27):
     httpd.serve_forever()
 
 
+def __setup_logging__(log_file: str, loglevel: str):
+    logging.basicConfig(
+        format='[%(asctime)s] %(levelname)s %(message)s',
+        filename=log_file,
+        level=getattr(logging, loglevel.upper()),
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+
+
 def main(argv):
     internal_port = None
     threshold = None
+    loglevel = 'INFO'
+    log_filename_prefix = 'adam-smith'
+
+    log_folder = '/app/logs'
 
     try:
-        opts, args = getopt.gnu_getopt(argv, "hi:t:", ["help", "internal_port=", "threshold="])
+        opts, args = getopt.gnu_getopt(argv, "hi:l:t:", ["help", "internal_port=", "log=", "threshold="])
     except getopt.GetoptError:
         print(help_string)
         sys.exit(2)
@@ -118,6 +140,12 @@ def main(argv):
             except ValueError:
                 print(f'Internal port has to be a positive integer. Got "{arg}" instead.')
                 sys.exit(2)
+        elif opt in ('-l', '--log'):
+            numeric_level = getattr(logging, arg.upper(), None)
+            if not isinstance(numeric_level, int):
+                print(f'Unknown log level "{arg}". Using default level "{loglevel}".')
+            else:
+                loglevel = arg
         elif opt in ('-t', '--threshold'):
             try:
                 threshold = float(arg)
@@ -126,12 +154,33 @@ def main(argv):
             except ValueError:
                 print(f'Threshold is expected to be a float between 0 and 1. Got "{arg}" instead.')
                 sys.exit(2)
+        elif opt in ('-p', '--prefix_log'):
+            log_filename_prefix = arg.replace('"', '').replace("'", '')
 
     if internal_port is None or threshold is None:
         print(help_string)
         sys.exit(2)
 
-    run_server(internal_port=internal_port, threshold=threshold)
+    # check logging setup
+    if not os.path.isdir(log_folder):
+        print(f'No logging folder provided to {log_folder}.')
+        sys.exit(2)
+
+    if len(log_filename_prefix) > 0 and not log_filename_prefix.endswith('_'):
+        log_filename_prefix += '_'
+    log_filename = log_filename_prefix + datetime.now().strftime('%Y-%m-%d_%H-%M-%S') + '.log'
+
+    __setup_logging__(log_file=os.path.join(log_folder, log_filename), loglevel=loglevel)
+
+    # start server functions
+    try:
+        setup(threshold=threshold)
+    except BaseException as e:
+        logging.error('Exception while starting server functions: ' + str(e))
+        sys.exit(-1)
+
+    # start server
+    run_server(internal_port=internal_port)
 
 
 if __name__ == '__main__':
