@@ -43,7 +43,7 @@ def __handle_argument__(argument: str) -> Dict:
     return result
 
 
-class RequestHandler(BaseHTTPRequestHandler):
+class AdamSmithServer(BaseHTTPRequestHandler):
 
     def _set_headers(self):
         self.send_response(HTTPStatus.OK)
@@ -52,6 +52,8 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
     def do_GET(self):
+        logging.info(self.command)
+
         query = parse_qs(urlparse(self.path).query)
         argument_list = query.get('argument', None)
 
@@ -67,6 +69,7 @@ class RequestHandler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         logging.info(self.command)
+
         length = int(self.headers.get('content-length'))
         payload = self.rfile.read(length)
         argument = payload.decode('utf-8', errors='ignore')
@@ -85,6 +88,11 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'content-type')
         self.end_headers()
 
+    # silence console log messages
+    def log_message(self, format, *args):
+        pass
+
+
 ######################################
 # END OF: HTTP response server #####
 ######################################
@@ -92,15 +100,15 @@ class RequestHandler(BaseHTTPRequestHandler):
 
 def run_server(internal_port: int = 8001):
     server_address = ('', internal_port)
-    httpd = HTTPServer(server_address, RequestHandler)
+    httpd = HTTPServer(server_address, AdamSmithServer)
     logging.info('serving at %s:%d' % (
-        len(server_address[0]) > 0 and server_address[0] or 'internal',
+        len(server_address[0]) > 0 and server_address[0] or 'localhost',
         server_address[1]
     ))
     # console output for safety
     print('[%s] serving at %s:%d' % (
-        datetime.now(),
-        len(server_address[0]) > 0 and server_address[0] or 'internal',
+        datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        len(server_address[0]) > 0 and server_address[0] or 'localhost',
         server_address[1]
     ))
     httpd.serve_forever()
@@ -124,7 +132,7 @@ def main(argv):
     log_folder = '/app/logs'
 
     try:
-        opts, args = getopt.gnu_getopt(argv, "hi:l:t:", ["help", "internal_port=", "log=", "threshold="])
+        opts, args = getopt.gnu_getopt(argv, "hi:l:t:p:", ["help", "internal_port=", "log=", "threshold=", "prefix_log="])
     except getopt.GetoptError:
         print(help_string)
         sys.exit(2)
