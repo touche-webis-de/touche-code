@@ -1,0 +1,16 @@
+FROM webis/tira-test-image:1.0.0
+
+COPY requirements_bert.txt /workspace/requirements.txt
+RUN pip install -r requirements.txt
+
+COPY components /workspace/components/
+COPY core_data /workspace/core_data/
+COPY models/bert /workspace/models/bert/
+# pre-load autotokenizer
+RUN mkdir /workspace/tokenizer
+COPY download_bert_tokenizer.py /workspace/
+RUN python3 /workspace/download_bert_tokenizer.py
+
+COPY predict_bert_notebook.ipynb /workspace/
+
+RUN jupyter trust /workspace/predict_bert_notebook.ipynb

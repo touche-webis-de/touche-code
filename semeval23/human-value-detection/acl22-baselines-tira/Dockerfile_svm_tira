@@ -1,0 +1,12 @@
+FROM webis/tira-test-image:1.0.0
+
+COPY requirements_svm.txt /workspace/requirements.txt
+RUN pip3 install -r requirements.txt
+
+COPY components /workspace/components/
+COPY core_data /workspace/core_data/
+COPY models/svm /workspace/models/svm/
+
+COPY predict_svm_notebook.ipynb /workspace/
+
+RUN jupyter trust /workspace/predict_svm_notebook.ipynb
