@@ -1,4 +1,5 @@
 import torch
+import sys
 
 from datasets import (Dataset, DatasetDict, load_dataset)
 from transformers import (AutoTokenizer, AutoModelForSequenceClassification,
@@ -7,6 +8,7 @@ from transformers import (AutoTokenizer, AutoModelForSequenceClassification,
 from sklearn.metrics import f1_score
 
 import numpy as np
+import pandas as pd
 
 
 def accuracy_thresh(y_pred, y_true, thresh=0.5, sigmoid=True):
@@ -117,6 +119,7 @@ def convert_to_dataset(train_dataframe, test_dataframe, labels):
 
 # tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 tokenizer = None
+_multi_trainer = None
 
 
 def load_tokenizer(tokenizer_dir):
@@ -136,6 +139,29 @@ def load_model_from_data_dir(model_dir, num_labels):
     return model
 
 
+def pre_load_saved_model(model_dir, labels):
+    global _multi_trainer
+
+    num_labels = len(labels)
+
+    batch_size = 8
+    args = TrainingArguments(
+        output_dir=model_dir,
+        do_train=False,
+        do_eval=False,
+        do_predict=True,
+        per_device_eval_batch_size=batch_size
+    )
+
+    model = load_model_from_data_dir(model_dir, num_labels=num_labels)
+
+    _multi_trainer = MultiLabelTrainer(
+        model,
+        args,
+        tokenizer=tokenizer
+    )
+
+
 def predict_bert_model(dataframe, model_dir, labels):
     """
         Classifies each argument using the Bert model stored in `model_dir`
@@ -151,37 +177,22 @@ def predict_bert_model(dataframe, model_dir, labels):
 
         Returns
         -------
-        np.ndarray
-            numpy nd-array with the predictions given by the model
+        Dataframe
+            pandas Dataframe with the predictions given by the model
         """
     if tokenizer is None:
         print('No tokenizer loaded yet.')
         sys.exit(2)
 
     ds, no_labels = convert_to_dataset(dataframe, dataframe, labels)
-    num_labels = len(labels)
     ds = ds.remove_columns(['labels'])
 
-    batch_size = 8
-    args = TrainingArguments(
-        output_dir=model_dir,
-        do_train=False,
-        do_eval=False,
-        do_predict=True,
-        per_device_eval_batch_size=batch_size
-    )
+    if _multi_trainer is None:
+        pre_load_saved_model(model_dir=model_dir, labels=labels)
 
-    model = load_model_from_data_dir(model_dir, num_labels=num_labels)
+    prediction = 1 * (_multi_trainer.predict(ds['train']).predictions > 0.5)
 
-    multi_trainer = MultiLabelTrainer(
-        model,
-        args,
-        tokenizer=tokenizer
-    )
-
-    prediction = 1 * (multi_trainer.predict(ds['train']).predictions > 0.5)
-
-    return prediction
+    return pd.DataFrame(prediction, columns=labels)
 
 
 def train_bert_model(train_dataframe, model_dir, labels, test_dataframe=None, num_train_epochs=20):

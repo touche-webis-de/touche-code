@@ -1,4 +1,4 @@
-FROM webis/tira-test-image:1.0.0
+FROM tira/submission-base-image:1.0.0
 
 COPY requirements_svm.txt /workspace/requirements.txt
 RUN pip3 install -r requirements.txt

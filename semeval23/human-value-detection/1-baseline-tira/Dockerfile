@@ -1,4 +1,4 @@
-FROM webis/tira-test-image:1.0.0
+FROM tira/submission-base-image:1.0.0
 
 COPY 1_baseline_notebook.ipynb /workspace/
 

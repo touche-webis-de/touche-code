@@ -89,28 +89,8 @@ class MyLinearSVC(LinearSVC):
         return result
 
 
-def predict_svm(dataframe, labels, vectorizer_file, model_file):
-    """
-        Classifies each argument in the dataframe using the trained Support Vector Machines (SVMs) in the `model_file`
-
-        Parameters
-        ----------
-        dataframe : pd.DataFrame
-            The arguments to be classified
-        labels : list[str]
-            The listing of all labels
-        vectorizer_file : str
-            The file containing the fitted core_data from the TfidfVectorizer
-        model_file : str
-            The file containing the serialized SVM models
-
-        Returns
-        -------
-        DataFrame
-            the predictions given by the model
-        """
-    input_vector = dataframe['Premise']
-    df_model_predictions = {}
+def load_svms(labels, vectorizer_file, model_file):
+    model_registry = {}
 
     # load vectorizer
     with open(vectorizer_file, "r") as f:
@@ -131,9 +111,9 @@ def predict_svm(dataframe, labels, vectorizer_file, model_file):
             ('tfidf', vectorizer),
             ('clf', MyLinearSVC(intercept=model_dict[intercept_label], coef=model_dict[coef_label])),
         ])
-        df_model_predictions[label_name] = svm.predict(input_vector)
+        model_registry[label_name] = svm
 
-    return pd.DataFrame(df_model_predictions, columns=labels)
+    return model_registry
 
 
 def train_svm(train_dataframe, labels, vectorizer_file, model_file, test_dataframe=None):

@@ -1,7 +1,7 @@
-FROM webis/tira-test-image:1.0.0
+FROM tira/submission-base-image:1.0.0
 
 COPY requirements_bert.txt /workspace/requirements.txt
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 COPY components /workspace/components/
 COPY core_data /workspace/core_data/

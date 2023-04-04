@@ -9,4 +9,4 @@
     predict_svm(dataframe, labels, vectorizer_file, model_file):
         Predict with Support Vector Machines (SVMs)
     """
-from .svm import (train_svm, predict_svm)
+from .svm import (train_svm, load_svms)

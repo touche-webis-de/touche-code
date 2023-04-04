@@ -2,7 +2,7 @@ from transformers import (AutoTokenizer, AutoConfig)
 
 
 def main():
-    tokenizer_dir = "/workspace/tokenizer"
+    tokenizer_dir = "tokenizer"
 
     tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     config = AutoConfig.from_pretrained('bert-base-uncased')
