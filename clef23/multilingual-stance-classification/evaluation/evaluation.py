@@ -72,13 +72,25 @@ def create_dict_results(dfgt, dfp, lan=None):
 	return dict_res_lan
 
 
-if __name__ == '__main__':
+def to_prototext(d):
+    ret = ''
+    
+    for k, v in d.items():
+        ret += 'measure{\n  key: "' + str(k) + '"\n  value: "' + str(v) + '"\n}\n'
+    
+    return ret.strip()
 
+
+def parse_args():
 	parser = argparse.ArgumentParser(description='Evaluate submissions to the clickbait spoiling task.')
-	parser.add_argument('--input_run', type=str, help='The input run (expected in tsv format) produced by a system that should be evaluated.', default='CFS_toy_pred.tsv')
-	parser.add_argument('--ground_truth', type=str, help='The ground truth classes used to evaluate submissions to task 1 (spoiler type generation).', default='CFS_toy.tsv')
-	# parser.add_argument('--task', type=str, help='The task to evaluate. Choose 1 (spoiler type classification) or 2 (spoiler generation).', choices=['1', '2'], required=True)	
-	args = parser.parse_args()
+	parser.add_argument('--input_run', type=str, help='The input run (expected in tsv format) produced by a system that should be evaluated.', required=parser.add_argument('--ground_truth', type=str, help='The ground truth classes used to evaluate submissions to task 1 (spoiler type generation).', required=True))
+	parser.add_argument('--output_prototext', type=str, help='Write evalualuation results as prototext file to this location.', required=False, default='/tmp/evaluation.prototext')
+
+	return parser.parse_args()
+
+
+if __name__ == '__main__':
+	args = parse_args()
 
 	# GT file
 	dfgt = pd.read_csv(args.ground_truth, sep='\t', index_col=False)
@@ -96,4 +108,13 @@ if __name__ == '__main__':
 		bool_lan = dfgt['lan'] == lan
 		dict_results[lan] = create_dict_results(dfgt[bool_lan], dfp[bool_lan], lan)
 
-	print(dict_results)
+	results = {}
+	for language in sorted(list(dict_results.keys())):
+		for k in sorted(list(dict_results[language].keys())):
+			results[(language + '-' + k).lower().replace('\s', '-')] = dict_results[language][k]
+            
+	print(to_prototext(results))
+
+	with open(args.output_prototext, 'w') as f:
+		f.write(to_prototext(results))
+
