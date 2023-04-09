@@ -86,6 +86,44 @@ It is publicly available [here](https://drive.google.com/file/d/1R-eAEghjAns6CjC
 | comment_90817 |     89992 | Against     | Europäische Waffenexporte leisten einen großen Beitrag zum Elend in der Welt [...]                                                                                                                       |       0 | comment_90817 | True                     |        0 |          0 | EUInTheWorld | de    | 2021-09-14 10:28:46+02:00 |
 | comment_1330  |       417 | Against     | Je ne comprend pas très bien ce que l'on reproche a l'UE (vous devriez pouvoir m'éclairer) [...]  |       0 | comment_1330  | True                     |        3 |          0 | ValuesRights | fr    | 2021-04-22 18:55:25+02:00 |
 
+
+# Baseline
+
+The file [baseline/baseline-stance-classification.py](baseline/baseline-stance-classification.py) contains a baseline that always predicts "In favor".
+
+To run the baseline on the toy dataset as it would be executed in TIRA, please run (please install the tira utility with `pip install tira` first):
+
+```
+tira-run \
+	--image webis/touche-multilingual-stance-classification-baseline:0.0.1 \
+	--input-directory ${PWD}/example-data/toy-input \
+	--command '/baseline-stance-classification.py --input $inputDataset/data.tsv --output $outputDir/run.tsv'
+```
+
+This has produced a file `tira-output/run.tsv` (see output via `head -3 tira-output/run.tsv`):
+
+```
+comment_886	In favor
+comment_39734	In favor
+comment_87319	In favor
+```
+
+You can then evaluate this using the command `docker run --rm -ti -v ${PWD}/example-data/:/data -v ${PWD}/tira-output:/run -v ${PWD}:/out webis/touche-multilingual-stance-classification-evaluator:0.0.1 --input_run /run/run.tsv --ground_truth /data/toy-truth/data.tsv --output_prototext /out/evaluation.prototext`.
+
+To run the baseline in TIRA, please click on "Docker Submission" -> "Upload Images" to upload your image and subsequently add the software with the command `/baseline-stance-classification.py --input $inputDataset/data.tsv --output $outputDir/run.tsv`. Please find a more detailed instruction on how to add your software to tira at [https://www.tira.io/t/how-to-make-a-software-submission-with-docker](https://www.tira.io/t/how-to-make-a-software-submission-with-docker).
+
+You can build the baseline via
+
+```
+docker build -t webis/touche-multilingual-stance-classification-baseline:0.0.1 baseline
+```
+
+You can push the baseline via `docker push` (please adjust the tag accordingly as in your personalized documentation):
+```
+docker push webis/touche-multilingual-stance-classification-baseline:0.0.1
+```
+
+
 # Evaluation
 
 Results will be evaluated using a macro-averaged F1-score over the 3 classes, overall and per language. 
@@ -96,3 +134,12 @@ Results will be evaluated using a macro-averaged F1-score over the 3 classes, ov
 docker build -t webis/touche-multilingual-stance-classification-evaluator:0.0.1 evaluation
 docker push webis/touche-multilingual-stance-classification-evaluator:0.0.1
 ```
+
+Run the evaluation with docker:
+
+```
+docker run --rm -ti -v ${PWD}/example-data/:/data -v ${PWD}:/out webis/touche-multilingual-stance-classification-evaluator:0.0.1 --input_run /data/toy-run/run.tsv --ground_truth /data/toy-truth/data.tsv --output_prototext /out/evaluation.prototext
+```
+
+In TIRA, add the evaluator with: `/evaluation.py --ground_truth $inputDataset/data.tsv --input_run $inputRun/run.tsv --output_prototext $outputDir/evaluation.prototext`
+
