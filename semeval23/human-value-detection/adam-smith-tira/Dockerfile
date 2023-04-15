@@ -1,7 +1,12 @@
-FROM tira/submission-base-image:1.0.0
+FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
 
+RUN pip3 install pandas jupyterlab runnb tira==0.0.28
+
+# Install custom requirements HERE
 COPY requirements.txt /workspace/
 RUN pip3 install -r requirements.txt
+
+ENV PYTHONPATH=/workspace
 
 # copy download and interface module
 RUN mkdir /workspace/components/
@@ -25,6 +30,7 @@ COPY components/toolbox /workspace/components/toolbox
 COPY components/models /workspace/components/models
 COPY components/data_modules /workspace/components/data_modules
 
+# Copy execution notebook
 COPY adam_smith_notebook.ipynb /workspace/
 
 RUN jupyter trust /workspace/adam_smith_notebook.ipynb

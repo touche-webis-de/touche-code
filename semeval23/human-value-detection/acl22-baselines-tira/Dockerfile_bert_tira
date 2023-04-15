@@ -1,7 +1,12 @@
-FROM tira/submission-base-image:1.0.0
+FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
 
+RUN pip3 install pandas jupyterlab runnb tira==0.0.28
+
+# Install custom requirements HERE
 COPY requirements_bert.txt /workspace/requirements.txt
 RUN pip3 install -r requirements.txt
+
+ENV PYTHONPATH=/workspace
 
 COPY components /workspace/components/
 COPY core_data /workspace/core_data/
@@ -11,6 +16,7 @@ RUN mkdir /workspace/tokenizer
 COPY download_bert_tokenizer.py /workspace/
 RUN python3 /workspace/download_bert_tokenizer.py
 
+# Copy execution notebook
 COPY predict_bert_notebook.ipynb /workspace/
 
 RUN jupyter trust /workspace/predict_bert_notebook.ipynb

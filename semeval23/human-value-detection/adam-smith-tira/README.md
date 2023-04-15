@@ -1,6 +1,17 @@
 # Adam-Smith TIRA Image
 Dockerized version of the winning submission to ValueEval'23 by Schroter et al. [[original code](https://github.com/danielschroter/human_value_detector)]
 
+## Requirements
+
+In addition to the packages listed in
+[requirements.txt](requirements.txt)
+it is necessary to install the packages
+- `jupyterlab`,
+- `runnb`,
+- `pandas` (for the inference server), and
+- `tira>=0.0.28`
+in order to use the `tira-run-notebook` or `tira-run-inference-server` commands locally.
+
 ## Usage
 
 The required model files can be downloaded under the following link:

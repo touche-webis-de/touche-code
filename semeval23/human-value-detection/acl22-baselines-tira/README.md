@@ -1,8 +1,24 @@
 # ACL'22-Baselines TIRA Image(s)
 Bert-Model and SVM baselines from the ACL'22 publication "[Identifying the Human Values behind Arguments](https://webis.de/publications.html#kiesel_2022b)" for Human Value Detection 2023 @ Touche and SemEval 2023.
 
-Requirement:
-- pre-trained model data (in [models/bert](models/bert) and/or [models/svm](models/svm) respectively)
+## Requirements
+
+Using the models requires the pre-trained model data (in
+[models/bert](models/bert)
+and/or
+[models/svm](models/svm)
+respectively).
+
+In addition to the packages listed in
+[requirements.txt](requirements.txt)
+it is necessary to install the packages
+- `jupyterlab`,
+- `runnb`,
+- `pandas` (for the inference server), and
+- `tira>=0.0.28`
+in order to use the `tira-run-notebook` or `tira-run-inference-server` commands locally.
+
+## Usage
 
 Local example usage:
 ```bash

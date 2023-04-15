@@ -1,6 +1,19 @@
 # Random Baseline TIRA Image
 Random baseline for Human Value Detection 2023 @ Touche and SemEval 2023.
 
+## Requirements
+
+In addition to the packages listed in
+[requirements.txt](requirements.txt)
+it is necessary to install the packages
+- `jupyterlab`,
+- `runnb`,
+- `pandas` (for the inference server), and
+- `tira>=0.0.28`
+in order to use the `tira-run-notebook` or `tira-run-inference-server` commands locally.
+
+## Usage
+
 Local example usage:
 ```bash
 # get arguments file
