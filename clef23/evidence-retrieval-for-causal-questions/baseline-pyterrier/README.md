@@ -48,6 +48,7 @@ You can dry-run this on your machine by executing the command:
 tira-run \
     --input-directory ${PWD}/sample-input/full-rank \
     --image webis/tira-touche23-task-2-pyterrier-baseline:0.0.2 \
+    --allow-network true \
     --command '/workspace/run-pyterrier-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir'
 ```
 
