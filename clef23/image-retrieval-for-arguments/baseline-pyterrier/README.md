@@ -8,7 +8,7 @@ This image comes with a script [run-notebook.py](run-notebook.py) that allows yo
 
 ## Prerequisities:
 
-You need to [install docker](https://docs.docker.com/get-docker/) on your machine.
+You need to [install docker](https://docs.docker.com/get-docker/) on your machine. Please also install `tira` using `pip3 install tira`.
 
 
 ## Run a Jupyter Notebook locally for Development
@@ -37,14 +37,14 @@ docker build -t webis/tira-touche23-task-3-pyterrier-baseline:0.0.1 .
 The notebook [full-rank-pipeline.ipynb](full-rank-pipeline.ipynb) implements "full-rank" retrieval: all images are indexed with PyTerrier before retrieval with BM25.
 
 You can run it on a small example dataset in your notebook.
-To test your pipeline locally, you can make run the script [run-notebook.py](run-notebook.py) as `local-dry-run`, e.g., by:
+To test your pipeline locally, you can use the `tira-run` command:
 
 ```
-./run-notebook.py \
-    --input ${PWD}/sample-input/full-rank \
-    --output ${PWD}/sample-output \
-    --notebook /workspace/full-rank-pipeline.ipynb \
-    --local-dry-run True
+tira-run \
+    --input-directory ${PWD}/sample-input/full-rank \
+    --output-directory ${PWD}/sample-output \
+    --image webis/tira-touche23-task-3-pyterrier-baseline:0.0.1 \
+    --command '/workspace/run-notebook.py --notebook /workspace/full-rank-pipeline.ipynb --input $inputDataset --output $outputDir'
 ```
 
 
