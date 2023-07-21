@@ -17,35 +17,33 @@ Local example usage for subtask 1:
 # get arguments file
 wget https://zenodo.org/record/T.B.A./files/sentences-training.tsv -O senteces.tsv
 # run baseline
+export TIRA_RUN_ACTIVE_SUBTASK=1
 tira-run-notebook --input . --output . --notebook random_baseline_notebook.ipynb
 # show baseline run
 head predictions.tsv
 ```
-In order to run subtask 2 you need to change the
-[notebook](random_baseline_notebook.ipynb)'s
-second code block to
-```python
-active_subtask = 2
+In order to run subtask 2 instead run
+```bash
+export TIRA_RUN_ACTIVE_SUBTASK=2
 ```
-and run again.
+before the `tira-run-notebook` command.
 
 ### Running on TIRA
 
-For better reproducibility, the models for both subtasks are uploaded as Docker images to
+For better reproducibility, the model for both subtasks is uploaded as Docker images to
 [TIRA](https://www.tira.io/).
 ```bash
-docker build -t registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-task-2-subtask-1-random-baseline:1.0.0 .
-docker push registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-task-2-subtask-1-random-baseline:1.0.0
+docker build -t registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-task-2-random-baseline:1.0.0 .
+docker push registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-task-2-random-baseline:1.0.0
 ```
-To build the image for the second subtask you need to modify the
-[notebook](random_baseline_notebook.ipynb)
-as described in
-[Usage](#usage)
-and build the image again with an appropriately different tag.
 
-Both images have the identical run command on TIRA:
+The run commands on TIRA are for the first subtask
 ```bash
-tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
+export TIRA_RUN_ACTIVE_SUBTASK=1; tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
+```
+and for the second subtask
+```bash
+export TIRA_RUN_ACTIVE_SUBTASK=2; tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
 ```
 
 ## Adapting for complex models
