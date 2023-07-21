@@ -21,9 +21,9 @@ tira-run-notebook --input . --output . --notebook random_baseline_notebook.ipynb
 # show baseline run
 head predictions.tsv
 ```
-In order to run subtask 2 you need to change in the
-[notebook](random_baseline_notebook.ipynb)
-the second code block to
+In order to run subtask 2 you need to change the
+[notebook](random_baseline_notebook.ipynb)'s
+second code block to
 ```python
 active_subtask = 2
 ```
@@ -50,6 +50,10 @@ tira-run-notebook --input $inputDataset --output $outputDir --notebook random_ba
 
 ## Adapting for complex models
 
+In order to use your own custom model you could modify the
+[notebook](random_baseline_notebook.ipynb)
+so that the functions `predict_subtask_1` and `predict_subtask_2` apply your model for the respective subtask.
+
 ### Including model files
 
 Files within the
@@ -61,7 +65,7 @@ If your model files are stored on the
 [Hugging Face Hub](https://huggingface.co/models)
 we provided a simple
 [download script](models/download_model_files.py)
-which can also be used in Github actions for automated image build and deploy.
+which can also be used in GitHub actions for automated image build and deploy.
 ```bash
 python3 models/download_model_files.py -f models/model_downloads.jsonl
 ```
