@@ -12,45 +12,36 @@ in order to use the `tira-run-notebook`command locally.
 
 ## Usage
 
-Local example usage for subtask 1:
+Local example usage:
 ```bash
 # get arguments file
 wget https://zenodo.org/record/T.B.A./files/sentences-training.tsv -O senteces.tsv
 # run baseline
-export TIRA_RUN_ACTIVE_SUBTASK=1
 tira-run-notebook --input . --output . --notebook random_baseline_notebook.ipynb
 # show baseline run
 head predictions.tsv
 ```
-In order to run subtask 2 instead run
-```bash
-export TIRA_RUN_ACTIVE_SUBTASK=2
-```
-before the `tira-run-notebook` command.
 
 ### Running on TIRA
 
-For better reproducibility, the model for both subtasks is uploaded as Docker images to
+For better reproducibility, the model is uploaded as Docker image to
 [TIRA](https://www.tira.io/).
 ```bash
-docker build -t registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-task-2-random-baseline:1.0.0 .
-docker push registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-task-2-random-baseline:1.0.0
+docker build -t registry.webis.de/code-research/tira/tira-user-test/tira-touche24-random-baseline:1.0.0 .
+docker build -t registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-random-baseline:1.0.0 .
+docker push registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-random-baseline:1.0.0
 ```
 
-The run commands on TIRA are for the first subtask
+The run command on TIRA is:
 ```bash
-export TIRA_RUN_ACTIVE_SUBTASK=1; tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
-```
-and for the second subtask
-```bash
-export TIRA_RUN_ACTIVE_SUBTASK=2; tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
+tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
 ```
 
 ## Adapting for complex models
 
 In order to use your own custom model you could modify the
 [notebook](random_baseline_notebook.ipynb)
-so that the functions `predict_subtask_1` and `predict_subtask_2` apply your model for the respective subtask.
+so that the function `predict` applies your model (for the respective subtask).
 
 ### Including model files
 
