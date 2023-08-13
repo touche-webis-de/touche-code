@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """Evaluator for Human Value Detection 2023 @ Touche and SemEval 2023"""
-# Version: 2022-11-27
+# Version: 2023-08-13
 
 import argparse
 import csv
