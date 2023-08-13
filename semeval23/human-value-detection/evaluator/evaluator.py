@@ -42,6 +42,7 @@ def readLabels(directory, prefix = None, availableArgumentIds = None):
                         if fieldName != "Argument ID" and fieldName not in availableValues:
                             print("Skipping file " + labelsFileName + " due to invalid field '" + fieldName + "'; available field names: " + str(availableValues))
                             invalidFieldNames = True
+                            break
                     if invalidFieldNames:
                         continue
 
@@ -53,10 +54,14 @@ def readLabels(directory, prefix = None, availableArgumentIds = None):
                             print("Skipping line " + str(lineNumber) + " due to unknown Argument ID '" + argumentId + "'")
                             continue
                         del row["Argument ID"]
+                        has_invalid_labels = False
                         for label in row.values():
                             if label != "0" and label != "1":
                                 print("Skipping line " + str(lineNumber) + " due to invalid label '" + label + "'")
-                                continue
+                                has_invalid_labels = True
+                                break
+                        if has_invalid_labels:
+                            continue
                         labels[argumentId] = row
     if len(labels) == 0:
         if prefix == None:
