@@ -1,0 +1,13 @@
+{
+  "name": "Vuetify-Container",
+  "image": "webis-de/vuetify-dev-container:0.1-beta",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Development Port",
+      "onAutoForward": "notify"
+    }
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
+}

@@ -1,0 +1,29 @@
+FROM node:20.5.1
+
+USER 0
+RUN mkdir -p /workspace
+RUN mkdir -p /IdeaProjects/result-rendering-with-vue
+RUN mkdir -p /PycharmProjects/result-rendering-with-vue
+
+WORKDIR /workspace
+
+RUN yarn add \
+    @babel/types@7.22.10 \
+    @mdi/font@7.0.96 \
+    @types/node@18.17.4 \
+    @types/webfontloader@1.6.35 \
+    @vitejs/plugin-vue@4.2.3 \
+    roboto-fontface@0.10.0 \
+    typescript@5.1.6 \
+    vite-plugin-html@3.2.0 \
+    vite-plugin-singlefile@0.13.5 \
+    vite-plugin-vuetify@1.0.2 \
+    vite@4.4.9 \
+    vue-template-compiler@2.7.14 \
+    vue-tsc@1.8.8 \
+    vue@3.3.4 \
+    vuetify@3.3.12 \
+    webfontloader@1.6.28
+
+RUN ln -s /workspace/node_modules /IdeaProjects/result-rendering-with-vue/node_modules
+RUN ln -s /workspace/node_modules /PycharmProjects/result-rendering-with-vue/node_modules
