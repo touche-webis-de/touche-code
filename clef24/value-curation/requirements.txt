@@ -1,2 +1,2 @@
 pandas
-trankit
+trankit==1.1.1

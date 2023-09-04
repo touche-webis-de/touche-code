@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
 import argparse
+import copy
 import json
-from typing import Union, List
+from typing import Union, List, Optional, Dict
 
 import sys
 import os
 
 import zipfile
-import re
+from trankit import Pipeline
 
 import pandas as pd
 
@@ -28,6 +29,55 @@ _value_dictionary = {value.replace(':', ' -').upper(): value for value in _value
 ######################
 # END: CONSTANTS #####
 ######################
+
+
+################################
+# START: Trankit Functions #####
+################################
+
+_lang_codes = {'EN': 'english', 'FR': 'french', 'EL': 'greek'}
+_lang_pipelines = {}
+
+
+def _get_pipeline_for_file(text_id: str) -> Optional[Pipeline]:
+    detected_language = None
+    for code, language in _lang_codes.items():
+        if text_id.upper().startswith(code):
+            print(f'Detected language {language} for TEXT-ID {text_id}')
+            detected_language = language
+            break
+    if detected_language is None:
+        print(f'Unable to detect language for file "{text_id}".')
+        return None
+
+    global _lang_pipelines
+    if detected_language in _lang_pipelines.keys():
+        pipeline = _lang_pipelines[detected_language]
+        if pipeline._config.active_lang != detected_language:
+            pipeline.set_active(detected_language)
+    else:
+        pipeline = Pipeline(lang=detected_language)
+        _lang_pipelines[detected_language] = pipeline
+    return pipeline
+
+
+def _compare_entries(entry_sentence: Dict, entry_trankit: Dict) -> Dict:
+    if entry_sentence is None:
+        return entry_trankit
+    if entry_trankit is None:
+        return entry_sentence
+    if entry_trankit['begin'] < entry_sentence['begin']:
+        return entry_trankit
+    if entry_trankit['begin'] == entry_sentence['begin']:
+        if '\n' in entry_sentence['text']:
+            return entry_trankit
+        if entry_sentence['end'] - entry_sentence['begin'] <= 0.20 * (entry_trankit['end'] - entry_trankit['begin']):
+            return entry_trankit
+    return entry_sentence
+
+##############################
+# END: Trankit Functions #####
+##############################
 
 
 def _find_file_by_name(current_path: str, target_file: str) -> List[str]:
@@ -67,59 +117,109 @@ def convert_to_records(path: str):
         json_data = json.load(file)
 
     full_text = str(json_data['_referenced_fss']['1']['sofaString'])
-    annotations = json_data['_views']['_InitialView']['Span']
+    annotations: List = json_data['_views']['_InitialView']['Span']
+    annotations.sort(key=lambda x: (x.get('begin', 0), x['end']))
     sentence_data = json_data['_views']['_InitialView']['Sentence']
 
+    len_full_text = len(full_text)
+    len_sentence_data = len(sentence_data)
     len_annotations = len(annotations)
 
     sentence_records = []
     ground_truth_records = []
     value_records = []
 
-    index_j = 0
-
-    for i, entry in enumerate(sentence_data):
-        sentence_id = i + 1
-        start, end = entry.get('begin', 0), entry['end']
-        unchanged_sentence = full_text[start:end]
-        breakpoint_list = [
-            match.start()for match in re.finditer('\\r\\n', unchanged_sentence)
+    trankit_pipeline = _get_pipeline_for_file(text_id)
+    sentence_data_trankit = []
+    if trankit_pipeline is not None:
+        sentence_data_trankit = [
+            {'text': sentence_dict['text'], 'begin': sentence_dict['dspan'][0], 'end': sentence_dict['dspan'][1], 'trankit': True}
+            for sentence_dict in trankit_pipeline.ssplit(full_text)['sentences']
         ]
+    len_sentence_data_trankit = len(sentence_data_trankit)
 
-        changed_sentence = unchanged_sentence.replace('\r\n', '\n')
-        sentence_records.append({_text_id_ref: text_id, _sentence_id_ref: sentence_id, _text_ref: changed_sentence})
+    index_full_text = 0
+    index_sentence = 0
+    index_trankit_sentence = 0
 
+    sentence_id = 1
+    while index_full_text < len_full_text:
+        # select next valid sentence entry
+        while index_sentence < len_sentence_data and sentence_data[index_sentence].get('begin', 0) < index_full_text:
+            index_sentence += 1
+        entry_sentence = None
+        if index_sentence < len_sentence_data:
+            entry_sentence = sentence_data[index_sentence]
+            entry_sentence['begin'] = entry_sentence.get('begin', 0)
+            entry_sentence['text'] = full_text[entry_sentence['begin']:entry_sentence['end']]
+
+        # select next valid trankit entry
+        while index_trankit_sentence < len_sentence_data_trankit and sentence_data_trankit[index_trankit_sentence]['begin'] < index_full_text:
+            index_trankit_sentence += 1
+        entry_trankit = None
+        if index_trankit_sentence < len_sentence_data_trankit:
+            entry_trankit = sentence_data_trankit[index_trankit_sentence]
+
+        # select matching entry
+        selected_entry = _compare_entries(entry_sentence, entry_trankit)
+        if selected_entry is None:
+            if len(full_text[index_full_text:].strip()) > 0:
+                sys.exit(f'No valid sentence for document "{path}" past index {index_full_text}.')
+            else:
+                break
+
+        # prepare records
+        sentence_text = selected_entry['text'] if '\n' not in selected_entry['text'] else selected_entry['text'].replace('\r\n', '  ').replace('\n', ' ')
+        sentence_records.append({_text_id_ref: text_id, _sentence_id_ref: sentence_id, _text_ref: sentence_text})
         ground_truth_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
         ground_truth_record.update({value: 'none' for value in _value_list})
+        sentence_start_end = (selected_entry['begin'], selected_entry['end'])
 
-        while index_j < len_annotations and start <= annotations[index_j].get('begin', 0) and annotations[index_j]['end'] <= end:
-            value_start, value_end = annotations[index_j].get('begin', 0) - start, annotations[index_j]['end'] - start
-            value_start_changed, value_end_changed = value_start, value_end
-            for i, breakpoint in enumerate(breakpoint_list):
-                if breakpoint < value_start:
-                    value_start_changed = value_start - i - 1
-                if breakpoint < value_end:
-                    value_end_changed = value_end - i - 1
-                if value_end < breakpoint:
-                    break
+        # Process annotations
+        if annotations and sentence_start_end[0] > annotations[0].get('begin', 0):
+            if 'overlap' in annotations[0].keys():
+                annotations[0]['begin'] = sentence_start_end[0]
+            else:
+                sys.exit(f'Skipped annotation "{annotations[0]}" in "{path}".')
+        while annotations and \
+                sentence_start_end[0] <= annotations[0].get('begin', 0) < sentence_start_end[1]:
+            annotation = annotations.pop(0)
 
-            value_name = _value_dictionary.get(str(annotations[index_j]['label']).upper(), 'NaN')
+            # Apply overlapping value to all touched sentences
+            if annotation['end'] > sentence_start_end[1]:
+                if 'trankit' in selected_entry.keys():
+                    print(f"Value \"{annotation}\" across sentence borders (due to trankit) for file \"{path}\"")
+                else:
+                    print(f"Value \"{annotation}\" across sentence borders for file \"{path}\"")
+                new_annotation = copy.deepcopy(annotation)
+                new_annotation['overlap'] = True
+                new_annotation['begin'] = sentence_start_end[1]
+                annotation['end'] = sentence_start_end[1]
+                annotations.insert(0, new_annotation)
+                annotations.sort(key=lambda x: (x.get('begin', 0), x['end']))
+
+            value_start = annotation.get('begin', 0) - sentence_start_end[0]
+            value_end = annotation['end'] - sentence_start_end[0]
+
+            value_name = _value_dictionary.get(str(annotation['label']).upper(), 'NaN')
             if value_name == 'NaN':
                 print(f'Error on {text_id}-{sentence_id} {value_start}:{value_end}')
                 continue
-            if 'Attainment' in annotations[index_j].keys():
-                attainment = str(annotations[index_j]['Attainment'])[:-2]
+            if 'Attainment' in annotation.keys():
+                attainment = str(annotation['Attainment'])[:-2].strip()
             else:
                 attainment = 'Not sure, can’t decide'
 
             ground_truth_record[value_name] = attainment
             value_records.append(
-                {_text_id_ref: text_id, _sentence_id_ref: sentence_id, _label_ref: value_name, _attainment_ref: attainment, 'Begin': value_start_changed, 'End': value_end_changed}
+                {_text_id_ref: text_id, _sentence_id_ref: sentence_id, _label_ref: value_name,
+                 _attainment_ref: attainment, 'Begin': value_start, 'End': value_end}
             )
 
-            index_j += 1
-
         ground_truth_records.append(ground_truth_record)
+
+        sentence_id += 1
+        index_full_text = sentence_start_end[1]
 
     return sentence_records, ground_truth_records, value_records
 
@@ -146,17 +246,17 @@ def main(input_file: str, output_dir: str):
             value_records += new_value_records
         except KeyError as e:
             print(file)
-            sys.exit(e)
+            raise e
 
-    pd.DataFrame.from_records(sentence_records).to_csv(
+    pd.DataFrame.from_records(sentence_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
         os.path.join(output_dir, 'sentences.tsv'),
         header=True, index=False, sep='\t'
     )
-    pd.DataFrame.from_records(ground_truth_records).to_csv(
+    pd.DataFrame.from_records(ground_truth_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
         os.path.join(output_dir, 'ground_truth.tsv'),
         header=True, index=False, sep='\t'
     )
-    pd.DataFrame.from_records(value_records).to_csv(
+    pd.DataFrame.from_records(value_records).sort_values(by=[_text_id_ref, _sentence_id_ref, 'Begin']).to_csv(
         os.path.join(output_dir, 'values.tsv'),
         header=True, index=False, sep='\t'
     )
