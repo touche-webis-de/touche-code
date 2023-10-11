@@ -147,7 +147,7 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
                 evaluationFile.write("measure {\n key: \"Recall " + value + "\"\n value: \"" + str(recalls[v - skippedValues]) + "\"\n}\n")
                 evaluationFile.write("measure {\n key: \"F1 " + value + "\"\n value: \"" + str(fmeasures[v - skippedValues]) + "\"\n}\n")
                 if args.accuracy:
-                    evaluationFile.write("measure {\n key: \"Accuracy\"\n value: \"" + str(accuracies[v - skippedValues]) + "\"\n}\n")
+                    evaluationFile.write("measure {\n key: \"Accuracy " + value + "\"\n value: \"" + str(accuracies[v - skippedValues]) + "\"\n}\n")
 
 writeEvaluation(readLabels(args.inputDataset, prefix="labels-"), readLabels(args.inputRun), args.outputDataset)
 
