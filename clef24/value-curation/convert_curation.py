@@ -127,6 +127,7 @@ def convert_to_records(path: str):
 
     sentence_records = []
     ground_truth_records = []
+    ground_truth_label_records = []
     value_records = []
 
     trankit_pipeline = _get_pipeline_for_file(text_id)
@@ -217,11 +218,25 @@ def convert_to_records(path: str):
             )
 
         ground_truth_records.append(ground_truth_record)
+        ground_truth_label_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
+        for value_name in _value_list:
+            confidence_attained = 0.0
+            confidence_constrained = 0.0
+            if ground_truth_record[value_name] == '(Partially) attained':
+                confidence_attained = 1.0
+            elif ground_truth_record[value_name] == '(Partially) constrained':
+                confidence_constrained = 1.0
+            elif ground_truth_record[value_name] == 'Not sure, can’t decide':
+                confidence_attained = 0.5
+                confidence_constrained = 0.5
+            ground_truth_label_record[value_name + " attained"] = confidence_attained
+            ground_truth_label_record[value_name + " constrained"] = confidence_constrained
+        ground_truth_label_records.append(ground_truth_label_record)
 
         sentence_id += 1
         index_full_text = sentence_start_end[1]
 
-    return sentence_records, ground_truth_records, value_records
+    return sentence_records, ground_truth_records, ground_truth_label_records, value_records
 
 
 def parse_args():
@@ -236,13 +251,14 @@ def parse_args():
 def main(input_file: str, output_dir: str):
     curation_files = _find_file_by_name(input_file, 'CURATION_USER.json')
 
-    sentence_records, ground_truth_records, value_records = [], [], []
+    sentence_records, ground_truth_records, ground_truth_label_records, value_records = [], [], [], []
 
     for file in curation_files:
         try:
-            new_sentence_records, new_ground_truth_records, new_value_records = convert_to_records(file)
+            new_sentence_records, new_ground_truth_records, new_ground_truth_label_records, new_value_records = convert_to_records(file)
             sentence_records += new_sentence_records
             ground_truth_records += new_ground_truth_records
+            ground_truth_label_records += new_ground_truth_label_records
             value_records += new_value_records
         except KeyError as e:
             print(file)
@@ -254,6 +270,10 @@ def main(input_file: str, output_dir: str):
     )
     pd.DataFrame.from_records(ground_truth_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
         os.path.join(output_dir, 'ground_truth.tsv'),
+        header=True, index=False, sep='\t'
+    )
+    pd.DataFrame.from_records(ground_truth_label_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
+        os.path.join(output_dir, 'labels-ground_truth.tsv'),
         header=True, index=False, sep='\t'
     )
     pd.DataFrame.from_records(value_records).sort_values(by=[_text_id_ref, _sentence_id_ref, 'Begin']).to_csv(
