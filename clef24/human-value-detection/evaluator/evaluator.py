@@ -328,6 +328,8 @@ def run_evaluation(
         subtask: Literal['1', '2'] = '1',
         postfix: Literal['', ' attained', ' constrained'] = ''):
 
+    num_instances = len(truth_labels)
+
     # calculate roc curves
     truth_labels_stack = truth_labels.stack()
     run_labels_stack = run_labels_confidence.stack()
@@ -345,6 +347,7 @@ def run_evaluation(
     relevants = initialize_counter(subtask=subtask)
     positives = initialize_counter(subtask=subtask)
     true_positives = initialize_counter(subtask=subtask)
+    true_negatives = initialize_counter(subtask=subtask)
 
     sentence_details = {}
 
@@ -358,15 +361,20 @@ def run_evaluation(
         for value, truth_label in row.items():
             if truth_label == 1:
                 relevants[str(value)] += 1
-                if corresponding_run_labels is not None and corresponding_run_labels[value] == 1:
+                if corresponding_run_labels is not None:
+                    if corresponding_run_labels[value] == 1:
+                        positives[str(value)] += 1
+                        true_positives[str(value)] += 1
+                        tps += 1
+                    else:
+                        fns += 1
+            elif corresponding_run_labels is not None:
+                if corresponding_run_labels[value] == 1:
                     positives[str(value)] += 1
-                    true_positives[str(value)] += 1
-                    tps += 1
+                    fps += 1
                 else:
-                    fns += 1
-            elif corresponding_run_labels is not None and corresponding_run_labels[value] == 1:
-                positives[str(value)] += 1
-                fps += 1
+                    true_negatives[str(value)] += 1
+
 
         all_relevants = tps + fns
         sentence_data[
@@ -388,14 +396,20 @@ def run_evaluation(
         value: 0 if precision + recall == 0 else 2 * precision * recall / (precision + recall)
         for (value, precision), recall in zip(precisions.items(), recalls.values())
     }
+    accuracies: Dict[str, float] = {
+        value: 0 if num_instances == 0 else (true_positives[value] + true_negatives[value]) / num_instances
+        for value in get_available_values_by_subtask(subtask) if relevants[value] != 0
+    }
 
     precision = sum(precisions.values()) / len(precisions) if len(precisions) > 0 else 0.0
     recall = sum(recalls.values()) / len(recalls) if len(recalls) > 0 else 0.0
     f1_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
+    accuracy = sum(accuracies.values()) / len(accuracies) if len(accuracies) > 0 else 0.0
 
     proto_text_header = f'measure{{\n key: "Precision{postfix}"\n value: "{precision}"\n}}\n' \
                         f'measure{{\n key: "Recall{postfix}"\n value: "{recall}"\n}}\n' \
-                        f'measure{{\n key: "F1{postfix}"\n value: "{f1_score}"\n}}\n'
+                        f'measure{{\n key: "F1{postfix}"\n value: "{f1_score}"\n}}\n' \
+                        f'measure{{\n key: "Accuracy{postfix}"\n value: "{accuracy}"\n}}\n'
     proto_text_list = []
     for value in get_available_values_by_subtask(subtask):
         if value in precisions.keys():
@@ -403,6 +417,7 @@ def run_evaluation(
                 f'measure{{\n key: "Precision {value}"\n value: "{precisions[value]}"\n}}\n'
                 f'measure{{\n key: "Recall {value}"\n value: "{recalls[value]}"\n}}\n'
                 f'measure{{\n key: "F1 {value}"\n value: "{f1_scores[value]}"\n}}\n'
+                f'measure{{\n key: "Accuracy {value}"\n value: "{accuracies[value]}"\n}}\n'
             )
     proto_text_body = "".join(proto_text_list)
 
