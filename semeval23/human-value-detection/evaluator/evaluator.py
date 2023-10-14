@@ -17,6 +17,7 @@ argparser.add_argument(
 argparser.add_argument(
         "-o", "--outputDataset", type=str, required=True,
         help="Directory to which the 'evaluation.prototext' will be written: will be created if it does not exist")
+argparser.add_argument("--accuracy", action="store_true")
 args = argparser.parse_args()
 
 # level 1
@@ -87,6 +88,7 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
     relevants = initializeCounter()
     positives = initializeCounter()
     truePositives = initializeCounter()
+    trueNegatives = initializeCounter()
 
     for (argumentId, labels) in truthLabels.items():
         for (value, label) in labels.items():
@@ -99,11 +101,15 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
                 positives[value] += 1
                 if truthLabels[argumentId][value] == "1":
                     truePositives[value] += 1
+            else:
+                if truthLabels[argumentId][value] == "0":
+                    trueNegatives[value] += 1
 
     with open(os.path.join(outputDataset, "evaluation.prototext"), "w") as evaluationFile:
         precisions = []
         recalls = []
         fmeasures = []
+        accuracies = []
         for value in availableValues:
             if relevants[value] != 0:
                 precision = 0
@@ -116,13 +122,21 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
                 if precision + recall != 0:
                     fmeasure = 2 * precision * recall / (precision + recall)
                 fmeasures.append(fmeasure)
+                accuracy = 0
+                hits = truePositives[value] + trueNegatives[value]
+                if hits > 0:
+                    accuracy = hits / numInstances 
+                accuracies.append(accuracy)
         precision = sum(precisions) / len(precisions)
         recall = sum(recalls) / len(recalls)
         fmeasure = 2 * precision * recall / (precision + recall)
+        accuracy = sum(accuracies) / len(accuracies)
 
         evaluationFile.write("measure {\n key: \"F1\"\n value: \"" + str(fmeasure) + "\"\n}\n")
         evaluationFile.write("measure {\n key: \"Precision\"\n value: \"" + str(precision) + "\"\n}\n")
         evaluationFile.write("measure {\n key: \"Recall\"\n value: \"" + str(recall) + "\"\n}\n")
+        if args.accuracy:
+            evaluationFile.write("measure {\n key: \"Accuracy\"\n value: \"" + str(accuracy) + "\"\n}\n")
         skippedValues = 0
         for v in range(len(availableValues)):
             value = availableValues[v]
@@ -132,6 +146,8 @@ def writeEvaluation(truthLabels, runLabels, outputDataset):
                 evaluationFile.write("measure {\n key: \"Precision " + value + "\"\n value: \"" + str(precisions[v - skippedValues]) + "\"\n}\n")
                 evaluationFile.write("measure {\n key: \"Recall " + value + "\"\n value: \"" + str(recalls[v - skippedValues]) + "\"\n}\n")
                 evaluationFile.write("measure {\n key: \"F1 " + value + "\"\n value: \"" + str(fmeasures[v - skippedValues]) + "\"\n}\n")
+                if args.accuracy:
+                    evaluationFile.write("measure {\n key: \"Accuracy " + value + "\"\n value: \"" + str(accuracies[v - skippedValues]) + "\"\n}\n")
 
 writeEvaluation(readLabels(args.inputDataset, prefix="labels-"), readLabels(args.inputRun), args.outputDataset)
 
