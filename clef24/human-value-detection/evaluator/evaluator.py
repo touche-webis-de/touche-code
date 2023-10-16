@@ -162,7 +162,7 @@ def apply_majority_class(frame: pd.DataFrame, subtask: Literal['1', '2'] = '1', 
                             idx] - epsilon else 0
                     )
                 frame[f"{value_name} attained"] = frame[f"{value_name} attained"].astype(int)
-                frame[f"{value_name} attained"] = frame[f"{value_name} attained"].astype(int)
+                frame[f"{value_name} constrained"] = frame[f"{value_name} constrained"].astype(int)
 
     return frame
 
@@ -406,18 +406,18 @@ def run_evaluation(
     f1_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
     accuracy = sum(accuracies.values()) / len(accuracies) if len(accuracies) > 0 else 0.0
 
-    proto_text_header = f'measure{{\n key: "Precision{postfix}"\n value: "{precision}"\n}}\n' \
-                        f'measure{{\n key: "Recall{postfix}"\n value: "{recall}"\n}}\n' \
-                        f'measure{{\n key: "F1{postfix}"\n value: "{f1_score}"\n}}\n' \
-                        f'measure{{\n key: "Accuracy{postfix}"\n value: "{accuracy}"\n}}\n'
+    proto_text_header = f'measure {{\n key: "Precision{postfix}"\n value: "{precision}"\n}}\n' \
+                        f'measure {{\n key: "Recall{postfix}"\n value: "{recall}"\n}}\n' \
+                        f'measure {{\n key: "F1{postfix}"\n value: "{f1_score}"\n}}\n' \
+                        f'measure {{\n key: "Accuracy{postfix}"\n value: "{accuracy}"\n}}\n'
     proto_text_list = []
     for value in get_available_values_by_subtask(subtask):
         if value in precisions.keys():
             proto_text_list.append(
-                f'measure{{\n key: "Precision {value}"\n value: "{precisions[value]}"\n}}\n'
-                f'measure{{\n key: "Recall {value}"\n value: "{recalls[value]}"\n}}\n'
-                f'measure{{\n key: "F1 {value}"\n value: "{f1_scores[value]}"\n}}\n'
-                f'measure{{\n key: "Accuracy {value}"\n value: "{accuracies[value]}"\n}}\n'
+                f'measure {{\n key: "Precision {value}"\n value: "{precisions[value]}"\n}}\n'
+                f'measure {{\n key: "Recall {value}"\n value: "{recalls[value]}"\n}}\n'
+                f'measure {{\n key: "F1 {value}"\n value: "{f1_scores[value]}"\n}}\n'
+                f'measure {{\n key: "Accuracy {value}"\n value: "{accuracies[value]}"\n}}\n'
             )
     proto_text_body = "".join(proto_text_list)
 
