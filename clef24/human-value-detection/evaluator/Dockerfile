@@ -1,0 +1,15 @@
+# # Uncomment lines for GUI BUILD (not yet ready)
+# FROM webis-de/vuetify-dev-container:0.1-beta
+
+# COPY vuetify-resources/result-rendering-with-vue/ /workspace/
+
+# RUN yarn build
+
+FROM python:3.10
+
+RUN pip install pandas scikit-learn
+COPY evaluator.py /evaluator.py
+
+# COPY --from=0 /workspace/dist/ /
+
+ENTRYPOINT [ "python3", "evaluator.py" ]
