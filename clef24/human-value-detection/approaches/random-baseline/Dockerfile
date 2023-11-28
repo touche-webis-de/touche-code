@@ -4,7 +4,7 @@ FROM python:3.11
 
 ENV PYTHONPATH=/
 
-# Install custom requirements
+# Install requirements
 COPY requirements.txt /
 RUN pip3 install -r requirements.txt
 

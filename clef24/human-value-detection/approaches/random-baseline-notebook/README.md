@@ -1,76 +1,60 @@
-# Random Baseline TIRA Image for ValueEval'24 @ CLEF 2024 Lab
-Random baseline for the task on Human Value Detection.
-
-## Requirements
-
-Model execution requires the packages
-- `jupyterlab`,
-- `runnb`
-- `pandas`, and
-- `tira>=0.0.32`
-in order to use the `tira-run-notebook`command locally.
+# Random Baseline for ValueEval'24 (Notebook)
+Random baseline for the task on Human Value Detection, notebook version.
 
 ## Usage
+You can open the [random_baseline.ipynb](random_baseline.ipynb) notebook in a notebook server as usual.
 
-Local example usage:
+### Local usage
 ```bash
-# get arguments file
-wget https://zenodo.org/record/T.B.A./files/sentences-training.tsv -O senteces.tsv
-# run baseline
-tira-run-notebook --input . --output . --notebook random_baseline_notebook.ipynb
-# show baseline run
-head predictions.tsv
+# install
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# run
+tira-run-notebook --notebook random_baseline.ipynb --input ../../toy-dataset --output output
+
+# view result
+cat output/predictions.tsv
 ```
 
-### Running on TIRA
-
-For better reproducibility, the model is uploaded as Docker image to
-[TIRA](https://www.tira.io/).
+### Docker usage
 ```bash
-docker build -t registry.webis.de/code-research/tira/tira-user-test/tira-touche24-random-baseline:1.0.0 .
-docker build -t registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-random-baseline:1.0.0 .
-docker push registry.webis.de/code-research/tira/TIRA_USER/tira-touche24-random-baseline:1.0.0
+# build
+docker build -t valueeval24-random-baseline-notebook:1.0.0 .
+
+# run
+docker run --rm -v $PWD/../../toy-dataset:/dataset -v $PWD/output:/output valueeval24-random-baseline-notebook:1.0.0
+
+# view result
+cat output/predictions.tsv
 ```
 
-The run command on TIRA is:
+### Server usage
+Start a server that provides the `predict`-function over HTTP:
 ```bash
-tira-run-notebook --input $inputDataset --output $outputDir --notebook random_baseline_notebook.ipynb
+# Either for local usage (after installation):
+tira-run-inference-server --notebook random_baseline.ipynb --port 8787
+
+# Or for docker usage (after building):
+docker run --rm -it --publish 8787:8787 --entrypoint tira-run-inference-server valueeval24-random-baseline-notebook:1.0.0 \
+  --notebook random_baseline.ipynb --port 8787
 ```
-
-## Adapting for complex models
-
-In order to use your own custom model you could modify the
-[notebook](random_baseline_notebook.ipynb)
-so that the function `predict` applies your model (for the respective subtask).
-
-### Including model files
-
-Files within the
-[models-folder](models)
-can be included by uncommenting the respective line in the
-[Dockerfile](Dockerfile).
-
-If your model files are stored on the
-[Hugging Face Hub](https://huggingface.co/models)
-we provided a simple
-[download script](models/download_model_files.py)
-which can also be used in GitHub actions for automated image build and deploy.
+Then in another shell:
 ```bash
-python3 models/download_model_files.py -f models/model_downloads.jsonl
+curl -X POST -H "application/json" \
+  -d "[\"Our nature must be protected\", \"We do not always get what we want\"]" \
+  localhost:8787
 ```
-If your model repository is private you can pass a Hugging Face Hub access token with the option `-t`.
 
-### Additional TIRA functions
+### TIRA usage
+- Follow the guide on the TIRA submission page to upload the model
+- Use this for the command: `tira-run-notebook --notebook random_baseline.ipynb --input $inputDataset --output $outputDir`
 
-When adapting the jupyter notebook, you don't have to keep the exact syntax for the `predict` function:
-```python
-def predict(input_list: List) -> List:
-```
-It is only required if you want to run your model as an inference server.
 
-For more information see the
-[TIRA client notes](https://github.com/tira-io/tira/tree/main/python-client#running-jupyter-notebooks-with-tira).
+## Develop your own approach
+- See the [random-baseline](../random-baseline/) if you prefer to work with plain Python scripts instead of notebooks
+- Modify "Setup" and "Prediction"
+- At the start of the [Dockerfile](Dockerfile) is an alternative `FROM` instruction to use PyTorch and GPUs (works with TIRA)
+- You can integrate our [model_downloader](../model-downloader/) to download models from Hugging Face Hub
 
-## TODOs
-
-- add/update links

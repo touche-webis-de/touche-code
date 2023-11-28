@@ -21,9 +21,11 @@ coverage.xml
 .mypy_cache
 .pytest_cache
 .hypothesis
+.ipynb_checkpoints/
 ###################
 ##### Project #####
 ###################
 README.md
 dataset/
 output/
+random_baseline.py

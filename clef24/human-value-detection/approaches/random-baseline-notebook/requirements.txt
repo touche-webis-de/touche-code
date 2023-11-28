@@ -1,4 +1,4 @@
 jupyterlab
 runnb
 pandas
-tira>=0.0.32
+tira>=0.0.101

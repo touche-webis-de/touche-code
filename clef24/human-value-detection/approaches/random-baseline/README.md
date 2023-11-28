@@ -1,5 +1,5 @@
-# Random Baseline for ValueEval'24
-Random baseline for the task on Human Value Detection.
+# Random Baseline for ValueEval'24 (Script)
+Random baseline for the task on Human Value Detection, script version.
 
 
 ## Usage
@@ -36,8 +36,8 @@ cat output/predictions.tsv
 
 
 ## Develop your own approach
-- See the [random-baseline-notebook](../random-baseline-notebook/) if you prefer to work with notebooks instead of plain Python
-- Modify the `predict` function
+- See the [random-baseline-notebook](../random-baseline-notebook/) if you prefer to work with notebooks instead of plain Python scripts
+- Modify "Setup" and "Prediction"
 - At the start of the [Dockerfile](Dockerfile) is an alternative `FROM` instruction to use PyTorch and GPUs (works with TIRA)
 - You can integrate our [model_downloader](../model-downloader/) to download models from Hugging Face Hub
 

@@ -3,3 +3,5 @@ output/
 venv/
 predictions.tsv
 sentences.tsv
+.ipynb_checkpoints/
+random_baseline.py

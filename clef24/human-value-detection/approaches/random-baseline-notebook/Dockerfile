@@ -1,17 +1,16 @@
-FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
+FROM python:3.11
+# Example for PyTorch:
+# FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
 
-RUN pip3 install jupyterlab runnb tira==0.0.32
+ENV PYTHONPATH=/
 
-# Install custom requirements
-COPY requirements.txt /workspace/
+# Install requirements
+COPY requirements.txt /
 RUN pip3 install -r requirements.txt
 
-ENV PYTHONPATH=/workspace
+ENV PYDEVD_DISABLE_FILE_VALIDATION=1
+COPY random_baseline.ipynb /
+RUN jupyter trust /random_baseline.ipynb
 
-# Uncomment the following line to include the models folder
-# COPY models /workspace/models/
+ENTRYPOINT [ "tira-run-notebook", "--notebook", "/random_baseline.ipynb", "--input", "/dataset", "--output", "/output" ]
 
-# Copy execution notebook
-COPY random_baseline_notebook.ipynb /workspace/
-
-RUN jupyter trust /workspace/random_baseline_notebook.ipynb
