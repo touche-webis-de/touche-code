@@ -3,3 +3,4 @@ output/
 venv/
 predictions.tsv
 sentences.tsv
+logs/

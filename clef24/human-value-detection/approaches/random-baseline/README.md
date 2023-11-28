@@ -1,6 +1,10 @@
 # Random Baseline for ValueEval'24 (Script)
 Random baseline for the task on Human Value Detection, script version.
 
+The baseline is intended for kickstarting your own approach. Load your models
+etc. at `# SETUP` and then change `predict(text)`. If you keep everything else,
+your approach can be directly dockerized, run within Docker on TIRA, and run as
+a server that you can call via HTTP or deploy for everyone to use.
 
 ## Usage
 
@@ -24,10 +28,30 @@ cat output/predictions.tsv
 docker build -t valueeval24-random-baseline:1.0.0 .
 
 # run
-docker run --rm -v $PWD/../../toy-dataset:/dataset -v $PWD/output:/output valueeval24-random-baseline:1.0.0
+docker run --rm \
+  -v $PWD/../../toy-dataset:/dataset -v $PWD/output:/output \
+  valueeval24-random-baseline:1.0.0
 
 # view result
 cat output/predictions.tsv
+```
+
+### Server usage
+Start a server that provides the `predict`-function over HTTP:
+```bash
+# Either for local usage (after installation):
+tira-run-inference-server --script random_baseline.py --port 8787
+
+# Or for docker usage (after building):
+docker run --rm -it --publish 8787:8787 --entrypoint tira-run-inference-server \
+  valueeval24-random-baseline-notebook:1.0.0 \
+  --script random_baseline.py --port 8787
+```
+Then in another shell:
+```bash
+curl -X POST -H "application/json" \
+  -d "[\"Our nature must be protected\", \"We do not always get what we want\"]" \
+  localhost:8787
 ```
 
 ### TIRA usage

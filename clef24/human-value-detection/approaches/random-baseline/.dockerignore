@@ -5,3 +5,4 @@ predictions.tsv
 sentences.tsv
 README.md
 .gitignore
+logs/

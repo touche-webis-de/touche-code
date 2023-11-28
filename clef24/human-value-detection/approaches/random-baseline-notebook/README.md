@@ -1,6 +1,11 @@
 # Random Baseline for ValueEval'24 (Notebook)
 Random baseline for the task on Human Value Detection, notebook version.
 
+The baseline is intended for kickstarting your own approach. Load your models
+etc. at `Setup` and then change `predict(text)`. If you keep everything else,
+your approach can be directly dockerized, run within Docker on TIRA, and run as
+a server that you can call via HTTP or deploy for everyone to use.
+
 ## Usage
 You can open the [random_baseline.ipynb](random_baseline.ipynb) notebook in a notebook server as usual.
 
