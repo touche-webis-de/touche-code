@@ -1,4 +1,4 @@
-# Random Baseline TIRA Image for Task 2 @ CLEF 2024 Lab
+# Random Baseline TIRA Image for ValueEval'24 @ CLEF 2024 Lab
 Random baseline for the task on Human Value Detection.
 
 ## Requirements
