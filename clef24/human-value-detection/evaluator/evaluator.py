@@ -10,6 +10,7 @@ import sys
 import warnings
 from typing import Union, Dict, Optional, List, Tuple, Literal, Callable
 
+import numpy as np
 import pandas as pd
 from sklearn import metrics
 from sklearn.exceptions import UndefinedMetricWarning
@@ -23,6 +24,12 @@ availableValuesSubtask2 = [value + postfix for value in availableValues for post
 
 def get_available_values_by_subtask(subtask: Literal['1', '2'] = '1'):
     return availableValues if subtask == '1' else availableValuesSubtask2
+
+
+def confidence_attained_constrained(a, b):
+    if a == b:
+        return 0.5
+    return a / (a + b)
 
 
 def read_labels(
@@ -60,20 +67,34 @@ def read_labels(
                         lambda col_name: not (col_name in id_fields or col_name.startswith('Universalism: objectivity')),
                         col_names
                     ))
-                    col_name_map = {}
+
+                    base_frames = [labels_frame.loc[:, id_fields].copy()]
+
+                    skip_file = False
                     for value_prefix in availableValues:
                         value_names = list(filter(
                             lambda col_name: str(col_name).startswith(value_prefix),
                             col_names
                         ))
-                        if len(value_names) == 1 and value_prefix == value_names[0]:
-                            col_name_map[value_names[0]] = f"{value_prefix} attained"
-                            labels_frame[f"{value_prefix} constrained"] = 0.0
-                            col_name_map[f"{value_prefix} constrained"] = f"{value_prefix} constrained"
+
+                        base_frame = pd.DataFrame()
+                        base_frame.index = labels_frame.index
+
+                        if len(value_names) == 0:
+                            print(
+                                "Skipping file {} due to too missing field names for prefix '{}'.".format(
+                                    labels_file_name,
+                                    value_prefix
+                                ))
+                            skip_file = True
+                            break
+                        elif len(value_names) == 1 and value_prefix == value_names[0]:
+                            base_frame.loc[:, f"{value_prefix} attained"] = labels_frame.loc[:, value_prefix].clip(0.0, 1.0)
+                            base_frame.loc[:, f"{value_prefix} constrained"] = 0.0
                             invalid_col_names.remove(value_names[0])
                         elif len(value_names) == 2 and f"{value_prefix} attained" in value_names and f"{value_prefix} constrained" in value_names:
                             for col_name in value_names:
-                                col_name_map[col_name] = col_name
+                                base_frame.loc[:, col_name] = labels_frame.loc[:, col_name].clip(0.0, 1.0)
                                 invalid_col_names.remove(col_name)
                         else:
                             print(
@@ -82,7 +103,36 @@ def read_labels(
                                     value_prefix,
                                     "', '".join(value_names)
                                 ))
-                            continue
+                            skip_file = True
+                            break
+                            pass
+
+                        # calculate confidence and label for subtask 1
+                        base_frame.loc[:, f"conf1 {value_prefix}"] = \
+                            (base_frame.loc[:, f"{value_prefix} attained"] +
+                             base_frame.loc[:, f"{value_prefix} constrained"]).clip(0.0, 1.0)
+                        base_frame.loc[:, f"label1 {value_prefix}"] = 0
+                        base_frame.loc[
+                            base_frame.loc[:, f"conf1 {value_prefix}"] >= 0.5, f"label1 {value_prefix}"] = 1
+
+                        # calculate confidence for subtask 2
+                        base_frame.loc[:, f"conf2 {value_prefix} attained"] = base_frame.loc[:, f"{value_prefix} attained"].combine(
+                            base_frame.loc[:, f"{value_prefix} constrained"], confidence_attained_constrained,
+                            fill_value=0).clip(0.0, 1.0)
+                        base_frame.loc[:, f"conf2 {value_prefix} constrained"] = base_frame.loc[:, f"{value_prefix} constrained"].combine(
+                            base_frame.loc[:, f"{value_prefix} attained"], confidence_attained_constrained,
+                            fill_value=0).clip(0.0, 1.0)
+
+                        # calculate label for subtask 2
+                        base_frame.loc[:, f"label2 {value_prefix} attained"] = 0
+                        base_frame.loc[base_frame.loc[:, f"conf2 {value_prefix} attained"] >= 0.5, f"label2 {value_prefix} attained"] = 1
+                        base_frame.loc[:, f"label2 {value_prefix} constrained"] = 0
+                        base_frame.loc[base_frame.loc[:, f"conf2 {value_prefix} constrained"] >= 0.5, f"label2 {value_prefix} constrained"] = 1
+
+                        base_frames.append(base_frame)
+
+                    if skip_file:
+                        continue
                     if len(invalid_col_names) > 0:
                         print(
                             "Skipping file {} due to invalid field(s) '{}'".format(
@@ -91,25 +141,15 @@ def read_labels(
                             ))
                         continue
 
-                    labels_frame = labels_frame.rename(columns=col_name_map)
-                    present_values = list(col_name_map.values())
-                    if len(set(present_values)) < len(present_values):
-                        print(f"Skipping file {labels_file_name} due to duplicate field refs")
-                        continue
+                    final_base_frame = pd.concat(base_frames, axis=1)
 
-                    for i, row in labels_frame.iterrows():
+                    for i, row in final_base_frame.iterrows():
                         id_ref = get_id_from_row(id_fields=id_fields, row=row)
                         if available_ids is not None and id_ref not in available_ids:
                             print(f"Skipping line {i} due to unknown ID '{id_ref}'")
                             continue
-                        row_values = row[present_values].to_dict()
 
-                        invalid_labels = [label for label, value in row_values.items() if not (0.0 <= value <= 1.0)]
-                        if len(invalid_labels) > 0:
-                            print(f"Skipping line {i} due to invalid label(s) '{invalid_labels}'")
-                            continue
-
-                        labels[id_ref] = row_values
+                        labels[id_ref] = row.to_dict()
     if len(labels) == 0:
         raise OSError(
             "No {}labels found in directory '{}'".format(
@@ -136,35 +176,6 @@ def format_for_subtask_1(frame: pd.DataFrame):
             format_frame[value_name] = frame[[f"{value_name} attained", f"{value_name} constrained"]].sum(axis=1)
 
     return format_frame
-
-
-def apply_majority_class(frame: pd.DataFrame, subtask: Literal['1', '2'] = '1', epsilon: float = 0.000001):
-    col_names = frame.columns
-
-    if subtask == '1':
-        for value_name in availableValues:
-            if value_name in col_names:
-                frame[value_name] = frame[value_name].apply(lambda x: 1 if x >= 0.5 - epsilon else 0).astype(int)
-    else:
-        for value_name in availableValues:
-            if f"{value_name} attained" in col_names:
-                none_axis: pd.Series = frame[[f"{value_name} attained", f"{value_name} constrained"]].sum(axis=1).apply(
-                    lambda x: 1 - x)
-                for idx, _ in frame.iterrows():
-                    value_attained = frame.loc[idx, f"{value_name} attained"]
-                    value_constrained = frame.loc[idx, f"{value_name} constrained"]
-                    frame.loc[idx, f"{value_name} attained"] = (
-                        1 if value_attained >= value_constrained - epsilon and value_attained >= none_axis.loc[
-                            idx] - epsilon else 0
-                    )
-                    frame.loc[idx, f"{value_name} constrained"] = (
-                        1 if value_constrained >= value_attained - epsilon and value_constrained >= none_axis.loc[
-                            idx] - epsilon else 0
-                    )
-                frame[f"{value_name} attained"] = frame[f"{value_name} attained"].astype(int)
-                frame[f"{value_name} constrained"] = frame[f"{value_name} constrained"].astype(int)
-
-    return frame
 
 
 def initialize_counter(subtask: Literal['1', '2'] = '1') -> Dict[str, int]:
@@ -205,129 +216,277 @@ def main(
     num_instances = len(truth_labels)
     print(f"Truth labels: {num_instances}\nRun labels:   {len(run_labels)}")
 
-    if not os.path.exists(output_dataset):
-        os.makedirs(output_dataset)
+    post_fix = ['(Subtask 1)', '(Subtask 2 - overall)', '(Subtask 2 - attained)', '(Subtask 2 - constrained)']
+    precisions, recalls, f1_scores = [[], [], [], []], [[], [], [], []], [[], [], [], []]
+    line_precision, line_recall, line_f1_score = [{x: 0 for x in availableValues} for _ in range(4)], \
+        [{x: 0 for x in availableValues} for _ in range(4)], [{x: 0 for x in availableValues} for _ in range(4)]
+    micro_avg = {'numerator': 0, 'denominator_precision': 0, 'denominator_recall': 0}
 
-    eval_object_both = run_evaluation(
-        truth_labels=apply_majority_class(format_for_subtask_1(frame=truth_labels), subtask='1'),
-        run_labels=apply_majority_class(format_for_subtask_1(frame=run_labels), subtask='1'),
-        run_labels_confidence=format_for_subtask_1(frame=run_labels),
-        sentence_frame=sentence_frame,
-        subtask='1',
-        postfix=''
-    )
-    if subtask == '2':
-        truth_labels = apply_majority_class(truth_labels, subtask='2')
-        eval_object_attained = run_evaluation(
-            truth_labels=truth_labels.filter(regex='attained$'),
-            run_labels=apply_majority_class(run_labels, subtask='2').filter(regex='attained$'),
-            run_labels_confidence=run_labels.filter(regex='attained$'),
-            sentence_frame=sentence_frame,
-            subtask='2',
-            postfix=' attained'
+    proto_text_body = [[], [], [], []]
+    sentence_data_list = [sentence_frame.loc[:, id_columns + ['Text']]]
+
+    roc_data = [[], [], []]
+
+    relevant_values = []
+
+    for value_prefix in availableValues:
+        truth_frame = truth_labels.loc[:, [f'label1 {value_prefix}', f'conf1 {value_prefix}']]
+
+        truth_selection = truth_frame.loc[:, f'label1 {value_prefix}'] == 1
+        sentence_data = pd.DataFrame()
+        sentence_data.index = sentence_frame.index
+
+        # Subtask 1
+        eval_dict = run_evaluation_on_value(
+            truth_frame[[f'label1 {value_prefix}']],
+            run_labels[[f'label1 {value_prefix}']],
+            run_labels[[f'conf1 {value_prefix}']],
+            f'label1 {value_prefix}'
         )
-        eval_object_constrained = run_evaluation(
-            truth_labels=truth_labels.filter(regex='constrained$'),
-            run_labels=apply_majority_class(run_labels, subtask='2').filter(regex='constrained$'),
-            run_labels_confidence=run_labels.filter(regex='constrained$'),
-            sentence_frame=sentence_frame,
-            subtask='2',
-            postfix=' constrained'
+        if eval_dict is None:
+            continue
+        else:
+            precisions[0].append(eval_dict['metrics']['precision'])
+            line_precision[0][value_prefix] = eval_dict['metrics']['precision']
+            recalls[0].append(eval_dict['metrics']['recall'])
+            line_recall[0][value_prefix] = eval_dict['metrics']['recall']
+            f1_scores[0].append(eval_dict['metrics']['f1_score'])
+            line_f1_score[0][value_prefix] = eval_dict['metrics']['f1_score']
+
+            roc_data[0].append(
+                f"'{value_prefix}': {{label: '{value_prefix}', {eval_dict['roc']}}},"
+            )
+
+            sentence_data.loc[:, f"delta {value_prefix}"] = truth_frame.loc[:, f'conf1 {value_prefix}'] - run_labels.loc[:, f'conf1 {value_prefix}']
+            sentence_data.loc[:, f"deltaAbs {value_prefix}"] = sentence_data.loc[:, f"delta {value_prefix}"].apply(abs)
+            sentence_data.loc[:, f"deltaAttained {value_prefix}"] = 0.0
+            sentence_data.loc[:, f"deltaAbsAttained {value_prefix}"] = 0.0
+            sentence_data.loc[:, f"deltaConstrained {value_prefix}"] = 0.0
+            sentence_data.loc[:, f"deltaAbsConstrained {value_prefix}"] = 0.0
+
+            proto_text_body[0].append(eval_dict['proto_text'])
+
+            relevant_values.append(value_prefix)
+
+        numerator = 0
+        denominator_precision = 0
+        denominator_recall = 0
+
+        filtered_truth_frame = truth_labels.loc[
+            truth_selection,
+            [
+                f'label2 {value_prefix} attained', f'conf2 {value_prefix} attained',
+                f'label2 {value_prefix} constrained', f'conf2 {value_prefix} constrained'
+            ]
+        ]
+        filtered_run_labels = run_labels.loc[
+            truth_selection,
+            [
+                f'label2 {value_prefix} attained', f'conf2 {value_prefix} attained',
+                f'label2 {value_prefix} constrained', f'conf2 {value_prefix} constrained'
+            ]
+        ]
+
+        # Subtask 2 attained
+        eval_dict = run_evaluation_on_value(
+            filtered_truth_frame[[f'label2 {value_prefix} attained']],
+            filtered_run_labels[[f'label2 {value_prefix} attained']],
+            filtered_run_labels[[f'conf2 {value_prefix} attained']],
+            f'label2 {value_prefix} attained'
         )
+        if eval_dict is not None:
+            precisions[2].append(eval_dict['metrics']['precision'])
+            line_precision[2][value_prefix] = eval_dict['metrics']['precision']
+            recalls[2].append(eval_dict['metrics']['recall'])
+            line_recall[2][value_prefix] = eval_dict['metrics']['recall']
+            f1_scores[2].append(eval_dict['metrics']['f1_score'])
+            line_f1_score[2][value_prefix] = eval_dict['metrics']['f1_score']
+
+            roc_data[1].append(
+                f"'{value_prefix}': {{label: '{value_prefix}', {eval_dict['roc']}}},"
+            )
+
+            numerator += eval_dict['micro_avg']['numerator']
+            denominator_precision += eval_dict['micro_avg']['denominator_precision']
+            denominator_recall += eval_dict['micro_avg']['denominator_recall']
+
+            sentence_data.loc[truth_selection, f"deltaAttained {value_prefix}"] = \
+                filtered_truth_frame.loc[:, f'conf2 {value_prefix} attained'] - \
+                filtered_run_labels.loc[:, f'conf2 {value_prefix} attained']
+            sentence_data.loc[:, f"deltaAbsAttained {value_prefix}"] = \
+                sentence_data.loc[:, f"deltaAttained {value_prefix}"].apply(abs)
+
+            proto_text_body[2].append(eval_dict['proto_text'])
+
+        # Subtask 2 constrained
+        eval_dict = run_evaluation_on_value(
+            filtered_truth_frame[[f'label2 {value_prefix} constrained']],
+            filtered_run_labels[[f'label2 {value_prefix} constrained']],
+            filtered_run_labels[[f'conf2 {value_prefix} constrained']],
+            f'label2 {value_prefix} constrained'
+        )
+        if eval_dict is not None:
+            precisions[3].append(eval_dict['metrics']['precision'])
+            line_precision[3][value_prefix] = eval_dict['metrics']['precision']
+            recalls[3].append(eval_dict['metrics']['recall'])
+            line_recall[3][value_prefix] = eval_dict['metrics']['recall']
+            f1_scores[3].append(eval_dict['metrics']['f1_score'])
+            line_f1_score[3][value_prefix] = eval_dict['metrics']['f1_score']
+
+            roc_data[2].append(
+                f"'{value_prefix}': {{label: '{value_prefix}', {eval_dict['roc']}}},"
+            )
+
+            numerator += eval_dict['micro_avg']['numerator']
+            denominator_precision += eval_dict['micro_avg']['denominator_precision']
+            denominator_recall += eval_dict['micro_avg']['denominator_recall']
+
+            sentence_data.loc[truth_selection, f"deltaConstrained {value_prefix}"] = \
+                filtered_truth_frame.loc[:, f'conf2 {value_prefix} constrained'] - \
+                filtered_run_labels.loc[:, f'conf2 {value_prefix} constrained']
+            sentence_data.loc[:, f"deltaAbsConstrained {value_prefix}"] = \
+                sentence_data.loc[:, f"deltaConstrained {value_prefix}"].apply(abs)
+
+            proto_text_body[3].append(eval_dict['proto_text'])
+
+        # Subtask 2 overall
+        micro_precision = numerator / denominator_precision if denominator_precision > 0 else 0.0
+        precisions[1].append(micro_precision)
+        line_precision[1][value_prefix] = micro_precision
+        micro_recall = numerator / denominator_recall if denominator_recall > 0 else 0.0
+        recalls[1].append(micro_recall)
+        line_recall[1][value_prefix] = micro_recall
+        micro_f1_score = 2 * micro_precision * micro_recall / (micro_precision + micro_recall) \
+            if micro_precision + micro_recall > 0.0 else 0.0
+        f1_scores[1].append(micro_f1_score)
+        line_f1_score[1][value_prefix] = micro_f1_score
+
+        proto_text_body[1].append(
+            f'measure {{\n key: "Precision {value_prefix} (Subtask 2 - overall)"\n value: "{micro_precision}"\n}}\n'
+            f'measure {{\n key: "Recall {value_prefix} (Subtask 2 - overall)"\n value: "{micro_recall}"\n}}\n'
+            f'measure {{\n key: "F1 {value_prefix} (Subtask 2 - overall)"\n value: "{micro_f1_score}"\n}}\n'
+        )
+
+        micro_avg['numerator'] += numerator
+        micro_avg['denominator_precision'] += denominator_precision
+        micro_avg['denominator_recall'] += denominator_recall
+
+        sentence_data_list.append(sentence_data)
+
+    avg_precision = [0, 0, 0, 0]
+    avg_recall = [0, 0, 0, 0]
+    avg_f1_score = [0, 0, 0, 0]
+
+    # calculate macro_avg
+    for i in [0, 2, 3]:
+        macro_precision = sum(precisions[i]) / len(precisions[i]) if len(precisions[i]) > 0 else 0.0
+        avg_precision[i] = macro_precision
+        macro_recall = sum(recalls[i]) / len(recalls[i]) if len(recalls[i]) > 0 else 0.0
+        avg_recall[i] = macro_recall
+        avg_f1_score[i] = 2 * macro_precision * macro_recall / (macro_precision + macro_recall) \
+            if macro_precision + macro_recall > 0.0 else 0.0
+
+    # calculate micro_avg
+    micro_precision = micro_avg['numerator'] / micro_avg['denominator_precision'] \
+        if micro_avg['denominator_precision'] > 0 else 0.0
+    avg_precision[1] = micro_precision
+    micro_recall = micro_avg['numerator'] / micro_avg['denominator_recall'] \
+        if micro_avg['denominator_recall'] > 0 else 0.0
+    avg_recall[1] = micro_recall
+    avg_f1_score[1] = 2 * micro_precision * micro_recall / (micro_precision + micro_recall) \
+        if micro_precision + micro_recall > 0.0 else 0.0
+
+    # combine sentence data for GUI table
+    final_sentence_data = pd.concat(sentence_data_list, axis=1).round(2)
+
+    ##################################
+    # Write evaluation.prototext #####
+    ##################################
 
     with open(os.path.join(output_dataset, "evaluation.prototext"), "w") as evaluationFile:
-        evaluationFile.write(eval_object_both['proto_text']['header'])
-        if subtask == '2':
-            evaluationFile.write(eval_object_attained['proto_text']['header'])
-            evaluationFile.write(eval_object_constrained['proto_text']['header'])
+        for i in range(4):
+            evaluationFile.write(
+                f'measure {{\n key: "Precision {post_fix[i]}"\n value: "{avg_precision[i]}"\n}}\n'
+                f'measure {{\n key: "Recall {post_fix[i]}"\n value: "{avg_recall[i]}"\n}}\n'
+                f'measure {{\n key: "F1 {post_fix[i]}"\n value: "{avg_f1_score[i]}"\n}}\n'
+            )
+        for i in range(4):
+            evaluationFile.write(''.join(proto_text_body[i]))
 
-        evaluationFile.write(eval_object_both['proto_text']['body'])
-        if subtask == '2':
-            evaluationFile.write(eval_object_attained['proto_text']['body'])
-            evaluationFile.write(eval_object_constrained['proto_text']['body'])
+    ####################
+    # Write to GUI #####
+    ####################
 
-    sentence_details = eval_object_both['detail']
-    if subtask == '2':
-        sentence_details = sentence_details.join(
-            eval_object_attained['detail'].drop(columns='Text')
-        ).join(
-            eval_object_constrained['detail'].drop(columns='Text')
+    # overview table
+    table_data = f"[{{metric: 'F1', subtask1: {avg_f1_score[0]:.2f}, subtask2: {avg_f1_score[1]:.2f}, subtask2Attained: {avg_f1_score[2]:.2f}, subtask2Constrained: {avg_f1_score[3]:.2f}}},\n" \
+                 f"{{metric: 'Precision', subtask1: {avg_precision[0]:.2f}, subtask2: {avg_precision[1]:.2f}, subtask2Attained: {avg_precision[2]:.2f}, subtask2Constrained: {avg_precision[3]:.2f}}},\n" \
+                 f"{{metric: 'Recall', subtask1: {avg_recall[0]:.2f}, subtask2: {avg_recall[1]:.2f}, subtask2Attained: {avg_recall[2]:.2f}, subtask2Constrained: {avg_recall[3]:.2f}}}]"
+    with open(os.path.join(output_dataset, "evaluation1.txt"), "w") as evaluationFile:
+        evaluationFile.write(table_data)
+
+    # line plot data
+    line_data = "{\n" \
+                "subtask1: { plot1: [\n" \
+                f"{{label: 'F1-Score', pointStyle: 'circle', pointRadius: 5, borderColor: 'rgb(36,93,215)', backgroundColor: 'rgba(36,93,215,0.2)', data: [{', '.join(str(x) for x in line_f1_score[0].values())}]}}\n" \
+                "], plot2: [\n" \
+                f"{{label: 'Precision', pointStyle: 'rectRot', pointRadius: 5, borderColor: 'rgb(36,93,215)', backgroundColor: 'rgba(36,93,215,0.2)', data: [{', '.join(str(x) for x in line_precision[0].values())}]}},\n" \
+                f"{{label: 'Recall', pointStyle: 'triangle', pointRadius: 5, borderColor: 'rgb(36,93,215)', backgroundColor: 'rgba(36,93,215,0.2)', data: [{', '.join(str(x) for x in line_recall[0].values())}]}}\n" \
+                "]}, subtask2: { plot1: [\n" \
+                f"{{label: 'F1-Score (overall)', pointStyle: 'circle', pointRadius: 5, borderColor: 'rgb(36,93,215)', backgroundColor: 'rgba(36,93,215,0.2)', data: [{', '.join(str(x) for x in line_f1_score[1].values())}]}},\n" \
+                f"{{label: 'F1-Score (attained)', pointStyle: 'circle', pointRadius: 5, borderColor: 'rgb(43,203,184)', backgroundColor: 'rgba(43,203,184,0.2)', data: [{', '.join(str(x) for x in line_f1_score[2].values())}]}},\n" \
+                f"{{label: 'F1-Score (constrained)', pointStyle: 'circle', pointRadius: 5, borderColor: 'rgb(235,111,54)', backgroundColor: 'rgba(235,111,54,0.2)', data: [{', '.join(str(x) for x in line_f1_score[3].values())}]}}\n" \
+                "], plot2: [\n" \
+                f"{{label: 'Precision (overall)', pointStyle: 'rectRot', pointRadius: 5, borderColor: 'rgb(36,93,215)', backgroundColor: 'rgba(36,93,215,0.2)', data: [{', '.join(str(x) for x in line_precision[1].values())}]}},\n" \
+                f"{{label: 'Precision (attained)', pointStyle: 'rectRot', pointRadius: 5, borderColor: 'rgb(43,203,184)', backgroundColor: 'rgba(43,203,184,0.2)', data: [{', '.join(str(x) for x in line_precision[2].values())}]}},\n" \
+                f"{{label: 'Precision (constrained)', pointStyle: 'rectRot', pointRadius: 5, borderColor: 'rgb(235,111,54)', backgroundColor: 'rgba(235,111,54,0.2)', data: [{', '.join(str(x) for x in line_precision[3].values())}]}},\n" \
+                f"{{label: 'Recall (overall)', pointStyle: 'triangle', pointRadius: 5, borderColor: 'rgb(36,93,215)', backgroundColor: 'rgba(36,93,215,0.2)', data: [{', '.join(str(x) for x in line_recall[1].values())}]}},\n" \
+                f"{{label: 'Recall (attained)', pointStyle: 'triangle', pointRadius: 5, borderColor: 'rgb(43,203,184)', backgroundColor: 'rgba(43,203,184,0.2)', data: [{', '.join(str(x) for x in line_recall[2].values())}]}},\n" \
+                f"{{label: 'Recall (constrained)', pointStyle: 'triangle', pointRadius: 5, borderColor: 'rgb(235,111,54)', backgroundColor: 'rgba(235,111,54,0.2)', data: [{', '.join(str(x) for x in line_recall[3].values())}]}}\n" \
+                "]}\n}"
+    with open(os.path.join(output_dataset, "evaluation2.txt"), "w") as evaluationFile:
+        evaluationFile.write(line_data)
+
+    # sentence data
+    sentence_row_id = 0
+    sentence_lines = ['[']
+    for _, row in final_sentence_data.iterrows():
+        sentence_lines.append(
+            f"{str({'id': sentence_row_id, **row})},"
         )
-    sentence_detail_list = [
-        {
-            **{name: value for name, value in zip(id_columns, list(idx))},
-            **record
-        } for idx, record in sentence_details.to_dict('index').items()
-    ]
+        sentence_row_id += 1
+    sentence_lines.append(']')
 
-    if subtask == '1':
-        eval_object = {
-            'sub_task': '1',
-            'roc': {
-                'tpr': eval_object_both['roc']['tpr'],
-                'fpr': eval_object_both['roc']['fpr'],
-                'auc': eval_object_both['roc']['auc'],
-            },
-            'global': {
-                'f1_score': eval_object_both['global']['f1_score'],
-                'precision': eval_object_both['global']['precision'],
-                'recall': eval_object_both['global']['recall'],
-                'list_f1_score': eval_object_both['global']['list_f1_score'],
-                'list_precision': eval_object_both['global']['list_precision'],
-                'list_recall': eval_object_both['global']['list_recall'],
-            },
-            'detail': sentence_detail_list
-        }
-    else:
-        eval_object = {
-            'sub_task': '2',
-            'roc': {
-                'tpr': eval_object_both['roc']['tpr'],
-                'fpr': eval_object_both['roc']['fpr'],
-                'auc': eval_object_both['roc']['auc'],
-                'tpr_attained': eval_object_attained['roc']['tpr'],
-                'fpr_attained': eval_object_attained['roc']['fpr'],
-                'auc_attained': eval_object_attained['roc']['auc'],
-                'tpr_constrained': eval_object_constrained['roc']['tpr'],
-                'fpr_constrained': eval_object_constrained['roc']['fpr'],
-                'auc_constrained': eval_object_constrained['roc']['auc']
-            },
-            'global': {
-                'f1_score': eval_object_both['global']['f1_score'],
-                'precision': eval_object_both['global']['precision'],
-                'recall': eval_object_both['global']['recall'],
-                'list_f1_score': eval_object_both['global']['list_f1_score'],
-                'list_precision': eval_object_both['global']['list_precision'],
-                'list_recall': eval_object_both['global']['list_recall'],
-                'f1_score_attained': eval_object_attained['global']['f1_score'],
-                'precision_attained': eval_object_attained['global']['precision'],
-                'recall_attained': eval_object_attained['global']['recall'],
-                'list_f1_score_attained': eval_object_attained['global']['list_f1_score'],
-                'list_precision_attained': eval_object_attained['global']['list_precision'],
-                'list_recall_attained': eval_object_attained['global']['list_recall'],
-                'f1_score_constrained': eval_object_constrained['global']['f1_score'],
-                'precision_constrained': eval_object_constrained['global']['precision'],
-                'recall_constrained': eval_object_constrained['global']['recall'],
-                'list_f1_score_constrained': eval_object_constrained['global']['list_f1_score'],
-                'list_precision_constrained': eval_object_constrained['global']['list_precision'],
-                'list_recall_constrained': eval_object_constrained['global']['list_recall'],
-            },
-            'detail': sentence_detail_list
-        }
+    with open(os.path.join(output_dataset, "evaluation3.txt"), "w") as evaluationFile:
+        evaluationFile.write(str(relevant_values))
+        evaluationFile.write('\n')
+        evaluationFile.write('\n'.join(sentence_lines))
+
+    # ROC curve data
+    roc_plot1 = '\n'.join(roc_data[0])
+    roc_plot2 = '\n'.join(roc_data[1])
+    roc_plot3 = '\n'.join(roc_data[2])
+    full_roc_plots = "[\n{\n" \
+                     f"{roc_plot1}\n" \
+                     "},\n{\n" \
+                     f"{roc_plot2}\n" \
+                     "},\n{\n" \
+                     f"{roc_plot3}\n" \
+                     "}\n]"
+    with open(os.path.join(output_dataset, "evaluation_roc.txt"), "w") as evaluationFile:
+        evaluationFile.write(full_roc_plots)
 
     # Write to GUI (currently dump JSON)
-    with open(os.path.join(output_dataset, "evaluation.json"), "w") as evaluationJSON:
-        json.dump(eval_object, evaluationJSON)
+    # with open(os.path.join(output_dataset, "evaluation.json"), "w") as evaluationJSON:
+    #     json.dump(eval_object, evaluationJSON)
 
 
-def run_evaluation(
+def run_evaluation_on_value(
         truth_labels: pd.DataFrame,
         run_labels: pd.DataFrame,
         run_labels_confidence: pd.DataFrame,
-        sentence_frame: pd.DataFrame,
-        subtask: Literal['1', '2'] = '1',
-        postfix: Literal['', ' attained', ' constrained'] = ''):
+        value_name: str):
 
+    actual_value_name = value_name[7:]
     num_instances = len(truth_labels)
 
     # calculate roc curves
@@ -336,111 +495,96 @@ def run_evaluation(
 
     with warnings.catch_warnings():
         warnings.simplefilter(action='ignore', category=UndefinedMetricWarning)
-        tpr, fpr, _ = metrics.roc_curve(y_true=truth_labels_stack.values, y_score=run_labels_stack.values)
+        fpr, tpr, thresholds = metrics.roc_curve(y_true=truth_labels_stack.values, y_score=run_labels_stack.values)
+    threshold_0_5_position = None
     try:
-        roc_auc = metrics.roc_auc_score(y_true=truth_labels_stack.values, y_score=run_labels_stack.values)
+        roc_auc = f"AUC: {metrics.roc_auc_score(y_true=truth_labels_stack.values, y_score=run_labels_stack.values):.2f}"
+        if 0.5 in thresholds:
+            threshold_0_5_position = np.where(thresholds, 0.5)
+        else:
+            threshold_0_5_position = len(thresholds)
+            for i in range(len(thresholds) - 1):
+                if (thresholds[i] == float('inf') and 0.5 > thresholds[i+1]) or \
+                        (thresholds[i] != float('inf') and thresholds[i] > 0.5 > thresholds[i+1]):
+                    threshold_0_5_position = i + 1
+                    break
     except ValueError:
         # only one label present
-        roc_auc = 'undefined'
+        roc_auc = 'AUC: undefined'
+        fpr = []
+        tpr = []
 
     # calculate F1
-    relevants = initialize_counter(subtask=subtask)
-    positives = initialize_counter(subtask=subtask)
-    true_positives = initialize_counter(subtask=subtask)
-    true_negatives = initialize_counter(subtask=subtask)
-
-    sentence_details = {}
+    relevants = 0
+    positives = 0
+    true_positives = 0
+    true_negatives = 0
 
     for idx, row in truth_labels.iterrows():
-        corresponding_run_labels = run_labels.loc[idx]
-
-        sentence_data = {'Text': sentence_frame.loc[idx, 'Text']}
-
-        tps, fns, fps = 0, 0, 0
+        corresponding_run_label = run_labels.loc[idx, value_name]
 
         for value, truth_label in row.items():
             if truth_label == 1:
-                relevants[str(value)] += 1
-                if corresponding_run_labels is not None:
-                    if corresponding_run_labels[value] == 1:
-                        positives[str(value)] += 1
-                        true_positives[str(value)] += 1
-                        tps += 1
-                    else:
-                        fns += 1
-            elif corresponding_run_labels is not None:
-                if corresponding_run_labels[value] == 1:
-                    positives[str(value)] += 1
-                    fps += 1
+                relevants += 1
+                if corresponding_run_label == 1:
+                    positives += 1
+                    true_positives += 1
                 else:
-                    true_negatives[str(value)] += 1
+                    pass
+            elif corresponding_run_label == 1:
+                positives += 1
+            else:
+                true_negatives += 1
 
+    if relevants != 0:
+        if threshold_0_5_position is not None:
+            # TPR = TP / (TP + FN)
+            new_tpr = true_positives / relevants
+            # FPR = FP / (FP + TN)
+            new_fpr = (positives - true_positives) / (positives - true_positives + true_negatives) if (positives - true_positives + true_negatives) > 0 else 0.0
 
-        all_relevants = tps + fns
-        sentence_data[
-            'TP' + postfix] = "0" if all_relevants == 0 else f"{tps}/{all_relevants} ({round(tps / all_relevants * 100, 1)}%)"
-        sentence_data['FN' + postfix] = "0" if all_relevants == 0 else f"{fns}/{all_relevants}"
-        sentence_data['FP' + postfix] = fps
+            tpr = np.insert(tpr, threshold_0_5_position, new_tpr)
+            fpr = np.insert(fpr, threshold_0_5_position, new_fpr)
 
-        sentence_details[idx] = sentence_data
+        roc_entry = ["showLine: true, fill: true, pointRadius: 4, backgroundColor: 'rgb(235,111,54,0.2)',"]
+        if len(tpr) > 0:
+            border_colors = ["'rgb(235,111,54)'"] * len(tpr)
+            border_colors[threshold_0_5_position] = "'rgb(255,0,0)'"
+            roc_entry.append(f"borderColor: [ {', '.join(border_colors)} ],")
 
-    precisions: Dict[str, float] = {
-        value: 0 if positives[value] == 0 else true_positives[value] / positives[value]
-        for value in get_available_values_by_subtask(subtask) if relevants[value] != 0
-    }
-    recalls: Dict[str, float] = {
-        value: true_positives[value] / relevants[value]
-        for value in get_available_values_by_subtask(subtask) if relevants[value] != 0
-    }
-    f1_scores: Dict[str, float] = {
-        value: 0 if precision + recall == 0 else 2 * precision * recall / (precision + recall)
-        for (value, precision), recall in zip(precisions.items(), recalls.values())
-    }
-    accuracies: Dict[str, float] = {
-        value: 0 if num_instances == 0 else (true_positives[value] + true_negatives[value]) / num_instances
-        for value in get_available_values_by_subtask(subtask) if relevants[value] != 0
-    }
+            data_records = []
+            for i in range(len(tpr)):
+                data_records.append(f"{{x: {fpr[i]}, y: {tpr[i]}}}")
+            roc_entry.append(f"data: [ {', '.join(data_records)} ],")
+        else:
+            roc_entry.append('borderColor: [], data: [],')
+        roc_entry.append(f"auc: '{roc_auc}'")
 
-    precision = sum(precisions.values()) / len(precisions) if len(precisions) > 0 else 0.0
-    recall = sum(recalls.values()) / len(recalls) if len(recalls) > 0 else 0.0
-    f1_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
-    accuracy = sum(accuracies.values()) / len(accuracies) if len(accuracies) > 0 else 0.0
+        precision = 0 if positives == 0 else true_positives / positives
+        recall = true_positives / relevants
+        f1_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
 
-    proto_text_header = f'measure {{\n key: "Precision{postfix}"\n value: "{precision}"\n}}\n' \
-                        f'measure {{\n key: "Recall{postfix}"\n value: "{recall}"\n}}\n' \
-                        f'measure {{\n key: "F1{postfix}"\n value: "{f1_score}"\n}}\n' \
-                        f'measure {{\n key: "Accuracy{postfix}"\n value: "{accuracy}"\n}}\n'
-    proto_text_list = []
-    for value in get_available_values_by_subtask(subtask):
-        if value in precisions.keys():
-            proto_text_list.append(
-                f'measure {{\n key: "Precision {value}"\n value: "{precisions[value]}"\n}}\n'
-                f'measure {{\n key: "Recall {value}"\n value: "{recalls[value]}"\n}}\n'
-                f'measure {{\n key: "F1 {value}"\n value: "{f1_scores[value]}"\n}}\n'
-                f'measure {{\n key: "Accuracy {value}"\n value: "{accuracies[value]}"\n}}\n'
-            )
-    proto_text_body = "".join(proto_text_list)
+        proto_text = f'measure {{\n key: "Precision {actual_value_name}"\n value: "{precision}"\n}}\n' \
+                     f'measure {{\n key: "Recall {actual_value_name}"\n value: "{recall}"\n}}\n' \
+                     f'measure {{\n key: "F1 {actual_value_name}"\n value: "{f1_score}"\n}}\n'
 
-    return {
-        'proto_text': {
-            'header': proto_text_header,
-            'body': proto_text_body
-        },
-        'roc': {
-            'tpr': list(tpr),
-            'fpr': list(fpr),
-            'auc': roc_auc
-        },
-        'global': {
-            'f1_score': f1_score,
-            'precision': precision,
-            'recall': recall,
-            'list_f1_score': f1_scores,
-            'list_precision': precisions,
-            'list_recall': recalls,
-        },
-        'detail': pd.DataFrame.from_dict(sentence_details, orient='index')
-    }
+        return {
+            'metrics': {
+                'precision': precision,
+                'recall': recall,
+                'f1_score': f1_score
+            },
+            'micro_avg': {
+                'numerator': true_positives,
+                'denominator_precision': positives,
+                'denominator_recall': relevants
+            },
+            'roc': ' '.join(roc_entry),
+            'proto_text': proto_text
+        }
+
+    else:
+        return None
 
 
 def parse_args():
