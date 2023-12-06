@@ -186,8 +186,7 @@ def main(
         input_dataset: str,
         input_run: str,
         output_dataset: str,
-        id_columns: List[str],
-        subtask: Literal['1', '2'] = '1'):
+        id_columns: List[str]):
 
     truth_labels = read_labels(input_dataset, prefix="labels-", id_fields=id_columns)
     sentence_frame = pd.read_csv(os.path.join(input_dataset, "sentences.tsv"), sep='\t', index_col=None, header=0)
@@ -421,8 +420,13 @@ def main(
     table_data = f"[{{metric: 'F1', subtask1: {avg_f1_score[0]:.2f}, subtask2: {avg_f1_score[1]:.2f}, subtask2Attained: {avg_f1_score[2]:.2f}, subtask2Constrained: {avg_f1_score[3]:.2f}}},\n" \
                  f"{{metric: 'Precision', subtask1: {avg_precision[0]:.2f}, subtask2: {avg_precision[1]:.2f}, subtask2Attained: {avg_precision[2]:.2f}, subtask2Constrained: {avg_precision[3]:.2f}}},\n" \
                  f"{{metric: 'Recall', subtask1: {avg_recall[0]:.2f}, subtask2: {avg_recall[1]:.2f}, subtask2Attained: {avg_recall[2]:.2f}, subtask2Constrained: {avg_recall[3]:.2f}}}]"
-    with open(os.path.join(output_dataset, "evaluation1.txt"), "w") as evaluationFile:
-        evaluationFile.write(table_data)
+
+    gui_function_general_data = "function general_data() {\nreturn " \
+                                f"{table_data}\n" \
+                                "}"
+
+    # with open(os.path.join(output_dataset, "evaluation1.txt"), "w") as evaluationFile:
+    #     evaluationFile.write(table_data)
 
     # line plot data
     line_data = "{\n" \
@@ -443,8 +447,13 @@ def main(
                 f"{{label: 'Recall (attained)', pointStyle: 'triangle', pointRadius: 5, borderColor: 'rgb(43,203,184)', backgroundColor: 'rgba(43,203,184,0.2)', data: [{', '.join(str(x) for x in line_recall[2].values())}]}},\n" \
                 f"{{label: 'Recall (constrained)', pointStyle: 'triangle', pointRadius: 5, borderColor: 'rgb(235,111,54)', backgroundColor: 'rgba(235,111,54,0.2)', data: [{', '.join(str(x) for x in line_recall[3].values())}]}}\n" \
                 "]}\n}"
-    with open(os.path.join(output_dataset, "evaluation2.txt"), "w") as evaluationFile:
-        evaluationFile.write(line_data)
+
+    gui_function_line_plot_data = "function line_plot_data() {\nreturn " \
+                                  f"{line_data}\n" \
+                                  "}"
+
+    # with open(os.path.join(output_dataset, "evaluation2.txt"), "w") as evaluationFile:
+    #     evaluationFile.write(line_data)
 
     # sentence data
     sentence_row_id = 0
@@ -455,11 +464,17 @@ def main(
         )
         sentence_row_id += 1
     sentence_lines.append(']')
+    full_sentence_lines = '\n'.join(sentence_lines)
 
-    with open(os.path.join(output_dataset, "evaluation3.txt"), "w") as evaluationFile:
-        evaluationFile.write(str(relevant_values))
-        evaluationFile.write('\n')
-        evaluationFile.write('\n'.join(sentence_lines))
+    gui_function_sentence_data = "function sentence_data() {\nreturn {\n" \
+                                 f"values: {str(relevant_values)},\n" \
+                                 f"tableData: {full_sentence_lines}\n" \
+                                 "}\n}"
+
+    # with open(os.path.join(output_dataset, "evaluation3.txt"), "w") as evaluationFile:
+    #     evaluationFile.write(str(relevant_values))
+    #     evaluationFile.write('\n')
+    #     evaluationFile.write('\n'.join(sentence_lines))
 
     # ROC curve data
     roc_plot1 = '\n'.join(roc_data[0])
@@ -472,12 +487,50 @@ def main(
                      "},\n{\n" \
                      f"{roc_plot3}\n" \
                      "}\n]"
-    with open(os.path.join(output_dataset, "evaluation_roc.txt"), "w") as evaluationFile:
-        evaluationFile.write(full_roc_plots)
 
-    # Write to GUI (currently dump JSON)
-    # with open(os.path.join(output_dataset, "evaluation.json"), "w") as evaluationJSON:
-    #     json.dump(eval_object, evaluationJSON)
+    gui_function_value_roc_curve = "function value_roc_curve() {\nreturn " \
+                                   f"{full_roc_plots}\n" \
+                                   "}"
+
+    # with open(os.path.join(output_dataset, "evaluation_roc.txt"), "w") as evaluationFile:
+    #     evaluationFile.write(full_roc_plots)
+
+    if not os.path.exists('index.html'):
+        print('No index.html found.')
+    else:
+        with open('index.html', 'r') as gui_file:
+            gui_lines = gui_file.readlines()
+
+        start_index, end_index = -1, -1
+        for i in range(len(gui_lines)):
+            if start_index == -1 and "/* START DATA INJECT */" in gui_lines[i]:
+                start_index = i
+            elif "/* END DATA INJECT */" in gui_lines[i]:
+                end_index = i
+                break
+        if end_index == -1:
+            sys.exit("index.html can't be parsed correctly")
+
+        reformatted_start_line = gui_lines[start_index][:gui_lines[start_index].find("/* START DATA INJECT */")]
+        reformatted_end_line = gui_lines[end_index][
+                                   gui_lines[end_index].rfind("/* END DATA INJECT */") + len("/* END DATA INJECT */"):
+                               ]
+
+        new_gui_lines = gui_lines[:start_index] + [
+            reformatted_start_line,
+            gui_function_general_data,
+            '\n\n',
+            gui_function_value_roc_curve,
+            '\n\n',
+            gui_function_line_plot_data,
+            '\n\n',
+            gui_function_sentence_data,
+            '\n',
+            reformatted_end_line
+        ] + gui_lines[end_index + 1:]
+
+        with open(os.path.join(output_dataset, "index.html"), "w") as gui_file:
+            gui_file.writelines(new_gui_lines)
 
 
 def run_evaluation_on_value(
@@ -600,9 +653,6 @@ def parse_args():
         "-o", "--outputDataset", type=str, required=True,
         help="Directory to which the 'evaluation.prototext' will be written: will be created if it does not exist")
     parser.add_argument(
-        "-s", "--sub-task", type=str, choices=['1', '2'], required=False, default='1',
-        help="")
-    parser.add_argument(
         '--id-columns', type=str, nargs='*', required=False, default=['Text-ID', 'Sentence-ID'],
         help="")
     return parser.parse_args()
@@ -610,4 +660,4 @@ def parse_args():
 
 if __name__ == '__main__':
     args = parse_args()
-    main(args.inputDataset, args.inputRun, args.outputDataset, id_columns=args.id_columns, subtask=args.sub_task)
+    main(args.inputDataset, args.inputRun, args.outputDataset, id_columns=args.id_columns)
