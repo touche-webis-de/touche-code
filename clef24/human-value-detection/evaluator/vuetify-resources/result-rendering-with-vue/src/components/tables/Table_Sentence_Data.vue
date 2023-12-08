@@ -16,6 +16,19 @@
         single-line
       ></v-autocomplete>
     </template>
+    <template v-slot:body="{ items }">
+      <tr v-for="(item, index) in (items as any[])" :key="index" class="v-data-table__tr v-data-table__tr--clickable" @click="handleClick($event, {item})">
+        <td class="v-data-table__td v-data-table-column--align-start">{{item['Text-ID']}}</td>
+        <td class="v-data-table__td v-data-table-column--align-start">{{item['Sentence-ID']}}</td>
+        <td class="v-data-table__td v-data-table-column--align-start">{{item['Text']}}</td>
+        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['delta ' + selectedValue])">{{item['delta ' + selectedValue]}}</td>
+        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAbs ' + selectedValue])">{{item['deltaAbs ' + selectedValue]}}</td>
+        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAttained ' + selectedValue])">{{item['deltaAttained ' + selectedValue]}}</td>
+        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAbsAttained ' + selectedValue])">{{item['deltaAbsAttained ' + selectedValue]}}</td>
+        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaConstrained ' + selectedValue])">{{item['deltaConstrained ' + selectedValue]}}</td>
+        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAbsConstrained ' + selectedValue])">{{item['deltaAbsConstrained ' + selectedValue]}}</td>
+      </tr>
+    </template>
   </v-data-table>
 </template>
 
@@ -63,6 +76,9 @@ export default {
   methods: {
     handleClick (event: any, {item}: any) {
       // this.$emit('selectSentence', item.id)
+    },
+    applyGradient(value: number) {
+      return "background-color: rgba(255,0,0," + Math.abs(value) + ") !important;"
     }
   },
   computed: {

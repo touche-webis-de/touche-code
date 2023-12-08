@@ -10,9 +10,9 @@
         />
       </v-col>
       <v-col cols="5">
-        <v-container style="overflow-y: auto; overflow-x: hidden; max-height: 600px; margin-top: auto; margin-bottom: auto;">
+        <v-container class="responsive-scroll-container">
           <v-row>
-            <v-col cols="6" v-for="el in valueDatasets" :key="el.valueLabel">
+            <v-col xs="12" sm="6" lg="4" v-for="el in valueDatasets" :key="el.valueLabel">
               <value-roc-curve
                 :value-name="el.valueName"
                 :value-label="el.valueLabel"
@@ -41,11 +41,25 @@
   background-color: rgb(220,220,220) !important;
 }
 
+.responsive-scroll-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.responsive-plot-aspect-ratio {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 @media (max-width: 599.98px) {
   /* XS */
+  .responsive-scroll-container {
+    max-height: 300px !important;
+  }
   .responsive-main-plot {
-    width: 600px !important;
-    height: 600px !important;
+    width: 300px !important;
+    height: 300px !important;
   }
   .responsive-sub-plot {
     width: 100px !important;
@@ -55,9 +69,12 @@
 
 @media (min-width: 600px) and (max-width: 959.98px) {
   /* SM */
+  .responsive-scroll-container {
+    max-height: 300px !important;
+  }
   .responsive-main-plot {
-    width: 600px !important;
-    height: 600px !important;
+    width: 300px !important;
+    height: 300px !important;
   }
   .responsive-sub-plot {
     width: 100px !important;
@@ -67,9 +84,12 @@
 
 @media (min-width: 960px) and (max-width: 1279.98px) {
   /* MD */
+  .responsive-scroll-container {
+    max-height: 400px !important;
+  }
   .responsive-main-plot {
-    width: 600px !important;
-    height: 600px !important;
+    width: 400px !important;
+    height: 400px !important;
   }
   .responsive-sub-plot {
     width: 100px !important;
@@ -79,6 +99,9 @@
 
 @media (min-width: 1280px) and (max-width: 1919.98px) {
   /* LG */
+  .responsive-scroll-container {
+    max-height: 600px !important;
+  }
   .responsive-main-plot {
     width: 600px !important;
     height: 600px !important;
@@ -91,6 +114,9 @@
 
 @media (min-width: 1920px) and (max-width: 2559.98px) {
   /* XL */
+  .responsive-scroll-container {
+    max-height: 600px !important;
+  }
   .responsive-main-plot {
     width: 600px !important;
     height: 600px !important;
@@ -103,6 +129,9 @@
 
 @media (min-width: 2560px) {
   /* XXL */
+  .responsive-scroll-container {
+    max-height: 1000px !important;
+  }
   .responsive-main-plot {
     width: 1000px !important;
     height: 1000px !important;

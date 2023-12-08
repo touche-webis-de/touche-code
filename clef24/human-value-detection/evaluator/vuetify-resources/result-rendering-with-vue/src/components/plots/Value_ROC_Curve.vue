@@ -23,7 +23,7 @@
                   plugins: {legend: {labels: {usePointStyle: true}, display: false}, tooltip: {enabled: false}}
                   }"
             :data="{datasets: datasets}"
-            style="width: 100% !important; height: 100% !important;"
+            class="responsive-plot-aspect-ratio"
           />
         </div>
         {{auc}}
