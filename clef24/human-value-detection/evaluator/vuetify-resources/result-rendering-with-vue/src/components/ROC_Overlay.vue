@@ -55,18 +55,17 @@
 @media (max-width: 599.98px) {
   /* XS */
   .responsive-scroll-container {
-    max-height: 300px !important;
+    max-height: 250px !important;
   }
   .responsive-main-plot {
-    width: 300px !important;
-    height: 300px !important;
+    width: 200px !important;
+    height: 200px !important;
   }
   .responsive-sub-plot {
-    width: 100px !important;
-    height: 100px !important;
+    width: 70px !important;
+    height: 70px !important;
   }
 }
-
 @media (min-width: 600px) and (max-width: 959.98px) {
   /* SM */
   .responsive-scroll-container {
@@ -77,11 +76,10 @@
     height: 300px !important;
   }
   .responsive-sub-plot {
-    width: 100px !important;
-    height: 100px !important;
+    width: 80px !important;
+    height: 80px !important;
   }
 }
-
 @media (min-width: 960px) and (max-width: 1279.98px) {
   /* MD */
   .responsive-scroll-container {
@@ -96,7 +94,6 @@
     height: 100px !important;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1919.98px) {
   /* LG */
   .responsive-scroll-container {
@@ -111,7 +108,6 @@
     height: 120px !important;
   }
 }
-
 @media (min-width: 1920px) and (max-width: 2559.98px) {
   /* XL */
   .responsive-scroll-container {
@@ -126,7 +122,6 @@
     height: 120px !important;
   }
 }
-
 @media (min-width: 2560px) {
   /* XXL */
   .responsive-scroll-container {

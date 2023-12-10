@@ -3,13 +3,13 @@
     <v-main class="overflow-x-hidden overflow-y-auto">
       <v-container>
         <v-row style="margin-top: 20px; margin-bottom: 20px;">
-          <v-col cols="5">
+          <v-col cols="12" lg="5">
             <h2>Introduction</h2>
             <p>
               This is the result page for the human value detection task at CLEF 24.
             </p>
           </v-col>
-          <v-col cols="7">
+          <v-col cols="12" lg="7">
             <div class="panel margin-panel">
               <div class="panel-heading">Overall Metric</div>
               <div class="panel-body">
@@ -52,7 +52,7 @@
           </div>
         </div>
         <v-row style="margin-top: 20px; margin-bottom: 20px;">
-          <v-col md="12" lg="6">
+          <v-col cols="12" lg="6">
             <div class="panel">
               <div class="panel-heading">Value-wise Metrics for Subtask 1</div>
               <div class="panel-body">
@@ -72,7 +72,7 @@
               </div>
             </div>
           </v-col>
-          <v-col md="12" lg="6">
+          <v-col cols="12" lg="6">
             <div class="panel">
               <div class="panel-heading">Value-wise Metrics for Subtask 2</div>
               <div class="panel-body">
@@ -140,6 +140,36 @@
   }
   .panel > .panel-body.panel-body-no-bottom-pad {
     padding-bottom: 0;
+  }
+
+  .line-plot {
+    min-height: 300px;
+    max-height: 450px;
+  }
+
+  @media (max-width: 599.98px) {
+    /* XS */
+    html {
+      font-size: 0.5rem !important;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 959.98px) {
+    /* SM */
+    html {
+      font-size: 0.6rem !important;
+    }
+  }
+  @media (min-width: 960px) and (max-width: 1279.98px) {
+    /* MD */
+    html {
+      font-size: 0.7rem !important;
+    }
+  }
+  @media (min-width: 1280px) and (max-width: 1919.98px) {
+    /* LG */
+    html {
+      font-size: 0.85rem !important;
+    }
   }
 </style>
 

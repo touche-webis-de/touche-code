@@ -64,6 +64,49 @@
 #sentence-table tbody tr.active > td:nth-child(3) {
   white-space: pre-wrap;
 }
+
+@media (max-width: 599.98px) {
+  /* XS */
+  #sentence-table tbody > tr > td:nth-child(3) {
+    max-width: 100px;
+  }
+  #sentence-table tbody > tr > td,
+  #sentence-table tbody > tr > th,
+  #sentence-table thead > tr > td,
+  #sentence-table thead > tr > th,
+  #sentence-table tfoot > tr > td,
+  #sentence-table tfoot > tr > th {
+    padding: 0 9px;
+  }
+}
+@media (min-width: 600px) and (max-width: 959.98px) {
+  /* SM */
+  #sentence-table tbody > tr > td:nth-child(3) {
+    max-width: 150px;
+  }
+  #sentence-table tbody > tr > td,
+  #sentence-table tbody > tr > th,
+  #sentence-table thead > tr > td,
+  #sentence-table thead > tr > th,
+  #sentence-table tfoot > tr > td,
+  #sentence-table tfoot > tr > th {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.98px) {
+  /* MD */
+  #sentence-table tbody > tr > td:nth-child(3) {
+    max-width: 200px;
+  }
+  #sentence-table tbody > tr > td,
+  #sentence-table tbody > tr > th,
+  #sentence-table thead > tr > td,
+  #sentence-table thead > tr > th,
+  #sentence-table tfoot > tr > td,
+  #sentence-table tfoot > tr > th {
+    padding: 0 12px;
+  }
+}
 </style>
 
 <script lang="ts">

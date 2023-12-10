@@ -6,13 +6,9 @@
       plugins: {legend: {labels: {usePointStyle: true}}}
     }"
     :data="{labels: valueList, datasets: dataset}"
-    style="min-height: 300px; max-height: 450px;"
+    class="line-plot"
   />
 </template>
-
-<style scoped>
-
-</style>
 
 <script lang="ts">
 import {Line} from "vue-chartjs";
