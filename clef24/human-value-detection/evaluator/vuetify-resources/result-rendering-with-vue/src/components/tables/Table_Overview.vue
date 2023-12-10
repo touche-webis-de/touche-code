@@ -30,7 +30,7 @@ export default {
           title: 'Subtask 2', align: "center", sortable: false, children: [
             { title: 'attained', value: 'subtask2Attained', align: "center", sortable: false },
             { title: 'constrained', value: 'subtask2Constrained', align: "center", sortable: false },
-            { title: 'micro-avg', value: 'subtask2', align: "center", sortable: false },
+            { title: 'overall', value: 'subtask2', align: "center", sortable: false },
           ]
         },
       ]

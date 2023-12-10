@@ -1,6 +1,7 @@
 <template>
   <!-- Type definition for data-table headers are currently not exported automatically -->
   <v-data-table
+    v-model:sort-by="sortBy"
     v-model:items-per-page="itemsPerPage"
     :headers="(dataHeaders as any)"
     :items="tableData"
@@ -60,6 +61,9 @@
 #sentence-table tbody tr.active > td {
   background-color: rgb(180,180,180) !important;
 }
+#sentence-table tbody tr.active > td:nth-child(3) {
+  white-space: pre-wrap;
+}
 </style>
 
 <script lang="ts">
@@ -69,16 +73,26 @@ export default {
   props: ['valueList', 'tableData'],
   data() {
     return {
-      itemsPerPage: 5,
+      sortBy: [],
+      itemsPerPage: 50,
       selectedValue: this.$props.valueList[0],
     }
   },
   methods: {
     handleClick (event: any, {item}: any) {
-      // this.$emit('selectSentence', item.id)
+      this.unSelectAll()
+      event.target.parentNode.classList.add('active')
     },
     applyGradient(value: number) {
       return "background-color: rgba(255,0,0," + Math.abs(value) + ") !important;"
+    },
+    unSelectAll() {
+      document.querySelectorAll('#sentence-table tr.active').forEach(element => element.classList.remove('active'))
+    }
+  },
+  watch: {
+    sortBy() {
+      this.unSelectAll()
     }
   },
   computed: {

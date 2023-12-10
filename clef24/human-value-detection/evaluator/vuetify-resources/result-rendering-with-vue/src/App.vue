@@ -2,23 +2,33 @@
   <v-app>
     <v-main class="overflow-x-hidden overflow-y-auto">
       <v-container>
-        <div class="panel margin-panel">
-          <div class="panel-heading">
-            General
-          </div>
-          <div class="panel-body">
-            <v-row style="margin-top: 20px; margin-bottom: 20px;">
-              <v-col cols="4">
-
-              </v-col>
-              <v-col cols="1"></v-col>
-              <v-col cols="6">
-                <h2>Overall Metric</h2>
+        <v-row style="margin-top: 20px; margin-bottom: 20px;">
+          <v-col cols="5">
+            <h2>Introduction</h2>
+            <p>
+              This is the result page for the human value detection task at CLEF 24.
+            </p>
+          </v-col>
+          <v-col cols="7">
+            <div class="panel margin-panel">
+              <div class="panel-heading">Overall Metric</div>
+              <div class="panel-body">
+                <p>
+                  The metrics for Subtask 1 as well as attained and constrained for Subtask 2 are macro-averaged over all respective labels.
+                  The metrics for Subtask 2 overall are micro-averaged from attained and constrained.
+                </p>
                 <table-overview :dataset="generalData" />
-              </v-col>
-              <v-col cols="1"></v-col>
-            </v-row>
-            <v-divider/>
+              </div>
+            </div>
+          </v-col>
+        </v-row>
+        <div class="panel">
+          <div class="panel-heading">Roc Curves</div>
+          <div class="panel-body">
+            <p>
+              The ROC curves are given for the confidence values for all subtasks.
+              Each (defined) ROC curve features an additional point with red outline marking the 0.5 threshold as used in the actual evaluation.
+            </p>
             <v-expansion-panels>
               <v-expansion-panel>
                 <v-expansion-panel-title>ROC-Curve Subtask 1</v-expansion-panel-title>
@@ -39,59 +49,62 @@
                 </v-expansion-panel-text>
               </v-expansion-panel>
             </v-expansion-panels>
-            <v-row style="margin-top: 20px; margin-bottom: 20px;">
-              <v-col md="12" lg="6">
-                <div class="panel">
-                  <div class="panel-heading">Subtask 1</div>
-                  <div class="panel-body">
-                    <v-row
-                      align="center"
-                      justify="center"
-                    >
-                      <h2>F1-Score</h2>
-                      <v-col cols="12">
-                        <value-line-plot :dataset="linePlotData.subtask1.plot1"/>
-                      </v-col>
-                      <h2>Precision & Recall</h2>
-                      <v-col cols="12">
-                        <value-line-plot :dataset="linePlotData.subtask1.plot2"/>
-                      </v-col>
-                    </v-row>
-                  </div>
-                </div>
-              </v-col>
-              <v-col md="12" lg="6">
-                <div class="panel">
-                  <div class="panel-heading">Subtask 2</div>
-                  <div class="panel-body">
-                    <v-row
-                      align="center"
-                      justify="center"
-                    >
-                      <h2>F1-Score</h2>
-                      <v-col cols="12">
-                        <value-line-plot :dataset="linePlotData.subtask2.plot1"/>
-                      </v-col>
-                      <h2>Precision & Recall</h2>
-                      <v-col cols="12">
-                        <value-line-plot :dataset="linePlotData.subtask2.plot2"/>
-                      </v-col>
-                    </v-row>
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
           </div>
         </div>
+        <v-row style="margin-top: 20px; margin-bottom: 20px;">
+          <v-col md="12" lg="6">
+            <div class="panel">
+              <div class="panel-heading">Value-wise Metrics for Subtask 1</div>
+              <div class="panel-body">
+                <v-row
+                  align="center"
+                  justify="center"
+                >
+                  <h2>F1-Score</h2>
+                  <v-col cols="12">
+                    <value-line-plot :dataset="linePlotData.subtask1.plot1"/>
+                  </v-col>
+                  <h2>Precision & Recall</h2>
+                  <v-col cols="12">
+                    <value-line-plot :dataset="linePlotData.subtask1.plot2"/>
+                  </v-col>
+                </v-row>
+              </div>
+            </div>
+          </v-col>
+          <v-col md="12" lg="6">
+            <div class="panel">
+              <div class="panel-heading">Value-wise Metrics for Subtask 2</div>
+              <div class="panel-body">
+                <v-row
+                  align="center"
+                  justify="center"
+                >
+                  <h2>F1-Score</h2>
+                  <v-col cols="12">
+                    <value-line-plot :dataset="linePlotData.subtask2.plot1"/>
+                  </v-col>
+                  <h2>Precision & Recall</h2>
+                  <v-col cols="12">
+                    <value-line-plot :dataset="linePlotData.subtask2.plot2"/>
+                  </v-col>
+                </v-row>
+              </div>
+            </div>
+          </v-col>
+        </v-row>
         <div class="panel margin-panel" style="min-height: 532px">
           <div class="panel-heading">
             Details
           </div>
-          <div class="panel-body">
+          <div class="panel-body panel-body-no-bottom-pad">
+            <p>
+              delta value (calculated by subtracting the prediction confidence from the actual ground truth label).
+              Both the raw and absolute values are reported.
+            </p>
             <table-sentence-data
               :value-list="sentenceValues"
               :table-data="sentenceTableData"
-              @selectSentence="selectSentence"
             />
           </div>
         </div>
@@ -122,8 +135,11 @@
     border-top-right-radius: 3px;
   }
   .panel > .panel-body {
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 15px 15px;
     flex-grow: 1;
+  }
+  .panel > .panel-body.panel-body-no-bottom-pad {
+    padding-bottom: 0;
   }
 </style>
 
@@ -141,11 +157,6 @@
     name: "app",
     components: {
       ValueLinePlot, TableSentenceData, TableOverview, RocOverlay, ValueContinuum, MetricContinuum
-    },
-    methods: {
-      selectSentence(id: number) {
-
-      }
     },
     setup () {
       const generalData = (window as any)['general_data']();
