@@ -7,7 +7,7 @@ as project into your IDE.
 
 Create the Docker-Image for the dev-container:
 ```bash
-docker build -f Dockerfile.vuetify -t webis-de/vuetify-dev-container:0.1 .
+docker build -f Dockerfile.vuetify -t webis/vuetify-dev-container:0.1 .
 ```
 
 Start the dev-container by mounting the project

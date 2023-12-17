@@ -188,7 +188,7 @@ def main(
         output_dataset: str,
         id_columns: List[str]):
 
-    truth_labels = read_labels(input_dataset, prefix="labels-", id_fields=id_columns)
+    truth_labels = read_labels(input_dataset, prefix="labels", id_fields=id_columns)
     sentence_frame = pd.read_csv(os.path.join(input_dataset, "sentences.tsv"), sep='\t', index_col=None, header=0)
     sentence_frame.index = pd.MultiIndex.from_tuples(list(zip(*[sentence_frame[c] for c in id_columns])))
 
@@ -645,7 +645,7 @@ def parse_args():
         description="Evaluator for Human Value Detection 2024 @ CLEF 2024")
     parser.add_argument(
         "-i", "--inputDataset", type=str, required=True,
-        help="Directory that contains the input dataset, at least the 'labels-*.tsv'")
+        help="Directory that contains the input dataset, at least the 'labels*.tsv'")
     parser.add_argument(
         "-r", "--inputRun", type=str, required=True,
         help="Directory that contains the run file in TSV format")

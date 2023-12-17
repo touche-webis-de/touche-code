@@ -1,5 +1,5 @@
 # Uncomment lines for GUI BUILD
-FROM webis-de/vuetify-dev-container:0.1
+FROM webis/vuetify-dev-container:0.1
 
 COPY vuetify-resources/result-rendering-with-vue/ /workspace/
 

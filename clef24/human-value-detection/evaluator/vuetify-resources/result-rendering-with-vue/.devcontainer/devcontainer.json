@@ -1,6 +1,6 @@
 {
   "name": "Vuetify-Container",
-  "image": "webis-de/vuetify-dev-container:0.1-beta",
+  "image": "webis/vuetify-dev-container:0.1-beta",
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
