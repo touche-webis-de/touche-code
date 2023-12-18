@@ -4,7 +4,7 @@
     v-model:sort-by="sortBy"
     v-model:items-per-page="itemsPerPage"
     :headers="(dataHeaders as any)"
-    :items="tableData"
+    :items="fullTableData"
     item-key="id"
     @click:row="handleClick"
     id="sentence-table"
@@ -22,12 +22,48 @@
         <td class="v-data-table__td v-data-table-column--align-start">{{item['Text-ID']}}</td>
         <td class="v-data-table__td v-data-table-column--align-start">{{item['Sentence-ID']}}</td>
         <td class="v-data-table__td v-data-table-column--align-start">{{item['Text']}}</td>
-        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['delta ' + selectedValue])">{{item['delta ' + selectedValue]}}</td>
-        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAbs ' + selectedValue])">{{item['deltaAbs ' + selectedValue]}}</td>
-        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAttained ' + selectedValue])">{{item['deltaAttained ' + selectedValue]}}</td>
-        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAbsAttained ' + selectedValue])">{{item['deltaAbsAttained ' + selectedValue]}}</td>
-        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaConstrained ' + selectedValue])">{{item['deltaConstrained ' + selectedValue]}}</td>
-        <td class="v-data-table__td v-data-table-column--align-center" :style="applyGradient(item['deltaAbsConstrained ' + selectedValue])">{{item['deltaAbsConstrained ' + selectedValue]}}</td>
+        <td
+          class="v-data-table__td v-data-table-column--align-center"
+          :style="applyGradient(item['delta ' + selectedValue])"
+          :title="'Ground truth: ' + item['truth1 ' + selectedValue] + '; Prediction: ' + item['run1 ' + selectedValue]"
+        >
+          {{item['delta ' + selectedValue]}}
+        </td>
+        <td
+          class="v-data-table__td v-data-table-column--align-center"
+          :style="applyGradient(item['deltaAbs ' + selectedValue])"
+          :title="'Ground truth: ' + item['truth1 ' + selectedValue] + '; Prediction: ' + item['run1 ' + selectedValue]"
+        >
+          {{item['deltaAbs ' + selectedValue]}}
+        </td>
+        <td
+          class="v-data-table__td v-data-table-column--align-center"
+          :style="applyGradient(item['deltaAttained ' + selectedValue])"
+          :title="'Ground truth: ' + item['truth2 ' + selectedValue + ' attained'] + '; Prediction: ' + item['run2 ' + selectedValue + ' attained']"
+        >
+          {{item['deltaAttained ' + selectedValue]}}
+        </td>
+        <td
+          class="v-data-table__td v-data-table-column--align-center"
+          :style="applyGradient(item['deltaAbsAttained ' + selectedValue])"
+          :title="'Ground truth: ' + item['truth2 ' + selectedValue + ' attained'] + '; Prediction: ' + item['run2 ' + selectedValue + ' attained']"
+        >
+          {{item['deltaAbsAttained ' + selectedValue]}}
+        </td>
+        <td
+          class="v-data-table__td v-data-table-column--align-center"
+          :style="applyGradient(item['deltaConstrained ' + selectedValue])"
+          :title="'Ground truth: ' + item['truth2 ' + selectedValue + ' constrained'] + '; Prediction: ' + item['run2 ' + selectedValue + ' constrained']"
+        >
+          {{item['deltaConstrained ' + selectedValue]}}
+        </td>
+        <td
+          class="v-data-table__td v-data-table-column--align-center"
+          :style="applyGradient(item['deltaAbsConstrained ' + selectedValue])"
+          :title="'Ground truth: ' + item['truth2 ' + selectedValue + ' constrained'] + '; Prediction: ' + item['run2 ' + selectedValue + ' constrained']"
+        >
+          {{item['deltaAbsConstrained ' + selectedValue]}}
+        </td>
       </tr>
     </template>
   </v-data-table>
@@ -136,6 +172,23 @@ export default {
   watch: {
     sortBy() {
       this.unSelectAll()
+    }
+  },
+  setup (props) {
+    const fullTableData = props.tableData.map((item: any) => {
+      props.valueList.forEach((value: any) => {
+        item['delta ' + value] = (item['truth1 ' + value] - item['run1 ' + value]).toFixed(2)
+        item['deltaAbs ' + value] = Math.abs(item['delta ' + value]).toFixed(2)
+        item['deltaAttained ' + value] = (item['truth2 ' + value + ' attained'] - item['run2 ' + value + ' attained']).toFixed(2)
+        item['deltaAbsAttained ' + value] = Math.abs(item['deltaAttained ' + value]).toFixed(2)
+        item['deltaConstrained ' + value] = (item['truth2 ' + value + ' constrained'] - item['run2 ' + value + ' constrained']).toFixed(2)
+        item['deltaAbsConstrained ' + value] = Math.abs(item['deltaConstrained ' + value]).toFixed(2)
+      })
+      return item
+    });
+
+    return {
+      fullTableData
     }
   },
   computed: {

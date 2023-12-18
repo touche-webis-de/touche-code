@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """Evaluator for Human Value Detection 2024 @ CLEF 2024 (Task 2)"""
-# Version: 2023-10-15
+# Version: 2023-12-18
 
 import argparse
 import json
@@ -256,12 +256,12 @@ def main(
                 f"'{value_prefix}': {{label: '{value_prefix}', {eval_dict['roc']}}},"
             )
 
-            sentence_data.loc[:, f"delta {value_prefix}"] = truth_frame.loc[:, f'conf1 {value_prefix}'] - run_labels.loc[:, f'conf1 {value_prefix}']
-            sentence_data.loc[:, f"deltaAbs {value_prefix}"] = sentence_data.loc[:, f"delta {value_prefix}"].apply(abs)
-            sentence_data.loc[:, f"deltaAttained {value_prefix}"] = 0.0
-            sentence_data.loc[:, f"deltaAbsAttained {value_prefix}"] = 0.0
-            sentence_data.loc[:, f"deltaConstrained {value_prefix}"] = 0.0
-            sentence_data.loc[:, f"deltaAbsConstrained {value_prefix}"] = 0.0
+            sentence_data.loc[:, f'truth1 {value_prefix}'] = truth_frame.loc[:, f'conf1 {value_prefix}']
+            sentence_data.loc[:, f'run1 {value_prefix}'] = run_labels.loc[:, f'conf1 {value_prefix}']
+            sentence_data.loc[:, f"truth2 {value_prefix} attained"] = 0.0
+            sentence_data.loc[:, f"run2 {value_prefix} attained"] = 0.0
+            sentence_data.loc[:, f"truth2 {value_prefix} constrained"] = 0.0
+            sentence_data.loc[:, f"run2 {value_prefix} constrained"] = 0.0
 
             proto_text_body[0].append(eval_dict['proto_text'])
 
@@ -309,11 +309,8 @@ def main(
             denominator_precision += eval_dict['micro_avg']['denominator_precision']
             denominator_recall += eval_dict['micro_avg']['denominator_recall']
 
-            sentence_data.loc[truth_selection, f"deltaAttained {value_prefix}"] = \
-                filtered_truth_frame.loc[:, f'conf2 {value_prefix} attained'] - \
-                filtered_run_labels.loc[:, f'conf2 {value_prefix} attained']
-            sentence_data.loc[:, f"deltaAbsAttained {value_prefix}"] = \
-                sentence_data.loc[:, f"deltaAttained {value_prefix}"].apply(abs)
+            sentence_data.loc[truth_selection, f"truth2 {value_prefix} attained"] = filtered_truth_frame.loc[:, f'conf2 {value_prefix} attained']
+            sentence_data.loc[truth_selection, f"run2 {value_prefix} attained"] = filtered_run_labels.loc[:, f'conf2 {value_prefix} attained']
 
             proto_text_body[2].append(eval_dict['proto_text'])
 
@@ -340,11 +337,8 @@ def main(
             denominator_precision += eval_dict['micro_avg']['denominator_precision']
             denominator_recall += eval_dict['micro_avg']['denominator_recall']
 
-            sentence_data.loc[truth_selection, f"deltaConstrained {value_prefix}"] = \
-                filtered_truth_frame.loc[:, f'conf2 {value_prefix} constrained'] - \
-                filtered_run_labels.loc[:, f'conf2 {value_prefix} constrained']
-            sentence_data.loc[:, f"deltaAbsConstrained {value_prefix}"] = \
-                sentence_data.loc[:, f"deltaConstrained {value_prefix}"].apply(abs)
+            sentence_data.loc[truth_selection, f"truth2 {value_prefix} constrained"] = filtered_truth_frame.loc[:, f'conf2 {value_prefix} constrained']
+            sentence_data.loc[truth_selection, f"run2 {value_prefix} constrained"] = filtered_run_labels.loc[:, f'conf2 {value_prefix} constrained']
 
             proto_text_body[3].append(eval_dict['proto_text'])
 
@@ -497,6 +491,7 @@ def main(
 
     if not os.path.exists('index.html'):
         print('No index.html found.')
+        print(gui_function_sentence_data)
     else:
         with open('index.html', 'r') as gui_file:
             gui_lines = gui_file.readlines()
