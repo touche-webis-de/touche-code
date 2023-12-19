@@ -11,8 +11,8 @@ T.B.A.
 Development
 -----------
 ```
-docker build -t webis/touche-human-value-detection-evaluator:1.0.1 .
-docker push webis/touche-human-value-detection-evaluator:1.0.1
+docker build -t webis/touche-human-value-detection-evaluator:1.0.2 .
+docker push webis/touche-human-value-detection-evaluator:1.0.2
 ```
 
 In TIRA:
