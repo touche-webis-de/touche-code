@@ -177,11 +177,11 @@ export default {
   setup (props) {
     const fullTableData = props.tableData.map((item: any) => {
       props.valueList.forEach((value: any) => {
-        item['delta ' + value] = (item['truth1 ' + value] - item['run1 ' + value]).toFixed(2)
+        item['delta ' + value] = (item['run1 ' + value] - item['truth1 ' + value]).toFixed(2)
         item['deltaAbs ' + value] = Math.abs(item['delta ' + value]).toFixed(2)
-        item['deltaAttained ' + value] = (item['truth2 ' + value + ' attained'] - item['run2 ' + value + ' attained']).toFixed(2)
+        item['deltaAttained ' + value] = (item['run2 ' + value + ' attained'] - item['truth2 ' + value + ' attained']).toFixed(2)
         item['deltaAbsAttained ' + value] = Math.abs(item['deltaAttained ' + value]).toFixed(2)
-        item['deltaConstrained ' + value] = (item['truth2 ' + value + ' constrained'] - item['run2 ' + value + ' constrained']).toFixed(2)
+        item['deltaConstrained ' + value] = (item['run2 ' + value + ' constrained'] - item['truth2 ' + value + ' constrained']).toFixed(2)
         item['deltaAbsConstrained ' + value] = Math.abs(item['deltaConstrained ' + value]).toFixed(2)
       })
       return item

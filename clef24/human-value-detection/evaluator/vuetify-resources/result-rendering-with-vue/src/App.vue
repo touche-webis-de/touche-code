@@ -2,26 +2,20 @@
   <v-app>
     <v-main class="overflow-x-hidden overflow-y-auto">
       <v-container>
-        <v-row style="margin-top: 20px; margin-bottom: 20px;">
-          <v-col cols="12" lg="12">
-            <h2>ValueEval'24 Run Analysis</h2>
-          </v-col>
-          <v-col cols="12" lg="12">
-            <div class="panel margin-panel">
-              <div class="panel-heading">Overview</div>
-              <div class="panel-body">
-                <p>
-                  All metrics are macro-averaged over values except for Subtask 2 overall, which are instead micro-averages of attained and constrained.
-                </p>
-                <table-overview :dataset="generalData" />
-              </div>
-            </div>
-          </v-col>
-        </v-row>
+        <h2 class="mb-6">ValueEval'24 Run Analysis</h2>
+        <div class="panel margin-panel">
+          <div class="panel-heading">Overview</div>
+          <div class="panel-body">
+            <p>
+              All metrics are macro-averaged over values except for Subtask 2 overall, which are instead micro-averages of attained and constrained.
+            </p>
+            <table-overview :dataset="generalData" />
+          </div>
+        </div>
         <div class="panel">
           <div class="panel-heading">Roc Curves</div>
           <div class="panel-body">
-            <p>
+            <p class="mb-2">
               The blue circle marks the performance at confidence threshold 0.5 as used in the overview.
             </p>
             <v-expansion-panels>
@@ -93,7 +87,7 @@
             Details
           </div>
           <div class="panel-body panel-body-no-bottom-pad">
-            <p>
+            <p class="mb-2">
               Delta is the prediction confidence minus the ground truth: Delta &lt; -0.5 for false negatives; Delta &gt; 0.5 for false positives.
             </p>
             <table-sentence-data
