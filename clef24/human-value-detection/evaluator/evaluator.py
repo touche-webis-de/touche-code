@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 """Evaluator for Human Value Detection 2024 @ CLEF 2024 (Task 2)"""
-# Version: 2023-12-18
+# Version: 2023-12-19
 
 import argparse
+from inspect import getsourcefile
 import json
 import os
 import sys
@@ -419,9 +420,6 @@ def main(
                                 f"{table_data}\n" \
                                 "}"
 
-    # with open(os.path.join(output_dataset, "evaluation1.txt"), "w") as evaluationFile:
-    #     evaluationFile.write(table_data)
-
     # line plot data
     line_data = "{\n" \
                 "subtask1: { plot1: [\n" \
@@ -446,9 +444,6 @@ def main(
                                   f"{line_data}\n" \
                                   "}"
 
-    # with open(os.path.join(output_dataset, "evaluation2.txt"), "w") as evaluationFile:
-    #     evaluationFile.write(line_data)
-
     # sentence data
     sentence_row_id = 0
     sentence_lines = ['[']
@@ -464,11 +459,6 @@ def main(
                                  f"values: {str(relevant_values)},\n" \
                                  f"tableData: {full_sentence_lines}\n" \
                                  "}\n}"
-
-    # with open(os.path.join(output_dataset, "evaluation3.txt"), "w") as evaluationFile:
-    #     evaluationFile.write(str(relevant_values))
-    #     evaluationFile.write('\n')
-    #     evaluationFile.write('\n'.join(sentence_lines))
 
     # ROC curve data
     roc_plot1 = '\n'.join(roc_data[0])
@@ -486,14 +476,14 @@ def main(
                                    f"{full_roc_plots}\n" \
                                    "}"
 
-    # with open(os.path.join(output_dataset, "evaluation_roc.txt"), "w") as evaluationFile:
-    #     evaluationFile.write(full_roc_plots)
+    # locate index.html next to evaluator script
+    script_directory = os.path.dirname(os.path.abspath(getsourcefile(lambda: 0)))
+    html_file_path = os.path.join(script_directory, 'index.html')
 
-    if not os.path.exists('index.html'):
+    if not os.path.exists(html_file_path):
         print('No index.html found.')
-        print(gui_function_sentence_data)
     else:
-        with open('index.html', 'r') as gui_file:
+        with open(html_file_path, 'r') as gui_file:
             gui_lines = gui_file.readlines()
 
         start_index, end_index = -1, -1
