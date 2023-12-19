@@ -3,19 +3,15 @@
     <v-main class="overflow-x-hidden overflow-y-auto">
       <v-container>
         <v-row style="margin-top: 20px; margin-bottom: 20px;">
-          <v-col cols="12" lg="5">
-            <h2>Introduction</h2>
-            <p>
-              This is the result page for the human value detection task at CLEF 24.
-            </p>
+          <v-col cols="12" lg="12">
+            <h2>ValueEval'24 Run Analysis</h2>
           </v-col>
-          <v-col cols="12" lg="7">
+          <v-col cols="12" lg="12">
             <div class="panel margin-panel">
-              <div class="panel-heading">Overall Metric</div>
+              <div class="panel-heading">Overview</div>
               <div class="panel-body">
                 <p>
-                  The metrics for Subtask 1 as well as attained and constrained for Subtask 2 are macro-averaged over all respective labels.
-                  The metrics for Subtask 2 overall are micro-averaged from attained and constrained.
+                  All metrics are macro-averaged over values except for Subtask 2 overall, which are instead micro-averages of attained and constrained.
                 </p>
                 <table-overview :dataset="generalData" />
               </div>
@@ -26,8 +22,7 @@
           <div class="panel-heading">Roc Curves</div>
           <div class="panel-body">
             <p>
-              The ROC curves are given for the confidence values for all subtasks.
-              Each (defined) ROC curve features an additional point with red outline marking the 0.5 threshold as used in the actual evaluation.
+              The blue circle marks the performance at confidence threshold 0.5 as used in the overview.
             </p>
             <v-expansion-panels>
               <v-expansion-panel>
@@ -99,8 +94,7 @@
           </div>
           <div class="panel-body panel-body-no-bottom-pad">
             <p>
-              delta value (calculated by subtracting the prediction confidence from the actual ground truth label).
-              Both the raw and absolute values are reported.
+              Delta is the prediction confidence minus the ground truth: Delta &lt; -0.5 for false negatives; Delta &gt; 0.5 for false positives.
             </p>
             <table-sentence-data
               :value-list="sentenceValues"

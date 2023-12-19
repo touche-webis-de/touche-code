@@ -587,7 +587,7 @@ def run_evaluation_on_value(
         roc_entry = ["showLine: true, fill: true, pointRadius: 4, backgroundColor: 'rgb(235,111,54,0.2)',"]
         if len(tpr) > 0:
             border_colors = ["'rgb(235,111,54)'"] * len(tpr)
-            border_colors[threshold_0_5_position] = "'rgb(255,0,0)'"
+            border_colors[threshold_0_5_position] = "'rgb(0,0,255)'"
             roc_entry.append(f"borderColor: [ {', '.join(border_colors)} ],")
 
             data_records = []
