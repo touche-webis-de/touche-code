@@ -1,2 +1,3 @@
 pandas
 trankit==1.1.1
+tqdm
