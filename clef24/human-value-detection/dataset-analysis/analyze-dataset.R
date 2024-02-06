@@ -36,10 +36,14 @@ plot.histsmallperlanguage <- function(filename.base, data, ...) {
     plot(hist.all, col="blue", xlim=c(0-0.5, sentences.max+0.5), main=NULL, ylim=c(0, 40), ...)
     plot(hist.manifestos, col="orange", xlim=c(0-0.5, sentences.max+0.5), add=TRUE)
     grid()
+    text(7, 35, language, cex=2)
     legend("topright", legend=c("All", "Manifestos"), fill=c("blue", "orange"), bty="n")
     dev.off()
   }
 }
 
 plot.histsmallperlanguage("sentences-per-file", data, xlab="Files with this number of sentences")
+
+
+plot.histsmallperlanguage("sentences-with-value-per-file", data[rowSums(data[3:40]) > 0,], xlab="Files with this number of sentences with values")
 

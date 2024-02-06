@@ -2,13 +2,36 @@
 \usepackage{graphicx}
 
 \title{Touch{\'e}24-ValueEval Dataset Report}
+\newenvironment{figures}[1]{\noindent\begin{minipage}{\linewidth}\paragraph{#1}\noindent\\[\baselineskip]}{\end{minipage}}
 
 \begin{document}
 \maketitle
 
-\paragraph{Files and sentences per language}\noindent\\[\baselineskip]
+
+
+\begin{figures}{Files and sentences per language}
 \includegraphics[width=.49\linewidth]{files-per-language}%
 \hfill%
 \includegraphics[width=.49\linewidth]{sentences-per-language}
+\end{figures}
+
+
+
+\begin{figures}{Sentences per file for each language}
+\includegraphics[width=.49\linewidth]{sentences-per-file-bg}%
+\hfill%
+\includegraphics[width=.49\linewidth]{sentences-per-file-de}\\[4ex]
+\includegraphics[width=.49\linewidth]{sentences-per-file-el}%
+\hfill%
+\includegraphics[width=.49\linewidth]{sentences-per-file-en}\\[4ex]
+\includegraphics[width=.49\linewidth]{sentences-per-file-fr}%
+\hfill%
+\includegraphics[width=.49\linewidth]{sentences-per-file-he}\\[4ex]
+\includegraphics[width=.49\linewidth]{sentences-per-file-it}%
+\hfill%
+\includegraphics[width=.49\linewidth]{sentences-per-file-nl}\\[4ex]
+\includegraphics[width=.49\linewidth]{sentences-per-file-tr}
+\end{figures}
+
 \end{document}
 
