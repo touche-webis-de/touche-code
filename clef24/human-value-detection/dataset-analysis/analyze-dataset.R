@@ -24,19 +24,22 @@ plot.barsperlanguage("sentences-per-language.pdf", data, ylab="Sentences")
 
 
 
-plot.histsmallperlanguage <- function(filename.base, data, ...) {
+plot.histsmallperlanguage <- function(filename.base, data, subset=rep(TRUE, dim(data)[1]), ...) {
   sentences.max <- max(data$Sentence.ID)
   for (language in unique(data$Language)) {
     filename <- paste(filename.base, "-", tolower(language), ".pdf", sep="")
     pdf(filename, width=7, height=3)
     par(mar=c(4, 4, 0.4, 0.1))
-    hist.all <- hist(table(data[data$Language == language,]$Text.ID), breaks=(-1:sentences.max)+0.5, plot=FALSE)
-    hist.manifestos <- hist(table(data[data$Language == language & data$Is.manifesto,]$Text.ID), breaks=(-1:sentences.max)+0.5, plot=FALSE)
 
-    plot(hist.all, col="blue", xlim=c(0-0.5, sentences.max+0.5), main=NULL, ylim=c(0, 40), ...)
+    sentences.all <- factor(data[data$Language == language,]$Text.ID)
+    sentences.manifestos <- factor(data[data$Language == language & data$Is.manifesto,]$Text.ID)
+    hist.all <- hist(table(sentences.all[subset[data$Language == language]]), breaks=(-1:sentences.max)+0.5, plot=FALSE)
+    hist.manifestos <- hist(table(sentences.manifestos[subset[data$Language == language & data$Is.manifesto]]), breaks=(-1:sentences.max)+0.5, plot=FALSE)
+
+    plot(hist.all, col="blue", xlim=c(0-0.5, sentences.max+0.5), main=NULL, ylim=c(0, 50), ...)
     plot(hist.manifestos, col="orange", xlim=c(0-0.5, sentences.max+0.5), add=TRUE)
     grid()
-    text(7, 35, language, cex=2)
+    text(7, 45, language, cex=2)
     legend("topright", legend=c("All", "Manifestos"), fill=c("blue", "orange"), bty="n")
     dev.off()
   }
@@ -44,6 +47,7 @@ plot.histsmallperlanguage <- function(filename.base, data, ...) {
 
 plot.histsmallperlanguage("sentences-per-file", data, xlab="Files with this number of sentences")
 
-
-plot.histsmallperlanguage("sentences-with-value-per-file", data[rowSums(data[3:40]) > 0,], xlab="Files with this number of sentences with values")
+sentences.withvalue <- rowSums(data[3:40]) > 0
+plot.histsmallperlanguage("sentences-with-value-per-file", data, subset=sentences.withvalue, xlab="Files with this number of sentences with values")
+write(gsub("_", "\\\\_", paste(setdiff(data$Text.ID, data$Text.ID[rowSums(data[3:40]) > 0]), collapse=", ")), "files-without-values.txt")
 
