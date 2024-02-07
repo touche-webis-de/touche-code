@@ -4,7 +4,7 @@ args <- commandArgs(trailingOnly=TRUE)
 data.filename <- args[1]
 
 data <- read.csv(data.filename, sep="\t", header=TRUE)
-data$Language <- sub("_.*", "", data$Text.ID)
+data$Language <- factor(sub("_.*", "", data$Text.ID))
 data$Is.manifesto <- regexpr("_M_", data$Text.ID) != -1
 
 plot.barsperlanguage <- function(filename, data, ...) {
@@ -21,6 +21,15 @@ plot.barsperlanguage("files-per-language.pdf", data[data$Sentence.ID == 1,], yla
 
 # sentences
 plot.barsperlanguage("sentences-per-language.pdf", data, ylab="Sentences")
+
+# fraction of sentences with at least one value
+col <- c("#ccece6", "#99d8c9", "#66c2a4", "#2ca25f", "#006d2c") 
+pdf("fraction-sentences-with-value-per-language.pdf", width=7, height=6)
+par(mar=c(4, 4, 0.4, 0.1))
+barplot(t(sapply(rev(1:5), function(x) {return(table(data[rowSums(data[3:40]) == x,]$Language) / table(data$Language))})), xlab="Language", ylab="Fraction of sentences with at least that many values", las=1, col=col, ylim=c(0,1))
+legend("topleft", legend=1:5, fill=rev(col), bty="n")
+grid(nx=NA, ny=NULL)
+dev.off()
 
 
 
