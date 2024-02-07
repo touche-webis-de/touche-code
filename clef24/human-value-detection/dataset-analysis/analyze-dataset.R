@@ -23,11 +23,18 @@ plot.barsperlanguage("files-per-language.pdf", data[data$Sentence.ID == 1,], yla
 plot.barsperlanguage("sentences-per-language.pdf", data, ylab="Sentences")
 
 # fraction of sentences with at least one value
-col <- c("#ccece6", "#99d8c9", "#66c2a4", "#2ca25f", "#006d2c") 
+col <- c("#edf8fb", "#ccece6", "#99d8c9", "#66c2a4", "#2ca25f", "#006d2c") 
 pdf("fraction-sentences-with-value-per-language.pdf", width=7, height=6)
 par(mar=c(4, 4, 0.4, 0.1))
-barplot(t(sapply(rev(1:5), function(x) {return(table(data[rowSums(data[3:40]) == x,]$Language) / table(data$Language))})), xlab="Language", ylab="Fraction of sentences with at least that many values", las=1, col=col, ylim=c(0,1))
-legend("topleft", legend=1:5, fill=rev(col), bty="n")
+barplot(t(sapply(rev(1:6), function(x) {return(table(data[rowSums(data[3:40]) == x,]$Language) / table(data$Language))})), xlab="Language", ylab="Fraction of sentences with at least that many values", las=1, col=col, ylim=c(0,1))
+legend("topleft", legend=1:6, fill=rev(col), bty="n")
+grid(nx=NA, ny=NULL)
+dev.off()
+
+pdf("fraction-sentences-with-value-per-language-zoomed.pdf", width=7, height=6)
+par(mar=c(4, 4, 0.4, 0.1))
+barplot(t(sapply(rev(1:6), function(x) {return(table(data[rowSums(data[3:40]) == x,]$Language) / table(data$Language))})), xlab="Language", ylab="Fraction of sentences with at least that many values", las=1, col=col, ylim=c(0,0.005))
+legend("topleft", legend=1:6, fill=rev(col), bty="n")
 grid(nx=NA, ny=NULL)
 dev.off()
 
