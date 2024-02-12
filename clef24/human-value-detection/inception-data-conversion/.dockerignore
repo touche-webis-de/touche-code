@@ -2,3 +2,6 @@ cache/
 venv/
 .gitignore
 README.md
+*.tsv
+convert.sh
+output/

@@ -1,2 +1,6 @@
 cache/
 venv/
+labels-ground_truth.tsv
+sentences.tsv
+missing.tsv
+output/
