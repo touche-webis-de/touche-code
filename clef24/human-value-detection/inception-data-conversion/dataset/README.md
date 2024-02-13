@@ -1,7 +1,7 @@
 # Touché24-ValueEval
-DOI: https://doi.org/10.5281/zenodo.10396294
 Version: 2024-02-13
-Task: https://touche.webis.de/clef24/touche24-web/human-value-detection.html
+[[doi](https://doi.org/10.5281/zenodo.10396294)]
+[[task](https://touche.webis.de/clef24/touche24-web/human-value-detection.html)]
 
 Note: The dataset is not final. We are currently checking the sentence splitting. We will provide an automated English translation for all sentences. More documents will be added. We probably can do more cleaning. New versions will be announced on [our mailing list](https://groups.google.com/group/valueeval/subscribe).
 
@@ -40,7 +40,7 @@ The `value-categories.json` describes the 19 value categories of this task. Form
 ## Authors
 The [ValuesML Team](https://knowledge4policy.ec.europa.eu/projects-activities/valuesml-unravelling-expressed-values-media-informed-policy-making_en)
 
-Project coordinators
+Project Coordinators
 - Bertrand De Longueville, Joint Research Centre (JRC)
 - Johannes Kiesel, Bauhaus-Universität Weimar
 - Theresa Reitis-Munstermann, Joint Research Centre (JRC)
@@ -118,6 +118,9 @@ Annotators and Curators
 - Sheng Ye, East China University of Science and Technology
 - Emilia Zankina, Temple University
 - Chaya Koleva, Policy and Citizens' Observatory
+
+Data Cleaning
+- Nicolas Handke, Leipzig University
 
 
 ## Version History
