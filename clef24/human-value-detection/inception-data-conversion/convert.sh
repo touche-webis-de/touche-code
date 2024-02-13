@@ -1,10 +1,12 @@
 #!/bin/bash
-#input=$1
-#input_dir=$(dirname $(readlink -f $input))
+input=$1
+if [ $# -eq 1 ];then
+  input_dir=$(dirname $(readlink -f $input))
 
-#docker build -t valueeval24-inception-data-conversion .
-#docker run -it --rm -v $input_dir/:/data valueeval24-inception-data-conversion data/$(basename $input)
-#cp $input_dir/{labels-ground_truth.tsv,sentences.tsv} .
+  docker build -t valueeval24-inception-data-conversion .
+  docker run -it --rm -v $input_dir/:/data valueeval24-inception-data-conversion data/$(basename $input)
+  cp $input_dir/{labels-ground_truth.tsv,sentences.tsv} .
+fi
 
 function get_text_ids() {
   cat labels-ground_truth.tsv \
@@ -76,11 +78,11 @@ get_text_ids \
 echo "Splits size:"
 cat splits.tsv | sed 's/_[0-9][0-9]*//' | sort | uniq -c
 
-rm -rf output
+rm -rf dataset/output
 for split in training validation test;do
-  mkdir -p output/$split
-  head -n 1 sentences.tsv > output/$split/sentences.tsv
-  head -n 1 labels-ground_truth.tsv > output/$split/labels.tsv
+  mkdir -p dataset/output/$split
+  head -n 1 sentences.tsv > dataset/output/$split/sentences.tsv
+  head -n 1 labels-ground_truth.tsv > dataset/output/$split/labels.tsv
 done
 
 awk -F '\t' '{
@@ -88,11 +90,11 @@ awk -F '\t' '{
       assigned[$1] = $2
     } else if (FILENAME == "sentences.tsv") {
       if ($1 in assigned) {
-        print $0 >> "output/"assigned[$1]"/sentences.tsv"
+        print $0 >> "dataset/output/"assigned[$1]"/sentences.tsv"
       }
     } else {
       if ($1 in assigned) {
-        print $0 >> "output/"assigned[$1]"/labels.tsv"
+        print $0 >> "dataset/output/"assigned[$1]"/labels.tsv"
       }
     }
   }' splits.tsv sentences.tsv labels-ground_truth.tsv

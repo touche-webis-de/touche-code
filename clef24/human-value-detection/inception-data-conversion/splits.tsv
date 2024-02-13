@@ -229,6 +229,7 @@ DE_027	training
 DE_028	training
 DE_029	test
 DE_030	training
+DE_032	training
 DE_033	training
 DE_034	training
 DE_035	test
@@ -253,6 +254,7 @@ DE_062	validation
 DE_064	validation
 DE_065	training
 DE_066	training
+DE_067	training
 DE_068	validation
 DE_070	training
 DE_071	training
@@ -261,6 +263,7 @@ DE_073	validation
 DE_075	training
 DE_077	training
 DE_078	test
+DE_080	training
 DE_081	training
 DE_082	training
 DE_084	training
@@ -268,6 +271,7 @@ DE_085	training
 DE_086	training
 DE_087	training
 DE_088	training
+DE_092	test
 DE_093	training
 DE_095	test
 DE_097	test
@@ -298,6 +302,7 @@ DE_124	training
 DE_125	test
 DE_126	validation
 DE_127	validation
+DE_128	validation
 DE_129	validation
 DE_130	validation
 DE_131	training
@@ -422,6 +427,16 @@ DE_298	training
 DE_299	validation
 DE_300	test
 DE_301	validation
+DE_M_016	validation
+DE_M_017	test
+DE_M_018	training
+DE_M_019	training
+DE_M_020	test
+DE_M_021	training
+DE_M_022	training
+DE_M_023	validation
+DE_M_024	training
+DE_M_025	training
 EL_001	training
 EL_002	training
 EL_003	validation
@@ -769,6 +784,7 @@ EN_016	training
 EN_017	training
 EN_018	training
 EN_019	training
+EN_020	training
 EN_021	test
 EN_022	training
 EN_023	validation
@@ -793,6 +809,7 @@ EN_043	training
 EN_044	test
 EN_045	training
 EN_046	test
+EN_047	training
 EN_048	training
 EN_049	test
 EN_050	training
