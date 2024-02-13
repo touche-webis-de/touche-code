@@ -6,9 +6,9 @@ Task: https://touche.webis.de/clef24/touche24-web/human-value-detection.html
 Note: The dataset is not final. We are currently checking the sentence splitting. We will provide an automated English translation for all sentences. More documents will be added. We probably can do more cleaning. New versions will be announced on [our mailing list](https://groups.google.com/group/valueeval/subscribe).
 
 
-Dataset for [ValueEval'24 @ Touché: Human Value Detection](https://touche.webis.de/clef24/touche24-web/human-value-detection.html). The dataset is organized as follows:
-- training/validation/test. Contains the sentences and labels of the respective dataset split (60%/20%/20%).
-- valueeval23. Only use to kickstart development. It contains the 1576 arguments of the [ValueEval'23 test dataset](https://webis.de/data.html#touche23-valueeval). The "sentences" are the original dataset's premises (often more than a sentence). Somewhat arbitrarily, arguments `in favor of` are marked as (partially) attaining the respective values, whereas arguments `against` are marked as (partially) constraining the respective values. This assignment to attain and constrain allows to kickstart classifier development, but should not be used for anything further.
+Dataset for [ValueEval'24 @ Touché: Human Value Detection](https://touche.webis.de/clef24/touche24-web/human-value-detection.html). The dataset is organized in the following directories:
+- training/validation/test (in valueeval24.zip). Contains the sentences and labels of the respective dataset split (60%/20%/20%).
+- valueeval23 (in valueeval23.zip). Only use for comparison with previous year. Not part of the ValueEval24 competition. It contains the 1576 arguments of the [ValueEval'23 test dataset](https://webis.de/data.html#touche23-valueeval). The "sentences" are the original dataset's premises (often more than a sentence). Somewhat arbitrarily, arguments `in favor of` are marked as (partially) attaining the respective values, whereas arguments `against` are marked as (partially) constraining the respective values. This assignment to attain and constrain allows to kickstart classifier development, but should not be used for anything further.
 
 For each directory listed above, the dataset contains the following files (except test, where the labels file is not available at the moment):
 - sentences.tsv. Contains one sentence per line:
