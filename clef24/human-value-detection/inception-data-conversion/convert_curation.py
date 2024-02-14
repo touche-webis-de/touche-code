@@ -200,10 +200,10 @@ def convert_to_records(path: str, pipeline: Pipeline = None, verbose: bool = Fal
                 break
 
         # prepare records
-        sentence_text = selected_entry['text'].replace('\r\n', '  ').replace('\n', ' ')\
-            .replace('<feff>', '      ')
-        if '^M' in sentence_text:
-            sentence_text_parts = str(sentence_text).split('^M')
+        sentence_text = selected_entry['text'].replace('\r\n', '  ').replace('\n', ' ').replace('\r\r', ' \r')\
+            .replace(b'\xEF\xBB\xBF'.decode('utf-8'), '')
+        if '\r' in sentence_text:
+            sentence_text_parts = str(sentence_text).split('\r')
             sentence_start_end_list = [(selected_entry['begin'], len(sentence_text_parts[0]))]
             next_start = sentence_start_end_list[0][1] + 2
             for i in range(1, len(sentence_text_parts) - 1):
@@ -220,7 +220,7 @@ def convert_to_records(path: str, pipeline: Pipeline = None, verbose: bool = Fal
             while '  ' in uncleaned_sentence_text:
                 uncleaned_sentence_text = uncleaned_sentence_text.replace('  ', ' ')
 
-            sentence_text = uncleaned_sentence_text
+            sentence_text = uncleaned_sentence_text.strip()
             sentence_records.append({_text_id_ref: text_id, _sentence_id_ref: sentence_id, _text_ref: sentence_text})
             ground_truth_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
             ground_truth_record.update({value: 'none' for value in _value_list})
@@ -364,15 +364,18 @@ def main(input_file: str, output_dir: str, verbose: bool = False):
                     raise e
                 progress.update()
 
-    pd.DataFrame.from_records(sentence_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
+    pd.DataFrame.from_records(sentence_records).drop_duplicates(subset=['Text-ID', 'Sentence-ID'])\
+        .sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
         os.path.join(output_dir, 'sentences.tsv'),
         header=True, index=False, sep='\t'
     )
-    pd.DataFrame.from_records(ground_truth_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
+    pd.DataFrame.from_records(ground_truth_records).drop_duplicates(subset=['Text-ID', 'Sentence-ID'])\
+        .sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
         os.path.join(output_dir, 'ground_truth.tsv'),
         header=True, index=False, sep='\t'
     )
-    pd.DataFrame.from_records(ground_truth_label_records).sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
+    pd.DataFrame.from_records(ground_truth_label_records).drop_duplicates(subset=['Text-ID', 'Sentence-ID'])\
+        .sort_values(by=[_text_id_ref, _sentence_id_ref]).to_csv(
         os.path.join(output_dir, 'labels-ground_truth.tsv'),
         header=True, index=False, sep='\t'
     )
