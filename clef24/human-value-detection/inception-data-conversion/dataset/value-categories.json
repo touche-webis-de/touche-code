@@ -1,0 +1,97 @@
+{
+  "self-direction-thought": {
+    "name": "Self-direction: thought",
+    "goal": "Freedom to cultivate one's own ideas and abilities.",
+    "personal-motivation": "It is important to be creative, forming own opinions, be unique, have original ideas, learn things for oneself and improve own abilities. The focus of this value is on developing own ideas, wanting to know more and discovering."
+  },
+  "self-direction-action": {
+    "name": "Self-direction: action",
+    "goal": "Freedom to determine one's own actions.",
+    "personal-motivation": "It is important to make own decisions about life, being independent and having the freedom to choose. The focus of this value in contrast to the 'self-direction: thought' aspect is to determine an action, rather than a conviction or thought."
+  },
+  "stimulation": {
+    "name": "Stimulation",
+    "goal": "Excitement, novelty, and change.",
+    "personal-motivation": "Always looking for something new to do, doing something exciting, seeking out new experiences, innovating, being bold, seeking adventures and initiating change. In contrast to 'hedonism', this value focuses on the novelty and risk aspects of behaviours and thoughts. It is seeking out everything that stimulates the senses."
+  },
+  "hedonism": {
+    "name": "Hedonism",
+    "goal": "Pleasure and sensuous gratification.",
+    "personal-motivation": "Having a good time, enjoying life’s pleasures and taking advantage of opportunities to have fun."
+  },
+  "achievement": {
+    "name": "Achievement",
+    "goal": "Success according to social standards.",
+    "personal-motivation": "Being ambitious, successful and being admired for achievements and skills.  Demonstrating competence according to social standards or in competition. Important dimension of achievement is that it is perceived within the social standards, and according to the rules of engagement, unlike as for the value of power. Moreover, unlike the value of power, Achievement focuses on performance and not on resource matters."
+  },
+  "power-dominance": {
+    "name": "Power: dominance",
+    "goal": "Power through exercising control over people.",
+    "personal-motivation": "Want people to follow you, being the most influential compared to others, be the one to determine directions."
+  },
+  "power-resources": {
+    "name": "Power: resources",
+    "goal": "Power through control of material and social resources.",
+    "personal-motivation": "Having lots of money for the power it brings, being wealthy, and pursue social status. This value is not automatically present when terms like budgets, costs, or growth appear in a sentence. Such terms refer to the value only if they make up an essential part of a sentence and are expressed as an important part of decision making with an underlying motivation or justification. For example, when someone is writing about the 'huge', 'large', 'out of control' costs, or in any other way mentioned as important argument. Finally, in contrast to the value of 'achievement', it only focuses on resource matters not on performance."
+  },
+  "face": {
+    "name": "Face",
+    "goal": "Security and power through maintaining one’s public image and avoiding humiliation.",
+    "personal-motivation": "Does not want to be shamed by others, protecting public image, being treated with respect, honour, and dignity."
+  },
+  "security-personal": {
+    "name": "Security: personal",
+    "goal": "Safety in one's immediate environment.",
+    "personal-motivation": "Avoid dangerous situations, value personal security and safety, live in a secure environment, have a secured income, being healthy. Similar to the difference between 'benevolence' and 'universalism: concern', the decisive difference between 'security: personal' and 'security: societal' is to whom the value refers. In case of individuals, family and friends, it is personal, e.g., if someone writes in first-person about their own health. In contrast, when it is applied to any group or society as a whole, it is societal. Thus, 'security: personal' will most likely not appear often in the text only if speaking of individual experiences."
+  },
+  "security-societal": {
+    "name": "Security: societal",
+    "goal": "Safety and stability in the wider society.",
+    "personal-motivation": "Country should protect itself against all threats, state should be strong, order and stability in society are important, including economic stability (employment, no recession). Importantly, the value refers not only to a society as a whole but also to socially defined groups like women, parents, etc. within a society. In contrast to the value of 'universalism: concern', the value emphasises protection more from a motivation of 'preventing', 'averting', 'ending' dangers or threats and 'preserving' security and stability."
+  },
+  "tradition": {
+    "name": "Tradition",
+    "goal": "Maintaining and preserving cultural, family, or religious traditions.",
+    "personal-motivation": "Maintain traditional beliefs and values, follow the family or religious customs, valuing traditional practices of one’s culture."
+  },
+  "conformity-rules": {
+    "name": "Conformity: rules",
+    "goal": "Compliance with rules, laws, and formal obligations.",
+    "personal-motivation": "Should follow authorities, follow rules even if others are not watching, obey all laws."
+  },
+  "conformity-interpersonal": {
+    "name": "Conformity: interpersonal",
+    "goal": "Avoidance of upsetting or harming other people.",
+    "personal-motivation": "Avoid upsetting or annoying others, being tactful to others, showing courtesy, being polite, resisting temptation, respecting elders."
+  },
+  "humility": {
+    "name": "Humility",
+    "goal": "Recognizing one's insignificance in the larger scheme of things.",
+    "personal-motivation": "Try not to draw attention, be humble and satisfied with the situation, not asking for more."
+  },
+  "benevolence-caring": {
+    "name": "Benevolence: caring",
+    "goal": "Devotion to the welfare of in-group members.",
+    "personal-motivation": "Help and care about close ones, be responsive to family and friends. Actively helping and taking care of someone close. A key difference between 'benevolence: caring' and 'benevolence: dependability' is that the caring dimension is active about doing something, while the dependability is more about the perception of being there for someone, being trustworthy etc. Furthermore, caring here is not generic or universal, it is limited to specific persons or a delineated in-group within a person’s immediate environment. This last aspect distinguishes 'benevolence: caring' from 'universalism: concern'. Similar to the two sides of security, the decisive difference between 'benevolence: caring' and 'universalism: concern' is to whom the value refers. In case of individuals, family, and friends, it is 'benevolence: caring'. In contrast, when it is applied to any social group or people in general, it is 'universalism: concern'. Thus, 'benevolence: caring' will most likely not appear often in the text only if speaking of individual experiences."
+  },
+  "benevolence-dependability": {
+    "name": "Benevolence: dependability",
+    "goal": "Being a reliable and trustworthy member of the in-group.",
+    "personal-motivation": "Be loyal to close ones, be dependable and trustworthy, especially to close ones (in-group). Be seen as reliable, others should have confidence in you helping close ones. A key difference between 'benevolence' and 'universalism' is that 'benevolence' is primarily targeted towards close ones, and not towards strangers. In line with 'security: personal', close ones are family and friends, not the larger public."
+  },
+  "universalism-concern": {
+    "name": "Universalism: concern",
+    "goal": "Commitment to equality, justice, and protection for all people.",
+    "personal-motivation": "Protecting the weak and vulnerable, care about equal opportunities, treat everyone justly. In contrast to the value of 'security: societal', protection and caring also goes beyond society boundaries. It is more generic referring to all kinds of people/groups. Moreover, 'universalism: concern' focuses more on caring, protecting, promoting well-being, especially of vulnerable people from a motivation of 'empathy', 'helping' or 'a universal justice perspective', whereas 'security: societal' focuses on protecting, promoting well-being more from a motivation of 'preventing', 'averting', 'ending' dangers or threats and 'preserving' security and stability."
+  },
+  "universalism-nature": {
+    "name": "Universalism: nature",
+    "goal": "Preservation of the natural environment.",
+    "personal-motivation": "Care about nature for nature's sake, protect the environment against pollution, destruction and other threats."
+  },
+  "universalism-tolerance": {
+    "name": "Universalism: tolerance",
+    "goal": "Acceptance and understanding of those who are different from oneself.",
+    "personal-motivation": "Care about peace and harmony, listen to people with other views, understand even those one disagrees with. The key point here is that it is peace for harmony's sake and not for the protection of the weak, which is covered in 'universalism: concern' already."
+  }
+}
