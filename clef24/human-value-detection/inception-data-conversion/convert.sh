@@ -99,3 +99,13 @@ awk -F '\t' '{
     }
   }' splits.tsv sentences.tsv labels-ground_truth.tsv
 
+cd dataset/output
+zip valueeval24.zip test/sentences.tsv {training,validation}/{labels,sentences}.tsv
+
+for split in training validation test;do
+  pushd $split
+  zip systems.zip sentences.tsv
+  zip evaluation.zip labels.tsv sentences.tsv
+  popd
+done
+
