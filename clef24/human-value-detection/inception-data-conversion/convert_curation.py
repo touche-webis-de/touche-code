@@ -155,7 +155,7 @@ def convert_to_records(path: str, pipeline: Pipeline = None, verbose: bool = Fal
     sentence_records = []
     ground_truth_records = []
     ground_truth_label_records = []
-    value_records = []
+    # value_records = []
 
     if pipeline is None:
         trankit_pipeline, _ = _get_pipeline_for_file(text_id)
@@ -200,90 +200,110 @@ def convert_to_records(path: str, pipeline: Pipeline = None, verbose: bool = Fal
                 break
 
         # prepare records
-        sentence_text = selected_entry['text'] if '\n' not in selected_entry['text'] else selected_entry['text'].replace('\r\n', '  ').replace('\n', ' ')
-        sentence_records.append({_text_id_ref: text_id, _sentence_id_ref: sentence_id, _text_ref: sentence_text})
-        ground_truth_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
-        ground_truth_record.update({value: 'none' for value in _value_list})
-        sentence_start_end = (selected_entry['begin'], selected_entry['end'])
+        sentence_text = selected_entry['text'].replace('\r\n', '  ').replace('\n', ' ')\
+            .replace('<feff>', '      ')
+        if '^M' in sentence_text:
+            sentence_text_parts = str(sentence_text).split('^M')
+            sentence_start_end_list = [(selected_entry['begin'], len(sentence_text_parts[0]))]
+            next_start = sentence_start_end_list[0][1] + 2
+            for i in range(1, len(sentence_text_parts) - 1):
+                next_end = next_start + len(sentence_text_parts[i])
+                sentence_start_end_list.append((next_start, next_end))
+                next_start = next_end + 2
+            sentence_start_end_list.append((next_start, selected_entry['end']))
+        else:
+            sentence_text_parts = [sentence_text]
+            sentence_start_end_list = [(selected_entry['begin'], selected_entry['end'])]
 
-        # Process annotations
-        annotations_index = 0
-        while annotations and annotations_index < len(annotations):
-            if 'overlap' in annotations[annotations_index].keys() and \
-                    sentence_start_end[0] > annotations[annotations_index].get('begin', 0):
-                annotations[annotations_index]['begin'] = sentence_start_end[0]
-            if not (sentence_start_end[0] <= annotations[annotations_index].get('begin', 0) < sentence_start_end[1]):
-                annotations_index += 1
-                continue
-            annotation = annotations.pop(annotations_index)
-            annotations_index -= 1
+        for i, uncleaned_sentence_text in enumerate(sentence_text_parts):
+            # remove repetitive spaces
+            while '  ' in uncleaned_sentence_text:
+                uncleaned_sentence_text = uncleaned_sentence_text.replace('  ', ' ')
 
-            # Apply overlapping value to all touched sentences
-            if annotation['end'] > sentence_start_end[1]:
-                if verbose:
-                    if 'trankit' in selected_entry.keys():
-                        if progress is None:
-                            print(f"Value \"{annotation}\" across sentence borders (due to trankit) for file \"{path}\"")
+            sentence_text = uncleaned_sentence_text
+            sentence_records.append({_text_id_ref: text_id, _sentence_id_ref: sentence_id, _text_ref: sentence_text})
+            ground_truth_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
+            ground_truth_record.update({value: 'none' for value in _value_list})
+            sentence_start_end = sentence_start_end_list[i]
+
+            # Process annotations
+            annotations_index = 0
+            while annotations and annotations_index < len(annotations):
+                if 'overlap' in annotations[annotations_index].keys() and \
+                        sentence_start_end[0] > annotations[annotations_index].get('begin', 0):
+                    annotations[annotations_index]['begin'] = sentence_start_end[0]
+                if not (sentence_start_end[0] <= annotations[annotations_index].get('begin', 0) < sentence_start_end[1]):
+                    annotations_index += 1
+                    continue
+                annotation = annotations.pop(annotations_index)
+                annotations_index -= 1
+
+                # Apply overlapping value to all touched sentences
+                if annotation['end'] > sentence_start_end[1]:
+                    if verbose:
+                        if 'trankit' in selected_entry.keys():
+                            if progress is None:
+                                print(f"Value \"{annotation}\" across sentence borders (due to trankit) for file \"{path}\"")
+                            else:
+                                progress.write(f"Value \"{annotation}\" across sentence borders (due to trankit) for file \"{path}\"")
                         else:
-                            progress.write(f"Value \"{annotation}\" across sentence borders (due to trankit) for file \"{path}\"")
+                            if progress is None:
+                                print(f"Value \"{annotation}\" across sentence borders for file \"{path}\"")
+                            else:
+                                progress.write(f"Value \"{annotation}\" across sentence borders for file \"{path}\"")
+                    new_annotation = copy.deepcopy(annotation)
+                    new_annotation['overlap'] = True
+                    new_annotation['begin'] = sentence_start_end[1]
+                    annotation['end'] = sentence_start_end[1]
+                    annotations.insert(0, new_annotation)
+                    annotations_index += 1
+
+                value_start = annotation.get('begin', 0) - sentence_start_end[0]
+                value_end = annotation['end'] - sentence_start_end[0]
+
+                value_name = _value_dictionary.get(str(annotation['label']).upper(), 'NaN')
+                if value_name == 'NaN':
+                    if progress is None:
+                        print(f'Error on {text_id}-{sentence_id} {value_start}:{value_end}')
                     else:
-                        if progress is None:
-                            print(f"Value \"{annotation}\" across sentence borders for file \"{path}\"")
-                        else:
-                            progress.write(f"Value \"{annotation}\" across sentence borders for file \"{path}\"")
-                new_annotation = copy.deepcopy(annotation)
-                new_annotation['overlap'] = True
-                new_annotation['begin'] = sentence_start_end[1]
-                annotation['end'] = sentence_start_end[1]
-                annotations.insert(0, new_annotation)
+                        progress.write(f'Error on {text_id}-{sentence_id} {value_start}:{value_end}')
+                    continue
+                if 'Attainment' in annotation.keys():
+                    attainment = str(annotation['Attainment'])[:-2].strip()
+                else:
+                    attainment = 'Not sure, can’t decide'
+
+                ground_truth_record[value_name] = attainment
+                # value_records.append(
+                #     {_text_id_ref: text_id, _sentence_id_ref: sentence_id, _label_ref: value_name,
+                #      _attainment_ref: attainment, 'Begin': value_start, 'End': value_end}
+                # )
+
                 annotations_index += 1
 
-            value_start = annotation.get('begin', 0) - sentence_start_end[0]
-            value_end = annotation['end'] - sentence_start_end[0]
+            # pre-sort annotations for next sentence
+            annotations.sort(key=lambda x: (x.get('begin', 0), x['end']))
 
-            value_name = _value_dictionary.get(str(annotation['label']).upper(), 'NaN')
-            if value_name == 'NaN':
-                if progress is None:
-                    print(f'Error on {text_id}-{sentence_id} {value_start}:{value_end}')
-                else:
-                    progress.write(f'Error on {text_id}-{sentence_id} {value_start}:{value_end}')
-                continue
-            if 'Attainment' in annotation.keys():
-                attainment = str(annotation['Attainment'])[:-2].strip()
-            else:
-                attainment = 'Not sure, can’t decide'
+            ground_truth_records.append(ground_truth_record)
+            ground_truth_label_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
+            for value_name in _value_list:
+                confidence_attained = 0.0
+                confidence_constrained = 0.0
+                if ground_truth_record[value_name] == '(Partially) attained':
+                    confidence_attained = 1.0
+                elif ground_truth_record[value_name] == '(Partially) constrained':
+                    confidence_constrained = 1.0
+                elif ground_truth_record[value_name] == 'Not sure, can’t decide':
+                    confidence_attained = 0.5
+                    confidence_constrained = 0.5
+                ground_truth_label_record[value_name + " attained"] = confidence_attained
+                ground_truth_label_record[value_name + " constrained"] = confidence_constrained
+            ground_truth_label_records.append(ground_truth_label_record)
 
-            ground_truth_record[value_name] = attainment
-            value_records.append(
-                {_text_id_ref: text_id, _sentence_id_ref: sentence_id, _label_ref: value_name,
-                 _attainment_ref: attainment, 'Begin': value_start, 'End': value_end}
-            )
+            sentence_id += 1
+            index_full_text = sentence_start_end[1]
 
-            annotations_index += 1
-
-        # pre-sort annotations for next sentence
-        annotations.sort(key=lambda x: (x.get('begin', 0), x['end']))
-
-        ground_truth_records.append(ground_truth_record)
-        ground_truth_label_record = {_text_id_ref: text_id, _sentence_id_ref: sentence_id}
-        for value_name in _value_list:
-            confidence_attained = 0.0
-            confidence_constrained = 0.0
-            if ground_truth_record[value_name] == '(Partially) attained':
-                confidence_attained = 1.0
-            elif ground_truth_record[value_name] == '(Partially) constrained':
-                confidence_constrained = 1.0
-            elif ground_truth_record[value_name] == 'Not sure, can’t decide':
-                confidence_attained = 0.5
-                confidence_constrained = 0.5
-            ground_truth_label_record[value_name + " attained"] = confidence_attained
-            ground_truth_label_record[value_name + " constrained"] = confidence_constrained
-        ground_truth_label_records.append(ground_truth_label_record)
-
-        sentence_id += 1
-        index_full_text = sentence_start_end[1]
-
-    return sentence_records, ground_truth_records, ground_truth_label_records, value_records
+    return sentence_records, ground_truth_records, ground_truth_label_records  # , value_records
 
 
 def parse_args():
@@ -300,7 +320,8 @@ def parse_args():
 def main(input_file: str, output_dir: str, verbose: bool = False):
     curation_files = _find_file_by_name(input_file, 'CURATION_USER.json')
 
-    sentence_records, ground_truth_records, ground_truth_label_records, value_records = [], [], [], []
+    sentence_records, ground_truth_records, ground_truth_label_records = [], [], []
+    # value_records = []
 
     batches = {}
 
@@ -328,12 +349,12 @@ def main(input_file: str, output_dir: str, verbose: bool = False):
         with tqdm(total=len(batch), desc=f'{language}', disable=False) as progress:
             for text_id, file in batch:
                 try:
-                    new_sentence_records, new_ground_truth_records, new_ground_truth_label_records, new_value_records = \
+                    new_sentence_records, new_ground_truth_records, new_ground_truth_label_records = \
                         convert_to_records(file, pipeline=pipeline, verbose=verbose, progress=progress)
                     sentence_records += new_sentence_records
                     ground_truth_records += new_ground_truth_records
                     ground_truth_label_records += new_ground_truth_label_records
-                    value_records += new_value_records
+                    # value_records += new_value_records
                 except NoSpanEntryError as nSEE:
                     progress.write(str(nSEE))
                 except ValueError as vE:
@@ -355,10 +376,10 @@ def main(input_file: str, output_dir: str, verbose: bool = False):
         os.path.join(output_dir, 'labels-ground_truth.tsv'),
         header=True, index=False, sep='\t'
     )
-    pd.DataFrame.from_records(value_records).sort_values(by=[_text_id_ref, _sentence_id_ref, 'Begin']).to_csv(
-        os.path.join(output_dir, 'values.tsv'),
-        header=True, index=False, sep='\t'
-    )
+    # pd.DataFrame.from_records(value_records).sort_values(by=[_text_id_ref, _sentence_id_ref, 'Begin']).to_csv(
+    #     os.path.join(output_dir, 'values.tsv'),
+    #     header=True, index=False, sep='\t'
+    # )
 
 
 if __name__ == '__main__':
