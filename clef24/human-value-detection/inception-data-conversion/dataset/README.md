@@ -1,5 +1,5 @@
 # Touché24-ValueEval
-Version: 2024-02-13
+Version: 2024-02-15
 [[doi](https://doi.org/10.5281/zenodo.10396294)]
 [[task](https://touche.webis.de/clef24/touche24-web/human-value-detection.html)]
 
@@ -124,6 +124,8 @@ Data Cleaning
 
 
 ## Version History
+- 2024-02-15
+  - Fixed MAC OS line endings
 - 2024-02-13
   - First version of ValuesML data
 - 2023-12-16
