@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Human Value Detection Web UI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*
+CSS resets
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+custom
+*/
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+}
+.loading-indicator:not(.active) {
+  display: none;
+}
+
+.sentence {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.histogram {
+  height: 20px;
+  background: linear-gradient(180deg, 
+    rgba(192,192,192,1) 0px, 
+    rgba(0,0,0,0) 1px, 
+    rgba(0,0,0,0) calc(50% - 1px), 
+    rgba(192,192,192,1) calc(50%), 
+    rgba(0,0,0,0) calc(50% + 1px),
+    rgba(0,0,0,0) calc(100% - 1px),
+    rgba(192,192,192,1) calc(100%)
+  );
+  display: inline-flex;
+  align-items: flex-end;
+}
+.histogram span {
+  display: inline-block;
+  width: 10px;
+  background-color: green;
+}
+.histogram span[data-attainment="constrained"] {
+  background-color: red;
+}
+.histogram span[data-attainment="constrained"]:not(:last-child) {
+  margin-right: 1px;
+}
+</style>
+<template id="sentenceTemplate">
+<div class="sentence">
+<p></p>
+<div class="histogram"></div>
+</div>
+</template>
+</head>
+<body>
+<main>
+
+<h1>Human Value Detection Web UI</h1>
+
+<form action="javascript:getValues();">
+<textarea>We need to reduce our CO2 emissions to save the environment.
+If we do not, many people will suffer.</textarea>
+<button type="submit">Submit</button>
+</form>
+
+<div class="loading-indicator">Processing, please wait</div>
+
+<div class="output"></div>
+
+</main>
+<script>
+let serverUrl = "http://localhost:8787";
+const inputElement = document.querySelector("textarea");
+const loadingIndicatorElement = document.querySelector(".loading-indicator");
+const outputElement = document.querySelector(".output");
+const sentenceTemplateElement = document.getElementById("sentenceTemplate");
+const values = ["Self-direction: thought", "Self-direction: action", "Stimulation", "Hedonism", "Achievement", "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition", "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring", "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance"];
+
+function getValues() {
+  outputElement.innerHTML = "";
+  loadingIndicatorElement.classList.add("active");
+  const sentences = inputElement.value.split("\n");
+  fetch(serverUrl, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(sentences) 
+    })
+    .then((textResponse) => textResponse.json())
+    .then((response) => {
+      if (response.Status !== "OK") {
+        alert("Error when communicating with " + serverUrl);
+      } else {
+        for (let s = 0; s < sentences.length; s += 1) {
+          const predictions = response.output[s];
+          const sentenceElement = sentenceTemplateElement.content.cloneNode(true);
+          sentenceElement.querySelector("p").textContent = sentences[s];
+          const histogramElement = sentenceElement.querySelector(".histogram");
+          for (const value of values) {
+            const scores = {};
+            for (const attainment of ["attained", "constrained"]) {
+              scores[attainment] = Math.min(1, Math.max(0, (predictions[value + " " + attainment] || 0.0)));
+            }
+            const title = value
+              + "\ntotal: " + (scores["attained"] + scores["constrained"]).toFixed(2)
+              + "\n(partially) attained: " + scores["attained"].toFixed(2)
+              + "\n(partially) constrained: " + scores["constrained"].toFixed(2);
+
+            for (const attainment of ["attained", "constrained"]) {
+              const boxElement = document.createElement("span");
+              boxElement.setAttribute("data-value", value);
+              boxElement.setAttribute("data-attainment", attainment);
+              boxElement.setAttribute("data-score", scores[attainment]);
+              boxElement.setAttribute("style", "height:" + (scores[attainment] * 100) + "%");
+              boxElement.setAttribute("title", title);
+              histogramElement.appendChild(boxElement);
+            }
+          }
+          outputElement.appendChild(sentenceElement);
+        }
+        loadingIndicatorElement.classList.remove("active");
+      }
+    });
+}
+
+// set input text from query parameter
+{
+  const url = new URL(window.location);
+  const query = url.searchParams.get("query");
+  if (query !== null) {
+    const parsedQuery = JSON.parse(query);
+    if (typeof(parsedQuery) === "string") {
+      inputElement.value = parsedQuery;
+    } else {
+      inputElement.value = parsedQuery.join("\n");
+    }
+  }
+}
+</script>
+</body>
+</html>
+
