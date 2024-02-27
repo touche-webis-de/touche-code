@@ -114,7 +114,7 @@ function createHistogram(predictions) {
     scoreConstrained = Math.min(1, Math.max(0, (predictions[values[v] + " constrained"] || 0.0)));
     addElement("rect", {x: xOffset, y: -(scoreAttained * boxHeight), width: boxWidth, height: (scoreAttained * boxHeight), fill: "green"});
     addElement("rect", {x: xOffset, y: -((scoreAttained + scoreConstrained) * boxHeight), width: boxWidth, height: (scoreConstrained * boxHeight), fill: "red"});
-    addElement("circle", {cx: xOffset + boxWidth/2, cy: -(scoreAttained + scoreConstrained) * boxWidth/2, r: 1, fill: "black"});
+    addElement("circle", {cx: xOffset + boxWidth/2, cy: -(scoreAttained + scoreConstrained) * boxHeight/2, r: 1, fill: "black"});
     const textAttributes = {x: xOffset + boxWidth/2, y: bottomMargin, class: "bar-label"};
     textAttributes["text-anchor"] = "middle";
     addElement("text", textAttributes).textContent = valueTags[values[v]];
