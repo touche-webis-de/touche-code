@@ -50,7 +50,7 @@ def compute_metrics(eval_prediction):
         true_positives = numpy.logical_and(predictions[:,i], labels[:,i]).sum()
         precision = 0 if predicted == 0 else true_positives / predicted
         recall = 0 if true == 0 else true_positives / true
-        f1_scores[i] = round(0 if precision + recall == 0 else 2 * (precision * recall) / (precision + recall), 2)
+        f1_scores[id2label[i]] = round(0 if precision + recall == 0 else 2 * (precision * recall) / (precision + recall), 2)
     macro_average_f1_score = round(numpy.mean(list(f1_scores.values())), 2)
 
     return {'f1-score': f1_scores, 'marco-avg-f1-score': macro_average_f1_score}
@@ -77,7 +77,7 @@ def train(training_dataset, validation_dataset, pretrained_model, tokenizer, bat
     if torch.cuda.is_available():
         model = model.to('cuda')
 
-    print("\n\nTRAINING")
+    print("TRAINING")
     print("========")
     trainer = transformers.Trainer(model, args,
         train_dataset=training_dataset, eval_dataset=validation_dataset,
@@ -87,8 +87,8 @@ def train(training_dataset, validation_dataset, pretrained_model, tokenizer, bat
     print("\n\nVALIDATION")
     print("==========")
     evaluation = trainer.evaluate()
-    for idx, label in enumerate(labels):
-        sys.stdout.write("%-39s %.2f\n" % (label + ":", evaluation["eval_f1-score"][idx]))
+    for label in labels:
+        sys.stdout.write("%-39s %.2f\n" % (label + ":", evaluation["eval_f1-score"][label]))
     sys.stdout.write("\n%-39s %.2f\n" % ("Macro average:", evaluation["eval_marco-avg-f1-score"]))
 
     print("\n\nUPLOAD")
