@@ -5,7 +5,30 @@ if [ $# -eq 1 ];then
 
   docker build -t valueeval24-inception-data-conversion .
   docker run -it --rm -v $input_dir/:/data valueeval24-inception-data-conversion data/$(basename $input)
-  cp $input_dir/{labels-ground_truth.tsv,sentences.tsv} .
+  awk -F'\t' 'BEGIN { OFS = "\t" } {if (FILENAME ~ /sentences.tsv/) {
+      if (FNR == 1) {
+        print $0 > "sentences.tsv"
+      } else {
+        if ($3 == "") {
+          offset[$1] += 1
+          drop[$1" "$2] = 1
+        } else {
+          $2 -= offset[$1]
+          print $0 > "sentences.tsv"
+        }
+      }
+    } else {
+      if (FNR == 1) {
+        print $0 > "labels-ground_truth.tsv"
+      } else {
+        if (drop[$1" "$2] == 1) {
+          offset_labels[$1] += 1
+        } else {
+          $2 -= offset[$1]
+          print $0 > "labels-ground_truth.tsv"
+        }
+      }
+    }}' $input_dir/{sentences.tsv,labels-ground_truth.tsv}
 fi
 
 function get_text_ids() {

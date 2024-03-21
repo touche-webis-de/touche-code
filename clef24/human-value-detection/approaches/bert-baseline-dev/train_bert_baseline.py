@@ -1,3 +1,4 @@
+import argparse
 import datasets
 import numpy
 import os
@@ -7,7 +8,7 @@ import tempfile
 import torch
 import transformers
 
-# https://github.com/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb
+
 
 # GENERIC
 
@@ -15,8 +16,6 @@ values = [ "Self-direction: thought", "Self-direction: action", "Stimulation",  
 labels = sum([[value + " attained", value + " constrained"] for value in values], [])
 id2label = {idx:label for idx, label in enumerate(labels)}
 label2id = {label:idx for idx, label in enumerate(labels)} 
-
-model_name = "JohannesKiesel/valueeval24-bert-baseline-toy-2024-02-27"
 
 def load_dataset(directory, tokenizer, load_labels=True):
     sentences_file_path = os.path.join(directory, "sentences.tsv")
@@ -38,25 +37,27 @@ def load_dataset(directory, tokenizer, load_labels=True):
     return encoded_sentences, data_frame["Text-ID"].to_list(), data_frame["Sentence-ID"].to_list()
 
 
-def compute_metrics(eval_prediction):
-    prediction_scores, label_scores = eval_prediction
-    predictions = prediction_scores >= 0.0 # sigmoid
-    labels = label_scores >= 0.5
+# TRAINING
 
-    f1_scores = {}
-    for i in range(predictions.shape[1]):
-        predicted = predictions[:,i].sum()
-        true = labels[:,i].sum()
-        true_positives = numpy.logical_and(predictions[:,i], labels[:,i]).sum()
-        precision = 0 if predicted == 0 else true_positives / predicted
-        recall = 0 if true == 0 else true_positives / true
-        f1_scores[id2label[i]] = round(0 if precision + recall == 0 else 2 * (precision * recall) / (precision + recall), 2)
-    macro_average_f1_score = round(numpy.mean(list(f1_scores.values())), 2)
+def train(training_dataset, validation_dataset, pretrained_model, tokenizer, model_name=None, batch_size=8, num_train_epochs=20, learning_rate=2e-5, weight_decay=0.01):
+    # https://github.com/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb
+    def compute_metrics(eval_prediction):
+        prediction_scores, label_scores = eval_prediction
+        predictions = prediction_scores >= 0.0 # sigmoid
+        labels = label_scores >= 0.5
 
-    return {'f1-score': f1_scores, 'marco-avg-f1-score': macro_average_f1_score}
+        f1_scores = {}
+        for i in range(predictions.shape[1]):
+            predicted = predictions[:,i].sum()
+            true = labels[:,i].sum()
+            true_positives = numpy.logical_and(predictions[:,i], labels[:,i]).sum()
+            precision = 0 if predicted == 0 else true_positives / predicted
+            recall = 0 if true == 0 else true_positives / true
+            f1_scores[id2label[i]] = round(0 if precision + recall == 0 else 2 * (precision * recall) / (precision + recall), 2)
+        macro_average_f1_score = round(numpy.mean(list(f1_scores.values())), 2)
 
+        return {'f1-score': f1_scores, 'marco-avg-f1-score': macro_average_f1_score}
 
-def train(training_dataset, validation_dataset, pretrained_model, tokenizer, batch_size=8, num_train_epochs=20, learning_rate=2e-5, weight_decay=0.01):
     output_dir = tempfile.TemporaryDirectory()
     args = transformers.TrainingArguments(
         output_dir=output_dir.name,
@@ -91,18 +92,34 @@ def train(training_dataset, validation_dataset, pretrained_model, tokenizer, bat
         sys.stdout.write("%-39s %.2f\n" % (label + ":", evaluation["eval_f1-score"][label]))
     sys.stdout.write("\n%-39s %.2f\n" % ("Macro average:", evaluation["eval_marco-avg-f1-score"]))
 
-    print("\n\nUPLOAD")
-    print("======")
-    trainer.push_to_hub()
+    return trainer
 
-    return model
+# COMMAND LINE INTERFACE
 
-
-
+cli = argparse.ArgumentParser(prog="BERT Baseline")
+cli.add_argument("-t", "--training-dataset", required=True)
+cli.add_argument("-v", "--validation-dataset")
+cli.add_argument("-m", "--model-name")
+cli.add_argument("-o", "--model-directory")
+args = cli.parse_args()
 
 pretrained_model = "bert-base-uncased"
 tokenizer = transformers.AutoTokenizer.from_pretrained(pretrained_model)
-training_dataset, training_text_ids, training_sentence_ids = load_dataset(sys.argv[1], tokenizer)
-validation_dataset, validation_text_ids, validation_sentence_ids = load_dataset(sys.argv[2], tokenizer)
-model = train(training_dataset, validation_dataset, pretrained_model, tokenizer)
+
+training_dataset, training_text_ids, training_sentence_ids = load_dataset(args.training_dataset, tokenizer)
+validation_dataset = training_dataset
+if args.validation_dataset != None:
+    validation_dataset, validation_text_ids, validation_sentence_ids = load_dataset(args.validation_dataset, tokenizer)
+trainer = train(training_dataset, validation_dataset, pretrained_model, tokenizer, model_name = args.model_name)
+if args.model_name != None:
+    print("\n\nUPLOAD to https://huggingface.co/" + args.model_name + " (using HF_TOKEN environment variable)")
+    print("======")
+    trainer.push_to_hub()
+
+if args.model_directory != None:
+    print("\n\nSAVE to " + args.model_directory)
+    print("======")
+    trainer.save_model(args.model_directory)
+
+
 

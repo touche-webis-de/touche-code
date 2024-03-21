@@ -6,6 +6,29 @@ etc. at `# SETUP` and then change `predict(text)`. If you keep everything else,
 your approach can be directly dockerized, run within Docker on TIRA, and run as
 a server that you can call via HTTP or deploy for everyone to use.
 
+## Usage
+
+### Local usage
+```bash
+# install
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+export HF_TOKEN=... # Token with write permission from https://huggingface.co/settings/tokens
+
+# run
+python3 train_bert_baseline.py -t data/training/ -v data/validation/ -m JohannesKiesel/valueeval24-bert-baseline-en-2024-02-15 -o output
+
+# view result
+cat output/predictions.tsv
+```
+
+
+"JohannesKiesel/valueeval24-bert-baseline-toy-2024-02-27"
+
+
+
+
 ## Requirements
 
 Using the models requires the pre-trained model data in
