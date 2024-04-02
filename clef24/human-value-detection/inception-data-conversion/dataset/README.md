@@ -1,5 +1,5 @@
 # Touché24-ValueEval
-Version: 2024-04-02
+Version: 2024-04-03
 [[doi](https://doi.org/10.5281/zenodo.10396294)]
 [[task](https://touche.webis.de/clef24/touche24-web/human-value-detection.html)]
 
@@ -125,6 +125,8 @@ Data Cleaning
 
 
 ## Version History
+- 2024-04-03
+  - Fixed TSV escaping for English translations, loads correctly in pandas now
 - 2024-04-02
   - More data
   - Added DeepL translations to English (Hebrew not supported)

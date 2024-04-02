@@ -2,4 +2,5 @@ venv/
 data/
 tasks.txt
 sentences-translated.tsv
+sentences-translated-tmp.tsv
 tasks-server/
