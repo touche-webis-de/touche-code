@@ -1,2 +1,5 @@
 venv/
 data/
+tasks.txt
+sentences-translated.tsv
+tasks-server/
