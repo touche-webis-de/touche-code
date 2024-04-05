@@ -121,5 +121,3 @@ if args.model_directory != None:
     print("======")
     trainer.save_model(args.model_directory)
 
-
-

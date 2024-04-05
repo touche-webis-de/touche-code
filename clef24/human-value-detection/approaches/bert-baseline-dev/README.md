@@ -1,7 +1,8 @@
 # Bert Baseline for ValueEval'24 (Script)
 BERT baseline for the task on Human Value Detection, script version.
 
-The baseline is intended for kickstarting your own approach. Load your models
+The baseline is intended for kickstarting your own approach.
+Load your models
 etc. at `# SETUP` and then change `predict(text)`. If you keep everything else,
 your approach can be directly dockerized, run within Docker on TIRA, and run as
 a server that you can call via HTTP or deploy for everyone to use.
@@ -9,22 +10,23 @@ a server that you can call via HTTP or deploy for everyone to use.
 ## Usage
 
 ### Local usage
+First download and extract the `valueeval24.zip` from [Zenodo](https://zenodo.org/doi/10.5281/zenodo.10396293).
 ```bash
 # install
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-export HF_TOKEN=... # Token with write permission from https://huggingface.co/settings/tokens
+export HF_TOKEN=... # Token with write permission from https://huggingface.co/settings/tokens, needed to upload your trained model
+export HF_MODEL_NAME=... # Model name under your account. I used "JohannesKiesel/valueeval24-bert-baseline-en" for https://huggingface.co/JohannesKiesel/valueeval24-bert-baseline-en
 
-# run
-python3 train_bert_baseline.py -t data/training/ -v data/validation/ -m JohannesKiesel/valueeval24-bert-baseline-en-2024-02-15 -o output
+# train the model
+python3 train_bert_baseline.py \
+  --training-dataset valueeval24/training-english/ \
+  --validation-dataset valueeval24/validation-english/ \
+  --model-name "$HF_MODEL_NAME" \
+  --model-directory model/
 
-# view result
-cat output/predictions.tsv
 ```
-
-
-"JohannesKiesel/valueeval24-bert-baseline-toy-2024-02-27"
 
 
 

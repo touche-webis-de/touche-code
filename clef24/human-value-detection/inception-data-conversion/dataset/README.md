@@ -8,7 +8,7 @@ Note: New versions will be announced on [our mailing list](https://groups.google
 
 Dataset for [ValueEval'24 @ Touché: Human Value Detection](https://touche.webis.de/clef24/touche24-web/human-value-detection.html). The dataset is organized in the following directories:
 - training/validation/test (in valueeval24.zip). Contains the sentences and labels of the respective dataset split (60%/20%/20%).
-- training-english/validation-english/test-english (in valueeval24.zip). Contains the sentences and labels of the respective dataset split, translated to English (if necessary) using the DeepL API (60%/20%/20%). Currently missing the Hebrew part as DeepL does not support it :(
+- training-english/validation-english/test-english (in valueeval24.zip). Contains the sentences and labels of the respective dataset split, translated to English (if necessary) using the DeepL API or (for Hebrew) Google Translate API.
 - valueeval23 (in valueeval23.zip). Only use for comparison with previous year. Not part of the ValueEval24 competition. It contains the 1576 arguments of the [ValueEval'23 test dataset](https://webis.de/data.html#touche23-valueeval). The "sentences" are the original dataset's premises (often more than a sentence). Somewhat arbitrarily, arguments `in favor of` are marked as (partially) attaining the respective values, whereas arguments `against` are marked as (partially) constraining the respective values. This assignment to attain and constrain allows to kickstart classifier development, but should not be used for anything further.
 
 For each directory listed above, the dataset contains the following files (except test, where the labels file is not available at the moment):
@@ -23,6 +23,8 @@ For each directory listed above, the dataset contains the following files (excep
     - One column `<value> attained` with a 1 meaning that the sentences refers to this value and (partially) attains it
     - One column `<value> constrained` with a 1 meaning that the sentences refers to this value and (partially) constrains it
     If both are 0 the sentence does not refer to that value at all. If both are 0.5 the sentence refers to the value but it is unclear whether it (even partially) attains or constrains it. 
+
+Sentences were split first using paragraph information from the sources and then using the Trankit sentence splitter (version 1.1.1; https://github.com/nlp-uoregon/trankit).
 
 
 ## Value Taxonomy
@@ -125,6 +127,8 @@ Data Cleaning
 
 
 ## Version History
+- 2024-04-XX
+  - More data and Hebrew translations (using Google Translate)
 - 2024-04-03
   - Fixed TSV escaping for English translations, loads correctly in pandas now
 - 2024-04-02
