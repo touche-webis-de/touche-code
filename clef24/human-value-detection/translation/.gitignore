@@ -4,3 +4,4 @@ tasks.txt
 sentences-translated.tsv
 sentences-translated-tmp.tsv
 tasks-server/
+deepl-api-key.txt

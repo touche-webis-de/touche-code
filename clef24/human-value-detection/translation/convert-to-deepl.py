@@ -13,7 +13,7 @@ for input_file in sys.argv[1:]:
     texts_frame = sentences_frame.groupby(by=["Text-ID"], as_index=False).agg({'Text': list})
     for index, row in texts_frame.iterrows():
         language = row["Text-ID"][0:2]
-        if language != "EN" and language != "HE":
+        if language != "EN":
             output_dir = os.path.join(output_main_dir, row["Text-ID"])
             if not os.path.exists(output_dir):
                 os.makedirs(output_dir)

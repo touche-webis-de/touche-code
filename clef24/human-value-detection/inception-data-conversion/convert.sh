@@ -126,6 +126,7 @@ awk -F '\t' '{
     if (FILENAME == "splits.tsv") {
       assigned[$1] = $2
     } else if (FILENAME == "sentences.tsv") {
+      active[$1] = 1
       if ($1 ~ /EN/) {
         if ($1 in assigned) {
           print $0 >> "dataset/output/"assigned[$1]"-english/sentences.tsv"
@@ -133,7 +134,7 @@ awk -F '\t' '{
         }
       }
     } else if (FILENAME ~ "sentences-translated.tsv") {
-      if ($1 in assigned) {
+      if (($1 in active) && ($1 in assigned)) {
         print $0 >> "dataset/output/"assigned[$1]"-english/sentences.tsv"
         translated[$1] = 1
       }
