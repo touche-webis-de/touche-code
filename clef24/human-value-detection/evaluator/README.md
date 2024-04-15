@@ -4,7 +4,7 @@ Evaluator for Human Value Detection 2024 @ CLEF 2024.
 
 Example usage:
 ```
-T.B.A.
+docker run --rm -v /PATH/TO/DATASET/validation-english:/labels -v /PATH/TO/RUN:/run -v $PWD/output:/output webis/touche-human-value-detection-evaluator:1.0.2 --inputDataset /labels --inputRun /run --outputDataset /output
 ```
 
 
