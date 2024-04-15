@@ -1,5 +1,5 @@
 # Touché24-ValueEval
-Version: 2024-04-03
+Version: 2024-04-15
 [[doi](https://doi.org/10.5281/zenodo.10396294)]
 [[task](https://touche.webis.de/clef24/touche24-web/human-value-detection.html)]
 
@@ -39,6 +39,47 @@ The `value-categories.json` describes the 19 value categories of this task. Form
 }
 ```
 
+## Reading the dataset in Python
+Both `labels.tsv` and `sentences.tsv` can be read easily with Pandas:
+```
+import pandas
+data_frame = pandas.read_csv(file_path, encoding="utf-8", sep="\t", header=0)
+```
+
+For use with Transformers, one can use this method:
+```
+import datasets
+import numpy
+import os
+import pandas
+import transformers
+
+values = [ "Self-direction: thought", "Self-direction: action", "Stimulation",  "Hedonism", "Achievement", "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition", "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring", "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance" ]
+labels = sum([[value + " attained", value + " constrained"] for value in values], [])
+
+pretrained_model = "bert-base-uncased" # example
+tokenizer = transformers.AutoTokenizer.from_pretrained(pretrained_model)
+
+def load_dataset(directory, tokenizer, load_labels=True):
+    sentences_file_path = os.path.join(directory, "sentences.tsv")
+    labels_file_path = os.path.join(directory, "labels.tsv")
+    
+    data_frame = pandas.read_csv(sentences_file_path, encoding="utf-8", sep="\t", header=0)
+    encoded_sentences = tokenizer(data_frame["Text"].to_list(), truncation=True)
+
+    if load_labels and os.path.isfile(labels_file_path):
+        labels_frame = pandas.read_csv(labels_file_path, encoding="utf-8", sep="\t", header=0)
+        labels_frame = pandas.merge(data_frame, labels_frame, on=["Text-ID", "Sentence-ID"])
+        labels_matrix = numpy.zeros((labels_frame.shape[0], len(labels)))
+        for idx, label in enumerate(labels):
+            if label in labels_frame.columns:
+                labels_matrix[:, idx] = (labels_frame[label] >= 0.5).astype(int)
+        encoded_sentences["labels"] = labels_matrix.tolist()
+
+    encoded_sentences = datasets.Dataset.from_dict(encoded_sentences)
+    return encoded_sentences, data_frame["Text-ID"].to_list(), data_frame["Sentence-ID"].to_list()
+```
+
 
 ## Authors
 The [ValuesML Team](https://knowledge4policy.ec.europa.eu/projects-activities/valuesml-unravelling-expressed-values-media-informed-policy-making_en)
@@ -46,7 +87,7 @@ The [ValuesML Team](https://knowledge4policy.ec.europa.eu/projects-activities/va
 Project Coordinators
 - Bertrand De Longueville, Joint Research Centre (JRC)
 - Johannes Kiesel, Bauhaus-Universität Weimar
-- Theresa Reitis-Munstermann, Joint Research Centre (JRC)
+- Theresa Reitis-Münstermann, Joint Research Centre (JRC)
 - Mario Scharbillig, Joint Research Centre (JRC)
 - Paula Schulze Brock, Joint Research Centre (JRC)
 - Nicolas Stefanovitch, Joint Research Centre (JRC)
@@ -127,8 +168,8 @@ Data Cleaning
 
 
 ## Version History
-- 2024-04-XX
-  - More data and Hebrew translations (using Google Translate)
+- 2024-04-15
+  - Last data and Hebrew translations (using Google Translate)
 - 2024-04-03
   - Fixed TSV escaping for English translations, loads correctly in pandas now
 - 2024-04-02
