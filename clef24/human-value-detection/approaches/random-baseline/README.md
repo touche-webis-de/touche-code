@@ -44,7 +44,7 @@ tira-run-inference-server --script random_baseline.py --port 8787
 
 # Or for docker usage (after building):
 docker run --rm -it --publish 8787:8787 --entrypoint tira-run-inference-server \
-  valueeval24-random-baseline-notebook:1.0.0 \
+  valueeval24-random-baseline:1.0.0 \
   --script random_baseline.py --port 8787
 ```
 Then in another shell:

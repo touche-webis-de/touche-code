@@ -39,7 +39,7 @@ def load_dataset(directory, tokenizer, load_labels=True):
 
 # TRAINING
 
-def train(training_dataset, validation_dataset, pretrained_model, tokenizer, model_name=None, batch_size=8, num_train_epochs=20, learning_rate=2e-5, weight_decay=0.01):
+def train(training_dataset, validation_dataset, pretrained_model, tokenizer, model_name=None, batch_size=8, num_train_epochs=5, learning_rate=2e-5, weight_decay=0.01):
     # https://github.com/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb
     def compute_metrics(eval_prediction):
         prediction_scores, label_scores = eval_prediction
@@ -61,8 +61,9 @@ def train(training_dataset, validation_dataset, pretrained_model, tokenizer, mod
     output_dir = tempfile.TemporaryDirectory()
     args = transformers.TrainingArguments(
         output_dir=output_dir.name,
+        save_strategy="epoch",
         hub_model_id=model_name,
-        evaluation_strategy="steps",
+        evaluation_strategy="epoch",
         learning_rate=learning_rate,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
