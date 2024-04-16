@@ -7,7 +7,6 @@ import sys
 import transformers
 import tempfile
 
-# https://github.com/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb
 
 # GENERIC
 
@@ -15,6 +14,8 @@ values = [ "Self-direction: thought", "Self-direction: action", "Stimulation",  
 labels = sum([[value + " attained", value + " constrained"] for value in values], [])
 id2label = {idx:label for idx, label in enumerate(labels)}
 label2id = {label:idx for idx, label in enumerate(labels)} 
+
+# SETUP
 
 #model_path = "model" # load from directory
 model_path = "JohannesKiesel/valueeval24-bert-baseline-en" # load from huggingface hub
@@ -25,6 +26,7 @@ sigmoid = torch.nn.Sigmoid()
 
 # PREDICTION
 
+# https://github.com/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb
 def predict(text):
     """ Predicts the value probabilities (attained and constrained) for each sentence """
     # "text" contains all sentences (plain strings) of a single text in order (same Text-ID in the input file)

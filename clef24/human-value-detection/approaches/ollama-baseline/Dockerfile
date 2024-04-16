@@ -1,14 +1,14 @@
 FROM python:3.11
-# Example for PyTorch:
-# FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
 
 ENV PYTHONPATH=/
+ENV OLLAMA_HOST=http://host.docker.internal:11434
 
 # Install requirements
 COPY requirements.txt /
 RUN pip3 install -r requirements.txt
 
-COPY random_baseline.py /
+# Copy llm-cache.json.gzip if it exists
+COPY ollama_baseline.py llm-cache.json.gzip* /
 
-ENTRYPOINT [ "python", "/random_baseline.py", "/dataset", "/output" ]
+ENTRYPOINT [ "python", "/ollama_baseline.py", "/dataset", "/output" ]
 

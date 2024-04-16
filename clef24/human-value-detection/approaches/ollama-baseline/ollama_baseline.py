@@ -8,26 +8,30 @@ import re
 import sys
 import threading
 
+# ENVIRONMENT VARIABLES
+
+llm_cache_file_name = os.environ.get("LLM_CACHE_FILE", "llm-cache.json.gzip")
+llm_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+llm_model = os.environ.get("OLLAMA_MODEL", "llama2")
+
 # SETUP
 
 values = [ "Self-direction: thought", "Self-direction: action", "Stimulation", "Hedonism", "Achievement", "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition", "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring", "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance" ]
 
-llm = ollama.Client(host="https://futuringmachines.webis.de")
-model = "llama2"
 prompt_subtask1_template = "Given the following SENTENCE, determine the degree (between 0 and 1) that the SENTENCE refers to the human value of {value}. Think step by step. Then say \"ANSWER: \" followed by your determined degree as single number between 0 and 1.\nSENTENCE: {sentence}\n"
 prompt_subtask2_template = "Given the following SENTENCE, determine the degree (between 0 and 1) that the SENTENCE attains rather than constrains the human value of {value}. Think step by step. Then say \"ANSWER: \" followed by your determined degree as single number between 0 and 1.\nSENTENCE: {sentence}\n"
 
-# CACHING
-cache_file_name = "cache.json.gzip"
+# CACHED LLM
 
+llm = ollama.Client(host=llm_host)
 llm_cache = {}
-if os.path.isfile(cache_file_name):
-    with gzip.open(cache_file_name, "r") as cache_file:
-        llm_cache = json.loads(cache_file.read().decode("utf-8"))
+if os.path.isfile(llm_cache_file_name):
+    with gzip.open(llm_cache_file_name, "r") as llm_cache_file:
+        llm_cache = json.loads(llm_cache_file.read().decode("utf-8"))
 
-def cached_llm(model, prompt, force_upstream = False):
+def cached_llm(prompt, force_upstream = False):
     if force_upstream or prompt not in llm_cache:
-        response = llm.generate(model = model, prompt = prompt)
+        response = llm.generate(model = llm_model, prompt = prompt)
         llm_cache[prompt] = response
         return response
     else:
@@ -36,8 +40,8 @@ def cached_llm(model, prompt, force_upstream = False):
 mutex = threading.Lock()
 def write_cache():
     with mutex:
-        with gzip.open(cache_file_name, "w") as cache_file:
-            cache_file.write(json.dumps(llm_cache).encode("utf-8"))
+        with gzip.open(llm_cache_file_name, "w") as llm_cache_file:
+            llm_cache_file.write(json.dumps(llm_cache).encode("utf-8"))
 
 # PREDICTION
 
@@ -45,7 +49,7 @@ def ask_for_degree(prompt):
     answers = []
     repeated_try = False # allow cached response on first try
     while len(answers) == 0:
-        response = cached_llm(model = model, prompt = prompt, force_upstream = repeated_try)
+        response = cached_llm(prompt = prompt, force_upstream = repeated_try)
         answers = re.findall(r"ANSWER: [01]\.?[0-9]*", response["response"])
         print(answers)
         repeated_try = True
