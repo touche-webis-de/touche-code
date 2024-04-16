@@ -39,7 +39,6 @@ grid(nx=NA, ny=NULL)
 dev.off()
 
 
-
 plot.histsmallperlanguage <- function(filename.base, data, subset=rep(TRUE, dim(data)[1]), ...) {
   sentences.max <- max(data$Sentence.ID)
   for (language in unique(data$Language)) {
