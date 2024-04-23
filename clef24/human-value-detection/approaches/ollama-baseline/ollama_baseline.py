@@ -12,7 +12,7 @@ import threading
 
 llm_cache_file_name = os.environ.get("LLM_CACHE_FILE", "llm-cache.json.gzip")
 llm_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-llm_model = os.environ.get("OLLAMA_MODEL", "llama2")
+llm_model = os.environ.get("OLLAMA_MODEL", "llama3")
 
 # SETUP
 
