@@ -39,7 +39,7 @@ docker build -t valueeval24-ollama-baseline:1.0.0 .
 
 # run
 # '--add-host=host.docker.internal:host-gateway' needed on Linux for accessing Ollama docker on localhost
-# use '--env OLLAMA_HOST=<http-and-host-and-ip>' to use another Ollama server
+# use '--env OLLAMA_HOST=<http-and-host-and-port>' to use another Ollama server
 docker run --rm \
   -v $PWD/../../toy-dataset:/dataset -v $PWD/output:/output \
   --add-host=host.docker.internal:host-gateway \

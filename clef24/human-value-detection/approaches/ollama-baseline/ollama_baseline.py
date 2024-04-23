@@ -51,7 +51,7 @@ def ask_for_degree(prompt):
     while len(answers) == 0:
         response = cached_llm(prompt = prompt, force_upstream = repeated_try)
         answers = re.findall(r"ANSWER: [01]\.?[0-9]*", response["response"])
-        print(answers)
+        print(answers, flush=True)
         repeated_try = True
     return min(1.0, float(re.findall(r"[.0-9]+", answers[0])[0]))
 
@@ -71,7 +71,7 @@ def predict(text):
             degree_attained = ask_for_degree(prompt) * degree_resorted
             degree_constrained = degree_resorted - degree_attained
 
-            print(f"Got {degree_attained}/{degree_constrained} for \"{sentence}\" and {value}")
+            print(f"Got {degree_attained}/{degree_constrained} for \"{sentence}\" and {value}", flush=True)
 
             sentence_labels[value + " attained"] = degree_attained
             sentence_labels[value + " constrained"] = degree_constrained
