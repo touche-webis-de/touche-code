@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
 
+values <- c("Self-direction\nthought", "Self-direction\naction", "Stimulation", "Hedonism", "Achievement", "Power\ndominance", "Power\nresources", "Face", "Security\npersonal", "Security\nsocietal", "Tradition", "Conformity\nrules", "Conformity\ninterpersonal", "Humility", "Benevolence\ncaring", "Benevolence\ndependability", "Universalism\nconcern", "Universalism\nnature", "Universalism\ntolerance")
+
 args <- commandArgs(trailingOnly=TRUE)
 data.filename <- args[1]
 
@@ -65,4 +67,33 @@ plot.histsmallperlanguage("sentences-per-file", data, xlab="Files with this numb
 sentences.withvalue <- rowSums(data[3:40]) > 0
 plot.histsmallperlanguage("sentences-with-value-per-file", data, subset=sentences.withvalue, xlab="Files with this number of sentences with values")
 write(gsub("_", "\\\\_", paste(setdiff(data$Text.ID, data$Text.ID[rowSums(data[3:40]) > 0]), collapse=", ")), "files-without-values.txt")
+
+
+plot.fractionsentencespervalue <- function(filename.base, sentences, language, names = NULL) {
+  sentences.num <- dim(sentences)[1]
+  sums.attained <- colSums(sentences[,(1:19*2+1)])
+  sums.constrained <- colSums(sentences[,(1:19*2+2)])
+  heights <- matrix(c(sums.attained, sums.constrained) / sentences.num, nrow=2, byrow=TRUE)
+  mar.bottom <- 0.3
+  if (!is.null(names)) {
+    colnames(heights) <- names
+    mar.bottom <- 8
+  }
+
+  filename <- paste(filename.base, "-", tolower(language), ".pdf", sep="")
+  pdf(filename, width=14, height=3)
+  par(mar=c(mar.bottom, 4, 0.4, 0.1))
+  barplot(heights, xlab="", ylab="Sentences with value", las=2, col=c("green", "red"), ylim=c(0,0.2))
+  grid()
+  text(1, 0.17, language, cex=2)
+  # legend("topright", legend=c("Constrained", "Attained"), fill=c("red", "green"), bty="n")
+  dev.off()
+}
+
+
+plot.fractionsentencespervalue("fraction-sentences-per-value", data, "all", values)
+for (language in unique(data$Language)) {
+  sentences <- data[data$Language == language,]
+  plot.fractionsentencespervalue("fraction-sentences-per-value", sentences, language)
+}
 
