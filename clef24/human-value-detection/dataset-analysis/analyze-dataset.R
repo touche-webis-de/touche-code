@@ -69,31 +69,33 @@ plot.histsmallperlanguage("sentences-with-value-per-file", data, subset=sentence
 write(gsub("_", "\\\\_", paste(setdiff(data$Text.ID, data$Text.ID[rowSums(data[3:40]) > 0]), collapse=", ")), "files-without-values.txt")
 
 
-plot.fractionsentencespervalue <- function(filename.base, sentences, language, names = NULL) {
+plot.fractionsentencespervalue <- function(sentences, genre, language) {
+  filename.base <- "fraction-sentences-per-value"
   sentences.num <- dim(sentences)[1]
   sums.attained <- colSums(sentences[,(1:19*2+1)])
   sums.constrained <- colSums(sentences[,(1:19*2+2)])
-  heights <- matrix(c(sums.attained, sums.constrained) / sentences.num, nrow=2, byrow=TRUE)
-  mar.bottom <- 0.3
-  if (!is.null(names)) {
-    colnames(heights) <- names
-    mar.bottom <- 8
-  }
-
-  filename <- paste(filename.base, "-", tolower(language), ".pdf", sep="")
-  pdf(filename, width=14, height=3)
-  par(mar=c(mar.bottom, 4, 0.4, 0.1))
-  barplot(heights, xlab="", ylab="Sentences with value", las=2, col=c("green", "red"), ylim=c(0,0.2))
-  grid()
-  text(1, 0.17, language, cex=2)
+  filename <- paste(filename.base, "-", tolower(genre), "-", tolower(language), ".pdf", sep="")
+  pdf(filename, width=7, height=3)
+  par(mar=c(0.3, 4, 0.4, 0.1))
+  plot(1:19, sums.attained / sentences.num, type="b", col="green", pch=3, xlab="", xaxt="n", ylab="Sentences with value", las=2, ylim=c(0,0.3))
+  lines(1:19, sums.constrained / sentences.num, type="b", col="red", pch=4)
+  lines(1:19, (sums.attained + sums.constrained) / sentences.num, type="b", col="blue", pch=8)
+  grid(nx=NA, ny=NULL)
+  abline(v=1:19, col="lightgray", lty="dotted")
+  text(1, 0.29, paste(genre, language), cex=1, adj=0)
+  text(1, 0.265, paste("(", length(unique(sentences$Text.ID)), " texts, ", sentences.num, " sentences)", sep=""), col="darkgray", cex=0.8, adj=0)
   # legend("topright", legend=c("Constrained", "Attained"), fill=c("red", "green"), bty="n")
   dev.off()
 }
 
-
-plot.fractionsentencespervalue("fraction-sentences-per-value", data, "all", values)
-for (language in unique(data$Language)) {
-  sentences <- data[data$Language == language,]
-  plot.fractionsentencespervalue("fraction-sentences-per-value", sentences, language)
+plots.fractionsentencepervalue <- function(sentences, genre) {
+  plot.fractionsentencespervalue(sentences, genre, "all")
+  for (language in unique(sentences$Language)) {
+    sentences.language <- sentences[sentences$Language == language,]
+    plot.fractionsentencespervalue(sentences.language, genre, language)
+  }
 }
+
+plots.fractionsentencepervalue(data[data$Is.manifesto,], "Manifestos")
+plots.fractionsentencepervalue(data[data$Is.manifesto == FALSE,], "News")
 
