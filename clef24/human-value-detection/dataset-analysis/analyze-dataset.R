@@ -12,7 +12,7 @@ data$Is.manifesto <- regexpr("_M_", data$Text.ID) != -1
 plot.barsperlanguage <- function(filename, data, ...) {
   pdf(filename, width=7, height=6)
   par(mar=c(4, 4, 0.4, 0.1))
-  barplot(t(table(data[c("Language","Is.manifesto")]))[c(2,1),], xlab="language", las=1, col=c("orange", "blue"), ...)
+  barplot(t(table(data[c("Language","Is.manifesto")]))[c(2,1),], xlab="Language", las=1, col=c("orange", "blue"), ...)
   grid(nx=NA, ny=NULL)
   legend("topleft", legend=c("All", "Manifestos"), fill=c("blue", "orange"), bty="n")
   dev.off()
