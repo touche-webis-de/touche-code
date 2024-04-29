@@ -19,7 +19,7 @@ plot.barsperlanguage <- function(filename, data, ...) {
 }
 
 #files 
-plot.barsperlanguage("files-per-language.pdf", data[data$Sentence.ID == 1,], ylab="Files")
+plot.barsperlanguage("files-per-language.pdf", data[data$Sentence.ID == 1,], ylab="Texts")
 
 # sentences
 plot.barsperlanguage("sentences-per-language.pdf", data, ylab="Sentences")
@@ -62,10 +62,10 @@ plot.histsmallperlanguage <- function(filename.base, data, subset=rep(TRUE, dim(
   }
 }
 
-plot.histsmallperlanguage("sentences-per-file", data, xlab="Files with this number of sentences")
+plot.histsmallperlanguage("sentences-per-file", data, xlab="Texts with this number of sentences")
 
 sentences.withvalue <- rowSums(data[3:40]) > 0
-plot.histsmallperlanguage("sentences-with-value-per-file", data, subset=sentences.withvalue, xlab="Files with this number of sentences with values")
+plot.histsmallperlanguage("sentences-with-value-per-file", data, subset=sentences.withvalue, xlab="Texts with this number of sentences with values")
 write(gsub("_", "\\\\_", paste(setdiff(data$Text.ID, data$Text.ID[rowSums(data[3:40]) > 0]), collapse=", ")), "files-without-values.txt")
 
 
