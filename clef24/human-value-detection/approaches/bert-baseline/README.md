@@ -78,3 +78,14 @@ curl -X POST -H "application/json" \
   localhost:8787
 ```
 
+### TIRA usage
+See [the TIRA guide for big models](https://www.tira.io/t/how-to-use-very-big-models-e-g-large-language-models-from-hugging-face-on-a100-gpus-in-tira/2778).
+
+The critical step (adopt the `--image` and `--mount-hf-model` to your image and model):
+```bash
+tira-run --image valueeval24-bert-baseline:1.0.0 \
+  --mount-hf-model JohannesKiesel/valueeval24-bert-baseline-en \
+  --input-dataset valueeval-2024-human-value-detection/valueeval24-2024-04-15-validation-english-20240415-training \
+  --command 'python /bert_baseline.py $inputDataset $outputDir' \
+  --push true
+```
