@@ -37,7 +37,7 @@ def get_value_dict(language_tag):
     return value_dicts[language_tag]
 
 with open(output_file_name, "w") as output_file:
-    output_file.write("\t".join(values) + "\n")
+    output_file.write("Text-ID\tSentence-ID\t".join(values) + "\n")
     for index, row in pandas.read_csv(input_file_name, sep='\t', header=0, index_col=None).iterrows():
         language_tag = language
         if language_tag == None:
