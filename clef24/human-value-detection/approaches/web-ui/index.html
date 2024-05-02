@@ -29,6 +29,9 @@ main {
   max-width: 800px;
   margin: auto;
 }
+.settings {
+  margin-bottom: 10px;
+}
 textarea {
   width: 100%;
   height: 200px;
@@ -76,6 +79,7 @@ textarea {
 <main>
 
 <h1>Human Value Detection Web UI</h1>
+<div class="settings"><label>Server:</label> <input type="text" id="serverUrl" value="http://localhost:8787"/></div>
 
 <form action="javascript:getValues();">
 <textarea>We need to reduce our CO2 emissions to save the environment.
@@ -89,7 +93,11 @@ If we do not, many people will suffer.</textarea>
 
 </main>
 <script>
-let serverUrl = "http://localhost:8787";
+const searchParameters = new URLSearchParams(location.search);
+if (searchParameters.get("serverUrl") !== null) {
+  document.getElementById("serverUrl").value = searchParameters.get("serverUrl");
+}
+
 const inputElement = document.querySelector("textarea");
 const loadingIndicatorElement = document.querySelector(".loading-indicator");
 const outputElement = document.querySelector(".output");
@@ -179,6 +187,7 @@ function getValues() {
   outputElement.innerHTML = "";
   loadingIndicatorElement.classList.add("active");
   const sentences = inputElement.value.split("\n");
+  const serverUrl = document.getElementById("serverUrl").value;
   fetch(serverUrl, {
       method: "POST",
       headers: {"Content-Type": "application/json"},
