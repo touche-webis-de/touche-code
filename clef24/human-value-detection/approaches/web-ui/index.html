@@ -79,7 +79,12 @@ textarea {
 <main>
 
 <h1>Human Value Detection Web UI</h1>
-<div class="settings"><label>Server:</label> <input type="text" id="serverUrl" value="http://localhost:8787"/></div>
+<div class="settings">
+<label>Server:</label>
+<input type="text" id="serverUrl" value="http://localhost:8787"/>
+<button type="button" onclick="javacript:document.getElementById('serverUrl').value = 'http://localhost:8787';">local</button>
+<button type="button" onclick="javacript:document.getElementById('serverUrl').value = 'https://valueeval24.web.webis.de/bert-baseline-en';">bert-baseline-en</button>
+</div>
 
 <form action="javascript:getValues();">
 <textarea>We need to reduce our CO2 emissions to save the environment.
