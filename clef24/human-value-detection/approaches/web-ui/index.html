@@ -118,9 +118,9 @@ function createHistogram(predictions) {
   const rightMargin = 1;
   const topMargin = 0;
   const bottomMargin = 10;
-  const boxWidth = 15;
+  const boxWidth = 20;
   const boxSeparation = 5;
-  const boxHeight = 20;
+  const boxHeight = 30;
   const width = leftMargin + values.length * boxWidth + (values.length - 1) * boxSeparation + rightMargin;
   const height = topMargin + boxHeight + bottomMargin;
 
@@ -149,7 +149,7 @@ function createHistogram(predictions) {
     scoreConstrained = Math.min(1, Math.max(0, (predictions[values[v] + " constrained"] || 0.0)));
     addElement("rect", {x: xOffset, y: -(scoreAttained * boxHeight), width: boxWidth, height: (scoreAttained * boxHeight), fill: "green"}, groupElement);
     addElement("rect", {x: xOffset, y: -((scoreAttained + scoreConstrained) * boxHeight), width: boxWidth, height: (scoreConstrained * boxHeight), fill: "red"}, groupElement);
-    addElement("circle", {cx: xOffset + boxWidth/2, cy: -(scoreAttained + scoreConstrained) * boxHeight/2, r: 1, fill: "black"}, groupElement);
+    addElement("circle", {cx: xOffset + boxWidth/2, cy: -(scoreAttained + scoreConstrained) * boxHeight/2, r: 2, fill: "none", stroke: "white"}, groupElement);
     const textAttributes = {x: xOffset + boxWidth/2, y: bottomMargin, class: "bar-label"};
     textAttributes["text-anchor"] = "middle";
     addElement("text", textAttributes, groupElement).textContent = valueTags[values[v]];
@@ -205,6 +205,13 @@ function getValues() {
       } else {
         processPredictions(sentences, response.output);
         loadingIndicatorElement.classList.remove("active");
+      }
+    })
+    .catch((error) => {
+      loadingIndicatorElement.classList.remove("active");
+      outputElement.textContent = "Failed to connect to " + serverUrl + ".";
+      if (serverUrl === "http://localhost:8787") {
+        outputElement.textContent += " Note that the localhost endpoint is only available if you have an approach running as server on you local machine. If you want to test this interface, you can click on 'bert-baseline-en' above to use an example server.";
       }
     });
 }
