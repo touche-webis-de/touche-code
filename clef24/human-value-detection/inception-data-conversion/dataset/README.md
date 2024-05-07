@@ -1,13 +1,14 @@
 # Touché24-ValueEval
-Version: 2024-02-13
+Version: 2024-04-15
 [[doi](https://doi.org/10.5281/zenodo.10396294)]
 [[task](https://touche.webis.de/clef24/touche24-web/human-value-detection.html)]
 
-Note: The dataset is not final. We are currently checking the sentence splitting. We will provide an automated English translation for all sentences. More documents will be added. We probably can do more cleaning. New versions will be announced on [our mailing list](https://groups.google.com/group/valueeval/subscribe).
+Note: New versions will be announced on [our mailing list](https://groups.google.com/group/valueeval/subscribe).
 
 
 Dataset for [ValueEval'24 @ Touché: Human Value Detection](https://touche.webis.de/clef24/touche24-web/human-value-detection.html). The dataset is organized in the following directories:
 - training/validation/test (in valueeval24.zip). Contains the sentences and labels of the respective dataset split (60%/20%/20%).
+- training-english/validation-english/test-english (in valueeval24.zip). Contains the sentences and labels of the respective dataset split, translated to English (if necessary) using the DeepL API or (for Hebrew) Google Translate API.
 - valueeval23 (in valueeval23.zip). Only use for comparison with previous year. Not part of the ValueEval24 competition. It contains the 1576 arguments of the [ValueEval'23 test dataset](https://webis.de/data.html#touche23-valueeval). The "sentences" are the original dataset's premises (often more than a sentence). Somewhat arbitrarily, arguments `in favor of` are marked as (partially) attaining the respective values, whereas arguments `against` are marked as (partially) constraining the respective values. This assignment to attain and constrain allows to kickstart classifier development, but should not be used for anything further.
 
 For each directory listed above, the dataset contains the following files (except test, where the labels file is not available at the moment):
@@ -23,6 +24,8 @@ For each directory listed above, the dataset contains the following files (excep
     - One column `<value> constrained` with a 1 meaning that the sentences refers to this value and (partially) constrains it
     If both are 0 the sentence does not refer to that value at all. If both are 0.5 the sentence refers to the value but it is unclear whether it (even partially) attains or constrains it. 
 
+Sentences were split first using paragraph information from the sources and then using the Trankit sentence splitter (version 1.1.1; https://github.com/nlp-uoregon/trankit).
+
 
 ## Value Taxonomy
 The `value-categories.json` describes the 19 value categories of this task. Format:
@@ -36,6 +39,47 @@ The `value-categories.json` describes the 19 value categories of this task. Form
 }
 ```
 
+## Reading the dataset in Python
+Both `labels.tsv` and `sentences.tsv` can be read easily with Pandas:
+```
+import pandas
+data_frame = pandas.read_csv(file_path, encoding="utf-8", sep="\t", header=0)
+```
+
+For use with Transformers, one can use this method:
+```
+import datasets
+import numpy
+import os
+import pandas
+import transformers
+
+values = [ "Self-direction: thought", "Self-direction: action", "Stimulation",  "Hedonism", "Achievement", "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition", "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring", "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance" ]
+labels = sum([[value + " attained", value + " constrained"] for value in values], [])
+
+pretrained_model = "bert-base-uncased" # example
+tokenizer = transformers.AutoTokenizer.from_pretrained(pretrained_model)
+
+def load_dataset(directory, tokenizer, load_labels=True):
+    sentences_file_path = os.path.join(directory, "sentences.tsv")
+    labels_file_path = os.path.join(directory, "labels.tsv")
+    
+    data_frame = pandas.read_csv(sentences_file_path, encoding="utf-8", sep="\t", header=0)
+    encoded_sentences = tokenizer(data_frame["Text"].to_list(), truncation=True)
+
+    if load_labels and os.path.isfile(labels_file_path):
+        labels_frame = pandas.read_csv(labels_file_path, encoding="utf-8", sep="\t", header=0)
+        labels_frame = pandas.merge(data_frame, labels_frame, on=["Text-ID", "Sentence-ID"])
+        labels_matrix = numpy.zeros((labels_frame.shape[0], len(labels)))
+        for idx, label in enumerate(labels):
+            if label in labels_frame.columns:
+                labels_matrix[:, idx] = (labels_frame[label] >= 0.5).astype(int)
+        encoded_sentences["labels"] = labels_matrix.tolist()
+
+    encoded_sentences = datasets.Dataset.from_dict(encoded_sentences)
+    return encoded_sentences, data_frame["Text-ID"].to_list(), data_frame["Sentence-ID"].to_list()
+```
+
 
 ## Authors
 The [ValuesML Team](https://knowledge4policy.ec.europa.eu/projects-activities/valuesml-unravelling-expressed-values-media-informed-policy-making_en)
@@ -43,7 +87,7 @@ The [ValuesML Team](https://knowledge4policy.ec.europa.eu/projects-activities/va
 Project Coordinators
 - Bertrand De Longueville, Joint Research Centre (JRC)
 - Johannes Kiesel, Bauhaus-Universität Weimar
-- Theresa Reitis-Munstermann, Joint Research Centre (JRC)
+- Theresa Reitis-Münstermann, Joint Research Centre (JRC)
 - Mario Scharbillig, Joint Research Centre (JRC)
 - Paula Schulze Brock, Joint Research Centre (JRC)
 - Nicolas Stefanovitch, Joint Research Centre (JRC)
@@ -124,6 +168,15 @@ Data Cleaning
 
 
 ## Version History
+- 2024-04-15
+  - Last data and Hebrew translations (using Google Translate)
+- 2024-04-03
+  - Fixed TSV escaping for English translations, loads correctly in pandas now
+- 2024-04-02
+  - More data
+  - Added DeepL translations to English (Hebrew not supported)
+- 2024-02-15
+  - Fixed MAC OS line endings
 - 2024-02-13
   - First version of ValuesML data
 - 2023-12-16

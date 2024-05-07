@@ -1,0 +1,19 @@
+#!/bin/bash
+
+textid=$1
+
+requestfile=data/$textid/request.json
+responsefile=data/$textid/response.json
+hashfile=data/$textid/request-hash.txt
+
+hash=$(cat $requestfile | sha256sum | awk '{print $1}')
+if [ -e $hashfile ];then
+  if [ "$hash" == "$(cat $hashfile)" ];then
+    echo "Request did not change"
+    exit 0
+  fi
+fi
+echo "$hash" > $hashfile
+
+./translate.sh $requestfile > $responsefile
+

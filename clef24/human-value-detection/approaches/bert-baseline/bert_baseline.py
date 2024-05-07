@@ -1,31 +1,38 @@
 import os
+import datasets
 import pandas
-import random
+import numpy
+import torch
 import sys
+import transformers
+import tempfile
+
+
+# GENERIC
+
+values = [ "Self-direction: thought", "Self-direction: action", "Stimulation",  "Hedonism", "Achievement", "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition", "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring", "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance" ]
+labels = sum([[value + " attained", value + " constrained"] for value in values], [])
+id2label = {idx:label for idx, label in enumerate(labels)}
+label2id = {label:idx for idx, label in enumerate(labels)} 
 
 # SETUP
 
-values = [ "Self-direction: thought", "Self-direction: action", "Stimulation", "Hedonism", "Achievement", "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition", "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring", "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance" ]
+#model_path = "model" # load from directory
+model_path = "JohannesKiesel/valueeval24-bert-baseline-en" # load from huggingface hub
+
+tokenizer = transformers.AutoTokenizer.from_pretrained(model_path)
+model = transformers.AutoModelForSequenceClassification.from_pretrained(model_path)
+sigmoid = torch.nn.Sigmoid()
 
 # PREDICTION
 
+# https://github.com/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb
 def predict(text):
     """ Predicts the value probabilities (attained and constrained) for each sentence """
     # "text" contains all sentences (plain strings) of a single text in order (same Text-ID in the input file)
-    labels = []
-    for sentence in text:
-        sentence_labels = {}
-        for value in values:
-            # probability for subtask 1
-            probability_resorted = random.random() 
-
-            # randomly distribute probability between attained and constrained for subtask 2
-            probability_attained = random.random() * probability_resorted
-            probability_constrained = probability_resorted - probability_attained
-
-            sentence_labels[value + " attained"] = probability_attained
-            sentence_labels[value + " constrained"] = probability_constrained
-        labels.append(sentence_labels)
+    encoded_sentences = tokenizer(text, truncation=True, padding=True, return_tensors="pt")
+    sentences_predictions = sigmoid(model(**encoded_sentences).logits)
+    labels = [{id2label[idx]: prediction for idx, prediction in enumerate(predictions.tolist())} for predictions in sentences_predictions]
     return labels
 
 # EXECUTION

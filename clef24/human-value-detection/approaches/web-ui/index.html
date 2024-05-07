@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Human Value Detection Web UI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*
+CSS resets
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+custom
+*/
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+.settings {
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+}
+.loading-indicator:not(.active) {
+  display: none;
+}
+
+.buttons {
+  text-align: right;
+  margin-top: 10px;
+}
+.buttons > a {
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.buttons > a:hover {
+  background-color: #DDDDDD;
+}
+
+.sentence {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.histogram .bar-label {
+  font-size: 10px;
+}
+</style>
+<template id="sentenceTemplate">
+<div class="sentence">
+<p></p>
+<div class="histogram"></div>
+</div>
+</template>
+</head>
+<body>
+<main>
+
+<h1>Human Value Detection Web UI</h1>
+<div class="settings">
+<label>Server:</label>
+<input type="text" id="serverUrl" value="http://localhost:8787"/>
+<button type="button" onclick="javacript:document.getElementById('serverUrl').value = 'http://localhost:8787';">local</button>
+<button type="button" onclick="javacript:document.getElementById('serverUrl').value = 'https://valueeval24.web.webis.de/bert-baseline-en';">bert-baseline-en</button>
+</div>
+
+<form action="javascript:getValues();">
+<textarea>We need to reduce our CO2 emissions to save the environment.
+If we do not, many people will suffer.</textarea>
+<button type="submit">Submit</button>
+</form>
+
+<div class="loading-indicator">Processing, please wait</div>
+
+<div class="output"></div>
+
+</main>
+<script>
+const searchParameters = new URLSearchParams(location.search);
+if (searchParameters.get("serverUrl") !== null) {
+  document.getElementById("serverUrl").value = searchParameters.get("serverUrl");
+}
+
+const inputElement = document.querySelector("textarea");
+const loadingIndicatorElement = document.querySelector(".loading-indicator");
+const outputElement = document.querySelector(".output");
+const sentenceTemplateElement = document.getElementById("sentenceTemplate");
+const valueTags = JSON.parse('{"Self-direction: thought": "ST", "Self-direction: action": "SA", "Stimulation": "S", "Hedonism": "H", "Achievement": "A", "Power: dominance": "PD", "Power: resources": "PR", "Face": "F", "Security: personal": "SP", "Security: societal": "SS", "Tradition": "T", "Conformity: rules": "CR", "Conformity: interpersonal": "CI", "Humility": "H", "Benevolence: caring": "BC", "Benevolence: dependability": "BD", "Universalism: concern": "UC", "Universalism: nature": "UN", "Universalism: tolerance": "UT"}');
+const values = Object.keys(valueTags);
+
+let lastRequest = [];
+
+function createHistogram(predictions) {
+  const namespace = "http://www.w3.org/2000/svg";
+  const leftMargin = 1;
+  const rightMargin = 1;
+  const topMargin = 0;
+  const bottomMargin = 10;
+  const boxWidth = 20;
+  const boxSeparation = 5;
+  const boxHeight = 30;
+  const width = leftMargin + values.length * boxWidth + (values.length - 1) * boxSeparation + rightMargin;
+  const height = topMargin + boxHeight + bottomMargin;
+
+  const svgElement = document.createElementNS(namespace, "svg");
+  svgElement.setAttributeNS(null, "width", width);
+  svgElement.setAttributeNS(null, "height", height);
+  svgElement.setAttributeNS(null, "viewBox", "-" + leftMargin + " -" + (topMargin + boxHeight) + " " + width + " " + height);
+
+  const addElement = (name, attributes = {}, parentElement = svgElement) => {
+    const element = document.createElementNS(namespace, name);
+    for (const [attributeName, attributeValue] of Object.entries(attributes)) {
+      element.setAttributeNS(null, attributeName, attributeValue);
+    }
+    parentElement.appendChild(element);
+    return element;
+  };
+
+  addElement("line", {x1: 0, y1: 0, x2: width - leftMargin - rightMargin, y2: 0, stroke: "black"});
+  addElement("line", {x1: 0, y1: -boxHeight/2, x2: width - leftMargin - rightMargin, y2: -boxHeight/2, stroke: "gray"});
+  addElement("line", {x1: 0, y1: -boxHeight, x2: width - leftMargin - rightMargin, y2: -boxHeight, stroke: "black"});
+  for (let v = 0; v < values.length; v += 1) {
+    const groupElement = addElement("g");
+
+    const xOffset = v * (boxWidth + boxSeparation);
+    scoreAttained = Math.min(1, Math.max(0, (predictions[values[v] + " attained"] || 0.0)));
+    scoreConstrained = Math.min(1, Math.max(0, (predictions[values[v] + " constrained"] || 0.0)));
+    addElement("rect", {x: xOffset, y: -(scoreAttained * boxHeight), width: boxWidth, height: (scoreAttained * boxHeight), fill: "green"}, groupElement);
+    addElement("rect", {x: xOffset, y: -((scoreAttained + scoreConstrained) * boxHeight), width: boxWidth, height: (scoreConstrained * boxHeight), fill: "red"}, groupElement);
+    addElement("circle", {cx: xOffset + boxWidth/2, cy: -(scoreAttained + scoreConstrained) * boxHeight/2, r: 2, fill: "none", stroke: "white"}, groupElement);
+    const textAttributes = {x: xOffset + boxWidth/2, y: bottomMargin, class: "bar-label"};
+    textAttributes["text-anchor"] = "middle";
+    addElement("text", textAttributes, groupElement).textContent = valueTags[values[v]];
+
+    addElement("title", {}, groupElement).textContent = values[v]
+      + ":\ntotal: " + (scoreAttained + scoreConstrained).toFixed(2)
+      + "\n(partially) attained: " + scoreAttained.toFixed(2)
+      + "\n(partially) constrained: " + scoreConstrained.toFixed(2);
+  }
+  return svgElement;
+}
+
+function processPredictions(sentences, predictions) {
+  outputElement.innerHTML = "";
+  lastRequest = [];
+  for (let s = 0; s < sentences.length; s += 1) {
+    const sentenceElement = sentenceTemplateElement.content.cloneNode(true);
+    sentenceElement.querySelector("p").textContent = sentences[s];
+    const histogramElement = sentenceElement.querySelector(".histogram");
+    histogramElement.appendChild(createHistogram(predictions[s]));
+    outputElement.appendChild(sentenceElement);
+    lastRequest.push({sentence: sentences[s], predictions: predictions[s]});
+  }
+
+  const buttonsElement = document.createElement("div");
+  buttonsElement.classList.add("buttons");
+
+  const downloadButtonElement = document.createElement("a");
+  downloadButtonElement.textContent = "download as JSON";
+  const data = encodeURIComponent(JSON.stringify(lastRequest, null, 2));
+  downloadButtonElement.setAttribute("href", "data:text/json;charset=utf8," + data);
+  const date = new Date().toJSON().replaceAll(/[:.]/g, "-");
+  downloadButtonElement.setAttribute("download", "values-predictions-" + date + ".json");
+  buttonsElement.appendChild(downloadButtonElement);
+
+  outputElement.appendChild(buttonsElement);
+}
+
+function getValues() {
+  outputElement.innerHTML = "";
+  loadingIndicatorElement.classList.add("active");
+  const sentences = inputElement.value.split("\n");
+  const serverUrl = document.getElementById("serverUrl").value;
+  fetch(serverUrl, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(sentences) 
+    })
+    .then((textResponse) => textResponse.json())
+    .then((response) => {
+      if (response.Status !== "OK") {
+        alert("Error when communicating with " + serverUrl);
+      } else {
+        processPredictions(sentences, response.output);
+        loadingIndicatorElement.classList.remove("active");
+      }
+    })
+    .catch((error) => {
+      loadingIndicatorElement.classList.remove("active");
+      outputElement.textContent = "Failed to connect to " + serverUrl + ".";
+      if (serverUrl === "http://localhost:8787") {
+        outputElement.textContent += " Note that the localhost endpoint is only available if you have an approach running as server on you local machine. If you want to test this interface, you can click on 'bert-baseline-en' above to use an example server.";
+      }
+    });
+}
+
+// set input text from query parameter
+{
+  const url = new URL(window.location);
+  const query = url.searchParams.get("query");
+  if (query !== null) {
+    const parsedQuery = JSON.parse(query);
+    if (typeof(parsedQuery) === "string") {
+      inputElement.value = parsedQuery;
+    } else {
+      inputElement.value = parsedQuery.join("\n");
+    }
+  }
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,3 @@
+pandas
+tira>=0.0.103
+ollama

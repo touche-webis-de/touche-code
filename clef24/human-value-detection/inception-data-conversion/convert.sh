@@ -5,7 +5,30 @@ if [ $# -eq 1 ];then
 
   docker build -t valueeval24-inception-data-conversion .
   docker run -it --rm -v $input_dir/:/data valueeval24-inception-data-conversion data/$(basename $input)
-  cp $input_dir/{labels-ground_truth.tsv,sentences.tsv} .
+  awk -F'\t' 'BEGIN { OFS = "\t" } {if (FILENAME ~ /sentences.tsv/) {
+      if (FNR == 1) {
+        print $0 > "sentences.tsv"
+      } else {
+        if ($3 == "") {
+          offset[$1] += 1
+          drop[$1" "$2] = 1
+        } else {
+          $2 -= offset[$1]
+          print $0 > "sentences.tsv"
+        }
+      }
+    } else {
+      if (FNR == 1) {
+        print $0 > "labels-ground_truth.tsv"
+      } else {
+        if (drop[$1" "$2] == 1) {
+          offset_labels[$1] += 1
+        } else {
+          $2 -= offset[$1]
+          print $0 > "labels-ground_truth.tsv"
+        }
+      }
+    }}' $input_dir/{sentences.tsv,labels-ground_truth.tsv}
 fi
 
 function get_text_ids() {
@@ -79,7 +102,7 @@ echo "Splits size:"
 cat splits.tsv | sed 's/_[0-9][0-9]*//' | sort | uniq -c
 
 rm -rf dataset/output
-for split in training validation test;do
+for split in training validation test training-english validation-english test-english;do
   mkdir -p dataset/output/$split
   head -n 1 sentences.tsv > dataset/output/$split/sentences.tsv
   head -n 1 labels-ground_truth.tsv > dataset/output/$split/labels.tsv
@@ -99,10 +122,33 @@ awk -F '\t' '{
     }
   }' splits.tsv sentences.tsv labels-ground_truth.tsv
 
-cd dataset/output
-zip valueeval24.zip test/sentences.tsv {training,validation}/{labels,sentences}.tsv
+awk -F '\t' '{
+    if (FILENAME == "splits.tsv") {
+      assigned[$1] = $2
+    } else if (FILENAME == "sentences.tsv") {
+      active[$1] = 1
+      if ($1 ~ /EN/) {
+        if ($1 in assigned) {
+          print $0 >> "dataset/output/"assigned[$1]"-english/sentences.tsv"
+          translated[$1] = 1
+        }
+      }
+    } else if (FILENAME ~ "sentences-translated.tsv") {
+      if (($1 in active) && ($1 in assigned)) {
+        print $0 >> "dataset/output/"assigned[$1]"-english/sentences.tsv"
+        translated[$1] = 1
+      }
+    } else {
+      if ($1 in translated) {
+        print $0 >> "dataset/output/"assigned[$1]"-english/labels.tsv"
+      }
+    }
+  }' splits.tsv sentences.tsv ../translation/sentences-translated.tsv labels-ground_truth.tsv
 
-for split in training validation test;do
+cd dataset/output
+zip valueeval24.zip test{,-english}/sentences.tsv {training,validation}{,-english}/{labels,sentences}.tsv
+
+for split in training validation test training-english validation-english test-english;do
   pushd $split
   zip systems.zip sentences.tsv
   zip evaluation.zip labels.tsv sentences.tsv
