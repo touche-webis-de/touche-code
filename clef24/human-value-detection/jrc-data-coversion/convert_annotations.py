@@ -242,7 +242,7 @@ def main(input_file: str, output_dir: str, verbose: bool = False):
                   "==================================================")
         with tqdm(total=len(batch), desc=f'{language}', disable=not verbose) as progress:
             for text_id, file in batch:
-                text_df = texts[language].loc[texts[language][_text_id_ref] == text_id, :]
+                text_df = texts[language].loc[texts[language][_text_id_ref] == text_id, :].reset_index(drop=True)
                 try:
                     new_annotation_records = \
                         convert_to_records(file, text_id, text_df, progress=progress if verbose else None)
