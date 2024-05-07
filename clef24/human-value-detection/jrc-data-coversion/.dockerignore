@@ -1,0 +1,7 @@
+venv/
+.gitignore
+README.md
+*.tsv
+convert.sh
+output/
+dataset/
