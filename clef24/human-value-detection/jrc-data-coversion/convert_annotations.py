@@ -140,6 +140,8 @@ def parse_project_file(path: str, anon_mapping: Dict[str, str]):
             continue
 
         text_id = annotation_documents["name"]
+        if text_id not in full_text_mapping.keys():
+            continue
 
         user = annotation_documents["user"]
         user_anon = anon_mapping[user]
@@ -274,6 +276,10 @@ def parse_args():
 
 
 def main(input_file: str, mapping_file: str, output_dir: str, skip_zip: bool = False, verbose: bool = False):
+    if not skip_zip and verbose:
+        print("==================================================\n"
+              "Unpacking data\n"
+              "==================================================")
     project_files = list(set(_find_file_by_name(input_file, 'exportedproject.json', skip_zip=skip_zip)))
 
     with open(mapping_file, 'r') as file:
