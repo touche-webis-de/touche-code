@@ -2,6 +2,7 @@
 
 import argparse
 import json
+from datetime import datetime
 from typing import List, Dict
 
 import os
@@ -22,13 +23,39 @@ _text_ref = 'Text'
 _coder_ref = 'Coder'
 _coded_text_ref = 'Coded-Text'
 _label_ref = 'Value'
+_coarse_label_ref = 'Coarse-Value'
 _attainment_ref = 'Attainment'
 _time_stamp_ref = 'Time'
+_index_ref = 'Index'
+_length_ref = 'Length'
 
 _value_list = ["Self-direction: thought", "Self-direction: action", "Stimulation", "Hedonism", "Achievement",
                "Power: dominance", "Power: resources", "Face", "Security: personal", "Security: societal", "Tradition",
                "Conformity: rules", "Conformity: interpersonal", "Humility", "Benevolence: caring",
                "Benevolence: dependability", "Universalism: concern", "Universalism: nature", "Universalism: tolerance"]
+
+_coarse_value_mapping = {
+    "Self-direction: thought": "Self-direction",
+    "Self-direction: action": "Self-direction",
+    "Stimulation": "Stimulation",
+    "Hedonism": "Hedonism",
+    "Achievement": "Achievement",
+    "Power: dominance": "Power",
+    "Power: resources": "Power",
+    "Face": "Power",
+    "Security: personal": "Security",
+    "Security: societal": "Security",
+    "Tradition": "Tradition",
+    "Conformity: rules": "Conformity",
+    "Conformity: interpersonal": "Conformity",
+    "Humility": "Conformity",
+    "Benevolence: caring": "Benevolence",
+    "Benevolence: dependability": "Benevolence",
+    "Universalism: concern": "Universalism",
+    "Universalism: nature": "Universalism",
+    "Universalism: tolerance": "Universalism"
+}
+
 _value_dictionary = {value.replace(':', ' -').upper(): value for value in _value_list}
 
 _languages = ['bulgarian', 'german', 'greek', 'english', 'french', 'hebrew', 'italian', 'dutch', 'turkish']
@@ -40,7 +67,12 @@ _languages = ['bulgarian', 'german', 'greek', 'english', 'french', 'hebrew', 'it
 
 
 class NoSpanEntryError(KeyError):
-    pass
+
+    def __init__(self, message):
+        self._message = message
+
+    def __str__(self):
+        return self._message
 
 
 def _find_file_by_name(current_path: str, target_file: str, skip_zip: bool = False) -> List[str]:
@@ -85,6 +117,8 @@ def parse_project_file(path: str, anon_mapping: Dict[str, str]):
 
     sentence_records = []
 
+    full_text_mapping = {}
+
     for source_document in json_dict["source_documents"]:
         if source_document["state"] not in ["CURATION_FINISHED", "CURATION_IN_PROGRESS"]:
             continue
@@ -93,7 +127,10 @@ def parse_project_file(path: str, anon_mapping: Dict[str, str]):
 
         initial_cas_file = os.path.join(os.path.dirname(path), f"annotation/{text_id}/INITIAL_CAS/INITIAL_CAS.json")
 
-        sentence_records += convert_text_to_records(initial_cas_file, text_id)
+        new_sentence_records, cleaned_full_text, length_difference = convert_text_to_records(initial_cas_file, text_id)
+        sentence_records += new_sentence_records
+
+        full_text_mapping[text_id] = (cleaned_full_text, length_difference)
 
     language_batch = []
 
@@ -109,11 +146,11 @@ def parse_project_file(path: str, anon_mapping: Dict[str, str]):
 
         annotation_file = os.path.join(os.path.dirname(path), f"annotation/{text_id}/{user}/{user}.json")
 
-        time = int(annotation_documents["timestamp"]) - int(annotation_documents["created"])
+        time = datetime.fromtimestamp(int(annotation_documents["timestamp"]) / 1000.0).isoformat(' ', timespec='seconds')
 
         language_batch.append((text_id, annotation_file, user_anon, time))
 
-    return name, sentence_records, language_batch
+    return name, sentence_records, language_batch, full_text_mapping
 
 
 def convert_text_to_records(path: str, text_id: str):
@@ -123,6 +160,10 @@ def convert_text_to_records(path: str, text_id: str):
     full_text = str(json_data['_referenced_fss']['1']['sofaString'])
     sentence_data = json_data['_views']['_InitialView']['Sentence']
 
+    cleaned_full_text = re.sub(r' [ ]+', ' ', full_text.replace('\r\n', '  ').replace('\n', ' ')
+                               .replace(b'\xEF\xBB\xBF'.decode('utf-8'), ' ').replace('\r', ' '))
+    length_difference = len(full_text) - len(cleaned_full_text)
+
     sentence_records = []
     for i, entry in enumerate(sentence_data):
         sentence_id = i + 1
@@ -130,20 +171,33 @@ def convert_text_to_records(path: str, text_id: str):
         entry['text'] = full_text[entry['begin']:entry['end']].replace('\r\n', '  ').replace('\n', ' ') \
             .replace(b'\xEF\xBB\xBF'.decode('utf-8'), ' ').replace('\r', ' ')
 
+        cleaned_text = re.sub(r' [ ]+', ' ', entry['text'])
+        sentence_index = cleaned_full_text.find(cleaned_text, max(entry['begin'] - length_difference, 0))
+        sentence_length = len(cleaned_text)
+
         sentence_records.append({
             _text_id_ref: text_id, _sentence_id_ref: sentence_id, _text_ref: entry['text'],
-            'begin': entry['begin'], 'end': entry['end']
+            'begin': entry['begin'], 'end': entry['end'],
+            _index_ref: sentence_index, _length_ref: sentence_length
         })
 
-    return sentence_records
+    return sentence_records, cleaned_full_text, length_difference
 
 
-def convert_to_records(path: str, text_id: str, text_df: pd.DataFrame, user_anon: str, time: int, progress=None):
+def convert_to_records(
+        path: str,
+        text_id: str,
+        text_df: pd.DataFrame,
+        user_anon: str,
+        time: str,
+        cleaned_text: str,
+        length_difference: int,
+        progress=None):
     with open(path, 'r') as file:
         json_data = json.load(file)
 
     if 'Span' not in json_data['_views']['_InitialView'].keys():
-        raise NoSpanEntryError(f'Missing "Span" entry in {text_id} {user_anon}')
+        raise NoSpanEntryError(f'Missing "Span" entry in {text_id} User: {user_anon}')
 
     annotations: List = json_data['_views']['_InitialView']['Span']
     annotations.sort(key=lambda x: (x.get('begin', 0), x['end']))
@@ -183,10 +237,14 @@ def convert_to_records(path: str, text_id: str, text_df: pd.DataFrame, user_anon
             else:
                 attainment = 'Not sure, can’t decide'
 
+            annotation_index = cleaned_text.find(coded_text, max(text_range[0] - length_difference, 0))
+            annotation_length = len(coded_text)
+
             annotation_records.append({
                 _text_id_ref: text_id, _sentence_id_ref: row[_sentence_id_ref], _coder_ref: user_anon,
-                _coded_text_ref: coded_text, _label_ref: value_name, _attainment_ref: attainment,
-                _time_stamp_ref: time
+                _coded_text_ref: coded_text, _index_ref: annotation_index, _length_ref: annotation_length,
+                _label_ref: value_name, _coarse_label_ref: _coarse_value_mapping[value_name],
+                _attainment_ref: attainment, _time_stamp_ref: time
             })
 
             index_loc += 1
@@ -216,7 +274,6 @@ def parse_args():
 
 
 def main(input_file: str, mapping_file: str, output_dir: str, skip_zip: bool = False, verbose: bool = False):
-    print(skip_zip)
     project_files = list(set(_find_file_by_name(input_file, 'exportedproject.json', skip_zip=skip_zip)))
 
     with open(mapping_file, 'r') as file:
@@ -226,6 +283,7 @@ def main(input_file: str, mapping_file: str, output_dir: str, skip_zip: bool = F
 
     batches = {}
     texts: Dict[str, pd.DataFrame] = {}
+    full_text = {}
 
     if verbose:
         print("==================================================\n"
@@ -243,7 +301,8 @@ def main(input_file: str, mapping_file: str, output_dir: str, skip_zip: bool = F
             print(f'Unable to detect language for file "{file}".')
             continue
 
-        name, sentence_records, language_batch = parse_project_file(file, anon_mapping)
+        name, sentence_records, language_batch, full_text_mapping = parse_project_file(file, anon_mapping)
+        full_text.update(full_text_mapping)
 
         texts[name] = pd.DataFrame.from_records(sentence_records)
 
@@ -256,10 +315,12 @@ def main(input_file: str, mapping_file: str, output_dir: str, skip_zip: bool = F
                   "==================================================")
         with tqdm(total=len(batch), desc=f'{language}', disable=not verbose) as progress:
             for text_id, file, user_anon, time in batch:
+                cleaned_text, length_difference = full_text[text_id]
                 text_df = texts[language].loc[texts[language][_text_id_ref] == text_id, :].reset_index(drop=True)
                 try:
                     new_annotation_records = \
                         convert_to_records(file, text_id, text_df, user_anon, time,
+                                           cleaned_text, length_difference,
                                            progress=progress if verbose else None)
                     annotation_records += new_annotation_records
                 except NoSpanEntryError as nSEE:
@@ -277,7 +338,7 @@ def main(input_file: str, mapping_file: str, output_dir: str, skip_zip: bool = F
                     raise e
                 progress.update()
 
-    texts_df = pd.concat(list(texts.values()), ignore_index=True).loc[:, [_text_id_ref, _sentence_id_ref, _text_ref]] \
+    texts_df = pd.concat(list(texts.values()), ignore_index=True).loc[:, [_text_id_ref, _sentence_id_ref, _text_ref, _index_ref, _length_ref]] \
         .drop_duplicates(subset=[_text_id_ref, _sentence_id_ref])
     # clean actual text
     texts_df[_text_ref] = texts_df[_text_ref].str.replace(r' [ ]+', ' ', regex=True).str.strip()
@@ -301,6 +362,5 @@ if __name__ == '__main__':
         output_dir = os.path.dirname(input_file)
     else:
         output_dir = os.path.abspath(args.output_dir)
-    print(args.zip)
     main(input_file=input_file, mapping_file=args.mapping, output_dir=output_dir, skip_zip=args.zip,
          verbose=args.verbose)
