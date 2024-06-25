@@ -5,3 +5,4 @@ predictions.tsv
 sentences.tsv
 logs/
 tira-output/
+eval/
