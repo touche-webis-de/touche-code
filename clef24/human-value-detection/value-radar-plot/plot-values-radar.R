@@ -49,7 +49,7 @@ arc.segments <- function (lines, ...) {
 axis.labels <- sprintf("%.1f", 0:radar.segments * (radar.max/radar.segments))
 
 cairo_pdf(output, width=5, height=5)
-par(mar=c(-0,0,0,0), oma=c(0,0,0,0), family="TeX Gyre Heros")
+par(mar=c(-0,0,0,0), oma=c(0,0,0,0), family="Helvetica")
 radarchart(data, pcol=colors,
   plty=1, pty=32,
   cglwd=0.5, seg=radar.segments,
