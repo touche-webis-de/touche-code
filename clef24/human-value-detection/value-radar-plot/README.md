@@ -1,6 +1,6 @@
 VALUE RADAR PLOT
 ================
-Make a radar plot with scores for all 20 value categories for Human Value Detection 2023 @ Touche and SemEval 2023.
+Make a radar plot with scores for all 19 value categories for Human Value Detection 2024 @ Touche (ValueEval'24).
 
 Setup
 -----
