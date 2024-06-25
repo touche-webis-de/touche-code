@@ -14,8 +14,8 @@ data <- data.colorized[,2:20]
 colors <- data.colorized[,1]
 
 dims <- 19
-radar.max <- 0.6
-radar.segments <- 6
+radar.max <- 0.7
+radar.segments <- 7
 
 names.outer <- list(c(1.5, "Self-direction:"), c(3, "Stimulation"), c(4, "Hedonism"), c(5, "Achievement"), c(6.5, "Power:"), c(8, "Face"), c(9.5, "Security:"), c(11, "Tradition"), c(12.5, "Conformity:"), c(14, "Humility"), c(15.5, "Benevolence:"), c(18, "Universalism:"))
 names.inner <- list(c(1, "thought"), c(2, "action"), c(6, "dominance"), c(7, "resources"), c(9, "personal"), c(10, "societal"), c(12, "rules"), c(13, "interpersonal"), c(15, "caring"), c(16, "dependability"), c(17, "concern"), c(18, "nature"), c(19, "tolerance"))
