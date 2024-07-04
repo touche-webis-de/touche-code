@@ -4,14 +4,15 @@ library(plotrix)
 
 args = commandArgs(trailingOnly=TRUE)
 
-data.colorized <- read.csv(args[1], sep="\t", header=FALSE)
+data.full <- read.csv(args[1], sep="\t", header=FALSE)
 output <- "radar-plot.pdf"
 if (length(args) > 1) {
   output <- args[2]
 }
 
-data <- data.colorized[,2:20]
-colors <- data.colorized[,1]
+names <- data.full[,1]
+colors <- data.full[,2]
+data <- data.full[,3:21]
 
 dims <- 19
 radar.max <- 0.7
@@ -57,5 +58,9 @@ radarchart(data, pcol=colors,
 arc.texts(names.inner, radius=1.05, cex=0.7)
 arc.texts(names.outer, radius=1.15, cex=0.7)
 arc.segments(midlines, radius=1.10)
+
+if (sum(names != "") > 0) {
+  legend("bottomleft", names[names != ""], col=colors[names != ""], lwd=1, bty="n", cex=0.7)
+}
 dev.off()
 
