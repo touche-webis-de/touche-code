@@ -12,11 +12,12 @@ if (length(args) > 1) {
 
 names <- data.full[,1]
 colors <- data.full[,2]
-data <- data.full[,3:21]
+ltys <- data.full[,3]
+data <- data.full[,4:22]
 
 dims <- 19
-radar.max <- 0.75
-radar.segments <- 3 
+radar.max <- 1.00
+radar.segments <- 4 
 
 names.outer <- list(c(1.5, "Self-direction:"), c(3, "Stimulation"), c(4, "Hedonism"), c(5, "Achievement"), c(6.5, "Power:"), c(8, "Face"), c(9.5, "Security:"), c(11, "Tradition"), c(12.5, "Conformity:"), c(14, "Humility"), c(15.5, "Benevolence:"), c(18, "Universalism:"))
 names.inner <- list(c(1, "thought"), c(2, "action"), c(6, "dominance"), c(7, "resources"), c(9, "personal"), c(10, "societal"), c(12, "rules"), c(13, "interpersonal"), c(15, "caring"), c(16, "dependability"), c(17, "concern"), c(18, "nature"), c(19, "tolerance"))
@@ -51,8 +52,7 @@ axis.labels <- sprintf("%.2f", 0:radar.segments * (radar.max/radar.segments))
 
 cairo_pdf(output, width=5, height=5)
 par(mar=c(-0,0,0,0), oma=c(0,0,0,0), family="Helvetica")
-radarchart(data, pcol=colors,
-  plty=1, pty=32,
+radarchart(data, pcol=colors, plty=ltys, pty=32,
   cglwd=0.5, seg=radar.segments,
   axistype=1, caxislabels=axis.labels, calcex=0.5, axislabcol="black")
 arc.texts(names.inner, radius=1.05, cex=0.7)
@@ -60,7 +60,7 @@ arc.texts(names.outer, radius=1.15, cex=0.7)
 arc.segments(midlines, radius=1.10)
 
 if (sum(names != "") > 0) {
-  legend("bottomleft", names[names != ""], col=colors[names != ""], lwd=1, bty="n", cex=0.7)
+  legend("bottomleft", names[names != ""], col=colors[names != ""], lty=ltys[names != ""], lwd=1, bty="n", cex=0.7)
 }
 dev.off()
 
