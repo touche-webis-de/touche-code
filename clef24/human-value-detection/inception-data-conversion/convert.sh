@@ -146,7 +146,8 @@ awk -F '\t' '{
   }' splits.tsv sentences.tsv ../translation/sentences-translated.tsv labels-ground_truth.tsv
 
 cd dataset/output
-zip valueeval24.zip test{,-english}/sentences.tsv {training,validation}{,-english}/{labels,sentences}.tsv
+#zip valueeval24.zip test{,-english}/sentences.tsv {training,validation}{,-english}/{labels,sentences}.tsv
+zip valueeval24.zip {test,training,validation}{,-english}/{labels,sentences}.tsv
 
 for split in training validation test training-english validation-english test-english;do
   pushd $split
