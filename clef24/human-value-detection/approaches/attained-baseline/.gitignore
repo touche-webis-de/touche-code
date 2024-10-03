@@ -1,0 +1,8 @@
+dataset/
+output/
+venv/
+predictions.tsv
+sentences.tsv
+logs/
+tira-output/
+eval/

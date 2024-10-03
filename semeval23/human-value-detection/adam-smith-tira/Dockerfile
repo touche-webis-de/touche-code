@@ -22,7 +22,10 @@ RUN python3 -m components.interface_modules.download_pretrained_models /workspac
 # copy unzipped human_value_trained_models
 RUN mkdir -p /workspace/checkpoints/human_value_trained_models/
 COPY checkpoints/human_value_trained_models/*.pkl /workspace/checkpoints/human_value_trained_models/
-COPY checkpoints/human_value_trained_models/HCV-409-microsoft-deberta-large-BS_8-LR_2e-05-HL_None-DROPOUT_None-SL_None.ckpt /workspace/checkpoints/human_value_trained_models/
+COPY checkpoints/human_value_trained_models/HCV-409-*.ckpt /workspace/checkpoints/human_value_trained_models/
+COPY checkpoints/human_value_trained_models/HCV-408-*.ckpt /workspace/checkpoints/human_value_trained_models/
+COPY checkpoints/human_value_trained_models/HCV-406-*.ckpt /workspace/checkpoints/human_value_trained_models/
+#COPY checkpoints/human_value_trained_models/ /workspace/checkpoints/human_value_trained_models/
 # ADD ADDITIONAL CHECKPOINT FILES HERE
 
 # copy model scripts

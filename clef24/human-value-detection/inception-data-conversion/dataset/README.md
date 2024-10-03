@@ -1,5 +1,5 @@
 # Touché24-ValueEval
-Version: 2024-04-15
+Version: 2024-08-09
 [[doi](https://doi.org/10.5281/zenodo.10396294)]
 [[task](https://touche.webis.de/clef24/touche24-web/human-value-detection.html)]
 
@@ -11,7 +11,7 @@ Dataset for [ValueEval'24 @ Touché: Human Value Detection](https://touche.webis
 - training-english/validation-english/test-english (in valueeval24.zip). Contains the sentences and labels of the respective dataset split, translated to English (if necessary) using the DeepL API or (for Hebrew) Google Translate API.
 - valueeval23 (in valueeval23.zip). Only use for comparison with previous year. Not part of the ValueEval24 competition. It contains the 1576 arguments of the [ValueEval'23 test dataset](https://webis.de/data.html#touche23-valueeval). The "sentences" are the original dataset's premises (often more than a sentence). Somewhat arbitrarily, arguments `in favor of` are marked as (partially) attaining the respective values, whereas arguments `against` are marked as (partially) constraining the respective values. This assignment to attain and constrain allows to kickstart classifier development, but should not be used for anything further.
 
-For each directory listed above, the dataset contains the following files (except test, where the labels file is not available at the moment):
+For each directory listed above, the dataset contains the following files:
 - sentences.tsv. Contains one sentence per line:
   - `Text-ID` identifies the text that contains the sentence
   - `Sentence-ID` gives the index of the sentence in the text
@@ -40,7 +40,7 @@ The `value-categories.json` describes the 19 value categories of this task. Form
 ```
 
 ## Reading the dataset in Python
-Both `labels.tsv` and `sentences.tsv` can be read easily with Pandas:
+Both `labels.tsv` and `sentences.tsv` can be read with Pandas:
 ```
 import pandas
 data_frame = pandas.read_csv(file_path, encoding="utf-8", sep="\t", header=0)
@@ -168,6 +168,8 @@ Data Cleaning
 
 
 ## Version History
+- 2024-08-09
+  - Added test labels
 - 2024-04-15
   - Last data and Hebrew translations (using Google Translate)
 - 2024-04-03

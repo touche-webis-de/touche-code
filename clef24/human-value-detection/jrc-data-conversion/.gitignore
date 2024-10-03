@@ -1,0 +1,4 @@
+venv/
+texts.tsv
+codes.tsv
+output/
