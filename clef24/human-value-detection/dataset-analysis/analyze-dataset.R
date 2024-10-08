@@ -3,7 +3,7 @@
 values <- c("Self-direction\nthought", "Self-direction\naction", "Stimulation", "Hedonism", "Achievement", "Power\ndominance", "Power\nresources", "Face", "Security\npersonal", "Security\nsocietal", "Tradition", "Conformity\nrules", "Conformity\ninterpersonal", "Humility", "Benevolence\ncaring", "Benevolence\ndependability", "Universalism\nconcern", "Universalism\nnature", "Universalism\ntolerance")
 
 col.constrained="#db58d3"
-col.combined="#58dbab"
+col.combined="#92db59"
 col.attained="#db5992"
 col.news=col.attained
 col.manifestos=col.constrained
@@ -32,7 +32,6 @@ plot.barsperlanguage("files-per-language.pdf", data[data$Sentence.ID == 1,], yla
 plot.barsperlanguage("sentences-per-language.pdf", data, ylab="Sentences")
 
 # fraction of sentences with at least one value
-col <- rev(c("white", "#edf8fb", "#ccece6", "#99d8c9", "#66c2a4", "#2ca25f", "#006d2c"))
 col <- rev(c("white", "#d3db57", "#92db59", "#59db61", "#59d3db", "#6159db", "#a259db"))
 plot.fraction.sentences <- function(ylim.max, box.ytop=ylim.max) {
   par(mar=c(4, 4, 0.4, 0.1))
