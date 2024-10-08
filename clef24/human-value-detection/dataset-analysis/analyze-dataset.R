@@ -1,9 +1,11 @@
 #!/usr/bin/env Rscript
 
+# for input in *.pdf;do convert $input -resize 1000x $(echo $input | sed 's/df$/ng/');done
+
 values <- c("Self-direction\nthought", "Self-direction\naction", "Stimulation", "Hedonism", "Achievement", "Power\ndominance", "Power\nresources", "Face", "Security\npersonal", "Security\nsocietal", "Tradition", "Conformity\nrules", "Conformity\ninterpersonal", "Humility", "Benevolence\ncaring", "Benevolence\ndependability", "Universalism\nconcern", "Universalism\nnature", "Universalism\ntolerance")
 
 col.constrained="#db58d3"
-col.combined="#92db59"
+col.combined="#d3db57"
 col.attained="#db5992"
 col.news=col.attained
 col.manifestos=col.constrained
