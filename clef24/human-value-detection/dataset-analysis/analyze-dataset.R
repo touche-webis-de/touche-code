@@ -44,15 +44,21 @@ plot.fraction.sentences <- function(ylim.max, box.ytop=ylim.max) {
     labels <- sprintf("%d%%", at*100)
   }
   axis(2, at=at, labels=labels, line=-0.25, las=1)
+  if (ylim.max != 1) {
+    for (offset in 0:8) {
+      polygon((0:4)/4+0.2+offset*1.2, c(rep(c(box.ytop+0.0005, box.ytop-0.00025), 2), box.ytop+0.0005), col="white", xpd=TRUE)
+    }
+  }
   grid(nx=NA, ny=NULL)
   rect(xleft=0, xright=11, ybottom=-0.0001, ytop=box.ytop+0.0001, lwd=2, xpd=TRUE, border="orange")
   legend("topright", legend=0:6, fill=rev(col), bg="white", box.col="white")
 }
+box.ytop <- 0.025
 pdf("fraction-sentences-with-value-per-language.pdf", width=7, height=6)
-plot.fraction.sentences(1, box.ytop=0.025)
+plot.fraction.sentences(1, box.ytop=box.ytop)
 dev.off()
 pdf("fraction-sentences-with-value-per-language-zoomed.pdf", width=7, height=6)
-plot.fraction.sentences(0.025)
+plot.fraction.sentences(box.ytop)
 dev.off()
 
 
