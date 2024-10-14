@@ -23,7 +23,7 @@ plot.barsperlanguage <- function(filename, data, ...) {
   barplot(t(table(data[c("Language","Is.manifesto")]))[c(2,1),], xlab="", las=1, col=rev(c(col.combined, col.manifestos)), ...)
   mtext("Language", side=1, line=2.5)
   grid(nx=NA, ny=NULL)
-  legend("topleft", legend=c("All", "Manifestos"), fill=c(col.combined, col.manifestos), bty="n")
+  legend("topleft", legend=c("News", "Manifestos"), fill=c(col.combined, col.manifestos), bty="n")
   dev.off()
 }
 
@@ -37,7 +37,7 @@ plot.barsperlanguage("sentences-per-language.pdf", data, ylab="Sentences")
 col <- rev(c("white", "#d3db57", "#92db59", "#59db61", "#59d3db", "#6159db", "#a259db"))
 plot.fraction.sentences <- function(ylim.max, box.ytop=ylim.max) {
   par(mar=c(4, 4, 0.4, 0.1))
-  barplot(t(sapply(rev(0:6), function(x) {return(table(data[rowSums(data[3:40]) == x,]$Language) / table(data$Language))})), xlab="", ylab="Percentage of sentences with at least that many values", yaxt="n", col=col, ylim=c(0,ylim.max))
+  barplot(t(sapply(rev(0:6), function(x) {return(table(data[rowSums(data[3:40]) == x,]$Language) / table(data$Language))})), xlab="", ylab="Sentences", yaxt="n", col=col, ylim=c(0,ylim.max))
   mtext("Language", side=1, line=2.5)
   at <- (0:5)/5*ylim.max
   labels <- sprintf("%.1f%%", at*100)
@@ -79,7 +79,7 @@ plot.histsmallperlanguage <- function(filename.base, data, subset=rep(TRUE, dim(
     plot(hist.manifestos, col=col.manifestos, xlim=c(0-0.5, sentences.max+0.5), add=TRUE)
     grid()
     text(7, 45, language, cex=2)
-    legend("topright", legend=c("All", "Manifestos"), fill=c(col.combined, col.manifestos), bty="n")
+    legend("topright", legend=c("News", "Manifestos"), fill=c(col.combined, col.manifestos), bty="n")
     dev.off()
   }
 }
@@ -121,3 +121,11 @@ plots.fractionsentencepervalue <- function(sentences, genre) {
 plots.fractionsentencepervalue(data[data$Is.manifesto,], "Manifestos")
 plots.fractionsentencepervalue(data[data$Is.manifesto == FALSE,], "News")
 
+colval10 <- c("#A259DB", "#A259DB", "#6159DB", "#5992DB", "#59D3DB", "#59DBA2", "#59DBA2", "#59DBA2", "#59DB61", "#59DB61", "#92DB59", "#D3DB57", "#D3DB57", "#D3DB57", "#DBA157", "#DBA157", "#DB6159", "#DB6159", "#DB6159")
+pdf("sentences-per-value.pdf", width=14, height=7)
+par(mar=c(11.5, 4, 0.4, 0.1))
+counts <- colSums(matrix(colSums(data[,3:40]), nrow=2))
+names(counts) <- sub("\n", ": ", values)
+barplot(counts, col=colval10, las=2, ylab="Sentences")
+grid(nx = NA, ny = NULL)
+dev.off()
