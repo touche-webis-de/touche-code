@@ -10,6 +10,9 @@ col.attained="#db5992"
 col.news=col.attained
 col.manifestos=col.constrained
 
+col19to10 <- c("#A259DB", "#A259DB", "#6159DB", "#5992DB", "#59D3DB", "#59DBA2", "#59DBA2", "#59DBA2", "#59DB61", "#59DB61", "#92DB59", "#D3DB57", "#D3DB57", "#D3DB57", "#DBA157", "#DBA157", "#DB6159", "#DB6159", "#DB6159")
+col10 <- c("#A259DB", "#6159DB", "#5992DB", "#59D3DB", "#59DBA2", "#59DB61", "#92DB59", "#D3DB57", "#DBA157", "#DB6159")
+
 args <- commandArgs(trailingOnly=TRUE)
 data.filename <- args[1]
 
@@ -121,11 +124,47 @@ plots.fractionsentencepervalue <- function(sentences, genre) {
 plots.fractionsentencepervalue(data[data$Is.manifesto,], "Manifestos")
 plots.fractionsentencepervalue(data[data$Is.manifesto == FALSE,], "News")
 
-colval10 <- c("#A259DB", "#A259DB", "#6159DB", "#5992DB", "#59D3DB", "#59DBA2", "#59DBA2", "#59DBA2", "#59DB61", "#59DB61", "#92DB59", "#D3DB57", "#D3DB57", "#D3DB57", "#DBA157", "#DBA157", "#DB6159", "#DB6159", "#DB6159")
+
 pdf("sentences-per-value.pdf", width=14, height=7)
 par(mar=c(11.5, 4, 0.4, 0.1))
 counts <- colSums(matrix(colSums(data[,3:40]), nrow=2))
 names(counts) <- sub("\n", ": ", values)
-barplot(counts, col=colval10, las=2, ylab="Sentences")
+barplot(counts, col=col19to10, las=2, ylab="Sentences")
 grid(nx = NA, ny = NULL)
 dev.off()
+
+
+pdf("sentences-with-value-per-language.pdf", width=14, height=7)
+values.coarse.sum <- function(x) {
+  sums <- c(
+    sum(x[1:4]),   # self-direction
+    sum(x[5:6]),   # stimulation
+    sum(x[7:8]),   # hedonism
+    sum(x[9:10]),  # achievement
+    sum(x[11:16]), # power
+    sum(x[17:20]), # security
+    sum(x[21:22]), # tradition
+    sum(x[23:28]), # conformity
+    sum(x[29:32]), # benevolence
+    sum(x[33:38])  # universalism
+  )
+  names(sums) <- c("Self-direction", "Stimulation", "Hedonism", "Achievement", "Power", "Security", "Tradition", "Conformity", "Benevolence", "Universalism")
+
+  return(sums)
+}
+languages <- unique(data$Language)
+values.per.language <- sapply(languages, function(language) {
+  return(values.coarse.sum(data[data$Language == language,3:40]))
+})
+colnames(values.per.language) <- languages
+par(mar=c(4, 4, 0.4, 7))
+barplot(values.per.language, col=col10, las=1, ylab="Sentences")
+mtext("Language", side=1, line=2.5)
+legend("right", rev(rownames(values.per.language)), fill=rev(col10), inset=-0.11, xpd=TRUE, bty="n")
+grid(nx = NA, ny = NULL)
+dev.off()
+
+
+# Undecided cases
+values.coarse.sum(colSums(data[,3:40] == 0.5))/2
+
