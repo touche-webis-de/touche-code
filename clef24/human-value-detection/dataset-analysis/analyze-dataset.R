@@ -168,3 +168,33 @@ dev.off()
 # Undecided cases
 values.coarse.sum(colSums(data[,3:40] == 0.5))/2
 
+value.attainment <- function(x, offset=1, check=1) {
+  attainment <- x[offset+2*(0:18)] == check
+  names(attainment) <- values
+  return(attainment)
+}
+value.attained <- function(x) { return(value.attainment(x)) }
+value.constrained <- function(x) { return(value.attainment(x, offset=2)) }
+value.undecided <- function(x) { return(value.attainment(x, check=0.5)) }
+value.coarse.row <- function(x) {
+  coarse <- c(
+    x[1] || x[2],            # self-direction
+    x[3],                    # stimulation
+    x[4],                    # hedonism
+    x[5],                    # achievement
+    x[6] || x[7] || x[8],    # power
+    x[9] || x[10],           # security
+    x[11],                   # tradition
+    x[12] || x[13] || x[14], # conformity
+    x[15] || x[16],          # benevolence
+    x[17] || x[18] || x[19]  # universalism
+  )
+  return(coarse)
+}
+value.coarse <- function(x) {
+  coarse <- t(apply(x, 1, value.coarse.row))
+  colnames(coarse) <- c("Self-direction", "Stimulation", "Hedonism", "Achievement", "Power", "Security", "Tradition", "Conformity", "Benevolence", "Universalism")
+  return(coarse)
+}
+
+
