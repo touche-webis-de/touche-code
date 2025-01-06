@@ -238,7 +238,7 @@ function previousRatingElement(ratingElement) {
 }
 
 // https://stackoverflow.com/a/7557433
-function isElementInViewport (el) {
+function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
   return (
     rect.top >= 0 &&
@@ -246,6 +246,16 @@ function isElementInViewport (el) {
     rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
+}
+
+// https://stackoverflow.com/q/76691769
+async function decompress(url) {
+  const ds = new DecompressionStream('gzip');
+  const response = await fetch(url);
+  const blobIn = await response.blob();
+  const streamIn = blobIn.stream().pipeThrough(ds);
+  const blobOut = await new Response(streamIn).blob();
+  return await blobOut.text();
 }
 
 function activate(element, scroll) {
@@ -383,8 +393,7 @@ function createAnnotationInterface(dataset) {
 }
 
 if (!isNaN(annotator)) {
-  fetch("touche25-rad-cmv-debates.jsonl")
-    .then(response => response.text())
+  decompress("touche25-rad-cmv-debates.jsonl.gzip")
     .then(responseText => responseText.trim().split("\n").map(txt => JSON.parse(txt)))
     .then(dataset => createAnnotationInterface(dataset));
 }
