@@ -4,8 +4,9 @@ FROM ${BASE_IMAGE}
 ARG NVM_VERSION=0.40.1
 ARG NODE_VERSION=23.6.0
 ARG GENIRSIM_VERSION=0.5.3
+EXPOSE 8080
 
-
+# install node
 RUN apt-get update && apt-get install -y \
   curl
 ENV NVM_DIR /usr/local/nvm
@@ -15,12 +16,13 @@ RUN /bin/bash -c "source $NVM_DIR/nvm.sh && nvm install v$NODE_VERSION && nvm us
 ENV NODE_PATH $NVM_DIR/versions/node/v$NODE_VERSION/bin
 ENV PATH $NODE_PATH:$PATH
 
-WORKDIR /base
+# install GenIRSim
+WORKDIR /genirsim
 RUN npm install @webis-de/gen-ir-sim@${GENIRSIM_VERSION}
-ENV PATH /base/node_modules/.bin:$NODE_PATH:$PATH
-COPY entrypoint.sh .
+ENV PATH /genirsim/node_modules/.bin:$NODE_PATH:$PATH
+COPY run-in-tira.sh .
 
+# prepare for app
 WORKDIR /app
-
-ENTRYPOINT [ "/base/entrypoint.sh" ]
+ENTRYPOINT [ "/app/start.sh" ]
 

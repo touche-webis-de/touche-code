@@ -134,49 +134,21 @@ grid(nx = NA, ny = NULL)
 dev.off()
 
 
-pdf("sentences-with-value-per-language.pdf", width=14, height=7)
-values.coarse.sum <- function(x) {
-  sums <- c(
-    sum(x[1:4]),   # self-direction
-    sum(x[5:6]),   # stimulation
-    sum(x[7:8]),   # hedonism
-    sum(x[9:10]),  # achievement
-    sum(x[11:16]), # power
-    sum(x[17:20]), # security
-    sum(x[21:22]), # tradition
-    sum(x[23:28]), # conformity
-    sum(x[29:32]), # benevolence
-    sum(x[33:38])  # universalism
-  )
-  names(sums) <- c("Self-direction", "Stimulation", "Hedonism", "Achievement", "Power", "Security", "Tradition", "Conformity", "Benevolence", "Universalism")
-
-  return(sums)
-}
-languages <- unique(data$Language)
-values.per.language <- sapply(languages, function(language) {
-  return(values.coarse.sum(data[data$Language == language,3:40]))
-})
-colnames(values.per.language) <- languages
-par(mar=c(4, 4, 0.4, 7))
-barplot(values.per.language, col=col10, las=1, ylab="Sentences")
-mtext("Language", side=1, line=2.5)
-legend("right", rev(rownames(values.per.language)), fill=rev(col10), inset=-0.11, xpd=TRUE, bty="n")
-grid(nx = NA, ny = NULL)
-dev.off()
 
 
-# Undecided cases
-values.coarse.sum(colSums(data[,3:40] == 0.5))/2
 
-value.attainment <- function(x, offset=1, check=1) {
+
+values.attainment <- function(x, offset=1, check=1) {
   attainment <- x[offset+2*(0:18)] == check
-  names(attainment) <- values
+  colnames(attainment) <- values
   return(attainment)
 }
-value.attained <- function(x) { return(value.attainment(x)) }
-value.constrained <- function(x) { return(value.attainment(x, offset=2)) }
-value.undecided <- function(x) { return(value.attainment(x, check=0.5)) }
-value.coarse.row <- function(x) {
+values.attained    <- value.attainment(data[,3:40])
+values.constrained <- value.attainment(data[,3:40], offset=2)
+values.undecided   <- value.attainment(data[,3:40], check=0.5)
+values.any <- values.undecided + values.attained + values.constrained > 0
+colnames(values.any) <- values
+values.coarse.row <- function(x) {
   coarse <- c(
     x[1] || x[2],            # self-direction
     x[3],                    # stimulation
@@ -191,10 +163,42 @@ value.coarse.row <- function(x) {
   )
   return(coarse)
 }
-value.coarse <- function(x) {
-  coarse <- t(apply(x, 1, value.coarse.row))
+values.coarse <- function(x) {
+  coarse <- t(apply(x, 1, values.coarse.row))
   colnames(coarse) <- c("Self-direction", "Stimulation", "Hedonism", "Achievement", "Power", "Security", "Tradition", "Conformity", "Benevolence", "Universalism")
   return(coarse)
 }
 
+pdf("sentences-with-value-per-language.pdf", width=14, height=7)
+languages <- unique(data$Language)
+values.per.language <- sapply(languages, function(language) {
+  return(colSums(values.coarse(values.any[data$Language == language,])))
+})
+colnames(values.per.language) <- languages
+par(mar=c(4, 4, 0.4, 7))
+barplot(values.per.language, col=col10, las=1, ylab="Sentences")
+mtext("Language", side=1, line=2.5)
+legend("right", rev(rownames(values.per.language)), fill=rev(col10), inset=-0.11, xpd=TRUE, bty="n")
+grid(nx = NA, ny = NULL)
+dev.off()
+
+
+
+counts.any <- colSums(values.any)
+attainments <- data.frame(
+  attained = colSums(values.attained) / counts.any,
+  undecided = colSums(values.undecided) / counts.any,
+  constrained = colSums(values.constrained) / counts.any
+)
+rownames(attainments) <- values
+
+counts.any.coarse <- colSums(value.coarse(values.any))
+attainments.coarse <- data.frame(
+  attained = colSums(values.coarse(values.attained)) / counts.any.coarse,
+  undecided = colSums(values.coarse(values.undecided)) / counts.any.coarse,
+  constrained = colSums(values.coarse(values.constrained)) / counts.any.coarse
+)
+
+attainments
+attainments.coarse
 
