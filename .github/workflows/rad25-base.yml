@@ -33,9 +33,9 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=semver,prefix="touche-webis-de/rad25-base:",pattern={{version}}
-            type=semver,prefix="touche-webis-de/rad25-base:",pattern={{major}}.{{minor}}
-            type=semver,prefix="touche-webis-de/rad25-base:",pattern={{major}}
+            type=semver,prefix=touche-webis-de/rad25-base:,pattern={{version}}
+            type=semver,prefix=touche-webis-de/rad25-base:,pattern={{major}}.{{minor}}
+            type=semver,prefix=touche-webis-de/rad25-base:,pattern={{major}}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
