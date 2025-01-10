@@ -31,11 +31,15 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: ${{ env.REGISTRY }}/touche25-retrieval-augmented-debating-base
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
+          labels: |
+            org.opencontainers.image.description=Base image for the Retrieval-Augmented Debating 2025 task
+            org.opencontainers.image.url=https://github.com/touche-webis-de/touche-code/tree/main/clef25/retrieval-augmented-debating/debating-systems/base
+            org.opencontainers.image.source=https://github.com/touche-webis-de/touche-code/tree/main/clef25/retrieval-augmented-debating/debating-systems/base
 
       - name: Build and push Docker image
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
