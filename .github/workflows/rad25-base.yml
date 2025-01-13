@@ -8,7 +8,9 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-base
-  SRC_PATH: ./clef25/retrieval-augmented-debating/debating-systems/base/
+  IMAGE_TITLE: "touche-rad25-base"
+  IMAGE_DESCRIPTION: "Base image for the Retrieval-Augmented Debating 2025 task"
+  SRC_PATH: clef25/retrieval-augmented-debating/debating-systems/base/
 
 jobs:
   build-and-publish:
@@ -37,11 +39,16 @@ jobs:
             type=match,pattern=v(\d.\d.\d),group=1
             type=match,pattern=v(\d.\d),group=1
             type=match,pattern=v(\d),group=1
+          labels: |
+            org.opencontainers.image.title=${{ env.IMAGE_TITLE }}
+            org.opencontainers.image.description=${{ env.IMAGE_DESCRIPTION }}
+            org.opencontainers.image.url=https://github.com/touche-webis-de/touche-code/tree/main/${{ env.SRC_PATH }}
+            org.opencontainers.image.source=https://github.com/touche-webis-de/touche-code/tree/main/${{ env.SRC_PATH }}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: ${{ env.SRC_PATH }}
+          context: ./${{ env.SRC_PATH }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
