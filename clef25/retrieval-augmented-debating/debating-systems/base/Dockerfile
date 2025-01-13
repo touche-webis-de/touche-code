@@ -1,5 +1,9 @@
 ARG BASE_IMAGE=ubuntu:24.04
 
+LABEL org.opencontainers.image.description="Base image for the Retrieval-Augmented Debating 2025 task"
+LABEL org.opencontainers.image.url="https://github.com/touche-webis-de/touche-code/tree/main/clef25/retrieval-augmented-debating/debating-systems/base"
+LABEL org.opencontainers.image.source="https://github.com/touche-webis-de/touche-code/tree/main/clef25/retrieval-augmented-debating/debating-systems/base"
+
 FROM ${BASE_IMAGE}
 ARG NVM_VERSION=0.40.1
 ARG NODE_VERSION=23.6.0
