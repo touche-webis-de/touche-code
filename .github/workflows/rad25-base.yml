@@ -7,8 +7,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ touche-webis-de/touche25-retrieval-augmented-debating-base }}
-  SRC_PATH: ${{ ./clef25/retrieval-augmented-debating/debating-systems/base/ }}
+  IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-base
+  SRC_PATH: ./clef25/retrieval-augmented-debating/debating-systems/base/
 
 jobs:
   build-and-publish:

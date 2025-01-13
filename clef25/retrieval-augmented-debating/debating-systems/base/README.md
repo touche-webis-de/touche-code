@@ -13,7 +13,7 @@ The image is built automatically on [Github](https://github.com/touche-webis-de/
 ```
 # After push of changes
 version=X.X.X # semantic versioning, check Github for last version
-git tag "v$version"
-git push origin "v$version"
+git tag "rad25-base-v$version"
+git push origin "rad25-base-v$version"
 ```
 
