@@ -1,13 +1,19 @@
 # Baseline Debating Systems for Retrieval-Augmented Debating 2025
 
+We highly recommend that you use one of our systems as a starting point to develop your own system. They are all build on top of our [base image](base/) to ensure they can be used both within and outside of our submission system TIRA. This also allows you to run your system in [GenIRSim](https://github.com/webis-de/GenIRSim) using the [configuration](base/touche25-rad-tira.json) that we use in TIRA.
 
-- [Base](base/). Code for the base docker image which already contains the required user simulation logic.
+Copy one of the directories that is closest to what you have in mind (e.g., `basic-elastic-js`) to your repository and start from there.
 
-
+Test:
 ```
+# Change to your image (e.g., 'myimage' if you build it using 'docker build -t myimage .')
+IMAGE=ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-basic-elastic-js:latest
+
+# Run your system in GenIRSim (topics and users as defined in toy-parameter-file.tsv)
 docker run --rm -it \
   --volume $PWD:/data \
   --entrypoint /genirsim/run.sh
-  ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-basic-elastic-js:latest \
+  $IMAGE \
   --parameter-file=/data/toy-parameter-file.tsv --output-file=/data/simulation.jsonl
 ```
+
