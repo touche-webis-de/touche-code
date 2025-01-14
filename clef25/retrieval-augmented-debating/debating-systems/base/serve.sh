@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Starting retrieval system"
+echo "Starting retrieval system: ./start.sh $@"
 pushd /app
-./start.sh &
+./start.sh $@ &
 popd
 
 # see https://stackoverflow.com/a/50055449

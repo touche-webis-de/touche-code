@@ -3,19 +3,26 @@ async function reply(messages) {
   const claim = messages[messages.length - 1].content; // take last message
   const topResult = (await queryElastic(claim))[0]; // get top result from Elastic
   console.log(JSON.stringify(topResult));
-  return topResult.counter; // get counter to top result
+  return topResult.text; // get counter to top result
 }
 
 
 // Simple function to query the RAD Elasticsearch server
-async function queryElastic(claim, size=1, url="https://elastic-genirsim.web.webis.de/kialo/") {
+async function queryElastic(claim, size=1, url="https://touche25-rad.webis.de/arguments/claimrev/") {
   const body = JSON.stringify({
     query: {
       match: {
-        claim: {
+        attacks: {
           query: claim
         }
       }
+    },
+    _source: {
+      excludes: [
+        "text_embedding_stella",
+        "supports_embedding_stella",
+        "attacks_embedding_stella"
+      ]
     }
   });
   const headers = new Headers();

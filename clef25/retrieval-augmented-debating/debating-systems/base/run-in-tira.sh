@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CONFIGURATION_FILE=
 PARAMETER_FILE=
+CONFIGURATION_FILE=/genirsim/touche25-rad-tira.json
 OUTPUT_FILE=/dev/stdout
 
 for i in "$@"; do
@@ -17,6 +17,10 @@ for i in "$@"; do
     -o=*|--output-file=*)
       OUTPUT_FILE="${i#*=}"
       shift # past argument=value
+      ;;
+    --)
+      shift # pass remaining arguments to start.sh
+      break
       ;;
     -*|--*)
       echo "Unknown option $i"
@@ -34,10 +38,11 @@ if [ "$CONFIGURATION_FILE" == "" ];then
   exit 2
 fi
 
-echo "Starting retrieval system"
+echo "Starting retrieval system: ./start.sh $@"
 pushd /app
-./start.sh &
+ ./start.sh $@ &
 popd
+
 
 # see https://stackoverflow.com/a/50055449
 echo "Waiting for port 8080 to become available"

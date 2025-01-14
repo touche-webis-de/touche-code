@@ -3,7 +3,7 @@ ARG BASE_IMAGE=ubuntu:24.04
 FROM ${BASE_IMAGE}
 ARG NVM_VERSION=0.40.1
 ARG NODE_VERSION=23.6.0
-ARG GENIRSIM_VERSION=0.5.3
+ARG GENIRSIM_VERSION=0.6.0
 
 # App
 EXPOSE 8080
@@ -29,7 +29,7 @@ RUN wget https://github.com/webis-de/GenIRSim/archive/refs/tags/v${GENIRSIM_VERS
   && unzip v${GENIRSIM_VERSION}.zip "GenIRSim-${GENIRSIM_VERSION}/static/*" \
   && mv GenIRSim-${GENIRSIM_VERSION}/static . \
   && rm -r v${GENIRSIM_VERSION}.zip GenIRSim-${GENIRSIM_VERSION}
-COPY run-in-tira.sh serve.sh ./
+COPY run-in-tira.sh serve.sh touche25-rad-tira.json ./
 
 # prepare for app
 WORKDIR /app

@@ -1,0 +1,10 @@
+{
+  "evaluation": {
+    "evaluators": {
+      "Readability": {
+        "class": "ReadabilityEvaluator",
+        "measure": "fleschKincaidGrade"
+      }
+    }
+  }
+}
