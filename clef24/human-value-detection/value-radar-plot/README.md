@@ -16,11 +16,12 @@ Usage
 
 File format of input file (tab-separated):
 ```
-<name>	<color>	<score-for-self-direction-thought>	<score-for-self-direction-action>	...
+<name>	<color>	<line-type>  <score-for-self-direction-thought>	<score-for-self-direction-action>	...
 ```
 Where
 - `<name>` is the name for the legend (or empty if the line should not be part of the legend)
 - `<color>` is a color as recognized by R, like `blue` or `#0000FF` or `#0000FF88` (the last one is half-transparent)
+- `<line-type>` is the R line type (1 = solid, ...)
 - `<score-for-...>` is either `-` or a value between 0 and 1
 
 See the [example.tsv](example-data/example.tsv) for reference.
