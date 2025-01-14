@@ -29,7 +29,7 @@ RUN wget https://github.com/webis-de/GenIRSim/archive/refs/tags/v${GENIRSIM_VERS
   && unzip v${GENIRSIM_VERSION}.zip "GenIRSim-${GENIRSIM_VERSION}/static/*" \
   && mv GenIRSim-${GENIRSIM_VERSION}/static . \
   && rm -r v${GENIRSIM_VERSION}.zip GenIRSim-${GENIRSIM_VERSION}
-COPY run-in-tira.sh serve.sh touche25-rad-tira.json ./
+COPY run.sh serve.sh touche25-rad-tira.json ./
 
 # prepare for app
 WORKDIR /app
