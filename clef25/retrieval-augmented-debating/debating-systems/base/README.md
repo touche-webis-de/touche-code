@@ -4,8 +4,12 @@ Build your image FROM this image. Add all your parts in `/app`. Add a shell scri
 
 ## Entrypoints
 - `/app/start.sh` (default): Script that starts your debating system on port 8080
-- `/genirsim/serve.sh`: Starts the GenIRSim web application (like [genirsim.webis.de](https://genirsim.webis.de/)) on port 8000 with access to your debating system on `http://localhost:8080`
-- `/genirsim/run-in-tira.sh --configuration-file=<FILE> --parameter-file=<FILE> --output-file=<FILE>`: Use this line as command in TIRA
+- `/genirsim/serve.sh`: Starts the GenIRSim web application (like [genirsim.webis.de](https://genirsim.webis.de/)) on port 8000 with access to your debating system on `http://localhost:8080`. All paramters are passed to the `/app/start.sh`
+- `/genirsim/run-in-tira.sh`: Use entrypoint in TIRA. Parameters:
+  - `--configuration-file=<FILE>`: Uses the [touche25-rad-tira.json](touche25-rad-tira.json) by default
+  - `--parameter-file=<FILE>`
+  - `--output-file=<FILE>`
+  - `--`: Everything after this parameter is passed to the `/app/start.sh`
 
 
 ## Development
