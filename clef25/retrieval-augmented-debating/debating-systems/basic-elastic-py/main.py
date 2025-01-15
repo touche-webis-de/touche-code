@@ -31,7 +31,7 @@ def query_elastic(claim, size=1):
                     "query": claim
                 }
             }
-        }, source_excludes=["text_embedding_stella", "supports_embedding_stella", "attacks_embedding_stella"])
+        }, source_excludes=["text_embedding_stella", "supports_embedding_stella", "attacks_embedding_stella"], size=size)
     rank = 1
     for hit in response["hits"]["hits"]:
         result = hit["_source"]
