@@ -16,7 +16,7 @@ IMAGE=ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-basic-elasti
 # Run your system in GenIRSim (topics and users as defined in toy-parameter-file.tsv)
 docker run --rm -it \
   --volume $PWD:/data \
-  --entrypoint /genirsim/run.sh
+  --entrypoint /genirsim/run.sh \
   $IMAGE \
   --parameter-file=/data/toy-parameter-file.tsv --output-file=/data/simulation.jsonl
 ```
