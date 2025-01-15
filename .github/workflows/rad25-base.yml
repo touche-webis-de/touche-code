@@ -54,3 +54,26 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: version:${{ steps.meta.outputs.version }}
 
+      - name: Extract tags for Docker (py3.13)
+        id: metapy
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=match,pattern=v(\d.\d.\d),group=1
+            type=match,pattern=v(\d.\d),group=1
+            type=match,pattern=v(\d),group=1
+          flavor: |
+            suffix=py3.13
+
+      - name: Build and push Docker image (py3.13)
+        uses: docker/build-push-action@v6
+        with:
+          context: ./${{ env.SRC_PATH }}
+          push: true
+          tags: ${{ steps.metapy.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            version:${{ steps.meta.outputs.version }}
+            BASE_IMAGE=python:3.13-slim
+
