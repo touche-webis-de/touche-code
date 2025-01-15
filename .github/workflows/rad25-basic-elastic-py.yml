@@ -1,0 +1,56 @@
+name: Publish RAD25 Basic Elastic (Python) image to GitHub Packages
+
+on:
+  push:
+    tags:
+      - rad25-basic-elastic-py-v*
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-basic-elastic-py
+  IMAGE_TITLE: "touche-rad25-basic-elastic-py"
+  IMAGE_DESCRIPTION: "Basic Elastic System for the Retrieval-Augmented Debating 2025 task (Python)"
+  SRC_PATH: clef25/retrieval-augmented-debating/debating-systems/basic-elastic-py
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=match,pattern=v(\d.\d.\d),group=1
+            type=match,pattern=v(\d.\d),group=1
+            type=match,pattern=v(\d),group=1
+          labels: |
+            org.opencontainers.image.title=${{ env.IMAGE_TITLE }}
+            org.opencontainers.image.description=${{ env.IMAGE_DESCRIPTION }}
+            org.opencontainers.image.url=https://github.com/touche-webis-de/touche-code/tree/main/${{ env.SRC_PATH }}
+            org.opencontainers.image.source=https://github.com/touche-webis-de/touche-code/tree/main/${{ env.SRC_PATH }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./${{ env.SRC_PATH }}
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: version:${{ steps.meta.outputs.version }}
+
