@@ -25,6 +25,7 @@ def reply(messages: List[Message]) -> str:
 
 # Simple function to query the RAD Elasticsearch server
 def query_elastic(claim, size=1):
+    # see https://elasticsearch-py.readthedocs.io/en/v8.17.0/api/elasticsearch.html#elasticsearch.client.Elasticsearch.search
     response = client.search(index=index, query={
             "match": {
                 "attacks": {
