@@ -7,9 +7,9 @@ Examples:
 
 
 ## API
-Your server (started through `/app/start.sh`) has to consume a JSON object that has at least the property messages, which is an array of message objects. Each message object has the string property role, which is either assistant or user, and the string property content that contains the message text.
+Your server (started through `/app/start.sh`) has to consume a JSON object that has at least the property messages, which is an array of message objects. Each message object has the string property `role`, which is either `"assistant"` or `"user"`, and the string property `content` that contains the message text.
 
-Your server has to produce a JSON object that has at least the property message, which is the response message (thus role has to be assistant).
+Your server has to produce a JSON object that has at least the properties `content`, which is the text of the response message, and `arguments`, which is a list of objects corresponding to the arguments from our collection that the response is based on and that have at least the property `id`, which is the ID of the respective argument in our collection.
 
 Example:
 ```
@@ -27,7 +27,12 @@ curl -X POST http://localhost:8080 -H "Content-Type: application/json" -d '{
 ```
 Response:
 ```
-{"message":{"role":"assistant","content":"The \"slippery slope\" is not always a fallacy."}}
+{
+  "content":"The \"slippery slope\" is not always a fallacy.",
+  "arguments": [
+    { "id": "TODO" }
+  ]
+}
 ```
 
 
