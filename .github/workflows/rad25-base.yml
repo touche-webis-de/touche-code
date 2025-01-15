@@ -45,15 +45,6 @@ jobs:
             org.opencontainers.image.url=https://github.com/touche-webis-de/touche-code/tree/main/${{ env.SRC_PATH }}
             org.opencontainers.image.source=https://github.com/touche-webis-de/touche-code/tree/main/${{ env.SRC_PATH }}
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v6
-        with:
-          context: ./${{ env.SRC_PATH }}
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          build-args: version:${{ steps.meta.outputs.version }}
-
       - name: Extract tags for Docker (py3.13)
         id: metapy
         uses: docker/metadata-action@v5
@@ -64,7 +55,19 @@ jobs:
             type=match,pattern=v(\d.\d),group=1
             type=match,pattern=v(\d),group=1
           flavor: |
-            suffix=py3.13
+            suffix=-py3.13
+
+      - name: Extract tags for Docker (pytorch2.5.1)
+        id: metapytorch
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=match,pattern=v(\d.\d.\d),group=1
+            type=match,pattern=v(\d.\d),group=1
+            type=match,pattern=v(\d),group=1
+          flavor: |
+            suffix=-pytorch2.5.1
 
       - name: Build and push Docker image (py3.13)
         uses: docker/build-push-action@v6
@@ -76,4 +79,24 @@ jobs:
           build-args: |
             version:${{ steps.meta.outputs.version }}
             BASE_IMAGE=python:3.13-slim
+
+      - name: Build and push Docker image (pytorch2.5.1)
+        uses: docker/build-push-action@v6
+        with:
+          context: ./${{ env.SRC_PATH }}
+          push: true
+          tags: ${{ steps.metapytorch.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            version:${{ steps.meta.outputs.version }}
+            BASE_IMAGE=pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./${{ env.SRC_PATH }}
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: version:${{ steps.meta.outputs.version }}
 
