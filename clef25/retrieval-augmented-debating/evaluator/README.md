@@ -12,3 +12,8 @@ git tag "rad25-evaluator-v$version"
 git push origin "rad25-evaluator-v$version"
 ```
 
+## TIRA
+```
+/app/evaluate.sh --run-directory=${inputRun} --ground-truth-directory=${inputDataset} --output-directory=${outputDir}
+```
+
