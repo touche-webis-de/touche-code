@@ -4,6 +4,7 @@ Build your image FROM this image. Add your code in `/app`. Add an executable she
 
 Examples:
   - [Basic Elastic System (JavaScript)](../basic-elastic-js/)
+  - [Basic Elastic System (Python)](../basic-elastic-py/)
 
 
 ## API
@@ -30,7 +31,7 @@ Response:
 {
   "content":"The \"slippery slope\" is not always a fallacy.",
   "arguments": [
-    { "id": "TODO" }
+    { "id": "15978.994", ... }
   ]
 }
 ```

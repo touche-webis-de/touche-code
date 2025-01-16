@@ -3,7 +3,7 @@ async function reply(messages) {
   const claim = messages[messages.length - 1].content; // take last message
   const topResult = (await queryElastic(claim))[0]; // get top result from Elastic
   console.log(JSON.stringify(topResult));
-  return topResult.text; // get counter to top result
+  return [topResult.text, [topResult]]; // get counter to top result
 }
 
 
@@ -65,11 +65,10 @@ const server = http.createServer(async (request, response) => {
 
     try {
       // generate answer
+      const [content, args] = await reply(requestJson.messages)
       const answer = JSON.stringify({
-        message: {
-          role: "assistant",
-          content: await reply(requestJson.messages)
-        }
+        content: content,
+        arguments: args
       });
 
       // write response
