@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<arguments>
+  <argument>
+    <id>1-1</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation increases work efficiency</claim>
+  </argument>
+  <argument>
+    <id>1-2</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation allows workers to focus on complex tasks</claim>
+  </argument>
+  <argument>
+    <id>1-3</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation increases productivity in industries</claim>
+  </argument>
+  <argument>
+    <id>1-4</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation reduces human error in repetitive tasks</claim>
+  </argument>
+  <argument>
+    <id>1-5</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation leads to significant job displacement for workers</claim>
+  </argument>
+  <argument>
+    <id>2-1</id>
+    <topic>Renewable Energy</topic>
+    <claim>Renewable energy production is dependent on weather conditions</claim>
+  </argument>
+  <argument>
+    <id>2-2</id>
+    <topic>Renewable Energy</topic>
+    <claim>Fossil fuels contribute heavily to pollution</claim>
+  </argument>
+  <argument>
+    <id>2-3</id>
+    <topic>Renewable Energy</topic>
+    <claim>Renewable energy sources are virtually limitless</claim>
+  </argument>
+  <argument>
+    <id>2-4</id>
+    <topic>Renewable Energy</topic>
+    <claim>Renewable energy reduces greenhouse gases</claim>
+  </argument>
+  <argument>
+    <id>3-1</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social Media contributes to mental health issues</claim>
+  </argument>
+  <argument>
+    <id>3-2</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media connects people across diverse cultures</claim>
+  </argument>
+  <argument>
+    <id>3-3</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media connects people across countries</claim>
+  </argument>
+  <argument>
+    <id>3-4</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media fosters cyberbullying</claim>
+  </argument>
+</arguments>
