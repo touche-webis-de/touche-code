@@ -4,6 +4,9 @@ from elasticsearch import Elasticsearch
 from dotenv import load_dotenv
 import os
 import json
+import clip
+import torch
+from PIL import Image
 
 load_dotenv()
 # start the elastic container with the following command: curl -fsSL https://elastic.co/start-local | sh
@@ -17,6 +20,10 @@ es = Elasticsearch(
 
 print(es.ping())
 
+# Load CLIP model and preprocessing pipeline for image embeddings
+device = torch.device("cpu")  # Use "cpu", "mps" (for Apple Silicon), or "cuda" (for GPU)
+model, preprocess = clip.load("ViT-B/32", device=device)
+
 INDEX_NAME = "image_dataset"
 
 # define mapping for the index
@@ -27,11 +34,10 @@ index_mapping = {
             "image_url": {"type": "text"},
             "image_caption": {"type": "text"},
             "image_text": {"type": "text"},
-            "phash": {"type": "keyword"},
-            "annotations": {"type": "nested"},
-            "page_url": {"type": "text"},
-            "rankings": {"type": "nested"},
-            "nodes": {"type": "nested"},
+            "image_embedding": {            # CLIP image embedding
+                "type": "dense_vector",  
+                "dims": 512
+            }
         }
     }
 }
@@ -48,19 +54,20 @@ BASE_PATH = "./images"
 def index_dataset(base_path):
     for prefix_dir in os.listdir(base_path):
         prefix_path = os.path.join(base_path, prefix_dir)
-        if os.path.isdir(prefix_path):  # Prüfen, ob Präfix-Ordner
+        if os.path.isdir(prefix_path): 
             for image_hash_dir in os.listdir(prefix_path):
                 image_dir = os.path.join(prefix_path, image_hash_dir)
-                if os.path.isdir(image_dir):  # Prüfen, ob Bildordner
-                    # Hier wird mit dem Indexieren begonnen
+                if os.path.isdir(image_dir): 
                     process_image_folder(image_dir)
 
 
+
 def process_image_folder(image_dir):
-    image_id = os.path.basename(image_dir)  # Ordnername = Image ID
+    image_id = os.path.basename(image_dir) 
     image_url = load_file(os.path.join(image_dir, "image-url.txt"))
     image_caption = load_file(os.path.join(image_dir, "image-caption.txt"))
     image_text = load_file(os.path.join(image_dir, "image-text.txt"))
+    image_embedding = create_embedding(image_dir, "image.webp")
     
     # Process web pages
     pages_dir = os.path.join(image_dir, "pages")
@@ -74,6 +81,7 @@ def process_image_folder(image_dir):
                 "image_url": image_url,
                 "image_caption": image_caption,
                 "image_text": image_text,
+                "image_embedding": image_embedding
             }
             
             # Elasticsearch indexing
@@ -101,6 +109,26 @@ def load_jsonl(filepath):
         with open(filepath, "r", encoding="utf-8") as f:
             return [json.loads(line.strip()) for line in f]
     return []
+
+
+# create the embedding for one image
+def create_embedding(root, file):
+    image_vector = []
+    if file.lower().endswith(".webp"):
+        file_path = os.path.join(root, file)
+        try:
+            # Load and preprocess the image
+            image = preprocess(Image.open(file_path)).unsqueeze(0).to(device)
+            
+            # Generate the embedding
+            with torch.no_grad():
+                image_features = model.encode_image(image)
+            
+            image_vector = image_features.cpu().numpy()
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
+    return image_vector
+
 
 
 index_dataset(BASE_PATH)
