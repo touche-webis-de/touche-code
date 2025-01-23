@@ -3,26 +3,18 @@
 from elasticsearch import Elasticsearch
 from dotenv import load_dotenv
 import os
+import pandas as pd
 import json
-import clip
-import torch
-from PIL import Image
 
 load_dotenv()
 # start the elastic container with the following command: curl -fsSL https://elastic.co/start-local | sh
 # then copy the password into the .env file
 password = os.getenv("ELASTICSEARCH_PASSWORD") # set the password in the .env file
 
-es = Elasticsearch(
-    "http://localhost:9200",   
-    basic_auth=("elastic", password), 
-)
+es = Elasticsearch("http://localhost:9200", basic_auth=("elastic", password))
 
 print(es.ping())
 
-# Load CLIP model and preprocessing pipeline for image embeddings
-device = torch.device("cpu")  # Use "cpu", "mps" (for Apple Silicon), or "cuda" (for GPU)
-model, preprocess = clip.load("ViT-B/32", device=device)
 
 INDEX_NAME = "image_dataset"
 
@@ -67,7 +59,7 @@ def process_image_folder(image_dir):
     image_url = load_file(os.path.join(image_dir, "image-url.txt"))
     image_caption = load_file(os.path.join(image_dir, "image-caption.txt"))
     image_text = load_file(os.path.join(image_dir, "image-text.txt"))
-    image_embedding = create_embedding(image_dir, "image.webp")
+    image_embedding = load_embedding(image_dir)
     
     # Process web pages
     pages_dir = os.path.join(image_dir, "pages")
@@ -111,23 +103,16 @@ def load_jsonl(filepath):
     return []
 
 
-# create the embedding for one image
-def create_embedding(root, file):
-    image_vector = []
-    if file.lower().endswith(".webp"):
-        file_path = os.path.join(root, file)
-        try:
-            # Load and preprocess the image
-            image = preprocess(Image.open(file_path)).unsqueeze(0).to(device)
-            
-            # Generate the embedding
-            with torch.no_grad():
-                image_features = model.encode_image(image)
-            
-            image_vector = image_features.cpu().numpy()
-        except Exception as e:
-            print(f"Error processing {file_path}: {e}")
-    return image_vector
+# load the embeddings from csv file by image_id
+def load_embedding(root):
+    embedding_df = pd.read_csv("image_embeddings.csv")
+    matching_row = embedding_df.loc[embedding_df['image_id'] == os.path.basename(root)]
+    
+    if len(matching_row) > 0:
+        return matching_row['image_embedding'].values
+    else:
+        # handle the case where no matching row is found (e.g., raise an exception or return a default value)
+        pass
 
 
 
