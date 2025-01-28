@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 import json
+import numpy as np
+import re
 
 load_dotenv()
 # start the elastic container with the following command: curl -fsSL https://elastic.co/start-local | sh
@@ -34,12 +36,10 @@ index_mapping = {
     }
 }
 
-# create index if not exists
-if not es.indices.exists(index=INDEX_NAME):
-    es.indices.create(index=INDEX_NAME, body=index_mapping)
-    print(f"Index '{INDEX_NAME}' created.")
-else:
-    print(f"Index '{INDEX_NAME}' already exist.")
+#delete index if existes and create new one
+es.options(ignore_status=[400, 404]).indices.delete(index=INDEX_NAME)
+es.indices.create(index=INDEX_NAME, body=index_mapping)
+
 
 BASE_PATH = "./images" 
 
@@ -108,11 +108,21 @@ def load_embedding(root):
     embedding_df = pd.read_csv("image_embeddings.csv")
     matching_row = embedding_df.loc[embedding_df['image_id'] == os.path.basename(root)]
     
-    if len(matching_row) > 0:
-        return matching_row['image_embedding'].values
+    if not matching_row.empty:
+        # Convert the string representation of the embedding to a list of floats
+        embedding_str = matching_row['image_embedding'].values[0]  # Get the string value
+        embedding_list = embedding_str.split(" ")
+
+        flat_list = [re.sub(r'[\[\]\n]', '', item) for sublist in embedding_list for item in sublist.split()]
+        flat_list = [item for item in flat_list if item]
+        float_values = [float(x) for x in flat_list]
+        return float_values
+
+
     else:
-        # handle the case where no matching row is found (e.g., raise an exception or return a default value)
-        pass
+        # Handle the case where no matching row is found
+        return None
+
 
 
 
