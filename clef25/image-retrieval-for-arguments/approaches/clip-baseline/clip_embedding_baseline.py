@@ -69,14 +69,15 @@ def get_results(arguments):
             continue
 
         results = search_similar_images(argument_embedding.tolist())
-        all_results.append({
-            "argument_id": argument_id,
-            "method": "retrieval",
-            "image_id": results[0]["image_id"] if results else "N/A",
-            "rationale": "OPTIONAL",
-            "rank": results[0]["rank"] if results else "N/A",
-            "tag": "bm25-baseline"
-        })
+        for result in results:
+            all_results.append({
+                "argument_id": argument_id,
+                "method": "retrieval",
+                "image_id": result["image_id"],
+                "rationale": "OPTIONAL",
+                "rank": result["rank"],
+                "tag": "bm25-baseline"
+            })
     
     return all_results
 
