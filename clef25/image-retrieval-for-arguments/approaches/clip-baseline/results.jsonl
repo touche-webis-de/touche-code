@@ -1,0 +1,13 @@
+{"argument_id": "1-1", "method": "retrieval", "image_id": "Ib47538073bfd0506be0d2d3b", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "1-2", "method": "retrieval", "image_id": "Id73eb8f4af56047a9549f47e", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "1-3", "method": "retrieval", "image_id": "I4be0025b7af3aeb30a3761a4", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "1-4", "method": "retrieval", "image_id": "Id73eb8f4af56047a9549f47e", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "1-5", "method": "retrieval", "image_id": "Id937bb2ed12de477a7ea10b3", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "2-1", "method": "retrieval", "image_id": "Ie21c61aff20d1ff29a1403a4", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "2-2", "method": "retrieval", "image_id": "I40d2ad66b7646915cd8602c2", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "2-3", "method": "retrieval", "image_id": "Ie21c61aff20d1ff29a1403a4", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "2-4", "method": "retrieval", "image_id": "I196216eea08e1ab601d8f552", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "3-1", "method": "retrieval", "image_id": "I8272c0f7d60afd59034ec933", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "3-2", "method": "retrieval", "image_id": "I6163bad867b2d69d7b846391", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "3-3", "method": "retrieval", "image_id": "I6163bad867b2d69d7b846391", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
+{"argument_id": "3-4", "method": "retrieval", "image_id": "I8272c0f7d60afd59034ec933", "rationale": "OPTIONAL", "rank": 1, "tag": "bm25-baseline"}
