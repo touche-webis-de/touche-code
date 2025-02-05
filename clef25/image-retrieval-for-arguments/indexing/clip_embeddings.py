@@ -12,11 +12,13 @@ images_dir = './images'
 args_dir = './arguments.xml'
 csv_image_results = './image_embeddings.csv'
 csv_args_results = './argument_embeddings.csv'
+csv_core_aspects_results = './core_aspects_embeddings.csv'
 
 embedding_df = pd.DataFrame(columns=['image_id', 'image_embedding'])
 argument_embedding_df = pd.DataFrame(columns=['argument_id', 'argument_embedding'])
+core_aspects_df = pd.DataFrame(columns=['argument_id', 'core_aspects_embedding'])
 
-
+# encode images
 def encode_images(images_dir):
     cnt = 0
     for prefix_dir in os.listdir(images_dir):
@@ -51,7 +53,7 @@ def encode_images(images_dir):
     # save all embeddings with id in csv                        
     embedding_df.to_csv(csv_image_results, index=False)
 
-
+# enocode claim of the argument
 def encode_arguments(args_dir):
 
     tree = ET.parse(args_dir)
@@ -83,7 +85,38 @@ def encode_arguments(args_dir):
     argument_embedding_df.to_csv(csv_args_results, index=False)
 
 
+# encode core aspects of arguments
+def encode_core_aspects(args_dir):
+    tree = ET.parse(args_dir)
+    root = tree.getroot()
+
+    for arg in root.findall('.//argument'):
+        # extract id and coreAspects from arguments.xml
+        arg_id = arg.find('id').text if arg.find('id') is not None else None
+        core_Aspects = arg.find('coreAspects').text if arg.find('coreAspects') is not None else None
+        
+        # Process the core aspects
+        if core_Aspects:
+            try:
+                # Tokenize and preprocess the core aspects
+                text = clip.tokenize([core_Aspects]).to(device)
+                
+                # Generate the embedding and save to dataframe
+                with torch.no_grad():
+                    print(f"Processing argument {arg_id}")
+                    text_features = model.encode_text(text)
+                    text_vector = text_features.cpu().numpy()
+
+                    core_aspects_df.loc[len(core_aspects_df)] = [arg_id, text_vector]
+
+            except Exception as e:
+                print(f"Error processing argument {arg_id}: {e}")
+
+    # Save all argument embeddings with id in csv
+    core_aspects_df.to_csv(csv_core_aspects_results, index=False)
+
 if __name__ == "__main__":
-    print("\n### Encoding images and arguments ###")
-    encode_images(images_dir)
+    print("\n### Encoding images, arguments and core aspects ###")
+    #encode_images(images_dir)
     #encode_arguments(args_dir)
+    encode_core_aspects(args_dir)
