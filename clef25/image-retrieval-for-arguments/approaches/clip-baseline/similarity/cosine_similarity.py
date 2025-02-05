@@ -54,7 +54,7 @@ def get_image_embeddings_from_id(image_id):
         # Handle the case where no matching row is found
         return None
     
-
+# returns the embeddings aóf an argument by its argument_id
 def argument_embedding_from_id(argument_id):
     matching_row = argument_embedidng_df.loc[argument_embedidng_df['argument_id'] == argument_id]
 
@@ -90,25 +90,62 @@ def get_cosine_similarity_for_argument(argument_id):
         similarities.append(similarity[0][0])
 
     erg = [float(x) for x in similarities]
-    return statistics.mean(erg)
+    mean = statistics.mean(erg)
+    return erg, mean
 
 
+# return the cosine similarity matrix between all images of an argument
+def get_cosine_similarities_between_images(argument_id):
+    argument_embedding = argument_embedding_from_id(argument_id)
+    if argument_embedding is None:
+        return None
+
+    image_ids = get_images_for_argument(argument_id)
+    image_embeddings = [get_image_embeddings_from_id(image_id) for image_id in image_ids]
+
+    similarity_matrix = cosine_similarity(image_embeddings)
+    return similarity_matrix
+
+# generates and prints the results of the cosine similarity for the arguments
 def print_similarity_of_each_argument_results():
     argument_ids = get_argument_ids()
     similarities = []
     for argument_id in argument_ids:
-        similarity = get_cosine_similarity_for_argument(argument_id)
-        if similarity is not None:
-            similarities.append(similarity)
+        erg, mean = get_cosine_similarity_for_argument(argument_id)
+        if mean is not None:
+            similarities.append(mean)
 
+    # for each argument, calculate the cosine similiarity between the argument and all of its images individually
+    # then calculate the mean of all the cosine similarities to get one value for each of the 13 arguments
+
+    print(f"Similarity Scores: {similarities}")
     print(f"Number of arguments: {len(similarities)}")
-    print(f"Mean cosine similarity: {statistics.mean(similarities)}")
+    print(f"Mean cosine similarity of all arguments: {statistics.mean(similarities)}")
     print(f"Standard deviation of cosine similarities: {statistics.stdev(similarities)}")
     print(f"Min cosine similarity: {min(similarities)}")
     print(f"Max cosine similarity: {max(similarities)}")
 
+
+def calculate_metrics_images(argument_id):
+    similarity_matrix = get_cosine_similarities_between_images(argument_id)
+    if similarity_matrix is None:
+        return None
+    erg = []
+    for row in similarity_matrix:
+        for num in row:
+            if round(num, 2) != 1.0:
+                erg.append(num)
+    erg = set(erg)
+    print(f"Argument ID: {argument_id}")
+    print(f"Mean similarity: {statistics.mean(erg)}")
+    print(f"Max similarity: {max(erg)}")
+    print(f"Min similarity: {min(erg)}")
+
 if __name__ == "__main__":
     
-    print_similarity_of_each_argument_results()
+    #print_similarity_of_each_argument_results()
+    arg_ids = get_argument_ids()
+    for arg_id in arg_ids:
+        calculate_metrics_images(arg_id)
     
 
