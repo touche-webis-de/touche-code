@@ -9,9 +9,11 @@ import statistics
 baseline_results = Path("../results.jsonl")
 image_embeddings = Path("../../../indexing/image_embeddings.csv")
 argument_embeddings = Path("../../../indexing/argument_embeddings.csv")
+core_aspects_embeddings = Path("../../../indexing/core_aspects_embeddings.csv")
 
 images_embedding_df = pd.read_csv(image_embeddings)
 argument_embedidng_df = pd.read_csv(argument_embeddings)
+core_aspects_embedding_df = pd.read_csv(core_aspects_embeddings)
 
 # get all image ids for a given argument id
 def get_images_for_argument(argument_id):
@@ -73,9 +75,32 @@ def argument_embedding_from_id(argument_id):
         return None
     
 
-# Calculate the cosine similarity between one argument embedding its image embeddings and return the mean value    
-def get_cosine_similarity_for_argument(argument_id):
-    argument_embedding = argument_embedding_from_id(argument_id)
+# get embeddings of the core aspects of an argument by its argument_id
+def core_aspects_embedding_from_id(argument_id):
+    matching_row = core_aspects_embedding_df.loc[core_aspects_embedding_df['argument_id'] == argument_id]
+
+    if not matching_row.empty:
+        # Convert the string representation of the embedding to a list of floats
+        embedding_str = matching_row['core_aspects_embedding'].values[0]  # Get the string value
+        embedding_list = embedding_str.split(" ")
+
+        flat_list = [re.sub(r'[\[\]\n]', '', item) for sublist in embedding_list for item in sublist.split()]
+        flat_list = [item for item in flat_list if item]
+        float_values = [float(x) for x in flat_list]
+        return float_values
+
+    else:
+        # Handle the case where no matching row is found
+        return None
+    
+
+# Calculate the cosine similarity between one argument and its image embeddings and return the mean value    
+def get_cosine_similarity_for_argument(argument_id, by_core_aspects=True):
+    if by_core_aspects:
+        argument_embedding = core_aspects_embedding_from_id(argument_id)
+    else:
+        argument_embedding = argument_embedding_from_id(argument_id)
+
     if argument_embedding is None:
         return None
 
@@ -143,9 +168,10 @@ def calculate_metrics_images(argument_id):
 
 if __name__ == "__main__":
     
-    #print_similarity_of_each_argument_results()
-    arg_ids = get_argument_ids()
-    for arg_id in arg_ids:
-        calculate_metrics_images(arg_id)
+    print_similarity_of_each_argument_results()
+    
+    # arg_ids = get_argument_ids()
+    # for arg_id in arg_ids:
+    #     calculate_metrics_images(arg_id)
     
 
