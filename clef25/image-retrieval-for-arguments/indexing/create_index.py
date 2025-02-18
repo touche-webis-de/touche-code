@@ -31,7 +31,8 @@ index_mapping = {
             "image_embedding": {            # CLIP image embedding
                 "type": "dense_vector",  
                 "dims": 512
-            }
+            },
+            "website_text": {"type": "text"}
         }
     }
 }
@@ -66,6 +67,9 @@ def process_image_folder(image_dir):
     if os.path.isdir(pages_dir):
         for page_hash_dir in os.listdir(pages_dir):
             page_dir = os.path.join(pages_dir, page_hash_dir)
+            dir = os.path.join(page_dir, "snapshot")
+            if os.path.isdir(dir):
+                website_text = load_file(os.path.join(dir, "text.txt"))
             
             # Prepare document
             document = {
@@ -73,7 +77,8 @@ def process_image_folder(image_dir):
                 "image_url": image_url,
                 "image_caption": image_caption,
                 "image_text": image_text,
-                "image_embedding": image_embedding
+                "image_embedding": image_embedding,
+                "website_text": website_text
             }
             
             # Elasticsearch indexing
@@ -125,10 +130,10 @@ def load_embedding(root):
 
 
 
+if __name__ == "__main__":
+    index_dataset(BASE_PATH)
 
-index_dataset(BASE_PATH)
-
-print("Indexing completed.")
+    print("Indexing completed.")
 
 
 
