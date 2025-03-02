@@ -1,4 +1,4 @@
-name: Upload RAD25 Basic Elastic (JavaScript) to TIRA
+name: TIRA run RAD25 Basic Elastic (JavaScript)
 on: workflow_dispatch
 env:
   DATASET: retrieval-augmented-debating-2025/rad25-2025-01-16-toy-20250116-training 
@@ -26,4 +26,4 @@ jobs:
       - name: Build, test, and upload image
         run: |
           docker build -t registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:${{ env.TAG }} -f ${{ github.workspace }}/${{ env.BASE_SRC_PATH }}/${{ env.TAG }}/Dockerfile ${{ github.workspace }}/${{ env.BASE_SRC_PATH }}/${{ env.TAG }}
-          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN }} --input-dataset ${{ env.DATASET }} --image registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:${{ env.TAG } --push true --fail-if-output-is-empty
+          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN }} --input-dataset ${{ env.DATASET }} --image registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:${{ env.TAG }] --push true --fail-if-output-is-empty
