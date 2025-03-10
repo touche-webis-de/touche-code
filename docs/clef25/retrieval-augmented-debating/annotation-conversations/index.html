@@ -1,402 +1,460 @@
 <!DOCTYPE HTML>
 <html lang='en'>
 <head>
-<meta charset='utf-8'>
-<title>Touché RAD 2025 Conversation Annotation</title>
-<style>
-nav {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: black;
-  color: white;
-}
-body:not(.group-selected) nav,
-body:not(.group-selected) details,
-body.group-selected form {
-  display: none;
-}
+    <meta charset='utf-8'>
+    <title>Touché RAD 2025 Conversation Annotation</title>
+    <style>
+        nav {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
 
-summary {
-  cursor: pointer;
-}
-.guidelines {
-  margin-bottom: 20px;
-  background: lightgray;
-  padding-bottom: 1px;
-}
+        body:not(.group-selected) nav,
+        body:not(.group-selected) details,
+        body.group-selected form {
+            display: none;
+        }
 
-kbd {
-  border: 1px solid black;
-  box-shadow: 1px 1px black;
-  padding: 3px 5px;
-}
+        summary {
+            cursor: pointer;
+        }
 
-#annotations {
-  max-width: 1200px;
-}
+        .guidelines {
+            margin-bottom: 20px;
+            background: lightgray;
+            padding-bottom: 1px;
+        }
 
-.annotation {
-  display: flex;
-  margin: 20px;
-  border: 1px solid black;
-  gap: 10px;
-}
-.annotation .conversation {
-  padding: 5px;
-}
-.annotation .ratings {
-  position: sticky;
-  top: 0px;
-}
-.annotation .rating {
-  margin-bottom: 15px;
-  width: 400px;
-}
-.annotation .description {
-  padding: 15px;
-}
-.annotation .buttons {
-  margin-top: 5px;
-  color: gray;
-}
-.annotation .buttons div {
-  display: inline;
-  margin-right: 5px;
-}
+        kbd {
+            border: 1px solid black;
+            box-shadow: 1px 1px black;
+            padding: 3px 5px;
+        }
 
-.rated {
-  background: lightgreen;
-}
-.active {
-  background: lightcyan;
-}
+        #annotations {
+            max-width: 1200px;
+        }
 
-.turn {
-  max-width: 90%;
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 5px;
-  background-color: #E6F8B8;
-}
-.turn::before {
-  content: "User: ";
-  font-weight: bold;
-  display: inline;
-}
-.turn.assistant {
-  margin-left: auto;
-  background-color: #D3F8F7;
-}
-.turn.assistant::before {
-  content: "Assistant: ";
-}
-.turn.last {
-  border-color: #1e87f0;
-  border-width: 2px;
-}
-.arguments {
-  padding-left: 40px;
-}
-.arguments::before {
-  content: "Retrieved arguments:";
-  font-weight: bold;
-  margin-left: -40px;
-}
-</style>
-<script>
-const dimensions = [
-  {"dimension":"Quantity","question":"Does the marked response contain at least one (attack or defense) argument, and at most one of each type of defense and attack?","description":"A response can either attack the preceding user's argument, defend against that argument if it is an attack, or do both.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><i>1. No argument ↦ \"No\"</i><br><b>Assistant</b>: No, you are wrong.<br><br><i>2. Two attack arguments ↦ \"No\"</i><br><b>Assistant</b>: But they are pretty and they foster a sense of community!<br><br><i>3. One defense + one attack argument ↦ \"Yes\"</i><br><b>Assistant</b>: They decrease costs as parents have to buy less clothes overall. And they are pretty!", "buttons":["No", "Yes", "Don't know"]},
-  {"dimension":"Quality","question":"Can the marked response be deduced from the retrieved arguments?","description":"A response must be based on the evidence of the dataset. The retrieved arguments (blindly assuming they are true) must be sufficient to back up the response.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><b>Retrieved argument</b>: School uniforms can be cheaper than other clothing.<br><br><i>1. Not deducible (subsidies) ↦ \"No\"</i><br><b>Assistant</b>: Schools can offer subsidies to families in need to make school uniforms cheaper than normal clothing.<br><br><i>2. Exaggeration ↦ \"No\"</i><br><b>Assistant</b>: School uniforms are most often cheaper than other clothing.<br><br><i>3. Deducible ↦ \"Yes\"</i><br><b>Assistant</b>: Clothing other than school uniforms is sometimes even more expensive than school uniforms.", "buttons":["No", "Yes", "Don't know"]},
-  {"dimension":"Relation","question":"Is the marked response coherent with the conversation and does it express a contrary stance to the user?","description":"The connection between the preceding user's message and the response (i.e., which part of the response attacks or defends against which part of the user's message) must be clear. The response thus also has to be clearly against the user's stance, i.e., the response must contribute to the rejection of the user's stance as expressed in their message.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><i>1. Not opposing stance ↦ \"No\"</i><br><b>Assistant</b>: Studies tell that school uniforms indeed tend to be more expensive than other clothing.<br><br><i>2. Not coherent ↦ \"No\"</i><br><b>Assistant</b>: However, numerous studies have shown that group spirit promotes learning.<br><br><i>3. Coherent ↦ \"Yes\"</i><br><b>Assistant</b>: However, numerous studies have shown that the group spirit fostered by school uniforms promotes learning.", "buttons":["No", "Yes", "Don't know"]},
-  {"dimension":"Manner","question":"Is the marked response clear and precise?","description":"A response must be clear in its message, avoiding both ambiguity and verbosity.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><i>1. Ambiguous ↦ \"No\"</i><br><b>Assistant</b>: But when it comes to beauty, the choice between uniforms and other clothing is clear!<br><br><i>2. Overly verbose ↦ \"No\"</i><br><b>Assistant</b>: However, school uniforms are often perceived as more beautiful than regular clothes, considering their general aesthetics and an appropriate sense of fashion.<br><br><i>3. Clear ↦ \"Yes\"</i><br><b>Assistant</b>: However, school uniforms are often perceived as more beautiful than regular clothes.", "buttons":["No", "Yes", "Don't know"]}
-];
-</script>
-<template id="ratingTemplate">
-<div class="rating" onclick="activate(this, false)">
-<details>
-<summary class="question"></summary>
-<div class="description"></div>
-</details>
-<div class="buttons">
-</div>
-</div>
-</template>
+        .annotation {
+            display: flex;
+            margin: 20px;
+            border: 1px solid black;
+            gap: 10px;
+        }
 
-<template id="turnTemplate">
-<div class="turn">
-<span class="text"></span>
-</div>
-</template>
+        .annotation .conversation {
+            padding: 5px;
+        }
 
-<template id="annotationTemplate">
-<div class="annotation">
-<div class="conversation"></div>
-<div><div class="ratings"></div></div>
-</div>
-</template>
+        .annotation .ratings {
+            position: sticky;
+            top: 0px;
+        }
+
+        .annotation .rating {
+            margin-bottom: 15px;
+            width: 400px;
+        }
+
+        .annotation .description {
+            padding: 15px;
+        }
+
+        .annotation .buttons {
+            margin-top: 5px;
+            color: gray;
+        }
+
+        .annotation .buttons div {
+            display: inline;
+            margin-right: 5px;
+        }
+
+        .rated {
+            background: lightgreen;
+        }
+
+        .active {
+            background: lightcyan;
+        }
+
+        .turn {
+            max-width: 90%;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 5px;
+            background-color: #E6F8B8;
+        }
+
+        .turn::before {
+            content: "User: ";
+            font-weight: bold;
+            display: inline;
+        }
+
+        .turn.assistant {
+            margin-left: auto;
+            background-color: #D3F8F7;
+        }
+
+        .turn.assistant::before {
+            content: "Assistant: ";
+        }
+
+        .turn.last {
+            border-color: #1e87f0;
+            border-width: 2px;
+        }
+
+        .arguments {
+            padding-left: 40px;
+        }
+
+        .arguments::before {
+            content: "Retrieved arguments:";
+            font-weight: bold;
+            margin-left: -40px;
+        }
+    </style>
+    <script>
+        const dimensions = [
+            {
+                "dimension": "Quantity",
+                "question": "Does the marked response contain at least one (attack or defense) argument, and at most one of each type of defense and attack?",
+                "description": "A response can either attack the preceding user's argument, defend against that argument if it is an attack, or do both.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><i>1. No argument ↦ \"No\"</i><br><b>Assistant</b>: No, you are wrong.<br><br><i>2. Two attack arguments ↦ \"No\"</i><br><b>Assistant</b>: But they are pretty and they foster a sense of community!<br><br><i>3. One defense + one attack argument ↦ \"Yes\"</i><br><b>Assistant</b>: They decrease costs as parents have to buy less clothes overall. And they are pretty!",
+                "buttons": ["No", "Yes", "Don't know"]
+            },
+            {
+                "dimension": "Quality",
+                "question": "Can the marked response be deduced from the retrieved arguments?",
+                "description": "A response must be based on the evidence of the dataset. The retrieved arguments (blindly assuming they are true) must be sufficient to back up the response.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><b>Retrieved argument</b>: School uniforms can be cheaper than other clothing.<br><br><i>1. Not deducible (subsidies) ↦ \"No\"</i><br><b>Assistant</b>: Schools can offer subsidies to families in need to make school uniforms cheaper than normal clothing.<br><br><i>2. Exaggeration ↦ \"No\"</i><br><b>Assistant</b>: School uniforms are most often cheaper than other clothing.<br><br><i>3. Deducible ↦ \"Yes\"</i><br><b>Assistant</b>: Clothing other than school uniforms is sometimes even more expensive than school uniforms.",
+                "buttons": ["No", "Yes", "Don't know"]
+            },
+            {
+                "dimension": "Relation",
+                "question": "Is the marked response coherent with the conversation and does it express a contrary stance to the user?",
+                "description": "The connection between the preceding user's message and the response (i.e., which part of the response attacks or defends against which part of the user's message) must be clear. The response thus also has to be clearly against the user's stance, i.e., the response must contribute to the rejection of the user's stance as expressed in their message.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><i>1. Not opposing stance ↦ \"No\"</i><br><b>Assistant</b>: Studies tell that school uniforms indeed tend to be more expensive than other clothing.<br><br><i>2. Not coherent ↦ \"No\"</i><br><b>Assistant</b>: However, numerous studies have shown that group spirit promotes learning.<br><br><i>3. Coherent ↦ \"Yes\"</i><br><b>Assistant</b>: However, numerous studies have shown that the group spirit fostered by school uniforms promotes learning.",
+                "buttons": ["No", "Yes", "Don't know"]
+            },
+            {
+                "dimension": "Manner",
+                "question": "Is the marked response clear and precise?",
+                "description": "A response must be clear in its message, avoiding both ambiguity and verbosity.<br><br>Examples:<br><br><b>User</b>: It is not true that school uniforms decrease costs. They are expensive to buy!<br><br><i>1. Ambiguous ↦ \"No\"</i><br><b>Assistant</b>: But when it comes to beauty, the choice between uniforms and other clothing is clear!<br><br><i>2. Overly verbose ↦ \"No\"</i><br><b>Assistant</b>: However, school uniforms are often perceived as more beautiful than regular clothes, considering their general aesthetics and an appropriate sense of fashion.<br><br><i>3. Clear ↦ \"Yes\"</i><br><b>Assistant</b>: However, school uniforms are often perceived as more beautiful than regular clothes.",
+                "buttons": ["No", "Yes", "Don't know"]
+            }
+        ];
+    </script>
+    <template id="ratingTemplate">
+        <div class="rating" onclick="activate(this, false)">
+            <details>
+                <summary class="question"></summary>
+                <div class="description"></div>
+            </details>
+            <div class="buttons">
+            </div>
+        </div>
+    </template>
+
+    <template id="turnTemplate">
+        <div class="turn">
+            <span class="text"></span>
+        </div>
+    </template>
+
+    <template id="annotationTemplate">
+        <div class="annotation">
+            <div class="conversation"></div>
+            <div>
+                <div class="ratings"></div>
+            </div>
+        </div>
+    </template>
 
 </head>
 <body>
 
-<nav><button type="button" onclick="save()">save</button> (<span class="missing"></span> missing)</nav>
+<nav>
+    <button type="button" onclick="save()">save</button>
+    (<span class="missing"></span> missing)
+</nav>
 
 <details class="guidelines">
-<summary>Guidelines</summary>
-<ul>
-<li>TODO</li>
-<li>Hotkeys: <kbd>1</kbd> - <kbd>2</kbd> rate what is highlighted; <kbd>return</kbd> toggle rating description.</li>
-</ul>
+    <summary>Guidelines</summary>
+    <ul>
+        <li>TODO</li>
+        <li>Hotkeys: <kbd>1</kbd> - <kbd>2</kbd> rate what is highlighted; <kbd>return</kbd> toggle rating description.
+        </li>
+    </ul>
 </details>
 
 <main id="annotations"></main>
 
 <form method="GET">
-<h2>Touché RAD 2025 Conversation Annotation</h2>
-<div>
-<label for="annotator">Annotator:</label>
-<select id="annotator" name="annotator">
-<option value="null">Please select</option>
-<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-</select>
-</div>
-<button>Go to annotation</button>
+    <h2>Touché RAD 2025 Conversation Annotation</h2>
+    <div>
+        <label for="annotator">Annotator:</label>
+        <select id="annotator" name="annotator">
+            <option value="null">Please select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    </div>
+    <button>Go to annotation</button>
 </form>
 
-<nav><button type="button" onclick="save()">save</button> (<span class="missing"></span> missing)</nav>
+<nav>
+    <button type="button" onclick="save()">save</button>
+    (<span class="missing"></span> missing)
+</nav>
 
 <script>
-const STORAGE_PREFIX = "rad-25-";
+    const STORAGE_PREFIX = "rad-25-";
 
-const searchParams = new URLSearchParams(window.location.search);
-const annotator = parseInt(searchParams.get("annotator"));
+    const searchParams = new URLSearchParams(window.location.search);
+    const annotator = parseInt(searchParams.get("annotator"));
 
-function twoDigit(number) {
-  if (number < 10) {
-    return "0" + number;
-  } else {
-    return "" + number;
-  }
-}
-
-// https://stackoverflow.com/a/18197341
-function save() {
-  const labels = {};
-  labels["annotator"] = annotator;
-  for (const storageKey of Object.keys(localStorage)) {
-    if (storageKey.startsWith(STORAGE_PREFIX)) {
-      labels[storageKey.substring(STORAGE_PREFIX.length)] = localStorage[storageKey];
+    function twoDigit(number) {
+        if (number < 10) {
+            return "0" + number;
+        } else {
+            return "" + number;
+        }
     }
-  }
 
-  const now = new Date();
-  const filename = STORAGE_PREFIX + "annotator" + annotator + "-" + now.getFullYear() + "-" + twoDigit(now.getMonth() + 1) + "-" + twoDigit(now.getDate()) + "-" + twoDigit(now.getHours()) + "-" + twoDigit(now.getMinutes()) + "-" + twoDigit(now.getSeconds()) + ".json";
+    // https://stackoverflow.com/a/18197341
+    function save() {
+        const labels = {};
+        labels["annotator"] = annotator;
+        for (const storageKey of Object.keys(localStorage)) {
+            if (storageKey.startsWith(STORAGE_PREFIX)) {
+                labels[storageKey.substring(STORAGE_PREFIX.length)] = localStorage[storageKey];
+            }
+        }
 
-  const element = document.createElement('a');
-  element.setAttribute('href', 'data:application/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(labels)));
-  element.setAttribute('download', filename);
-  element.style.display = 'none';
-  document.body.appendChild(element);
-  element.click();
-  document.body.removeChild(element);
-}
+        const now = new Date();
+        const filename = STORAGE_PREFIX + "annotator" + annotator + "-" + now.getFullYear() + "-" + twoDigit(now.getMonth() + 1) + "-" + twoDigit(now.getDate()) + "-" + twoDigit(now.getHours()) + "-" + twoDigit(now.getMinutes()) + "-" + twoDigit(now.getSeconds()) + ".json";
 
-function updateCounters() {
-  const missing = document.querySelectorAll(".rating:not(.rated)").length;
-  for (const missingElement of Array.from(document.querySelectorAll('.missing'))) {
-    missingElement.textContent = missing;
-  }
-}
-
-function nextRatingElement(ratingElement) {
-  if (ratingElement.nextElementSibling !== null) {
-    return ratingElement.nextElementSibling;
-  } else {
-    const annotationElement = ratingElement.closest('.annotation');
-    if (annotationElement.nextElementSibling !== null) {
-      return annotationElement.nextElementSibling.querySelector('.rating');
-    } else {
-      return null;
+        const element = document.createElement('a');
+        element.setAttribute('href', 'data:application/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(labels)));
+        element.setAttribute('download', filename);
+        element.style.display = 'none';
+        document.body.appendChild(element);
+        element.click();
+        document.body.removeChild(element);
     }
-  }
-}
-function previousRatingElement(ratingElement) {
-  if (ratingElement.previousElementSibling !== null) {
-    return ratingElement.previousElementSibling;
-  } else {
-    const annotationElement = ratingElement.closest('.annotation');
-    if (annotationElement.previousElementSibling !== null) {
-      const ratingElements = annotationElement.previousElementSibling.querySelectorAll('.rating');
-      return ratingElements[ratingElements.length - 1];
-    } else {
-      return null;
+
+    function updateCounters() {
+        const missing = document.querySelectorAll(".rating:not(.rated)").length;
+        for (const missingElement of Array.from(document.querySelectorAll('.missing'))) {
+            missingElement.textContent = missing;
+        }
     }
-  }
-}
 
-// https://stackoverflow.com/a/7557433
-function isElementInViewport(el) {
-  let rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
-
-// https://stackoverflow.com/q/76691769
-async function decompress(url) {
-  const ds = new DecompressionStream('gzip');
-  const response = await fetch(url);
-  const blobIn = await response.blob();
-  const streamIn = blobIn.stream().pipeThrough(ds);
-  const blobOut = await new Response(streamIn).blob();
-  return await blobOut.text();
-}
-
-function activate(element, scroll) {
-  if (element !== null) {
-    for (const activeElement of Array.from(document.querySelectorAll(".active"))) {
-      activeElement.classList.remove("active");
+    function nextRatingElement(ratingElement) {
+        if (ratingElement.nextElementSibling !== null) {
+            return ratingElement.nextElementSibling;
+        } else {
+            const annotationElement = ratingElement.closest('.annotation');
+            if (annotationElement.nextElementSibling !== null) {
+                return annotationElement.nextElementSibling.querySelector('.rating');
+            } else {
+                return null;
+            }
+        }
     }
-    element.classList.add("active");
-    if (scroll && !isElementInViewport(element)) {
-      element.scrollIntoView({behavior: "smooth"});
+
+    function previousRatingElement(ratingElement) {
+        if (ratingElement.previousElementSibling !== null) {
+            return ratingElement.previousElementSibling;
+        } else {
+            const annotationElement = ratingElement.closest('.annotation');
+            if (annotationElement.previousElementSibling !== null) {
+                const ratingElements = annotationElement.previousElementSibling.querySelectorAll('.rating');
+                return ratingElements[ratingElements.length - 1];
+            } else {
+                return null;
+            }
+        }
     }
-  }
-}
 
-function setLabel(radioElement) {
-  const key = radioElement.getAttribute("name");
-  const value = radioElement.getAttribute("value");
-  localStorage.setItem(STORAGE_PREFIX + key, value);
-
-  const ratingElement = radioElement.closest(".rating");
-  ratingElement.classList.add("rated");
-  updateCounters();
-  activate(nextRatingElement(ratingElement), true);
-}
-
-window.addEventListener("keydown", event => {
-  const ratingElement = document.querySelector(".active");
-  const triggeredElement = ratingElement.querySelector("[data-hotkey='" + event.key + "']");
-
-  if (event.key === "Tab" || event.key === "ArrowDown") {
-    event.preventDefault();
-    activate(nextRatingElement(ratingElement), true);
-  } else if (event.key === "ArrowUp") {
-    event.preventDefault();
-    activate(previousRatingElement(ratingElement), true);
-  } else if (event.key === "Enter" || event.key === "ArrowLeft" || event.key === "ArrowRight") {
-    event.preventDefault();
-    ratingElement.querySelector("summary").click();
-    ratingElement.scrollIntoView({behavior: "smooth"});
-  } else if (triggeredElement !== null) {
-    event.preventDefault();
-    triggeredElement.click();
-  }
-});
-
-const annotationsElement = document.getElementById('annotations');
-
-function htmlEntities(str) {
-    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
-
-function createAnnotationInterfaceForTurn(conversation, turn) {
-  const ratingTemplateElement = document.getElementById('ratingTemplate');
-  const turnTemplateElement = document.getElementById('turnTemplate');
-  const annotationTemplateElement = document.getElementById('annotationTemplate');
-
-  const annotationRoot = annotationTemplateElement.content.cloneNode(true);
-  const annotationElement = annotationRoot.querySelector('*');
-
-  // conversation
-  const conversationElement = annotationElement.querySelector('.conversation');
-  for (let t = 0; t <= turn; t += 1) {
-    const turnData = conversation["simulated_debate"][t];
-    const turnRoot = turnTemplateElement.content.cloneNode(true);
-    const turnElement = turnRoot.querySelector('*');
-    turnElement.classList.add(turnData["role"]);
-    if (t === turn) {
-      turnElement.classList.add("last");
+    // https://stackoverflow.com/a/7557433
+    function isElementInViewport(el) {
+        let rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
     }
-    turnElement.querySelector(".text").innerHTML = htmlEntities(turnData["content"]).replaceAll(/\n/g, "<br>");
-    conversationElement.appendChild(turnElement);
-  }
-  const argumentsElement = document.createElement("ol");
-  argumentsElement.classList.add("arguments");
-  for (const argumentData of conversation["simulated_debate"][turn]["arguments"]) {
-    const argumentElement = document.createElement("li");
-    argumentElement.textContent = argumentData["text"];
-    argumentsElement.appendChild(argumentElement);
-  }
-  conversationElement.appendChild(argumentsElement);
 
-  // ratings
-  const ratingsElement = annotationElement.querySelector('.ratings');
-  for (const dimension of dimensions) {
-    const ratingRoot = ratingTemplateElement.content.cloneNode(true);
-    const ratingElement = ratingRoot.querySelector('*');
-    const key = conversation['id'] + "-" + turn + "-" + dimension['dimension'].toLowerCase().replaceAll(' ', '-');
-    const buttonsElement = ratingElement.querySelector(".buttons");
-    let hotKey = 1
-    for (const radioValue of dimension['buttons']) {
-      const radioContainerElement = document.createElement("div");
-      const radioElement = document.createElement("input");
-      radioElement.setAttribute("type", "radio");
-      radioElement.setAttribute("name", key);
-      radioElement.setAttribute("value", radioValue.toLowerCase().replaceAll(" ", "-").replaceAll("'", ""));
-      radioElement.setAttribute("data-hotkey", hotKey);
-      radioElement.setAttribute("onchange", "setLabel(this)");
-      radioContainerElement.appendChild(radioElement);
-      const labelElement = document.createElement("label");
-      labelElement.textContent = radioValue + " (" + hotKey + ")";
-      radioContainerElement.appendChild(labelElement);
-      buttonsElement.appendChild(radioContainerElement);
-      hotKey += 1;
+    // https://stackoverflow.com/q/76691769
+    async function decompress(url) {
+        const ds = new DecompressionStream('gzip');
+        const response = await fetch(url);
+        const blobIn = await response.blob();
+        const streamIn = blobIn.stream().pipeThrough(ds);
+        const blobOut = await new Response(streamIn).blob();
+        return await blobOut.text();
     }
-    ratingElement.querySelector('.description').innerHTML = dimension['description'];
-    ratingElement.querySelector('.question').textContent = dimension['question'];
-    const value = localStorage.getItem(STORAGE_PREFIX + key);
-    if (value !== null) {
-      const radioElement = ratingElement.querySelector("[value='" + value + "']");
-      if (radioElement !== null) {
-        radioElement.checked = true;
+
+    function activate(element, scroll) {
+        if (element !== null) {
+            for (const activeElement of Array.from(document.querySelectorAll(".active"))) {
+                activeElement.classList.remove("active");
+            }
+            element.classList.add("active");
+            if (scroll && !isElementInViewport(element)) {
+                element.scrollIntoView({behavior: "smooth"});
+            }
+        }
+    }
+
+    function setLabel(radioElement) {
+        const key = radioElement.getAttribute("name");
+        const value = radioElement.getAttribute("value");
+        localStorage.setItem(STORAGE_PREFIX + key, value);
+
+        const ratingElement = radioElement.closest(".rating");
         ratingElement.classList.add("rated");
-      }
+        updateCounters();
+        activate(nextRatingElement(ratingElement), true);
     }
-    ratingsElement.appendChild(ratingElement);
-  }
 
-  annotationsElement.appendChild(annotationRoot);
-}
+    window.addEventListener("keydown", event => {
+        const ratingElement = document.querySelector(".active");
+        const triggeredElement = ratingElement.querySelector("[data-hotkey='" + event.key + "']");
 
-function createAnnotationInterfaceForConversation(conversation) {
-  for (let turn = 1; turn < conversation["simulated_debate"].length; turn += 2) {
-    createAnnotationInterfaceForTurn(conversation, turn);
-  }
-}
+        if (event.key === "Tab" || event.key === "ArrowDown") {
+            event.preventDefault();
+            activate(nextRatingElement(ratingElement), true);
+        } else if (event.key === "ArrowUp") {
+            event.preventDefault();
+            activate(previousRatingElement(ratingElement), true);
+        } else if (event.key === "Enter" || event.key === "ArrowLeft" || event.key === "ArrowRight") {
+            event.preventDefault();
+            ratingElement.querySelector("summary").click();
+            ratingElement.scrollIntoView({behavior: "smooth"});
+        } else if (triggeredElement !== null) {
+            event.preventDefault();
+            triggeredElement.click();
+        }
+    });
 
-function createAnnotationInterface(dataset) {
-  document.body.classList.add("group-selected");
-  for (const conversation of dataset) { // TODO: currently take all
-    createAnnotationInterfaceForConversation(conversation);
-  }
+    const annotationsElement = document.getElementById('annotations');
 
-  activate(document.querySelector(".rating:not(.rated)"), false);
-  updateCounters();
-}
+    function htmlEntities(str) {
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
 
-if (!isNaN(annotator)) {
-  decompress("touche25-rad-cmv-debates.jsonl.gzip")
-    .then(responseText => responseText.trim().split("\n").map(txt => JSON.parse(txt)))
-    .then(dataset => createAnnotationInterface(dataset));
-}
+    function createAnnotationInterfaceForTurn(conversation, turn) {
+        const ratingTemplateElement = document.getElementById('ratingTemplate');
+        const turnTemplateElement = document.getElementById('turnTemplate');
+        const annotationTemplateElement = document.getElementById('annotationTemplate');
+
+        const annotationRoot = annotationTemplateElement.content.cloneNode(true);
+        const annotationElement = annotationRoot.querySelector('*');
+
+        // conversation
+        const conversationElement = annotationElement.querySelector('.conversation');
+        for (let t = 0; t <= turn; t += 1) {
+            const turnData = conversation["simulated_debate"][t];
+            const turnRoot = turnTemplateElement.content.cloneNode(true);
+            const turnElement = turnRoot.querySelector('*');
+            turnElement.classList.add(turnData["role"]);
+            if (t === turn) {
+                turnElement.classList.add("last");
+            }
+            turnElement.querySelector(".text").innerHTML = htmlEntities(turnData["content"]).replaceAll(/\n/g, "<br>");
+            conversationElement.appendChild(turnElement);
+        }
+        const argumentsElement = document.createElement("ol");
+        argumentsElement.classList.add("arguments");
+        for (const argumentData of conversation["simulated_debate"][turn]["arguments"]) {
+            const argumentElement = document.createElement("li");
+            argumentElement.textContent = argumentData["text"];
+            argumentsElement.appendChild(argumentElement);
+        }
+        conversationElement.appendChild(argumentsElement);
+
+        // ratings
+        const ratingsElement = annotationElement.querySelector('.ratings');
+        for (const dimension of dimensions) {
+            const ratingRoot = ratingTemplateElement.content.cloneNode(true);
+            const ratingElement = ratingRoot.querySelector('*');
+            const key = conversation['id'] + "-" + turn + "-" + dimension['dimension'].toLowerCase().replaceAll(' ', '-');
+            const buttonsElement = ratingElement.querySelector(".buttons");
+            let hotKey = 1
+            for (const radioValue of dimension['buttons']) {
+                const radioContainerElement = document.createElement("div");
+                const radioElement = document.createElement("input");
+                radioElement.setAttribute("type", "radio");
+                radioElement.setAttribute("name", key);
+                radioElement.setAttribute("value", radioValue.toLowerCase().replaceAll(" ", "-").replaceAll("'", ""));
+                radioElement.setAttribute("data-hotkey", hotKey);
+                radioElement.setAttribute("onchange", "setLabel(this)");
+                radioContainerElement.appendChild(radioElement);
+                const labelElement = document.createElement("label");
+                labelElement.textContent = radioValue + " (" + hotKey + ")";
+                radioContainerElement.appendChild(labelElement);
+                buttonsElement.appendChild(radioContainerElement);
+                hotKey += 1;
+            }
+            ratingElement.querySelector('.description').innerHTML = dimension['description'];
+            ratingElement.querySelector('.question').textContent = dimension['question'];
+            const value = localStorage.getItem(STORAGE_PREFIX + key);
+            if (value !== null) {
+                const radioElement = ratingElement.querySelector("[value='" + value + "']");
+                if (radioElement !== null) {
+                    radioElement.checked = true;
+                    ratingElement.classList.add("rated");
+                }
+            }
+            ratingsElement.appendChild(ratingElement);
+        }
+
+        annotationsElement.appendChild(annotationRoot);
+    }
+
+    function createAnnotationInterfaceForConversation(conversation) {
+        for (let turn = 1; turn < conversation["simulated_debate"].length; turn += 2) {
+            createAnnotationInterfaceForTurn(conversation, turn);
+        }
+    }
+
+    function createAnnotationInterface(dataset) {
+        document.body.classList.add("group-selected");
+        let annotators = document.getElementById("annotator");
+        let annotatorIds = []
+        for (let option of annotators.options) {
+            if (option.value !== "null") {
+                annotatorIds.push(parseInt(option.value))
+            }
+        }
+
+        let batchSize = Math.ceil(dataset.length / annotatorIds.length)
+        let datasetSplit = Array(batchSize).fill()
+            .map((_, index) => index * batchSize)
+            .map(begin => dataset.slice(begin, begin + batchSize));
+
+        for (const conversation of datasetSplit[annotator-1]) {
+            createAnnotationInterfaceForConversation(conversation);
+        }
+
+        activate(document.querySelector(".rating:not(.rated)"), false);
+        updateCounters();
+    }
+
+    if (!isNaN(annotator)) {
+        decompress("touche25-rad-cmv-debates.jsonl.gzip")
+            .then(responseText => responseText.trim().split("\n").map(txt => JSON.parse(txt)))
+            .then(dataset => createAnnotationInterface(dataset));
+    }
 </script>
 </body>
 </html>
