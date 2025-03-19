@@ -1,4 +1,4 @@
-# Naive Bayes Baseline for Touché'25 Advertisement Detection
+# Naive Bayes Baseline for TouchÃ©'25 Advertisement Detection
 
 This directory contains a naive bayes implementation for classifying if a generated RAG response contains advertisements. This baseline takes the RAG response as input (i.e., without taking the query into account, a potential idea for improvement could be to take the query into account as well).
 
@@ -12,7 +12,7 @@ To make predictions on a dataset, run:
 ./predict.py --dataset native-ads-2024-validation --output predictions.jsonl --threshold 0.25
 ```
 
-The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([https://archive.tira.io/datasets?query=advertisement](tira.io/datasets?query=advertisement) shows an overview of available datasets.
+The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=advertisement](https://archive.tira.io/datasets?query=advertisement) shows an overview of available datasets.
 
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
