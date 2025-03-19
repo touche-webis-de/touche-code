@@ -17,7 +17,7 @@ The `--dataset` either must point to a local directory or must be the ID of a da
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --directory . --dataset native-ads-2024-validation
+tira-cli evaluate --directory . --dataset native-ads-2024-validation --command '/predict.py --threshold 0.25'
 ```
 
 ## Submit to TIRA
