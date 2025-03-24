@@ -3,4 +3,4 @@ FROM continuumio/miniconda3
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install -y git curl wget gcc zip unzip
-RUN pip3 install pandas 'git+https://github.com/tira-io/tira.git@main#egg=tira&subdirectory=python-client' scikit-learn click
+RUN pip3 install pandas 'tira>=0.0.149' scikit-learn==1.6.1 click pyyaml
