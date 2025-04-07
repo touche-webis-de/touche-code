@@ -12,7 +12,7 @@ To make predictions on a dataset, run:
 ./predict.py --dataset native-ads-2024-validation --output predictions.jsonl
 ```
 
-The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA [tira.io/datasets?query=advertisement](https://archive.tira.io/datasets?query=advertisement) shows an overview of available datasets.
+The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=advertisement](https://archive.tira.io/datasets?query=advertisement) shows an overview of available datasets).
 
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
