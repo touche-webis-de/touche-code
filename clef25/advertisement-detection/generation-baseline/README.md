@@ -1,4 +1,4 @@
-# miniLM Baseline for Touché'25 Advertisement Generation
+# Baseline for Touché'25 Advertisement Generation
 
 This directory contains a simple implementation for generating RAG responses with and without advertisements. This baseline takes as input a query, a list of candidate segments to generate the response, and a list of items to advertise. It returns the segment with the highest relevance score; for responses that should include an advertisement, a simple dummy sentence is appended, containing the item and the qualities that should be promoted.
 
