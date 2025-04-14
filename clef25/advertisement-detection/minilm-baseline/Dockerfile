@@ -7,6 +7,9 @@ ADD models /models/
 # We copied the source files to /
 # Hence, we add / to the python path
 
+# Ensure the tokenizer is in the docker image:
+RUN python3 -c 'from transformers import AutoTokenizer; AutoTokenizer.from_pretrained(f"sentence-transformers/all-MiniLM-L6-v2")'
+
 ENV PYTHONPATH=/
 
 ENTRYPOINT ["python3", "/predict.py"]
