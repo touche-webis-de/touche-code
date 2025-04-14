@@ -11,7 +11,7 @@ If you want to run it locally, please install the dependencies via `pip3 install
 To make predictions on a dataset, run:
 
 ```
-./predict.py --dataset native-ads-2024-spot-check --output predictions.jsonl --threshold 0.25
+./predict.py --dataset native-ads-2024-spot-check-20250414-training --output predictions.jsonl --threshold 0.25
 ```
 
 The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=native-ads](https://archive.tira.io/datasets?query=native-ads) shows an overview of available datasets.
@@ -19,7 +19,7 @@ The `--dataset` either must point to a local directory or must be the ID of a da
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --directory . --dataset native-ads-2024-spot-check
+tira-cli evaluate --directory . --dataset native-ads-2024-spot-check-20250414-training
 ```
 
 ## Submit to TIRA
