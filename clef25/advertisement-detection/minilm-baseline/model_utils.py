@@ -10,7 +10,7 @@ from typing import Any, Dict, List
 
 from models import SupervisedModel
 
-MODEL_PATH = Path("./models")
+MODEL_PATH = Path(__file__).parent / "models"
 DEVICE = T.device("cuda" if T.cuda.is_available() else "cpu")
 
 
