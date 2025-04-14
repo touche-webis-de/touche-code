@@ -27,7 +27,7 @@ tira-cli evaluate --directory . --dataset native-ads-2024-spot-check
 To submit this baseline to TIRA, please run (more detailed information are available in the [documentation](https://docs.tira.io/participants/participate.html#submitting-your-submission):
 
 ```
-tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset native-ads-2024-spot-check --command '/predict.py --threshold 0.25'
+tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset native-ads-2024-spot-check-20250414-training --command '/predict.py --threshold 0.25'
 ```
 
 ## Train the Model
