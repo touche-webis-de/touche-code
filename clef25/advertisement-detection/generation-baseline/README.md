@@ -17,7 +17,7 @@ The `--dataset` either must point to a local directory or must be the ID of a da
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --directory . --dataset touche-25-ads-in-rag-generation
+tira-cli evaluate --directory . --dataset touche-25-ads-in-rag-generation-20250325_1-training
 ```
 
 ## Submit to TIRA
@@ -25,5 +25,5 @@ tira-cli evaluate --directory . --dataset touche-25-ads-in-rag-generation
 To submit this baseline to TIRA, please run (more detailed information are available in the [documentation](https://docs.tira.io/participants/participate.html#submitting-your-submission)):
 
 ```
-tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --command '/predict.py'
+tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset touche-25-ads-in-rag-generation-20250325_1-training --command '/predict.py'
 ```
