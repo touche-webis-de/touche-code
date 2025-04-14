@@ -8,7 +8,7 @@ from tira.third_party_integrations import get_output_directory
 import click
 
 @click.command()
-@click.option('--dataset', default='advertisement-in-retrieval-augmented-generation-2025/touche-25-ads-in-rag-generation', help='The dataset to run predictions on (can point to a local directory).')
+@click.option('--dataset', default='advertisement-in-retrieval-augmented-generation-2025/ads-in-rag-generation-spot-check-20250414-training', help='The dataset to run predictions on (can point to a local directory).')
 @click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", help='The file where predictions should be written to.')
 
 def main(dataset, output):
