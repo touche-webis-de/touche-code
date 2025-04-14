@@ -91,15 +91,15 @@ class SBertModel(ModelWrapper):
         self.prediction_df = pd.DataFrame({"response_id": ids,
                                            "topic": topics,
                                            "pair_num": pair_nums,
-                                           "prediction": predictions})
+                                           "label": predictions})
 
         # Check if at least one sentence pair was predicted positively and join the result into self.response_df
-        tmp = self.prediction_df.groupby("response_id")["prediction"].max().reset_index()
+        tmp = self.prediction_df.groupby("response_id")["label"].max().reset_index()
         self.response_df = self.response_df[["id"]]
         self.response_df = pd.merge(self.response_df, tmp, left_on="id", right_on="response_id")
 
         # Create and return predictions
-        return self.response_df[["id", "prediction"]]
+        return self.response_df[["id", "label"]]
 
 
 def _split_into_sentence_pairs(response, id, topic, nlp):
