@@ -7,7 +7,7 @@ from tira.third_party_integrations import get_output_directory
 import click
 
 @click.command()
-@click.option('--dataset', default='advertisement-in-retrieval-augmented-generation-2025/native-ads-2024-validation', help='The dataset to run predictions on (can point to a local directory).')
+@click.option('--dataset', default='advertisement-in-retrieval-augmented-generation-2025/native-ads-2024-spot-check-20250414-training', help='The dataset to run predictions on (can point to a local directory).')
 @click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", help='The file where predictions should be written to.')
 @click.option('--threshold', default=0.5, help='The threshold at which the naive bayes probabilities are mapped to 1.')
 def main(dataset, output, threshold):
