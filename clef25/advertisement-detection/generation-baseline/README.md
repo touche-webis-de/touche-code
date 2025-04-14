@@ -9,15 +9,15 @@ This directory contains a simple implementation for generating RAG responses wit
 To make predictions on a dataset, run:
 
 ```
-./predict.py --dataset touche-25-ads-in-rag-generation --output predictions.jsonl
+./predict.py --dataset ads-in-rag-generation-spot-check-20250414-training --output predictions.jsonl
 ```
 
-The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=advertisement](https://archive.tira.io/datasets?query=advertisement) shows an overview of available datasets).
+The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=ads-in-rag-generation](https://archive.tira.io/datasets?query=ads-in-rag-generation) shows an overview of available datasets).
 
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --directory . --dataset touche-25-ads-in-rag-generation-20250404_0-training
+tira-cli evaluate --directory . --dataset ads-in-rag-generation-spot-check-20250414-training
 ```
 
 ## Submit to TIRA
@@ -25,5 +25,5 @@ tira-cli evaluate --directory . --dataset touche-25-ads-in-rag-generation-202504
 To submit this baseline to TIRA, please run (more detailed information are available in the [documentation](https://docs.tira.io/participants/participate.html#submitting-your-submission)):
 
 ```
-tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset touche-25-ads-in-rag-generation-20250404_0-training --command '/predict.py'
+tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset ads-in-rag-generation-spot-check-20250414-training --command '/predict.py'
 ```
