@@ -14,10 +14,10 @@ To make predictions on a dataset, run:
 
 The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=ads-in-rag-generation](https://archive.tira.io/datasets?query=ads-in-rag-generation) shows an overview of available datasets).
 
-To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
+The final evaluation will require access to systems developed during the ad detection tasks (and potentially human judgments). Still, we have a preliminary evaluation that you can use to get a gist on what your system produced and to verify that your predictions are in the correct format, therefore, you can run the preliminary evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --directory . --dataset ads-in-rag-generation-spot-check-20250414-training
+tira-cli evaluate --predictions . --dataset ads-in-rag-generation-spot-check-20250414-training
 ```
 
 ## Submit to TIRA
