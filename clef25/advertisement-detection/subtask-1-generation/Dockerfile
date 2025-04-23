@@ -1,5 +1,5 @@
 FROM webis/advertisement-detection-naive-bayes:0.0.1-dev
 
-ADD predict.py /
+ADD generate.py /
 
-ENTRYPOINT ["./predict.py"]
+ENTRYPOINT ["./generate.py"]
