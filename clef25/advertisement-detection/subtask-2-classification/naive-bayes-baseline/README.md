@@ -11,7 +11,7 @@ If you want to run it locally, please install the dependencies via `pip3 install
 To make predictions on a dataset, run:
 
 ```
-./predict.py --dataset native-ads-2024-spot-check-20250414-training --output predictions.jsonl --threshold 0.25
+./predict.py --dataset ads-in-rag-task-2-classification-spot-check-20250423-training --output predictions.jsonl --threshold 0.25
 ```
 
 The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=native-ads](https://archive.tira.io/datasets?query=native-ads) shows an overview of available datasets.
@@ -19,7 +19,7 @@ The `--dataset` either must point to a local directory or must be the ID of a da
 To evaluate your submission locally, you can run the official evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --predictions . --dataset native-ads-2024-spot-check-20250414-training
+tira-cli evaluate --predictions . --dataset ads-in-rag-task-2-classification-spot-check-20250423-training
 ```
 
 ## Submit to TIRA
@@ -27,7 +27,7 @@ tira-cli evaluate --predictions . --dataset native-ads-2024-spot-check-20250414-
 To submit this baseline to TIRA, please run (more detailed information are available in the [documentation](https://docs.tira.io/participants/participate.html#submitting-your-submission):
 
 ```
-tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset native-ads-2024-spot-check-20250414-training --command '/predict.py --threshold 0.25'
+tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2025 --dataset ads-in-rag-task-2-classification-spot-check-20250423-training --command '/predict.py --threshold 0.25'
 ```
 
 ## Train the Model

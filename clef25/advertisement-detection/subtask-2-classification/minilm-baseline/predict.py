@@ -18,7 +18,7 @@ def main(dataset, output):
     # Load the model and make predictions
     model = SBertModel(model_name="all-MiniLM-L6-v2", input_run=df)
     predictions = model.make_predictions()
-    predictions['tag'] = ['baseline-minilm'] * len(predictions.index)
+    predictions['tag'] = ['minilm-baseline'] * len(predictions.index)
 
     # Save the predictions
     predictions.to_json(output, orient='records', lines=True)

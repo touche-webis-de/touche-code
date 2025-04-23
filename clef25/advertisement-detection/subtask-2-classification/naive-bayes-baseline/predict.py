@@ -18,9 +18,10 @@ def main(dataset, output, threshold):
     # Load the model and make predictions
     model = load(Path(__file__).parent / "model.joblib")
     df['label'] = [1 if i[1] >= threshold else 0 for i in model.predict_proba(df["response"])]
+    df['tag'] = 'naive-bayes-baseline'
 
     # Save the predictions
-    df[["id", "label"]].to_json(output, orient="records", lines=True)
+    df[["id", "label", "tag"]].to_json(output, orient="records", lines=True)
 
 if __name__ == "__main__":
     main()
