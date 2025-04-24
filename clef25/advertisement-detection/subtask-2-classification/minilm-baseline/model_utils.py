@@ -5,7 +5,7 @@ from pathlib import Path
 import spacy
 import torch as T
 from torch.utils.data import DataLoader
-from transformers import AutoModel, AutoTokenizer
+from transformers import AutoTokenizer
 from typing import Any, Dict, List
 
 from models import SupervisedModel
@@ -40,14 +40,13 @@ class SBertModel(ModelWrapper):
 
         # 2. Split the responses into sentence pairs
         nlp = spacy.load("en_core_web_sm")
-        tmp = [_split_into_sentence_pairs(response=res, id=id, topic=topic, nlp=nlp) 
-               for res, id, topic in zip(self.input_run["response"], self.input_run["id"], self.input_run["meta_topic"])]
+        tmp = [_split_into_sentence_pairs(response=res, id=id, nlp=nlp)
+               for res, id in zip(self.input_run["response"], self.input_run["id"])]
         list_of_dicts = [d for x in tmp for d in x["sentence_pairs"]]
         dataset = (Dataset.from_dict({'pairs': list_of_dicts}).flatten()
                    .rename_column("pairs.sentence1", "sentence1")
                    .rename_column('pairs.sentence2', "sentence2")
                    .rename_column('pairs.response_id', "response_id")
-                   .rename_column('pairs.topic', "topic")
                    .rename_column('pairs.pair_num', "pair_num")
                    )
 
@@ -77,19 +76,17 @@ class SBertModel(ModelWrapper):
         model.eval()
         with T.no_grad():
             # Initialize lists to store batch values
-            ids, topics, predictions, pair_nums = ([] for i in range(4))
+            ids, predictions, pair_nums = ([] for i in range(3))
 
             for batch in test_dl:
                 # Get batch values
                 ids += batch.pop('response_id')
-                topics += batch.pop('topic')
                 pair_nums += [int(num.item()) for num in batch.pop('pair_num')]
 
                 # Get the logits from the batch
                 predictions += [int(logit.item() > 0.5) for logit in model(batch=batch)]
 
         self.prediction_df = pd.DataFrame({"response_id": ids,
-                                           "topic": topics,
                                            "pair_num": pair_nums,
                                            "label": predictions})
 
@@ -102,11 +99,10 @@ class SBertModel(ModelWrapper):
         return self.response_df[["id", "label"]]
 
 
-def _split_into_sentence_pairs(response, id, topic, nlp):
+def _split_into_sentence_pairs(response, id, nlp):
     result = {'sentence_pairs': []}
     sentences = [str(s).strip() for s in nlp(response.strip()).sents]
     result['sentence_pairs'] = [{"response_id": id,
-                                 "topic": topic,
                                  "sentence1": sentences[i],
                                  "sentence2": sentences[i + 1],
                                  "pair_num": i

@@ -39,7 +39,7 @@ def get_ad(advertisement):
     if advertisement is None:
         return ""
     formulations = [
-        f"Make sure you take a look at {advertisement['item']} - {advertisement['qualities']}."
+        f"For those interested in {advertisement['qualities']}, consider looking at {advertisement['item']}."
     ]
     return formulations[0]
 

@@ -20,6 +20,10 @@ To evaluate your submission locally, you can run the official evaluator locally 
 tira-cli evaluate --predictions . --dataset ads-in-rag-task-2-classification-spot-check-20250423-training
 ```
 
+### Use MiniLM-Baseline to classify generations for Sub-Task 1
+The [`predict_local.py`](predict_local.py)-script can be used to classify your generated responses. 
+Further explanations can be found in [subtrak-1-generation](../../subtask-1-generation).
+
 ## Submit to TIRA
 
 To submit this baseline to TIRA, please run (more detailed information are available in the [documentation](https://docs.tira.io/participants/participate.html#submitting-your-submission)):

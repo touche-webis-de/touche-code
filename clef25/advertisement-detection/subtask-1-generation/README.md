@@ -17,8 +17,17 @@ The `--dataset` either must point to a local directory or must be the ID of a da
 The final evaluation will require access to systems developed during the ad detection tasks (and potentially human judgments). Still, we have a preliminary evaluation that you can use to get a gist on what your system produced and to verify that your generated responses are in the correct format, therefore, you can run the preliminary evaluator locally via (install the tira client via `pip3 install tira`):
 
 ```
-tira-cli evaluate --predictions . --dataset ads-in-rag-task-1-generation-spot-check-20250423_1-training
+tira-cli evaluate --predictions generations.jsonl --dataset ads-in-rag-task-1-generation-spot-check-20250423_1-training
 ```
+
+### Use MiniLM-Baseline to classify your generations
+The `tira-cli evaluate`-command confirms that the output format of your generated responses is valid. 
+To test if the baseline model is able to detect your advertisements, you can use the [`predict_local.py`](../subtask-2-classification/minilm-baseline/predict_local.py)-script.
+*Note: You need to install the respective [requirements](../subtask-2-classification/minilm-baseline/requirements.txt).*
+```
+../subtask-2-classification/minilm-baseline/predict_local.py
+```
+Unless specified otherwise, the output is written to `predictions.jsonl`.
 
 ## Submit to TIRA
 
