@@ -1,0 +1,5 @@
+pandas
+tira>=0.0.159
+scikit-learn==1.6.1
+click
+pyyaml

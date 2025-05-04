@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 __pycache__
 sample-output
+predictions.jsonl
 
 ######################
 # IntelliJ
