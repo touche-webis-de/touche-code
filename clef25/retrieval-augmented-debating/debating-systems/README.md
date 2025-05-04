@@ -19,5 +19,7 @@ docker run --rm -it \
   --entrypoint /genirsim/run.sh \
   $IMAGE \
   --parameter-file=/data/toy-parameter-file.tsv --output-file=/data/simulation.jsonl
+
+# Output: simulation.jsonl
 ```
 
