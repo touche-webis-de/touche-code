@@ -6,26 +6,29 @@ RUN_DIRECTORY=
 OUTPUT_DIRECTORY=
 GROUND_TRUTH_DIRECTORY=
 
-for i in "$@"; do
-  case $i in
-    -r=*|--run-directory=*)
-      RUN_DIRECTORY="${i#*=}"
-      shift # past argument=value
+while [ $# -gt 0 ];do
+  case $1 in
+    -r|--run-directory)
+      shift
+      RUN_DIRECTORY="$1"
+      shift
       ;;
-    -o=*|--output-directory=*)
-      OUTPUT_DIRECTORY="${i#*=}"
-      shift # past argument=value
+    -o|--output-directory)
+      shift
+      OUTPUT_DIRECTORY="$1"
+      shift
       ;;
-    -g=*|--ground-truth-directory=*)
-      GROUND_TRUTH_DIRECTORY="${i#*=}"
-      shift # past argument=value
+    -g|--ground-truth-directory)
+      shift
+      GROUND_TRUTH_DIRECTORY="$1"
+      shift
       ;;
     -*|--*)
-      echo "Unknown option $i"
+      echo "Unknown option $1"
       exit 1
       ;;
     *)
-      echo "No positional parameters allowed $i"
+      echo "No positional parameters allowed $1"
       exit 1
       ;;
   esac

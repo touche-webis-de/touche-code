@@ -9,7 +9,7 @@ Systems:
 Copy one of the directories that is closest to what you have in mind (e.g., `basic-elastic-py`) to your repository and start from there.
 
 Test:
-```
+```{bash}
 # Change to your image (e.g., 'myimage' if you build it using 'docker build -t myimage .')
 IMAGE=ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-basic-elastic-py:latest
 
@@ -23,3 +23,12 @@ docker run --rm -it \
 # Output: simulation.jsonl
 ```
 
+Docker submission:
+```{bash}
+tira-run \
+  --input-dataset retrieval-augmented-debating-2025/rad25-2025-01-16-toy-20250116-training \
+  --image $IMAGE \
+  --command '/genirsim/run.sh --configuration-file=$inputDataset/*.json --parameter-file=$inputDataset/*.tsv --output-file=$outputDir/simulations.jsonl' \
+  --allow-network true \
+  --push true
+```

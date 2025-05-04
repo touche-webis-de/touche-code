@@ -14,6 +14,6 @@ git push origin "rad25-evaluator-v$version"
 
 ## TIRA
 ```
-/app/evaluate.sh --run-directory=${inputRun} --ground-truth-directory=${inputDataset} --output-directory=${outputDir}
+/app/evaluate.sh --run-directory ${inputRun} --ground-truth-directory ${inputDataset} --output-directory ${outputDir}
 ```
 
