@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd $(dirname $0) # change into parent directory of this script
 
 RUN_DIRECTORY=
 OUTPUT_DIRECTORY=
@@ -10,17 +9,17 @@ while [ $# -gt 0 ];do
   case $1 in
     -r|--run-directory)
       shift
-      RUN_DIRECTORY="$1"
+      RUN_DIRECTORY="$(realpath $1)"
       shift
       ;;
     -o|--output-directory)
       shift
-      OUTPUT_DIRECTORY="$1"
+      OUTPUT_DIRECTORY="$(realpath $1)"
       shift
       ;;
     -g|--ground-truth-directory)
       shift
-      GROUND_TRUTH_DIRECTORY="$1"
+      GROUND_TRUTH_DIRECTORY="$(realpath $1)"
       shift
       ;;
     -*|--*)
@@ -34,10 +33,11 @@ while [ $# -gt 0 ];do
   esac
 done
 
-echo RUNS:
-ls $RUN_DIRECTORY
+echo RUNS: $RUN_DIRECTORY/*.jsonl
+echo GROUND-TRUTH: $GROUND_TRUTH_DIRECTORY
+echo OUTPUT: $OUTPUT_DIRECTORY
 
-mkdir -p $OUTPUT_DIRECTORY
+cd $(dirname $0) # change into parent directory of this script
 genirsim-evaluate /app/touche25-rad-tira-evaluate.json $RUN_DIRECTORY/*.jsonl \
   | tee $OUTPUT_DIRECTORY/evaluation.jsonl
 
