@@ -34,7 +34,9 @@ while [ $# -gt 0 ];do
   esac
 done
 
-echo INPUT: $RUN_DIRECTORY/*.jsonl
+echo RUNS:
+ls $RUN_DIRECTORY
+
 mkdir -p $OUTPUT_DIRECTORY
 genirsim-evaluate /app/touche25-rad-tira-evaluate.json $RUN_DIRECTORY/*.jsonl \
   | tee $OUTPUT_DIRECTORY/evaluation.jsonl
