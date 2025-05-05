@@ -1,4 +1,4 @@
-name: SUBMIT RAD25 Basic Elastic (JavaScript) image to TIRA
+name: Submit RAD25 Basic Elastic (JavaScript) image to TIRA
 on: workflow_dispatch
 env:
   SRC_PATH: clef25/retrieval-augmented-debating/debating-systems/basic-elastic-js
