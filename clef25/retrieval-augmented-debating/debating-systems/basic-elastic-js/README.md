@@ -19,6 +19,16 @@ curl -X POST http://localhost:8080 -H "Content-Type: application/json" -d '{
 }'
 ```
 
+## Submit to TIRA
+
+Run the following command (add `--dry-run` for a test, omit the `--dry-run` argument to upload to TIRA):
+
+```
+tira-cli code-submission --path . --task retrieval-augmented-debating-2025 --command '/genirsim/run.sh --configuration-file=$inputDataset/*.json --parameter-file=$inputDataset/*.tsv --output-file=$outputDir/simulations.jsonl' --allow-network --dry-run
+```
+
+For submission via continuous integration, see the [workflow file for this image](../../../../.github/workflows/rad25-basic-elastic-js-tira-upload.yml) and adapt it to your case.
+
 
 ## Development
 The image is built automatically on [Github](https://github.com/touche-webis-de/touche-code/pkgs/container/touche25-retrieval-augmented-debating-basic-elastic-js) when a tag matching `rad25-basic-elastic-js-v*` is pushed.

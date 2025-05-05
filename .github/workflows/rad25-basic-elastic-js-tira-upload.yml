@@ -1,7 +1,7 @@
-name: Submit RAD25 Basic Elastic (Python) image to TIRA
+name: SUBMIT RAD25 Basic Elastic (JavaScript) image to TIRA
 on: workflow_dispatch
 env:
-  SRC_PATH: clef25/retrieval-augmented-debating/debating-systems/basic-elastic-py
+  SRC_PATH: clef25/retrieval-augmented-debating/debating-systems/basic-elastic-js
 jobs:
   docker-build:
     runs-on: ubuntu-latest
@@ -24,4 +24,4 @@ jobs:
       - name: Build, test, and upload image
         run: |
           docker build -t registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:0.0.1 -f ${{ env.SRC_PATH }}/Dockerfile ${{ env.SRC_PATH }}
-          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN_ARISTOTLE }} --input-dataset retrieval-augmented-debating-2025/rad25-2025-01-16-toy-20250116-training --image registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:rad25-basic-elastic-py --command '/genirsim/run.sh --configuration-file=$inputDataset/*.json --parameter-file=$inputDataset/*.tsv --output-file=$outputDir/simulations.jsonl' --allow-network true --push true --fail-if-output-is-empty
+          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN_ARISTOTLE }} --input-dataset retrieval-augmented-debating-2025/rad25-2025-01-16-toy-20250116-training --image registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:rad25-basic-elastic-js --command '/genirsim/run.sh --configuration-file=$inputDataset/*.json --parameter-file=$inputDataset/*.tsv --output-file=$outputDir/simulations.jsonl' --allow-network true --push true --fail-if-output-is-empty
