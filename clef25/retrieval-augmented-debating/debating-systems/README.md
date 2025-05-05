@@ -23,8 +23,12 @@ docker run --rm -it \
 # Output: simulation.jsonl
 ```
 
-Docker submission:
+To submit to TIRA via Docker submission, log in (see instructions when you go to our [TIRA task page](https://www.tira.io/submit/retrieval-augmented-debating-2025), click "SUBMIT", and then on "DOCKER SUBMISSIONS" and "NEW SUBMISSION").
+
+The adapted command to submit for our base systems is:
 ```{bash}
+IMAGE=ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-basic-elastic-py:latest
+
 tira-run \
   --input-dataset retrieval-augmented-debating-2025/rad25-2025-01-16-toy-20250116-training \
   --image $IMAGE \
@@ -32,3 +36,6 @@ tira-run \
   --allow-network true \
   --push true
 ```
+
+For "CODE SUBMISSION" via continuous integration, see the [workflow file for the Python base image](../../../.github/workflows/rad25-basic-elastic-py-tira-upload.yml) and adapt it to your case.
+
