@@ -2,6 +2,7 @@
 __pycache__
 sample-output
 predictions.jsonl
+generations.jsonl
 
 ######################
 # IntelliJ
@@ -13,3 +14,8 @@ predictions.jsonl
 ######################
 .RData
 .Rhistory
+
+######################
+# Environment
+######################
+.venv
