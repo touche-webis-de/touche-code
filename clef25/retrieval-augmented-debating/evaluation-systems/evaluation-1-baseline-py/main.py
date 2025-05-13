@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from typing import Dict, List
+from typing import List
 
 # Types
 class Argument(BaseModel):
@@ -19,7 +19,6 @@ class UserTurn(BaseModel):
     systemResponse: SystemResponse
 
 class Simulation(BaseModel):
-    configuration: Dict
     userTurns: List[UserTurn]
 
 class Request(BaseModel):
