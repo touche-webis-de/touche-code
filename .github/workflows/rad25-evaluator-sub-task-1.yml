@@ -1,16 +1,16 @@
-name: Publish RAD25 evaluator image to GitHub Packages
+name: Publish RAD25 sub-task 1 evaluator image to GitHub Packages
 
 on:
   push:
     tags:
-      - rad25-evaluator-v*
+      - rad25-evaluator-sub-task-1-v*
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-evaluator
-  IMAGE_TITLE: "touche-rad25-evaluator"
-  IMAGE_DESCRIPTION: "Evaluator image for the Retrieval-Augmented Debating 2025 task"
-  SRC_PATH: clef25/retrieval-augmented-debating/evaluator/
+  IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-evaluator-sub-task-1
+  IMAGE_TITLE: "touche-rad25-evaluator-sub-task-1"
+  IMAGE_DESCRIPTION: "Evaluator image for the Retrieval-Augmented Debating 2025 sub-task 1"
+  SRC_PATH: clef25/retrieval-augmented-debating/evaluator/sub-task-1
 
 jobs:
   build-and-publish:
