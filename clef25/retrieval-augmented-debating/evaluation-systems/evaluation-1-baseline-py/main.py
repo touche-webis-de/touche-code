@@ -3,10 +3,16 @@ from pydantic import BaseModel
 from typing import Dict, List
 
 # Types
+class Argument(BaseModel):
+    id: str
+    text: str
+
+class RetrievalResponse(BaseModel):
+    arguments: List[Argument]
+
 class SystemResponse(BaseModel):
     utterance: str
-    results: List[Dict] | None = None
-    resultsPage: str | None = None
+    response: RetrievalResponse
 
 class UserTurn(BaseModel):
     utterance: str
@@ -22,11 +28,13 @@ class Request(BaseModel):
 
 app = FastAPI()
 
+# Endpoints, one for each dimension
+
 @app.post("/quantity")
 async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
-        return {"score":None}
+        return { "score": None }
     return {
         "score": 1
     }
@@ -35,7 +43,7 @@ async def respond(request: Request):
 async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
-        return {"score":None}
+        return { "score": None }
     return {
         "score": 1
     }
@@ -44,7 +52,7 @@ async def respond(request: Request):
 async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
-        return {"score":None}
+        return { "score": None }
     return {
         "score": 1
     }
@@ -53,7 +61,7 @@ async def respond(request: Request):
 async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
-        return {"score":None}
+        return { "score": None }
     return {
         "score": 1
     }

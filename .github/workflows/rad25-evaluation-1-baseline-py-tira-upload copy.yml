@@ -1,7 +1,7 @@
-name: Submit RAD25 Generative Evaluation (Python) image to TIRA
+name: Submit RAD25 Evaluation 1-Baseline (Python) image to TIRA
 on: workflow_dispatch
 env:
-  SRC_PATH: clef25/retrieval-augmented-debating/evaluation-systems/generative-evaluation-py
+  SRC_PATH: clef25/retrieval-augmented-debating/evaluation-systems/evaluation-1-baseline-py
 jobs:
   docker-build:
     runs-on: ubuntu-latest

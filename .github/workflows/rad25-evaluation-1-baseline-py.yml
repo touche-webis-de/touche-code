@@ -1,16 +1,16 @@
-name: Publish RAD25 Generative Evalation (Python) image to GitHub Packages
+name: Publish RAD25 Evaluation 1-Baseline (Python) image to GitHub Packages
 
 on:
   push:
     tags:
-      - rad25-generative-evaluation-py-v*
+      - rad25-evaluation-1-baseline-py-v*
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-generative-evaluation-py
-  IMAGE_TITLE: "touche-rad25-generative-evaluation-py"
-  IMAGE_DESCRIPTION: "Generative Evaluation System for the Retrieval-Augmented Debating 2025 task (Python)"
-  SRC_PATH: clef25/retrieval-augmented-debating/evaluation-systems/generative-evaluation-py
+  IMAGE_NAME: touche-webis-de/touche25-retrieval-augmented-debating-evaluation-1-baseline-py
+  IMAGE_TITLE: "touche-rad25-evaluation-1-baseline-py"
+  IMAGE_DESCRIPTION: "Evaluation 1-Baseline System for the Retrieval-Augmented Debating 2025 task (Python)"
+  SRC_PATH: clef25/retrieval-augmented-debating/evaluation-systems/evaluation-1-baseline-py
 
 jobs:
   build-and-publish:
