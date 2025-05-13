@@ -48,6 +48,7 @@ All Docker images build FROM this image have the following entrypoints (specifie
 - `/genirsim/serve.sh`: Starts the [GenIRSim](https://github.com/webis-de/GenIRSim) web application (like [genirsim.webis.de](https://genirsim.webis.de/)) on port 8000 with access to your debating system on `http://localhost:8080`. All paramters are passed to the `/app/start.sh`. When run as a Docker container, use `--publish 127.0.0.1:8000:8000` to have the web application available at [localhost:8000](http://localhost:8000).
 - `/genirsim/run.sh`: Runs [GenIRSim](https://github.com/webis-de/GenIRSim) with the specified configuration and parameter file. When run as a Docker container, use `--volume` to make your local files available inside docker.
   - `--configuration-file=<FILE>`: The GenIRSim configuration file. Default: [touche25-rad-tira.json](touche25-rad-tira.json).
+  - `--evaluate-run-file=<FILE>`: Does not simulate but takes the simulation from the specified file and evaluates it.
   - `--parameter-file=<FILE>`: If the configuration file has parameters placeholders (`{{PARAMETER_NAME}}`, like the default one), this tab-separated-values file specifies the parameter values. The first line (header) contains the parameter names and each other line corresponds to one simulation run, with the values in each column replacing the respective parameter placeholders in the configuration.
   - `--output-file=<FILE>`: JSONL file with each line corresponding to a JSON output for the GenIRSim run.
   - `--`: Everything after this parameter is passed to the `/app/start.sh`.

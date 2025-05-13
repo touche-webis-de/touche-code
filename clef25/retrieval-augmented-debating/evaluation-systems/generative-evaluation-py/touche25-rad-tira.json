@@ -1,0 +1,22 @@
+{
+  "evaluation": {
+    "evaluators": {
+      "Quantity": {
+        "class": "ApiBasedEvaluator",
+        "url": "http://localhost:8080/quantity"
+      },
+      "Quality": {
+        "class": "ApiBasedEvaluator",
+        "url": "http://localhost:8080/quality"
+      },
+      "Relation": {
+        "class": "ApiBasedEvaluator",
+        "url": "http://localhost:8080/relation"
+      },
+      "Manner": {
+        "class": "ApiBasedEvaluator",
+        "url": "http://localhost:8080/manner"
+      }
+    }
+  }
+}
