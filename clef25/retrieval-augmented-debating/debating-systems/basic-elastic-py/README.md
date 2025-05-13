@@ -5,7 +5,8 @@ Simple system ([one file](main.py)) that just replies with the first counter arg
 For all the possible ways to use this image (retrieval server, GenIRSim server, GenIRSim run), see the [Entrypoints](https://github.com/touche-webis-de/touche-code/blob/main/clef25/retrieval-augmented-debating/debating-systems/base/README.md#entrypoints) section of the base image README.
 
 ## Quickstart
-```
+
+```{bash}
 # Start the system; use CTRL-C to stop it after use
 docker run --rm -it -p 127.0.0.1:8080:8080 ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-basic-elastic-py:latest
 
@@ -23,18 +24,19 @@ curl -X POST http://localhost:8080 -H "Content-Type: application/json" -d '{
 
 Run the following command (add `--dry-run` for a test, omit the `--dry-run` argument to upload to TIRA):
 
-```
+```{bash}
 tira-cli code-submission --path . --task retrieval-augmented-debating-2025 --command '/genirsim/run.sh --configuration-file=$inputDataset/*.json --parameter-file=$inputDataset/*.tsv --output-file=$outputDir/simulations.jsonl' --allow-network --dry-run
 ```
 
 For submission via continuous integration, see the [workflow file for this image](../../../../.github/workflows/rad25-basic-elastic-py-tira-upload.yml) and adapt it to your case.
 
 ## Development
+
 The image is built automatically on [Github](https://github.com/touche-webis-de/touche-code/pkgs/container/touche25-retrieval-augmented-debating-basic-elastic-py) when a tag matching `rad25-basic-elastic-py-v*` is pushed.
-```
+
+```{bash}
 # After push of changes
 version=X.X.X # semantic versioning, check Github for last version
 git tag "rad25-basic-elastic-py-v$version"
 git push origin "rad25-basic-elastic-py-v$version"
 ```
-

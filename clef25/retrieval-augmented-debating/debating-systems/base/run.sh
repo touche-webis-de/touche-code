@@ -1,13 +1,18 @@
 #!/bin/bash
 
-PARAMETER_FILE=
 CONFIGURATION_FILE=/genirsim/touche25-rad-tira.json
+EVALUATE_RUN_FILE=
+PARAMETER_FILE=
 OUTPUT_FILE=/dev/stdout
 
 for i in "$@"; do
   case $i in
     -c=*|--configuration-file=*)
       CONFIGURATION_FILE="${i#*=}"
+      shift # past argument=value
+      ;;
+    -e=*|--evaluate-run-file=*)
+      EVALUATE_RUN_FILE="${i#*=}"
       shift # past argument=value
       ;;
     -p=*|--parameter-file=*)
@@ -38,7 +43,7 @@ if [ "$CONFIGURATION_FILE" == "" ];then
   exit 2
 fi
 
-echo "Starting retrieval system: ./start.sh $@"
+echo "Starting local system: ./start.sh $@"
 pushd /app
  ./start.sh $@ &
 popd
@@ -50,6 +55,10 @@ max_wait_seconds=3600 # one hour
 timeout $max_wait_seconds bash -c 'until printf "" 2>>/dev/null >>/dev/tcp/$0/$1; do sleep 1; done' 127.0.0.1 8080
 echo
 
-echo "Starting GenIRSim"
-genirsim $CONFIGURATION_FILE $PARAMETER_FILE > $OUTPUT_FILE
-
+if [ "$EVALUATE_RUN_FILE" == "" ];then
+  echo "Starting GenIRSim"
+  genirsim $CONFIGURATION_FILE $PARAMETER_FILE > $OUTPUT_FILE
+else
+  echo "Starting GenIRSim to evaluate $EVALUATE_RUN_FILE"
+  genirsim-evaluate $CONFIGURATION_FILE $EVALUATE_RUN_FILE > $OUTPUT_FILE
+fi

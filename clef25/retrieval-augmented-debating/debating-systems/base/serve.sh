@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting retrieval system: ./start.sh $@"
+echo "Starting local system: ./start.sh $@"
 pushd /app
 ./start.sh $@ &
 popd
