@@ -1,0 +1,643 @@
+<?xml version="1.0" ?>
+<arguments>
+  <argument>
+    <id>1-1</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation increases work efficiency</claim>
+  </argument>
+  <argument>
+    <id>1-2</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation allows workers to focus on complex tasks</claim>
+  </argument>
+  <argument>
+    <id>1-3</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation increases productivity in industries</claim>
+  </argument>
+  <argument>
+    <id>1-4</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation reduces human error in repetitive tasks</claim>
+  </argument>
+  <argument>
+    <id>1-5</id>
+    <topic>Automation in the Workforce</topic>
+    <claim>Automation leads to significant job displacement for workers</claim>
+  </argument>
+  <argument>
+    <id>2-1</id>
+    <topic>Renewable Energy</topic>
+    <claim>Renewable energy production is dependent on weather conditions</claim>
+  </argument>
+  <argument>
+    <id>2-2</id>
+    <topic>Renewable Energy</topic>
+    <claim>Fossil fuels contribute heavily to pollution</claim>
+  </argument>
+  <argument>
+    <id>2-3</id>
+    <topic>Renewable Energy</topic>
+    <claim>Renewable energy sources are virtually limitless</claim>
+  </argument>
+  <argument>
+    <id>2-4</id>
+    <topic>Renewable Energy</topic>
+    <claim>Renewable energy reduces greenhouse gases</claim>
+  </argument>
+  <argument>
+    <id>3-1</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social Media contributes to mental health issues</claim>
+  </argument>
+  <argument>
+    <id>3-2</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media connects people across diverse cultures</claim>
+  </argument>
+  <argument>
+    <id>3-3</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media connects people across countries</claim>
+  </argument>
+  <argument>
+    <id>3-4</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media fosters cyberbullying</claim>
+  </argument>
+  <argument>
+    <id>3-5</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media reduces loneliness</claim>
+  </argument>
+  <argument>
+    <id>3-6</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media is entertaining</claim>
+  </argument>
+  <argument>
+    <id>3-7</id>
+    <topic>Social Media's Role in Society</topic>
+    <claim>Social media is a source of information</claim>
+  </argument>
+  <argument>
+    <id>4-1</id>
+    <topic>Raising the school leaving age to 18</topic>
+    <claim>Forced learning is a violation of civil liberties</claim>
+  </argument>
+  <argument>
+    <id>4-2</id>
+    <topic>Raising the school leaving age to 18</topic>
+    <claim>High rates of education are essential for countries to achieve high levels of economic growth</claim>
+  </argument>
+  <argument>
+    <id>4-3</id>
+    <topic>Raising the school leaving age to 18</topic>
+    <claim>Raising the school leaving age will tackle the problem of young people leaving school unskilled</claim>
+  </argument>
+  <argument>
+    <id>4-4</id>
+    <topic>Raising the school leaving age to 18</topic>
+    <claim>Schools do not teach essential real-life skills needed for adulthood and the workforce</claim>
+  </argument>
+  <argument>
+    <id>4-5</id>
+    <topic>Raising the school leaving age to 18</topic>
+    <claim>The likelihood that terrorists will get their hands on nuclear weaponry is increasing</claim>
+  </argument>
+  <argument>
+    <id>5-1</id>
+    <topic>Nuclear weapons</topic>
+    <claim>Nuclear weapon technology would soon reach the point where it could end human life on Earth</claim>
+  </argument>
+  <argument>
+    <id>5-2</id>
+    <topic>Nuclear weapons</topic>
+    <claim>Public opinion is overwhelmingly opposed to nuclearization</claim>
+  </argument>
+  <argument>
+    <id>6-1</id>
+    <topic>High rises for housing</topic>
+    <claim>A large resident population provides opportunities for social interaction</claim>
+  </argument>
+  <argument>
+    <id>6-2</id>
+    <topic>High rises for housing</topic>
+    <claim>Planning policies which increase population densities in urban areas do tend to reduce car use</claim>
+  </argument>
+  <argument>
+    <id>6-3</id>
+    <topic>High rises for housing</topic>
+    <claim>Apartment buildings have high levels of security</claim>
+  </argument>
+  <argument>
+    <id>6-4</id>
+    <topic>High rises for housing</topic>
+    <claim>High-rise structures also pose serious challenges to firefighters during emergencies</claim>
+  </argument>
+  <argument>
+    <id>7-1</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Dogs form strong emotional connection with owners</claim>
+  </argument>
+  <argument>
+    <id>7-2</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Dogs require regular outdoor activity which promotes a healthier lifestyle for their owners</claim>
+  </argument>
+  <argument>
+    <id>7-3</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Dogs provide protection from intruders</claim>
+  </argument>
+  <argument>
+    <id>7-4</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Dogs are more social than cats</claim>
+  </argument>
+  <argument>
+    <id>7-5</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Dogs cause more property damage compared to cats</claim>
+  </argument>
+  <argument>
+    <id>7-6</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Cats help control pests in a home environment</claim>
+  </argument>
+  <argument>
+    <id>7-7</id>
+    <topic>Dogs vs. cats as pets</topic>
+    <claim>Dogs defecate in public spaces</claim>
+  </argument>
+  <argument>
+    <id>8-1</id>
+    <topic>Traveling by train or by plane</topic>
+    <claim>Planes have higher carbon emissions compared to trains</claim>
+  </argument>
+  <argument>
+    <id>8-2</id>
+    <topic>Traveling by train or by plane</topic>
+    <claim>Planes offer less comfortable seating</claim>
+  </argument>
+  <argument>
+    <id>8-3</id>
+    <topic>Traveling by train or by plane</topic>
+    <claim>Planes require extensive security checks</claim>
+  </argument>
+  <argument>
+    <id>9-4</id>
+    <topic>Sustainable Tourism vs. Mass Tourism</topic>
+    <claim>Mass tourism fosters community</claim>
+  </argument>
+  <argument>
+    <id>10-1</id>
+    <topic>Contact sports for children</topic>
+    <claim>Team-based contact sports foster camaraderie</claim>
+  </argument>
+  <argument>
+    <id>10-2</id>
+    <topic>Contact sports for children</topic>
+    <claim>Contact sports improve overall health </claim>
+  </argument>
+  <argument>
+    <id>10-3</id>
+    <topic>Contact sports for children</topic>
+    <claim>Martial arts help build confidence</claim>
+  </argument>
+  <argument>
+    <id>10-4</id>
+    <topic>Contact sports for children</topic>
+    <claim>Injuries can occur in contact sports even with proper training</claim>
+  </argument>
+  <argument>
+    <id>11-1</id>
+    <topic>The Influence of Music on Society</topic>
+    <claim>Live music fosters community spirit</claim>
+  </argument>
+  <argument>
+    <id>11-2</id>
+    <topic>The Influence of Music on Society</topic>
+    <claim>Crowded concerts lead to discomfort</claim>
+  </argument>
+  <argument>
+    <id>11-3</id>
+    <topic>The Influence of Music on Society</topic>
+    <claim>Live music connects generations</claim>
+  </argument>
+  <argument>
+    <id>11-4</id>
+    <topic>The Influence of Music on Society</topic>
+    <claim>Live music ruins peaceful sleep</claim>
+  </argument>
+  <argument>
+    <id>12-1</id>
+    <topic>The Role of sports in building communities</topic>
+    <claim>Sporting events connect people across national borders</claim>
+  </argument>
+  <argument>
+    <id>12-2</id>
+    <topic>The Role of sports in building communities</topic>
+    <claim>Crowds at sports events create chaos</claim>
+  </argument>
+  <argument>
+    <id>13-1</id>
+    <topic>The Influence of Gaming on people</topic>
+    <claim>Gaming fosters social connections</claim>
+  </argument>
+  <argument>
+    <id>13-2</id>
+    <topic>The Influence of Gaming on people</topic>
+    <claim>Gaming leads to social isolation</claim>
+  </argument>
+  <argument>
+    <id>13-3</id>
+    <topic>The Influence of Gaming on people</topic>
+    <claim>Video games in the family improve family time</claim>
+  </argument>
+  <argument>
+    <id>13-4</id>
+    <topic>The Influence of Gaming on people</topic>
+    <claim>Violent video games promote aggression</claim>
+  </argument>
+  <argument>
+    <id>14-1</id>
+    <topic>The Influence on Street Art on the community</topic>
+    <claim>Street art beautifies urban areas</claim>
+  </argument>
+  <argument>
+    <id>14-2</id>
+    <topic>The Influence on Street Art on the community</topic>
+    <claim>Community art projects foster unity</claim>
+  </argument>
+  <argument>
+    <id>14-3</id>
+    <topic>The Influence on Street Art on the community</topic>
+    <claim>Cleaning up after street artist is an unpleasant job</claim>
+  </argument>
+  <argument>
+    <id>15-1</id>
+    <topic>Cycling as a mean of transportation</topic>
+    <claim>Cycling makes people happy</claim>
+  </argument>
+  <argument>
+    <id>15-2</id>
+    <topic>Cycling as a mean of transportation</topic>
+    <claim>People on bike avoid traffic</claim>
+  </argument>
+  <argument>
+    <id>15-3</id>
+    <topic>Cycling as a mean of transportation</topic>
+    <claim>Riding a bike comes with the danger of car accidents</claim>
+  </argument>
+  <argument>
+    <id>15-4</id>
+    <topic>Cycling as a mean of transportation</topic>
+    <claim>Biking fosters social connection</claim>
+  </argument>
+  <argument>
+    <id>15-5</id>
+    <topic>Cycling as a mean of transportation</topic>
+    <claim>Biking is weather-dependent</claim>
+  </argument>
+  <argument>
+    <id>15-6</id>
+    <topic>Cycling as a mean of transportation</topic>
+    <claim>Cars degrade air quality</claim>
+  </argument>
+  <argument>
+    <id>16-1</id>
+    <topic>Outdoor sports vs indoor sports</topic>
+    <claim>Outdoor sport lifts the mood</claim>
+  </argument>
+  <argument>
+    <id>16-2</id>
+    <topic>Outdoor sports vs indoor sports</topic>
+    <claim>Outdoor sports foster social interaction</claim>
+  </argument>
+  <argument>
+    <id>16-3</id>
+    <topic>Outdoor sports vs indoor sports</topic>
+    <claim>Outdoor sports promote a sense of the beauty of nature</claim>
+  </argument>
+  <argument>
+    <id>16-4</id>
+    <topic>Outdoor sports vs indoor sports</topic>
+    <claim>Many outdoor sports cannot be done in winter</claim>
+  </argument>
+  <argument>
+    <id>17-1</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>Online shoppers can shop conveniently from home</claim>
+  </argument>
+  <argument>
+    <id>17-2</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>Online shopping allows for easy price comparison</claim>
+  </argument>
+  <argument>
+    <id>17-3</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>In-store shopping offers the ability to see products firsthand</claim>
+  </argument>
+  <argument>
+    <id>17-4</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>Online shopping leads to waiting times for delivery</claim>
+  </argument>
+  <argument>
+    <id>17-5</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>In-store shopping provides opportunities for social interaction</claim>
+  </argument>
+  <argument>
+    <id>17-6</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>Shopping in-store offers the advantage of receiving assistance from sales associates</claim>
+  </argument>
+  <argument>
+    <id>17-7</id>
+    <topic>Online shopping vs shopping in-store</topic>
+    <claim>Physical stores are difficult for customers with disabilities</claim>
+  </argument>
+  <argument>
+    <id>18-1</id>
+    <topic>Home Gyms vs. public Gyms</topic>
+    <claim>Home gyms offer privacy for workouts</claim>
+  </argument>
+  <argument>
+    <id>18-2</id>
+    <topic>Home Gyms vs. public Gyms</topic>
+    <claim>Fitness centers provide access to a wide variety of equipment</claim>
+  </argument>
+  <argument>
+    <id>18-3</id>
+    <topic>Home Gyms vs. public Gyms</topic>
+    <claim>Home gyms are accessible 24/7</claim>
+  </argument>
+  <argument>
+    <id>18-4</id>
+    <topic>Home Gyms vs. public Gyms</topic>
+    <claim>Overcrowded gyms lead to waiting times</claim>
+  </argument>
+  <argument>
+    <id>19-1</id>
+    <topic>Hiking as a Recreational Activity</topic>
+    <claim>Hiking is suitable for all fitness levels</claim>
+  </argument>
+  <argument>
+    <id>19-2</id>
+    <topic>Hiking as a Recreational Activity</topic>
+    <claim>Hiking is physically demanding</claim>
+  </argument>
+  <argument>
+    <id>19-3</id>
+    <topic>Hiking as a Recreational Activity</topic>
+    <claim>Hiking can lead to injuries</claim>
+  </argument>
+  <argument>
+    <id>19-4</id>
+    <topic>Hiking as a Recreational Activity</topic>
+    <claim>Hikers' trash contributes to environmental damage</claim>
+  </argument>
+  <argument>
+    <id>20-1</id>
+    <topic>Sugar</topic>
+    <claim>Sugar provides a quick energy boost for physical activity</claim>
+  </argument>
+  <argument>
+    <id>20-2</id>
+    <topic>Sugar</topic>
+    <claim>Sugar makes food more enjoyable</claim>
+  </argument>
+  <argument>
+    <id>20-3</id>
+    <topic>Sugar</topic>
+    <claim>Consuming too much sugar leads to weight gain</claim>
+  </argument>
+  <argument>
+    <id>20-4</id>
+    <topic>Sugar</topic>
+    <claim>Sugar contributes to the development of heart disease</claim>
+  </argument>
+  <argument>
+    <id>20-5</id>
+    <topic>Sugar</topic>
+    <claim>Excess sugar harms teeth</claim>
+  </argument>
+  <argument>
+    <id>21-1</id>
+    <topic>Fast Food</topic>
+    <claim>Fast Food saves time for people</claim>
+  </argument>
+  <argument>
+    <id>21-2</id>
+    <topic>Fast Food</topic>
+    <claim>Fast Food stores create job opportunities</claim>
+  </argument>
+  <argument>
+    <id>21-3</id>
+    <topic>Fast Food</topic>
+    <claim>Fast Food drive-thru services are convenient for travelers</claim>
+  </argument>
+  <argument>
+    <id>21-4</id>
+    <topic>Fast Food</topic>
+    <claim>Fast food chains contribute to the global economy</claim>
+  </argument>
+  <argument>
+    <id>21-5</id>
+    <topic>Fast Food</topic>
+    <claim>Consuming too much Fast Food leads to obesity</claim>
+  </argument>
+  <argument>
+    <id>21-6</id>
+    <topic>Fast Food</topic>
+    <claim>Fast Food promotes unhealthy eating habits among children</claim>
+  </argument>
+  <argument>
+    <id>21-7</id>
+    <topic>Fast Food</topic>
+    <claim>Fast food packaging increases waste</claim>
+  </argument>
+  <argument>
+    <id>22-1</id>
+    <topic>Animal Rights</topic>
+    <claim>Animals deserve protection because they are also capable of suffering</claim>
+  </argument>
+  <argument>
+    <id>22-2</id>
+    <topic>Animal Rights</topic>
+    <claim>Promoting animal rights fosters a compassionate society</claim>
+  </argument>
+  <argument>
+    <id>22-3</id>
+    <topic>Animal Rights</topic>
+    <claim>Factory farming causes immense suffering to billions of animals yearly</claim>
+  </argument>
+  <argument>
+    <id>22-4</id>
+    <topic>Animal Rights</topic>
+    <claim>Farming animals for food supports global food security</claim>
+  </argument>
+  <argument>
+    <id>22-5</id>
+    <topic>Animal Rights</topic>
+    <claim>Cultural traditions often rely on the use of animals</claim>
+  </argument>
+  <argument>
+    <id>23-1</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Public transportation is more developed in cities than suburbs</claim>
+  </argument>
+  <argument>
+    <id>23-2</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Urban areas have better healthcare than suburbs</claim>
+  </argument>
+  <argument>
+    <id>23-3</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Social Life is more pronounced in the city than in suburbs</claim>
+  </argument>
+  <argument>
+    <id>23-4</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>City living is stressful</claim>
+  </argument>
+  <argument>
+    <id>23-5</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Air quality in cities is often poor</claim>
+  </argument>
+  <argument>
+    <id>23-6</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Life in the Suburbs promotes a better family life</claim>
+  </argument>
+  <argument>
+    <id>23-7</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Cities provide a diverse culture</claim>
+  </argument>
+  <argument>
+    <id>23-8</id>
+    <topic>City Life vs Suburban Living</topic>
+    <claim>Suburbs have more spacious homes</claim>
+  </argument>
+  <argument>
+    <id>24-1</id>
+    <topic>Remote Work</topic>
+    <claim>Remote work offers better work-life balance for employees</claim>
+  </argument>
+  <argument>
+    <id>24-2</id>
+    <topic>Remote Work</topic>
+    <claim>Remote working enables a comfortable workplace</claim>
+  </argument>
+  <argument>
+    <id>24-3</id>
+    <topic>Remote Work</topic>
+    <claim>Remote work can cause feelings of loneliness</claim>
+  </argument>
+  <argument>
+    <id>24-4</id>
+    <topic>Remote Work</topic>
+    <claim>Remote work blurs boundaries between work and personal life</claim>
+  </argument>
+  <argument>
+    <id>24-5</id>
+    <topic>Remote Work</topic>
+    <claim>Remote work allows employees to work from anywhere</claim>
+  </argument>
+  <argument>
+    <id>24-6</id>
+    <topic>Remote Work</topic>
+    <claim>Remote workers can’t get distracted by coworkers like in-office-workers</claim>
+  </argument>
+  <argument>
+    <id>24-7</id>
+    <topic>Remote Work</topic>
+    <claim>In-office work facilitates teamwork among coworkers</claim>
+  </argument>
+  <argument>
+    <id>25-1</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Public transport reduces traffic congestion</claim>
+  </argument>
+  <argument>
+    <id>25-2</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Public transport allows passengers to relax</claim>
+  </argument>
+  <argument>
+    <id>25-3</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Finding parking in cities can be difficult</claim>
+  </argument>
+  <argument>
+    <id>25-4</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Cars make it easy to transport things</claim>
+  </argument>
+  <argument>
+    <id>25-5</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Public transport can be unreliable</claim>
+  </argument>
+  <argument>
+    <id>25-6</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Public transport can be overcrowded</claim>
+  </argument>
+  <argument>
+    <id>25-7</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Risk of crime is higher in public transport</claim>
+  </argument>
+  <argument>
+    <id>25-8</id>
+    <topic>Public Transportation vs Private Cars</topic>
+    <claim>Private cars contribute significantly to air pollution</claim>
+  </argument>
+  <argument>
+    <id>26-1</id>
+    <topic>Digital Payments vs Cash</topic>
+    <claim>Carrying cash poses the risk of theft</claim>
+  </argument>
+  <argument>
+    <id>26-2</id>
+    <topic>Digital Payments vs Cash</topic>
+    <claim>Digital Payments increase the risk of cyber fraud</claim>
+  </argument>
+  <argument>
+    <id>27-1</id>
+    <topic>Homeschooling</topic>
+    <claim>Homeschooled children don’t have access to school resources</claim>
+  </argument>
+  <argument>
+    <id>27-2</id>
+    <topic>Homeschooling</topic>
+    <claim>Homeschooled children can learn in a comfortable environment</claim>
+  </argument>
+  <argument>
+    <id>27-3</id>
+    <topic>Homeschooling</topic>
+    <claim>Homeschooled children have fewer socialization opportunities</claim>
+  </argument>
+  <argument>
+    <id>27-4</id>
+    <topic>Homeschooling</topic>
+    <claim>Homeschooled Children don’t face the problem of bullying in school</claim>
+  </argument>
+  <argument>
+    <id>27-5</id>
+    <topic>Homeschooling</topic>
+    <claim>Homeschooled children miss out on extracurricular activities</claim>
+  </argument>
+  <argument>
+    <id>27-6</id>
+    <topic>Homeschooling</topic>
+    <claim>Homeschooling parents can experience burnout from the extra work</claim>
+  </argument>
+</arguments>

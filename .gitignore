@@ -21,3 +21,9 @@ generations.jsonl
 # Environment
 ######################
 .venv
+
+######################
+# macOS
+######################
+.DS_Store
+/clef25/image-retrieval-for-arguments/validator/tmp/

@@ -1,0 +1,640 @@
+{"argument_id": "1-1", "method": "retrieval", "image_id": "I5821a3168a566b057359a553", "prompt": "Automation increases work efficiency", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "1-1", "method": "retrieval", "image_id": "I638d07e1950aac35b4ef21e9", "prompt": "Automation increases work efficiency", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "1-1", "method": "retrieval", "image_id": "Ib77309699402d5acccab2fd9", "prompt": "Automation increases work efficiency", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "1-1", "method": "retrieval", "image_id": "I884ddb4799c049c70e7597d4", "prompt": "Automation increases work efficiency", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "1-1", "method": "retrieval", "image_id": "I7fb72b10a4dad73ba7bb93d2", "prompt": "Automation increases work efficiency", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "1-2", "method": "retrieval", "image_id": "I0708ed1b2c868b92114d1e88", "prompt": "Automation allows workers to focus on complex tasks", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "1-2", "method": "retrieval", "image_id": "I008eadec1b5134d0c0ac3e2c", "prompt": "Automation allows workers to focus on complex tasks", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "1-2", "method": "retrieval", "image_id": "I6c04fa6a297e166dc2a9de77", "prompt": "Automation allows workers to focus on complex tasks", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "1-2", "method": "retrieval", "image_id": "I0d30a1360d965e90d6cad377", "prompt": "Automation allows workers to focus on complex tasks", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "1-2", "method": "retrieval", "image_id": "I90529cbfca7f700c79a44ddf", "prompt": "Automation allows workers to focus on complex tasks", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "1-3", "method": "retrieval", "image_id": "I6ad243caccff6ae65de8b05f", "prompt": "Automation increases productivity in industries", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "1-3", "method": "retrieval", "image_id": "I9510f52c2937802e46a13f76", "prompt": "Automation increases productivity in industries", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "1-3", "method": "retrieval", "image_id": "I20a7c79737fb0af7cce30bbe", "prompt": "Automation increases productivity in industries", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "1-3", "method": "retrieval", "image_id": "Ibece9ed491ab4c7947dcd721", "prompt": "Automation increases productivity in industries", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "1-3", "method": "retrieval", "image_id": "Ibfd536703ee1fb669078bb7d", "prompt": "Automation increases productivity in industries", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "1-4", "method": "retrieval", "image_id": "I02203c88421dfc6e287d9718", "prompt": "Automation reduces human error in repetitive tasks", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "1-4", "method": "retrieval", "image_id": "Ie9b332ffcce0119060e96c93", "prompt": "Automation reduces human error in repetitive tasks", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "1-4", "method": "retrieval", "image_id": "Iaf95cbd37a341b9f16b4d2fa", "prompt": "Automation reduces human error in repetitive tasks", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "1-4", "method": "retrieval", "image_id": "Idb12d1fb3520796a3d0eca8d", "prompt": "Automation reduces human error in repetitive tasks", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "1-4", "method": "retrieval", "image_id": "I0a708e2caac353497cd8fddf", "prompt": "Automation reduces human error in repetitive tasks", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "1-5", "method": "retrieval", "image_id": "I5c6ab5f2103162184bc0f7b6", "prompt": "Automation leads to significant job displacement for workers", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "1-5", "method": "retrieval", "image_id": "I383b8adf3a8c17dd25fe1c45", "prompt": "Automation leads to significant job displacement for workers", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "1-5", "method": "retrieval", "image_id": "Id6ec76ad27f210a16bfa21de", "prompt": "Automation leads to significant job displacement for workers", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "1-5", "method": "retrieval", "image_id": "I5fc9f16d013531f2a4441c4b", "prompt": "Automation leads to significant job displacement for workers", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "1-5", "method": "retrieval", "image_id": "Ib7c004d02389ca1ca60d2f5b", "prompt": "Automation leads to significant job displacement for workers", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "2-1", "method": "retrieval", "image_id": "Iac7d29c03cf6dd399945e8b0", "prompt": "Renewable energy production is dependent on weather conditions", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "2-1", "method": "retrieval", "image_id": "I65eee5418dad2d4a5b9c5f33", "prompt": "Renewable energy production is dependent on weather conditions", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "2-1", "method": "retrieval", "image_id": "I0cdd2093c4671f9a15ea89d6", "prompt": "Renewable energy production is dependent on weather conditions", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "2-1", "method": "retrieval", "image_id": "I3dc48f16ce5ba49a0a66e070", "prompt": "Renewable energy production is dependent on weather conditions", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "2-1", "method": "retrieval", "image_id": "I68ccbe584998dab74273fd12", "prompt": "Renewable energy production is dependent on weather conditions", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "2-2", "method": "retrieval", "image_id": "Ibe10a2c44f7a8e5d2c8eda2d", "prompt": "Fossil fuels contribute heavily to pollution", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "2-2", "method": "retrieval", "image_id": "If12d391558091d28485aacf7", "prompt": "Fossil fuels contribute heavily to pollution", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "2-2", "method": "retrieval", "image_id": "I00a0e5c2dbbbb36dc650b185", "prompt": "Fossil fuels contribute heavily to pollution", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "2-2", "method": "retrieval", "image_id": "If75371c42de19b202919d739", "prompt": "Fossil fuels contribute heavily to pollution", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "2-2", "method": "retrieval", "image_id": "I023b14f51e37e09613d28bc8", "prompt": "Fossil fuels contribute heavily to pollution", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "2-3", "method": "retrieval", "image_id": "I785860cc9704e04981d99d7a", "prompt": "Renewable energy sources are virtually limitless", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "2-3", "method": "retrieval", "image_id": "I7b70648471efa4998791ce1f", "prompt": "Renewable energy sources are virtually limitless", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "2-3", "method": "retrieval", "image_id": "I11a9fc25f0d6cb281ce8686d", "prompt": "Renewable energy sources are virtually limitless", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "2-3", "method": "retrieval", "image_id": "Ib9d80f3677ddd9ca918bfa0b", "prompt": "Renewable energy sources are virtually limitless", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "2-3", "method": "retrieval", "image_id": "I2a33fb4decf2cf938663b58a", "prompt": "Renewable energy sources are virtually limitless", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "2-4", "method": "retrieval", "image_id": "I105ce5b81782eea6ed66559a", "prompt": "Renewable energy reduces greenhouse gases", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "2-4", "method": "retrieval", "image_id": "I3741acd8d98adb0533b8f99d", "prompt": "Renewable energy reduces greenhouse gases", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "2-4", "method": "retrieval", "image_id": "I3b389495883b40b1f30983eb", "prompt": "Renewable energy reduces greenhouse gases", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "2-4", "method": "retrieval", "image_id": "Ie99d6b68614a72196aeff9c4", "prompt": "Renewable energy reduces greenhouse gases", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "2-4", "method": "retrieval", "image_id": "I2338dd3190049c2aa0813991", "prompt": "Renewable energy reduces greenhouse gases", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-1", "method": "retrieval", "image_id": "I780738ac9062b066e06ab352", "prompt": "Social Media contributes to mental health issues", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-1", "method": "retrieval", "image_id": "I5b493c72f5a891ca272535f8", "prompt": "Social Media contributes to mental health issues", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-1", "method": "retrieval", "image_id": "I36ef259f8087a464943975dd", "prompt": "Social Media contributes to mental health issues", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-1", "method": "retrieval", "image_id": "Ic06f3454abfe60494a9fca6b", "prompt": "Social Media contributes to mental health issues", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-1", "method": "retrieval", "image_id": "I862ebc1845985e5213ac644b", "prompt": "Social Media contributes to mental health issues", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-2", "method": "retrieval", "image_id": "I154c11a7dc347a2e8963741f", "prompt": "Social media connects people across diverse cultures", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-2", "method": "retrieval", "image_id": "I9086104d235206689ab7a92c", "prompt": "Social media connects people across diverse cultures", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-2", "method": "retrieval", "image_id": "I0a0f904c4114decd669313a3", "prompt": "Social media connects people across diverse cultures", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-2", "method": "retrieval", "image_id": "I77755cfd4dfa1f0dad127d1d", "prompt": "Social media connects people across diverse cultures", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-2", "method": "retrieval", "image_id": "I0a9ef62ea5eefefb4fbb61c7", "prompt": "Social media connects people across diverse cultures", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-3", "method": "retrieval", "image_id": "I1e2eb96c2e5874f098c58d7d", "prompt": "Social media connects people across countries", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-3", "method": "retrieval", "image_id": "I45a7cad063240498262cd70b", "prompt": "Social media connects people across countries", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-3", "method": "retrieval", "image_id": "I4ff3b76ad5c5c16915512c59", "prompt": "Social media connects people across countries", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-3", "method": "retrieval", "image_id": "I3339ca3f998bd7771db6b88d", "prompt": "Social media connects people across countries", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-3", "method": "retrieval", "image_id": "I8edd97c79b88f8d030137014", "prompt": "Social media connects people across countries", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-4", "method": "retrieval", "image_id": "I17034408368a8eac0dde9b98", "prompt": "Social media fosters cyberbullying", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-4", "method": "retrieval", "image_id": "Id5a2abdbd211cd84eb1d9955", "prompt": "Social media fosters cyberbullying", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-4", "method": "retrieval", "image_id": "I61d8326379549ddd420e1341", "prompt": "Social media fosters cyberbullying", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-4", "method": "retrieval", "image_id": "Icce74b76c429e7d008712edf", "prompt": "Social media fosters cyberbullying", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-4", "method": "retrieval", "image_id": "Ib3512e67572a28f08fe143d2", "prompt": "Social media fosters cyberbullying", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-5", "method": "retrieval", "image_id": "I997c76cb8cab021bb89fd4b3", "prompt": "Social media reduces loneliness", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-5", "method": "retrieval", "image_id": "If3f068100bc8285be4b83429", "prompt": "Social media reduces loneliness", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-5", "method": "retrieval", "image_id": "Icaef194a41fe3006c209172f", "prompt": "Social media reduces loneliness", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-5", "method": "retrieval", "image_id": "I77bcf8aedf6defca43924867", "prompt": "Social media reduces loneliness", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-5", "method": "retrieval", "image_id": "Id41ab347af8e9e58cbe12f24", "prompt": "Social media reduces loneliness", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-6", "method": "retrieval", "image_id": "Ibbac8c871e3b26d9ce314254", "prompt": "Social media is entertaining", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-6", "method": "retrieval", "image_id": "I2ef1a7d59ad2ba202c98010c", "prompt": "Social media is entertaining", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-6", "method": "retrieval", "image_id": "I1a9807fe823f4dd66214867e", "prompt": "Social media is entertaining", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-6", "method": "retrieval", "image_id": "I6743c8b8ed66b67164830d4c", "prompt": "Social media is entertaining", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-6", "method": "retrieval", "image_id": "I9400734ab788e608994cda39", "prompt": "Social media is entertaining", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "3-7", "method": "retrieval", "image_id": "I4e2b153842e3a6fa143d1e25", "prompt": "Social media is a source of information", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "3-7", "method": "retrieval", "image_id": "I16ccfaa38c38494e6ddbbbbe", "prompt": "Social media is a source of information", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "3-7", "method": "retrieval", "image_id": "I844b40d5a537cb6171cd0374", "prompt": "Social media is a source of information", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "3-7", "method": "retrieval", "image_id": "Ia3928aea292e3d6e0b498de9", "prompt": "Social media is a source of information", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "3-7", "method": "retrieval", "image_id": "I96fa57af68480086581a98b0", "prompt": "Social media is a source of information", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "4-1", "method": "retrieval", "image_id": "I3e91c2416447bf512eb4c4a1", "prompt": "Forced learning is a violation of civil liberties", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "4-1", "method": "retrieval", "image_id": "Ib8cfb93a94cf9d1723382fd9", "prompt": "Forced learning is a violation of civil liberties", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "4-1", "method": "retrieval", "image_id": "Id5b031e7bb3c4f821a7f70ff", "prompt": "Forced learning is a violation of civil liberties", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "4-1", "method": "retrieval", "image_id": "I35a089d7a2af4ca279bc4895", "prompt": "Forced learning is a violation of civil liberties", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "4-1", "method": "retrieval", "image_id": "I6edf25671a93d77b4947f600", "prompt": "Forced learning is a violation of civil liberties", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "4-2", "method": "retrieval", "image_id": "I81ee9c16bb519c770467b19f", "prompt": "High rates of education are essential for countries to achieve high levels of economic growth", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "4-2", "method": "retrieval", "image_id": "I405262e2f8715d66ae3dc575", "prompt": "High rates of education are essential for countries to achieve high levels of economic growth", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "4-2", "method": "retrieval", "image_id": "Ie56bbe6942e6062d9245b466", "prompt": "High rates of education are essential for countries to achieve high levels of economic growth", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "4-2", "method": "retrieval", "image_id": "Id4db173af779aad0fff02251", "prompt": "High rates of education are essential for countries to achieve high levels of economic growth", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "4-2", "method": "retrieval", "image_id": "I42cfc783f07da984697b2a45", "prompt": "High rates of education are essential for countries to achieve high levels of economic growth", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "4-3", "method": "retrieval", "image_id": "I38e51202e89c57d80a60b11b", "prompt": "Raising the school leaving age will tackle the problem of young people leaving school unskilled", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "4-3", "method": "retrieval", "image_id": "I117038be004b93ab47a01571", "prompt": "Raising the school leaving age will tackle the problem of young people leaving school unskilled", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "4-3", "method": "retrieval", "image_id": "I90e2a21b38de72576c23a09e", "prompt": "Raising the school leaving age will tackle the problem of young people leaving school unskilled", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "4-3", "method": "retrieval", "image_id": "I776fb492e9c91b7fb0493922", "prompt": "Raising the school leaving age will tackle the problem of young people leaving school unskilled", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "4-3", "method": "retrieval", "image_id": "I78472623834f5f26c6d82140", "prompt": "Raising the school leaving age will tackle the problem of young people leaving school unskilled", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "4-4", "method": "retrieval", "image_id": "If0e580a2a612072506c8b0f4", "prompt": "Schools do not teach essential real-life skills needed for adulthood and the workforce", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "4-4", "method": "retrieval", "image_id": "I934d7c49c018e6cfc515e1e2", "prompt": "Schools do not teach essential real-life skills needed for adulthood and the workforce", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "4-4", "method": "retrieval", "image_id": "I1f2cebe59c947824fc2e7560", "prompt": "Schools do not teach essential real-life skills needed for adulthood and the workforce", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "4-4", "method": "retrieval", "image_id": "I481783faeeb01b2959a7dd8f", "prompt": "Schools do not teach essential real-life skills needed for adulthood and the workforce", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "4-4", "method": "retrieval", "image_id": "I3075634970c0bfa52d00bd2a", "prompt": "Schools do not teach essential real-life skills needed for adulthood and the workforce", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "4-5", "method": "retrieval", "image_id": "I83de5b9437147655b479db8c", "prompt": "The likelihood that terrorists will get their hands on nuclear weaponry is increasing", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "4-5", "method": "retrieval", "image_id": "I703edd21242a26ca5b39e141", "prompt": "The likelihood that terrorists will get their hands on nuclear weaponry is increasing", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "4-5", "method": "retrieval", "image_id": "I09ac3f9e8722b4bcf7e13f88", "prompt": "The likelihood that terrorists will get their hands on nuclear weaponry is increasing", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "4-5", "method": "retrieval", "image_id": "I9efd5470c0a06d5232b4fec9", "prompt": "The likelihood that terrorists will get their hands on nuclear weaponry is increasing", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "4-5", "method": "retrieval", "image_id": "I8be705df81e4545218d8fcaf", "prompt": "The likelihood that terrorists will get their hands on nuclear weaponry is increasing", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "5-1", "method": "retrieval", "image_id": "I68fc0d75eea91a8cc6a4aacc", "prompt": "Nuclear weapon technology would soon reach the point where it could end human life on Earth", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "5-1", "method": "retrieval", "image_id": "If5b3b2b242635706e84e331f", "prompt": "Nuclear weapon technology would soon reach the point where it could end human life on Earth", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "5-1", "method": "retrieval", "image_id": "I6f531448c55ef960a937995b", "prompt": "Nuclear weapon technology would soon reach the point where it could end human life on Earth", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "5-1", "method": "retrieval", "image_id": "I3d2dd6992a71987992fbd5e6", "prompt": "Nuclear weapon technology would soon reach the point where it could end human life on Earth", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "5-1", "method": "retrieval", "image_id": "Ia707949d604e0e8a38a22ea2", "prompt": "Nuclear weapon technology would soon reach the point where it could end human life on Earth", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "5-2", "method": "retrieval", "image_id": "I3459697279a58d4ddf68aac2", "prompt": "Public opinion is overwhelmingly opposed to nuclearization", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "5-2", "method": "retrieval", "image_id": "I0b7409b6dc669037dc595c5e", "prompt": "Public opinion is overwhelmingly opposed to nuclearization", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "5-2", "method": "retrieval", "image_id": "I5333f71c9a6730eeee1ede7c", "prompt": "Public opinion is overwhelmingly opposed to nuclearization", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "5-2", "method": "retrieval", "image_id": "Ib3e5f5a7896b38c6f6e67818", "prompt": "Public opinion is overwhelmingly opposed to nuclearization", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "5-2", "method": "retrieval", "image_id": "I61465135b1760f5d8a7c4b20", "prompt": "Public opinion is overwhelmingly opposed to nuclearization", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "6-1", "method": "retrieval", "image_id": "I07e6dd54079c27b5419076e9", "prompt": "A large resident population provides opportunities for social interaction", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "6-1", "method": "retrieval", "image_id": "I5e8f1e08b583abe11b216281", "prompt": "A large resident population provides opportunities for social interaction", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "6-1", "method": "retrieval", "image_id": "Icc2663a830373ee9bb749d51", "prompt": "A large resident population provides opportunities for social interaction", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "6-1", "method": "retrieval", "image_id": "I773fc81e683339efd178e472", "prompt": "A large resident population provides opportunities for social interaction", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "6-1", "method": "retrieval", "image_id": "I13dc8d439e89da77e81e1a26", "prompt": "A large resident population provides opportunities for social interaction", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "6-2", "method": "retrieval", "image_id": "Ie417a039e2aefb782877abdc", "prompt": "Planning policies which increase population densities in urban areas do tend to reduce car use", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "6-2", "method": "retrieval", "image_id": "I582a8b669c12f632a7db6bc1", "prompt": "Planning policies which increase population densities in urban areas do tend to reduce car use", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "6-2", "method": "retrieval", "image_id": "I0376c932a4f520c0a59adc3d", "prompt": "Planning policies which increase population densities in urban areas do tend to reduce car use", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "6-2", "method": "retrieval", "image_id": "Iad1a83f81edd0388ecaade75", "prompt": "Planning policies which increase population densities in urban areas do tend to reduce car use", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "6-2", "method": "retrieval", "image_id": "I5c2aeec4749208369a76c698", "prompt": "Planning policies which increase population densities in urban areas do tend to reduce car use", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "6-3", "method": "retrieval", "image_id": "I03214942273ce013bfd6fbd9", "prompt": "Apartment buildings have high levels of security", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "6-3", "method": "retrieval", "image_id": "I12d36e96cba819366f2d72dd", "prompt": "Apartment buildings have high levels of security", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "6-3", "method": "retrieval", "image_id": "I87275b3c20a6b29e5bf05efa", "prompt": "Apartment buildings have high levels of security", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "6-3", "method": "retrieval", "image_id": "I7543f0097f7373f88a47344d", "prompt": "Apartment buildings have high levels of security", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "6-3", "method": "retrieval", "image_id": "I21a1db8f8f622be753615e92", "prompt": "Apartment buildings have high levels of security", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "6-4", "method": "retrieval", "image_id": "Ib6cebe399c1a65e7b10a83bb", "prompt": "High-rise structures also pose serious challenges to firefighters during emergencies", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "6-4", "method": "retrieval", "image_id": "I9a1bae1e7f2ed7222547ff8a", "prompt": "High-rise structures also pose serious challenges to firefighters during emergencies", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "6-4", "method": "retrieval", "image_id": "I80ab93a5c98fe76c7b74c0c5", "prompt": "High-rise structures also pose serious challenges to firefighters during emergencies", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "6-4", "method": "retrieval", "image_id": "Iaf48ace8b9514e67cc808087", "prompt": "High-rise structures also pose serious challenges to firefighters during emergencies", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "6-4", "method": "retrieval", "image_id": "I1013c4814c5f54685b78f3a0", "prompt": "High-rise structures also pose serious challenges to firefighters during emergencies", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-1", "method": "retrieval", "image_id": "I8580322a4046da78cf8cac47", "prompt": "Dogs form strong emotional connection with owners", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-1", "method": "retrieval", "image_id": "Ice1e48dffa745bbd2f04a1fc", "prompt": "Dogs form strong emotional connection with owners", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-1", "method": "retrieval", "image_id": "I8b689b1931937cae5c22a519", "prompt": "Dogs form strong emotional connection with owners", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-1", "method": "retrieval", "image_id": "Ib8eff29690f0c16c958033db", "prompt": "Dogs form strong emotional connection with owners", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-1", "method": "retrieval", "image_id": "I099316a37cba0987a3d93d16", "prompt": "Dogs form strong emotional connection with owners", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-2", "method": "retrieval", "image_id": "Ic8155eaaddc69670a1fc5362", "prompt": "Dogs require regular outdoor activity which promotes a healthier lifestyle for their owners", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-2", "method": "retrieval", "image_id": "If2f851532f66c5802347c063", "prompt": "Dogs require regular outdoor activity which promotes a healthier lifestyle for their owners", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-2", "method": "retrieval", "image_id": "Id90e009888d6623d111f482e", "prompt": "Dogs require regular outdoor activity which promotes a healthier lifestyle for their owners", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-2", "method": "retrieval", "image_id": "I2772f2cae8802b781a32dfa8", "prompt": "Dogs require regular outdoor activity which promotes a healthier lifestyle for their owners", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-2", "method": "retrieval", "image_id": "I0caed4fabaf2095a26d1535e", "prompt": "Dogs require regular outdoor activity which promotes a healthier lifestyle for their owners", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-3", "method": "retrieval", "image_id": "I8576155ccda0b53541d8fd24", "prompt": "Dogs provide protection from intruders", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-3", "method": "retrieval", "image_id": "I36af09ca8d21cbbb560b5c15", "prompt": "Dogs provide protection from intruders", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-3", "method": "retrieval", "image_id": "I56500a094c6e9b096b033993", "prompt": "Dogs provide protection from intruders", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-3", "method": "retrieval", "image_id": "Iae1114e17387a4c5b8de5e88", "prompt": "Dogs provide protection from intruders", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-3", "method": "retrieval", "image_id": "I2cd7ba41740aef663f0da572", "prompt": "Dogs provide protection from intruders", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-4", "method": "retrieval", "image_id": "I182faf51324a3586e4a1fb12", "prompt": "Dogs are more social than cats", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-4", "method": "retrieval", "image_id": "Ic83661df8eaa77774afe185a", "prompt": "Dogs are more social than cats", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-4", "method": "retrieval", "image_id": "I584739bc9fbb49bdf716fcde", "prompt": "Dogs are more social than cats", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-4", "method": "retrieval", "image_id": "If9952a59151973cc021c72d1", "prompt": "Dogs are more social than cats", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-4", "method": "retrieval", "image_id": "I6dfb132007d4cc95ec30deb0", "prompt": "Dogs are more social than cats", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-5", "method": "retrieval", "image_id": "I8ea956c3837c743233249ba4", "prompt": "Dogs cause more property damage compared to cats", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-5", "method": "retrieval", "image_id": "I6c2a3f7ddd0726abb3afaf93", "prompt": "Dogs cause more property damage compared to cats", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-5", "method": "retrieval", "image_id": "I258f555e3e7fd836e9819271", "prompt": "Dogs cause more property damage compared to cats", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-5", "method": "retrieval", "image_id": "I2f5fdef24b37fe616bb71a1c", "prompt": "Dogs cause more property damage compared to cats", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-5", "method": "retrieval", "image_id": "Iac104d348cca666b6138b139", "prompt": "Dogs cause more property damage compared to cats", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-6", "method": "retrieval", "image_id": "Idfd87630375519cf2a711b0a", "prompt": "Cats help control pests in a home environment", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-6", "method": "retrieval", "image_id": "I8ead352d858de7b90cca4ec2", "prompt": "Cats help control pests in a home environment", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-6", "method": "retrieval", "image_id": "I2fd57410560a61675c5b250d", "prompt": "Cats help control pests in a home environment", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-6", "method": "retrieval", "image_id": "I9caf5d92c7620c7b2a398b2d", "prompt": "Cats help control pests in a home environment", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-6", "method": "retrieval", "image_id": "If68c077b90fc6d7a1f438034", "prompt": "Cats help control pests in a home environment", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "7-7", "method": "retrieval", "image_id": "Iecd280a72dff9827190c1fce", "prompt": "Dogs defecate in public spaces", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "7-7", "method": "retrieval", "image_id": "Ia47db487e4eab07f54516b2b", "prompt": "Dogs defecate in public spaces", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "7-7", "method": "retrieval", "image_id": "Ice4f03aa31d7f042661fc986", "prompt": "Dogs defecate in public spaces", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "7-7", "method": "retrieval", "image_id": "I845529335cd56d333ce2bf93", "prompt": "Dogs defecate in public spaces", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "7-7", "method": "retrieval", "image_id": "I5cfc646d65a81d6bb3cd239f", "prompt": "Dogs defecate in public spaces", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "8-1", "method": "retrieval", "image_id": "I6c090579bb40768eeb6e781b", "prompt": "Planes have higher carbon emissions compared to trains", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "8-1", "method": "retrieval", "image_id": "Ibd88b3ee44f9c752a24d5160", "prompt": "Planes have higher carbon emissions compared to trains", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "8-1", "method": "retrieval", "image_id": "Iabf9dc640578d901963bcc03", "prompt": "Planes have higher carbon emissions compared to trains", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "8-1", "method": "retrieval", "image_id": "Id38ff2c2d3d8296e5ecc038b", "prompt": "Planes have higher carbon emissions compared to trains", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "8-1", "method": "retrieval", "image_id": "I44e13881b52e68d7e29afa3b", "prompt": "Planes have higher carbon emissions compared to trains", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "8-2", "method": "retrieval", "image_id": "Ia92972d74727c300ad54d61d", "prompt": "Planes offer less comfortable seating", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "8-2", "method": "retrieval", "image_id": "I162722bf3150282eeb2bdff0", "prompt": "Planes offer less comfortable seating", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "8-2", "method": "retrieval", "image_id": "I638d43c973f5187e3a1045e0", "prompt": "Planes offer less comfortable seating", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "8-2", "method": "retrieval", "image_id": "I5b5cb5eaba7b637d23fb97ed", "prompt": "Planes offer less comfortable seating", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "8-2", "method": "retrieval", "image_id": "I606a265765659a3149d99088", "prompt": "Planes offer less comfortable seating", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "8-3", "method": "retrieval", "image_id": "I30f158af5068e0aa13951607", "prompt": "Planes require extensive security checks", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "8-3", "method": "retrieval", "image_id": "I19d4c5a798309f54c168196b", "prompt": "Planes require extensive security checks", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "8-3", "method": "retrieval", "image_id": "I6f94724a19187eb99ee0d712", "prompt": "Planes require extensive security checks", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "8-3", "method": "retrieval", "image_id": "Ie9ef3acd56d88abf0f98fe20", "prompt": "Planes require extensive security checks", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "8-3", "method": "retrieval", "image_id": "I9d8b471423c233efafbe63fa", "prompt": "Planes require extensive security checks", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "9-4", "method": "retrieval", "image_id": "Idd31c6478a3590c52a1526da", "prompt": "Mass tourism fosters community", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "9-4", "method": "retrieval", "image_id": "I4125ce3e9f60726aa2322351", "prompt": "Mass tourism fosters community", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "9-4", "method": "retrieval", "image_id": "I2df8eb7c9e2745f45f9ffb19", "prompt": "Mass tourism fosters community", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "9-4", "method": "retrieval", "image_id": "I9d32b2bda3bfd6ac0daa64af", "prompt": "Mass tourism fosters community", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "9-4", "method": "retrieval", "image_id": "Ie13312af4a78aaf15f5ebfbb", "prompt": "Mass tourism fosters community", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "10-1", "method": "retrieval", "image_id": "Idaf4e9cb2ca8d73405eaffd4", "prompt": "Team-based contact sports foster camaraderie", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "10-1", "method": "retrieval", "image_id": "I22d5b5d96702c2d1a32505f7", "prompt": "Team-based contact sports foster camaraderie", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "10-1", "method": "retrieval", "image_id": "Ic7c9f300987ee971cf0471e8", "prompt": "Team-based contact sports foster camaraderie", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "10-1", "method": "retrieval", "image_id": "Id7171416ea38b4125f94cfed", "prompt": "Team-based contact sports foster camaraderie", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "10-1", "method": "retrieval", "image_id": "I160f0838b1546ce2a8c7c292", "prompt": "Team-based contact sports foster camaraderie", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "10-2", "method": "retrieval", "image_id": "If2779fcd3fcf42c3996b668d", "prompt": "Contact sports improve overall health ", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "10-2", "method": "retrieval", "image_id": "Ideb82835ebfc6b0025386116", "prompt": "Contact sports improve overall health ", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "10-2", "method": "retrieval", "image_id": "I6a069d0078e627d1fe1358ca", "prompt": "Contact sports improve overall health ", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "10-2", "method": "retrieval", "image_id": "I66b0dc349d797bb4a756440c", "prompt": "Contact sports improve overall health ", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "10-2", "method": "retrieval", "image_id": "I0ff9029b80a70c8bdc2afe7b", "prompt": "Contact sports improve overall health ", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "10-3", "method": "retrieval", "image_id": "I6f3b5ce16f44565697862b7d", "prompt": "Martial arts help build confidence", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "10-3", "method": "retrieval", "image_id": "I180305f974f09c2817e589f2", "prompt": "Martial arts help build confidence", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "10-3", "method": "retrieval", "image_id": "Ib382644318688975a2c7390e", "prompt": "Martial arts help build confidence", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "10-3", "method": "retrieval", "image_id": "I43bcde771e910495a6744a4d", "prompt": "Martial arts help build confidence", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "10-3", "method": "retrieval", "image_id": "I8b5c564095dafb5ac8bd2f18", "prompt": "Martial arts help build confidence", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "10-4", "method": "retrieval", "image_id": "I75e628bf91cb0f8490288616", "prompt": "Injuries can occur in contact sports even with proper training", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "10-4", "method": "retrieval", "image_id": "I582dd7612ee5819fdd29c7a3", "prompt": "Injuries can occur in contact sports even with proper training", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "10-4", "method": "retrieval", "image_id": "I23e145a1d31a1e97a47b3717", "prompt": "Injuries can occur in contact sports even with proper training", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "10-4", "method": "retrieval", "image_id": "I633b79c8ef03fa10342f8626", "prompt": "Injuries can occur in contact sports even with proper training", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "10-4", "method": "retrieval", "image_id": "I2e8f432ef56907cc83f237d7", "prompt": "Injuries can occur in contact sports even with proper training", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "11-1", "method": "retrieval", "image_id": "Ic56421bf0bea6c99f63e2fab", "prompt": "Live music fosters community spirit", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "11-1", "method": "retrieval", "image_id": "I377e8baf01a7aa103b02f404", "prompt": "Live music fosters community spirit", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "11-1", "method": "retrieval", "image_id": "If0d49b59edb685e7f290da2a", "prompt": "Live music fosters community spirit", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "11-1", "method": "retrieval", "image_id": "Ia11864c09e78f46e1ef3b7df", "prompt": "Live music fosters community spirit", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "11-1", "method": "retrieval", "image_id": "Ic92d69327601a85ab91cb145", "prompt": "Live music fosters community spirit", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "11-2", "method": "retrieval", "image_id": "I664935663456028de6ed47bf", "prompt": "Crowded concerts lead to discomfort", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "11-2", "method": "retrieval", "image_id": "I2750a44578050ed9c1e256b1", "prompt": "Crowded concerts lead to discomfort", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "11-2", "method": "retrieval", "image_id": "I0cdab48f36cd49d70ec519a3", "prompt": "Crowded concerts lead to discomfort", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "11-2", "method": "retrieval", "image_id": "I8ecab1c0d5e932782aa63efe", "prompt": "Crowded concerts lead to discomfort", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "11-2", "method": "retrieval", "image_id": "If3c1ce8f6fa5c552615b5830", "prompt": "Crowded concerts lead to discomfort", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "11-3", "method": "retrieval", "image_id": "Iaeb8b1d8762f0b3c84c34bed", "prompt": "Live music connects generations", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "11-3", "method": "retrieval", "image_id": "I866b6a54cddce7d8962b2140", "prompt": "Live music connects generations", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "11-3", "method": "retrieval", "image_id": "I98a9af160b68c069569d60a1", "prompt": "Live music connects generations", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "11-3", "method": "retrieval", "image_id": "Ibc4c6ccba129058889bdfc89", "prompt": "Live music connects generations", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "11-3", "method": "retrieval", "image_id": "Ic8e0034780f7272cf0f4fd52", "prompt": "Live music connects generations", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "11-4", "method": "retrieval", "image_id": "I97da7f98bc0203e8174c1d50", "prompt": "Live music ruins peaceful sleep", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "11-4", "method": "retrieval", "image_id": "I7db7e73b9b3f85fbe106ee33", "prompt": "Live music ruins peaceful sleep", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "11-4", "method": "retrieval", "image_id": "I6080b3666e99eb7dfa36e919", "prompt": "Live music ruins peaceful sleep", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "11-4", "method": "retrieval", "image_id": "I49bfc7b497614564bc83a36a", "prompt": "Live music ruins peaceful sleep", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "11-4", "method": "retrieval", "image_id": "I87325453d6cd887ec42e55fd", "prompt": "Live music ruins peaceful sleep", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "12-1", "method": "retrieval", "image_id": "I939ebec00cf9a9033775d0bb", "prompt": "Sporting events connect people across national borders", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "12-1", "method": "retrieval", "image_id": "Ibc4c6ccba129058889bdfc89", "prompt": "Sporting events connect people across national borders", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "12-1", "method": "retrieval", "image_id": "I34aa22735768c1454e42c282", "prompt": "Sporting events connect people across national borders", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "12-1", "method": "retrieval", "image_id": "I65d1633993877c43dfd70a97", "prompt": "Sporting events connect people across national borders", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "12-1", "method": "retrieval", "image_id": "I5b5cb5eaba7b637d23fb97ed", "prompt": "Sporting events connect people across national borders", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "12-2", "method": "retrieval", "image_id": "I1b536655ea3a9c3342d0bc30", "prompt": "Crowds at sports events create chaos", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "12-2", "method": "retrieval", "image_id": "I8614ad5e84568354a37ce45c", "prompt": "Crowds at sports events create chaos", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "12-2", "method": "retrieval", "image_id": "I3009be0f6e6696d3b1a12983", "prompt": "Crowds at sports events create chaos", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "12-2", "method": "retrieval", "image_id": "Idf5a20ac3a7152418d559e06", "prompt": "Crowds at sports events create chaos", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "12-2", "method": "retrieval", "image_id": "Ic995cd8a89682a43ffdbc534", "prompt": "Crowds at sports events create chaos", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "13-1", "method": "retrieval", "image_id": "I213422a0d7e4e030fa807154", "prompt": "Gaming fosters social connections", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "13-1", "method": "retrieval", "image_id": "Ica013812181714a5b1db6bc5", "prompt": "Gaming fosters social connections", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "13-1", "method": "retrieval", "image_id": "Ib43b464705bcb29dd6ecd85a", "prompt": "Gaming fosters social connections", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "13-1", "method": "retrieval", "image_id": "Ifec1b86558de6ed4d8c44734", "prompt": "Gaming fosters social connections", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "13-1", "method": "retrieval", "image_id": "Ia1aba412c4d0488a88e4d0f5", "prompt": "Gaming fosters social connections", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "13-2", "method": "retrieval", "image_id": "I9ddf5b88b65e665c05f872de", "prompt": "Gaming leads to social isolation", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "13-2", "method": "retrieval", "image_id": "I12a9f597c64fccedd306834b", "prompt": "Gaming leads to social isolation", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "13-2", "method": "retrieval", "image_id": "Ic33576f1a57384a0b8dd6ca7", "prompt": "Gaming leads to social isolation", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "13-2", "method": "retrieval", "image_id": "Ia8f4c0b47ada3b235cce612d", "prompt": "Gaming leads to social isolation", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "13-2", "method": "retrieval", "image_id": "I631c98bec84cfa4bcd3e7398", "prompt": "Gaming leads to social isolation", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "13-3", "method": "retrieval", "image_id": "Ie39c1a63666a8c2972767bcf", "prompt": "Video games in the family improve family time", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "13-3", "method": "retrieval", "image_id": "I84fed366c118910c8118c212", "prompt": "Video games in the family improve family time", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "13-3", "method": "retrieval", "image_id": "I4b4e7653fc3636315f68dbd4", "prompt": "Video games in the family improve family time", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "13-3", "method": "retrieval", "image_id": "Ie589e74a564a9d0909d2fe9f", "prompt": "Video games in the family improve family time", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "13-3", "method": "retrieval", "image_id": "I1a9a1e8926644ed920f6d7fc", "prompt": "Video games in the family improve family time", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "13-4", "method": "retrieval", "image_id": "I1733000f800b12caf5ca8bf1", "prompt": "Violent video games promote aggression", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "13-4", "method": "retrieval", "image_id": "I1cff897b46264d3dd14f8201", "prompt": "Violent video games promote aggression", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "13-4", "method": "retrieval", "image_id": "I6b4485bc3391bfe5bfbddb26", "prompt": "Violent video games promote aggression", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "13-4", "method": "retrieval", "image_id": "Ib694dff2df16b0ea89139544", "prompt": "Violent video games promote aggression", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "13-4", "method": "retrieval", "image_id": "I6bdecb1fd30c8309ef06e4cf", "prompt": "Violent video games promote aggression", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "14-1", "method": "retrieval", "image_id": "I4b599f49abd2899b2cea201f", "prompt": "Street art beautifies urban areas", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "14-1", "method": "retrieval", "image_id": "Id942e0186d98a2910ad4a6e6", "prompt": "Street art beautifies urban areas", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "14-1", "method": "retrieval", "image_id": "Ifc6251c98bf9220da0217484", "prompt": "Street art beautifies urban areas", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "14-1", "method": "retrieval", "image_id": "Id44885ddea6ac72ae21f0d22", "prompt": "Street art beautifies urban areas", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "14-1", "method": "retrieval", "image_id": "Ibf0983f1cf0598dc3d8b9b92", "prompt": "Street art beautifies urban areas", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "14-2", "method": "retrieval", "image_id": "I61248677b2719c4b430479eb", "prompt": "Community art projects foster unity", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "14-2", "method": "retrieval", "image_id": "Ief489b81fc5c82b9745c0b20", "prompt": "Community art projects foster unity", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "14-2", "method": "retrieval", "image_id": "I8fa65afb6adad6698dcde9c8", "prompt": "Community art projects foster unity", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "14-2", "method": "retrieval", "image_id": "Ib8a8b1aea1a9d351c360178a", "prompt": "Community art projects foster unity", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "14-2", "method": "retrieval", "image_id": "If4927cedeb384932651c7d14", "prompt": "Community art projects foster unity", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "14-3", "method": "retrieval", "image_id": "I860091584525c1a249572a6c", "prompt": "Cleaning up after street artist is an unpleasant job", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "14-3", "method": "retrieval", "image_id": "Ib4e4ca1ce01dfd2cfd320588", "prompt": "Cleaning up after street artist is an unpleasant job", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "14-3", "method": "retrieval", "image_id": "I72887b1cbdd01b4769323a33", "prompt": "Cleaning up after street artist is an unpleasant job", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "14-3", "method": "retrieval", "image_id": "I999272e844fe9121c23faa69", "prompt": "Cleaning up after street artist is an unpleasant job", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "14-3", "method": "retrieval", "image_id": "I3900b4fe3e23b386e4dc44b1", "prompt": "Cleaning up after street artist is an unpleasant job", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "15-1", "method": "retrieval", "image_id": "I692da742ce673993bec839d5", "prompt": "Cycling makes people happy", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "15-1", "method": "retrieval", "image_id": "Icd38f8b972375a8bf2af3c22", "prompt": "Cycling makes people happy", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "15-1", "method": "retrieval", "image_id": "Ifc9fed34cb5449ac719bd149", "prompt": "Cycling makes people happy", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "15-1", "method": "retrieval", "image_id": "Ibbe2a3b2fb223874af0779d7", "prompt": "Cycling makes people happy", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "15-1", "method": "retrieval", "image_id": "I5e8087c3348062fa1f25ff39", "prompt": "Cycling makes people happy", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "15-2", "method": "retrieval", "image_id": "I8e5722623cb9fc2b0c943e9a", "prompt": "People on bike avoid traffic", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "15-2", "method": "retrieval", "image_id": "Ida3343a082af10dff8cedbbd", "prompt": "People on bike avoid traffic", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "15-2", "method": "retrieval", "image_id": "I7dc9ec6ed0eea0920b839113", "prompt": "People on bike avoid traffic", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "15-2", "method": "retrieval", "image_id": "I33af533f7a3c86b6e1bbab91", "prompt": "People on bike avoid traffic", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "15-2", "method": "retrieval", "image_id": "Ie980d0eba3246b0724a67fed", "prompt": "People on bike avoid traffic", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "15-3", "method": "retrieval", "image_id": "Iebaea0b263a153404295424f", "prompt": "Riding a bike comes with the danger of car accidents", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "15-3", "method": "retrieval", "image_id": "I096d8d7bc9cb481cb54c227b", "prompt": "Riding a bike comes with the danger of car accidents", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "15-3", "method": "retrieval", "image_id": "Ie3bbcb02c4472fb0915cded6", "prompt": "Riding a bike comes with the danger of car accidents", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "15-3", "method": "retrieval", "image_id": "Idfab9c1c7eaaa1e206e6a327", "prompt": "Riding a bike comes with the danger of car accidents", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "15-3", "method": "retrieval", "image_id": "I4446b3bd3a58ba75e205ff8f", "prompt": "Riding a bike comes with the danger of car accidents", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "15-4", "method": "retrieval", "image_id": "I61b20d048f91333c252b04cc", "prompt": "Biking fosters social connection", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "15-4", "method": "retrieval", "image_id": "I9b30a8281b51aa64c7bae175", "prompt": "Biking fosters social connection", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "15-4", "method": "retrieval", "image_id": "I5d3bf644a7109876607f0345", "prompt": "Biking fosters social connection", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "15-4", "method": "retrieval", "image_id": "I928d03d06721654b275ab538", "prompt": "Biking fosters social connection", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "15-4", "method": "retrieval", "image_id": "I82849e7470602a6cfe87843c", "prompt": "Biking fosters social connection", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "15-5", "method": "retrieval", "image_id": "Ice94886cda7a316c19e377d0", "prompt": "Biking is weather-dependent", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "15-5", "method": "retrieval", "image_id": "I9e2d3c0213e4b0bc00bd6266", "prompt": "Biking is weather-dependent", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "15-5", "method": "retrieval", "image_id": "I3dc48f16ce5ba49a0a66e070", "prompt": "Biking is weather-dependent", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "15-5", "method": "retrieval", "image_id": "I1b94b3a0bd721c52d0ea4e57", "prompt": "Biking is weather-dependent", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "15-5", "method": "retrieval", "image_id": "Iff656898eeaba4bbe4044b1b", "prompt": "Biking is weather-dependent", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "15-6", "method": "retrieval", "image_id": "Iecbc8721b072704d995c000d", "prompt": "Cars degrade air quality", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "15-6", "method": "retrieval", "image_id": "Id1a165188e9c58cb1171fa8a", "prompt": "Cars degrade air quality", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "15-6", "method": "retrieval", "image_id": "If0e5ff6483c33a601eff4414", "prompt": "Cars degrade air quality", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "15-6", "method": "retrieval", "image_id": "I526d255c9ca00da900778171", "prompt": "Cars degrade air quality", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "15-6", "method": "retrieval", "image_id": "I2567a2cf8b7f991bdaee3177", "prompt": "Cars degrade air quality", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "16-1", "method": "retrieval", "image_id": "I6e4867f26df7d42f923a1ff2", "prompt": "Outdoor sport lifts the mood", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "16-1", "method": "retrieval", "image_id": "Iddef6e606ee1a4b806cc0356", "prompt": "Outdoor sport lifts the mood", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "16-1", "method": "retrieval", "image_id": "I23db337e636570d767df9e95", "prompt": "Outdoor sport lifts the mood", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "16-1", "method": "retrieval", "image_id": "Ia8de0102d03fe159e95a642c", "prompt": "Outdoor sport lifts the mood", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "16-1", "method": "retrieval", "image_id": "I02695cd6c437f17caab58d40", "prompt": "Outdoor sport lifts the mood", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "16-2", "method": "retrieval", "image_id": "Id74037d1a5bc87b7c68011f6", "prompt": "Outdoor sports foster social interaction", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "16-2", "method": "retrieval", "image_id": "I9adf72e3ad6d911dbf922fd0", "prompt": "Outdoor sports foster social interaction", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "16-2", "method": "retrieval", "image_id": "I0285eb3d1b9bbcce7c0a05c1", "prompt": "Outdoor sports foster social interaction", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "16-2", "method": "retrieval", "image_id": "I0036610cf1d6b09a47bc5475", "prompt": "Outdoor sports foster social interaction", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "16-2", "method": "retrieval", "image_id": "Ib96904aa8056682f6bf776d0", "prompt": "Outdoor sports foster social interaction", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "16-3", "method": "retrieval", "image_id": "Ia720d2037c76ca6a68b393c1", "prompt": "Outdoor sports promote a sense of the beauty of nature", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "16-3", "method": "retrieval", "image_id": "I50d149ad4d06923fa36d2af5", "prompt": "Outdoor sports promote a sense of the beauty of nature", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "16-3", "method": "retrieval", "image_id": "I67f62e39e9558f8874be0a01", "prompt": "Outdoor sports promote a sense of the beauty of nature", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "16-3", "method": "retrieval", "image_id": "Ib159a9cb0a03ac70f972648a", "prompt": "Outdoor sports promote a sense of the beauty of nature", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "16-3", "method": "retrieval", "image_id": "I9a872b4a626f79203d62bf5f", "prompt": "Outdoor sports promote a sense of the beauty of nature", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "16-4", "method": "retrieval", "image_id": "Ib877e836822ae73de49bb04c", "prompt": "Many outdoor sports cannot be done in winter", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "16-4", "method": "retrieval", "image_id": "Ic18b85aed99c5f3a11c3b581", "prompt": "Many outdoor sports cannot be done in winter", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "16-4", "method": "retrieval", "image_id": "Idbef6cec4e3e256a7321be18", "prompt": "Many outdoor sports cannot be done in winter", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "16-4", "method": "retrieval", "image_id": "I16467bee019c9c353e65eda5", "prompt": "Many outdoor sports cannot be done in winter", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "16-4", "method": "retrieval", "image_id": "I8c2618294e1f4dac4e739418", "prompt": "Many outdoor sports cannot be done in winter", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-1", "method": "retrieval", "image_id": "Ia738e5133ac43e518c1d60b3", "prompt": "Online shoppers can shop conveniently from home", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-1", "method": "retrieval", "image_id": "Id19b86a956768d6c7c4b964b", "prompt": "Online shoppers can shop conveniently from home", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-1", "method": "retrieval", "image_id": "I9f7dfa0a2484fba45da603a9", "prompt": "Online shoppers can shop conveniently from home", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-1", "method": "retrieval", "image_id": "I7865f30ca2cf27e47b3470ca", "prompt": "Online shoppers can shop conveniently from home", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-1", "method": "retrieval", "image_id": "I9e948a309f342f678d597938", "prompt": "Online shoppers can shop conveniently from home", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-2", "method": "retrieval", "image_id": "Ief06ee01ae92e9fee787c9d6", "prompt": "Online shopping allows for easy price comparison", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-2", "method": "retrieval", "image_id": "I3670415e81023aacd808db3f", "prompt": "Online shopping allows for easy price comparison", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-2", "method": "retrieval", "image_id": "Idf431544512cee2560bd2f4f", "prompt": "Online shopping allows for easy price comparison", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-2", "method": "retrieval", "image_id": "I067e5656db9b7b436b28be1e", "prompt": "Online shopping allows for easy price comparison", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-2", "method": "retrieval", "image_id": "I661eb808df160280bb197ae7", "prompt": "Online shopping allows for easy price comparison", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-3", "method": "retrieval", "image_id": "If510886ef9f6fbdfa2de2380", "prompt": "In-store shopping offers the ability to see products firsthand", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-3", "method": "retrieval", "image_id": "I18a75e9b222bff7baf0cb1fe", "prompt": "In-store shopping offers the ability to see products firsthand", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-3", "method": "retrieval", "image_id": "Ib26e2c03c8dff63f089d01b2", "prompt": "In-store shopping offers the ability to see products firsthand", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-3", "method": "retrieval", "image_id": "Ia34d9c1cf37b26da82ec32c3", "prompt": "In-store shopping offers the ability to see products firsthand", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-3", "method": "retrieval", "image_id": "Icdda909c90a962ee35e8dc81", "prompt": "In-store shopping offers the ability to see products firsthand", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-4", "method": "retrieval", "image_id": "I07b184b6768b99b2c957dce7", "prompt": "Online shopping leads to waiting times for delivery", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-4", "method": "retrieval", "image_id": "I4c52975d587ce906bd749a9e", "prompt": "Online shopping leads to waiting times for delivery", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-4", "method": "retrieval", "image_id": "Icd87a5e83c487f6f86548da2", "prompt": "Online shopping leads to waiting times for delivery", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-4", "method": "retrieval", "image_id": "I17eb73a0491e8ecdbf45ef87", "prompt": "Online shopping leads to waiting times for delivery", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-4", "method": "retrieval", "image_id": "If8273fb3c7dec4a9bb9c1a7b", "prompt": "Online shopping leads to waiting times for delivery", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-5", "method": "retrieval", "image_id": "I968ebe1b589e11a127f177fc", "prompt": "In-store shopping provides opportunities for social interaction", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-5", "method": "retrieval", "image_id": "I0aa3b6951513ae9c0a40d520", "prompt": "In-store shopping provides opportunities for social interaction", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-5", "method": "retrieval", "image_id": "I0a9dcc5c13b5e67829315bf7", "prompt": "In-store shopping provides opportunities for social interaction", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-5", "method": "retrieval", "image_id": "I694b3b1280cb94f98e4a5719", "prompt": "In-store shopping provides opportunities for social interaction", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-5", "method": "retrieval", "image_id": "Ic234fce14dcac72ed430c7be", "prompt": "In-store shopping provides opportunities for social interaction", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-6", "method": "retrieval", "image_id": "I704e5ba0cc708a4bfd98aa16", "prompt": "Shopping in-store offers the advantage of receiving assistance from sales associates", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-6", "method": "retrieval", "image_id": "Ie985c7a09166e4f990568634", "prompt": "Shopping in-store offers the advantage of receiving assistance from sales associates", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-6", "method": "retrieval", "image_id": "Ie721da77413fb0006950da5b", "prompt": "Shopping in-store offers the advantage of receiving assistance from sales associates", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-6", "method": "retrieval", "image_id": "Ie6da6ccdc86d99654b27d350", "prompt": "Shopping in-store offers the advantage of receiving assistance from sales associates", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-6", "method": "retrieval", "image_id": "I290a7e1351bc1f58a37dff96", "prompt": "Shopping in-store offers the advantage of receiving assistance from sales associates", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "17-7", "method": "retrieval", "image_id": "I618bbccbe5a3435489511bcf", "prompt": "Physical stores are difficult for customers with disabilities", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "17-7", "method": "retrieval", "image_id": "Idc9d2c4207c9f78a33cbe20a", "prompt": "Physical stores are difficult for customers with disabilities", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "17-7", "method": "retrieval", "image_id": "I04ae761e994282734125724a", "prompt": "Physical stores are difficult for customers with disabilities", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "17-7", "method": "retrieval", "image_id": "I3c7438ca49c594b4d192e61a", "prompt": "Physical stores are difficult for customers with disabilities", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "17-7", "method": "retrieval", "image_id": "Ie5ff7bee87f535c7cce3b588", "prompt": "Physical stores are difficult for customers with disabilities", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "18-1", "method": "retrieval", "image_id": "I516945bc146c38ce58294912", "prompt": "Home gyms offer privacy for workouts", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "18-1", "method": "retrieval", "image_id": "I64cb6bc440a60b3088ec5256", "prompt": "Home gyms offer privacy for workouts", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "18-1", "method": "retrieval", "image_id": "Ib13504854796709263213dfb", "prompt": "Home gyms offer privacy for workouts", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "18-1", "method": "retrieval", "image_id": "Ie0357ac6b0aa616a783345e5", "prompt": "Home gyms offer privacy for workouts", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "18-1", "method": "retrieval", "image_id": "I61468c5314ab09f9c442aad9", "prompt": "Home gyms offer privacy for workouts", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "18-2", "method": "retrieval", "image_id": "I23b7f8df34dc71b4ae0dfa0f", "prompt": "Fitness centers provide access to a wide variety of equipment", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "18-2", "method": "retrieval", "image_id": "I7ea47ebd74d78e54e20a4369", "prompt": "Fitness centers provide access to a wide variety of equipment", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "18-2", "method": "retrieval", "image_id": "I1646138ca04c9a452e37b959", "prompt": "Fitness centers provide access to a wide variety of equipment", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "18-2", "method": "retrieval", "image_id": "I976ee5d445c06657804818ed", "prompt": "Fitness centers provide access to a wide variety of equipment", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "18-2", "method": "retrieval", "image_id": "I25d8976da94aaa784ba54e40", "prompt": "Fitness centers provide access to a wide variety of equipment", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "18-3", "method": "retrieval", "image_id": "I96167457eb071560094e14aa", "prompt": "Home gyms are accessible 24/7", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "18-3", "method": "retrieval", "image_id": "I9693b7d75a443f695d337885", "prompt": "Home gyms are accessible 24/7", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "18-3", "method": "retrieval", "image_id": "Ib31f6b6c441a098278ecaed3", "prompt": "Home gyms are accessible 24/7", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "18-3", "method": "retrieval", "image_id": "If717947c8ca5899881ab7562", "prompt": "Home gyms are accessible 24/7", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "18-3", "method": "retrieval", "image_id": "I6d5fe683b80e0437f92a610d", "prompt": "Home gyms are accessible 24/7", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "18-4", "method": "retrieval", "image_id": "Ie934ab18bcffbedb410ba459", "prompt": "Overcrowded gyms lead to waiting times", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "18-4", "method": "retrieval", "image_id": "I54be868d7df7aff97a3333cd", "prompt": "Overcrowded gyms lead to waiting times", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "18-4", "method": "retrieval", "image_id": "I78b0f3a5e535f1f8bdb467c1", "prompt": "Overcrowded gyms lead to waiting times", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "18-4", "method": "retrieval", "image_id": "Icc560817d77742f0ac9a2c5a", "prompt": "Overcrowded gyms lead to waiting times", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "18-4", "method": "retrieval", "image_id": "I220d426405599e552509dee4", "prompt": "Overcrowded gyms lead to waiting times", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "19-1", "method": "retrieval", "image_id": "I271ad388fcf3000db3c7c6de", "prompt": "Hiking is suitable for all fitness levels", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "19-1", "method": "retrieval", "image_id": "Icac5ee38e8177ab89e7aad4e", "prompt": "Hiking is suitable for all fitness levels", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "19-1", "method": "retrieval", "image_id": "Ia056b222ff4c5908278692d9", "prompt": "Hiking is suitable for all fitness levels", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "19-1", "method": "retrieval", "image_id": "Ifa074f264196e833be5eadd4", "prompt": "Hiking is suitable for all fitness levels", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "19-1", "method": "retrieval", "image_id": "I17805ea0b49dd0048ea2ee4c", "prompt": "Hiking is suitable for all fitness levels", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "19-2", "method": "retrieval", "image_id": "I1638fa54ae6b6aba76df2c41", "prompt": "Hiking is physically demanding", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "19-2", "method": "retrieval", "image_id": "I7c9e5230ae3815c1114329c7", "prompt": "Hiking is physically demanding", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "19-2", "method": "retrieval", "image_id": "Ibb15c91b541e0e640de0a03e", "prompt": "Hiking is physically demanding", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "19-2", "method": "retrieval", "image_id": "I645669c834695d5feeb6222f", "prompt": "Hiking is physically demanding", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "19-2", "method": "retrieval", "image_id": "Ia9b72dd714e2436e68509478", "prompt": "Hiking is physically demanding", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "19-3", "method": "retrieval", "image_id": "I3c28fcce8c95794e4055c361", "prompt": "Hiking can lead to injuries", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "19-3", "method": "retrieval", "image_id": "Idf288245617fb77d52279153", "prompt": "Hiking can lead to injuries", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "19-3", "method": "retrieval", "image_id": "I1ffd48122770c170fb940562", "prompt": "Hiking can lead to injuries", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "19-3", "method": "retrieval", "image_id": "Ib0084cf01ccae8632a90dd88", "prompt": "Hiking can lead to injuries", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "19-3", "method": "retrieval", "image_id": "Ic7369644f22f9574537675f9", "prompt": "Hiking can lead to injuries", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "19-4", "method": "retrieval", "image_id": "I0a283dad2723f7ac0179e488", "prompt": "Hikers' trash contributes to environmental damage", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "19-4", "method": "retrieval", "image_id": "Ie4c75d839c114b59d526e08e", "prompt": "Hikers' trash contributes to environmental damage", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "19-4", "method": "retrieval", "image_id": "I4483df9d05b39e5f8a9e1be8", "prompt": "Hikers' trash contributes to environmental damage", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "19-4", "method": "retrieval", "image_id": "I89f0a697f1ae93ac865e0202", "prompt": "Hikers' trash contributes to environmental damage", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "19-4", "method": "retrieval", "image_id": "I9fba974c89de1327c71270ff", "prompt": "Hikers' trash contributes to environmental damage", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "20-1", "method": "retrieval", "image_id": "I5ed10f432e3fb89f55b4ca0a", "prompt": "Sugar provides a quick energy boost for physical activity", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "20-1", "method": "retrieval", "image_id": "If8e6749efaaa69f42c5fef67", "prompt": "Sugar provides a quick energy boost for physical activity", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "20-1", "method": "retrieval", "image_id": "Iefb1cddb48fdd6daf3b0cd4a", "prompt": "Sugar provides a quick energy boost for physical activity", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "20-1", "method": "retrieval", "image_id": "Iea9b0ca89737d980535eae72", "prompt": "Sugar provides a quick energy boost for physical activity", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "20-1", "method": "retrieval", "image_id": "I36a0f059420cc05714495709", "prompt": "Sugar provides a quick energy boost for physical activity", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "20-2", "method": "retrieval", "image_id": "I2919835b848e3d4065b0afb7", "prompt": "Sugar makes food more enjoyable", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "20-2", "method": "retrieval", "image_id": "Iced6dd51055b353bbf35b095", "prompt": "Sugar makes food more enjoyable", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "20-2", "method": "retrieval", "image_id": "Ied38965a3aa4cd1de87d3bff", "prompt": "Sugar makes food more enjoyable", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "20-2", "method": "retrieval", "image_id": "Ib129f21f5b546cce100c4e73", "prompt": "Sugar makes food more enjoyable", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "20-2", "method": "retrieval", "image_id": "I5eed43c6df6f35bccaf5ccf9", "prompt": "Sugar makes food more enjoyable", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "20-3", "method": "retrieval", "image_id": "I773014dc54f86499d2bf7848", "prompt": "Consuming too much sugar leads to weight gain", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "20-3", "method": "retrieval", "image_id": "Ia1fa5e717a2913a392690ecf", "prompt": "Consuming too much sugar leads to weight gain", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "20-3", "method": "retrieval", "image_id": "Ie587f491137b4b5bbfdb53c5", "prompt": "Consuming too much sugar leads to weight gain", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "20-3", "method": "retrieval", "image_id": "I79b70737f75a4099e6b626bf", "prompt": "Consuming too much sugar leads to weight gain", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "20-3", "method": "retrieval", "image_id": "I8e1bc2370b3de76869266639", "prompt": "Consuming too much sugar leads to weight gain", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "20-4", "method": "retrieval", "image_id": "Ie486dd3344da4803d391ab45", "prompt": "Sugar contributes to the development of heart disease", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "20-4", "method": "retrieval", "image_id": "I4c35c080fa349e2360268c0b", "prompt": "Sugar contributes to the development of heart disease", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "20-4", "method": "retrieval", "image_id": "I4cd4c9c901a21e21a7168799", "prompt": "Sugar contributes to the development of heart disease", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "20-4", "method": "retrieval", "image_id": "If06215f5244818cd5299f4f6", "prompt": "Sugar contributes to the development of heart disease", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "20-4", "method": "retrieval", "image_id": "I47724a035bc2d6755d3e04a2", "prompt": "Sugar contributes to the development of heart disease", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "20-5", "method": "retrieval", "image_id": "Ie93c46abc4e70f270cd71e10", "prompt": "Excess sugar harms teeth", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "20-5", "method": "retrieval", "image_id": "I3bb3fd85e3d56cb00def5d8e", "prompt": "Excess sugar harms teeth", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "20-5", "method": "retrieval", "image_id": "Ic007cd3a55a31cf806badf7c", "prompt": "Excess sugar harms teeth", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "20-5", "method": "retrieval", "image_id": "I6104cc17ddf478e9aa6485e8", "prompt": "Excess sugar harms teeth", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "20-5", "method": "retrieval", "image_id": "I4cda7b74b28a82c3f410ba30", "prompt": "Excess sugar harms teeth", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-1", "method": "retrieval", "image_id": "Id7355a1ccebd7e046fa6db4b", "prompt": "Fast Food saves time for people", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-1", "method": "retrieval", "image_id": "I35d08b91d57ede5815bca33d", "prompt": "Fast Food saves time for people", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-1", "method": "retrieval", "image_id": "I0c10a8094eec8033ae215b21", "prompt": "Fast Food saves time for people", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-1", "method": "retrieval", "image_id": "Iefa1ccc04d93c23b95a06acf", "prompt": "Fast Food saves time for people", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-1", "method": "retrieval", "image_id": "I5b93410dd4b12ff58a03942a", "prompt": "Fast Food saves time for people", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-2", "method": "retrieval", "image_id": "I629081b606f53f89d7f52379", "prompt": "Fast Food stores create job opportunities", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-2", "method": "retrieval", "image_id": "I49f8bac2fa147c750664269a", "prompt": "Fast Food stores create job opportunities", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-2", "method": "retrieval", "image_id": "I5c1ea40f804a6abf1576a631", "prompt": "Fast Food stores create job opportunities", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-2", "method": "retrieval", "image_id": "Ic7232010715b38e4d4b18c31", "prompt": "Fast Food stores create job opportunities", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-2", "method": "retrieval", "image_id": "Ib61c253045b6c25e957f21a6", "prompt": "Fast Food stores create job opportunities", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-3", "method": "retrieval", "image_id": "Ia312fa07a1a089295035a5a8", "prompt": "Fast Food drive-thru services are convenient for travelers", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-3", "method": "retrieval", "image_id": "I0d7f80df030fd41a9c4afb39", "prompt": "Fast Food drive-thru services are convenient for travelers", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-3", "method": "retrieval", "image_id": "Id090435c6dd5ab3c24c1ee87", "prompt": "Fast Food drive-thru services are convenient for travelers", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-3", "method": "retrieval", "image_id": "Ib1fc0ab412618c39f5921d4d", "prompt": "Fast Food drive-thru services are convenient for travelers", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-3", "method": "retrieval", "image_id": "I2f613c4e065b876f6eddf864", "prompt": "Fast Food drive-thru services are convenient for travelers", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-4", "method": "retrieval", "image_id": "I857664e9a9464b9f62deb850", "prompt": "Fast food chains contribute to the global economy", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-4", "method": "retrieval", "image_id": "Ib654e85818d53d392bdcabdd", "prompt": "Fast food chains contribute to the global economy", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-4", "method": "retrieval", "image_id": "Ia91e92e87ae88c7065253c0f", "prompt": "Fast food chains contribute to the global economy", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-4", "method": "retrieval", "image_id": "I9c98ecc51de4ad8d69916aa9", "prompt": "Fast food chains contribute to the global economy", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-4", "method": "retrieval", "image_id": "Ic47c8a69313bf60d035ab68f", "prompt": "Fast food chains contribute to the global economy", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-5", "method": "retrieval", "image_id": "Id61b9de9f9bafdf7d5d6361e", "prompt": "Consuming too much Fast Food leads to obesity", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-5", "method": "retrieval", "image_id": "Ifea132d3ed626892a47639e4", "prompt": "Consuming too much Fast Food leads to obesity", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-5", "method": "retrieval", "image_id": "I42561c9105b3462abd89fa34", "prompt": "Consuming too much Fast Food leads to obesity", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-5", "method": "retrieval", "image_id": "Ib40344d28b5bbd5ccf8fc738", "prompt": "Consuming too much Fast Food leads to obesity", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-5", "method": "retrieval", "image_id": "I37cb66cda208763fd67e52a4", "prompt": "Consuming too much Fast Food leads to obesity", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-6", "method": "retrieval", "image_id": "Ib617941bd487435713bc52a1", "prompt": "Fast Food promotes unhealthy eating habits among children", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-6", "method": "retrieval", "image_id": "Iee2ff60e8449a4ea2b419b9b", "prompt": "Fast Food promotes unhealthy eating habits among children", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-6", "method": "retrieval", "image_id": "Ibc3b5275644c97b8c02f34a9", "prompt": "Fast Food promotes unhealthy eating habits among children", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-6", "method": "retrieval", "image_id": "Id4cbb05526afdcedb792ae0e", "prompt": "Fast Food promotes unhealthy eating habits among children", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-6", "method": "retrieval", "image_id": "I89f4634d6089c2fb5925e438", "prompt": "Fast Food promotes unhealthy eating habits among children", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "21-7", "method": "retrieval", "image_id": "I54d732d1b1af1823236fbb60", "prompt": "Fast food packaging increases waste", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "21-7", "method": "retrieval", "image_id": "Ib852a65a46872e77a199e563", "prompt": "Fast food packaging increases waste", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "21-7", "method": "retrieval", "image_id": "I0541d98217b3acb31d09988e", "prompt": "Fast food packaging increases waste", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "21-7", "method": "retrieval", "image_id": "Ib822fafa4f0fa9b624af7332", "prompt": "Fast food packaging increases waste", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "21-7", "method": "retrieval", "image_id": "I041223c15a8c320bbb8485e6", "prompt": "Fast food packaging increases waste", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "22-1", "method": "retrieval", "image_id": "I16a32307f48a28eb0046137f", "prompt": "Animals deserve protection because they are also capable of suffering", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "22-1", "method": "retrieval", "image_id": "I38a6c599f4237e86515d4893", "prompt": "Animals deserve protection because they are also capable of suffering", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "22-1", "method": "retrieval", "image_id": "Ie0bba4224783fb6e01fd6790", "prompt": "Animals deserve protection because they are also capable of suffering", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "22-1", "method": "retrieval", "image_id": "I55f7a14ca00cc469b320276c", "prompt": "Animals deserve protection because they are also capable of suffering", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "22-1", "method": "retrieval", "image_id": "If2660b7ce8b5daf0e1ed8c81", "prompt": "Animals deserve protection because they are also capable of suffering", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "22-2", "method": "retrieval", "image_id": "I204995105efe5c8a5e4f83b8", "prompt": "Promoting animal rights fosters a compassionate society", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "22-2", "method": "retrieval", "image_id": "Ib20101b3516a8b9b515e33ed", "prompt": "Promoting animal rights fosters a compassionate society", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "22-2", "method": "retrieval", "image_id": "I25b0771579d4ab9193f2832d", "prompt": "Promoting animal rights fosters a compassionate society", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "22-2", "method": "retrieval", "image_id": "Ia33d9c976a3f761079a09ada", "prompt": "Promoting animal rights fosters a compassionate society", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "22-2", "method": "retrieval", "image_id": "I05c12c9f7caf04021f91ebd9", "prompt": "Promoting animal rights fosters a compassionate society", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "22-3", "method": "retrieval", "image_id": "Id20a5a52ed5a5e665db5f208", "prompt": "Factory farming causes immense suffering to billions of animals yearly", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "22-3", "method": "retrieval", "image_id": "I0eb617a07e4af040c8907c4b", "prompt": "Factory farming causes immense suffering to billions of animals yearly", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "22-3", "method": "retrieval", "image_id": "Iba0a24d57d2e173a753aa63c", "prompt": "Factory farming causes immense suffering to billions of animals yearly", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "22-3", "method": "retrieval", "image_id": "If18221ab2505a19993b54681", "prompt": "Factory farming causes immense suffering to billions of animals yearly", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "22-3", "method": "retrieval", "image_id": "I69bf4586fc5817dc5a6eff9d", "prompt": "Factory farming causes immense suffering to billions of animals yearly", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "22-4", "method": "retrieval", "image_id": "Ia4076385a5f5a9ea20964a30", "prompt": "Farming animals for food supports global food security", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "22-4", "method": "retrieval", "image_id": "Id979d7cf0888a6ccb27a5217", "prompt": "Farming animals for food supports global food security", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "22-4", "method": "retrieval", "image_id": "Ia2e9267bf1dbaf5368873c0b", "prompt": "Farming animals for food supports global food security", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "22-4", "method": "retrieval", "image_id": "I1d0b4d1ae698ff72c08fc7d7", "prompt": "Farming animals for food supports global food security", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "22-4", "method": "retrieval", "image_id": "Icf24abef6aaab7138b31703f", "prompt": "Farming animals for food supports global food security", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "22-5", "method": "retrieval", "image_id": "I14fbb3080cb28adec421b033", "prompt": "Cultural traditions often rely on the use of animals", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "22-5", "method": "retrieval", "image_id": "I31fbf01cd69105dd13fc3dc3", "prompt": "Cultural traditions often rely on the use of animals", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "22-5", "method": "retrieval", "image_id": "I9e59618b50650ec9bcf2ba09", "prompt": "Cultural traditions often rely on the use of animals", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "22-5", "method": "retrieval", "image_id": "I0c694e277334bf610820383c", "prompt": "Cultural traditions often rely on the use of animals", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "22-5", "method": "retrieval", "image_id": "I85db2aa6716c7321af70c41d", "prompt": "Cultural traditions often rely on the use of animals", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-1", "method": "retrieval", "image_id": "I9f906d38e68797cf2575c34b", "prompt": "Public transportation is more developed in cities than suburbs", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-1", "method": "retrieval", "image_id": "I8b4c78b3b03f05e79d95a3b6", "prompt": "Public transportation is more developed in cities than suburbs", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-1", "method": "retrieval", "image_id": "I2cca008bb9ec850b55d9c9a7", "prompt": "Public transportation is more developed in cities than suburbs", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-1", "method": "retrieval", "image_id": "I39d86b8f8505d9d739843adf", "prompt": "Public transportation is more developed in cities than suburbs", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-1", "method": "retrieval", "image_id": "I9e2d3c0213e4b0bc00bd6266", "prompt": "Public transportation is more developed in cities than suburbs", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-2", "method": "retrieval", "image_id": "I512b6be71d95614ace9f41c3", "prompt": "Urban areas have better healthcare than suburbs", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-2", "method": "retrieval", "image_id": "I4950dbdc714ac4632e93aefc", "prompt": "Urban areas have better healthcare than suburbs", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-2", "method": "retrieval", "image_id": "If9fd13ac94dae8e5767a6357", "prompt": "Urban areas have better healthcare than suburbs", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-2", "method": "retrieval", "image_id": "I1daa7e25601b918263f4a35a", "prompt": "Urban areas have better healthcare than suburbs", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-2", "method": "retrieval", "image_id": "Ie35b577b7cc7a9164c2d7066", "prompt": "Urban areas have better healthcare than suburbs", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-3", "method": "retrieval", "image_id": "I437778f578e6a29fa8b0a8ea", "prompt": "Social Life is more pronounced in the city than in suburbs", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-3", "method": "retrieval", "image_id": "If5c1698299cdf5d084472891", "prompt": "Social Life is more pronounced in the city than in suburbs", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-3", "method": "retrieval", "image_id": "Ia7575404fa92e9f4795243b3", "prompt": "Social Life is more pronounced in the city than in suburbs", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-3", "method": "retrieval", "image_id": "Ia6d3b68f7b069815cb275ab2", "prompt": "Social Life is more pronounced in the city than in suburbs", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-3", "method": "retrieval", "image_id": "If9b9482964628c56b5a32113", "prompt": "Social Life is more pronounced in the city than in suburbs", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-4", "method": "retrieval", "image_id": "I0e80c74385225f66f51718e1", "prompt": "City living is stressful", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-4", "method": "retrieval", "image_id": "Iacc45bfa4ef1f9fc3b287ee5", "prompt": "City living is stressful", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-4", "method": "retrieval", "image_id": "I64cd039db6ab48b329b7f0d3", "prompt": "City living is stressful", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-4", "method": "retrieval", "image_id": "Ia7f781dcead19bbdfe72e3e9", "prompt": "City living is stressful", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-4", "method": "retrieval", "image_id": "Idfd879d8646ce2973334e35d", "prompt": "City living is stressful", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-5", "method": "retrieval", "image_id": "I36f20a27fe6b1cad2b92a241", "prompt": "Air quality in cities is often poor", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-5", "method": "retrieval", "image_id": "Id661be54c319861fa589c974", "prompt": "Air quality in cities is often poor", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-5", "method": "retrieval", "image_id": "I8e1bc2370b3de76869266639", "prompt": "Air quality in cities is often poor", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-5", "method": "retrieval", "image_id": "I06a896a418e153777cceedd5", "prompt": "Air quality in cities is often poor", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-5", "method": "retrieval", "image_id": "Icf8c62ddd4a7e6d7d8f570e8", "prompt": "Air quality in cities is often poor", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-6", "method": "retrieval", "image_id": "I4aee8e8bb72474381c4ded10", "prompt": "Life in the Suburbs promotes a better family life", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-6", "method": "retrieval", "image_id": "I4b450bc2eead24968ab0e2bf", "prompt": "Life in the Suburbs promotes a better family life", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-6", "method": "retrieval", "image_id": "Ib841ea2cfe3cde053e69e5d5", "prompt": "Life in the Suburbs promotes a better family life", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-6", "method": "retrieval", "image_id": "I4b28fd37b796106f87abd448", "prompt": "Life in the Suburbs promotes a better family life", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-6", "method": "retrieval", "image_id": "I071aa2433ffa4b52d1de712f", "prompt": "Life in the Suburbs promotes a better family life", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-7", "method": "retrieval", "image_id": "I83641a8ffb6ba3c184fcbf95", "prompt": "Cities provide a diverse culture", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-7", "method": "retrieval", "image_id": "I2b5e95ab5912669a81b72602", "prompt": "Cities provide a diverse culture", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-7", "method": "retrieval", "image_id": "I3708fea09d69e8ae7e9aeafe", "prompt": "Cities provide a diverse culture", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-7", "method": "retrieval", "image_id": "Iffdcb5710ad8a8ec892da3e3", "prompt": "Cities provide a diverse culture", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-7", "method": "retrieval", "image_id": "I1fd2bb3292f463ca31594993", "prompt": "Cities provide a diverse culture", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "23-8", "method": "retrieval", "image_id": "Id0b3395d25e37af0bffdf381", "prompt": "Suburbs have more spacious homes", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "23-8", "method": "retrieval", "image_id": "I68efa0f07505e3deeea43d59", "prompt": "Suburbs have more spacious homes", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "23-8", "method": "retrieval", "image_id": "I76bab6cd73291d89ca1706b2", "prompt": "Suburbs have more spacious homes", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "23-8", "method": "retrieval", "image_id": "I34bf9cb5bd25af902ec771f1", "prompt": "Suburbs have more spacious homes", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "23-8", "method": "retrieval", "image_id": "Ie52724b3445a6a18fb9a7ab0", "prompt": "Suburbs have more spacious homes", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-1", "method": "retrieval", "image_id": "I17034408368a8eac0dde9b98", "prompt": "Remote work offers better work-life balance for employees", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-1", "method": "retrieval", "image_id": "I3c266c60d18278e25d98bc59", "prompt": "Remote work offers better work-life balance for employees", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-1", "method": "retrieval", "image_id": "Idab206b60c56c20aae3c7727", "prompt": "Remote work offers better work-life balance for employees", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-1", "method": "retrieval", "image_id": "Ia69fe6da5508f779eadb2a07", "prompt": "Remote work offers better work-life balance for employees", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-1", "method": "retrieval", "image_id": "I32ae5813c206b61ab4efc7e7", "prompt": "Remote work offers better work-life balance for employees", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-2", "method": "retrieval", "image_id": "I281bf933c1b5afa84952c630", "prompt": "Remote working enables a comfortable workplace", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-2", "method": "retrieval", "image_id": "Id73f48f075956d6503fc4bad", "prompt": "Remote working enables a comfortable workplace", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-2", "method": "retrieval", "image_id": "I4957d8757d4f32b88447c1e0", "prompt": "Remote working enables a comfortable workplace", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-2", "method": "retrieval", "image_id": "Ie3efe9fa5ae70d7199646a43", "prompt": "Remote working enables a comfortable workplace", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-2", "method": "retrieval", "image_id": "I3582947bdd89c9601dbb9585", "prompt": "Remote working enables a comfortable workplace", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-3", "method": "retrieval", "image_id": "I90c43c87dc6035efbc09e5fc", "prompt": "Remote work can cause feelings of loneliness", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-3", "method": "retrieval", "image_id": "If5f79f0ae88c0914e08ac477", "prompt": "Remote work can cause feelings of loneliness", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-3", "method": "retrieval", "image_id": "I4bc918de55e721fc0a9944f9", "prompt": "Remote work can cause feelings of loneliness", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-3", "method": "retrieval", "image_id": "I0605ca2b241b39e1fece842f", "prompt": "Remote work can cause feelings of loneliness", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-3", "method": "retrieval", "image_id": "I8e5904aa83529569ec351f7c", "prompt": "Remote work can cause feelings of loneliness", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-4", "method": "retrieval", "image_id": "I0fd2168f142977a7ef7858f7", "prompt": "Remote work blurs boundaries between work and personal life", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-4", "method": "retrieval", "image_id": "I20962f8a965cf36a48f7a46a", "prompt": "Remote work blurs boundaries between work and personal life", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-4", "method": "retrieval", "image_id": "I972cc7b21b6c814395bfd50b", "prompt": "Remote work blurs boundaries between work and personal life", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-4", "method": "retrieval", "image_id": "I8812dd27bed88e85da882936", "prompt": "Remote work blurs boundaries between work and personal life", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-4", "method": "retrieval", "image_id": "Id7171416ea38b4125f94cfed", "prompt": "Remote work blurs boundaries between work and personal life", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-5", "method": "retrieval", "image_id": "I5b87aaa080b24af98762ea58", "prompt": "Remote work allows employees to work from anywhere", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-5", "method": "retrieval", "image_id": "I131b21db0764c94c2a5f63ec", "prompt": "Remote work allows employees to work from anywhere", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-5", "method": "retrieval", "image_id": "I2b0a0653895ed249d5686a8e", "prompt": "Remote work allows employees to work from anywhere", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-5", "method": "retrieval", "image_id": "I33e97adeccbaf82a981b0246", "prompt": "Remote work allows employees to work from anywhere", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-5", "method": "retrieval", "image_id": "I092b0c3f76ef46afc80b36f5", "prompt": "Remote work allows employees to work from anywhere", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-6", "method": "retrieval", "image_id": "I0c197e97885b65f4c057c4f7", "prompt": "Remote workers can\u2019t get distracted by coworkers like in-office-workers", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-6", "method": "retrieval", "image_id": "I4f2cbc5a4e3bbe26794bff4a", "prompt": "Remote workers can\u2019t get distracted by coworkers like in-office-workers", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-6", "method": "retrieval", "image_id": "I5db6d0080568f8d0a40c7875", "prompt": "Remote workers can\u2019t get distracted by coworkers like in-office-workers", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-6", "method": "retrieval", "image_id": "I03b1b4ce44b5d81c766e62f8", "prompt": "Remote workers can\u2019t get distracted by coworkers like in-office-workers", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-6", "method": "retrieval", "image_id": "I0b44a6ac5a14dd9b7178faac", "prompt": "Remote workers can\u2019t get distracted by coworkers like in-office-workers", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "24-7", "method": "retrieval", "image_id": "I423a6d53a7d1b73723812f4d", "prompt": "In-office work facilitates teamwork among coworkers", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "24-7", "method": "retrieval", "image_id": "I8efe8697a99e0de5f53319a8", "prompt": "In-office work facilitates teamwork among coworkers", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "24-7", "method": "retrieval", "image_id": "Id63d9de938eec9b0d360515f", "prompt": "In-office work facilitates teamwork among coworkers", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "24-7", "method": "retrieval", "image_id": "Ic340dbb8210c95564693eeed", "prompt": "In-office work facilitates teamwork among coworkers", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "24-7", "method": "retrieval", "image_id": "I22ba7c980992ac3a9a01fe7f", "prompt": "In-office work facilitates teamwork among coworkers", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-1", "method": "retrieval", "image_id": "Ic1b1629b36fa2495a98bf84c", "prompt": "Public transport reduces traffic congestion", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-1", "method": "retrieval", "image_id": "Ic11d38531f70ab77899de588", "prompt": "Public transport reduces traffic congestion", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-1", "method": "retrieval", "image_id": "I45bc1fab8a1fb90a1aa39de7", "prompt": "Public transport reduces traffic congestion", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-1", "method": "retrieval", "image_id": "Idc9fa5f1e3ad8c2ff63b613e", "prompt": "Public transport reduces traffic congestion", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-1", "method": "retrieval", "image_id": "Id3f8e786263d16b37e6f2019", "prompt": "Public transport reduces traffic congestion", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-2", "method": "retrieval", "image_id": "I0bf6a4051f5410a17cd46d15", "prompt": "Public transport allows passengers to relax", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-2", "method": "retrieval", "image_id": "Ie985c7a09166e4f990568634", "prompt": "Public transport allows passengers to relax", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-2", "method": "retrieval", "image_id": "I1a289b85ff3798076fb371c0", "prompt": "Public transport allows passengers to relax", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-2", "method": "retrieval", "image_id": "I7f0ac62c4bd71b7d7b3626e2", "prompt": "Public transport allows passengers to relax", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-2", "method": "retrieval", "image_id": "Id59e41d2e2f18b08c3f4774f", "prompt": "Public transport allows passengers to relax", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-3", "method": "retrieval", "image_id": "Ia1161da16e5811805dc48e46", "prompt": "Finding parking in cities can be difficult", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-3", "method": "retrieval", "image_id": "I8daec63d2f19bb8c7bac43a6", "prompt": "Finding parking in cities can be difficult", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-3", "method": "retrieval", "image_id": "I817d082c27d10cd52080d8f0", "prompt": "Finding parking in cities can be difficult", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-3", "method": "retrieval", "image_id": "I396fc8b7eb4d2a45e942449b", "prompt": "Finding parking in cities can be difficult", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-3", "method": "retrieval", "image_id": "I93c7b4c0a7f6c7b4e297764a", "prompt": "Finding parking in cities can be difficult", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-4", "method": "retrieval", "image_id": "Ie22eaecd925d5acdc3ae1045", "prompt": "Cars make it easy to transport things", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-4", "method": "retrieval", "image_id": "I8ec60fd13c91d2e4dd6fd151", "prompt": "Cars make it easy to transport things", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-4", "method": "retrieval", "image_id": "I3082957af06024f3746dc80d", "prompt": "Cars make it easy to transport things", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-4", "method": "retrieval", "image_id": "I88fe4e23035a016f0430bccf", "prompt": "Cars make it easy to transport things", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-4", "method": "retrieval", "image_id": "Ifa843efdb184db7a4b12844b", "prompt": "Cars make it easy to transport things", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-5", "method": "retrieval", "image_id": "Ibbf179f45ab59428f3d9b3f9", "prompt": "Public transport can be unreliable", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-5", "method": "retrieval", "image_id": "I3e97e9365a2e97a315b1ad22", "prompt": "Public transport can be unreliable", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-5", "method": "retrieval", "image_id": "If63581312b351c6845ac0a8a", "prompt": "Public transport can be unreliable", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-5", "method": "retrieval", "image_id": "Iace639d24b801dc2803a0066", "prompt": "Public transport can be unreliable", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-5", "method": "retrieval", "image_id": "Ia61acef585c9cddfdab70e6c", "prompt": "Public transport can be unreliable", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-6", "method": "retrieval", "image_id": "I631c98bec84cfa4bcd3e7398", "prompt": "Public transport can be overcrowded", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-6", "method": "retrieval", "image_id": "Ia0226f55909e85827c60f428", "prompt": "Public transport can be overcrowded", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-6", "method": "retrieval", "image_id": "Ifdb265e8eff3ef711b53891f", "prompt": "Public transport can be overcrowded", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-6", "method": "retrieval", "image_id": "I18672519c735c7f9683cc972", "prompt": "Public transport can be overcrowded", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-6", "method": "retrieval", "image_id": "I9b3560a6a696165e6333e1ac", "prompt": "Public transport can be overcrowded", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-7", "method": "retrieval", "image_id": "Ied1c6ab21005b58973f23c8e", "prompt": "Risk of crime is higher in public transport", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-7", "method": "retrieval", "image_id": "I080a456278b07878412c7cca", "prompt": "Risk of crime is higher in public transport", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-7", "method": "retrieval", "image_id": "Ibe0802f6442a20bf807ef8d9", "prompt": "Risk of crime is higher in public transport", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-7", "method": "retrieval", "image_id": "Iaa9f53e75b61f9e41c4019ec", "prompt": "Risk of crime is higher in public transport", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-7", "method": "retrieval", "image_id": "I1fe2412bdbd32b00c94d95e6", "prompt": "Risk of crime is higher in public transport", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "25-8", "method": "retrieval", "image_id": "I83f2324c71d86b96f4fb1c42", "prompt": "Private cars contribute significantly to air pollution", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "25-8", "method": "retrieval", "image_id": "Ia489af3738e1184a83768066", "prompt": "Private cars contribute significantly to air pollution", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "25-8", "method": "retrieval", "image_id": "Id7632f7ca77141864cb27a7f", "prompt": "Private cars contribute significantly to air pollution", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "25-8", "method": "retrieval", "image_id": "I080f3ff28a075ea254a318a8", "prompt": "Private cars contribute significantly to air pollution", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "25-8", "method": "retrieval", "image_id": "Ic23aaabfa676a98e0df1916b", "prompt": "Private cars contribute significantly to air pollution", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "26-1", "method": "retrieval", "image_id": "I996d13ed382ff944faeb89b4", "prompt": "Carrying cash poses the risk of theft", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "26-1", "method": "retrieval", "image_id": "Id24ea79fe83e8ca063064e18", "prompt": "Carrying cash poses the risk of theft", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "26-1", "method": "retrieval", "image_id": "I821cf8b748290c26f8697239", "prompt": "Carrying cash poses the risk of theft", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "26-1", "method": "retrieval", "image_id": "I4835d424a56c15a137f2c2d1", "prompt": "Carrying cash poses the risk of theft", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "26-1", "method": "retrieval", "image_id": "Iecd8048f04d632f87f8b7773", "prompt": "Carrying cash poses the risk of theft", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "26-2", "method": "retrieval", "image_id": "Icf2f2d7d10ec3b3693f9fb8f", "prompt": "Digital Payments increase the risk of cyber fraud", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "26-2", "method": "retrieval", "image_id": "I8adc8897b8d66d1bd99664d9", "prompt": "Digital Payments increase the risk of cyber fraud", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "26-2", "method": "retrieval", "image_id": "If3b1bc83cd616433a3e759b2", "prompt": "Digital Payments increase the risk of cyber fraud", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "26-2", "method": "retrieval", "image_id": "I167eb282090d9e164258e053", "prompt": "Digital Payments increase the risk of cyber fraud", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "26-2", "method": "retrieval", "image_id": "Id239249cc3eedeb3d788a04a", "prompt": "Digital Payments increase the risk of cyber fraud", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "27-1", "method": "retrieval", "image_id": "Iec64c5dbacadc6fe1447edfd", "prompt": "Homeschooled children don\u2019t have access to school resources", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "27-1", "method": "retrieval", "image_id": "I1e66a517717e8def3b82d945", "prompt": "Homeschooled children don\u2019t have access to school resources", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "27-1", "method": "retrieval", "image_id": "I0968233fd79f1ffff141fa84", "prompt": "Homeschooled children don\u2019t have access to school resources", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "27-1", "method": "retrieval", "image_id": "I6f8b092514bb1f4cdeb64350", "prompt": "Homeschooled children don\u2019t have access to school resources", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "27-1", "method": "retrieval", "image_id": "I25a577c3513dc15f34a96c4d", "prompt": "Homeschooled children don\u2019t have access to school resources", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "27-2", "method": "retrieval", "image_id": "I32ae8a78df1c08d23d316a2c", "prompt": "Homeschooled children can learn in a comfortable environment", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "27-2", "method": "retrieval", "image_id": "I90730711118eca3d7e67b1b5", "prompt": "Homeschooled children can learn in a comfortable environment", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "27-2", "method": "retrieval", "image_id": "I24bb649e391b26a278253c50", "prompt": "Homeschooled children can learn in a comfortable environment", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "27-2", "method": "retrieval", "image_id": "I4dcf2fbc49d793c188af7ceb", "prompt": "Homeschooled children can learn in a comfortable environment", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "27-2", "method": "retrieval", "image_id": "Iad36d3a087bc21347f5d3af4", "prompt": "Homeschooled children can learn in a comfortable environment", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "27-3", "method": "retrieval", "image_id": "I18b00192a41636d40eb6835e", "prompt": "Homeschooled children have fewer socialization opportunities", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "27-3", "method": "retrieval", "image_id": "I278aa62556aded562652501a", "prompt": "Homeschooled children have fewer socialization opportunities", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "27-3", "method": "retrieval", "image_id": "If81111bf69b87686d45607bd", "prompt": "Homeschooled children have fewer socialization opportunities", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "27-3", "method": "retrieval", "image_id": "If3803f759892cdec81db5178", "prompt": "Homeschooled children have fewer socialization opportunities", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "27-3", "method": "retrieval", "image_id": "I0e3251994cda7ca3e31c8d3f", "prompt": "Homeschooled children have fewer socialization opportunities", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "27-4", "method": "retrieval", "image_id": "I43ada22e09cc4e6f34c0b02e", "prompt": "Homeschooled Children don\u2019t face the problem of bullying in school", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "27-4", "method": "retrieval", "image_id": "I5bcf7cd1832e21ce4fb1a36a", "prompt": "Homeschooled Children don\u2019t face the problem of bullying in school", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "27-4", "method": "retrieval", "image_id": "Ie421f5d540ee490152047680", "prompt": "Homeschooled Children don\u2019t face the problem of bullying in school", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "27-4", "method": "retrieval", "image_id": "Ie385a6a8d32aa26cc3f0cb31", "prompt": "Homeschooled Children don\u2019t face the problem of bullying in school", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "27-4", "method": "retrieval", "image_id": "I9f7277aec14d510348f06b48", "prompt": "Homeschooled Children don\u2019t face the problem of bullying in school", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "27-5", "method": "retrieval", "image_id": "I29452a0496c933d925e80720", "prompt": "Homeschooled children miss out on extracurricular activities", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "27-5", "method": "retrieval", "image_id": "I300ef5a3e3ecb937ef43d439", "prompt": "Homeschooled children miss out on extracurricular activities", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "27-5", "method": "retrieval", "image_id": "If4cab3ff6f5d7bc34b52ec36", "prompt": "Homeschooled children miss out on extracurricular activities", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "27-5", "method": "retrieval", "image_id": "I7e7899a2d21d0b8d7f27723c", "prompt": "Homeschooled children miss out on extracurricular activities", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "27-5", "method": "retrieval", "image_id": "I7baf3d975138bfc004ce0ee7", "prompt": "Homeschooled children miss out on extracurricular activities", "rank": 5, "tag": "touche25-baseline-random"}
+{"argument_id": "27-6", "method": "retrieval", "image_id": "I98517b828614c429fb172b82", "prompt": "Homeschooling parents can experience burnout from the extra work", "rank": 1, "tag": "touche25-baseline-random"}
+{"argument_id": "27-6", "method": "retrieval", "image_id": "I18b778e034d355b6b76f23e8", "prompt": "Homeschooling parents can experience burnout from the extra work", "rank": 2, "tag": "touche25-baseline-random"}
+{"argument_id": "27-6", "method": "retrieval", "image_id": "Ie7d3cd669a7d873b8f7bdff0", "prompt": "Homeschooling parents can experience burnout from the extra work", "rank": 3, "tag": "touche25-baseline-random"}
+{"argument_id": "27-6", "method": "retrieval", "image_id": "Ib750a96fec6104a3c978c64b", "prompt": "Homeschooling parents can experience burnout from the extra work", "rank": 4, "tag": "touche25-baseline-random"}
+{"argument_id": "27-6", "method": "retrieval", "image_id": "I3aec0502ff1dfaa2704ce890", "prompt": "Homeschooling parents can experience burnout from the extra work", "rank": 5, "tag": "touche25-baseline-random"}
