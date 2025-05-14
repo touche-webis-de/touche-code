@@ -34,6 +34,7 @@ async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
         return { "score": None }
+    # return a score below 0.5 for "no" and above for "yes" 
     return {
         "score": 1
     }
@@ -43,6 +44,7 @@ async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
         return { "score": None }
+    # return a score below 0.5 for "no" and above for "yes" 
     return {
         "score": 1
     }
@@ -52,6 +54,7 @@ async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
         return { "score": None }
+    # return a score below 0.5 for "no" and above for "yes" 
     return {
         "score": 1
     }
@@ -61,6 +64,7 @@ async def respond(request: Request):
     if request.userTurnIndex == None:
         # overall conversation evaluation not part of this task
         return { "score": None }
+    # return a score below 0.5 for "no" and above for "yes" 
     return {
         "score": 1
     }
