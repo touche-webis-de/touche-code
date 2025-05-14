@@ -54,9 +54,14 @@ class Validator:
         print("✅ JSONL file is valid.")
         return True
 
-    def _get_generated_image_names(self):
-        image_path = self.file_directory / "image"
-        return [image.name for image in image_path.iterdir()]
+    def _get_generated_image_names(self) :
+        image_paths = [self.file_directory / "images", self.file_directory / "image"]
+
+        for path in image_paths :
+            if path.exists() and path.is_dir() :
+                return [image.name for image in path.iterdir() if image.is_file()]
+
+        return []
 
     def check_keys(self):
         errors = False
