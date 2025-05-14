@@ -21,7 +21,7 @@ docker run --rm -it \
 Run the following command (add `--dry-run` for a test, omit the `--dry-run` argument to upload to TIRA):
 
 ```{bash}
-tira-cli code-submission --path . --task retrieval-augmented-debating-2025 --input-dataset retrieval-augmented-debating-2025/rad25-sub-task-2-training-20250514-training --command '/genirsim/run.sh --evaluate-run-file=$inputDataset/*.json --output-file=$outputDir/simulations.jsonl' --allow-network --dry-run
+tira-cli code-submission --path . --task retrieval-augmented-debating-2025 --input-dataset retrieval-augmented-debating-2025/rad25-sub-task-2-toy-20250514-training --command '/genirsim/run.sh --evaluate-run-file=$inputDataset/*.json --output-file=$outputDir/simulations.jsonl' --allow-network --dry-run
 ```
 
 For submission via continuous integration, see the [workflow file for this image](../../../../.github/workflows/rad25-evaluation-1-baseline-py-tira-upload.yml) and adapt it to your case.

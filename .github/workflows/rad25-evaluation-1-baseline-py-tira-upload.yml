@@ -24,4 +24,4 @@ jobs:
       - name: Build, test, and upload image
         run: |
           docker build -t registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:0.0.1 -f ${{ env.SRC_PATH }}/Dockerfile ${{ env.SRC_PATH }}
-          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN_ARISTOTLE }} --input-dataset retrieval-augmented-debating-2025/rad25-sub-task-2-training-20250514-training --image registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:0.0.1 --command '/genirsim/run.sh --evaluate-run-file=$inputDataset/*.jsonl --output-file=$outputDir/evaluations.jsonl' --allow-network true --push true --fail-if-output-is-empty
+          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN_ARISTOTLE }} --input-dataset retrieval-augmented-debating-2025/rad25-sub-task-2-toy-20250514-training --image registry.webis.de/code-research/tira/tira-user-aristotle/github-action-submission:0.0.1 --command '/genirsim/run.sh --evaluate-run-file=$inputDataset/*.jsonl --output-file=$outputDir/evaluations.jsonl' --allow-network true --push true --fail-if-output-is-empty
