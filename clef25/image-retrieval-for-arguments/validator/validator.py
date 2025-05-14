@@ -1,7 +1,7 @@
 from collections import defaultdict
 import json
 from pathlib import Path
-import os
+import shutil
 import zipfile
 import settings as s
 
@@ -16,10 +16,15 @@ with open(s.PROJECT_ROOT / "image_id_list.txt", "r") as file:
     image_id_list = [line.strip() for line in file.readlines()]
 
 TMP_DIR = Path.cwd() / "tmp"
+if TMP_DIR.exists():
+    shutil.rmtree(TMP_DIR)
 TMP_DIR.mkdir(parents=True, exist_ok=True)
 
 class Validator:
     def __init__(self, input_file):
+        if not Path(input_file).exists():
+            raise FileNotFoundError(f"File {input_file} does not exist.")
+
         self.file_directory = Path(input_file).parent
         self.tmp_dir = TMP_DIR
         self.results = []
@@ -27,9 +32,30 @@ class Validator:
         # check if it is a zip file
         if zipfile.is_zipfile(input_file):
             self._unzip_to_tmp_dir(input_file)
-            self.file_directory = Path(self.tmp_dir) / Path(input_file).stem
+
+            tmp_path = Path(self.tmp_dir)
+
+            dirs_to_check = [tmp_path]
+
+            # Check if 'results.jsonl' exists in the unzipped file
+            while dirs_to_check :
+                current_dir = dirs_to_check.pop(0)  # Get the next directory to check
+
+                # Check if the 'results.json' exists in the current directory
+                if (current_dir / "results.jsonl").exists() :
+                    self.file_directory = current_dir
+                    break  # Stop searching once we find the directory
+
+                # If not found, add subdirectories of the current directory to the list to check
+                for path in current_dir.iterdir() :
+                    if path.is_dir() :
+                        dirs_to_check.append(path)  # Properly closing the append method
+
+                if not dirs_to_check :
+                    raise FileNotFoundError("❗ No results.jsonl found in the unzipped directory.")
 
         self.file_path = self.file_directory / "results.jsonl"
+
         if not self.file_directory.exists():
             raise FileNotFoundError(f"File {self.file_path} does not exist.")
 
@@ -119,26 +145,49 @@ class Validator:
         else:
             print("✅ All argument_ids have ranks 1-5.")
 
-        # Flatten argument list for corpus validation
-        flattened_argument_list = [arg for args in id_check_dict.values() for arg in args]
-
         # Validate image_id presence in corpus based on method
         if choosen_method == {"retrieval"}:
-            for arg in flattened_argument_list:
-                if arg["image_id"] not in image_id_list:
+            for argId, arguments in id_check_dict.items():
+                arg_ids_dict = defaultdict(int)
+                for arg in arguments:
+                    if arg["image_id"] not in image_id_list:
+                        errors = True
+                        print(f"❗ Image_id {arg['image_id']} for argument_id {arg['argument_id']} is not in the dataset")
+                    arg_ids_dict[arg["image_id"]] += 1
+
+                # Check for duplicate submissions
+                if len(arg_ids_dict) != len(arguments):
                     errors = True
-                    print(f"❗ Image_id {arg['image_id']} for argument_id {arg['argument_id']} is not in the dataset")
+                    for arg_id, count in arg_ids_dict.items():
+                        if count > 1:
+                            print(f"❗ Duplicate image_id {arg_id} for argument_id {argId} with count {count}")
+
 
         elif choosen_method == {"generation"}:
             generated_image_id_list = self._get_generated_image_names()
 
-            for arg in flattened_argument_list:
-                if arg["image_id"] not in generated_image_id_list:
+            for argId, arguments in id_check_dict.items():
+                arg_ids_dict = defaultdict(int)
+                for arg in arguments:
+
+                    if arg["image_id"] not in generated_image_id_list:
+                        errors = True
+                        print(f"❗ Generated image_id {arg['image_id']} for argument_id {arg['argument_id']} is missing")
+                    if "prompt" not in arg: # generation submission requires additional key prompt
+                        errors = True
+                        print(f"❗ Prompt is missing for argument_id {arg['argument_id']} and image_id {arg['image_id']}")
+                    arg_ids_dict[arg["image_id"]] += 1
+
+                # Check for duplicate submissions
+                if len(arg_ids_dict) != len(arguments) :
                     errors = True
-                    print(f"❗ Generated image_id {arg['image_id']} for argument_id {arg['argument_id']} is missing")
-                if "prompt" not in arg: # generation submission requires additional key prompt
-                    errors = True
-                    print(f"❗ Prompt is missing for argument_id {arg['argument_id']} and image_id {arg['image_id']}")
+                    for arg_id, count in arg_ids_dict.items() :
+                        if count > 1 :
+                            print(f"❗ Duplicate image_id {arg_id} for argument_id {argId} with count {count}")
+
+        else:
+            print(f"❗ Unknown method: {choosen_method}. Please check your jsonl file.")
+            errors = True
 
         if errors:
             print("❗ Validation failed.")
@@ -146,5 +195,7 @@ class Validator:
             print("✅ Validation passed.")
 
 if __name__ == "__main__":
-    input_file = s.PROJECT_ROOT / "results/random/results.jsonl"  # Replace with your input file
+    input_file = s.PROJECT_ROOT / "tests"/ "random"/ "results.jsonl"  # Replace with your input file
+    # input_file = s.PROJECT_ROOT / "tests" / "generation-smoke-data.zip"  # Replace with your input file
+
     validator = Validator(input_file)
