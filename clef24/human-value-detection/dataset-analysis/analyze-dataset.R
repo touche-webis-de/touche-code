@@ -14,9 +14,7 @@ col19to10 <- c("#A259DB", "#A259DB", "#6159DB", "#5992DB", "#59D3DB", "#59DBA2",
 col10 <- c("#A259DB", "#6159DB", "#5992DB", "#59D3DB", "#59DBA2", "#59DB61", "#92DB59", "#D3DB57", "#DBA157", "#DB6159")
 
 args <- commandArgs(trailingOnly=TRUE)
-data.filename <- args[1]
-
-data <- read.csv(data.filename, sep="\t", header=TRUE)
+data <- do.call("rbind", lapply(args, function(filename) { return(read.csv(filename, sep="\t", header=TRUE)) }))
 data$Language <- factor(sub("_.*", "", data$Text.ID))
 data$Is.manifesto <- regexpr("_M_", data$Text.ID) != -1
 
@@ -30,7 +28,7 @@ plot.barsperlanguage <- function(filename, data, ...) {
   dev.off()
 }
 
-#files 
+# files 
 plot.barsperlanguage("files-per-language.pdf", data[data$Sentence.ID == 1,], ylab="Texts")
 
 # sentences
@@ -143,9 +141,9 @@ values.attainment <- function(x, offset=1, check=1) {
   colnames(attainment) <- values
   return(attainment)
 }
-values.attained    <- value.attainment(data[,3:40])
-values.constrained <- value.attainment(data[,3:40], offset=2)
-values.undecided   <- value.attainment(data[,3:40], check=0.5)
+values.attained    <- values.attainment(data[,3:40])
+values.constrained <- values.attainment(data[,3:40], offset=2)
+values.undecided   <- values.attainment(data[,3:40], check=0.5)
 values.any <- values.undecided + values.attained + values.constrained > 0
 colnames(values.any) <- values
 values.coarse.row <- function(x) {
@@ -192,7 +190,7 @@ attainments <- data.frame(
 )
 rownames(attainments) <- values
 
-counts.any.coarse <- colSums(value.coarse(values.any))
+counts.any.coarse <- colSums(values.coarse(values.any))
 attainments.coarse <- data.frame(
   attained = colSums(values.coarse(values.attained)) / counts.any.coarse,
   undecided = colSums(values.coarse(values.undecided)) / counts.any.coarse,
