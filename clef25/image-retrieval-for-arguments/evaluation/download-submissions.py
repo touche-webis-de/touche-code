@@ -14,7 +14,7 @@ def submissions(tira, task, dataset):
 
 @click.command()
 @click.option("--task", type=click.Choice(["touche-task-3"]), required=True, help="The task id in tira. See https://archive.tira.io/datasets?query=touche")
-@click.option("--datasets", type=click.Choice(["main-2025-20241213-training"]), multiple=True, help="The dataset id in tira. See https://archive.tira.io/datasets?query=touche")
+@click.option("--datasets", type=click.Choice(["main-2025-20241213-training", "image-retrieval-generation-for-arguments-2025-20250507-test"]), multiple=True, help="The dataset id in tira. See https://archive.tira.io/datasets?query=touche")
 def main(task, datasets):
     tira = Client()
     results = []
