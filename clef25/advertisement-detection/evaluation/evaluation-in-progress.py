@@ -8,7 +8,7 @@ import json
 
 @click.command()
 @click.option("--task", type=click.Choice(["advertisement-in-retrieval-augmented-generation-2025"]), required=True, help="The task id in tira. See https://archive.tira.io/datasets?query=advertisement")
-@click.option("--datasets", type=click.Choice(["ads-in-rag-task-1-generation-test-20250506-test", "ads-in-rag-task-1-generation-test-20250603-test"]), multiple=True, help="The dataset id in tira. See https://archive.tira.io/datasets?query=advertisement")
+@click.option("--datasets", type=click.Choice(["ads-in-rag-task-1-generation-test-20250506-test", "ads-in-rag-task-1-generation-test-20250603-test", "ads-in-rag-task-2-classification-test-20250428-test", "ads-in-rag-task-2-classification-on-generations-01-20250611-test", "ads-in-rag-task-2-classification-on-generations-02-20250611-test", "ads-in-rag-task-2-classification-on-generations-03-20250611-test", "ads-in-rag-task-2-classification-on-generations-04-20250611-test", "ads-in-rag-task-2-classification-on-generations-05-20250611-test"]), multiple=True, help="The dataset id in tira. See https://archive.tira.io/datasets?query=advertisement")
 @click.option("--output", type=str, required=True, help="The output directory.")
 def main(task, datasets, output):
     tira = Client()
