@@ -1,4 +1,4 @@
-ARG BASE_IMAGE_VERSION=0.3.2
+ARG BASE_IMAGE_VERSION=0.5.0
 
 FROM ghcr.io/touche-webis-de/touche25-retrieval-augmented-debating-base:${BASE_IMAGE_VERSION}-py3.13
 
