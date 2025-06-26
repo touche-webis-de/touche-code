@@ -451,7 +451,7 @@
     }
 
     if (!isNaN(annotator)) {
-        decompress("touche25-rad-cmv-debates.jsonl.gzip")
+        decompress("touche25-rad-submissions-annotations.jsonl.gz")
             .then(responseText => responseText.trim().split("\n").map(txt => JSON.parse(txt)))
             .then(dataset => createAnnotationInterface(dataset));
     }
