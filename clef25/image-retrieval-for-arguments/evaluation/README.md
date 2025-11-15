@@ -1,0 +1,2 @@
+Runs from participants and annotations for the evaluation are available at:
+ceph/storage/data-in-progress/data-research/arguana/touche-shared-tasks/touche25-image-retrieval-generation-for-arguments/shared_task_files/.
