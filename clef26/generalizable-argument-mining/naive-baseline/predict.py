@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
 
-from joblib import load
 from tira.rest_api_client import Client
 from tira.third_party_integrations import get_output_directory
 import click

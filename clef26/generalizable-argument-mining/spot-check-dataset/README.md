@@ -10,15 +10,17 @@ configs:
     path: ["truths.jsonl"]
 
 tira_configs:
+  resolve_inputs_to: "."
+  resolve_truths_to: "."
   baseline:
     link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/generalizable-argument-mining/naive-baseline
     command: /predict.py --dataset $inputDataset --predict Argument --output $outputDir
     format:
-      name: [".jsonl"]
+      name: ["*.jsonl"]
   input_format:
-    name: ".jsonl"
+    name: "*.jsonl"
   truth_format:
-    name: ".jsonl"
+    name: "*.jsonl"
   evaluator:
     measures: ["accuracy", "recall", "precision", "f1"]
 ---
@@ -60,10 +62,10 @@ Result:
 
 ## Step 2: Check that the Dataset is Valid and that the baseline and evaluator work
 
-Verify the dataset via:
+from the parent directory of this README, verify the dataset via:
 
 ```
-tira-cli dataset-submission --dry-run --path YOUR-DIRECTORY --task lsr-benchmark --split train
+tira-cli dataset-submission --dry-run --path spot-check-dataset --task tbd --split train
 ```
 
 This will check that the system-inputs and the truths are valid, it will run the specified baseline on it, will check that the outputs of the basline are valid and will run the evaluation on the baseline to ensure that everything works. All of this is configured in the README.md in the Hugging Face datasets format.
