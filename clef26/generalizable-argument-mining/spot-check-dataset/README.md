@@ -14,13 +14,19 @@ tira_configs:
   resolve_truths_to: "."
   baseline:
     link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/generalizable-argument-mining/naive-baseline
-    command: /predict.py --dataset $inputDataset --predict Argument --output $outputDir
+    command: /predict.py --dataset $inputDataset --predict Argument
     format:
       name: ["*.jsonl"]
+      config:
+        id_field: id
+        value_field: label
   input_format:
     name: "*.jsonl"
   truth_format:
     name: "*.jsonl"
+    config:
+      id_field: id
+      value_field: label
   evaluator:
     measures: ["accuracy", "recall", "precision", "f1"]
 ---
