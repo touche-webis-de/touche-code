@@ -78,6 +78,8 @@ This will check that the system-inputs and the truths are valid, it will run the
 
 If everything worked, the output should look like:
 
+<img width="1358" height="184" alt="Screenshot from 2026-01-08 17-32-46" src="https://github.com/user-attachments/assets/976648c0-a6e0-410a-bfb1-c949ea2575c5" />
+
 
 ## Step 3: Upload the dataset
 
