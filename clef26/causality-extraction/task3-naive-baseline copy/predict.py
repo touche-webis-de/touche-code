@@ -8,7 +8,7 @@ import click
 @click.command()
 @click.option('--dataset', default='../spot-check-dataset/inputs.jsonl', help='The dataset to run predictions on (can point to a local directory).')
 @click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", help='The file where predictions should be written to.')
-@click.option('--predict', type=click.Choice(["0", "1"]), required=True, help='The naive prediction that this baseline will make for every input.')
+@click.option('--predict', type=click.Choice(["0", "1", "2"]), required=True, help='The naive prediction that this baseline will make for every input.')
 def main(dataset, output, predict):
     # Load the data
     tira = Client()
