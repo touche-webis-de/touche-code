@@ -151,8 +151,11 @@ def get_detected_spans(pair_nums: list[int], sentence_spans: list[tuple[int, int
         if len(num_list) >= 2:
             ad_spans += get_detection_multiple(num_list=num_list, sentence_spans=sentence_spans)
         else:
-            ad_spans += get_detection_single(num=num_list[0], sentence_spans=sentence_spans)
+            ad_spans.append(get_detection_single(num=num_list[0], sentence_spans=sentence_spans))
+        print(ad_spans)
 
+    print("\n")
+    print("-"*50)
     return ad_spans
 
 
@@ -178,5 +181,5 @@ def get_detection_single(num: int, sentence_spans: list[tuple[int, int]]):
         return sentence_spans[-1]
 
     # For pairs in the middle, we can't say which sentence was chosen
-    tup = (sentence_spans[num], sentence_spans[num+1])
-    return [tup[0], tup[1]]
+    tup = (sentence_spans[num][0], sentence_spans[num+1][1])
+    return tup

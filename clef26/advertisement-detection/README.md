@@ -19,3 +19,8 @@ The span prediction baseline uses the same BERT model (MiniLM) as for subtask 1.
 
 ## Subtask 3 - Blocking
 This baseline takes the simplest approach to ad blocking and removes all text marked by the spans.
+
+
+# Evaluation
+The [task_eval](task_eval)-directory provides scripts to evaluate your runs. 
+For subtask 1, the evaluation can be handled by TIRA (see the respective READMEs); the [detection.py](task_eval/detection.py)-script is provided for reference.
