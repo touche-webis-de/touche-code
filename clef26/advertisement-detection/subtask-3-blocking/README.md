@@ -10,7 +10,7 @@ If you want to run this baseline locally, please install the dependencies via `p
 To generate new responses from a dataset, run:
 
 ```
-./block.py --dataset ads-in-rag-task-3-blocking-spot-check-20260417-training --output generations.jsonl
+./block.py --dataset ads-in-rag-task-3-blocking-spot-check-20260424-training --output generations.jsonl
 ```
 
 The `--dataset` either must point to a local directory or must be the ID of a dataset in TIRA ([tira.io/datasets?query=ads-in-rag-task-3-blocking](https://archive.tira.io/datasets?query=ads-in-rag-task-3-blocking) shows an overview of available datasets).
@@ -28,7 +28,7 @@ On a high level, you need to perform these steps:
 ### Code submission
 To submit this baseline to TIRA, please run:
 ```
-tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2026 --dataset ads-in-rag-task-3-blocking-spot-check-20260417-training --command '/block.py'
+tira-cli code-submission --path . --task advertisement-in-retrieval-augmented-generation-2026 --dataset ads-in-rag-task-3-blocking-spot-check-20260424-training --command '/block.py'
 ```
 
 #### Running a submission on TIRA

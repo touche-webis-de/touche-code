@@ -8,7 +8,7 @@ from tira.third_party_integrations import get_output_directory
 import click
 
 @click.command()
-@click.option('--dataset', default='advertisement-in-retrieval-augmented-generation-2026/ads-in-rag-task-3-blocking-spot-check-20260417-training', help='The dataset to run predictions on (can point to a local directory).')
+@click.option('--dataset', default='advertisement-in-retrieval-augmented-generation-2026/ads-in-rag-task-3-blocking-spot-check-20260424-training', help='The dataset to run predictions on (can point to a local directory).')
 @click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "generations.jsonl", help='The file where rewritten responses should be written to.')
 def main(dataset, output):
     # Load the data
@@ -28,6 +28,7 @@ def main(dataset, output):
 def remove_ad_span(row: pd.Series):
     response = row["response"]
     spans = row["spans"]
+    query = row["query"] # Query only accessed for illustration. It is not used in the baseline
 
     offset = 0
     for start_idx, end_idx in spans:
