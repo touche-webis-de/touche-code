@@ -21,7 +21,7 @@ class SpanPredictionEvaluator(Evaluator):
         df = pd.merge(self.truths[["id", "spans"]], self.df[["id", "spans"]],
                       on="id",
                       how="left",
-                      suffixes=["", "_pred"])
+                      suffixes=("", "_pred"))
 
         tqdm.pandas(desc="Scoring span predictions")
         df_eval = df.progress_apply(self.score_element, axis=1)
@@ -41,7 +41,6 @@ class SpanPredictionEvaluator(Evaluator):
         return pd.Series({"id": row["id"], **element_eval.score()})
 
 
-# TODO: Handle empty spans_pred
 class ElementwiseEval:
     def __init__(self, spans: list[tuple[int, int]], spans_pred: list[tuple[int, int]]):
         self.spans = spans
@@ -190,10 +189,10 @@ def overlap(tup_a, tup_b):
 @click.option('--truth_file', type=str, help='Path to a local truth_file. If not set, the truths from TIRA will be used')
 @click.option('--run_file', type=str, help='Path to a local run file.')
 @click.option('--run_id', type=str, help='ID used to identify the run.')
-def evaluate(dataset: str,
-             truth_file: str = None,
-             run_file: str = None,
-             run_id: str = None):
+def main(dataset: str,
+        truth_file: str = None,
+        run_file: str = None,
+        run_id: str = None):
     evaluator = SpanPredictionEvaluator(dataset=dataset,
                                         truth_file=truth_file,
                                         run_file=run_file,
@@ -202,4 +201,4 @@ def evaluate(dataset: str,
 
 
 if __name__ == "__main__":
-    evaluate()
+    main()

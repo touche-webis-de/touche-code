@@ -31,10 +31,10 @@ class DetectionEvaluator(Evaluator):
 @click.option('--truth_file', type=str, help='Path to a local truth_file. If not set, the truths from TIRA will be used')
 @click.option('--run_file', type=str, help='Path to a local run file.')
 @click.option('--run_id', type=str, help='ID used to identify the run.')
-def evaluate(dataset: str,
-             truth_file: str = None,
-             run_file: str = None,
-             run_id: str = None):
+def main(dataset: str,
+         truth_file: str = None,
+         run_file: str = None,
+         run_id: str = None):
     evaluator = DetectionEvaluator(dataset=dataset,
                                    truth_file=truth_file,
                                    run_file=run_file,
@@ -43,4 +43,4 @@ def evaluate(dataset: str,
 
 
 if __name__ == "__main__":
-    evaluate()
+    main()
