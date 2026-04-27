@@ -4,7 +4,7 @@ This repository provides evaluation scripts for:
 
 * Subtask 1: Ad Detection (`detection.py`)
 * Subtask 2: Span Prediction (`span_prediction.py`)
-* Subtask 3: Blocking (TODO)
+* Subtask 3: Blocking (`blocking_manual.py` and `blocking_llm.py`)
 
 ### General Setup
 
@@ -80,3 +80,44 @@ Per response:
   * `evaluation/<dataset>/<stem of the run_file>/scores.json`
 
 ---
+
+## Blocking
+The submissions for the blocking task can be evaluated in one of two ways:
+
+1. Manual (`blocking_manual.py`)
+2. With an LLM (`blocking_llm.py`); Requires an env variable `OPENAI_API_KEY`
+
+### Metrics
+
+Both evaluators compute:
+
+* Correctness
+* Fluency
+* Relevance
+
+### Running the Evaluation (Manual)
+
+```bash
+streamlit run blocking_manual.py -- <dataset> --run_file path/to/generations.jsonl --truth_file path/to/truth.jsonl
+```
+
+* `dataset`: Name of the dataset (used for organizing outputs)
+* `--run_file`: Path to your predictions
+* `--truth_file`: Optional; if omitted, TIRA is used
+
+### Running the Evaluation (LLM)
+
+```bash
+python blocking_llm.py <dataset> --run_file path/to/generations.jsonl --truth_file path/to/truth.jsonl
+```
+
+* `dataset`: Name of the dataset (used for organizing outputs)
+* `--run_file`: Path to your predictions
+* `--truth_file`: Optional; if omitted, TIRA is used
+
+### Output
+
+Results are saved to: 
+
+1. `evaluation/<dataset>/<stem of the run_file>/scores_manual.json`
+2. `evaluation/<dataset>/<stem of the run_file>/scores_llm.json`

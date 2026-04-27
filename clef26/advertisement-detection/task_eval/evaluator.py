@@ -48,6 +48,7 @@ class Evaluator(ABC):
         # Define the output path
         self.eval_dir = EVALUATION_DIR / dataset / run_id
         self._create_evaluation_folders()
+        self.score_path = self.eval_dir / "scores.json"
 
         # Create the result attribute
         self.result = None
@@ -70,9 +71,9 @@ class Evaluator(ABC):
             print("The evaluation result is empty. Please verify the evaluator")
             exit(1)
 
-        with open(self.eval_dir / f"scores.json", "w") as f:
+        with open(self.score_path, "w") as f:
             json.dump(self.result, f)
 
         print("Evaluation Result:")
         print(self.result)
-        print(f"\nSaved result to {self.eval_dir / 'scores.json'}")
+        print(f"\nSaved result to {self.score_path}")

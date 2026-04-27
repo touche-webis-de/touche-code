@@ -22,6 +22,7 @@ class BlockingEvaluatorLLM(Evaluator):
                          run_file=run_file,
                          run_id=run_id)
         self.inputs = self.tira.pd.inputs(dataset)
+        self.score_path = self.eval_dir / "scores_llm.json"
 
     def score_run(self):
         # Combine
@@ -50,7 +51,7 @@ class BlockingEvaluatorLLM(Evaluator):
         df_eval["response_reference"] = df["response_reference"]
 
         # Save the detailed evaluations
-        output_path = self.eval_dir / "element_scores.jsonl"
+        output_path = self.eval_dir / "element_scores_llm.jsonl"
         df_eval.to_json(output_path, orient="records", lines=True)
         print(f"Saved the detailed results to {output_path}")
 
