@@ -6,16 +6,15 @@ from tira.third_party_integrations import get_output_directory
 import click
 
 @click.command()
-@click.option('--dataset', default='../task1-spot-check-dataset/inputs.jsonl', help='The dataset to run predictions on (can point to a local directory).')
+@click.option('--dataset', default='../task2-spot-check-dataset/inputs.jsonl', help='The dataset to run predictions on (can point to a local directory).')
 @click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", help='The file where predictions should be written to.')
-@click.option('--predict', type=click.Choice(["0", "1"]), required=True, help='The naive prediction that this baseline will make for every input.')
-def main(dataset, output, predict):
+def main(dataset, output):
     # Load the data
     tira = Client()
     df = tira.pd.inputs(dataset)
 
-    # do the "predictions"
-    df['label'] = predict
+    # do the "predictions"; it always predicts the first half and the second half of the inputs to be events
+    df['label'] = df["text"].apply(lambda t: [[0, len(t)//2], [len(t)//2+1, len(t)-1]])
 
     # Set an identifier that names your approach
     df["tag"] = "naive"

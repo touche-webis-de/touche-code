@@ -13,7 +13,7 @@ tira_configs:
   resolve_inputs_to: "."
   resolve_truths_to: "."
   baseline:
-    link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/causality-extraction/task3-naive-baseline
+    link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/causality-extraction/task1-naive-baseline
     command: /predict.py --dataset $inputDataset --predict 0
     format:
       name: ["*.jsonl"]
