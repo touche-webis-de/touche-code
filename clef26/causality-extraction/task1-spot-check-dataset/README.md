@@ -28,7 +28,7 @@ tira_configs:
       id_field: index
       value_field: label
   evaluator:
-    measures: ["f1"]
+    measures: ["f1", "accuracy", "precision", "recall"]
 ---
 
 # Uploading the Dataset to TIRA

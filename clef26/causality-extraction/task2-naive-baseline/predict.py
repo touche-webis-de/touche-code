@@ -14,13 +14,13 @@ def main(dataset, output):
     df = tira.pd.inputs(dataset)
 
     # do the "predictions"; it always predicts the first half and the second half of the inputs to be events
-    df['label'] = df["text"].apply(lambda t: [[0, len(t)//2], [len(t)//2+1, len(t)-1]])
+    df['entity'] = df["text"].apply(lambda t: [[0, len(t)//2], [len(t)//2+1, len(t)-1]])
 
     # Set an identifier that names your approach
     df["tag"] = "naive"
 
     # Save the predictions
-    df[["index", "label", "tag"]].to_json(output, orient="records", lines=True)
+    df[["index", "entity", "tag"]].to_json(output, orient="records", lines=True)
 
 if __name__ == "__main__":
     main()

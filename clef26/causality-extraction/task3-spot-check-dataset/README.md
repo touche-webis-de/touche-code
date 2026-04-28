@@ -20,6 +20,7 @@ tira_configs:
       config:
         id_field: index
         value_field: label
+        additional_args: {average: "macro"} # Changes the evaluator config
   input_format:
     name: "*.jsonl"
   truth_format:
@@ -28,7 +29,8 @@ tira_configs:
       id_field: index
       value_field: label
   evaluator:
-    measures: ["f1"]
+    measures: ["f1", "precision", "recall"]
+      
 ---
 
 # Uploading the Dataset to TIRA

@@ -14,19 +14,19 @@ tira_configs:
   resolve_truths_to: "."
   baseline:
     link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/causality-extraction/task2-naive-baseline
-    command: /predict.py --dataset $inputDataset --predict 0
+    command: /predict.py --dataset $inputDataset
     format:
       name: ["*.jsonl"]
       config:
         id_field: index
-        value_field: label
+        value_field: entity
   input_format:
     name: "*.jsonl"
   truth_format:
     name: "*.jsonl"
     config:
       id_field: index
-      value_field: label
+      value_field: entity
   evaluator:
     measures: ["f1"] # TODO
 ---
