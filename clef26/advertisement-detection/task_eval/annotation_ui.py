@@ -28,10 +28,31 @@ TITLES = [
     "Reference Response",
 ]
 
+HIGHLIGHT_COLORS = {
+    "Advertising Text": "yellow",
+    "Text Added by Blocking": "#ffb3b3",
+    "Text Missing from Reference": "#6aaaff"
+}
+
 
 # --------------------------------------------------
 # HELPER FUNCTIONS
 # --------------------------------------------------
+def add_title():
+    st.markdown("# Touché Advertisement in Retrieval-Augmented Generation 2026")
+    st.markdown("## Instructions")
+    instructions = f"Please evaluate the response in the middle ('{TITLES[1]}') for"
+    for label in LABELS.keys():
+        instructions += f"\n - {label}"
+
+    instructions += ("\n\nThe highlighting indicates\n"
+                     "1. The advertising text in the input response\n"
+                     "2. The text added by blocking (that was not in the reference)\n"
+                     "3. The text in the reference that is not contained in the blocked")
+    instructions += "\n\n*Note: The reference response is not provided at blocking time. It is only meant to support the evaluation.*"
+    st.markdown(instructions)
+
+
 def inject_keyboard_shortcuts():
     st.iframe(
         """
@@ -82,24 +103,23 @@ def highlight_spans_html(text, spans, color):
     return result
 
 
-def diff_highlight(blocked, reference):
+def diff_highlight(text_a: str, text_b: str, color: str):
     """
-    Highlight text in BLOCKED response that differs
-    from REFERENCE response.
+    Highlight text in text_a that differs from text_b.
     """
-    matcher = difflib.SequenceMatcher(None, blocked, reference)
+    matcher = difflib.SequenceMatcher(None, text_a, text_b)
 
     html = ""
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
-        segment = blocked[i1:i2]
-
+        segment = text_a[i1:i2]
         if tag == "equal":
             html += segment
         else:
-            html += (
-                f'<span style="background-color:#ffb3b3">'
-                f"{segment}</span>"
-            )
+            for part in segment.split("\n"):
+                html += (
+                    f'<span style="background-color:{color}">'
+                    f"{part}</span>"
+                )
 
     return html
 
@@ -135,19 +155,19 @@ class AnnotationUI:
     # LEGEND
     # --------------------------------------------------
     def render_legend(self):
-        st.markdown("### Highlight Legend")
-        st.markdown(
-            """
-<span style="background-color:yellow">Advertising Text</span>  
-<span style="background-color:#ffb3b3">Difference to Reference</span>
-""",
-            unsafe_allow_html=True,
-        )
+        legend_text = ""
+        for label, color in HIGHLIGHT_COLORS.items():
+            legend_text += f'<span style="background-color:{color}">{label}</span>\n'
+
+        st.markdown("## Highlight Legend")
+        st.markdown(legend_text, unsafe_allow_html=True)
 
     # --------------------------------------------------
     # MAIN UI
     # --------------------------------------------------
     def render(self):
+        add_title()
+        self.render_legend()
         inject_keyboard_shortcuts()
 
         idx = st.session_state.current_index
@@ -156,7 +176,9 @@ class AnnotationUI:
             return
 
         row = self.df.iloc[idx]
-        self.render_legend()
+        st.markdown("---")
+        st.markdown(f"## Response\n- **ID**: {row['id']}\n- **Query**: {row['query']}")
+
         col1, col2, col3 = st.columns(3)
 
         # ------------------------
@@ -168,7 +190,7 @@ class AnnotationUI:
             html = highlight_spans_html(
                 row["response_ad"],
                 row["spans"],
-                "yellow",
+                color=HIGHLIGHT_COLORS["Advertising Text"],
             )
 
             st.markdown(
@@ -183,8 +205,9 @@ class AnnotationUI:
             st.subheader(TITLES[1])
 
             diff_html = diff_highlight(
-                row["response_blocked"],
-                row["response_reference"],
+                text_a=row["response_blocked"],
+                text_b=row["response_reference"],
+                color=HIGHLIGHT_COLORS["Text Added by Blocking"]
             )
 
             st.markdown(
@@ -197,9 +220,14 @@ class AnnotationUI:
         # ------------------------
         with col3:
             st.subheader(TITLES[2])
+            diff_html = diff_highlight(
+                text_a=row["response_reference"],
+                text_b=row["response_blocked"],
+                color=HIGHLIGHT_COLORS["Text Missing from Reference"]
+            )
 
             st.markdown(
-                f"<div style='white-space: pre-wrap'>{row['response_reference']}</div>",
+                f"<div style='white-space: pre-wrap'>{diff_html}</div>",
                 unsafe_allow_html=True,
             )
 
