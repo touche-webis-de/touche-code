@@ -28,7 +28,7 @@ tira_configs:
       id_field: index
       value_field: entity
   evaluator:
-    image: touche-webis-de/evaluator-dummy:clef26
+    image: ghcr.io/touche-webis-de/evaluator-dummy:clef26
     command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir}
 ---
 
