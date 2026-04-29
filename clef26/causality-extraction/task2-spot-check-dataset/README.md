@@ -28,7 +28,8 @@ tira_configs:
       id_field: index
       value_field: entity
   evaluator:
-    measures: ["f1"] # TODO
+    image: touche-webis-de/evaluator-dummy:clef26
+    command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir}
 ---
 
 # Uploading the Dataset to TIRA
@@ -67,7 +68,7 @@ Result:
 from the parent directory of this README, verify the dataset via:
 
 ```
-tira-cli dataset-submission --dry-run --path task2-spot-check-dataset --task tbd --split train
+tira-cli dataset-submission --dry-run --path task2-spot-check-dataset --task causality-extraction-toucheclef26 --split train
 ```
 
 This will check that the system-inputs and the truths are valid, it will run the specified baseline on it, will check that the outputs of the basline are valid and will run the evaluation on the baseline to ensure that everything works. All of this is configured in the README.md in the Hugging Face datasets format.
