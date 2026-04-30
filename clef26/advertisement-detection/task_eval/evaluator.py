@@ -45,7 +45,10 @@ class Evaluator(ABC):
                 print("Please provide a local truth_file")
                 exit(1)
 
-        # Define the output path
+        # Define the output path (Reduce the dataset to its stem if a path is provided
+        if "/" in dataset:
+            dataset = dataset.split("/")[-1].split(".")[0]
+
         self.eval_dir = EVALUATION_DIR / dataset / run_id
         self._create_evaluation_folders()
         self.score_path = self.eval_dir / "scores.json"
