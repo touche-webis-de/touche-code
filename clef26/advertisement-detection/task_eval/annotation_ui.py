@@ -1,8 +1,10 @@
 import json
-import difflib
+import html
 from pathlib import Path
 import pandas as pd
 import streamlit as st
+
+from annotation_utils import sentence_aware_spans
 
 st.set_page_config(layout="wide")
 
@@ -86,42 +88,46 @@ def inject_keyboard_shortcuts():
         """,
     )
 
-def highlight_spans_html(text, spans, color):
-    """Highlight character spans."""
-    if not spans:
-        return text
 
-    result = ""
-    last = 0
+def highlight_with_spans(text: str, spans, color: str):
+    """
+    Apply highlight spans (character indices) to text.
+    """
+    if not spans:
+        normal = html.escape(text)
+        result = f'<span style="color:#D3D3D3">{normal}</span>'
+        return "".join(result).replace("\n", "<br>")
+
+    # sort spans just in case
+    spans = sorted(spans, key=lambda x: x[0])
+
+    result = []
+    last_idx = 0
 
     for start, end in spans:
-        result += text[last:start]
-        result += f'<span style="background-color:{color}">{text[start:end]}</span>'
-        last = end
+        # normal text before span
+        if start > last_idx:
+            normal = html.escape(text[last_idx:start])
+            result.append(f'<span style="color:#D3D3D3">{normal}</span>')
 
-    result += text[last:]
-    return result
+        # highlighted diff
+        diff = html.escape(text[start:end])
+        result.append(f'<span style="background-color:{color}">{diff}</span>')
+
+        last_idx = end
+
+    # remaining tail
+    if last_idx < len(text):
+        normal = html.escape(text[last_idx:])
+        result.append(f'<span style="color:#D3D3D3">{normal}</span>')
+
+    # join + fix newlines
+    return "".join(result).replace("\n", "<br>")
 
 
 def diff_highlight(text_a: str, text_b: str, color: str):
-    """
-    Highlight text in text_a that differs from text_b.
-    """
-    matcher = difflib.SequenceMatcher(None, text_a, text_b)
-
-    html = ""
-    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
-        segment = text_a[i1:i2]
-        if tag == "equal":
-            html += segment
-        else:
-            for part in segment.split("\n"):
-                html += (
-                    f'<span style="background-color:{color}">'
-                    f"{part}</span>"
-                )
-
-    return html
+    spans = sentence_aware_spans(text_a, text_b)
+    return highlight_with_spans(text_a, spans, color)
 
 
 # --------------------------------------------------
@@ -168,7 +174,6 @@ class AnnotationUI:
     def render(self):
         add_title()
         self.render_legend()
-        inject_keyboard_shortcuts()
 
         idx = st.session_state.current_index
         if idx >= len(self.df):
@@ -187,9 +192,9 @@ class AnnotationUI:
         with col1:
             st.subheader(TITLES[0])
 
-            html = highlight_spans_html(
-                row["response_ad"],
-                row["spans"],
+            html = highlight_with_spans(
+                text=row["response_ad"],
+                spans=row["spans"],
                 color=HIGHLIGHT_COLORS["Advertising Text"],
             )
 
@@ -233,6 +238,7 @@ class AnnotationUI:
 
         st.divider()
         self.render_controls(row)
+        inject_keyboard_shortcuts()
 
     # --------------------------------------------------
     # SCORING CONTROLS
