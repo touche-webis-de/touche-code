@@ -7,8 +7,8 @@ import click
 
 @click.command()
 @click.option('--dataset', default='../task1-spot-check-dataset/inputs.jsonl', help='The dataset to run predictions on (can point to a local directory).')
-@click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", help='The file where predictions should be written to.')
-@click.option('--predict', type=click.Choice(["0", "1"]), required=True, help='The naive prediction that this baseline will make for every input.')
+@click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", type=Path, help='The file where predictions should be written to.')
+@click.option('--predict', type=click.Choice(["0", "1"]), default=0, help='The naive prediction that this baseline will make for every input.')
 def main(dataset, output, predict):
     # Load the data
     tira = Client()
@@ -21,7 +21,7 @@ def main(dataset, output, predict):
     df["tag"] = "naive"
 
     # Save the predictions
-    df[["index", "label", "tag"]].to_json(output, orient="records", lines=True)
+    df[["index", "label", "tag"]].to_json(output / "predictions.jsonl", orient="records", lines=True)
 
 if __name__ == "__main__":
     main()
