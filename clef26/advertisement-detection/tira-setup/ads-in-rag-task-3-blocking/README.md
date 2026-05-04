@@ -14,7 +14,7 @@ tira_configs:
   resolve_truths_to: "."
   baseline:
     link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/advertisement-detection/subtask-3-blocking
-    command: /block.py
+    command: /block.py --dataset $inputDataset
     format:
       name: ["*.jsonl"]
       config:
@@ -67,7 +67,7 @@ Result:
 from the parent directory of this README, verify the dataset via:
 
 ```
-tira-cli dataset-submission --dry-run --path task-3-blocking --task advertisement-in-retrieval-augmented-generation-2026 --split test
+tira-cli dataset-submission --dry-run --path ads-in-rag-task-3-blocking --task advertisement-in-retrieval-augmented-generation-2026 --split test
 ```
 
 This will check that the system-inputs and the truths are valid, it will run the specified baseline on it, will check that the outputs of the basline are valid and will run the evaluation on the baseline to ensure that everything works. All of this is configured in the README.md in the Hugging Face datasets format.
