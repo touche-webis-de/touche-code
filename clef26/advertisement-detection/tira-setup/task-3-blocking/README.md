@@ -3,11 +3,11 @@ configs:
 - config_name: inputs
   data_files:
   - split: test
-    path: ["ads-in-rag-task-3-blocking-test-labels.jsonl"]
+    path: ["ads-in-rag-task-3-blocking-test.jsonl"]
 - config_name: truths
   data_files:
   - split: test
-    path: ["ads-in-rag-task-3-blocking-test.jsonl"]
+    path: ["ads-in-rag-task-3-blocking-test-labels.jsonl"]
 
 tira_configs:
   resolve_inputs_to: "."
