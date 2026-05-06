@@ -152,10 +152,7 @@ def get_detected_spans(pair_nums: list[int], sentence_spans: list[tuple[int, int
             ad_spans += get_detection_multiple(num_list=num_list, sentence_spans=sentence_spans)
         else:
             ad_spans.append(get_detection_single(num=num_list[0], sentence_spans=sentence_spans))
-        print(ad_spans)
 
-    print("\n")
-    print("-"*50)
     return ad_spans
 
 
