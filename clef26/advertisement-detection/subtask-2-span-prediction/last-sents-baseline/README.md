@@ -38,7 +38,7 @@ you can select the submission based on the name (and potentially rename it using
 Now that your submission is available on TIRA, you can run it on different datasets by using the dropdown menus in the Web UI (see also the [documentation](https://docs.tira.io/participants/participate.html#execute-your-submission)).
 
 ### Test dataset
-The ID of the test set on TIRA is `ads-in-rag-task-2-span-prediction-20260504-test`. Its display name is `ads-in-rag-task-2-span-prediction-test`.
+The ID of the test set on TIRA is `ads-in-rag-task-2-span-prediction-20260506-test`. Its display name is `ads-in-rag-task-2-span-prediction-test`.
 
 #### Code submission
 If you have submitted your code for the spot-check dataset as illustrated under "[Code submission](#code-submission)", you can run it on TIRA as explained under "[Running a submission on TIRA](#running-a-submission-on-tira)".
