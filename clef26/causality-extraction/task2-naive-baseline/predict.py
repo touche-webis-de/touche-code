@@ -7,7 +7,7 @@ import click
 
 @click.command()
 @click.option('--dataset', default='../task2-spot-check-dataset/inputs.jsonl', help='The dataset to run predictions on (can point to a local directory).')
-@click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", type=Path, help='The file where predictions should be written to.')
+@click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))), type=Path, help='The file where predictions should be written to.')
 def main(dataset, output):
     # Load the data
     tira = Client()

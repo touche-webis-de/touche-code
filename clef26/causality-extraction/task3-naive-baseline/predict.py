@@ -7,7 +7,7 @@ import click
 
 @click.command()
 @click.option('--dataset', default='../task3-spot-check-dataset/inputs.jsonl', help='The dataset to run predictions on (can point to a local directory).')
-@click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))) / "predictions.jsonl", type=Path, help='The file where predictions should be written to.')
+@click.option('--output', default=Path(get_output_directory(str(Path(__file__).parent))), type=Path, help='The file where predictions should be written to.')
 @click.option('--predict', type=click.Choice(["0", "1", "2"]), default=0, help='The naive prediction that this baseline will make for every input.')
 def main(dataset, output, predict):
     # Load the data

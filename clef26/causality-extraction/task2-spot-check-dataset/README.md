@@ -28,8 +28,8 @@ tira_configs:
       id_field: index
       value_field: entity
   evaluator:
-    image: ghcr.io/touche-webis-de/evaluator-dummy:clef26
-    command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir}
+    image: ghcr.io/touche-webis-de/span-prediction-evaluator:clef26
+    command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir} --value-field=entity
 ---
 
 # Uploading the Dataset to TIRA
