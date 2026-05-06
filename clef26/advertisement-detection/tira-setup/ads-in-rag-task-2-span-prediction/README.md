@@ -29,7 +29,7 @@ tira_configs:
       value_field: spans
   evaluator:
     image: ghcr.io/touche-webis-de/span-prediction-evaluator:clef26
-    command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir}
+    command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir} --index-field id
 ---
 
 # Uploading the Dataset to TIRA
