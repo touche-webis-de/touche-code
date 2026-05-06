@@ -1,0 +1,36 @@
+name: Publish Evaluator Docker Image For Span Prediction
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - clef26/advertisement-detection/docker-evaluator/subtask-2/**
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set lowercase owner
+        id: owner
+        run: echo "name=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+
+      - name: Build and push evaluator image
+        uses: docker/build-push-action@v6
+        with:
+          context: clef26/advertisement-detection/docker-evaluator/subtask-2
+          file: clef26/advertisement-detection/docker-evaluator/subtask-2/Dockerfile
+          push: true
+          tags: ghcr.io/${{ steps.owner.outputs.name }}/span-prediction-evaluator:clef26
