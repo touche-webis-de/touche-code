@@ -15,7 +15,9 @@ For the advertisement detection task, we provide two different baselines in `sub
 - a finetuned BERT model (`minilm-baseline`)
 
 ## Subtask 2 - Span Prediction
-The span prediction baseline uses the same BERT model (MiniLM) as for subtask 1. The model outputs spans of full sentences predicted to contain advertisements.
+For the span prediction task, we provide two different baselines in `subtask-2-span-prediction`:
+- a finetuned BERT model (`minilm-baseline`; same as for subtask 1). This baseline outputs spans of full sentences predicted to contain advertisements.
+- a dummy baseline (`last-sents-baseline`) for quick execution (e.g. setting up the datasets on TIRA)
 
 ## Subtask 3 - Blocking
 This baseline takes the simplest approach to ad blocking and removes all text marked by the spans.
