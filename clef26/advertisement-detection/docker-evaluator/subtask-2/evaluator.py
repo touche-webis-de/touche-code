@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import os
 from pathlib import Path
 import pandas as pd
 import math
@@ -134,9 +133,20 @@ def to_prototext(results: dict) -> str:
 
 
 def main():
-    input_dataset = Path(os.environ["inputDataset"])
-    input_run = Path(os.environ["inputRun"])
-    output_dir = Path(os.environ["outputDir"])
+    import argparse
+    parser = argparse.ArgumentParser(description='A dummy evaluator that always outputs a score of 0')
+    parser.add_argument("-p", "--predictions",
+                        help="path to the dir holding the predictions (in a folder for each dataset/task)",
+                        required=True)
+    parser.add_argument("-t", "--truth",
+                        help="path to the dir holding the true labels (in a folder for each dataset/task)",
+                        required=True)
+    parser.add_argument("-o", "--output", help="path to the dir to write the results to", required=True, type=Path)
+    args = parser.parse_args()
+
+    input_dataset = Path(args.truth)
+    input_run = Path(args.predictions)
+    output_dir = Path(args.output)
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
