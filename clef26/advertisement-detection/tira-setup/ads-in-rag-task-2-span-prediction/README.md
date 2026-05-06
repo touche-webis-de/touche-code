@@ -13,7 +13,7 @@ tira_configs:
   resolve_inputs_to: "."
   resolve_truths_to: "."
   baseline:
-    link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/advertisement-detection/subtask-2-span-prediction
+    link: https://github.com/touche-webis-de/touche-code/tree/main/clef26/advertisement-detection/subtask-2-span-prediction/last-sents-baseline
     command: /predict.py --dataset $inputDataset
     format:
       name: ["*.jsonl"]
@@ -28,7 +28,7 @@ tira_configs:
       id_field: id
       value_field: spans
   evaluator:
-    image: ghcr.io/touche-webis-de/evaluator-dummy:clef26
+    image: ghcr.io/touche-webis-de/span-prediction-evaluator:clef26
     command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir}
 ---
 
