@@ -1,4 +1,4 @@
-name: Publish Evaluator Docker Image For Span Prediction
+name: Publish Evaluator Docker Image For Classification
 
 on:
   push:
