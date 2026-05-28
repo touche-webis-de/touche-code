@@ -3,7 +3,7 @@ import argparse
 from pathlib import Path
 from typing import Literal
 
-import evaluate
+from sklearn.metrics import precision_score, recall_score, f1_score
 import pandas as pd
 
 
@@ -45,12 +45,11 @@ def main():
     y_true = df[args.value_field].tolist()
     y_pred = df[f"{args.value_field}_pred"].tolist()
 
-    metrics = evaluate.combine(["precision","recall","f1"])
-    results = metrics.compute(
-        predictions=y_pred,
-        references=y_true,
-        average=args.agg
-    )
+    results = {
+        "F1": f1_score(y_true, y_pred, average="macro"),
+        "P": precision_score(y_true, y_pred, average="macro"),
+        "R": recall_score(y_true, y_pred, average="macro"),
+    }
 
     args.output.mkdir(parents=True, exist_ok=True)
     (args.output / "evaluation.prototext").write_text(to_prototext(results))

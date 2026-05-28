@@ -20,7 +20,6 @@ tira_configs:
       config:
         id_field: index
         value_field: label
-        additional_args: {average: "macro"} # Changes the evaluator config
   input_format:
     name: "*.jsonl"
   truth_format:
@@ -29,7 +28,8 @@ tira_configs:
       id_field: index
       value_field: label
   evaluator:
-    measures: ["f1", "precision", "recall"]
+    image: ghcr.io/touche-webis-de/classification-evaluator:clef26
+    command: python3 /evaluator.py -p ${inputRun} -t ${inputDataset} -o ${outputDir} --agg=macro
       
 ---
 
