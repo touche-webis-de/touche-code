@@ -8,17 +8,22 @@ Usage:
 """
 
 import argparse
-import json
-import sys
+from irrCAC.raw import CAC
 from itertools import combinations
-from pathlib import Path
-
+import json
 import krippendorff
 import numpy as np
+import pandas as pd
+from pathlib import Path
+import sys
 
 from utils import DIMENSIONS, load_annotations
 
 
+
+# ===================================================================
+# Krippendorff's Alpha
+# ===================================================================
 def build_reliability_matrix(
     annotators: dict[str, dict[str, dict]], dimension: str
 ) -> tuple[np.ndarray, list[str]]:
@@ -38,7 +43,7 @@ def build_reliability_matrix(
     return matrix, all_ids
 
 
-def compute_alpha(annotators: dict[str, dict[str, dict]], dimension: str) -> tuple[float | None, int]:
+def compute_alpha(annotators: dict[str, dict[str, dict]], dimension: str) -> tuple[float | None, None, int]:
     """Return (alpha, n_items) for the given annotators and dimension, or (None, 0) if insufficient data."""
     matrix, _ = build_reliability_matrix(annotators, dimension)
     mask = np.sum(~np.isnan(matrix), axis=0) >= 2
@@ -46,7 +51,80 @@ def compute_alpha(annotators: dict[str, dict[str, dict]], dimension: str) -> tup
     if matrix.size == 0:
         return None, 0
     alpha = krippendorff.alpha(reliability_data=matrix, level_of_measurement="ordinal")
-    return alpha, int(mask.sum())
+    return alpha, None, int(mask.sum())
+
+
+# ===================================================================
+# Gwet's AC2
+# ===================================================================
+def build_ac2_df(annotators: dict[str, dict[str, dict]], dimension: str) -> pd.DataFrame:
+    data = {}
+    for name in list(annotators.keys()):
+        annotations = annotators[name]
+        tmp_df = pd.DataFrame(annotations).transpose()
+
+        data[name] = tmp_df[dimension]
+
+    return pd.DataFrame(data)
+
+def compute_ac2(annotators: dict[str, dict[str, dict]], dimension: str) -> tuple[float, float, int]:
+    df = build_ac2_df(annotators, dimension)
+
+    cac = CAC(df, categories=[0, 1, 2, 3], weights="linear")
+    result = cac.gwet()["est"]
+    return result["coefficient_value"], result["p_value"], df.notna().shape[0]
+
+
+# ===================================================================
+# Main
+# ===================================================================
+def compute_overall_agreement(annotators: dict[str, dict[str, dict]], measure: str):
+    func = compute_alpha if measure == "krippendorff" else compute_ac2
+    measure_key = "alpha" if measure == "krippendorff" else "AC2"
+
+    overall_results = {}
+
+    print("=== Overall agreement ===")
+    for dim in DIMENSIONS:
+        score, p, n = func(annotators=annotators, dimension=dim)
+        if score is None:
+            print(f"  {dim}: no items with >= 2 annotations")
+        else:
+            print(f"  {dim}: {measure_key} = {score:.4f}  ({n} items)")
+            overall_results[dim] = {measure_key: score, "n_items": n, "p_value": p}
+    print()
+
+    return overall_results
+
+
+def pairwise_agreement(annotators: dict[str, dict[str, dict]], measure: str, files: list[str], names: list[str]):
+    func = compute_alpha if measure == "krippendorff" else compute_ac2
+    measure_key = "alpha" if measure == "krippendorff" else "AC2"
+
+    pairwise_results = {}
+
+    # Pairwise agreement for each annotator pair
+    print("=== Pairwise agreement ===")
+    for a, b in combinations(files, 2):
+        pair_annotators = {a: annotators[a], b: annotators[b]}
+        name_a = names[files.index(a)]
+        name_b = names[files.index(b)]
+
+        label = f"{name_a} vs {name_b}"
+        print(f"  {label}")
+        pair_results = {}
+        for dim in DIMENSIONS:
+            score, p, n = func(annotators=pair_annotators, dimension=dim)
+            if score is None:
+                print(f"    {dim}: no shared items")
+            else:
+                print(f"    {dim}: {measure_key} = {score:.4f}  ({n} items)")
+                pair_results[dim] = {measure_key: score, "n_items": n, "p_value": p}
+
+        pairwise_results[label] = pair_results
+        print()
+
+    return pairwise_results
 
 
 def main():
@@ -70,44 +148,16 @@ def main():
         print(f"  {name}: {len(items)} items")
     print()
 
-    results = {"overall": {}, "pairwise": {}}
+    for measure in ["krippendorff", "gwets_ac2"]:
+        results = {"overall": {}, "pairwise": {}, "annotators": names}
+        output_path = args.directory / f"agreement_{measure}_manual.json"
 
-    # Overall agreement across all annotators
-    print("=== Overall agreement ===")
-    for dim in DIMENSIONS:
-        alpha, n = compute_alpha(annotators, dim)
-        if alpha is None:
-            print(f"  {dim}: no items with >= 2 annotations")
-        else:
-            print(f"  {dim}: alpha = {alpha:.4f}  ({n} items)")
-            results["overall"][dim] = {"alpha": alpha, "n_items": n}
-    print()
+        results["overall"] = compute_overall_agreement(annotators, measure)
+        results["pairwise"] = pairwise_agreement(annotators, measure, files, names)
 
-    # Pairwise agreement for each annotator pair
-    print("=== Pairwise agreement ===")
-    for a, b in combinations(files, 2):
-        pair_annotators = {a: annotators[a], b: annotators[b]}
-        name_a = names[files.index(a)]
-        name_b = names[files.index(b)]
-
-        label = f"{name_a} vs {name_b}"
-        print(f"  {label}")
-        pair_results = {}
-        for dim in DIMENSIONS:
-            alpha, n = compute_alpha(pair_annotators, dim)
-            if alpha is None:
-                print(f"    {dim}: no shared items")
-            else:
-                print(f"    {dim}: alpha = {alpha:.4f}  ({n} items)")
-                pair_results[dim] = {"alpha": alpha, "n_items": n}
-        results["pairwise"][label] = pair_results
-        print()
-
-    results["annotators"] = names
-    output_path = args.directory / "agreement_krippendorffs_alpha_manual.json"
-    with output_path.open("w") as f:
-        json.dump(results, f, indent=2)
-    print(f"\nSaved agreement results to {output_path}")
+        with output_path.open("w") as f:
+            json.dump(results, f, indent=2)
+        print(f"\nSaved agreement results to {output_path}")
 
 if __name__ == "__main__":
     main()
